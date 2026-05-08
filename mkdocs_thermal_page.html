@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Instructors and TAs of the CCE class at BYU" /><link rel="canonical" href="http://127.0.0.1:8000/en/latest/week_06/Thermal/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Thermal Imaging Overview - BYU CCE Drone Measurements</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Thermal Imaging Overview";
+        var mkdocs_page_input_path = "week_06\\Thermal.md";
+        var mkdocs_page_url = "/en/latest/week_06/Thermal/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/class_logo.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Flight Checklist</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Pre-Flight Checklist</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../flight_check_list/pre_flight/pre_general/">General Checklist</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Post-Flight Checklist</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../flight_check_list/post_flight/post_general/">General Checklist</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Week 1 - Introduction</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_01/class_overview/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_01/DJI_Mini_Resources/">Fly DJI Mini Resources</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Week 2 - Software</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_02/bentley_itwin/">Bentley iTwin</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_02/qgis_measurements/">QGIS Measurements</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Week 3 - Measurements</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_03/lab_measurements/">Measurements Lab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_03/metadata/">Metadata</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Week 4 - Mission Planning</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_04/SfM_Workflow/">SfM Workflow</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_04/Mission_Planning_SfM/">Mission Planning (SfM)</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Week 5 - Part 107</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_05/Test_Prep_pt1/">Part 1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_05/Test_Prep_pt2/">Part 2</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_05/Part_107_Resources/">Part 107 Resources</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_05/Week_5_Mini_Exam/">Mini Exam</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_05/Week_5_Mini_Exam_Instructor_Version/">Exam Key with discussion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_05/Week_5_60_Question_Exam/">Full Practice Exam (60 Q)</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../week_05/Week_5_60_Question_Exam_Instructor_Key/">Full Exam Key (Instructor)</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Week 6 - Sensors (LiDAR, Thermal, Multispectral)</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../LiDAR/">LiDAR Overview</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Thermal Imaging Overview</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#further-reading-resources">Further reading &amp; resources</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tools-formats">Tools &amp; formats</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#flight-planning-best-practices">Flight planning &amp; best practices</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#use-cases">Use cases</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#data-products">Data products</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-thermal-sensors-work">How thermal sensors work</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-thermal-imaging">What is thermal imaging?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#example-images-and-suggested-activities">Example images and suggested activities</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-lakeshore-geyser-thermal-image">1) Lakeshore Geyser â thermal image</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-coronation-reserve-paired-visual-thermal">2) Coronation Reserve â paired visual + thermal</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-large-temperature-differential-example-29-c">3) Large temperature-differential example (29 Â°C)</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Multispectral/">Multispectral Imaging Overview</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">BYU CCE Drone Measurements</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Week 6 - Sensors (LiDAR, Thermal, Multispectral)</li>
+      <li class="breadcrumb-item active">Thermal Imaging Overview</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/gus-p-williams/byu-cce-drone_measurements/edit/master/docs/week_06/Thermal.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="week-6-thermal-imaging-overview">Week 6 â Thermal Imaging Overview</h1>
+<p><strong>Key resource:</strong> <a href="https://enterprise-insights.dji.com/blog/thermal-drone-basics">DJI â Thermal Drone Basics</a> â A concise, practical overview of thermal sensor types, common payloads, basic flight-planning tips, calibration and emissivity considerations, and typical operational use-cases. Read this to get a manufacturer perspective on common workflows and sensor capabilities.</p>
+<ul>
+<li>Radiometric JPEG/TIFF, FLIR-specific formats. Software: FLIR Tools, QGIS (with plugins), Agisoft/Metashape (some support), and UAV-specific inspection tools.</li>
+</ul>
+<!-- End Thermal.md -->
+
+<ul>
+<li>Placeholder for curated links to manufacturer guides and tutorials.</li>
+</ul>
+<h2 id="further-reading-resources">Further reading &amp; resources</h2>
+<h2 id="tools-formats">Tools &amp; formats</h2>
+<ul>
+<li>Overlap: ensure sufficient overlap for mosaicking (forward &amp; side overlap recommendations depend on sensor and altitude).</li>
+<li>Altitude &amp; resolution: thermal sensors often have coarser spatial resolution than RGBâlower altitude increases ground sampling distance (GSD) resolution but reduces coverage.</li>
+<li>Emissivity and calibration: surfaces have different emissivitiesâknowing or estimating emissivity improves temperature accuracy.</li>
+<li>Time of day: early morning or late evening often yields better thermal contrast for many inspection tasks.</li>
+</ul>
+<h2 id="flight-planning-best-practices">Flight planning &amp; best practices</h2>
+<ul>
+<li>Vegetation stress and irrigation monitoring (qualitative)</li>
+<li>Search &amp; rescue and first responder support</li>
+<li>Electrical inspections (hotspots on panels, equipment)</li>
+<li>Building inspections (heat loss, insulation defects)</li>
+</ul>
+<h2 id="use-cases">Use cases</h2>
+<ul>
+<li>Time-series thermal datasets for monitoring changes</li>
+<li>Thermal mosaics (stitched orthomosaics showing temperature distribution)</li>
+<li>
+<p>Radiometric TIFFs (temperature-stamped images)</p>
+</li>
+<li>
+<p>Building inspections / HVAC / insulation</p>
+</li>
+<li>Why this matters: Thermal images reveal heat loss, missing insulation, HVAC leaks, and rooftop issues. They are useful for teaching emissivity, and for comparing qualitative visual patterns to calibrated temperature data.</li>
+<li>
+<p>Examples students may examine: roof heat loss, window/door thermal leaks, HVAC duct defects.</p>
+</li>
+<li>
+<p>Electrical &amp; powerline inspection</p>
+</li>
+<li>Why this matters: Thermal hotspots on panels, transformers, circuit breakers or line hardware can indicate failing components, overloads, or poor connections and are commonly used for condition-based maintenance.</li>
+<li>
+<p>Examples students may examine: transformer hotspots, solar panel cell anomalies, switchgear inspections.</p>
+</li>
+<li>
+<p>Search &amp; rescue / first responders</p>
+</li>
+<li>Why this matters: Thermal imagery helps detect humans or warm objects in low-light or obscured conditions where visible imagery may fail; it illustrates operational constraints and detection limits.</li>
+<li>
+<p>Examples students may examine: drone-assisted searches, night-time perimeter sweeps, locating warm bodies in collapsed structures.</p>
+</li>
+<li>
+<p>Agriculture / vegetation stress</p>
+</li>
+<li>Why this matters: Thermal contrasts can indicate irrigation stress, soil moisture differences, or animal presence and serve as qualitative indicators to complement multispectral indices.</li>
+<li>Examples students may examine: irrigation effectiveness, livestock detection, early-season crop stress.</li>
+</ul>
+<h2 id="data-products">Data products</h2>
+<ul>
+<li>Some cameras provide relative thermal imagery (for visual inspection), while higher-end units provide radiometrically calibrated images for quantitative temperature analysis.</li>
+<li>Sensors detect emitted infrared radiation and convert it to temperature values, either as scaled pixel values or calibrated temperature measurements.</li>
+</ul>
+<h2 id="how-thermal-sensors-work">How thermal sensors work</h2>
+<p>Thermal sensors measure long-wave infrared radiation emitted by objects, producing images that represent surface temperature differences rather than visible light reflectance.</p>
+<h2 id="what-is-thermal-imaging">What is thermal imaging?</h2>
+<p>This page outlines thermal (infrared) sensors on drones: how they capture thermal information, typical data products, use cases, and practical flight considerations.</p>
+<h2 id="example-images-and-suggested-activities">Example images and suggested activities</h2>
+<p>Below are three representative thermal images included in the course <code>docs/week_06/images/</code> directory. Each figure links to the original Wikimedia Commons file page (see the file page for license and author information). Use the examples below for the suggested student activities.</p>
+<h3 id="1-lakeshore-geyser-thermal-image">1) Lakeshore Geyser â thermal image</h3>
+<p><a href="https://commons.wikimedia.org/wiki/File:Thermal_image_of_Lakeshore_Geyser_(early_evening,_1_August_2016).jpg" target="_blank">
+  <img src="/week_06/images/lakeshore_geyser_thermal.jpg" alt="Thermal image of Lakeshore Geyser" width="720">
+</a></p>
+<p>Figure: Thermal image of Lakeshore Geyser â see the linked file page for full attribution and license details.</p>
+<p>Description: This thermal image captures geothermal heat expression and temperature contrasts between hot water/steam and surrounding cooler ground in the early evening. Notice the strong temperature gradients and how emissive surfaces (wet ground, steam) appear compared to dry terrain.</p>
+<p>Suggested student activities:
+- Compare thermal contrast at different times of day and explain when thermal surveys are most informative.
+- Discuss how surface state (wet vs dry) and emissivity affect apparent temperatures.
+- Practice qualitative interpretation: identify regions of interest and explain likely causes of observed thermal patterns.</p>
+<hr />
+<h3 id="2-coronation-reserve-paired-visual-thermal">2) Coronation Reserve â paired visual + thermal</h3>
+<p><a href="https://commons.wikimedia.org/wiki/File:Thermal_image_and_visual_image_of_Coronation_Reserve.png" target="_blank">
+  <img src="/week_06/images/coronation_reserve_thermal_rgb.png" alt="Thermal and visual image of Coronation Reserve" width="960">
+</a></p>
+<p>Figure: Side-by-side thermal and visual images â see the linked file page for full attribution and license details.</p>
+<p>Description: This file contains a thermal image alongside the corresponding visual (RGB) image. Side-by-side comparisons help correlate thermal anomalies with visible features (e.g., buildings, water bodies, vegetation patches).</p>
+<p>Suggested student activities:
+- Co-registration exercise: mark features on the RGB image and locate corresponding thermal signatures.
+- Overlay/mosaicking discussion: describe how to align thermal orthomosaics with RGB basemaps.
+- Annotate anomalies and propose hypotheses for observed thermal differences.</p>
+<hr />
+<h3 id="3-large-temperature-differential-example-29-c">3) Large temperature-differential example (29 Â°C)</h3>
+<p><a href="https://commons.wikimedia.org/wiki/File:Thermal_and_visual_image_showing_29_degree_C._temperature_differential.png" target="_blank">
+  <img src="/week_06/images/temp_29deg_differential_thermal.png" alt="Thermal and visual image showing 29Â°C differential" width="1280">
+</a></p>
+<p>Figure: Thermal + visual image showing a ~29 Â°C differential â see the linked file page for full attribution and license details.</p>
+<p>Description: This example highlights a large measured temperature differential between two adjacent surfaces. It demonstrates the dynamic range of thermal data and the importance of calibration when extracting absolute temperatures.</p>
+<p>Suggested student activities:
+- If radiometric TIFFs are available, practice extracting temperature values and compare sensor limitations.
+- Discuss how color maps influence interpretation and document the units and calibration metadata required for quantitative analysis.
+- Compare relative contrasts across scenes and consider factors that may produce apparent differences (emissivity, viewing angle, atmospheric effects).</p>
+<hr />
+<p>Each figure links to the original Wikimedia Commons file page; review the file page for author and license information if you plan to reuse the images beyond course materials.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../LiDAR/" class="btn btn-neutral float-left" title="LiDAR Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Multispectral/" class="btn btn-neutral float-right" title="Multispectral Imaging Overview">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/gus-p-williams/byu-cce-drone_measurements/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../LiDAR/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Multispectral/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+      <script src="../../js/mathjax-config.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+<script>
+var livereload = function(epoch, requestId) {
+    var req, timeout;
+
+    var poll = function() {
+        req = new XMLHttpRequest();
+        req.onloadend = function() {
+            if (parseFloat(this.responseText) > epoch) {
+                location.reload();
+            } else {
+                timeout = setTimeout(poll, this.status === 200 ? 0 : 3000);
+            }
+        };
+        req.open("GET", "/livereload/" + epoch + "/" + requestId);
+        req.send();
+    }
+
+    var stop = function() {
+        if (req) {
+            req.abort();
+        }
+        if (timeout) {
+            clearTimeout(timeout);
+        }
+        req = timeout = undefined;
+    };
+
+    window.addEventListener("load", function() {
+        if (document.visibilityState === "visible") {
+            poll();
+        }
+    });
+    window.addEventListener("visibilitychange", function() {
+        if (document.visibilityState === "visible") {
+            poll();
+        } else {
+            stop();
+        }
+    });
+    window.addEventListener("beforeunload", stop);
+
+    console.log('Enabled live reload');
+}
+livereload(691568968, 691628343);
+</script></body>
+</html>
+

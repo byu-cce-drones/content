@@ -1,0 +1,33 @@
+# Large files
+docs/week_05/images/sport_rec_private_akts_FAA-CT-8080-2H.pdf
+
+# MkDocs build output (do not commit generated site/)
+/site/
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+.Python
+
+# PyCharm/IDE files
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# pytest cache
+.pytest_cache/
+
+# Node / npm
+node_modules/
+
+# other
+*.log
