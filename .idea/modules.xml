@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CCE-Drone.iml" filepath="$PROJECT_DIR$/.idea/CCE-Drone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/byu-cce-drone_measurements.iml" filepath="$PROJECT_DIR$/.idea/byu-cce-drone_measurements.iml" />
+    </modules>
+  </component>
+</project>
