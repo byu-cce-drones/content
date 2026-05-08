@@ -1,0 +1,58 @@
+site_name: BYU CCE Drone Measurements
+site_url: https://byu-cce_drone_measurements.readthedocs.io/en/latest/
+site_description: Course materials for the CCE class at BYU
+site_author: Instructors and TAs of the CCE class at BYU
+repo_url: https://github.com/gus-p-williams/byu-cce-drone_measurements/
+#favicon: 'images/favicon.ico'
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+  - js/mathjax-config.js
+extra_css:
+  - css/custom.css
+markdown_extensions:
+    - attr_list
+    - sane_lists
+    - md_in_html
+    - admonition
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.tasklist:
+        custom_checkbox: false
+        clickable_checkbox: true
+    - pymdownx.emoji:
+
+theme:
+  name: readthedocs
+  logo: images/class_logo.png
+
+nav:
+  - Home: index.md
+  - Flight Checklist:
+      - Pre-Flight Checklist:
+          - General Checklist: flight_check_list/pre_flight/pre_general.md
+      - Post-Flight Checklist:
+          - General Checklist: flight_check_list/post_flight/post_general.md
+  - Week 1 - Introduction:
+      - Overview: week_01/class_overview.md
+      - Flight Basics: week_01/DJI_Mini_Basics.md
+  - Week 2 - Software:
+      - Bentley iTwin: week_02/bentley_itwin.md
+      - QGIS Measurements: week_02/qgis_measurements.md
+  - Week 3 - Measurements:
+      - Measurements Lab: week_03/lab_measurements.md
+      - Metadata: week_03/metadata.md
+  - Week 4 - Mission Planning:
+      - SfM Workflow: week_04/SfM_Workflow.md
+      - Mission Planning (SfM): week_04/Mission_Planning_SfM.md
+  - Week 5 - FAA Part 107 Exam:
+      - Exam Planning & Overview: week_05/FAA_Exam_Planning_and_Overview.md
+      - Knowledge Review: week_05/Part_107_Knowledge_Review.md
+      - Part 107 Study Resources: week_05/Part_107_Resources.md
+      - Mini Practice Exam: week_05/Week_5_Mini_Exam.md
+      - Mini Exam Key (Instructor): week_05/Week_5_Mini_Exam_Instructor_Version.md
+      - Full Practice Exam (60 Q): week_05/Week_5_60_Question_Exam.md
+      - Full Exam Key (Instructor): week_05/Week_5_60_Question_Exam_Instructor_Key.md
+  - Week 6 - Sensors (LiDAR, Thermal, Multispectral):
+      - LiDAR Overview: week_06/LiDAR.md
+      - Thermal Imaging Overview: week_06/Thermal.md
+      - Multispectral Imaging Overview: week_06/Multispectral.md
