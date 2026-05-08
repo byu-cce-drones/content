@@ -1,0 +1,14 @@
+/* Shrink sidebar logo (Read the Docs theme) */
+.wy-side-nav-search > a img {
+    max-width: 80px;   /* try 80–140 */
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Shrink the blue header area */
+.wy-side-nav-search {
+    padding: 1px 1px 1px 1px !important;
+}

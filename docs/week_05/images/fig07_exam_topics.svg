@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 420" font-family="Arial, sans-serif" font-size="13">
+  <rect width="750" height="420" fill="#f9f9f9" rx="8"/>
+  <text x="375" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Figure 7 — Part 107 Exam Topic Distribution (Approximate)</text>
+
+  <!-- Pie chart using circle segments -->
+  <!-- Center at 280,230, radius 160 -->
+  <!-- Regulations ~15%, Airspace ~25%, Weather ~12%, Loading/Perf ~8%, Emergency ~5%, Radio ~3%, CRM/ADM ~10%, Airport Ops ~7%, Physiology ~5%, Sectional Charts ~10% -->
+
+  <!-- Regulations 15% = 54 deg, start 0 -->
+  <path d="M280,230 L440,230 A160,160 0 0,1 417.6,310.8 Z" fill="#4a90d9"/>
+  <!-- Airspace 25% = 90 deg -->
+  <path d="M280,230 L417.6,310.8 A160,160 0 0,1 280,390 Z" fill="#dc3545"/>
+  <!-- Weather 12% = 43.2 deg -->
+  <path d="M280,230 L280,390 A160,160 0 0,1 170.4,348.8 Z" fill="#ffc107"/>
+  <!-- Loading/Performance 8% = 28.8 deg -->
+  <path d="M280,230 L170.4,348.8 A160,160 0 0,1 131.2,296 Z" fill="#28a745"/>
+  <!-- Emergency 5% = 18 deg -->
+  <path d="M280,230 L131.2,296 A160,160 0 0,1 121.6,262 Z" fill="#17a2b8"/>
+  <!-- Radio 3% = 10.8 deg -->
+  <path d="M280,230 L121.6,262 A160,160 0 0,1 120,244.8 Z" fill="#6f42c1"/>
+  <!-- CRM/ADM 10% = 36 deg -->
+  <path d="M280,230 L120,244.8 A160,160 0 0,1 131.2,176 Z" fill="#e83e8c"/>
+  <!-- Airport Ops 7% = 25.2 deg -->
+  <path d="M280,230 L131.2,176 A160,160 0 0,1 159.2,130.4 Z" fill="#fd7e14"/>
+  <!-- Physiology 5% = 18 deg -->
+  <path d="M280,230 L159.2,130.4 A160,160 0 0,1 195.2,100 Z" fill="#20c997"/>
+  <!-- Sectional Charts 10% = 36 deg -->
+  <path d="M280,230 L195.2,100 A160,160 0 0,1 440,230 Z" fill="#6c757d"/>
+
+  <!-- Legend -->
+  <rect x="480" y="60" width="18" height="14" fill="#dc3545"/>
+  <text x="505" y="72" font-size="12" fill="#333">Airspace &amp; Requirements (25%)</text>
+
+  <rect x="480" y="85" width="18" height="14" fill="#4a90d9"/>
+  <text x="505" y="97" font-size="12" fill="#333">Regulations (15%)</text>
+
+  <rect x="480" y="110" width="18" height="14" fill="#ffc107"/>
+  <text x="505" y="122" font-size="12" fill="#333">Weather (12%)</text>
+
+  <rect x="480" y="135" width="18" height="14" fill="#e83e8c"/>
+  <text x="505" y="147" font-size="12" fill="#333">CRM / ADM (10%)</text>
+
+  <rect x="480" y="160" width="18" height="14" fill="#6c757d"/>
+  <text x="505" y="172" font-size="12" fill="#333">Sectional Charts (10%)</text>
+
+  <rect x="480" y="185" width="18" height="14" fill="#28a745"/>
+  <text x="505" y="197" font-size="12" fill="#333">Loading &amp; Performance (8%)</text>
+
+  <rect x="480" y="210" width="18" height="14" fill="#fd7e14"/>
+  <text x="505" y="222" font-size="12" fill="#333">Airport Operations (7%)</text>
+
+  <rect x="480" y="235" width="18" height="14" fill="#17a2b8"/>
+  <text x="505" y="247" font-size="12" fill="#333">Emergency Procedures (5%)</text>
+
+  <rect x="480" y="260" width="18" height="14" fill="#20c997"/>
+  <text x="505" y="272" font-size="12" fill="#333">Physiology (5%)</text>
+
+  <rect x="480" y="285" width="18" height="14" fill="#6f42c1"/>
+  <text x="505" y="297" font-size="12" fill="#333">Radio Communications (3%)</text>
+
+  <!-- Exam facts -->
+  <rect x="480" y="330" width="250" height="70" rx="6" fill="white" stroke="#adb5bd" stroke-width="1"/>
+  <text x="490" y="350" font-size="11" font-weight="bold" fill="#333">Exam Quick Facts:</text>
+  <text x="490" y="368" font-size="10" fill="#555">60 multiple-choice questions</text>
+  <text x="490" y="383" font-size="10" fill="#555">120 minutes | 70% to pass (42/60)</text>
+  <text x="490" y="398" font-size="10" fill="#555">$175 testing fee</text>
+
+  <text x="375" y="415" text-anchor="middle" font-size="10" fill="#888">Note: Exact weighting varies by exam version. Approximate percentages shown.</text>
+</svg>

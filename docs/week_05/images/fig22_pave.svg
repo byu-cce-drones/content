@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="Arial, sans-serif" font-size="13">
+  <rect width="700" height="400" fill="#f9f9f9" rx="8"/>
+  <text x="350" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Figure 22 — PAVE Risk Assessment Checklist</text>
+
+  <!-- Center circle -->
+  <circle cx="350" cy="210" r="55" fill="#4a90d9" stroke="#2c6fad" stroke-width="2"/>
+  <text x="350" y="200" text-anchor="middle" fill="white" font-weight="bold" font-size="20">PAVE</text>
+  <text x="350" y="220" text-anchor="middle" fill="white" font-size="11">Risk Assessment</text>
+
+  <!-- P - Pilot -->
+  <line x1="310" y1="170" x2="170" y2="90" stroke="#dc3545" stroke-width="2"/>
+  <circle cx="140" cy="75" r="40" fill="#dc3545" opacity="0.9"/>
+  <text x="140" y="70" text-anchor="middle" fill="white" font-weight="bold" font-size="22">P</text>
+  <text x="140" y="88" text-anchor="middle" fill="white" font-size="10">Pilot</text>
+  <rect x="55" y="120" width="170" height="60" rx="6" fill="white" stroke="#dc3545" stroke-width="1"/>
+  <text x="140" y="138" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">Pilot-in-Command</text>
+  <text x="140" y="153" text-anchor="middle" font-size="9" fill="#555">Am I fit to fly? (IMSAFE)</text>
+  <text x="140" y="166" text-anchor="middle" font-size="9" fill="#555">Current? Proficient? Rested?</text>
+
+  <!-- A - Aircraft -->
+  <line x1="390" y1="170" x2="530" y2="90" stroke="#28a745" stroke-width="2"/>
+  <circle cx="560" cy="75" r="40" fill="#28a745" opacity="0.9"/>
+  <text x="560" y="70" text-anchor="middle" fill="white" font-weight="bold" font-size="22">A</text>
+  <text x="560" y="88" text-anchor="middle" fill="white" font-size="10">Aircraft</text>
+  <rect x="475" y="120" width="170" height="60" rx="6" fill="white" stroke="#28a745" stroke-width="1"/>
+  <text x="560" y="138" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">Aircraft / sUAS</text>
+  <text x="560" y="153" text-anchor="middle" font-size="9" fill="#555">Airworthy? Batteries charged?</text>
+  <text x="560" y="166" text-anchor="middle" font-size="9" fill="#555">Props intact? Firmware current?</text>
+
+  <!-- V - enVironment -->
+  <line x1="310" y1="250" x2="170" y2="330" stroke="#ffc107" stroke-width="2"/>
+  <circle cx="140" cy="345" r="40" fill="#d4a017" opacity="0.9"/>
+  <text x="140" y="340" text-anchor="middle" fill="white" font-weight="bold" font-size="22">V</text>
+  <text x="140" y="358" text-anchor="middle" fill="white" font-size="10">enVironment</text>
+  <rect x="55" y="260" width="170" height="60" rx="6" fill="white" stroke="#d4a017" stroke-width="1"/>
+  <text x="140" y="278" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">Environment</text>
+  <text x="140" y="293" text-anchor="middle" font-size="9" fill="#555">Weather OK? Airspace clear?</text>
+  <text x="140" y="306" text-anchor="middle" font-size="9" fill="#555">Terrain? Obstacles? TFRs?</text>
+
+  <!-- E - External Pressures -->
+  <line x1="390" y1="250" x2="530" y2="330" stroke="#6f42c1" stroke-width="2"/>
+  <circle cx="560" cy="345" r="40" fill="#6f42c1" opacity="0.9"/>
+  <text x="560" y="340" text-anchor="middle" fill="white" font-weight="bold" font-size="22">E</text>
+  <text x="560" y="358" text-anchor="middle" fill="white" font-size="10">External</text>
+  <rect x="475" y="260" width="170" height="60" rx="6" fill="white" stroke="#6f42c1" stroke-width="1"/>
+  <text x="560" y="278" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">External Pressures</text>
+  <text x="560" y="293" text-anchor="middle" font-size="9" fill="#555">Client deadline pressure?</text>
+  <text x="560" y="306" text-anchor="middle" font-size="9" fill="#555">Schedule? "Get-there-itis"?</text>
+
+  <text x="350" y="395" text-anchor="middle" font-size="10" fill="#888">Use PAVE before every flight to systematically assess risk.</text>
+</svg>

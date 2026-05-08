@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <rect width="700" height="400" fill="#f9f9f9" rx="8"/>
+  <text x="350" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Figure 3 — FAA Regulatory Structure for UAS</text>
+
+  <!-- DOT -->
+  <rect x="225" y="50" width="250" height="40" rx="6" fill="#1b3a5c" stroke="#0f2440" stroke-width="1.5"/>
+  <text x="350" y="75" text-anchor="middle" fill="white" font-weight="bold">U.S. Department of Transportation</text>
+
+  <line x1="350" y1="90" x2="350" y2="115" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- FAA -->
+  <rect x="225" y="115" width="250" height="40" rx="6" fill="#2c6fad" stroke="#1a5276" stroke-width="1.5"/>
+  <text x="350" y="140" text-anchor="middle" fill="white" font-weight="bold">Federal Aviation Administration (FAA)</text>
+
+  <line x1="350" y1="155" x2="350" y2="180" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- 14 CFR -->
+  <rect x="200" y="180" width="300" height="40" rx="6" fill="#4a90d9" stroke="#2c6fad" stroke-width="1.5"/>
+  <text x="350" y="205" text-anchor="middle" fill="white" font-weight="bold">Title 14 — Code of Federal Regulations (14 CFR)</text>
+
+  <!-- Branches -->
+  <line x1="350" y1="220" x2="150" y2="260" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="350" y1="220" x2="350" y2="260" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="350" y1="220" x2="550" y2="260" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Part 61 -->
+  <rect x="65" y="260" width="170" height="45" rx="6" fill="#e9ecef" stroke="#adb5bd" stroke-width="1.5"/>
+  <text x="150" y="280" text-anchor="middle" font-weight="bold" font-size="12" fill="#333">Part 61</text>
+  <text x="150" y="296" text-anchor="middle" font-size="10" fill="#555">Pilot Certification</text>
+
+  <!-- Part 107 -->
+  <rect x="265" y="260" width="170" height="45" rx="6" fill="#dc3545" stroke="#b02a37" stroke-width="1.5"/>
+  <text x="350" y="280" text-anchor="middle" font-weight="bold" font-size="12" fill="white">Part 107</text>
+  <text x="350" y="296" text-anchor="middle" font-size="10" fill="white">Small UAS Operations</text>
+
+  <!-- Part 91 -->
+  <rect x="465" y="260" width="170" height="45" rx="6" fill="#e9ecef" stroke="#adb5bd" stroke-width="1.5"/>
+  <text x="550" y="280" text-anchor="middle" font-weight="bold" font-size="12" fill="#333">Part 91</text>
+  <text x="550" y="296" text-anchor="middle" font-size="10" fill="#555">General Operating Rules</text>
+
+  <!-- Part 107 details -->
+  <line x1="350" y1="305" x2="350" y2="325" stroke="#dc3545" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="200" y="325" width="300" height="60" rx="6" fill="white" stroke="#dc3545" stroke-width="1"/>
+  <text x="210" y="345" font-size="11" fill="#333" font-weight="bold">Part 107 covers:</text>
+  <text x="210" y="362" font-size="10" fill="#555">Remote Pilot certification, operating rules, waivers,</text>
+  <text x="210" y="377" font-size="10" fill="#555">aircraft requirements, and registration for sUAS &lt; 55 lbs</text>
+
+  <text x="350" y="395" text-anchor="middle" font-size="10" fill="#888">Note: Part 107 was enacted August 29, 2016</text>
+</svg>

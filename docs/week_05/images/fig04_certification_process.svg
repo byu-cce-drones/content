@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <rect width="800" height="480" fill="#f9f9f9" rx="8"/>
+  <text x="400" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Figure 4 — Part 107 Certification Process</text>
+
+  <!-- Step 1 -->
+  <circle cx="100" cy="80" r="22" fill="#4a90d9" stroke="#2c6fad" stroke-width="1.5"/>
+  <text x="100" y="86" text-anchor="middle" fill="white" font-weight="bold" font-size="16">1</text>
+  <rect x="30" y="110" width="140" height="55" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="100" y="133" text-anchor="middle" font-weight="bold" font-size="11" fill="#333">Create IACRA Account</text>
+  <text x="100" y="150" text-anchor="middle" font-size="10" fill="#555">Get FAA Tracking</text>
+  <text x="100" y="162" text-anchor="middle" font-size="10" fill="#555">Number (FTN)</text>
+
+  <!-- Arrow 1-2 -->
+  <line x1="170" y1="137" x2="215" y2="137" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <circle cx="280" cy="80" r="22" fill="#4a90d9" stroke="#2c6fad" stroke-width="1.5"/>
+  <text x="280" y="86" text-anchor="middle" fill="white" font-weight="bold" font-size="16">2</text>
+  <rect x="210" y="110" width="140" height="55" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="280" y="133" text-anchor="middle" font-weight="bold" font-size="11" fill="#333">Study &amp; Prepare</text>
+  <text x="280" y="150" text-anchor="middle" font-size="10" fill="#555">Review study materials,</text>
+  <text x="280" y="162" text-anchor="middle" font-size="10" fill="#555">practice questions</text>
+
+  <!-- Arrow 2-3 -->
+  <line x1="350" y1="137" x2="395" y2="137" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <circle cx="460" cy="80" r="22" fill="#4a90d9" stroke="#2c6fad" stroke-width="1.5"/>
+  <text x="460" y="86" text-anchor="middle" fill="white" font-weight="bold" font-size="16">3</text>
+  <rect x="390" y="110" width="140" height="55" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="460" y="133" text-anchor="middle" font-weight="bold" font-size="11" fill="#333">Schedule Exam</text>
+  <text x="460" y="150" text-anchor="middle" font-size="10" fill="#555">Register with PSI</text>
+  <text x="460" y="162" text-anchor="middle" font-size="10" fill="#555">testing center</text>
+
+  <!-- Arrow 3-4 -->
+  <line x1="530" y1="137" x2="575" y2="137" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 -->
+  <circle cx="640" cy="80" r="22" fill="#4a90d9" stroke="#2c6fad" stroke-width="1.5"/>
+  <text x="640" y="86" text-anchor="middle" fill="white" font-weight="bold" font-size="16">4</text>
+  <rect x="570" y="110" width="140" height="55" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="640" y="133" text-anchor="middle" font-weight="bold" font-size="11" fill="#333">Take the UAG Test</text>
+  <text x="640" y="150" text-anchor="middle" font-size="10" fill="#555">60 questions, 120 min</text>
+  <text x="640" y="162" text-anchor="middle" font-size="10" fill="#555">70% to pass</text>
+
+  <!-- Arrow down from step 4 -->
+  <line x1="640" y1="165" x2="640" y2="230" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 5 -->
+  <circle cx="640" cy="270" r="22" fill="#4a90d9" stroke="#2c6fad" stroke-width="1.5"/>
+  <text x="640" y="276" text-anchor="middle" fill="white" font-weight="bold" font-size="16">5</text>
+  <rect x="570" y="300" width="140" height="55" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="640" y="318" text-anchor="middle" font-weight="bold" font-size="11" fill="#333">Complete IACRA</text>
+  <text x="640" y="335" text-anchor="middle" font-size="10" fill="#555">Submit application</text>
+  <text x="640" y="347" text-anchor="middle" font-size="10" fill="#555">for certificate</text>
+
+  <!-- Arrow 5-6 -->
+  <line x1="570" y1="327" x2="530" y2="327" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 6 -->
+  <circle cx="460" cy="270" r="22" fill="#4a90d9" stroke="#2c6fad" stroke-width="1.5"/>
+  <text x="460" y="276" text-anchor="middle" fill="white" font-weight="bold" font-size="16">6</text>
+  <rect x="390" y="300" width="140" height="55" rx="6" fill="white" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="460" y="318" text-anchor="middle" font-weight="bold" font-size="11" fill="#333">TSA Vetting</text>
+  <text x="460" y="335" text-anchor="middle" font-size="10" fill="#555">Background security</text>
+  <text x="460" y="347" text-anchor="middle" font-size="10" fill="#555">screening</text>
+
+  <!-- Arrow 6-7 -->
+  <line x1="390" y1="327" x2="350" y2="327" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 7 -->
+  <circle cx="280" cy="270" r="22" fill="#28a745" stroke="#1e7e34" stroke-width="1.5"/>
+  <text x="280" y="276" text-anchor="middle" fill="white" font-weight="bold" font-size="16">7</text>
+  <rect x="210" y="300" width="140" height="55" rx="6" fill="white" stroke="#28a745" stroke-width="1.5"/>
+  <text x="280" y="318" text-anchor="middle" font-weight="bold" font-size="11" fill="#28a745">Temporary Cert.</text>
+  <text x="280" y="335" text-anchor="middle" font-size="10" fill="#555">Download from IACRA</text>
+  <text x="280" y="347" text-anchor="middle" font-size="10" fill="#555">(valid immediately)</text>
+
+  <!-- Arrow 7-8 -->
+  <line x1="210" y1="327" x2="170" y2="327" stroke="#333" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 8 -->
+  <circle cx="100" cy="270" r="22" fill="#28a745" stroke="#1e7e34" stroke-width="1.5"/>
+  <text x="100" y="276" text-anchor="middle" fill="white" font-weight="bold" font-size="16">8</text>
+  <rect x="30" y="300" width="140" height="55" rx="6" fill="white" stroke="#28a745" stroke-width="1.5"/>
+  <text x="100" y="318" text-anchor="middle" font-weight="bold" font-size="11" fill="#28a745">Permanent Cert.</text>
+  <text x="100" y="335" text-anchor="middle" font-size="10" fill="#555">Mailed to you</text>
+  <text x="100" y="347" text-anchor="middle" font-size="10" fill="#555">(within weeks)</text>
+
+  <!-- Recurrent note -->
+  <rect x="150" y="400" width="500" height="50" rx="6" fill="#fff3cd" stroke="#d4a017" stroke-width="1"/>
+  <text x="400" y="420" text-anchor="middle" font-size="11" font-weight="bold" fill="#856404">Recurrent Requirement</text>
+  <text x="400" y="438" text-anchor="middle" font-size="10" fill="#856404">Complete recurrent training (online) or retake the knowledge test every 24 months to stay current.</text>
+
+  <text x="400" y="475" text-anchor="middle" font-size="10" fill="#888">Source: FAA.gov — Become a Drone Pilot</text>
+</svg>
