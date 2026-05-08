@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" font-family="Arial, sans-serif" font-size="13">
+  <rect width="750" height="400" fill="#dceefb" rx="8"/>
+  <text x="375" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Figure 14 — 400 ft AGL Altitude Rule &amp; Structure Exception</text>
+
+  <!-- Sky gradient hint -->
+  <rect x="0" y="0" width="750" height="400" fill="#dceefb" rx="8"/>
+
+  <!-- Ground -->
+  <rect x="0" y="310" width="750" height="90" fill="#8fbc8f" rx="0 0 8 8"/>
+  <rect x="0" y="300" width="750" height="15" fill="#6b8e23"/>
+
+  <!-- Left scene - open area -->
+  <!-- Drone at 400 ft -->
+  <line x1="120" y1="300" x2="120" y2="80" stroke="#dc3545" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="135" y="190" font-size="11" fill="#dc3545" font-weight="bold">400 ft AGL</text>
+  <text x="135" y="205" font-size="10" fill="#dc3545">(Maximum)</text>
+
+  <!-- Drone icon left -->
+  <g transform="translate(105,65)">
+    <rect x="0" y="5" width="30" height="8" rx="3" fill="#333"/>
+    <line x1="2" y1="5" x2="-5" y2="0" stroke="#333" stroke-width="2"/>
+    <line x1="28" y1="5" x2="35" y2="0" stroke="#333" stroke-width="2"/>
+    <circle cx="-5" cy="0" r="3" fill="#555"/>
+    <circle cx="35" cy="0" r="3" fill="#555"/>
+  </g>
+  <text x="120" y="55" text-anchor="middle" font-size="10" fill="#28a745" font-weight="bold">OK</text>
+
+  <!-- Checkmark -->
+  <circle cx="120" cy="47" r="8" fill="#28a745"/>
+  <text x="120" y="51" text-anchor="middle" fill="white" font-size="10" font-weight="bold">&#10003;</text>
+
+  <!-- Label -->
+  <text x="120" y="345" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Open Area</text>
+  <text x="120" y="360" text-anchor="middle" font-size="10" fill="#555">Max 400 ft AGL</text>
+
+  <!-- Divider -->
+  <line x1="280" y1="40" x2="280" y2="300" stroke="#aaa" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- Right scene - near structure -->
+  <!-- Building -->
+  <rect x="430" y="140" width="80" height="160" fill="#777" stroke="#555" stroke-width="1.5"/>
+  <rect x="445" y="160" width="20" height="20" fill="#aad4f5" stroke="#888"/>
+  <rect x="475" y="160" width="20" height="20" fill="#aad4f5" stroke="#888"/>
+  <rect x="445" y="195" width="20" height="20" fill="#aad4f5" stroke="#888"/>
+  <rect x="475" y="195" width="20" height="20" fill="#aad4f5" stroke="#888"/>
+  <rect x="445" y="230" width="20" height="20" fill="#aad4f5" stroke="#888"/>
+  <rect x="475" y="230" width="20" height="20" fill="#aad4f5" stroke="#888"/>
+  <rect x="445" y="265" width="20" height="20" fill="#aad4f5" stroke="#888"/>
+  <rect x="475" y="265" width="20" height="20" fill="#aad4f5" stroke="#888"/>
+
+  <!-- Building height label -->
+  <line x1="520" y1="140" x2="520" y2="300" stroke="#333" stroke-width="1"/>
+  <line x1="515" y1="140" x2="525" y2="140" stroke="#333" stroke-width="1"/>
+  <line x1="515" y1="300" x2="525" y2="300" stroke="#333" stroke-width="1"/>
+  <text x="538" y="225" font-size="10" fill="#333">Structure</text>
+  <text x="538" y="240" font-size="10" fill="#333">Height</text>
+
+  <!-- 400 ft above structure -->
+  <line x1="470" y1="140" x2="470" y2="45" stroke="#28a745" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="405" y="95" font-size="10" fill="#28a745" font-weight="bold">+ 400 ft</text>
+  <text x="405" y="108" font-size="10" fill="#28a745">above top</text>
+
+  <!-- Drone icon right (above building) -->
+  <g transform="translate(555,32)">
+    <rect x="0" y="5" width="30" height="8" rx="3" fill="#333"/>
+    <line x1="2" y1="5" x2="-5" y2="0" stroke="#333" stroke-width="2"/>
+    <line x1="28" y1="5" x2="35" y2="0" stroke="#333" stroke-width="2"/>
+    <circle cx="-5" cy="0" r="3" fill="#555"/>
+    <circle cx="35" cy="0" r="3" fill="#555"/>
+  </g>
+  <text x="570" y="27" text-anchor="middle" font-size="10" fill="#28a745" font-weight="bold">OK</text>
+  <circle cx="570" cy="20" r="8" fill="#28a745"/>
+  <text x="570" y="24" text-anchor="middle" fill="white" font-size="10" font-weight="bold">&#10003;</text>
+
+  <!-- 400 ft radius circle -->
+  <ellipse cx="470" cy="300" rx="150" ry="15" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="630" y="290" font-size="10" fill="#4a90d9" font-weight="bold">Within 400 ft</text>
+  <text x="630" y="303" font-size="10" fill="#4a90d9">of structure</text>
+
+  <!-- Label -->
+  <text x="470" y="345" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Near Structure</text>
+  <text x="470" y="360" text-anchor="middle" font-size="10" fill="#555">400 ft above structure top</text>
+  <text x="470" y="375" text-anchor="middle" font-size="10" fill="#555">(must be within 400 ft radius)</text>
+
+  <text x="375" y="395" text-anchor="middle" font-size="10" fill="#888">Source: 14 CFR 107.51 — Operating Limitations</text>
+</svg>

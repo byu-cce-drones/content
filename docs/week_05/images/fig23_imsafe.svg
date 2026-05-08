@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" font-family="Arial, sans-serif" font-size="13">
+  <rect width="700" height="380" fill="#f9f9f9" rx="8"/>
+  <text x="350" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Figure 23 — IMSAFE Personal Fitness Checklist</text>
+
+  <!-- Header bar -->
+  <rect x="50" y="50" width="600" height="35" rx="6" fill="#4a90d9"/>
+  <text x="350" y="73" text-anchor="middle" fill="white" font-weight="bold" font-size="14">I - M - S - A - F - E</text>
+
+  <!-- I -->
+  <rect x="50" y="95" width="600" height="40" rx="4" fill="white" stroke="#e9ecef" stroke-width="1"/>
+  <circle cx="80" cy="115" r="15" fill="#dc3545"/>
+  <text x="80" y="120" text-anchor="middle" fill="white" font-weight="bold" font-size="16">I</text>
+  <text x="110" y="110" font-weight="bold" fill="#333">Illness</text>
+  <text x="110" y="126" font-size="11" fill="#555">Am I suffering from any illness or symptom of illness? Do not fly if sick.</text>
+
+  <!-- M -->
+  <rect x="50" y="140" width="600" height="40" rx="4" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+  <circle cx="80" cy="160" r="15" fill="#fd7e14"/>
+  <text x="80" y="165" text-anchor="middle" fill="white" font-weight="bold" font-size="16">M</text>
+  <text x="110" y="155" font-weight="bold" fill="#333">Medication</text>
+  <text x="110" y="171" font-size="11" fill="#555">Am I taking any medications that could impair judgment or reaction time?</text>
+
+  <!-- S -->
+  <rect x="50" y="185" width="600" height="40" rx="4" fill="white" stroke="#e9ecef" stroke-width="1"/>
+  <circle cx="80" cy="205" r="15" fill="#ffc107"/>
+  <text x="80" y="210" text-anchor="middle" fill="#333" font-weight="bold" font-size="16">S</text>
+  <text x="110" y="200" font-weight="bold" fill="#333">Stress</text>
+  <text x="110" y="216" font-size="11" fill="#555">Am I under psychological pressure? Stress narrows attention and impairs decisions.</text>
+
+  <!-- A -->
+  <rect x="50" y="230" width="600" height="40" rx="4" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+  <circle cx="80" cy="250" r="15" fill="#28a745"/>
+  <text x="80" y="255" text-anchor="middle" fill="white" font-weight="bold" font-size="16">A</text>
+  <text x="110" y="245" font-weight="bold" fill="#333">Alcohol</text>
+  <text x="110" y="261" font-size="11" fill="#555">8 hours bottle-to-throttle. No flying under the influence (0.04% BAC limit per FAR).</text>
+
+  <!-- F -->
+  <rect x="50" y="275" width="600" height="40" rx="4" fill="white" stroke="#e9ecef" stroke-width="1"/>
+  <circle cx="80" cy="295" r="15" fill="#4a90d9"/>
+  <text x="80" y="300" text-anchor="middle" fill="white" font-weight="bold" font-size="16">F</text>
+  <text x="110" y="290" font-weight="bold" fill="#333">Fatigue</text>
+  <text x="110" y="306" font-size="11" fill="#555">Am I adequately rested? Fatigue degrades performance as much as alcohol.</text>
+
+  <!-- E -->
+  <rect x="50" y="320" width="600" height="40" rx="4" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+  <circle cx="80" cy="340" r="15" fill="#6f42c1"/>
+  <text x="80" y="345" text-anchor="middle" fill="white" font-weight="bold" font-size="16">E</text>
+  <text x="110" y="335" font-weight="bold" fill="#333">Emotion / Eating</text>
+  <text x="110" y="351" font-size="11" fill="#555">Am I emotionally upset or hungry/dehydrated? Strong emotions impair judgment.</text>
+
+  <text x="350" y="375" text-anchor="middle" font-size="10" fill="#888">If the answer to ANY of these is "yes," consider postponing the flight.</text>
+</svg>

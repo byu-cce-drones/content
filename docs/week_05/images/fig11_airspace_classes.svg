@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 500" font-family="Arial, sans-serif" font-size="13">
+  <rect width="850" height="500" fill="#f9f9f9" rx="8"/>
+  <text x="425" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Figure 11 — National Airspace System (NAS) Classification</text>
+
+  <!-- Ground line -->
+  <line x1="40" y1="430" x2="810" y2="430" stroke="#8B6914" stroke-width="3"/>
+  <text x="425" y="450" text-anchor="middle" font-size="11" fill="#8B6914" font-weight="bold">Ground Level (AGL)</text>
+
+  <!-- Altitude scale on left -->
+  <text x="15" y="435" font-size="10" fill="#555" text-anchor="middle">0 ft</text>
+  <text x="15" y="355" font-size="10" fill="#555" text-anchor="middle">700</text>
+  <text x="15" y="315" font-size="10" fill="#555" text-anchor="middle">1200</text>
+  <text x="15" y="235" font-size="10" fill="#555" text-anchor="middle">4000</text>
+  <text x="15" y="155" font-size="10" fill="#555" text-anchor="middle">10K</text>
+  <text x="15" y="95" font-size="10" fill="#555" text-anchor="middle">18K</text>
+  <text x="15" y="55" font-size="10" fill="#555" text-anchor="middle">60K</text>
+  <line x1="30" y1="430" x2="30" y2="50" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Dashed altitude reference lines -->
+  <line x1="30" y1="350" x2="810" y2="350" stroke="#ddd" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="30" y1="310" x2="810" y2="310" stroke="#ddd" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="30" y1="230" x2="810" y2="230" stroke="#ddd" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="30" y1="150" x2="810" y2="150" stroke="#ddd" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="30" y1="90" x2="810" y2="90" stroke="#ddd" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- Class A - top layer -->
+  <rect x="40" y="50" width="770" height="40" fill="#1b3a5c" opacity="0.8" rx="4"/>
+  <text x="425" y="75" text-anchor="middle" fill="white" font-weight="bold" font-size="14">Class A — 18,000 ft MSL to FL600</text>
+
+  <!-- Class E (upper) - large middle area -->
+  <rect x="40" y="90" width="770" height="220" fill="#c7ddf2" opacity="0.5" rx="4"/>
+  <text x="750" y="200" text-anchor="end" font-size="12" fill="#2c6fad" font-weight="bold">Class E</text>
+  <text x="750" y="215" text-anchor="end" font-size="10" fill="#2c6fad">(Controlled)</text>
+
+  <!-- Class B - inverted wedding cake -->
+  <path d="M120,430 L120,150 L200,150 L200,230 L280,230 L280,310 L340,310 L340,430 Z" fill="#4a90d9" opacity="0.7"/>
+  <text x="200" y="300" text-anchor="middle" font-weight="bold" font-size="13" fill="white">Class B</text>
+  <text x="200" y="170" text-anchor="middle" font-size="10" fill="white">SFC to 10,000</text>
+
+  <!-- Class C - two layer shelf -->
+  <path d="M420,430 L420,230 L470,230 L470,310 L530,310 L530,430 Z" fill="#dc3545" opacity="0.6"/>
+  <text x="475" y="370" text-anchor="middle" font-weight="bold" font-size="13" fill="white">Class C</text>
+  <text x="475" y="250" text-anchor="middle" font-size="10" fill="white">SFC-4000</text>
+
+  <!-- Class D -->
+  <rect x="590" y="310" width="80" height="120" fill="#ffc107" opacity="0.7" rx="2"/>
+  <text x="630" y="380" text-anchor="middle" font-weight="bold" font-size="13" fill="#333">Class D</text>
+  <text x="630" y="325" text-anchor="middle" font-size="10" fill="#333">SFC-2500</text>
+
+  <!-- Class G - uncontrolled -->
+  <rect x="700" y="350" width="100" height="80" fill="#28a745" opacity="0.4" rx="2"/>
+  <text x="750" y="390" text-anchor="middle" font-weight="bold" font-size="12" fill="#1e7e34">Class G</text>
+  <text x="750" y="405" text-anchor="middle" font-size="9" fill="#1e7e34">(Uncontrolled)</text>
+
+  <!-- Class E surface area -->
+  <rect x="580" y="310" width="5" height="120" fill="#4a90d9" opacity="0.4"/>
+
+  <!-- Airport symbols -->
+  <text x="200" y="425" text-anchor="middle" font-size="18" fill="#333">&#9992;</text>
+  <text x="475" y="425" text-anchor="middle" font-size="18" fill="#333">&#9992;</text>
+  <text x="630" y="425" text-anchor="middle" font-size="18" fill="#333">&#9992;</text>
+
+  <!-- 400 ft UAS line -->
+  <line x1="40" y1="418" x2="810" y2="418" stroke="#dc3545" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <text x="810" y="416" text-anchor="end" font-size="10" fill="#dc3545" font-weight="bold">400 ft AGL — Part 107 Max Altitude</text>
+
+  <!-- Legend -->
+  <rect x="40" y="460" width="770" height="30" rx="4" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  <rect x="55" y="468" width="12" height="12" fill="#1b3a5c"/>
+  <text x="72" y="478" font-size="9" fill="#333">A (IFR only)</text>
+  <rect x="155" y="468" width="12" height="12" fill="#4a90d9" opacity="0.7"/>
+  <text x="172" y="478" font-size="9" fill="#333">B (ATC req.)</text>
+  <rect x="255" y="468" width="12" height="12" fill="#dc3545" opacity="0.6"/>
+  <text x="272" y="478" font-size="9" fill="#333">C (ATC req.)</text>
+  <rect x="355" y="468" width="12" height="12" fill="#ffc107" opacity="0.7"/>
+  <text x="372" y="478" font-size="9" fill="#333">D (ATC req.)</text>
+  <rect x="455" y="468" width="12" height="12" fill="#c7ddf2"/>
+  <text x="472" y="478" font-size="9" fill="#333">E (Controlled)</text>
+  <rect x="565" y="468" width="12" height="12" fill="#28a745" opacity="0.4"/>
+  <text x="582" y="478" font-size="9" fill="#333">G (Uncontrolled)</text>
+  <line x1="670" y1="474" x2="700" y2="474" stroke="#dc3545" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="705" y="478" font-size="9" fill="#333">Part 107 limit</text>
+</svg>
