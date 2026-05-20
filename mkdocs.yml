@@ -2,7 +2,7 @@ site_name: BYU CCE Drone Measurements
 site_url: https://byu-cce_drone_measurements.readthedocs.io/en/latest/
 site_description: Course materials for the CCE class at BYU
 site_author: Instructors and TAs of the CCE class at BYU
-repo_url: https://github.com/gus-p-williams/byu-cce-drone_measurements/
+repo_url: https://github.com/byu-cce-drones/content/
 #favicon: 'images/favicon.ico'
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
