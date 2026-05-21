@@ -112,4 +112,4 @@ When chlorophyll-rich leaves are illuminated, they absorb much of the blue and r
 - [Wikipedia — Vegetation Index](https://en.wikipedia.org/wiki/Vegetation_index){target='_blank'}
 - [NASA — Measuring Vegetation (NDVI)](https://earthobservatory.nasa.gov/features/MeasuringVegetation){target='_blank'}
 
-<!-- End Multispectral.md -->
+<!-- End multispectral.md -->

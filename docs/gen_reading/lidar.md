@@ -87,4 +87,4 @@ This diagram shows how LiDAR returns are used to separate the "ground" from "veg
 - [Wikipedia — Lidar](https://en.wikipedia.org/wiki/Lidar){target='_blank'}
 - [USGS — What is Lidar?](https://www.usgs.gov/faqs/what-lidar){target='_blank'}
 
-<!-- End LiDAR.md -->
+<!-- End lidar.md -->

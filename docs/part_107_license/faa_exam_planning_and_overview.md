@@ -1,6 +1,6 @@
 # Week 5 — FAA Exam Planning and Overview
 
-This page provides a comprehensive overview of the FAA Part 107 Remote Pilot Certificate exam: what it covers, eligibility requirements, and a step-by-step plan for the certification process. Use this alongside the [Knowledge Review](Part_107_Knowledge_Review.md) for a complete study package.
+This page provides a comprehensive overview of the FAA Part 107 Remote Pilot Certificate exam: what it covers, eligibility requirements, and a step-by-step plan for the certification process. Use this alongside the [Knowledge Review](part_107_knowledge_review.md) for a complete study package.
 
 ## Key Takeaways
 - **Commercial Requirement:** Part 107 is required for any drone flight that furthers a business interest (even if unpaid).
