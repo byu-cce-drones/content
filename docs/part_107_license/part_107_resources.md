@@ -35,4 +35,4 @@ A curated set of study resources for the FAA Part 107 Remote Pilot test, organiz
 2. **Deep Dive:** Watch the [Matt Kendall Full Review](https://www.youtube.com/watch?v=zB9qzXaQ72s) and note timestamps for topics that seem confusing.
 3. **Targeted Drills:** Use the topic-focused playlists to master weak areas.
 4. **Simulated Testing:** Alternate between Rupprecht and King Schools practice tests to validate readiness and identify persistent errors.
-5. **Final Review:** Return to the [Knowledge Review](Part_107_Knowledge_Review.md) page for a final check of mnemonics and key facts.
+5. **Final Review:** Return to the [Knowledge Review](part_107_knowledge_review.md) page for a final check of mnemonics and key facts.

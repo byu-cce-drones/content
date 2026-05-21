@@ -102,4 +102,4 @@ Below are representative thermal images. Use these examples for the suggested ac
 - [FLIR — How Do Thermal Cameras Work?](https://www.flir.com/discover/otm-ii/how-do-thermal-cameras-work/){target='_blank'}
 - [NASA — Infrared Waves](https://science.nasa.gov/ems/07_infraredwaves){target='_blank'}
 
-<!-- End Thermal.md -->
+<!-- End thermal.md -->

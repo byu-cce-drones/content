@@ -27,32 +27,47 @@ theme:
 
 nav:
   - Home: index.md
-  - Flight Checklist:
-      - Pre-Flight Checklist:
-          - General Checklist: flight_check_list/pre_flight/pre_general.md
-      - Post-Flight Checklist:
-          - General Checklist: flight_check_list/post_flight/post_general.md
-  - Week 1 - Introduction:
-      - Overview: week_01/class_overview.md
-      - Flight Basics: week_01/DJI_Mini_Basics.md
-  - Week 2 - Software:
-      - Bentley iTwin: week_02/bentley_itwin.md
-      - QGIS Measurements: week_02/qgis_measurements.md
-  - Week 3 - Measurements:
-      - Measurements Lab: week_03/lab_measurements.md
-      - Metadata: week_03/metadata.md
-  - Week 4 - Mission Planning:
-      - SfM Workflow: week_04/SfM_Workflow.md
-      - Mission Planning (SfM): week_04/Mission_Planning_SfM.md
-  - Week 5 - FAA Part 107 Exam:
-      - Exam Planning & Overview: week_05/FAA_Exam_Planning_and_Overview.md
-      - Knowledge Review: week_05/Part_107_Knowledge_Review.md
-      - Part 107 Study Resources: week_05/Part_107_Resources.md
-      - Mini Practice Exam: week_05/Week_5_Mini_Exam.md
-      - Mini Exam Key (Instructor): week_05/Week_5_Mini_Exam_Instructor_Version.md
-      - Full Practice Exam (60 Q): week_05/Week_5_60_Question_Exam.md
-      - Full Exam Key (Instructor): week_05/Week_5_60_Question_Exam_Instructor_Key.md
-  - Week 6 - Sensors (LiDAR, Thermal, Multispectral):
-      - LiDAR Overview: week_06/LiDAR.md
-      - Thermal Imaging Overview: week_06/Thermal.md
-      - Multispectral Imaging Overview: week_06/Multispectral.md
+
+  - Class Resources:
+          - Syllabus: class_resources/syllabus.md
+          - Grading Policy: class_resources/grading_policy.md
+          - Teaching Assistants (TAs):
+                  - About the TAs: class_resources/ta/tas.md
+                  - Office Hours: class_resources/ta/ta_hours.md
+          - Flight Checklist:
+              - Pre-Flight Checklist:
+                  - General Checklist: class_resources/flight_check_list/pre_flight/pre_general.md
+              - Post-Flight Checklist:
+                  - General Checklist: class_resources/flight_check_list/post_flight/post_general.md
+
+  - Readings:
+          - Class Overview: gen_reading/class_overview.md
+          - Metadata: gen_reading/metadata.md
+          - Mission Planning: gen_reading/mission_planning_sfm.md
+          - SfM Workflow: gen_reading/sfm_workflow.md
+          - LiDAR Imaging: gen_reading/lidar.md
+          - Thermal Imaging: gen_reading/thermal.md
+          - Multispectral Imaging: gen_reading/multispectral.md
+
+  - Software:
+      - QGIS: software/qgis.md
+      - Bentley: software/bentley_itwin.md
+
+  - Labs:
+        - Measurement: labs/lab_measurement.md
+
+  - FAA Part 107 License:
+        - Exam Planning & Overview: part_107_license/faa_exam_planning_and_overview.md
+        - Knowledge Review: part_107_license/part_107_knowledge_review.md
+        - Part 107 Study Resources: part_107_license/part_107_resources.md
+        - Mini Practice Exam: part_107_license/mini_exam.md
+        - Mini Exam Key (Instructor): part_107_license/mini_exam_instructor_version.md
+        - Full Practice Exam (60 Q): part_107_license/60_question_exam.md
+        - Full Exam Key (Instructor): part_107_license/60_question_exam_instructor_key.md
+
+  - Final Project:
+        - Overview: final_project/overview.md
+        - Project Proposal: final_project/proposal.md
+        - Flight and Data Processing: final_project/flight_and_processing.md
+        - Project Presentation: final_project/presentation.md
+        - Final Report: final_project/report.md
