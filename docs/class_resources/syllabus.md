@@ -93,7 +93,9 @@ Students who pass may complete corrections to improve their assignment score, su
 
 The purpose of this policy is to encourage preparation, allow targeted learning, and help students develop confidence before taking the real FAA exam.
 
-### Late Work
+---
+
+## Late Work
 
 Only Homework and Lab Work may be turned in late. Pre-class reading quizzes cannot be made up, reopened, or redone for any reason.
 
