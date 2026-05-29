@@ -4,21 +4,21 @@
 
 ## Course Information
 
-| Item                           | Details                                           |
-|--------------------------------|---------------------------------------------------|
-| Course                         | CCE 194R — Aerial Measurement                     |
-| Credits                        | 1 credit                                          |
-| Lecture                        | Tuesdays, 9:00–9:50 a.m.                          |
-| Lab / Extended Class Period    | Thursdays, 8:00–9:50 a.m.                         |
-| Instructor and TA Information  | See the [Course Staff](../about/) page            |
-| Office Hours                   | See the [Office Hours Schedule](../office-hours/) |
-| Primary Communication Platform | Microsoft Teams                                   |
+| Item                           | Details                                                                                                                    |
+|--------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Course                         | CCE 194R — Aerial Measurement                                                                                              |
+| Credits                        | 1 credit                                                                                                                   |
+| Lecture                        | Tuesdays, 9:00–9:50 a.m.                                                                                                   |
+| Lab                            | Thursdays, 8:00–9:50 a.m.                                                                                                  |
+| Instructor and TA Information  | See the [Course Staff](https://byu-cce-aerial-measurements.readthedocs.io/en/latest/class_resources/ta/tas/) page          |
+| Office Hours                   | See the [Office Hours Schedule](https://byu-cce-aerial-measurements.readthedocs.io/en/latest/class_resources/ta/ta_hours/) |
+| Primary Communication Platform | Microsoft Teams                                                                                                            |
 
 ---
 
 ## Description
 
-This 1-credit freshman course introduces students to drone applications in civil and environmental engineering. Students will learn foundational drone safety, flight procedures, basic surveying concepts, GIS workflows, mission planning, photogrammetry processing, and FAA Part 107 preparation. The course combines short lectures, hands-on labs, field activities, data-processing exercises, and a group final project.
+This 1-credit freshman course introduces students to drone applications in civil and construction engineering. Students will learn foundational drone safety, flight procedures, basic surveying concepts, GIS workflows, mission planning, photogrammetry processing, and FAA Part 107 preparation. The course combines short lectures, hands-on labs, field activities, data-processing exercises, and a group final project.
 
 Students will begin with small indoor drones to build confidence with controls and flight safety before progressing to larger mission-capable drones. The course emphasizes professional field habits, including checklists, careful preparation, safety awareness, teamwork, and responsible data collection.
 
@@ -42,6 +42,7 @@ By the end of this course, students will be able to:
 10. Compare different drone sensor types, including RGB cameras, LiDAR, thermal, multispectral, and radar-based systems.
 11. Work in a team to plan, fly, process, and communicate results from a drone-based project.
 12. Present drone project results clearly through written, visual, and oral communication.
+13. Fundamental surveying concepts
 
 ---
 
@@ -49,25 +50,25 @@ By the end of this course, students will be able to:
 
 Course grades will be based on completion, preparation, participation, lab performance, assessments, and a final group project.
 
-| Category                   | Weight    |
-|----------------------------|-----------|
-| Pre-class reading quizzes  | 7.5%      |
-| Lecture attendance         | 10%       |
-| Homework                   | 15%       |
-| Lab work                   | 30%       |
-| Lab attendance             | 10%       |
-| Exams and certificates     | 12.5%     |
-| Final project              | 15%       |
-| **Total**                  | **100%**  |
+| Category                  | Weight    |
+|---------------------------|-----------|
+| Pre-class reading quizzes | 7.5%      |
+| Lecture attendance        | 10%       |
+| Homework                  | 15%       |
+| Lab work                  | 30%       |
+| Lab attendance            | 10%       |
+| Exams                     | 12.5%     |
+| Final project             | 15%       |
+| **Total**                 | **100%**  |
 
-### Exams and Certificates
+### Exams
 
 | Item                    | Weight  |
 |-------------------------|---------|
 | TRUST Certificate       | 2.5%    |
 | Part 107 Practice Test  | 10%     |
 
-Students must complete the TRUST Certificate before participating in flight labs that require it.
+Students **MUST** complete the TRUST Certificate before participating in flight labs that require it.
 
 ### Final Project Breakdown
 
@@ -81,9 +82,9 @@ Students must complete the TRUST Certificate before participating in flight labs
 
 ### Part 107 Practice Test Policy
 
-The Part 107 practice test is intended to help students prepare for the real FAA Remote Pilot Certificate exam. The course practice test will include 60 questions and a 2-hour time limit. The passing threshold is 70%, or 42 out of 60 questions.
+The Part 107 practice test is intended to help students prepare for the FAA Remote Pilot Certificate exam if they are seeking licensure. The course practice test will include 60 questions and a 2-hour time limit. The passing threshold is 70%, or 42 out of 60 questions.
 
-The practice test will use proctored-style settings, including one question per page and access to the FAA supplement as a PDF resource.
+The practice test will the Part 107 exam by using proctored-style settings, including one question per page and access to the FAA supplement as a PDF resource.
 
 Students will receive two automatic attempts during the assigned test window. After the first attempt, students may review missed questions to guide further study.
 
@@ -137,7 +138,7 @@ Attendance is required for both lectures and labs. Drone work depends on safety 
 
 Lecture attendance will be tracked through roll call or another attendance method. Lab attendance will be tracked using a lab sign-in sheet. Lab sign-ins are also important for safety and regulatory tracking.
 
-Attendance is recorded for every lecture and lab meeting. No absences are automatically dropped. Because many course activities involve safety training, group coordination, and hands-on flight work, students are expected to attend consistently. Missing class may affect the attendance portion of the course grade and may make it difficult to complete required lab activities.
+Attendance is recorded for every lecture and lab time. No absences are automatically dropped. Because many course activities involve safety training, group coordination, and hands-on flight work, students are expected to attend consistently. Missing class may affect the attendance portion of the course grade and may make it difficult to complete required lab activities.
 
 Because some flight activities depend on weather and equipment availability, students are expected to be flexible and responsive to schedule adjustments. If a student must miss a lab, they should contact the instructor or TA as early as possible.
 
@@ -187,7 +188,7 @@ Checklists should include both:
 1. **Equipment lists** — items required for the mission, such as charged batteries, SD cards, controllers, chargers, laptops, and field supplies.
 2. **Procedure lists** — step-by-step actions before, during, and after flight.
 
-Students will also have access to a more detailed course flight checklist that will be used throughout the semester during labs and field activities. (Add hyperlink to checklist when available.)
+Students will also have access to a more detailed course flight checklist that will be used throughout the semester during labs and field activities. (A hyperlink will be added after the Checklist lab)
 
 ---
 
@@ -217,7 +218,7 @@ This course is built around hands-on learning, curiosity, and professional habit
 
 The course uses a “think first, then refine” approach. For example, students may first create a checklist before being shown a professional example. This helps students identify what they already understand, discover what they missed, and appreciate why formal procedures matter.
 
-Labs are designed to help students learn by doing. Mistakes, questions, and revisions are part of the learning process, especially when students are working with new tools, software, and field procedures. At the same time, safety-related instructions must be followed carefully and immediately.
+Labs are designed to help students learn by doing. Mistakes (short of crashing the drones), questions, and revisions are part of the learning process, especially when students are working with new tools, software, and field procedures. At the same time, safety-related instructions must be followed carefully and immediately.
 
 The goal of the course is not only to teach students how drones work, but also to help them think like responsible engineers: prepared, observant, collaborative, precise, and safety-minded.
 
