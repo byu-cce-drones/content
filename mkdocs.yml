@@ -55,7 +55,7 @@ nav:
 
   - Labs:
         - Intro to Flying: labs/0_intro_to_flying.md
-        - Pre Flight Checklist: labs/1_pre_flight_checklist.md
+        - Flight Checklist: labs/1_flight_checklist.md
         - Measurements and Methods: labs/2_measurements_and_methods.md
         - Creating Flight Plans: labs/3_creating_flight_plans.md
         - Rock Canyon Park Flight: labs/4_rock_canyon_flight.md
