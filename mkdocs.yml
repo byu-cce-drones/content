@@ -74,6 +74,6 @@ nav:
   - Final Project:
         - Overview: final_project/overview.md
         - Project Proposal: final_project/proposal.md
-        - Flight and Data Processing: final_project/flight_and_processing.md
+        - Flight and Data Processing: final_project/flight_and_data_processing.md
         - Project Presentation: final_project/presentation.md
         - Final Report: final_project/report.md
