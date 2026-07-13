@@ -33,3 +33,8 @@ Personal & Safety Items
 3. Water bottle
 4. Closed toe comfortable shoes
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/liMN6IHESV8?si=JLT2RD50mZdSzmNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+![logo_with_coming_soon.png](../images/logo_with_coming_soon.png)
+
+[Youtube](www.youtube.com)
