@@ -106,4 +106,5 @@ A comprehensive pre-flight checklist is essential for ensuring the safety and su
   <li>Enjoy your mission</li>
 </ul>
 
-<h3>Tyope Something
+<h3> Multi-Drone Disclaimer
+It is important to not that not all drones have all the same components or needs when it comes to a pre-flight checklist. For drone-specific information, ask an instructor for help knowing what might differ from one drone to another. 
