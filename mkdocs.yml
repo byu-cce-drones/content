@@ -30,7 +30,7 @@ nav:
 
   - Class Resources:
       - Syllabus: class_resources/syllabus.md
-      - Grading Policy: class_resources/grading_policy.md
+#      - Grading Policy: class_resources/grading_policy.md
       - Teaching Assistants (TAs):
           - About the TAs: class_resources/ta/tas.md
           - Office Hours: class_resources/ta/ta_hours.md
