@@ -307,7 +307,7 @@ Your completed diagram should demonstrate that you understand how the controller
 
 ### Part 2 – Basic Drone Safety Procedures
 
-Write a short summary explaining the basic safety procedures discussed during the lab.
+Write a short summary explaining the basic safety procedures discussed during the lab in regards to using the Holy Stone Mini Drones.
 
 Your response should address safety:
 
@@ -337,7 +337,6 @@ In the next lab, you will build on the skills practiced today.
 
 The next lab will focus more heavily on:
 
-* Flight Checklists
 * Precision hovering
 * Maintaining altitude
 * Directional control
