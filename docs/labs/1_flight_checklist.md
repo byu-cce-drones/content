@@ -37,4 +37,3 @@ Personal & Safety Items
 
 ![logo_with_coming_soon.png](../images/logo_with_coming_soon.png)
 
-[Youtube](www.youtube.com)

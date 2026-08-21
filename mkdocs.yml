@@ -50,7 +50,7 @@ nav:
       - Multispectral Imaging: gen_reading/multispectral.md
 
   - Software:
-      - QGIS: software/qgis.md
+      - QGIS: software/qgis_measurements.md
       - Bentley: software/bentley_itwin.md
 
   - Labs:
