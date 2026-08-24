@@ -264,9 +264,13 @@ Before leaving the lab, consider the following questions:
 * What equipment was unique to certain aircraft?
 * Why might the checklist change depending on the mission even when using the same drone?
 
+You will be asked to answer these questions in the Learning Suite quiz associated with this lab.
+
 ---
 
 ## Homework
+
+Complete the following assignment after the lab. You will complete the questions in the Learning Suite quiz associated with this lab. The assignment is due before the next lab session.
 
 ### Create a Generic Drone Flight Checklist
 
