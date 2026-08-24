@@ -272,7 +272,7 @@ Before leaving the lab, consider the following questions:
 
 Create your own generic drone flight checklist that could be used as a starting point for a variety of drone operations.
 
-Your checklist must include three sections:
+You will turn in three separate checklist on the following sections:
 
 1. **Pre-Flight**
 2. **During Flight**
