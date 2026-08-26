@@ -336,6 +336,8 @@ Before leaving the lab, consider the following questions:
 * **Choosing a Method**: In what situation might pacing be appropriate? When might Google Maps be sufficient? When would drone imagery and GIS be worth the additional time and effort?
 * **Engineering Impact**: How could measurement uncertainty affect an engineering or construction decision?
 
+You will be asked to answer these questions in the Learning Suite quiz associated with this lab.
+
 ---
 
 ## Homework
