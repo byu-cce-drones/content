@@ -94,7 +94,7 @@ Throughout the lab, pay attention to:
 You may complete this lab using either the **online results table** or a printed **lab worksheet**.
 
 !!! success "Lab Materials"
-    [**Open the Measurement Results Table**](PASTE-LINK-HERE){target="_blank"}
+    [**Open the Measurement Results Table**](#measurement-results)
 
     **Printable Lab Worksheet:** Coming Soon
 
@@ -327,13 +327,14 @@ Consider:
 
 Before leaving the lab, consider the following questions:
 
+* **Prediction Check**: Did the measurement methods rank in accuracy the way you predicted at the beginning of the lab? Why or why not?
 * **The Winner**: Which method produced the largest value? Which produced the smallest?
-* **Accuracy vs. Effort**: Which method required the most effort? Which was the fastest?
-* **Field Measurement**: What factors affected the accuracy of your pacing measurement?
-* **Resolution Impact**: How much easier was it to identify the edge of the parking lot in the drone imagery compared with Google Maps?
-* **Uncertainty**: Which method had the greatest amount of uncertainty? Why?
-* **The "Ground Truth"**: If the measurements do not match, which result do you trust most? Why?
-* **Choosing a Method**: In what situation might pacing be appropriate? When might Google Maps be sufficient? When would drone imagery and GIS be worth the additional effort?
+* **Accuracy vs. Effort**: Which method required the most effort? Which was the fastest or easiest to complete?
+* **Field Measurement**: What were the largest sources of error or uncertainty when using pacing?
+* **Resolution Impact**: How did the resolution of the drone imagery affect your ability to identify and measure the parking lot boundary compared with Google Maps?
+* **The "Ground Truth"**: If the measurements do not match, which result do you trust most? What evidence supports your choice?
+* **Choosing a Method**: In what situation might pacing be appropriate? When might Google Maps be sufficient? When would drone imagery and GIS be worth the additional time and effort?
+* **Engineering Impact**: How could measurement uncertainty affect an engineering or construction decision?
 
 ---
 
