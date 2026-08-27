@@ -357,3 +357,33 @@ Be prepared to discuss:
 ---
 
 ## Looking Ahead
+
+In the next lab, you will apply concepts introduced in the upcoming lecture to plan an actual aerial mapping mission.
+
+Working in groups, you will create a flight plan for a short mapping mission at **Rock Canyon Park**. Your group will need to make decisions about how the drone should fly while working within the time and operational constraints of the mission.
+
+You will consider factors such as:
+
+* Mission objective
+* Flight altitude
+* Camera angle
+* Front overlap
+* Side overlap
+* Flight speed
+* Total flight time
+* Battery usage
+* Terrain elevation
+* Coordination with other flight groups
+
+These decisions directly affect both the efficiency of the flight and the quality of the imagery collected.
+
+For example, changing the flight altitude can affect image detail, the number of photographs required, and the total mission duration. Changing image overlap can affect how well photographs can be matched together when creating a model or orthomosaic. 
+
+The goal of the next lab is to move from **using completed drone imagery** to understanding how a mapping mission is designed before the aircraft ever leaves the ground.
+
+As you prepare for the next lab, begin thinking about an important question:
+
+!!! question "Planning Tradeoffs"
+    If you want higher-quality imagery, what changes might you make to the flight plan?
+
+    What tradeoffs could those changes create in flight time, battery usage, number of photographs, or processing requirements?
