@@ -1,4 +1,4 @@
-# Week 5 — FAA Exam Planning and Overview
+# The Part 107 Exam
 
 This page provides a comprehensive overview of the FAA Part 107 Remote Pilot Certificate exam: what it covers, eligibility requirements, and a step-by-step plan for the certification process. Use this alongside the [Knowledge Review](part_107_knowledge_review.md) for a complete study package.
 
@@ -51,10 +51,10 @@ It is important to understand when Part 107 applies versus other regulatory path
 
 **When is Part 107 required?** Any time you fly a drone for commercial purposes — including real estate photography, construction surveying, agricultural inspection, mapping, or any operation where you receive compensation or the flight furthers a business interest. If you are a civil engineering student using drones for project work or research, Part 107 applies.
 
-![Figure 1 — UAS Operations Regulatory Pathway](images/fig01_regulatory_flowchart.svg)
+![Figure 1 — UAS Operations Regulatory Pathway](images/w05_fig01_regulatory_flowchart.svg)
 *Figure 1: Decision flowchart showing the three main regulatory pathways for UAS operations in the United States.*
 
-![Figure 3 — FAA Regulatory Structure](images/fig03_faa_structure.svg)
+![Figure 3 — FAA Regulatory Structure](images/w05_fig03_faa_structure.svg)
 *Figure 3: The FAA regulatory hierarchy — Part 107 sits within Title 14 of the Code of Federal Regulations under the FAA.*
 
 ### Practice Questions — Regulations
@@ -121,7 +121,7 @@ Once TSA vetting is complete, you can download a temporary certificate from IACR
 **Step 8 — Receive Permanent Certificate**
 Your permanent Remote Pilot Certificate card is mailed to you, typically within several weeks.
 
-![Figure 4 — Part 107 Certification Process](images/fig04_certification_process.svg)
+![Figure 4 — Part 107 Certification Process](images/w05_fig04_certification_process.svg)
 *Figure 4: Step-by-step certification process from IACRA registration through permanent certificate.*
 
 ### C. Recurrent Training Requirements
@@ -176,7 +176,7 @@ You are provided a **testing supplement** that includes sectional chart excerpts
 
 The exam covers the following topics with approximate weightings:
 
-![Figure 7 — Exam Topic Distribution](images/fig07_exam_topics.svg)
+![Figure 7 — Exam Topic Distribution](images/w05_fig07_exam_topics.svg)
 *Figure 7: Approximate distribution of exam topics. Airspace and regulations together account for roughly 40% of the exam.*
 
 **Summary of knowledge areas:**
@@ -218,7 +218,7 @@ Airspace is the single most heavily tested topic on the Part 107 exam. You must 
 
 The NAS divides airspace into six classes:
 
-![Figure 11 — Airspace Classification](images/fig11_airspace_classes.svg)
+![Figure 11 — Airspace Classification](images/w05_fig11_airspace_classes.svg)
 *Figure 11: Vertical profile of the National Airspace System showing all airspace classes. Note the Part 107 400 ft AGL limit at the bottom.*
 
 | Class | Type | Altitude | ATC Auth. for sUAS? | Notes |
@@ -246,12 +246,12 @@ Sectional charts are the standard visual flight rules (VFR) aeronautical charts.
 
 The figure below shows an excerpt of the Salt Lake City sectional chart. Notice the SLC Class B airspace depicted by concentric solid blue lines with altitude labels, restricted areas R-6404 and R-6402 shown with hatched brown boundaries, towered airports in blue, non-towered airports in magenta, and terrain elevation contours across the Wasatch Front corridor from Ogden down to Provo.
 
-![Figure 10 — Salt Lake City Sectional Chart Excerpt](images/fig10_slc_sectional_excerpt.jpg)
+![Figure 10 — Salt Lake City Sectional Chart Excerpt](images/w05_fig10_slc_sectional_excerpt.jpg)
 *Figure 10: Excerpt from the FAA Salt Lake City Sectional Aeronautical Chart showing Class B airspace, restricted areas, airports, and terrain along the Wasatch Front. Source: [FAA VFR Raster Charts](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/) (public domain). Not for navigation.*
 
 The chart legend below shows the standard symbols used on all FAA sectional charts. Practice matching these symbols to what you see on the chart excerpt above — identify the airport types, airspace boundaries, obstruction markers, and communication frequencies.
 
-![Figure 10b — Sectional Chart Legend](images/fig10b_sectional_chart_legend.jpg)
+![Figure 10b — Sectional Chart Legend](images/w05_fig10b_sectional_chart_legend.jpg)
 *Figure 10b: Sectional chart legend from the Salt Lake City chart showing airport symbols, airspace depictions, communication boxes, radio aids, obstructions, and topographic information. Source: [FAA VFR Raster Charts](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/) (public domain).*
 
 Practice reading the legend and identifying these features on actual charts before the exam. The FAA testing supplement provides the chart excerpts you will use during the test.
@@ -309,10 +309,13 @@ Part 107 establishes the following operating rules for sUAS:
 | **Multiple aircraft** | One pilot, one drone at a time (unless waiver obtained) |
 | **Aircraft weight** | Under 55 lbs (including payload) at takeoff |
 
-![Figure 13 — Visual Line of Sight Requirement](images/fig13_vlos.svg)
+![Figure 12 — Three Absolute Prohibitions](images/w05_fig12_prohibitions.svg)
+*Figure 12: The three limits that most often catch out new remote pilots. Some can be waived with an approved safety case, as shown in the next section, but ATC authorization in controlled airspace cannot.*
+
+![Figure 13 — Visual Line of Sight Requirement](images/w05_fig13_vlos.svg)
 *Figure 13: The remote PIC must maintain direct visual contact with the sUAS at all times. A Visual Observer may assist but does not replace the PIC's VLOS obligation.*
 
-![Figure 14 — 400 ft AGL Altitude Rule](images/fig14_400ft_agl.svg)
+![Figure 14 — 400 ft AGL Altitude Rule](images/w05_fig14_400ft_agl.svg)
 *Figure 14: In open areas, the maximum altitude is 400 ft AGL. Near a structure, you may fly up to 400 ft above the structure's top, provided you remain within 400 ft horizontally of the structure.*
 
 ### B. Waivers
@@ -519,7 +522,7 @@ Good decision-making is as important as technical knowledge. The FAA emphasizes 
 
 PAVE is a structured framework for pre-flight risk assessment. Before every flight, evaluate each element:
 
-![Figure 22 — PAVE Risk Assessment](images/fig22_pave.svg)
+![Figure 22 — PAVE Risk Assessment](images/w05_fig22_pave.svg)
 *Figure 22: The PAVE checklist systematically evaluates four risk categories before flight.*
 
 - **P — Pilot**: Am I physically and mentally fit? Current and proficient?
@@ -533,7 +536,7 @@ If any element raises concern, mitigate the risk or make a no-go decision.
 
 IMSAFE is a personal fitness self-assessment:
 
-![Figure 23 — IMSAFE Checklist](images/fig23_imsafe.svg)
+![Figure 23 — IMSAFE Checklist](images/w05_fig23_imsafe.svg)
 *Figure 23: The IMSAFE checklist for self-assessing personal fitness to fly.*
 
 - **I** — Illness: Am I sick?
@@ -639,7 +642,7 @@ Under 14 CFR 107.9, the remote PIC must report to the FAA within **10 days** if 
 
 Reports are filed through the **FAA DroneZone** portal.
 
-![Figure 26 — Accident Reporting Decision Tree](images/fig26_accident_reporting.svg)
+![Figure 26 — Accident Reporting Decision Tree](images/w05_fig26_accident_reporting.svg)
 *Figure 26: Use this decision tree to determine whether an incident requires FAA reporting.*
 
 !!! warning "Key Point"

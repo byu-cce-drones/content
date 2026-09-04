@@ -1,4 +1,4 @@
-# Week 5 — Part 107 Study Resources
+# Part 107 Study Resources
 
 A curated set of study resources for the FAA Part 107 Remote Pilot test, organized by resource type with brief descriptions and recommended use.
 

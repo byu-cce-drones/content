@@ -1,4 +1,4 @@
-# Week 5 Mini-Exam
+# Part 107 Mini-Exam
 
 ## FAA Part 107 Sectional Chart Practice (Figure 10)
 
@@ -7,7 +7,7 @@
 ## Sectional Chart Reference
 
 ![Figure 10 - Sectional Chart
-Excerpt](images/fig10_slc_sectional_excerpt.jpg)
+Excerpt](images/w05_fig10_slc_sectional_excerpt.jpg)
 
 ------------------------------------------------------------------------
 

@@ -1,4 +1,4 @@
-# Week 5 — Part 107 Knowledge Review
+# Part 107 Knowledge Review
 
 This page provides concise study notes covering the core knowledge areas required for the FAA Part 107 Remote Pilot certificate: regulations, airspace, sectional charts, weather, and operations.
 

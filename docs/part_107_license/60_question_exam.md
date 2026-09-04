@@ -1,11 +1,11 @@
 # FAA Part 107 Comprehensive Practice Exam (60 Questions)
-## Week 5 — FAA-Level Difficulty
+## Topic 5 — FAA-Level Difficulty
 
 ---
 
 ## Sectional Chart Reference (Figure 10 — Salt Lake City Area)
 
-![Figure 10 - Sectional Chart Excerpt](images/fig10_slc_sectional_excerpt.jpg)
+![Figure 10 - Sectional Chart Excerpt](images/w05_fig10_slc_sectional_excerpt.jpg)
 
 ---
 
