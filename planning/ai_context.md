@@ -12,7 +12,7 @@ per-project memory does not.
 personal fork was deleted on 2026-09-04.
 
 **The working folder was renamed.** It is no longer `G:\GIT_Repo\content`; the clone was recreated
-under a folder carrying the org name (expected `G:\GIT_Repoyu-cce-drones-content`). Confirm the
+under a folder carrying the org name (expected `G:\GIT_Repo\byu-cce-drones-content`). Confirm the
 real path from the session's working directory rather than assuming it. Claude Code keys memory and
 history to a slug derived from that path, so if a session starts knowing nothing about this project,
 that is why, and this section is the recovery point.
