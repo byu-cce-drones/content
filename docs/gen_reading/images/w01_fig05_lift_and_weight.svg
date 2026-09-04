@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="430" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 5: Lift against weight</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">The propellers push air down. What the aircraft does next depends only on how that lift compares with its weight.</text>
+  <g>
+    <rect x="65.0" y="84" width="250" height="310" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <text x="190" y="354" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Descends</text>
+    <text x="190" y="378" text-anchor="middle" font-size="12.5" fill="#555555">lift is less than weight</text>
+  </g>
+  <g transform="translate(190,234)">
+    <g transform="scale(0.95)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="156" y1="210" x2="156.0" y2="194.0" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="156,184 161.0,194.0 151.0,194.0" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="224" y1="210" x2="224.0" y2="194.0" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="224,184 229.0,194.0 219.0,194.0" fill="#4a90d9"/>
+  </g>
+  <text x="190" y="172" text-anchor="middle" font-size="12.5" fill="#4a90d9">lift</text>
+  <g>
+    <line x1="190" y1="258" x2="190.0" y2="292.0" stroke="#555555" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="190,302 185.0,292.0 195.0,292.0" fill="#555555"/>
+  </g>
+  <text x="190" y="322" text-anchor="middle" font-size="12.5" fill="#555555">weight</text>
+  <g>
+    <rect x="325.0" y="84" width="250" height="310" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <text x="450" y="354" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Hovers</text>
+    <text x="450" y="378" text-anchor="middle" font-size="12.5" fill="#555555">lift exactly balances weight</text>
+  </g>
+  <g transform="translate(450,234)">
+    <g transform="scale(0.95)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="416" y1="210" x2="416.0" y2="176.0" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="416,166 421.0,176.0 411.0,176.0" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="484" y1="210" x2="484.0" y2="176.0" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="484,166 489.0,176.0 479.0,176.0" fill="#4a90d9"/>
+  </g>
+  <text x="450" y="154" text-anchor="middle" font-size="12.5" fill="#4a90d9">lift</text>
+  <g>
+    <line x1="450" y1="258" x2="450.0" y2="292.0" stroke="#555555" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="450,302 445.0,292.0 455.0,292.0" fill="#555555"/>
+  </g>
+  <text x="450" y="322" text-anchor="middle" font-size="12.5" fill="#555555">weight</text>
+  <g>
+    <rect x="585.0" y="84" width="250" height="310" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <text x="710" y="354" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Climbs</text>
+    <text x="710" y="378" text-anchor="middle" font-size="12.5" fill="#555555">lift is greater than weight</text>
+  </g>
+  <g transform="translate(710,234)">
+    <g transform="scale(0.95)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="676" y1="210" x2="676.0" y2="156.0" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="676,146 681.0,156.0 671.0,156.0" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="744" y1="210" x2="744.0" y2="156.0" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="744,146 749.0,156.0 739.0,156.0" fill="#4a90d9"/>
+  </g>
+  <text x="710" y="134" text-anchor="middle" font-size="12.5" fill="#4a90d9">lift</text>
+  <g>
+    <line x1="710" y1="258" x2="710.0" y2="292.0" stroke="#555555" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="710,302 705.0,292.0 715.0,292.0" fill="#555555"/>
+  </g>
+  <text x="710" y="322" text-anchor="middle" font-size="12.5" fill="#555555">weight</text>
+</svg>

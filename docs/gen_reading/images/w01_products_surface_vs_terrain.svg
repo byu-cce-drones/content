@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="420" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">What the model includes</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Same flight, same site, two different surfaces. Which one you need depends on the question.</text>
+  <rect x="60" y="84" width="380" height="250" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="250" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Surface model (DSM)</text>
+  <text x="250" y="134" text-anchor="middle" font-size="11.5" fill="#555555">everything the drone saw</text>
+  <g opacity="1">
+    <rect x="224" y="201.46666666666667" width="52" height="44.0" fill="#c2cad2" stroke="#333333" stroke-width="1.5"/>
+  </g>
+  <g opacity="1">
+    <line x1="142" y1="252.13333333333333" x2="142" y2="233.73333333333335" stroke="#8a6a45" stroke-width="4"/>
+    <circle cx="142" cy="223.61333333333334" r="19.32" fill="#7fa87f" stroke="#5f855f" stroke-width="1.5"/>
+  </g>
+  <g opacity="1">
+    <line x1="342" y1="227.4" x2="342" y2="212.2" stroke="#8a6a45" stroke-width="4"/>
+    <circle cx="342" cy="203.84" r="15.959999999999999" fill="#7fa87f" stroke="#5f855f" stroke-width="1.5"/>
+  </g>
+  <path d="M100,268 L190,234 L280,246 L400,210" fill="none" stroke="#9a8f78" stroke-width="3"/>
+  <path d="M100.0,266.0 L122.7,257.4 L122.7,204.3 L161.3,204.3 L161.3,242.8 L224.0,236.5 L224.0,201.5 L276.0,201.5 L276.0,243.5 L326.0,230.2 L326.0,187.9 L358.0,187.9 L358.0,220.6 L400.0,208.0" fill="none" stroke="#4a90d9" stroke-width="3" stroke-linejoin="round"/>
+  <text x="250" y="310" text-anchor="middle" font-size="12.5" fill="#555555">use it to check clearances and heights</text>
+  <rect x="460" y="84" width="380" height="250" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="650" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Terrain model (DTM)</text>
+  <text x="650" y="134" text-anchor="middle" font-size="11.5" fill="#555555">bare ground, trees and buildings stripped out</text>
+  <g opacity="0.22">
+    <rect x="624" y="201.46666666666667" width="52" height="44.0" fill="#c2cad2" stroke="#333333" stroke-width="1.5"/>
+  </g>
+  <g opacity="0.22">
+    <line x1="542" y1="252.13333333333333" x2="542" y2="233.73333333333335" stroke="#8a6a45" stroke-width="4"/>
+    <circle cx="542" cy="223.61333333333334" r="19.32" fill="#7fa87f" stroke="#5f855f" stroke-width="1.5"/>
+  </g>
+  <g opacity="0.22">
+    <line x1="742" y1="227.4" x2="742" y2="212.2" stroke="#8a6a45" stroke-width="4"/>
+    <circle cx="742" cy="203.84" r="15.959999999999999" fill="#7fa87f" stroke="#5f855f" stroke-width="1.5"/>
+  </g>
+  <path d="M500,268 L590,234 L680,246 L800,210" fill="none" stroke="#9a8f78" stroke-width="3"/>
+  <path d="M500,268 L590,234 L680,246 L800,210" fill="none" stroke="#4a90d9" stroke-width="3" stroke-dasharray="9 6"/>
+  <text x="650" y="310" text-anchor="middle" font-size="12.5" fill="#555555">use it for earthwork, drainage and grading</text>
+  <text x="450" y="396" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Digital Elevation Model (DEM) is the umbrella term you will also hear for both of these.</text>
+</svg>

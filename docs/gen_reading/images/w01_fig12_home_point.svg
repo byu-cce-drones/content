@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="440" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 12: Holding position, with and without satellites</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">A drone that knows where it is will sit still. One that does not will drift, and it will not tell you loudly.</text>
+  <rect x="80" y="84" width="350" height="320" rx="12" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="255" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Satellites locked</text>
+  <g transform="translate(255,158)">
+    <g>
+      <path d="M-12,0 a12,12 0 0,1 24,0" fill="none" stroke="#4a90d9" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M-20,0 a20,20 0 0,1 40,0" fill="none" stroke="#4a90d9" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M-28,0 a28,28 0 0,1 56,0" fill="none" stroke="#4a90d9" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+  </g>
+  <line x1="115" y1="300" x2="395" y2="300" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(195,282)">
+    <g>
+      <path d="M-13,2 l13,-11 l13,11 v15 h-26 z" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+      <text x="0" y="14" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">H</text>
+    </g>
+  </g>
+  <line x1="195" y1="278" x2="195" y2="214" stroke="#c8d0d8" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <g transform="translate(195,214)">
+    <g transform="scale(0.7)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <text x="195" y="254" text-anchor="middle" font-size="12" fill="#4a90d9">stays put</text>
+  <text x="255" y="348" text-anchor="middle" font-size="12.5" fill="#555555">The aircraft holds its position</text>
+  <text x="255" y="366" text-anchor="middle" font-size="12.5" fill="#555555">and knows where home is</text>
+  <rect x="470" y="84" width="350" height="320" rx="12" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="645" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Satellite signal lost</text>
+  <g transform="translate(645,158)">
+    <g>
+      <path d="M-12,0 a12,12 0 0,1 24,0" fill="none" stroke="#c8d0d8" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M-20,0 a20,20 0 0,1 40,0" fill="none" stroke="#c8d0d8" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M-28,0 a28,28 0 0,1 56,0" fill="none" stroke="#c8d0d8" stroke-width="2.4" stroke-linecap="round"/>
+      <g stroke="#e74c3c" stroke-width="3" stroke-linecap="round">
+        <line x1="-14" y1="-22" x2="14" y2="2"/>
+        <line x1="14" y1="-22" x2="-14" y2="2"/>
+      </g>
+    </g>
+  </g>
+  <line x1="505" y1="300" x2="785" y2="300" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(585,282)">
+    <g>
+      <path d="M-13,2 l13,-11 l13,11 v15 h-26 z" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+      <text x="0" y="14" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">H</text>
+    </g>
+  </g>
+  <line x1="585" y1="278" x2="585" y2="214" stroke="#c8d0d8" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <g transform="translate(685,214)">
+    <g transform="scale(0.7)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="517" y1="196" x2="545.0" y2="196.0" stroke="#9aa7b2" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="553,196 545.0,200.0 545.0,192.0" fill="#9aa7b2"/>
+  </g>
+  <g>
+    <line x1="517" y1="232" x2="545.0" y2="232.0" stroke="#9aa7b2" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="553,232 545.0,236.0 545.0,228.0" fill="#9aa7b2"/>
+  </g>
+  <text x="535" y="182" text-anchor="middle" font-size="12" fill="#555555">wind</text>
+  <g>
+    <line x1="611" y1="214" x2="639.0" y2="214.0" stroke="#e74c3c" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="649,214 639.0,219.0 639.0,209.0" fill="#e74c3c"/>
+  </g>
+  <text x="685" y="254" text-anchor="middle" font-size="12" fill="#e74c3c">drifts</text>
+  <text x="645" y="348" text-anchor="middle" font-size="12.5" fill="#555555">The aircraft drifts with the wind</text>
+  <text x="645" y="366" text-anchor="middle" font-size="12.5" fill="#555555">and must be flown by hand</text>
+</svg>

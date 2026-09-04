@@ -1,150 +1,95 @@
-# Class Overview and Structure
+# Welcome to Drone Measurements
+
+![Students flying on campus](images/w01_overview_photo_placeholder.svg){ width="100%" }
+
+You will fly a drone in the first lab of this class. By the end of the semester you will be able to
+put one over a construction site, turn what it saw into a map, measure something off that map, and
+defend the number when a client asks where it came from.
+
+That last part is what makes this an engineering course rather than a flying course.
 
 !!! abstract "Key Takeaways"
-    - **Drones are Tools for Measurement**: This course isn't just about flying; it's about using drones as professional engineering instruments.
-    - **Engineering Judgment is Primary**: Before collecting data, you must ask: Is this data appropriate, reliable, and defensible for the decision I need to make?
-    - **Accuracy vs. Effort**: Not every task requires centimeter-level precision. Choosing the right measurement method (pacing vs. GPS vs. drone) is a core engineering skill.
+    - **A drone is a measuring instrument.** It happens to fly. What matters is the data it brings
+      back.
+    - **Accuracy is something you buy.** More of it costs more time, money, and effort. Deciding how
+      much you actually need is part of the job.
+    - **You have to be able to defend the number.** Anyone can produce a measurement. An engineer
+      can explain why it is good enough for the decision being made.
 
 ---
 
-## Introduction
+## What you'll do this semester
 
-Welcome to **Drone Measurements**. This course is grounded in a fundamental principle of civil engineering:
-**engineering decisions are only as good as the measurements that support them**.
+![The six weeks of the course](images/w01_overview_semester.svg){ width="100%" }
 
-Civil engineers routinely operate under constraints of accuracy, time, cost, safety, and available
-technology. In some situations, approximate measurements — such as pacing distances or visual
-estimates — are sufficient to inform decisions. In other cases, engineering judgment requires
-high-quality, well-documented data, such as orthomosaics or 3D models with centimeter-level accuracy.
+*Six weeks, one hour each. Every week builds on the one before it.*
 
-This course introduces drone-based measurement methods as tools that support engineering analysis,
-design, and decision-making. Emphasis is placed not only on data collection, but on evaluating whether
-the collected data are **appropriate, reliable, and defensible** for a given engineering application.
+Each week is a short lecture followed by something you actually do: a flight, a lab, or a piece of
+software. The [flight checklists](../class_resources/flight_check_list/index.md) and
+[Flight Basics](flight_basics.md) are there whenever you need them.
 
 ---
 
-## Engineering Use of Drones for Measurement
+## Before you fly: the TRUST certificate
 
-Unmanned Aerial Systems (UAS), commonly referred to as drones, have become valuable tools in civil
-engineering practice. When properly applied, drones enable engineers to:
+Anyone flying a drone recreationally in the United States has to pass **TRUST**, The Recreational
+UAS Safety Test. You need yours before the first lab, and you will not be allowed to fly without it.
 
-- Collect spatial data efficiently over large or complex sites
-- Improve safety by reducing exposure to hazardous environments
-- Acquire repeatable measurements to support monitoring and change detection
-- Integrate spatial data into engineering analysis, modeling, and design workflows
+It is not an exam in any meaningful sense. It is a short set of questions with a bit of reading
+attached, and it is designed so that everyone passes.
 
-However, drone data quality depends on engineering decisions made during planning, flight execution,
-and data processing. Understanding these dependencies is essential to responsible engineering practice.
+| | |
+|---|---|
+| Cost | Free |
+| Where | Online, through any FAA-approved administrator |
+| How long | About 30 minutes |
+| Can you fail it? | No. Miss a question and it shows you the answer, then asks again |
+| Does it expire? | No |
+| Do you carry it? | Yes, whenever you fly |
 
----
+It covers the basics you would want any pilot near you to know: where you may and may not fly,
+staying below 400 feet, keeping the aircraft in sight, giving way to crewed aircraft, and when a
+drone has to be registered.
 
-## Visual Measurements: Photos and Orthomosaics
+!!! warning "Save your certificate when you finish"
+    The FAA does not keep a copy. The certificate is issued to you once, and if you lose it your
+    only option is to take the test again. Download the PDF, then email it to yourself.
 
-### Aerial Photographs
+    [Take the TRUST test](https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates){target="_blank"}
 
-Aerial photographs represent the simplest form of drone-based measurement. When camera properties,
-flight altitude, and geometry are understood, distances and areas can be estimated directly from images.
-
-Aerial photographs are commonly used for:
-
-- Preliminary site reconnaissance
-- Visual documentation of existing conditions
-- Identifying features relevant to engineering analysis
-- Approximate measurements when high precision is not required
-
-Engineers must recognize the limitations of photographic measurements and assess whether their accuracy
-is sufficient for the intended application.
+TRUST covers the flying you do in this class. **Part 107** is the separate certificate you need to
+fly for work, and [Topic 5](../part_107_license/faa_exam_planning_and_overview.md) is devoted to earning it.
 
 ---
 
-### Orthomosaics
+## Why engineers care
 
-An **orthomosaic** is produced by processing multiple overlapping images into a single geometrically
-corrected image with a uniform scale. Orthomosaics allow consistent measurement across the entire image
-and reduce distortions present in individual photographs.
+Every project has a budget and a deadline. A measurement ten times more accurate than the decision
+requires is wasted money. One that is not accurate enough is worse than useless, because it still
+looks like an answer.
 
-Orthomosaics support engineering tasks such as:
+![Accuracy against time, cost and effort](images/w01_overview_accuracy_effort.svg){ width="100%" }
 
-- Measuring distances and areas
-- Mapping construction sites and infrastructure
-- Creating base maps for design and planning
-- Documenting site conditions over time
+*A drone sits between a tape measure and a survey crew: it covers a whole site quickly and gets
+close to survey accuracy.*
 
-With appropriate flight planning and ground control, orthomosaics can achieve centimeter-level accuracy,
-making them suitable for many civil engineering applications.
-
----
-
-## Terrain and Surface Modeling
-
-### Digital Elevation Models (DEM)
-
-A **Digital Elevation Model (DEM)** represents the elevation of the surface, including terrain,
-vegetation, and structures. DEMs are commonly used in civil engineering for:
-
-- Drainage and watershed analysis
-- Surface modeling
-- Change detection and monitoring
+Drones did not replace any of the older methods. They filled a gap nothing else covered well, which
+is large areas, quickly, at an accuracy good enough for most civil work. That is why they turned up
+on construction sites so fast.
 
 ---
 
-### Digital Terrain Models (DTM)
+## What you get from a flight
 
-A **Digital Terrain Model (DTM)** represents the bare-earth surface, with vegetation and structures
-removed. DTMs are essential for engineering analyses that require an accurate representation of ground
-surface geometry, including:
+A drone flight produces photographs. Software turns those photographs into things you can measure.
 
-- Earthwork and grading design
-- Cut-and-fill calculations
-- Hydrologic and hydraulic modeling
+![From photos to a measurement](images/w01_overview_products.svg){ width="100%" }
 
-Both DEMs and DTMs may be generated using photogrammetry or LiDAR, each with distinct advantages and
-limitations.
+*The same set of photos becomes a map, then a surface, then a number you can put in a report.*
 
----
-
-## Volumetric Measurements
-
-Drone-derived 3D models are widely used for **volumetric measurement** in civil engineering practice.
-These methods enable engineers to estimate volumes of:
-
-- Stockpiles
-- Excavations
-- Embankments
-- Material placement or removal over time
-
-Accurate volume estimation requires careful attention to data resolution, surface visibility, and
-processing methods. Engineers must evaluate uncertainty and understand how measurement errors affect
-project decisions.
-
----
-
-## Specialized Sensors and Advanced Measurement Methods
-
-Drones can carry specialized sensors that extend measurement capabilities beyond standard imagery:
-
-- **Thermal sensors** for detecting temperature differences in pavements, structures, and utilities
-- **Multispectral sensors** for environmental assessment, vegetation analysis, and erosion monitoring
-- **LiDAR sensors** for high-resolution 3D point clouds, particularly in vegetated or complex terrain
-
-Each sensor type introduces tradeoffs in accuracy, cost, data volume, and processing complexity.
-Selecting the appropriate sensor requires engineering judgment and an understanding of project
-requirements.
-
----
-
-## Measurement Accuracy, Uncertainty, and Engineering Judgment
-
-Civil engineers must balance multiple constraints when selecting measurement methods, including:
-
-- Required accuracy and precision
-- Time and cost limitations
-- Safety considerations
-- Data processing and documentation requirements
-
-Not all engineering problems require the same level of measurement accuracy. A key objective of this
-course is developing the ability to assess **when data are sufficient** and **when higher-quality
-measurements are justified**.
+Each of those has a name, a file format, and a question it is good at answering.
+[Aerial Measurement Products](data_products.md) is the reference page for all of them, and you will come
+back to it through the rest of the course.
 
 ---
 
@@ -163,15 +108,26 @@ measurements are justified**.
 
     *Think about it:* Why would using a high-precision drone survey for Scenario #1 be a waste of resources? Why would Scenario #2 require even more than a standard drone?
 
-## Course Emphasis and Learning Objectives
+---
 
-By the end of this course, students will be able to:
+## What you need
 
-- Apply drone-based measurement techniques to civil engineering problems
-- Evaluate the accuracy and limitations of different measurement methods
-- Integrate drone-derived data into engineering analysis and design workflows
-- Make informed, ethical, and defensible engineering decisions based on measured data
+- **Your TRUST certificate**, before the first lab. See
+  [above](#before-you-fly-the-trust-certificate). This one is not optional.
+- **Nothing to buy.** Aircraft, controllers, and batteries are provided.
+- **A laptop** that can run QGIS, which is free.
+- **Closed-toe shoes and a jacket.** Some of this class happens outside.
+- **No prior experience.** Most students arrive having never flown anything.
 
-Today’s introduction establishes the measurement-focused framework that will guide the remainder of
-the course. Subsequent lessons will build practical skills in flight planning, data collection, data
-processing, and quality assessment.
+??? note "Course learning objectives"
+    By the end of this course, students will be able to:
+
+    - Apply drone-based measurement techniques to civil engineering problems
+    - Evaluate the accuracy and limitations of different measurement methods
+    - Integrate drone-derived data into engineering analysis and design workflows
+    - Make informed, ethical, and defensible engineering decisions based on measured data
+
+---
+
+Next up: [Flight Basics](flight_basics.md), which covers the aircraft, the controller, and how to
+get it into the air and back again.

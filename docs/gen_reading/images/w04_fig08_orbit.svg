@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="500" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Orbiting a structure</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">A grid maps the ground. Vertical faces need the camera to come round the side, usually at more than one height.</text>
+  <rect x="40" y="84" width="380" height="330" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="230" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">From above</text>
+  <circle cx="230" cy="268" r="108" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-dasharray="10 7"/>
+  <rect x="200" y="238" width="60" height="60" fill="#c2cad2" stroke="#333333" stroke-width="1.5"/>
+  <circle cx="230.0" cy="160.0" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="230.0" y1="160.0" x2="230.0" y2="232.0" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="293.4808072475871" cy="180.62616460750567" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="293.4808072475871" y1="180.62616460750567" x2="251.16026908252903" y2="238.87538820250188" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="332.7141037598766" cy="234.62616460750567" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="332.7141037598766" y1="234.62616460750567" x2="264.23803458662553" y2="256.8753882025019" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="332.7141037598766" cy="301.3738353924943" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="332.7141037598766" y1="301.3738353924943" x2="264.23803458662553" y2="279.1246117974981" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="293.4808072475871" cy="355.37383539249436" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="293.4808072475871" y1="355.37383539249436" x2="251.16026908252903" y2="297.1246117974981" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="230.0" cy="376.0" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="230.0" y1="376.0" x2="230.0" y2="304.0" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="166.51919275241292" cy="355.37383539249436" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="166.51919275241292" y1="355.37383539249436" x2="208.83973091747097" y2="297.1246117974981" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="127.28589624012342" cy="301.37383539249436" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="127.28589624012342" y1="301.37383539249436" x2="195.76196541337447" y2="279.1246117974981" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="127.2858962401234" cy="234.6261646075057" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="127.2858962401234" y1="234.6261646075057" x2="195.76196541337447" y2="256.8753882025019" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="166.5191927524129" cy="180.6261646075057" r="5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="166.5191927524129" y1="180.6261646075057" x2="208.83973091747097" y2="238.87538820250188" stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="230" y="400" text-anchor="middle" font-size="12" fill="#555555">camera always pointed inward</text>
+  <rect x="460" y="84" width="400" height="330" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="660" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">From the side</text>
+  <line x1="500" y1="372" x2="820" y2="372" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>
+  <rect x="628" y="168" width="64" height="204" fill="#c2cad2" stroke="#333333" stroke-width="1.5"/>
+  <path d="M628,168 h64" stroke="#333333" stroke-width="1.5"/>
+  <g transform="translate(556,196)">
+    <g transform="scale(0.42)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="590" y1="196" x2="622.0" y2="196.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="630,196 622.0,200.0 622.0,192.0" fill="#4a90d9"/>
+  </g>
+  <g transform="translate(764,196)">
+    <g transform="scale(0.42)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="730" y1="196" x2="698.0" y2="196.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="690,196 698.0,192.0 698.0,200.0" fill="#4a90d9"/>
+  </g>
+  <line x1="500" y1="196" x2="820" y2="196" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 5" opacity="0.5"/>
+  <g transform="translate(556,262)">
+    <g transform="scale(0.42)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="590" y1="262" x2="622.0" y2="262.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="630,262 622.0,266.0 622.0,258.0" fill="#4a90d9"/>
+  </g>
+  <g transform="translate(764,262)">
+    <g transform="scale(0.42)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="730" y1="262" x2="698.0" y2="262.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="690,262 698.0,258.0 698.0,266.0" fill="#4a90d9"/>
+  </g>
+  <line x1="500" y1="262" x2="820" y2="262" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 5" opacity="0.5"/>
+  <g transform="translate(556,328)">
+    <g transform="scale(0.42)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="590" y1="328" x2="622.0" y2="328.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="630,328 622.0,332.0 622.0,324.0" fill="#4a90d9"/>
+  </g>
+  <g transform="translate(764,328)">
+    <g transform="scale(0.42)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="730" y1="328" x2="698.0" y2="328.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="690,328 698.0,324.0 698.0,332.0" fill="#4a90d9"/>
+  </g>
+  <line x1="500" y1="328" x2="820" y2="328" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 5" opacity="0.5"/>
+  <text x="660" y="400" text-anchor="middle" font-size="12" fill="#555555">one ring per height, so no band of wall is missed</text>
+  <text x="450" y="456" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">A single orbit at one height leaves the top and bottom of a tall structure poorly reconstructed.</text>
+</svg>

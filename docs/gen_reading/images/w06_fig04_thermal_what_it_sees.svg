@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="450" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">What a thermal camera is actually reading</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">It measures the temperature of the surface facing it. Anything hidden shows up only if it warms that surface.</text>
+  <rect x="30" y="84" width="520" height="330" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="290" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">A warm pipe behind a wall</text>
+  <rect x="360" y="150" width="46" height="210" fill="#cbd3da" stroke="#333333" stroke-width="1.5"/>
+  <text x="383" y="138" text-anchor="middle" font-size="11" fill="#555555">wall</text>
+  <circle cx="434" cy="256" r="16" fill="#d94f38" stroke="#333333" stroke-width="1.5"/>
+  <text x="456" y="260" font-size="11" fill="#555555">hot pipe</text>
+  <g>
+    <line x1="418" y1="226" x2="417.0" y2="226.0" stroke="#e8a33d" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="410,226 417.0,222.5 417.0,229.5" fill="#e8a33d"/>
+  </g>
+  <g>
+    <line x1="418" y1="256" x2="417.0" y2="256.0" stroke="#d94f38" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="410,256 417.0,252.5 417.0,259.5" fill="#d94f38"/>
+  </g>
+  <g>
+    <line x1="418" y1="286" x2="417.0" y2="286.0" stroke="#e8a33d" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="410,286 417.0,282.5 417.0,289.5" fill="#e8a33d"/>
+  </g>
+  <rect x="353" y="190" width="7" height="9" fill="#6f9bc4"/>
+  <rect x="353" y="199" width="7" height="9" fill="#6f9bc4"/>
+  <rect x="353" y="208" width="7" height="9" fill="#6f9bc4"/>
+  <rect x="353" y="217" width="7" height="9" fill="#e8a33d"/>
+  <rect x="353" y="226" width="7" height="9" fill="#e8a33d"/>
+  <rect x="353" y="235" width="7" height="9" fill="#d94f38"/>
+  <rect x="353" y="244" width="7" height="9" fill="#d94f38"/>
+  <rect x="353" y="253" width="7" height="9" fill="#d94f38"/>
+  <rect x="353" y="262" width="7" height="9" fill="#d94f38"/>
+  <rect x="353" y="271" width="7" height="9" fill="#e8a33d"/>
+  <rect x="353" y="280" width="7" height="9" fill="#e8a33d"/>
+  <rect x="353" y="289" width="7" height="9" fill="#6f9bc4"/>
+  <rect x="353" y="298" width="7" height="9" fill="#6f9bc4"/>
+  <rect x="353" y="307" width="7" height="9" fill="#6f9bc4"/>
+  <text x="348" y="180" text-anchor="end" font-size="11" fill="#1a1a1a">the surface the camera sees</text>
+  <g transform="translate(150,196)">
+    <g transform="scale(0.62)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="196" y1="214" x2="330.2453272962784" y2="248.03402663849312" stroke="#555555" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="338,250 329.2623406155249,251.91136299035392 331.22831397703186,244.1566902866323" fill="#555555"/>
+  </g>
+  <g>
+    <rect x="96.0" y="340" width="27.166666666666668" height="14" fill="#2b2d5e"/>
+    <rect x="122.66666666666667" y="340" width="27.166666666666668" height="14" fill="#3d5a80"/>
+    <rect x="149.33333333333334" y="340" width="27.166666666666668" height="14" fill="#6f9bc4"/>
+    <rect x="176.0" y="340" width="27.166666666666668" height="14" fill="#e8a33d"/>
+    <rect x="202.66666666666669" y="340" width="27.166666666666668" height="14" fill="#d94f38"/>
+    <rect x="229.33333333333334" y="340" width="27.166666666666668" height="14" fill="#f7e8b0"/>
+    <rect x="96" y="340" width="160" height="14" fill="none" stroke="#333333" stroke-width="1"/>
+    <text x="96" y="367" font-size="10" fill="#555555">cold</text>
+    <text x="256" y="367" text-anchor="end" font-size="10" fill="#555555">hot</text>
+  </g>
+  <text x="290" y="392" text-anchor="middle" font-size="11.5" fill="#555555">The pipe is invisible. The warm stripe it leaves on the</text>
+  <text x="290" y="408" text-anchor="middle" font-size="11.5" fill="#555555">wall face is not.</text>
+  <rect x="570" y="84" width="300" height="330" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="720" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">What it cannot do</text>
+  <circle cx="602" cy="160" r="11" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+  <g stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round">
+    <line x1="596" y1="154" x2="608" y2="166"/>
+    <line x1="608" y1="154" x2="596" y2="166"/>
+  </g>
+  <text x="622" y="164" font-size="12.5" font-weight="bold" fill="#1a1a1a">See through a wall</text>
+  <text x="622" y="181" font-size="11" fill="#555555">it reads the wall's face</text>
+  <circle cx="602" cy="222" r="11" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+  <g stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round">
+    <line x1="596" y1="216" x2="608" y2="228"/>
+    <line x1="608" y1="216" x2="596" y2="228"/>
+  </g>
+  <text x="622" y="226" font-size="12.5" font-weight="bold" fill="#1a1a1a">See through glass</text>
+  <text x="622" y="243" font-size="11" fill="#555555">glass is a mirror at these wavelengths</text>
+  <circle cx="602" cy="284" r="11" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+  <g stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round">
+    <line x1="596" y1="278" x2="608" y2="290"/>
+    <line x1="608" y1="278" x2="596" y2="290"/>
+  </g>
+  <text x="622" y="288" font-size="12.5" font-weight="bold" fill="#1a1a1a">See under water</text>
+  <text x="622" y="305" font-size="11" fill="#555555">the surface is all it gets</text>
+  <circle cx="602" cy="346" r="11" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+  <g stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round">
+    <line x1="596" y1="340" x2="608" y2="352"/>
+    <line x1="608" y1="340" x2="596" y2="352"/>
+  </g>
+  <text x="622" y="350" font-size="12.5" font-weight="bold" fill="#1a1a1a">Trust a shiny surface</text>
+  <text x="622" y="367" font-size="11" fill="#555555">polished metal reflects, see below</text>
+</svg>

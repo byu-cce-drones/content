@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="620" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 1: Parts of a quadcopter</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Layout varies by model. Lighter aircraft often have fewer sensors, and some have no gimbal at all.</text>
+  <g transform="translate(450,340)">
+    <g>
+      <!-- generic quadcopter, top view -->
+      <g stroke="#333333" stroke-width="15" stroke-linecap="round">
+        <line x1="-32" y1="-46" x2="-130" y2="-100"/>
+        <line x1="32" y1="-46" x2="130" y2="-100"/>
+        <line x1="-32" y1="46" x2="-130" y2="100"/>
+        <line x1="32" y1="46" x2="130" y2="100"/>
+      </g>
+      <g stroke="#d0d7de" stroke-width="11" stroke-linecap="round">
+        <line x1="-32" y1="-46" x2="-130" y2="-100"/>
+        <line x1="32" y1="-46" x2="130" y2="-100"/>
+        <line x1="-32" y1="46" x2="-130" y2="100"/>
+        <line x1="32" y1="46" x2="130" y2="100"/>
+      </g>
+      <rect x="-42" y="66" width="14" height="22" rx="5" fill="#444444" stroke="#333333" stroke-width="1.5"/>
+      <rect x="28" y="66" width="14" height="22" rx="5" fill="#444444" stroke="#333333" stroke-width="1.5"/>
+      <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1" stroke-dasharray="4 4">
+        <circle cx="-130" cy="-100" r="64"/>
+        <circle cx="130" cy="-100" r="64"/>
+        <circle cx="-130" cy="100" r="64"/>
+        <circle cx="130" cy="100" r="64"/>
+      </g>
+      <g fill="#9aa7b2" stroke="#333333" stroke-width="1.2">
+        <ellipse cx="0" cy="0" rx="60" ry="8" transform="translate(-130,-100) rotate(30)"/>
+        <ellipse cx="0" cy="0" rx="60" ry="8" transform="translate(130,-100) rotate(-25)"/>
+        <ellipse cx="0" cy="0" rx="60" ry="8" transform="translate(-130,100) rotate(-15)"/>
+        <ellipse cx="0" cy="0" rx="60" ry="8" transform="translate(130,100) rotate(35)"/>
+      </g>
+      <circle cx="-130" cy="-100" r="17" fill="#444444" stroke="#333333" stroke-width="1.5"/>
+      <circle cx="-130" cy="-100" r="6" fill="#888888"/>
+      <circle cx="130" cy="-100" r="17" fill="#444444" stroke="#333333" stroke-width="1.5"/>
+      <circle cx="130" cy="-100" r="6" fill="#888888"/>
+      <circle cx="-130" cy="100" r="17" fill="#444444" stroke="#333333" stroke-width="1.5"/>
+      <circle cx="-130" cy="100" r="6" fill="#888888"/>
+      <circle cx="130" cy="100" r="17" fill="#444444" stroke="#333333" stroke-width="1.5"/>
+      <circle cx="130" cy="100" r="6" fill="#888888"/>
+      <rect x="-45" y="-75" width="90" height="150" rx="18" fill="#d0d7de" stroke="#333333" stroke-width="2"/>
+      <rect x="-26" y="-40" width="52" height="38" rx="5" fill="none" stroke="#555555" stroke-width="1.2" stroke-dasharray="4 3"/>
+      <text x="0" y="-17" text-anchor="middle" font-size="10" fill="#555555">GNSS</text>
+      <rect x="-30" y="8" width="60" height="52" rx="6" fill="#c2cad2" stroke="#333333" stroke-width="1.5"/>
+      <g stroke="#96a1ab" stroke-width="2">
+        <line x1="-20" y1="20" x2="-20" y2="48"/>
+        <line x1="-7" y1="20" x2="-7" y2="48"/>
+        <line x1="6" y1="20" x2="6" y2="48"/>
+        <line x1="19" y1="20" x2="19" y2="48"/>
+      </g>
+      <rect x="-16" y="-96" width="32" height="26" rx="7" fill="#444444" stroke="#333333" stroke-width="1.5"/>
+      <circle cx="0" cy="-83" r="8" fill="#1b2733" stroke="#6b7c8c" stroke-width="1.5"/>
+      <circle cx="-30" cy="-70" r="5" fill="#2b3a47" stroke="#333333" stroke-width="1"/>
+      <circle cx="30" cy="-70" r="5" fill="#2b3a47" stroke="#333333" stroke-width="1"/>
+      <circle cx="0" cy="66" r="6" fill="#e74c3c" stroke="#333333" stroke-width="1"/>
+      <g>
+        <path d="M-164.6,-80.0 A40,40 0 1,1 -90.0,-100.0" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+        <polygon points="-90.0,-90.00000000000001 -95.0,-100.00000000000001 -85.0,-100.00000000000001" fill="#4a90d9"/>
+      </g>
+      <g>
+        <path d="M95.4,-80.0 A40,40 0 1,0 150.0,-134.6" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+        <polygon points="141.3397459621556,-139.64101615137753 152.5,-138.9711431702997 147.5,-130.31088913245534" fill="#4a90d9"/>
+      </g>
+      <g>
+        <path d="M-164.6,120.0 A40,40 0 1,0 -110.0,65.4" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+        <polygon points="-118.66025403784438,60.35898384862246 -107.5,61.02885682970027 -112.5,69.68911086754466" fill="#4a90d9"/>
+      </g>
+      <g>
+        <path d="M95.4,120.0 A40,40 0 1,1 170.0,100.0" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+        <polygon points="170.0,109.99999999999999 165.0,99.99999999999999 175.0,99.99999999999999" fill="#4a90d9"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <!-- leader lines -->
+    <g stroke="#4a90d9" stroke-width="1.5" fill="none">
+      <line x1="450" y1="120" x2="450" y2="244"/>
+      <line x1="190" y1="196" x2="262" y2="214"/>
+      <line x1="190" y1="291" x2="320" y2="240"/>
+      <line x1="190" y1="386" x2="370" y2="266"/>
+      <line x1="710" y1="196" x2="480" y2="270"/>
+      <line x1="710" y1="301" x2="476" y2="310"/>
+      <line x1="710" y1="396" x2="480" y2="374"/>
+      <line x1="345" y1="558" x2="450" y2="412"/>
+      <line x1="565" y1="558" x2="485" y2="428"/>
+    </g>
+    <g fill="#4a90d9">
+      <circle cx="450" cy="244" r="3"/>
+      <circle cx="262" cy="214" r="3"/>
+      <circle cx="320" cy="240" r="3"/>
+      <circle cx="370" cy="266" r="3"/>
+      <circle cx="480" cy="270" r="3"/>
+      <circle cx="476" cy="310" r="3"/>
+      <circle cx="480" cy="374" r="3"/>
+      <circle cx="450" cy="412" r="3"/>
+      <circle cx="485" cy="428" r="3"/>
+    </g>
+  </g>
+  <g id="numbers">
+    <g transform="translate(450,108)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">1</text>
+    </g>
+    <g transform="translate(175,196)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">2</text>
+    </g>
+    <g transform="translate(175,291)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">3</text>
+    </g>
+    <g transform="translate(175,386)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">4</text>
+    </g>
+    <g transform="translate(725,196)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">5</text>
+    </g>
+    <g transform="translate(725,301)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">6</text>
+    </g>
+    <g transform="translate(725,396)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">7</text>
+    </g>
+    <g transform="translate(330,566)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">8</text>
+    </g>
+    <g transform="translate(580,566)">
+      <circle cx="0" cy="0" r="11" fill="#4a90d9"/>
+      <text x="0" y="4" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">9</text>
+    </g>
+  </g>
+</svg>

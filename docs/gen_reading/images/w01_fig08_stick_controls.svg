@@ -1,0 +1,467 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="900" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 8: What each stick does</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Mode 2 layout, the default on nearly every ready-to-fly drone. All directions are relative to the nose of the aircraft.</text>
+  <text x="95" y="92" font-size="15" font-weight="bold" fill="#1a1a1a">Left stick — altitude and heading</text>
+  <g>
+    <rect x="95.0" y="104" width="340" height="170" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <g transform="translate(173,166)">
+      <g>
+        <rect x="-61.0" y="-29.0" width="122" height="58" rx="19.720000000000002" fill="#eef1f4" stroke="#c5cdd5" stroke-width="1.5"/>
+        <g transform="translate(-32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="-8.84" r="5.78" fill="#444444" stroke="#333333" stroke-width="1.2"/>
+            <g>
+              <line x1="0.0" y1="-17.34" x2="0.0" y2="-24.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+              <polygon points="0.0,-32.0 4.0,-24.0 -4.0,-24.0" fill="#4a90d9"/>
+            </g>
+          </g>
+        </g>
+        <g transform="translate(32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#c8d0d8" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="0.0" r="5.78" fill="#c8d0d8" stroke="#c8d0d8" stroke-width="1.2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(353,166)">
+      <g>
+        <g transform="scale(0.8)">
+          <g>
+            <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+            <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+            <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+            <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+            <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+            <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+            <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+            <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+            <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+            <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+          </g>
+        </g>
+        <g>
+          <line x1="54" y1="18" x2="54.0" y2="-24.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="54,-34 59.0,-24.0 49.0,-24.0" fill="#4a90d9"/>
+        </g>
+      </g>
+    </g>
+    <text x="265" y="232" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Climb</text>
+    <text x="265" y="253" text-anchor="middle" font-size="12.5" fill="#555555">rises straight up</text>
+  </g>
+  <g>
+    <rect x="465.0" y="104" width="340" height="170" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <g transform="translate(543,166)">
+      <g>
+        <rect x="-61.0" y="-29.0" width="122" height="58" rx="19.720000000000002" fill="#eef1f4" stroke="#c5cdd5" stroke-width="1.5"/>
+        <g transform="translate(-32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="8.84" r="5.78" fill="#444444" stroke="#333333" stroke-width="1.2"/>
+            <g>
+              <line x1="0.0" y1="17.34" x2="0.0" y2="24.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+              <polygon points="0.0,32.0 -4.0,24.0 4.0,24.0" fill="#4a90d9"/>
+            </g>
+          </g>
+        </g>
+        <g transform="translate(32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#c8d0d8" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="0.0" r="5.78" fill="#c8d0d8" stroke="#c8d0d8" stroke-width="1.2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(723,166)">
+      <g>
+        <g transform="scale(0.8)">
+          <g>
+            <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+            <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+            <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+            <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+            <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+            <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+            <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+            <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+            <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+            <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+          </g>
+        </g>
+        <g>
+          <line x1="54" y1="-18" x2="54.0" y2="24.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="54,34 49.0,24.0 59.0,24.0" fill="#4a90d9"/>
+        </g>
+      </g>
+    </g>
+    <text x="635" y="232" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Descend</text>
+    <text x="635" y="253" text-anchor="middle" font-size="12.5" fill="#555555">comes straight down</text>
+  </g>
+  <g>
+    <rect x="95.0" y="288" width="340" height="170" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <g transform="translate(173,350)">
+      <g>
+        <rect x="-61.0" y="-29.0" width="122" height="58" rx="19.720000000000002" fill="#eef1f4" stroke="#c5cdd5" stroke-width="1.5"/>
+        <g transform="translate(-32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="-8.84" cy="0.0" r="5.78" fill="#444444" stroke="#333333" stroke-width="1.2"/>
+            <g>
+              <line x1="-17.34" y1="0.0" x2="-24.0" y2="0.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+              <polygon points="-32.0,0.0 -24.0,-4.0 -24.0,4.0" fill="#4a90d9"/>
+            </g>
+          </g>
+        </g>
+        <g transform="translate(32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#c8d0d8" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="0.0" r="5.78" fill="#c8d0d8" stroke="#c8d0d8" stroke-width="1.2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(353,350)">
+      <g>
+        <g transform="scale(0.8)">
+          <g>
+            <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+              <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+              <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+              <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+              <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+            </g>
+            <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+              <circle cx="-30" cy="-24" r="15"/>
+              <circle cx="30" cy="-24" r="15"/>
+              <circle cx="-30" cy="24" r="15"/>
+              <circle cx="30" cy="24" r="15"/>
+            </g>
+            <g fill="#444444">
+              <circle cx="-30" cy="-24" r="5"/>
+              <circle cx="30" cy="-24" r="5"/>
+              <circle cx="-30" cy="24" r="5"/>
+              <circle cx="30" cy="24" r="5"/>
+            </g>
+            <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+            <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+          </g>
+        </g>
+        <g>
+          <path d="M-34.6,20.0 A40,40 0 1,0 6.9,-39.4" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="-2.902150423444863,-41.12879189715762 7.814167995011869,-44.31634888554936 6.077686218342564,-34.46827135542728" fill="#4a90d9"/>
+        </g>
+      </g>
+    </g>
+    <text x="265" y="416" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Turn left</text>
+    <text x="265" y="437" text-anchor="middle" font-size="12.5" fill="#555555">nose swings left</text>
+  </g>
+  <g>
+    <rect x="465.0" y="288" width="340" height="170" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <g transform="translate(543,350)">
+      <g>
+        <rect x="-61.0" y="-29.0" width="122" height="58" rx="19.720000000000002" fill="#eef1f4" stroke="#c5cdd5" stroke-width="1.5"/>
+        <g transform="translate(-32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="8.84" cy="0.0" r="5.78" fill="#444444" stroke="#333333" stroke-width="1.2"/>
+            <g>
+              <line x1="17.34" y1="0.0" x2="24.0" y2="0.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+              <polygon points="32.0,0.0 24.0,4.0 24.0,-4.0" fill="#4a90d9"/>
+            </g>
+          </g>
+        </g>
+        <g transform="translate(32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#c8d0d8" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="0.0" r="5.78" fill="#c8d0d8" stroke="#c8d0d8" stroke-width="1.2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(723,350)">
+      <g>
+        <g transform="scale(0.8)">
+          <g>
+            <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+              <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+              <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+              <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+              <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+            </g>
+            <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+              <circle cx="-30" cy="-24" r="15"/>
+              <circle cx="30" cy="-24" r="15"/>
+              <circle cx="-30" cy="24" r="15"/>
+              <circle cx="30" cy="24" r="15"/>
+            </g>
+            <g fill="#444444">
+              <circle cx="-30" cy="-24" r="5"/>
+              <circle cx="30" cy="-24" r="5"/>
+              <circle cx="-30" cy="24" r="5"/>
+              <circle cx="30" cy="24" r="5"/>
+            </g>
+            <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+            <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+          </g>
+        </g>
+        <g>
+          <path d="M-34.6,20.0 A40,40 0 1,1 37.6,13.7" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="34.16750339817965,23.07773194088584 32.88924172750679,11.970705016398412 42.286167935365874,15.390906449655102" fill="#4a90d9"/>
+        </g>
+      </g>
+    </g>
+    <text x="635" y="416" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Turn right</text>
+    <text x="635" y="437" text-anchor="middle" font-size="12.5" fill="#555555">nose swings right</text>
+  </g>
+  <text x="95" y="500" font-size="15" font-weight="bold" fill="#1a1a1a">Right stick — moving over the ground</text>
+  <g>
+    <rect x="95.0" y="514" width="340" height="170" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <g transform="translate(173,576)">
+      <g>
+        <rect x="-61.0" y="-29.0" width="122" height="58" rx="19.720000000000002" fill="#eef1f4" stroke="#c5cdd5" stroke-width="1.5"/>
+        <g transform="translate(-32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#c8d0d8" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="0.0" r="5.78" fill="#c8d0d8" stroke="#c8d0d8" stroke-width="1.2"/>
+          </g>
+        </g>
+        <g transform="translate(32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="-8.84" r="5.78" fill="#444444" stroke="#333333" stroke-width="1.2"/>
+            <g>
+              <line x1="0.0" y1="-17.34" x2="0.0" y2="-24.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+              <polygon points="0.0,-32.0 4.0,-24.0 -4.0,-24.0" fill="#4a90d9"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(353,576)">
+      <g>
+        <g transform="scale(0.8)">
+          <g>
+            <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+              <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+              <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+              <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+              <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+            </g>
+            <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+              <circle cx="-30" cy="-24" r="15"/>
+              <circle cx="30" cy="-24" r="15"/>
+              <circle cx="-30" cy="24" r="15"/>
+              <circle cx="30" cy="24" r="15"/>
+            </g>
+            <g fill="#444444">
+              <circle cx="-30" cy="-24" r="5"/>
+              <circle cx="30" cy="-24" r="5"/>
+              <circle cx="-30" cy="24" r="5"/>
+              <circle cx="30" cy="24" r="5"/>
+            </g>
+            <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+            <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+          </g>
+        </g>
+        <g>
+          <line x1="36" y1="-20" x2="36.0" y2="-38.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="36,-48 41.0,-38.0 31.0,-38.0" fill="#4a90d9"/>
+        </g>
+      </g>
+    </g>
+    <text x="265" y="642" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Fly forward</text>
+    <text x="265" y="663" text-anchor="middle" font-size="12.5" fill="#555555">in the direction the nose points</text>
+  </g>
+  <g>
+    <rect x="465.0" y="514" width="340" height="170" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <g transform="translate(543,576)">
+      <g>
+        <rect x="-61.0" y="-29.0" width="122" height="58" rx="19.720000000000002" fill="#eef1f4" stroke="#c5cdd5" stroke-width="1.5"/>
+        <g transform="translate(-32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#c8d0d8" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="0.0" r="5.78" fill="#c8d0d8" stroke="#c8d0d8" stroke-width="1.2"/>
+          </g>
+        </g>
+        <g transform="translate(32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="8.84" r="5.78" fill="#444444" stroke="#333333" stroke-width="1.2"/>
+            <g>
+              <line x1="0.0" y1="17.34" x2="0.0" y2="24.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+              <polygon points="0.0,32.0 -4.0,24.0 4.0,24.0" fill="#4a90d9"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(723,576)">
+      <g>
+        <g transform="scale(0.8)">
+          <g>
+            <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+              <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+              <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+              <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+              <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+            </g>
+            <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+              <circle cx="-30" cy="-24" r="15"/>
+              <circle cx="30" cy="-24" r="15"/>
+              <circle cx="-30" cy="24" r="15"/>
+              <circle cx="30" cy="24" r="15"/>
+            </g>
+            <g fill="#444444">
+              <circle cx="-30" cy="-24" r="5"/>
+              <circle cx="30" cy="-24" r="5"/>
+              <circle cx="-30" cy="24" r="5"/>
+              <circle cx="30" cy="24" r="5"/>
+            </g>
+            <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+            <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+          </g>
+        </g>
+        <g>
+          <line x1="36" y1="20" x2="36.0" y2="38.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="36,48 31.0,38.0 41.0,38.0" fill="#4a90d9"/>
+        </g>
+      </g>
+    </g>
+    <text x="635" y="642" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Fly backward</text>
+    <text x="635" y="663" text-anchor="middle" font-size="12.5" fill="#555555">away from the nose</text>
+  </g>
+  <g>
+    <rect x="95.0" y="698" width="340" height="170" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <g transform="translate(173,760)">
+      <g>
+        <rect x="-61.0" y="-29.0" width="122" height="58" rx="19.720000000000002" fill="#eef1f4" stroke="#c5cdd5" stroke-width="1.5"/>
+        <g transform="translate(-32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#c8d0d8" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="0.0" r="5.78" fill="#c8d0d8" stroke="#c8d0d8" stroke-width="1.2"/>
+          </g>
+        </g>
+        <g transform="translate(32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="-8.84" cy="0.0" r="5.78" fill="#444444" stroke="#333333" stroke-width="1.2"/>
+            <g>
+              <line x1="-17.34" y1="0.0" x2="-24.0" y2="0.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+              <polygon points="-32.0,0.0 -24.0,-4.0 -24.0,4.0" fill="#4a90d9"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(353,760)">
+      <g>
+        <g transform="scale(0.8)">
+          <g>
+            <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+              <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+              <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+              <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+              <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+            </g>
+            <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+              <circle cx="-30" cy="-24" r="15"/>
+              <circle cx="30" cy="-24" r="15"/>
+              <circle cx="-30" cy="24" r="15"/>
+              <circle cx="30" cy="24" r="15"/>
+            </g>
+            <g fill="#444444">
+              <circle cx="-30" cy="-24" r="5"/>
+              <circle cx="30" cy="-24" r="5"/>
+              <circle cx="-30" cy="24" r="5"/>
+              <circle cx="30" cy="24" r="5"/>
+            </g>
+            <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+            <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+          </g>
+        </g>
+        <g>
+          <line x1="-40" y1="0" x2="-62.0" y2="0.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="-72,0 -62.0,-5.0 -62.0,5.0" fill="#4a90d9"/>
+        </g>
+      </g>
+    </g>
+    <text x="265" y="826" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Slide left</text>
+    <text x="265" y="847" text-anchor="middle" font-size="12.5" fill="#555555">nose keeps pointing the same way</text>
+  </g>
+  <g>
+    <rect x="465.0" y="698" width="340" height="170" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+    <g transform="translate(543,760)">
+      <g>
+        <rect x="-61.0" y="-29.0" width="122" height="58" rx="19.720000000000002" fill="#eef1f4" stroke="#c5cdd5" stroke-width="1.5"/>
+        <g transform="translate(-32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#c8d0d8" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="0.0" cy="0.0" r="5.78" fill="#c8d0d8" stroke="#c8d0d8" stroke-width="1.2"/>
+          </g>
+        </g>
+        <g transform="translate(32,0)">
+          <g>
+            <circle cx="0" cy="0" r="17" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="5.78" fill="none" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+            <circle cx="8.84" cy="0.0" r="5.78" fill="#444444" stroke="#333333" stroke-width="1.2"/>
+            <g>
+              <line x1="17.34" y1="0.0" x2="24.0" y2="0.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+              <polygon points="32.0,0.0 24.0,4.0 24.0,-4.0" fill="#4a90d9"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(723,760)">
+      <g>
+        <g transform="scale(0.8)">
+          <g>
+            <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+              <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+              <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+              <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+              <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+            </g>
+            <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+              <circle cx="-30" cy="-24" r="15"/>
+              <circle cx="30" cy="-24" r="15"/>
+              <circle cx="-30" cy="24" r="15"/>
+              <circle cx="30" cy="24" r="15"/>
+            </g>
+            <g fill="#444444">
+              <circle cx="-30" cy="-24" r="5"/>
+              <circle cx="30" cy="-24" r="5"/>
+              <circle cx="-30" cy="24" r="5"/>
+              <circle cx="30" cy="24" r="5"/>
+            </g>
+            <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+            <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+          </g>
+        </g>
+        <g>
+          <line x1="40" y1="0" x2="62.0" y2="0.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="72,0 62.0,5.0 62.0,-5.0" fill="#4a90d9"/>
+        </g>
+      </g>
+    </g>
+    <text x="635" y="826" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Slide right</text>
+    <text x="635" y="847" text-anchor="middle" font-size="12.5" fill="#555555">nose keeps pointing the same way</text>
+  </g>
+</svg>

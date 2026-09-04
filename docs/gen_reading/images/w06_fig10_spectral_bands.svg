@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 668" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="668" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Where the multispectral bands sit on the spectrum</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Centers and widths vary between cameras. These are typical of a five-band survey camera.</text>
+  <rect x="30" y="64" width="840" height="154" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <line x1="222" y1="196" x2="868" y2="196" stroke="#c5cdd5" stroke-width="1.2"/>
+  <path d="M222,190 L261,189 L300,188 L351,185 L416,176 L442,177 L480,185 L532,189 L571,191 L597,187 L610,180 L623,170 L635,154 L648,137 L661,122 L674,112 L700,108 L739,106 L803,106 L868,108" fill="none" stroke="#2f7d32" stroke-width="3.2"/>
+  <text x="208" y="152" text-anchor="end" font-size="11.5" fill="#555555">how much light</text>
+  <text x="208" y="167" text-anchor="end" font-size="11.5" fill="#555555">a healthy leaf</text>
+  <text x="208" y="182" text-anchor="end" font-size="11.5" fill="#555555">sends back</text>
+  <text x="415.8" y="164.85" text-anchor="middle" font-size="10.5" fill="#555555">a little green</text>
+  <text x="532.0799999999999" y="212" text-anchor="middle" font-size="10.5" fill="#c0392b">red absorbed for photosynthesis</text>
+  <line x1="671.616" y1="180" x2="649.652" y2="156" stroke="#a63b8f" stroke-width="1.2"/>
+  <text x="676.784" y="186" font-size="10.5" font-weight="bold" fill="#a63b8f">the red edge: the steep climb</text>
+  <text x="824.072" y="134" text-anchor="end" font-size="10.5" fill="#2f7d32">leaf structure</text>
+  <text x="824.072" y="148" text-anchor="end" font-size="10.5" fill="#2f7d32">reflects NIR hard</text>
+  <line x1="568.256" y1="82" x2="793.064" y2="82" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="568.256" y1="82" x2="568.256" y2="89" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="568.256" y1="91" x2="568.256" y2="185.575" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="568.256" cy="190.575" r="4.5" fill="#1a1a1a"/>
+  <line x1="793.064" y1="82" x2="793.064" y2="89" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="793.064" y1="91" x2="793.064" y2="101.1" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="793.064" cy="106.1" r="4.5" fill="#1a1a1a"/>
+  <text x="680.66" y="74" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">NDVI is the size of the gap between these two</text>
+  <rect x="222.0" y="250" width="4.02999999999999" height="34" fill="#6f009d" stroke="none"/>
+  <rect x="225.23" y="250" width="4.030000000000018" height="34" fill="#7200aa" stroke="none"/>
+  <rect x="228.46" y="250" width="4.02999999999999" height="34" fill="#7300b6" stroke="none"/>
+  <rect x="231.69" y="250" width="4.02999999999999" height="34" fill="#7300c2" stroke="none"/>
+  <rect x="234.92" y="250" width="4.030000000000018" height="34" fill="#7200cf" stroke="none"/>
+  <rect x="238.15" y="250" width="4.02999999999999" height="34" fill="#7100db" stroke="none"/>
+  <rect x="241.38" y="250" width="4.030000000000018" height="34" fill="#6d00e7" stroke="none"/>
+  <rect x="244.61" y="250" width="4.02999999999999" height="34" fill="#6900f3" stroke="none"/>
+  <rect x="247.84" y="250" width="4.02999999999999" height="34" fill="#6400ff" stroke="none"/>
+  <rect x="251.07" y="250" width="4.030000000000018" height="34" fill="#5900ff" stroke="none"/>
+  <rect x="254.3" y="250" width="4.029999999999961" height="34" fill="#4e00ff" stroke="none"/>
+  <rect x="257.53" y="250" width="4.030000000000018" height="34" fill="#4300ff" stroke="none"/>
+  <rect x="260.76" y="250" width="4.030000000000018" height="34" fill="#3700ff" stroke="none"/>
+  <rect x="263.99" y="250" width="4.030000000000018" height="34" fill="#2b00ff" stroke="none"/>
+  <rect x="267.22" y="250" width="4.029999999999961" height="34" fill="#1e00ff" stroke="none"/>
+  <rect x="270.45" y="250" width="4.030000000000018" height="34" fill="#1100ff" stroke="none"/>
+  <rect x="273.68" y="250" width="4.029999999999961" height="34" fill="#0000ff" stroke="none"/>
+  <rect x="276.90999999999997" y="250" width="4.030000000000018" height="34" fill="#0013ff" stroke="none"/>
+  <rect x="280.14" y="250" width="4.030000000000018" height="34" fill="#0024ff" stroke="none"/>
+  <rect x="283.37" y="250" width="4.030000000000018" height="34" fill="#0032ff" stroke="none"/>
+  <rect x="286.6" y="250" width="4.029999999999961" height="34" fill="#0040ff" stroke="none"/>
+  <rect x="289.83" y="250" width="4.030000000000018" height="34" fill="#004eff" stroke="none"/>
+  <rect x="293.06" y="250" width="4.030000000000018" height="34" fill="#005bff" stroke="none"/>
+  <rect x="296.29" y="250" width="4.029999999999961" height="34" fill="#0068ff" stroke="none"/>
+  <rect x="299.52" y="250" width="4.030000000000018" height="34" fill="#0075ff" stroke="none"/>
+  <rect x="302.75" y="250" width="4.030000000000018" height="34" fill="#0081ff" stroke="none"/>
+  <rect x="305.98" y="250" width="4.029999999999961" height="34" fill="#008dff" stroke="none"/>
+  <rect x="309.21" y="250" width="4.030000000000018" height="34" fill="#0099ff" stroke="none"/>
+  <rect x="312.44" y="250" width="4.030000000000018" height="34" fill="#00a5ff" stroke="none"/>
+  <rect x="315.67" y="250" width="4.029999999999961" height="34" fill="#00b0ff" stroke="none"/>
+  <rect x="318.9" y="250" width="4.030000000000018" height="34" fill="#00bcff" stroke="none"/>
+  <rect x="322.13" y="250" width="4.030000000000018" height="34" fill="#00c7ff" stroke="none"/>
+  <rect x="325.36" y="250" width="4.030000000000018" height="34" fill="#00d2ff" stroke="none"/>
+  <rect x="328.59000000000003" y="250" width="4.029999999999961" height="34" fill="#00deff" stroke="none"/>
+  <rect x="331.82" y="250" width="4.030000000000018" height="34" fill="#00e9ff" stroke="none"/>
+  <rect x="335.05" y="250" width="4.029999999999961" height="34" fill="#00f4ff" stroke="none"/>
+  <rect x="338.28" y="250" width="4.030000000000018" height="34" fill="#00ffff" stroke="none"/>
+  <rect x="341.51" y="250" width="4.030000000000018" height="34" fill="#00ffe3" stroke="none"/>
+  <rect x="344.74" y="250" width="4.030000000000018" height="34" fill="#00ffc7" stroke="none"/>
+  <rect x="347.97" y="250" width="4.029999999999961" height="34" fill="#00ffab" stroke="none"/>
+  <rect x="351.2" y="250" width="4.030000000000018" height="34" fill="#00ff8d" stroke="none"/>
+  <rect x="354.43" y="250" width="4.029999999999961" height="34" fill="#00ff6e" stroke="none"/>
+  <rect x="357.65999999999997" y="250" width="4.030000000000018" height="34" fill="#00ff4e" stroke="none"/>
+  <rect x="360.89" y="250" width="4.030000000000018" height="34" fill="#00ff2b" stroke="none"/>
+  <rect x="364.12" y="250" width="4.030000000000018" height="34" fill="#00ff00" stroke="none"/>
+  <rect x="367.35" y="250" width="4.030000000000018" height="34" fill="#0fff00" stroke="none"/>
+  <rect x="370.58000000000004" y="250" width="4.029999999999961" height="34" fill="#1bff00" stroke="none"/>
+  <rect x="373.81" y="250" width="4.029999999999961" height="34" fill="#26ff00" stroke="none"/>
+  <rect x="377.03999999999996" y="250" width="4.030000000000018" height="34" fill="#30ff00" stroke="none"/>
+  <rect x="380.27" y="250" width="4.030000000000018" height="34" fill="#3aff00" stroke="none"/>
+  <rect x="383.5" y="250" width="4.030000000000018" height="34" fill="#44ff00" stroke="none"/>
+  <rect x="386.73" y="250" width="4.030000000000018" height="34" fill="#4eff00" stroke="none"/>
+  <rect x="389.96000000000004" y="250" width="4.029999999999961" height="34" fill="#57ff00" stroke="none"/>
+  <rect x="393.19" y="250" width="4.029999999999961" height="34" fill="#61ff00" stroke="none"/>
+  <rect x="396.41999999999996" y="250" width="4.030000000000018" height="34" fill="#6aff00" stroke="none"/>
+  <rect x="399.65" y="250" width="4.030000000000018" height="34" fill="#73ff00" stroke="none"/>
+  <rect x="402.88" y="250" width="4.030000000000018" height="34" fill="#7cff00" stroke="none"/>
+  <rect x="406.11" y="250" width="4.030000000000018" height="34" fill="#84ff00" stroke="none"/>
+  <rect x="409.34000000000003" y="250" width="4.029999999999961" height="34" fill="#8dff00" stroke="none"/>
+  <rect x="412.57" y="250" width="4.030000000000018" height="34" fill="#96ff00" stroke="none"/>
+  <rect x="415.8" y="250" width="4.029999999999961" height="34" fill="#9eff00" stroke="none"/>
+  <rect x="419.03" y="250" width="4.030000000000018" height="34" fill="#a6ff00" stroke="none"/>
+  <rect x="422.26" y="250" width="4.030000000000018" height="34" fill="#afff00" stroke="none"/>
+  <rect x="425.49" y="250" width="4.030000000000018" height="34" fill="#b7ff00" stroke="none"/>
+  <rect x="428.72" y="250" width="4.029999999999961" height="34" fill="#bfff00" stroke="none"/>
+  <rect x="431.95" y="250" width="4.030000000000018" height="34" fill="#c7ff00" stroke="none"/>
+  <rect x="435.18" y="250" width="4.029999999999961" height="34" fill="#cfff00" stroke="none"/>
+  <rect x="438.40999999999997" y="250" width="4.030000000000018" height="34" fill="#d7ff00" stroke="none"/>
+  <rect x="441.64" y="250" width="4.030000000000018" height="34" fill="#dfff00" stroke="none"/>
+  <rect x="444.87" y="250" width="4.030000000000018" height="34" fill="#e7ff00" stroke="none"/>
+  <rect x="448.1" y="250" width="4.030000000000018" height="34" fill="#efff00" stroke="none"/>
+  <rect x="451.33000000000004" y="250" width="4.029999999999961" height="34" fill="#f7ff00" stroke="none"/>
+  <rect x="454.56" y="250" width="4.029999999999961" height="34" fill="#ffff00" stroke="none"/>
+  <rect x="457.78999999999996" y="250" width="4.030000000000018" height="34" fill="#fff600" stroke="none"/>
+  <rect x="461.02" y="250" width="4.030000000000018" height="34" fill="#ffee00" stroke="none"/>
+  <rect x="464.25" y="250" width="4.030000000000018" height="34" fill="#ffe500" stroke="none"/>
+  <rect x="467.48" y="250" width="4.030000000000018" height="34" fill="#ffdd00" stroke="none"/>
+  <rect x="470.71000000000004" y="250" width="4.029999999999961" height="34" fill="#ffd400" stroke="none"/>
+  <rect x="473.94" y="250" width="4.029999999999961" height="34" fill="#ffcc00" stroke="none"/>
+  <rect x="477.16999999999996" y="250" width="4.030000000000018" height="34" fill="#ffc300" stroke="none"/>
+  <rect x="480.4" y="250" width="4.030000000000018" height="34" fill="#ffba00" stroke="none"/>
+  <rect x="483.63" y="250" width="4.030000000000018" height="34" fill="#ffb100" stroke="none"/>
+  <rect x="486.86" y="250" width="4.029999999999961" height="34" fill="#ffa800" stroke="none"/>
+  <rect x="490.09" y="250" width="4.030000000000018" height="34" fill="#ff9f00" stroke="none"/>
+  <rect x="493.32" y="250" width="4.030000000000018" height="34" fill="#ff9600" stroke="none"/>
+  <rect x="496.55" y="250" width="4.029999999999961" height="34" fill="#ff8d00" stroke="none"/>
+  <rect x="499.78" y="250" width="4.030000000000018" height="34" fill="#ff8400" stroke="none"/>
+  <rect x="503.01" y="250" width="4.030000000000018" height="34" fill="#ff7a00" stroke="none"/>
+  <rect x="506.24" y="250" width="4.030000000000018" height="34" fill="#ff7100" stroke="none"/>
+  <rect x="509.47" y="250" width="4.030000000000018" height="34" fill="#ff6700" stroke="none"/>
+  <rect x="512.7" y="250" width="4.030000000000018" height="34" fill="#ff5d00" stroke="none"/>
+  <rect x="515.9300000000001" y="250" width="4.030000000000018" height="34" fill="#ff5300" stroke="none"/>
+  <rect x="519.1600000000001" y="250" width="4.029999999999904" height="34" fill="#ff4900" stroke="none"/>
+  <rect x="522.39" y="250" width="4.030000000000018" height="34" fill="#ff3e00" stroke="none"/>
+  <rect x="525.62" y="250" width="4.030000000000018" height="34" fill="#ff3300" stroke="none"/>
+  <rect x="528.85" y="250" width="4.029999999999904" height="34" fill="#ff2800" stroke="none"/>
+  <rect x="532.0799999999999" y="250" width="4.030000000000018" height="34" fill="#ff1c00" stroke="none"/>
+  <rect x="535.31" y="250" width="4.030000000000018" height="34" fill="#ff0f00" stroke="none"/>
+  <rect x="538.54" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="541.77" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="545.0" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="548.23" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="551.46" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="554.69" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="557.9200000000001" y="250" width="4.029999999999904" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="561.15" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="564.38" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="567.61" y="250" width="4.029999999999904" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="570.8399999999999" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="574.0699999999999" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="577.3" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="580.53" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="583.76" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="586.99" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="590.22" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="593.45" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="596.6800000000001" y="250" width="4.030000000000018" height="34" fill="#ff0000" stroke="none"/>
+  <rect x="599.9100000000001" y="250" width="4.029999999999904" height="34" fill="#f70000" stroke="none"/>
+  <rect x="603.14" y="250" width="4.030000000000018" height="34" fill="#f00000" stroke="none"/>
+  <rect x="606.37" y="250" width="4.030000000000018" height="34" fill="#e90000" stroke="none"/>
+  <rect x="609.6" y="250" width="258.4" height="34" fill="#5d5d63" stroke="none"/>
+  <rect x="222" y="250" width="646" height="34" fill="none" stroke="#333333" stroke-width="1.5"/>
+  <text x="415.8" y="242" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">what your eye can see</text>
+  <text x="738.8" y="242" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">near-infrared: invisible, and where the signal is</text>
+  <line x1="222.0" y1="284" x2="222.0" y2="290" stroke="#333333" stroke-width="1.5"/>
+  <text x="222.0" y="304" text-anchor="middle" font-size="11" fill="#555555">400</text>
+  <line x1="351.2" y1="284" x2="351.2" y2="290" stroke="#333333" stroke-width="1.5"/>
+  <text x="351.2" y="304" text-anchor="middle" font-size="11" fill="#555555">500</text>
+  <line x1="480.4" y1="284" x2="480.4" y2="290" stroke="#333333" stroke-width="1.5"/>
+  <text x="480.4" y="304" text-anchor="middle" font-size="11" fill="#555555">600</text>
+  <line x1="609.6" y1="284" x2="609.6" y2="290" stroke="#333333" stroke-width="1.5"/>
+  <text x="609.6" y="304" text-anchor="middle" font-size="11" fill="#555555">700</text>
+  <line x1="738.8" y1="284" x2="738.8" y2="290" stroke="#333333" stroke-width="1.5"/>
+  <text x="738.8" y="304" text-anchor="middle" font-size="11" fill="#555555">800</text>
+  <line x1="868.0" y1="284" x2="868.0" y2="290" stroke="#333333" stroke-width="1.5"/>
+  <text x="868.0" y="304" text-anchor="middle" font-size="11" fill="#555555">900</text>
+  <text x="208" y="272" text-anchor="end" font-size="11.5" fill="#555555">wavelength (nm)</text>
+  <text x="208" y="340.0" text-anchor="end" font-size="12.5" font-weight="bold" fill="#1a1a1a">A multispectral camera</text>
+  <text x="208" y="356.0" text-anchor="end" font-size="10.5" fill="#555555">five narrow, separate bands</text>
+  <line x1="318.9" y1="284" x2="318.9" y2="326" stroke="#ccd4dc" stroke-width="1" stroke-dasharray="3 4"/>
+  <rect x="298.228" y="326" width="41.343999999999994" height="34" rx="2.5" fill="#4a6fd9" stroke="#333333" stroke-width="1.2"/>
+  <text x="318.9" y="375" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Blue</text>
+  <text x="318.9" y="388" text-anchor="middle" font-size="10" fill="#555555">475 nm</text>
+  <line x1="428.72" y1="284" x2="428.72" y2="326" stroke="#ccd4dc" stroke-width="1" stroke-dasharray="3 4"/>
+  <rect x="411.278" y="326" width="34.884000000000015" height="34" rx="2.5" fill="#3f9e4f" stroke="#333333" stroke-width="1.2"/>
+  <text x="428.72" y="375" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Green</text>
+  <text x="428.72" y="388" text-anchor="middle" font-size="10" fill="#555555">560 nm</text>
+  <line x1="568.256" y1="284" x2="568.256" y2="326" stroke="#ccd4dc" stroke-width="1" stroke-dasharray="3 4"/>
+  <rect x="559.212" y="326" width="18.087999999999965" height="34" rx="2.5" fill="#d94a3f" stroke="#333333" stroke-width="1.2"/>
+  <text x="568.256" y="375" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Red</text>
+  <text x="568.256" y="388" text-anchor="middle" font-size="10" fill="#555555">668 nm</text>
+  <line x1="631.5640000000001" y1="284" x2="631.5640000000001" y2="326" stroke="#ccd4dc" stroke-width="1" stroke-dasharray="3 4"/>
+  <rect x="623.812" y="326" width="15.504000000000019" height="34" rx="2.5" fill="#a63b8f" stroke="#333333" stroke-width="1.2"/>
+  <line x1="631.5640000000001" y1="363" x2="631.5640000000001" y2="379" stroke="#ccd4dc" stroke-width="1"/>
+  <text x="631.5640000000001" y="390" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Red edge</text>
+  <text x="631.5640000000001" y="403" text-anchor="middle" font-size="10" fill="#555555">717 nm</text>
+  <line x1="793.064" y1="284" x2="793.064" y2="326" stroke="#ccd4dc" stroke-width="1" stroke-dasharray="3 4"/>
+  <rect x="756.242" y="326" width="73.644" height="34" rx="2.5" fill="#5d5d63" stroke="#333333" stroke-width="1.2"/>
+  <text x="793.064" y="375" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">NIR</text>
+  <text x="793.064" y="388" text-anchor="middle" font-size="10" fill="#555555">842 nm</text>
+  <text x="208" y="444.0" text-anchor="end" font-size="12.5" font-weight="bold" fill="#1a1a1a">An ordinary color camera</text>
+  <text x="208" y="460.0" text-anchor="end" font-size="10.5" fill="#555555">three wide, overlapping bands</text>
+  <rect x="222.0" y="430" width="155.03999999999996" height="26" rx="3" fill="#4a6fd9" opacity="0.5" stroke="#333333" stroke-width="1.2"/>
+  <rect x="286.6" y="434" width="232.56000000000006" height="26" rx="3" fill="#3f9e4f" opacity="0.5" stroke="#333333" stroke-width="1.2"/>
+  <rect x="428.72" y="438" width="180.88" height="26" rx="3" fill="#d94a3f" opacity="0.5" stroke="#333333" stroke-width="1.2"/>
+  <g>
+    <line x1="630.2719999999999" y1="447.0" x2="619.476" y2="447.0" stroke="#555555" stroke-width="1.6" stroke-linecap="round"/>
+    <polygon points="613.476,447.0 619.476,444.0 619.476,450.0" fill="#555555"/>
+  </g>
+  <text x="638.024" y="451.0" font-size="11" font-style="italic" fill="#555555">it stops here, and records nothing past red</text>
+  <text x="208" y="532.0" text-anchor="end" font-size="12.5" font-weight="bold" fill="#1a1a1a">Landsat 8 and 9</text>
+  <text x="208" y="548.0" text-anchor="end" font-size="10.5" fill="#555555">the satellite equivalents</text>
+  <rect x="289.18399999999997" y="522" width="77.52000000000004" height="26" rx="2.5" fill="#4a6fd9" stroke="#333333" stroke-width="1.2"/>
+  <text x="327.944" y="563" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Blue</text>
+  <text x="327.944" y="576" text-anchor="middle" font-size="10" fill="#555555">482 nm</text>
+  <rect x="393.19" y="522" width="73.644" height="26" rx="2.5" fill="#3f9e4f" stroke="#333333" stroke-width="1.2"/>
+  <text x="430.012" y="563" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Green</text>
+  <text x="430.012" y="576" text-anchor="middle" font-size="10" fill="#555555">561 nm</text>
+  <rect x="527.558" y="522" width="47.80400000000009" height="26" rx="2.5" fill="#d94a3f" stroke="#333333" stroke-width="1.2"/>
+  <text x="551.46" y="563" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">Red</text>
+  <text x="551.46" y="576" text-anchor="middle" font-size="10" fill="#555555">655 nm</text>
+  <rect x="804.692" y="522" width="36.176000000000045" height="26" rx="2.5" fill="#5d5d63" stroke="#333333" stroke-width="1.2"/>
+  <text x="822.78" y="563" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">NIR</text>
+  <text x="822.78" y="576" text-anchor="middle" font-size="10" fill="#555555">865 nm</text>
+  <text x="450" y="646" text-anchor="middle" font-size="12" font-style="italic" fill="#555555">Landsat also carries two shortwave-infrared bands at 1610 and 2200 nm, far off the right of this chart, that no drone camera has.</text>
+</svg>

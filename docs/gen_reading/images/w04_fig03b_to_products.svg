@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="470" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">From the surface to the deliverables</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">The orthophoto and the DSM are the same surface, read two different ways.</text>
+  <rect x="40" y="84" width="292" height="316" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="186" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">The surface</text>
+  <g transform="translate(196,236)">
+    <g transform="scale(1.5)">
+      <g>
+        <polygon points="-34.8,-25.0 17.4,5.0 34.8,-26.0 -17.4,-56.0" fill="#b06a5a" stroke="#333333" stroke-width="1.2"/>
+        <polygon points="-34.8,20.0 17.4,50.0 17.4,5.0 -34.8,-25.0" fill="#cbd3da" stroke="#333333" stroke-width="1.2"/>
+        <polygon points="52.2,30.0 17.4,50.0 17.4,5.0 52.2,-15.0" fill="#aab4bd" stroke="#333333" stroke-width="1.2"/>
+        <polygon points="17.4,5.0 52.2,-15.0 34.8,-26.0" fill="#b8c1c9" stroke="#333333" stroke-width="1.2"/>
+        <polygon points="-23.315999999999995,11.3 -14.963999999999999,16.099999999999998 -14.963999999999999,0.7999999999999972 -23.315999999999995,-4.0" fill="#7d93a8" stroke="#333333" stroke-width="0.8"/>
+        <polygon points="-2.436,23.3 5.916000000000004,28.100000000000005 5.916000000000004,12.800000000000004 -2.436,8.0" fill="#7d93a8" stroke="#333333" stroke-width="0.8"/>
+      </g>
+    </g>
+  </g>
+  <text x="186" y="356" text-anchor="middle" font-size="11.5" fill="#555555">meshed from the dense cloud,</text>
+  <text x="186" y="374" text-anchor="middle" font-size="11.5" fill="#555555">with the photos draped over it</text>
+  <g>
+    <line x1="340" y1="242" x2="377.9561351862577" y2="191.96691270902397" stroke="#b6c2cc" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="384,184 381.9395915407697,194.98884511589512 373.9726788317457,188.94498030215283" fill="#b6c2cc"/>
+  </g>
+  <g>
+    <line x1="340" y1="242" x2="380.34347627577006" y2="344.69248506559654" stroke="#b6c2cc" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="384,354 375.68971880856833,346.5207469277115 384.9972337429718,342.8642232034816" fill="#b6c2cc"/>
+  </g>
+  <rect x="400" y="84" width="460" height="152" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="424" y="114" font-size="15" font-weight="bold" fill="#1a1a1a">Orthophoto</text>
+  <text x="424" y="136" font-size="11.5" fill="#555555">every pixel put where it truly belongs,</text>
+  <text x="424" y="154" font-size="11.5" fill="#555555">at one constant scale across the whole image</text>
+  <rect x="666" y="122" width="152" height="92" fill="#e4ead9" stroke="#333333" stroke-width="1.2"/>
+  <rect x="702" y="140" width="80" height="56" fill="#b06a5a" stroke="#333333" stroke-width="1.2"/>
+  <line x1="702" y1="168" x2="782" y2="168" stroke="#8a4f42" stroke-width="1.5"/>
+  <g>
+    <line x1="690" y1="100" x2="690.0" y2="109.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="690,116 686.5,109.0 693.5,109.0" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="742" y1="100" x2="742.0" y2="109.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="742,116 738.5,109.0 745.5,109.0" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="794" y1="100" x2="794.0" y2="109.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="794,116 790.5,109.0 797.5,109.0" fill="#4a90d9"/>
+  </g>
+  <text x="742" y="92" text-anchor="middle" font-size="10.5" fill="#4a90d9">seen from straight above</text>
+  <rect x="400" y="254" width="460" height="152" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="424" y="284" font-size="15" font-weight="bold" fill="#1a1a1a">Surface model (DSM)</text>
+  <text x="424" y="306" font-size="11.5" fill="#555555">the height of that surface, sampled onto</text>
+  <text x="424" y="324" font-size="11.5" fill="#555555">a regular grid, one height per cell</text>
+  <rect x="666" y="336" width="10" height="10" fill="#e8eee4"/>
+  <rect x="677" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="688" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="699" y="336" width="10" height="10" fill="#e8eee4"/>
+  <rect x="710" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="721" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="732" y="336" width="10" height="10" fill="#e8eee4"/>
+  <rect x="743" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="754" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="765" y="336" width="10" height="10" fill="#e8eee4"/>
+  <rect x="776" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="787" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="798" y="336" width="10" height="10" fill="#e8eee4"/>
+  <rect x="809" y="336" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="666" y="347" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="677" y="347" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="688" y="347" width="10" height="10" fill="#e8eee4"/>
+  <rect x="699" y="347" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="710" y="347" width="10" height="10" fill="#8fae7f"/>
+  <rect x="721" y="347" width="10" height="10" fill="#8fae7f"/>
+  <rect x="732" y="347" width="10" height="10" fill="#8fae7f"/>
+  <rect x="743" y="347" width="10" height="10" fill="#8fae7f"/>
+  <rect x="754" y="347" width="10" height="10" fill="#8fae7f"/>
+  <rect x="765" y="347" width="10" height="10" fill="#8fae7f"/>
+  <rect x="776" y="347" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="787" y="347" width="10" height="10" fill="#e8eee4"/>
+  <rect x="798" y="347" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="809" y="347" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="666" y="358" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="677" y="358" width="10" height="10" fill="#e8eee4"/>
+  <rect x="688" y="358" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="699" y="358" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="710" y="358" width="10" height="10" fill="#8fae7f"/>
+  <rect x="721" y="358" width="10" height="10" fill="#6d9463"/>
+  <rect x="732" y="358" width="10" height="10" fill="#6d9463"/>
+  <rect x="743" y="358" width="10" height="10" fill="#6d9463"/>
+  <rect x="754" y="358" width="10" height="10" fill="#6d9463"/>
+  <rect x="765" y="358" width="10" height="10" fill="#8fae7f"/>
+  <rect x="776" y="358" width="10" height="10" fill="#e8eee4"/>
+  <rect x="787" y="358" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="798" y="358" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="809" y="358" width="10" height="10" fill="#e8eee4"/>
+  <rect x="666" y="369" width="10" height="10" fill="#e8eee4"/>
+  <rect x="677" y="369" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="688" y="369" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="699" y="369" width="10" height="10" fill="#e8eee4"/>
+  <rect x="710" y="369" width="10" height="10" fill="#8fae7f"/>
+  <rect x="721" y="369" width="10" height="10" fill="#6d9463"/>
+  <rect x="732" y="369" width="10" height="10" fill="#6d9463"/>
+  <rect x="743" y="369" width="10" height="10" fill="#6d9463"/>
+  <rect x="754" y="369" width="10" height="10" fill="#6d9463"/>
+  <rect x="765" y="369" width="10" height="10" fill="#8fae7f"/>
+  <rect x="776" y="369" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="787" y="369" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="798" y="369" width="10" height="10" fill="#e8eee4"/>
+  <rect x="809" y="369" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="666" y="380" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="677" y="380" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="688" y="380" width="10" height="10" fill="#e8eee4"/>
+  <rect x="699" y="380" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="710" y="380" width="10" height="10" fill="#8fae7f"/>
+  <rect x="721" y="380" width="10" height="10" fill="#8fae7f"/>
+  <rect x="732" y="380" width="10" height="10" fill="#8fae7f"/>
+  <rect x="743" y="380" width="10" height="10" fill="#8fae7f"/>
+  <rect x="754" y="380" width="10" height="10" fill="#8fae7f"/>
+  <rect x="765" y="380" width="10" height="10" fill="#8fae7f"/>
+  <rect x="776" y="380" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="787" y="380" width="10" height="10" fill="#e8eee4"/>
+  <rect x="798" y="380" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="809" y="380" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="666" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="677" y="391" width="10" height="10" fill="#e8eee4"/>
+  <rect x="688" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="699" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="710" y="391" width="10" height="10" fill="#e8eee4"/>
+  <rect x="721" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="732" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="743" y="391" width="10" height="10" fill="#e8eee4"/>
+  <rect x="754" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="765" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="776" y="391" width="10" height="10" fill="#e8eee4"/>
+  <rect x="787" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="798" y="391" width="10" height="10" fill="#cfdcc6"/>
+  <rect x="809" y="391" width="10" height="10" fill="#e8eee4"/>
+  <text x="743" y="328" text-anchor="middle" font-size="10.5" fill="#555555">low to high</text>
+  <text x="450" y="442" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Strip the buildings and vegetation out of that grid and the same surface becomes a DTM.</text>
+</svg>

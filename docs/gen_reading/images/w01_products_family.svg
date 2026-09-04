@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 585" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="585" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">What comes from what</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">The sensor you fly decides which products you can make. Everything below starts as overlapping images.</text>
+  <text x="30" y="92" font-size="14" font-weight="bold" fill="#4a90d9">From a normal camera</text>
+  <g>
+    <path d="M162.0,196 H196.0 V122 H218.0" fill="none" stroke="#b6c2cc" stroke-width="2.5"/>
+    <g>
+      <line x1="214.0" y1="122" x2="221.0" y2="122.0" stroke="#b6c2cc" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="230.0,122 221.0,126.5 221.0,117.5" fill="#b6c2cc"/>
+    </g>
+  </g>
+  <g>
+    <path d="M162.0,196 H196.0 V272 H218.0" fill="none" stroke="#b6c2cc" stroke-width="2.5"/>
+    <g>
+      <line x1="214.0" y1="272" x2="221.0" y2="272.0" stroke="#b6c2cc" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="230.0,272 221.0,276.5 221.0,267.5" fill="#b6c2cc"/>
+    </g>
+  </g>
+  <g>
+    <path d="M362.0,272 H391.0 V226 H408.0" fill="none" stroke="#b6c2cc" stroke-width="2.5"/>
+    <g>
+      <line x1="404.0" y1="226" x2="411.0" y2="226.0" stroke="#b6c2cc" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="420.0,226 411.0,230.5 411.0,221.5" fill="#b6c2cc"/>
+    </g>
+  </g>
+  <g>
+    <path d="M362.0,272 H391.0 V336 H408.0" fill="none" stroke="#b6c2cc" stroke-width="2.5"/>
+    <g>
+      <line x1="404.0" y1="336" x2="411.0" y2="336.0" stroke="#b6c2cc" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="420.0,336 411.0,340.5 411.0,331.5" fill="#b6c2cc"/>
+    </g>
+  </g>
+  <g>
+    <path d="M552.0,226 H575.0 V226 H586.0" fill="none" stroke="#b6c2cc" stroke-width="2.5"/>
+    <g>
+      <line x1="582.0" y1="226" x2="589.0" y2="226.0" stroke="#b6c2cc" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="598.0,226 589.0,230.5 589.0,221.5" fill="#b6c2cc"/>
+    </g>
+  </g>
+  <g>
+    <path d="M730.0,226 H747.0 V226 H752.0" fill="none" stroke="#b6c2cc" stroke-width="2.5"/>
+    <g>
+      <line x1="748.0" y1="226" x2="755.0" y2="226.0" stroke="#b6c2cc" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="764.0,226 755.0,230.5 755.0,221.5" fill="#b6c2cc"/>
+    </g>
+  </g>
+  <g>
+    <rect x="30.0" y="169.0" width="132" height="54" rx="8" fill="#cfe3f7" stroke="#4a90d9" stroke-width="2"/>
+    <text x="96" y="194" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Photos</text>
+    <text x="96" y="211" text-anchor="middle" font-size="10.5" fill="#555555">the raw flight</text>
+  </g>
+  <g>
+    <rect x="230.0" y="95.0" width="132" height="54" rx="8" fill="#ffffff" stroke="#c5cdd5" stroke-width="1.5"/>
+    <text x="296" y="120" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Orthomosaic</text>
+    <text x="296" y="137" text-anchor="middle" font-size="10.5" fill="#555555">one flat image</text>
+  </g>
+  <g>
+    <rect x="230.0" y="245.0" width="132" height="54" rx="8" fill="#ffffff" stroke="#c5cdd5" stroke-width="1.5"/>
+    <text x="296" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Point cloud</text>
+    <text x="296" y="287" text-anchor="middle" font-size="10.5" fill="#555555">millions of points</text>
+  </g>
+  <g>
+    <rect x="420.0" y="199.0" width="132" height="54" rx="8" fill="#ffffff" stroke="#c5cdd5" stroke-width="1.5"/>
+    <text x="486" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">DSM</text>
+    <text x="486" y="241" text-anchor="middle" font-size="10.5" fill="#555555">surface heights</text>
+  </g>
+  <g>
+    <rect x="420.0" y="309.0" width="132" height="54" rx="8" fill="#ffffff" stroke="#c5cdd5" stroke-width="1.5"/>
+    <text x="486" y="334" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">3D model</text>
+    <text x="486" y="351" text-anchor="middle" font-size="10.5" fill="#555555">a solid, textured mesh</text>
+  </g>
+  <g>
+    <rect x="598.0" y="199.0" width="132" height="54" rx="8" fill="#ffffff" stroke="#c5cdd5" stroke-width="1.5"/>
+    <text x="664" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">DTM</text>
+    <text x="664" y="241" text-anchor="middle" font-size="10.5" fill="#555555">bare ground</text>
+  </g>
+  <g>
+    <rect x="764.0" y="199.0" width="132" height="54" rx="8" fill="#ffffff" stroke="#c5cdd5" stroke-width="1.5"/>
+    <text x="830" y="224" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Contours</text>
+    <text x="830" y="241" text-anchor="middle" font-size="10.5" fill="#555555">lines to draw with</text>
+  </g>
+  <line x1="30" y1="396" x2="870" y2="396" stroke="#dde3e9" stroke-width="2"/>
+  <text x="30" y="428" font-size="14" font-weight="bold" fill="#4a90d9">From a specialist sensor</text>
+  <text x="262" y="428" font-size="12" fill="#555555">(covered in Topic 6)</text>
+  <g>
+    <path d="M162.0,474 H201.0 V474 H228" fill="none" stroke="#b6c2cc" stroke-width="2.5"/>
+    <g>
+      <line x1="224" y1="474" x2="231.0" y2="474.0" stroke="#b6c2cc" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="240,474 231.0,478.5 231.0,469.5" fill="#b6c2cc"/>
+    </g>
+  </g>
+  <g>
+    <rect x="30.0" y="447.0" width="132" height="54" rx="8" fill="#cfe3f7" stroke="#4a90d9" stroke-width="2"/>
+    <text x="96" y="472" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Thermal camera</text>
+    <text x="96" y="489" text-anchor="middle" font-size="10.5" fill="#555555">temperature</text>
+  </g>
+  <g>
+    <rect x="240" y="447.0" width="192" height="54" rx="8" fill="#ffffff" stroke="#c5cdd5" stroke-width="1.5"/>
+    <text x="336" y="472" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Thermal mosaic</text>
+    <text x="336" y="489" text-anchor="middle" font-size="10.5" fill="#555555">hot and cold across a site</text>
+  </g>
+  <g>
+    <path d="M162.0,534 H201.0 V534 H228" fill="none" stroke="#b6c2cc" stroke-width="2.5"/>
+    <g>
+      <line x1="224" y1="534" x2="231.0" y2="534.0" stroke="#b6c2cc" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="240,534 231.0,538.5 231.0,529.5" fill="#b6c2cc"/>
+    </g>
+  </g>
+  <g>
+    <rect x="30.0" y="507.0" width="132" height="54" rx="8" fill="#cfe3f7" stroke="#4a90d9" stroke-width="2"/>
+    <text x="96" y="532" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Multispectral</text>
+    <text x="96" y="549" text-anchor="middle" font-size="10.5" fill="#555555">extra light bands</text>
+  </g>
+  <g>
+    <rect x="240" y="507.0" width="192" height="54" rx="8" fill="#ffffff" stroke="#c5cdd5" stroke-width="1.5"/>
+    <text x="336" y="532" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Index maps</text>
+    <text x="336" y="549" text-anchor="middle" font-size="10.5" fill="#555555">such as NDVI for plant health</text>
+  </g>
+  <text x="700" y="494" text-anchor="middle" font-size="12.5" fill="#555555">Same aircraft, same flight plan.</text>
+  <text x="700" y="514" text-anchor="middle" font-size="12.5" fill="#555555">Only the camera changes.</text>
+</svg>

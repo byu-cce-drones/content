@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="460" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Forward and side overlap do not cost the same</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Both give you more images to store and process. Only one of them makes you fly further.</text>
+  <rect x="57.0" y="84" width="386" height="250" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="250" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#4a90d9">More forward overlap</text>
+  <line x1="120" y1="142" x2="380" y2="142" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="130" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="150" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="170" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="190" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="210" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="230" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="250" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="270" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="290" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="310" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="330" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="350" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="370" cy="142" r="4" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="250" y="192" text-anchor="middle" font-size="12" fill="#555555">The same flight lines, flown the same way.</text>
+  <text x="250" y="212" text-anchor="middle" font-size="12" fill="#555555">The camera simply fires more often.</text>
+  <text x="250" y="252" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">Flight time: barely changes</text>
+  <text x="250" y="272" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">Batteries: the same</text>
+  <text x="250" y="292" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">You pay in: storage and processing</text>
+  <rect x="457.0" y="84" width="386" height="250" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="650" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#e74c3c">More side overlap</text>
+  <line x1="520" y1="130" x2="780" y2="130" stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="520" y1="139" x2="780" y2="139" stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="520" y1="148" x2="780" y2="148" stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="520" y1="157" x2="780" y2="157" stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="520" y1="166" x2="780" y2="166" stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="520" y1="175" x2="780" y2="175" stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="650" y="192" text-anchor="middle" font-size="12" fill="#555555">The lines sit closer together, so the site</text>
+  <text x="650" y="212" text-anchor="middle" font-size="12" fill="#555555">needs more of them to be covered.</text>
+  <text x="650" y="252" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">Flight time: up with every extra line</text>
+  <text x="650" y="272" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">Batteries: more of them</text>
+  <text x="650" y="292" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">You pay in: time, batteries, storage, processing</text>
+  <text x="450" y="380" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">So push forward overlap when in doubt; it is the cheap one. Adding side overlap costs you flight lines,</text>
+  <text x="450" y="400" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">and flight lines cost batteries. Overlap is a design decision, not a setting to max out.</text>
+</svg>

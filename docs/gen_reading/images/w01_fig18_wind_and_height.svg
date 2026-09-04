@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="500" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 18: Why descending helps when the wind wins</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Wind is stronger with height. Losing altitude buys back the speed you need to get home.</text>
+  <rect x="40" y="84" width="820" height="312" rx="10" fill="#e8f2fb" stroke="#cfe0ee" stroke-width="1.5"/>
+  <rect x="40" y="396" width="820" height="18" fill="#e4ead9"/>
+  <line x1="40" y1="396" x2="860" y2="396" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>
+  <rect x="150" y="300" width="78" height="96" fill="#c2cad2" stroke="#333333" stroke-width="1.5"/>
+  <rect x="240" y="326" width="58" height="70" fill="#c2cad2" stroke="#333333" stroke-width="1.5"/>
+  <rect x="310" y="312" width="66" height="84" fill="#c2cad2" stroke="#333333" stroke-width="1.5"/>
+  <line x1="60" y1="300" x2="840" y2="300" stroke="#9aa7b2" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <text x="840" y="292" text-anchor="end" font-size="12" fill="#555555">rooftop level</text>
+  <g>
+    <line x1="415" y1="132" x2="555.0" y2="132.0" stroke="#8fa3b5" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="565,132 555.0,137.0 555.0,127.0" fill="#8fa3b5"/>
+  </g>
+  <g>
+    <line x1="415" y1="196" x2="517.0" y2="196.0" stroke="#8fa3b5" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="527,196 517.0,201.0 517.0,191.0" fill="#8fa3b5"/>
+  </g>
+  <g>
+    <line x1="415" y1="252" x2="483.0" y2="252.0" stroke="#8fa3b5" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="493,252 483.0,257.0 483.0,247.0" fill="#8fa3b5"/>
+  </g>
+  <g>
+    <line x1="415" y1="330" x2="449.0" y2="330.0" stroke="#8fa3b5" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="459,330 449.0,335.0 449.0,325.0" fill="#8fa3b5"/>
+  </g>
+  <text x="400" y="118" text-anchor="end" font-size="13" font-weight="bold" fill="#555555">wind</text>
+  <text x="400" y="138" text-anchor="end" font-size="11.5" fill="#555555">stronger</text>
+  <text x="400" y="336" text-anchor="end" font-size="11.5" fill="#555555">lighter</text>
+  <g transform="translate(700,150)">
+    <g transform="scale(0.72)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="672" y1="150" x2="628.0" y2="150.0" stroke="#e74c3c" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="618,150 628.0,145.0 628.0,155.0" fill="#e74c3c"/>
+  </g>
+  <text x="700" y="108" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#e74c3c">no progress into wind</text>
+  <g>
+    <line x1="760" y1="178" x2="760.0" y2="296.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="760,306 755.0,296.0 765.0,296.0" fill="#4a90d9"/>
+  </g>
+  <text x="788" y="246" font-size="12.5" font-weight="bold" fill="#4a90d9">descend</text>
+  <g transform="translate(700,336)">
+    <g transform="scale(0.72)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="662" y1="336" x2="530.0" y2="336.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="520,336 530.0,331.0 530.0,341.0" fill="#4a90d9"/>
+  </g>
+  <text x="600" y="316" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#2f8f4e">makes headway home</text>
+  <g transform="translate(96,396)">
+    <g transform="scale(1.3)">
+      <circle cx="0" cy="-14" r="7" fill="#444444"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#444444"/>
+    </g>
+  </g>
+  <text x="96" y="430" text-anchor="middle" font-size="12.5" fill="#555555">you</text>
+  <text x="450" y="476" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Turn back while there is battery to fly into the wind, not after the warning.</text>
+</svg>

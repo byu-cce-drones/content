@@ -16,6 +16,7 @@ markdown_extensions:
     - admonition
     - pymdownx.arithmatex:
         generic: true
+    - pymdownx.details
     - pymdownx.tasklist:
         custom_checkbox: false
         clickable_checkbox: true
@@ -35,6 +36,7 @@ nav:
           - About the TAs: class_resources/ta/tas.md
           - Office Hours: class_resources/ta/ta_hours.md
       - Flight Checklist:
+          - Overview: class_resources/flight_check_list/index.md
           - Pre-Flight Checklist:
               - General Checklist: class_resources/flight_check_list/pre_flight/pre_general.md
           - Post-Flight Checklist:
@@ -42,9 +44,12 @@ nav:
 
   - Readings:
       - Class Overview: gen_reading/class_overview.md
+      - Aerial Measurement Products: gen_reading/data_products.md
+      - Flight Basics: gen_reading/flight_basics.md
+      - Common Flight Issues: gen_reading/flight_issues.md
       - Metadata: gen_reading/metadata.md
-      - Mission Planning: gen_reading/mission_planning_sfm.md
-      - SfM Workflow: gen_reading/sfm_workflow.md
+      - How Photos Become 3D: gen_reading/sfm_workflow.md
+      - Planning the Flight: gen_reading/mission_planning_sfm.md
       - LiDAR Imaging: gen_reading/lidar.md
       - Thermal Imaging: gen_reading/thermal.md
       - Multispectral Imaging: gen_reading/multispectral.md

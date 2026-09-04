@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="350" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">One flight, four things you can use</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">The same set of photos becomes each of these in turn.</text>
+  <rect x="38.0" y="84" width="180" height="190" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <rect x="82" y="110" width="64" height="48" rx="3" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <rect x="96" y="120" width="64" height="48" rx="3" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <rect x="110" y="130" width="64" height="48" rx="3" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <rect x="110" y="142" width="36" height="26" rx="2" fill="#cfe3f7"/>
+  <text x="128" y="222" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Photos</text>
+  <text x="128" y="244" text-anchor="middle" font-size="11.5" fill="#555555">hundreds, overlapping</text>
+  <g>
+    <line x1="224.0" y1="179.0" x2="235.0" y2="179.0" stroke="#b6c2cc" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="244.0,179.0 235.0,183.5 235.0,174.5" fill="#b6c2cc"/>
+  </g>
+  <rect x="250.0" y="84" width="180" height="190" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <rect x="296" y="116" width="88" height="60" rx="3" fill="#e4ead9" stroke="#333333" stroke-width="1.5"/>
+  <rect x="310" y="128" width="34" height="22" fill="#c2cad2" stroke="#9aa7b2" stroke-width="1"/>
+  <path d="M296,158 L384,150" stroke="#9aa7b2" stroke-width="4"/>
+  <text x="340" y="222" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">A map</text>
+  <text x="340" y="244" text-anchor="middle" font-size="11.5" fill="#555555">one flat, scaled image</text>
+  <g>
+    <line x1="436.0" y1="179.0" x2="447.0" y2="179.0" stroke="#b6c2cc" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="456.0,179.0 447.0,183.5 447.0,174.5" fill="#b6c2cc"/>
+  </g>
+  <rect x="462.0" y="84" width="180" height="190" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <path d="M506,172 L534,134 L558,154 L598,122" fill="none" stroke="#4a90d9" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="506" y1="176" x2="506" y2="184" stroke="#c5cdd5" stroke-width="1.5"/>
+  <line x1="529" y1="176" x2="529" y2="184" stroke="#c5cdd5" stroke-width="1.5"/>
+  <line x1="552" y1="176" x2="552" y2="184" stroke="#c5cdd5" stroke-width="1.5"/>
+  <line x1="575" y1="176" x2="575" y2="184" stroke="#c5cdd5" stroke-width="1.5"/>
+  <line x1="598" y1="176" x2="598" y2="184" stroke="#c5cdd5" stroke-width="1.5"/>
+  <line x1="506" y1="176" x2="598" y2="176" stroke="#9aa7b2" stroke-width="2"/>
+  <text x="552" y="222" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">A surface</text>
+  <text x="552" y="244" text-anchor="middle" font-size="11.5" fill="#555555">height at every point</text>
+  <g>
+    <line x1="648.0" y1="179.0" x2="659.0" y2="179.0" stroke="#b6c2cc" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="668.0,179.0 659.0,183.5 659.0,174.5" fill="#b6c2cc"/>
+  </g>
+  <rect x="674.0" y="84" width="180" height="190" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <path d="M720,172 L758,124 L808,172 Z" fill="#e8d9a8" stroke="#333333" stroke-width="1.5"/>
+  <text x="764" y="152" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">1,840</text>
+  <text x="764" y="166" text-anchor="middle" font-size="10" fill="#555555">cubic yards</text>
+  <text x="764" y="222" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">A number</text>
+  <text x="764" y="244" text-anchor="middle" font-size="11.5" fill="#555555">volume, area, distance</text>
+</svg>

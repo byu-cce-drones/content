@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="500" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">When to fly a thermal survey</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Thermal contrast comes from things heating and cooling at different rates. Fly when that difference is largest.</text>
+  <rect x="451.5416666666667" y="132" width="139.12500000000006" height="224" fill="#fbe0dc"/>
+  <rect x="374.25" y="132" width="61.833333333333314" height="224" fill="#dff0d8"/>
+  <rect x="698.875" y="132" width="77.29166666666663" height="224" fill="#dff0d8"/>
+  <line x1="96" y1="356" x2="838" y2="356" stroke="#555555" stroke-width="2"/>
+  <path d="M96,338 L104,341 L111,343 L119,346 L127,348 L135,350 L142,351 L150,353 L158,354 L166,355 L173,355 L181,356 L189,356 L196,356 L204,355 L212,355 L220,354 L227,353 L235,351 L243,350 L251,348 L258,346 L266,343 L274,341 L282,338 L289,335 L297,332 L305,329 L312,326 L320,322 L328,318 L336,315 L343,311 L351,307 L359,303 L367,299 L374,295 L382,291 L390,287 L397,283 L405,279 L413,275 L421,272 L428,268 L436,264 L444,261 L452,258 L459,255 L467,252 L475,249 L482,247 L490,244 L498,242 L506,240 L513,239 L521,237 L529,236 L537,235 L544,235 L552,234 L560,234 L567,234 L575,235 L583,235 L591,236 L598,237 L606,239 L614,240 L622,242 L629,244 L637,247 L645,249 L652,252 L660,255 L668,258 L676,261 L683,264 L691,268 L699,272 L707,275 L714,279 L722,283 L730,287 L738,291 L745,295 L753,299 L761,303 L768,307 L776,311 L784,315 L792,318 L799,322 L807,326 L815,329 L823,332 L830,335 L838,338" fill="none" stroke="#d94f38" stroke-width="3"/>
+  <line x1="296.95833333333337" y1="132" x2="296.95833333333337" y2="364" stroke="#555555" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="296.95833333333337" y="124" text-anchor="middle" font-size="11" fill="#555555">sunrise</text>
+  <line x1="667.9583333333334" y1="132" x2="667.9583333333334" y2="364" stroke="#555555" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="667.9583333333334" y="124" text-anchor="middle" font-size="11" fill="#555555">sunset</text>
+  <text x="96.0" y="380" text-anchor="middle" font-size="11" fill="#555555">00:00</text>
+  <text x="281.5" y="380" text-anchor="middle" font-size="11" fill="#555555">06:00</text>
+  <text x="467.0" y="380" text-anchor="middle" font-size="11" fill="#555555">12:00</text>
+  <text x="652.5" y="380" text-anchor="middle" font-size="11" fill="#555555">18:00</text>
+  <text x="838.0" y="380" text-anchor="middle" font-size="11" fill="#555555">24:00</text>
+  <g transform="translate(70,244.0) rotate(-90)">
+    <text x="0" y="0" text-anchor="middle" font-size="12" fill="#555555">surface temperature</text>
+  </g>
+  <text x="521.1041666666667" y="186" text-anchor="middle" font-size="12" font-weight="bold" fill="#e74c3c">avoid for roofs</text>
+  <text x="521.1041666666667" y="201" text-anchor="middle" font-size="10.5" fill="#555555">full solar load</text>
+  <text x="405.16666666666663" y="152" text-anchor="middle" font-size="12" font-weight="bold" fill="#2f8f4e">bridge decks</text>
+  <text x="405.16666666666663" y="167" text-anchor="middle" font-size="10.5" fill="#555555">about 4 h after sunrise</text>
+  <text x="737.5208333333333" y="152" text-anchor="middle" font-size="12" font-weight="bold" fill="#2f8f4e">roof moisture</text>
+  <text x="737.5208333333333" y="167" text-anchor="middle" font-size="10.5" fill="#555555">1 to 2 h after sunset</text>
+  <circle cx="296.95833333333337" cy="332.13444716953194" r="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="667.9583333333334" cy="257.865552830468" r="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="655.9583333333334" y="283.865552830468" text-anchor="end" font-size="10.5" fill="#e74c3c">thermal crossover:</text>
+  <text x="655.9583333333334" y="297.865552830468" text-anchor="end" font-size="10.5" fill="#e74c3c">everything passes through</text>
+  <text x="655.9583333333334" y="311.865552830468" text-anchor="end" font-size="10.5" fill="#e74c3c">the same temperature, so</text>
+  <text x="655.9583333333334" y="325.865552830468" text-anchor="end" font-size="10.5" fill="#e74c3c">there is nothing to see</text>
+  <text x="450" y="420" text-anchor="middle" font-size="12.5" fill="#555555">Wet insulation holds heat, so it glows after sunset. A delaminated bridge deck heats faster than sound concrete, so it shows in the morning.</text>
+  <text x="450" y="452" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Near sunrise and sunset everything passes through the same temperature. Fly then and you will see nothing at all.</text>
+  <text x="450" y="476" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Wait at least 24 hours after rain, and skip the survey if it is windy.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="540" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Altitude decides detail, and how long you fly</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Double the height and every pixel covers twice as much ground, but each photo covers four times the area.</text>
+  <rect x="30" y="84" width="840" height="324" rx="10" fill="#eef4fa" stroke="#dde3e9" stroke-width="1.5"/>
+  <line x1="40" y1="408" x2="860" y2="408" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>
+  <path d="M260,314 L198,408 L322,408 Z" fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <g transform="translate(260,300)">
+    <g transform="scale(0.62)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <line x1="198" y1="408" x2="322" y2="408" stroke="#2f8f4e" stroke-width="5" stroke-linecap="round"/>
+  <text x="260" y="270" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">40 m</text>
+  <text x="260" y="434" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#2f8f4e">1 cm per pixel</text>
+  <text x="260" y="452" text-anchor="middle" font-size="12" fill="#555555">small area, many photos</text>
+  <rect x="255.0" y="390" width="10" height="10" fill="#2f8f4e" fill-opacity="0.35" stroke="#2f8f4e" stroke-width="1.5"/>
+  <text x="260" y="382" text-anchor="middle" font-size="10.5" fill="#555555">one pixel</text>
+  <path d="M640,164 L490,408 L790,408 Z" fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <g transform="translate(640,150)">
+    <g transform="scale(0.62)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <line x1="490" y1="408" x2="790" y2="408" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>
+  <text x="640" y="120" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">120 m</text>
+  <text x="640" y="434" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#c0392b">3 cm per pixel</text>
+  <text x="640" y="452" text-anchor="middle" font-size="12" fill="#555555">9x the area, far fewer photos</text>
+  <rect x="625.0" y="370" width="30" height="30" fill="#c0392b" fill-opacity="0.35" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="640" y="362" text-anchor="middle" font-size="10.5" fill="#555555">one pixel</text>
+  <text x="450" y="500" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">A 5 mm crack needs roughly 1 cm pixels to show up at all. No amount of processing recovers detail you never captured.</text>
+</svg>

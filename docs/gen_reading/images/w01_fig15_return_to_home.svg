@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="480" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 15: What Return to Home actually does</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">It climbs first, then flies a straight line home. It does not steer around anything on the way.</text>
+  <rect x="40" y="84" width="820" height="288" rx="10" fill="#f2f6fa" stroke="#dde3e9" stroke-width="1.5"/>
+  <line x1="40" y1="372" x2="860" y2="372" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="430,232 404,372 456,372" fill="#7fa87f" stroke="#5f855f" stroke-width="1.5"/>
+  <polygon points="480,232 454,372 506,372" fill="#7fa87f" stroke="#5f855f" stroke-width="1.5"/>
+  <polygon points="530,232 504,372 556,372" fill="#7fa87f" stroke="#5f855f" stroke-width="1.5"/>
+  <line x1="760" y1="300" x2="150" y2="300" stroke="#e74c3c" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <circle cx="505" cy="300" r="14" fill="none" stroke="#e74c3c" stroke-width="3"/>
+  <line x1="496" y1="291" x2="514" y2="309" stroke="#e74c3c" stroke-width="3" stroke-linecap="round"/>
+  <text x="645" y="286" text-anchor="middle" font-size="12.5" fill="#e74c3c">RTH altitude set too low</text>
+  <path d="M760,228 V168 H150 V346" fill="none" stroke="#4a90d9" stroke-width="3" stroke-dasharray="9 6"/>
+  <g>
+    <line x1="760" y1="194" x2="760.0" y2="184.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="760,174 765.0,184.0 755.0,184.0" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="620" y1="168" x2="555.0" y2="168.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="545,168 555.0,163.0 555.0,173.0" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="150" y1="312" x2="150.0" y2="328.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="150,338 145.0,328.0 155.0,328.0" fill="#4a90d9"/>
+  </g>
+  <g transform="translate(760,256)">
+    <g transform="scale(0.72)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(150,354)">
+    <g>
+      <path d="M-13,2 l13,-11 l13,11 v15 h-26 z" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+      <text x="0" y="14" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">H</text>
+    </g>
+  </g>
+  <circle cx="760" cy="212" r="13" fill="#4a90d9" stroke="#ffffff" stroke-width="2"/>
+  <text x="760" y="217" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">1</text>
+  <circle cx="440" cy="168" r="13" fill="#4a90d9" stroke="#ffffff" stroke-width="2"/>
+  <text x="440" y="173" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">2</text>
+  <circle cx="150" cy="282" r="13" fill="#4a90d9" stroke="#ffffff" stroke-width="2"/>
+  <text x="150" y="287" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">3</text>
+  <circle cx="88" cy="414" r="12" fill="#4a90d9"/>
+  <text x="88" y="418" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">1</text>
+  <text x="106" y="419" font-size="12.5" fill="#555555">climb to the set altitude</text>
+  <circle cx="358" cy="414" r="12" fill="#4a90d9"/>
+  <text x="358" y="418" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">2</text>
+  <text x="376" y="419" font-size="12.5" fill="#555555">fly straight home</text>
+  <circle cx="623" cy="414" r="12" fill="#4a90d9"/>
+  <text x="623" y="418" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">3</text>
+  <text x="641" y="419" font-size="12.5" fill="#555555">descend and land</text>
+  <text x="450" y="456" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Set the Return to Home altitude above the tallest thing between you and the aircraft, every site, every time.</text>
+</svg>
