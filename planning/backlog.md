@@ -12,7 +12,7 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
 
 ## Waiting on the instructor
 
-- **Review of `review/WEEK3_LAB_OUTLINE.md`**, the outline for the Week 3 Flight Practice lab. Six
+- **Review of `planning/week3_lab_outline.md`**, the outline for the Week 3 Flight Practice lab. Six
   questions with `> GUS:` lines (TA ownership, timed vs. completion races, team size, figure prefix,
   overlap with Lab 0 Part 4, induced disorientation). The page is written only after this.
 - A name for the Tier 2 list ("skills", "knowledge", "competencies"). Recommendation is in
@@ -109,6 +109,12 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       open: real accuracy numbers for the aerial sub-table in §6 (instructor deferred; qualitative for
       now), and `mission_planning_sfm.md` §V still needs its one-line link back to the new page so the
       "this page defines, everything else applies" rule is visible from both ends.
+- [ ] **A Holy Stone mini-drone tutorial page**, shared by the Week 2 and Week 3 labs (instructor,
+      2026-09-04): pairing, gyro calibration, trim, speed modes, headless mode off, emergency stop,
+      lights and beeps, batteries. Proposal at the top of `planning/week3_lab_outline.md`. Suggested
+      home `docs/class_resources/holy_stone_mini_drone.md`, listed under Reference and in both labs'
+      "Before this lab, read" blocks. Confirm the fleet's model first: the calibration stick corner
+      differs (HS210 lower-left, HS420 lower-right).
 - [ ] **FE-style surveying and basic trigonometry review.** Instructor 2026-09-04: the course may
       need a basic trig review for the FE exam, and where it fits in the semester is undecided. The
       syllabus schedules "FE-style surveying review" and "basic trigonometry" in Week 12; no page

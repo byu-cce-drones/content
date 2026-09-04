@@ -32,7 +32,7 @@ move and any future re-clone must do the same:
 
 | Path | Holds |
 |---|---|
-| `review/` | `SITE_REVIEW_2026-09-04.md` (the site review, with Gus's answers), `WEEK3_LAB_OUTLINE.md` (awaiting instructor review), `MEASUREMENT_READING_PLAN.md` and `SITE_REORG_BY_WEEK.md` (reasoning behind work now landed; decisions are duplicated in `planning/`), `measurement_fundamentals_DRAFT.md` (superseded by the live page), and PNG renders of figures |
+| `review/` | `SITE_REVIEW_2026-09-04.md` (the site review, with Gus's answers), `MEASUREMENT_READING_PLAN.md` and `SITE_REORG_BY_WEEK.md` (reasoning behind work now landed; decisions are duplicated in `planning/`), `measurement_fundamentals_DRAFT.md` (superseded by the live page), and PNG renders of figures |
 | `.claude/local/` | `SOURCE_MATERIAL.md`, `notes.md`, `rtd_snapshot/`, `instructor_bundle/`, `drafts/`, `scratch/` |
 | `.claude/settings.local.json` | per-machine permission allowlist, untracked in `51bff7f` |
 | `fig_tools/__pycache__/` | disposable |
@@ -49,7 +49,7 @@ Every "Topic N" reference in prose and in two SVGs became a week reference, Lab 
 now points at the Week 3 lab, and the three flying uses of "precision" in Lab 0 became "controlled".
 The TRUST certificate got its own page, `gen_reading/trust_certificate.md`, listed under Week 1.
 `docs/labs/flight_practice.md` (the Week 3 lab) is a titled coming-soon stub; its outline is in
-`review/WEEK3_LAB_OUTLINE.md` waiting for instructor review. No URL changed.
+`planning/week3_lab_outline.md` waiting for instructor review. No URL changed.
 
 Then the **Measurement Fundamentals reading** (`b791fb1`): `gen_reading/measurement_fundamentals.md`,
 general engineering measurement with drones confined to one table, seven `w00_` figures from
@@ -58,7 +58,12 @@ and a standard-deviation step added to Lab 2 Part 1. The reasoning and the instr
 shaped it are in `review/MEASUREMENT_READING_PLAN.md`; `path_forward.md` §2–§3 holds the durable
 version.
 
-**What is waiting on Gus.** The Week 3 lab outline (`review/WEEK3_LAB_OUTLINE.md`, six questions with
+The Week 3 lab (`labs/flight_practice.md`) is a coming-soon stub. Gus approved the outline in
+`planning/week3_lab_outline.md` on 2026-09-04 and asked for a Holy Stone calibration review and
+figures (both added); six `> GUS:` questions there are still open before the page is written.
+Details and next steps are in the `reorg_plan.md` header.
+
+**What is waiting on Gus.** The Week 3 lab outline (`planning/week3_lab_outline.md`, six questions with
 `> GUS:` lines); sign-off on `path_forward.md` §1 (the two-tier outcomes: M1–M4 wording, the
 thirteen "Course Skills", and the name for that list) before the syllabus is rewritten; where the
 Lab 2 orthophoto should live; real accuracy numbers for the aerial table in the measurement reading,
