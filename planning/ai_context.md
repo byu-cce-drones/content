@@ -2,6 +2,44 @@
 
 Read this before editing any course content.
 
+## Where things stand — 2026-09-04
+
+Start here after any gap. This section is tracked, so it survives a re-clone even when Claude Code's
+per-project memory does not.
+
+**Repository.** `main` is at `51bff7f` and matches `origin/main`. Everything is pushed. Gus owns
+`byu-cce-drones/content` outright and pushes to `main` directly — no fork, no pull request step. The
+personal fork was deleted on 2026-09-04.
+
+**The working folder was renamed.** It is no longer `G:\GIT_Repo\content`; the clone was recreated
+under a folder carrying the org name (expected `G:\GIT_Repoyu-cce-drones-content`). Confirm the
+real path from the session's working directory rather than assuming it. Claude Code keys memory and
+history to a slug derived from that path, so if a session starts knowing nothing about this project,
+that is why, and this section is the recovery point.
+
+**Four things live only on disk and are not on GitHub.** They were copied across by hand during the
+move and any future re-clone must do the same:
+
+| Path | Holds |
+|---|---|
+| `review/` | `SITE_REVIEW_2026-09-04.md`, the open site review |
+| `.claude/local/` | `SOURCE_MATERIAL.md`, `notes.md`, `rtd_snapshot/`, `instructor_bundle/` |
+| `.claude/settings.local.json` | per-machine permission allowlist, untracked in `51bff7f` |
+| `fig_tools/__pycache__/` | disposable |
+
+**There is an open site review.** `review/SITE_REVIEW_2026-09-04.md` is a full read-through of all 41
+published pages: findings, a proposed set of ABET outcomes, a suggested order of work, and 16
+questions for the instructor. Gus answers inline with `> GUS:` prefixes — never delete or rewrite
+those. Read it before proposing content work. Its durable summary is `backlog.md` in this folder.
+
+**What was last done.** The four orphan pages were added to `nav:` at Gus's request (`196cdde`), and
+`planning/` was reconciled with the merged repository. Nothing in the review has been acted on yet.
+
+**What is waiting on Gus.** The 16 review questions, and in particular: which outcome list to keep,
+whether Learning Suite speaks in Topics or weeks, what to do about the published answer keys and the
+grading policy page, and the ten final-project decisions. Those answers unblock most of the content
+work.
+
 ## What this repository is
 
 - Source for a Read the Docs site built with **MkDocs** (`readthedocs` theme). Config lives in
