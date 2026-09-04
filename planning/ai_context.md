@@ -48,8 +48,9 @@ the syllabus schedule, each led by a `This Week` page in `docs/weeks/`, plus a R
 Every "Topic N" reference in prose and in two SVGs became a week reference, Lab 0's Looking Ahead
 now points at the Week 3 lab, and the three flying uses of "precision" in Lab 0 became "controlled".
 The TRUST certificate got its own page, `gen_reading/trust_certificate.md`, listed under Week 1.
-`docs/labs/flight_practice.md` (the Week 3 lab) is a titled coming-soon stub; its outline is in
-`planning/week3_lab_outline.md` waiting for instructor review. No URL changed.
+`docs/labs/flight_practice.md` (the Week 3 lab) was written the same evening from the approved
+outline in `planning/week3_lab_outline.md`, with two `labfp_` figures from
+`fig_tools/fig_flight_practice.py`. No URL changed.
 
 Then the **Measurement Fundamentals reading** (`b791fb1`): `gen_reading/measurement_fundamentals.md`,
 general engineering measurement with drones confined to one table, seven `w00_` figures from
@@ -58,18 +59,19 @@ and a standard-deviation step added to Lab 2 Part 1. The reasoning and the instr
 shaped it are in `review/MEASUREMENT_READING_PLAN.md`; `path_forward.md` §2–§3 holds the durable
 version.
 
-The Week 3 lab (`labs/flight_practice.md`) is a coming-soon stub. Gus approved the outline in
-`planning/week3_lab_outline.md` on 2026-09-04 and asked for a Holy Stone calibration review and
-figures (both added); six `> GUS:` questions there are still open before the page is written.
-Details and next steps are in the `reorg_plan.md` header.
+The Week 3 lab (`labs/flight_practice.md`) is **written and live**: Gus answered the six outline
+questions on 2026-09-04 (TAs lay out courses on the day; completion-only scoring with an optional
+timed round for fun; groups, one per aircraft, everyone flies before the group moves on; Holy Stone
+HS210; the Lab 0 repetition is deliberate; induced disorientation stays a student activity). The
+answers are inline in `planning/week3_lab_outline.md`. Follow-on: the Holy Stone tutorial page in
+`backlog.md`, which would absorb the lab's Setup Review section and Figure 1.
 
-**What is waiting on Gus.** The Week 3 lab outline (`planning/week3_lab_outline.md`, six questions with
-`> GUS:` lines); sign-off on `path_forward.md` §1 (the two-tier outcomes: M1–M4 wording, the
+**What is waiting on Gus.** A read of the live Week 3 lab page; sign-off on `path_forward.md` §1 (the two-tier outcomes: M1–M4 wording, the
 thirteen "Course Skills", and the name for that list) before the syllabus is rewritten; where the
 Lab 2 orthophoto should live; real accuracy numbers for the aerial table in the measurement reading,
 if wanted; and the ten final-project decisions. The Learning Suite screenshots are no longer needed.
 
-**What is next, in order.** (1) Finish the Week 3 lab once the outline is approved. (2) The syllabus
+**What is next, in order.** (1) ~~Finish the Week 3 lab~~ done 2026-09-04. (2) The syllabus
 and outcomes rewrite — `path_forward.md` §1 has the proposed wording; it replaces both existing
 lists, adds `class_resources/course_skills.md`, and points `class_overview.md` at the syllabus.
 (3) The seven missing Part 107 figures, specced in `path_forward.md` §5. Everything else is in
@@ -208,9 +210,8 @@ in `docs/js/mathjax-config.js`.
   **different course** (midterms, Colab notebooks, three units, groups of three). It contradicts the
   syllabus. It was briefly in the nav on 2026-09-04 and reverted the same day; the file is still in
   the repository and should be deleted or folded into the syllabus.
-- `docs/labs/4_rock_canyon_flight.md`, `5_data_processing.md`, `6_part_107_studying.md` and
-  `flight_practice.md` are **titled coming-soon stubs in the nav**. TAs own the first three; the
-  fourth is the Week 3 lab whose outline is under instructor review.
+- `docs/labs/4_rock_canyon_flight.md`, `5_data_processing.md` and `6_part_107_studying.md` are
+  **titled coming-soon stubs in the nav**. TAs own them.
 - Keep external links and figures attributable. Several LiDAR and Thermal images come from Wikimedia
   and need their captions and credits preserved.
 - Do not commit the full FAA supplement PDF or other large binaries.

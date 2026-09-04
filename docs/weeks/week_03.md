@@ -11,7 +11,7 @@
 
 ## Thursday's lab
 
-- [Flight Practice](../labs/flight_practice.md) — this lab is being written; the page will fill in before the lab meets
+- [Flight Practice](../labs/flight_practice.md) — obstacle course, caller-and-pilot flying, lost-orientation recovery, challenges and a race; you calibrate the drone yourself first
 
 ## Looking ahead
 

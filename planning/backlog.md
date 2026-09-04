@@ -12,9 +12,8 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
 
 ## Waiting on the instructor
 
-- **Review of `planning/week3_lab_outline.md`**, the outline for the Week 3 Flight Practice lab. Six
-  questions with `> GUS:` lines (TA ownership, timed vs. completion races, team size, figure prefix,
-  overlap with Lab 0 Part 4, induced disorientation). The page is written only after this.
+- A read of the live Week 3 lab page, `labs/flight_practice.md`, written 2026-09-04 from the answered
+  outline.
 - A name for the Tier 2 list ("skills", "knowledge", "competencies"). Recommendation is in
   `path_forward.md` §1.
 - Sign-off on the reworded Tier 1 outcomes M1-M4 and the thirteen Course Skills (`path_forward.md`
@@ -230,6 +229,17 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-09-04 — **Week 3 Flight Practice lab written**, `labs/flight_practice.md`, replacing the
+  coming-soon stub. From the outline in `planning/week3_lab_outline.md` with the instructor's six
+  answers inline: TAs lay out courses on the day, completion-only scoring (optional timed round for
+  fun), groups with one aircraft each and everyone flying before the group rotates, Holy Stone HS210,
+  deliberate repetition of Lab 0 Part 4, induced-disorientation recovery kept as a student activity.
+  Includes a Setup Review (pairing, gyro calibration, trim, speed switch, headless off, emergency
+  stop) from the HS210 manual. Two figures, `labfp_fig01_calibration.svg` and
+  `labfp_fig02_course_layout.svg` in `docs/labs/images/`, from `fig_tools/fig_flight_practice.py` —
+  the first lab figures on the site. `weeks/week_03.md` updated. The word "precision" does not
+  appear on the page.
 
 - 2026-09-04 — **Measurement Fundamentals reading landed** (`gen_reading/measurement_fundamentals.md`,
   337 lines, seven `w00_` figures from `fig_tools/fig_measurement.py`). Teaches general engineering

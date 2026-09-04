@@ -23,6 +23,7 @@ site, including scripts.
 | `fig_sequence.py` | Figures 10 and 11, the flight sequence and the box practice pattern |
 | `fig_automation.py` | Figures 12 to 15, position hold, sensor coverage, battery states, Return to Home |
 | `fig_rules.py` | Flight Basics Figure 16 (Week 2) and Part 107 Figure 12 (Week 3), from one drawing |
+| `fig_flight_practice.py` | Week 3 lab Figures 1 and 2: HS210 pairing/calibration/trim stick positions, and an example obstacle course from above (`labfp_` prefix, `docs/labs/images/`) |
 
 Each `fig_*.py` writes to `review/` by default and to a docs images folder with `--out`.
 

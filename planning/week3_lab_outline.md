@@ -1,5 +1,8 @@
 # Outline — Flight Practice Lab (Week 3)
 
+**Page written 2026-09-04** from this outline and the six answers below; it is live at
+`docs/labs/flight_practice.md`. This file is now the record of the decisions.
+
 **Status, 2026-09-04 (evening).** Instructor read the outline and said it looks good, and asked for two
 additions, both now in: a short review of calibrating the Holy Stone drone (Setup Review below) and
 an answer to "do we need figures?" (Figures below). The six questions at the bottom are still open;
@@ -346,38 +349,38 @@ course — control first, procedure next, then measurement.
 a race format. If the TAs design the actual stations, the page should instead describe the *type* of
 activity and the rules that govern it, and leave the layouts to them.
 
-> GUS:
+> GUS: Leave the layout to the TA, they will do it on-the-fly
 
 **Q2. Timed and competitive, or completion-only?** Part 6 is written as timed with penalties.
 Completion-only is safer with freshmen and mini drones; timed is more engaging and is what "races"
 in the syllabus implies. Which?
 
-> GUS:
+> GUS: Completion only, but for fun, we may do compeative or times runs
 
 **Q3. Team size, and do groups rotate through stations?** Lab 0 says "work with your group" without
 a number. Pairs work best for Part 3 (pilot and caller); Parts 5 and 6 want teams of three or four.
 Also: how many aircraft are available, which decides whether the class runs one part at a time or
 rotates?
 
-> GUS:
+> GUS: 2-person teams, rotate, everyone flys and calls
 
 **Q4. Figures — agree with the two proposed under Figures above, and the `labfp_` prefix?** The
 calibration-and-trim panel and the course plan view are the two I would draw; nose-in reversal is
 reused from Flight Basics. Also: which Holy Stone model is the fleet, so the calibration figure and
 text show the right stick corner?
 
-> GUS:
+> GUS: Concur, Holy Stone HS210
 
 **Q5. Does any of this duplicate Lab 0 Part 4?** Lab 0's A-B-C-D box pattern already teaches
 nose-fixed versus nose-rotating flight, and Part 2 here repeats that contrast with obstacles added.
 Keep both as written, drop the repeat from Part 2, or trim Lab 0 Part 4 to a single pass now that
 this lab exists?
 
-> GUS:
+> GUS: Yes, some repeaitinov we can note that we are having them do it again
 
 **Q6. Is Part 4 (induced disorientation) acceptable indoors?** It deliberately puts a freshman into
 the situation the readings warn about, with a TA standing by. It is the only place in the course
 that practices recovery rather than avoidance, and also the part most likely to produce a crash.
 Keep it as a student activity, or demote it to a TA demonstration the class watches?
 
-> GUS:
+> GUS: Yes, the drones are small and light, this is a good activity

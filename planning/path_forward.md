@@ -9,8 +9,8 @@ proposed wording* that the backlog items point at.
 and are meant to run in parallel without touching each other's files:
 
 - **Site reorganization by week** — replaces Sprint 3. **Done and committed 2026-09-04** following
-  `planning/reorg_plan.md` (Steps 0–9; Step 2's Week 3 lab page waits on the outline review in
-  `planning/week3_lab_outline.md`, and the page is a coming-soon stub until then). Nav is by week with
+  `planning/reorg_plan.md` (all steps, including the Step 2 Week 3 lab page, written 2026-09-04 from the
+  answered outline in `planning/week3_lab_outline.md`). Nav is by week with
   `docs/weeks/` index pages and a Reference section; no URL changed. Once pushed, the measurement
   reading can be wired in: its nav placement is now **Start Here plus Week 5**, and the Week 5 line is
   already in `mkdocs.yml` as a comment.
@@ -424,7 +424,7 @@ section, because there was nothing true to put in one. Tracked in `backlog.md`.
 ## 10. What I need from you
 
 1. ~~**The Learning Suite screenshots.**~~ No longer needed; the nav follows the syllabus schedule.
-   Instead: **review `planning/week3_lab_outline.md`** so the Week 3 lab can be written.
+   The Week 3 lab is written; a read of the live page is welcome.
 2. **A name for Tier 2.** Recommendation: "Course Skills". (§1)
 3. **Sign-off on M1–M4 as reworded** and on the thirteen Tier 2 skills. (§1)
 4. **Sign-off on the measurement reading sitting top-level in the nav,** directly under Home. (§3)
