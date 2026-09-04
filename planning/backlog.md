@@ -17,9 +17,11 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   overlap with Lab 0 Part 4, induced disorientation). The page is written only after this.
 - A name for the Tier 2 list ("skills", "knowledge", "competencies"). Recommendation is in
   `path_forward.md` §1.
-- Sign-off on the reworded Tier 1 outcomes M1-M4 and on where the measurement reading sits in the
-  nav.
+- Sign-off on the reworded Tier 1 outcomes M1-M4 and the thirteen Course Skills (`path_forward.md`
+  §1). The measurement reading's nav placement is settled: Start Here and Week 5.
 - Where the Lab 2 orthophoto should live long term.
+- Real accuracy numbers for the aerial sub-table in `measurement_fundamentals.md` §6, if wanted;
+  it is qualitative by the instructor's choice for now.
 
 ## Build state
 

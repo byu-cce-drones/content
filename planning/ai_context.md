@@ -7,10 +7,19 @@ Read this before editing any course content.
 Start here after any gap. This section is tracked, so it survives a re-clone even when Claude Code's
 per-project memory does not.
 
-**Repository.** `main` carries the site-by-week reorganization commit of 2026-09-04 (see `git log`).
-Check `git status -sb` to see whether it has been pushed yet. Gus owns
-`byu-cce-drones/content` outright and pushes to `main` directly — no fork, no pull request step. The
-personal fork was deleted on 2026-09-04.
+**Repository.** As of the evening of 2026-09-04, `origin/main` is at `b791fb1` or later: Sprint 1
+(`bc1f4c9`), the site-by-week reorganization (`7aaa3b3`), and the Measurement Fundamentals reading
+(`b791fb1`) are all pushed. Run `git fetch && git status -sb` first; a Week 3 lab commit may have
+landed after this was written. Gus owns `byu-cce-drones/content` outright and pushes to `main`
+directly — no fork, no pull request step. `gh` is not installed; use plain `git`.
+
+**Starting on a new machine.** Everything durable is in this folder (`planning/`) and in git. Claude
+Code's per-project memory does **not** travel between machines — this block is the recovery point.
+Two sessions ran in parallel on 2026-09-04 (one on the reorganization and the Week 3 lab, one on the
+measurement reading); that split is over, and a new session can pick up any item below alone. Machine
+notes from the original workstation: bare `python` failed there, so scripts were run with the full
+Anaconda path (`.../anaconda3/python.exe -m mkdocs build --strict`); Inkscape was installed for
+`fig_tools` PNG renders (`--png` flag). Confirm both on the new machine before assuming.
 
 **The working folder was renamed.** It is no longer `G:\GIT_Repo\content`; the clone was recreated
 under a folder carrying the org name (expected `G:\GIT_Repo\byu-cce-drones-content`). Confirm the
@@ -23,8 +32,8 @@ move and any future re-clone must do the same:
 
 | Path | Holds |
 |---|---|
-| `review/` | `SITE_REVIEW_2026-09-04.md`, the open site review |
-| `.claude/local/` | `SOURCE_MATERIAL.md`, `notes.md`, `rtd_snapshot/`, `instructor_bundle/` |
+| `review/` | `SITE_REVIEW_2026-09-04.md` (the site review, with Gus's answers), `WEEK3_LAB_OUTLINE.md` (awaiting instructor review), `MEASUREMENT_READING_PLAN.md` and `SITE_REORG_BY_WEEK.md` (reasoning behind work now landed; decisions are duplicated in `planning/`), `measurement_fundamentals_DRAFT.md` (superseded by the live page), and PNG renders of figures |
+| `.claude/local/` | `SOURCE_MATERIAL.md`, `notes.md`, `rtd_snapshot/`, `instructor_bundle/`, `drafts/`, `scratch/` |
 | `.claude/settings.local.json` | per-machine permission allowlist, untracked in `51bff7f` |
 | `fig_tools/__pycache__/` | disposable |
 
@@ -42,11 +51,24 @@ The TRUST certificate got its own page, `gen_reading/trust_certificate.md`, list
 `docs/labs/flight_practice.md` (the Week 3 lab) is a titled coming-soon stub; its outline is in
 `review/WEEK3_LAB_OUTLINE.md` waiting for instructor review. No URL changed.
 
+Then the **Measurement Fundamentals reading** (`b791fb1`): `gen_reading/measurement_fundamentals.md`,
+general engineering measurement with drones confined to one table, seven `w00_` figures from
+`fig_tools/fig_measurement.py`, in the nav under Start Here and Week 5, linked from the Week 5 page,
+and a standard-deviation step added to Lab 2 Part 1. The reasoning and the instructor's answers that
+shaped it are in `review/MEASUREMENT_READING_PLAN.md`; `path_forward.md` §2–§3 holds the durable
+version.
+
 **What is waiting on Gus.** The Week 3 lab outline (`review/WEEK3_LAB_OUTLINE.md`, six questions with
-`> GUS:` lines); sign-off on `path_forward.md` §1–§3 (the two-tier outcomes and the measurement
-reading) before the syllabus is rewritten; a look at the seven `w00_` measurement figures in
-`review/`; where the Lab 2 orthophoto should live; and the ten final-project decisions. The
-Learning Suite screenshots are no longer needed — the nav follows the syllabus schedule directly.
+`> GUS:` lines); sign-off on `path_forward.md` §1 (the two-tier outcomes: M1–M4 wording, the
+thirteen "Course Skills", and the name for that list) before the syllabus is rewritten; where the
+Lab 2 orthophoto should live; real accuracy numbers for the aerial table in the measurement reading,
+if wanted; and the ten final-project decisions. The Learning Suite screenshots are no longer needed.
+
+**What is next, in order.** (1) Finish the Week 3 lab once the outline is approved. (2) The syllabus
+and outcomes rewrite — `path_forward.md` §1 has the proposed wording; it replaces both existing
+lists, adds `class_resources/course_skills.md`, and points `class_overview.md` at the syllabus.
+(3) The seven missing Part 107 figures, specced in `path_forward.md` §5. Everything else is in
+`backlog.md`.
 
 ## What this repository is
 
