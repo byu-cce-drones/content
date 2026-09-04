@@ -12,3 +12,59 @@
 .wy-side-nav-search {
     padding: 1px 1px 1px 1px !important;
 }
+/* ---------------------------------------------------------------------------
+   Give figures room without stretching the prose.
+
+   The readthedocs theme caps content at 800px. That suits text, roughly 90
+   characters a line, but the figures are drawn 900px wide and were being
+   squeezed to about 740px. So: widen the column, pull the text back in, and
+   let the figures sit at their natural size.
+   --------------------------------------------------------------------------- */
+
+.wy-nav-content {
+    max-width: 1150px;
+}
+
+/* text keeps a comfortable line length */
+.rst-content p,
+.rst-content ul,
+.rst-content ol,
+.rst-content dl,
+.rst-content blockquote,
+.rst-content h1,
+.rst-content h2,
+.rst-content h3,
+.rst-content h4,
+.rst-content .admonition {
+    max-width: 820px;
+}
+
+/* figures render at full size, but are never blown up past it */
+.rst-content img {
+    max-width: 1000px;
+    height: auto;
+}
+
+/* wide tables scroll inside themselves instead of stretching the page */
+.rst-content table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+/* below the breakpoint, let everything use the full screen again */
+@media screen and (max-width: 1100px) {
+    .rst-content p,
+    .rst-content ul,
+    .rst-content ol,
+    .rst-content dl,
+    .rst-content blockquote,
+    .rst-content h1,
+    .rst-content h2,
+    .rst-content h3,
+    .rst-content h4,
+    .rst-content .admonition,
+    .rst-content img {
+        max-width: 100%;
+    }
+}
