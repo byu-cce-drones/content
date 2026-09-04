@@ -1,0 +1,5 @@
+# Generated files are written with LF by fig_tools/. Without this, every
+# regenerated figure shows as modified on Windows even when nothing changed,
+# and real changes get lost in the line-ending noise.
+*.svg  text eol=lf
+*.py   text eol=lf
