@@ -1,9 +1,23 @@
 # Reorganizing the site by week — step-by-step plan
 
-**Executed 2026-09-04.** Steps 0, 1, 3–7 and 9 done and committed; Step 2 stopped at the outline
-(`review/WEEK3_LAB_OUTLINE.md`) with `labs/flight_practice.md` as a coming-soon stub meanwhile; Step 8's
-push waits on the instructor. One addition at the instructor's request: the TRUST certificate became
-its own page, `gen_reading/trust_certificate.md`, listed as a third Week 1 entry.
+**Executed 2026-09-04.** Steps 0, 1, 3–9 done, committed as `7aaa3b3`, and on `origin/main` (pushed
+together with the measurement reading, `b791fb1`). One addition at the instructor's request: the TRUST
+certificate became its own page, `gen_reading/trust_certificate.md`, listed as a third Week 1 entry.
+
+**Step 2 — where the Week 3 lab stands.** `docs/labs/flight_practice.md` is a titled coming-soon stub
+in the nav. The outline is `planning/week3_lab_outline.md` (moved out of git-ignored `review/` so it
+survives a machine change). The instructor read it 2026-09-04 and said it looks good; a Holy Stone
+calibration review and a Figures section were added at their request. Still open before the page is
+written: the six `> GUS:` questions at the bottom of the outline (TA ownership, timed vs. completion
+races, team size and aircraft count, the two proposed figures and the `labfp_` prefix plus which Holy
+Stone model the fleet is, overlap with Lab 0 Part 4, induced disorientation as activity or demo).
+
+**Next, in order, once those are answered:** (1) `fig_tools/fig_flight_practice.py` drawing
+`labfp_fig01_calibration.svg` and `labfp_fig02_course_layout.svg` into `docs/labs/images/`, PNGs to
+`review/` for a look; (2) write the page over the stub, house lab structure, no "precision" as a
+flying word; (3) strict build, commit, push. Separately, the instructor suggested a Holy Stone
+mini-drone tutorial page shared by the Week 2 and Week 3 labs — proposal recorded at the top of the
+outline; it changes where the calibration text and figure live, so decide it before step (1).
 
 Decided 2026-09-04 with the instructor. The class runs on a weekly Tuesday-lecture / Thursday-lab
 rhythm and Learning Suite is a calendar, so the site's nav should be organized by week. The
