@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="470" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">A check is only worth anything if it is independent</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Four known points, measured again by your method. The gap is what you report.</text>
+  <line x1="90" y1="196" x2="810" y2="196" stroke="#9aa7b2" stroke-width="2"/>
+  <text x="812" y="200" text-anchor="start" font-size="11" fill="#555555">known</text>
+  <text x="812" y="214" text-anchor="start" font-size="11" fill="#555555">value</text>
+  <polygon points="167,208 185,208 176,196" fill="#1a1a1a"/>
+  <line x1="176" y1="196" x2="176" y2="167.2" stroke="#27ae60" stroke-width="2.5"/>
+  <circle cx="176" cy="167.2" r="7" fill="#27ae60" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="176" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">point A</text>
+  <text x="176" y="151.2" text-anchor="middle" font-size="12" font-weight="bold" fill="#27ae60">+0.04 m</text>
+  <polygon points="343,208 361,208 352,196" fill="#1a1a1a"/>
+  <line x1="352" y1="196" x2="352" y2="246.4" stroke="#f39c12" stroke-width="2.5"/>
+  <circle cx="352" cy="246.4" r="7" fill="#f39c12" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="352" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">point B</text>
+  <text x="352" y="272.4" text-anchor="middle" font-size="12" font-weight="bold" fill="#f39c12">-0.07 m</text>
+  <polygon points="519,208 537,208 528,196" fill="#1a1a1a"/>
+  <line x1="528" y1="196" x2="528" y2="181.6" stroke="#27ae60" stroke-width="2.5"/>
+  <circle cx="528" cy="181.6" r="7" fill="#27ae60" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="528" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">point C</text>
+  <text x="528" y="165.6" text-anchor="middle" font-size="12" font-weight="bold" fill="#27ae60">+0.02 m</text>
+  <polygon points="695,208 713,208 704,196" fill="#1a1a1a"/>
+  <line x1="704" y1="196" x2="704" y2="232.0" stroke="#27ae60" stroke-width="2.5"/>
+  <circle cx="704" cy="232.0" r="7" fill="#27ae60" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="704" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">point D</text>
+  <text x="704" y="258.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#27ae60">-0.05 m</text>
+  <rect x="30" y="318" width="420" height="76" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="50" y="344" text-anchor="start" font-size="13.5" font-weight="bold" fill="#1a1a1a">What this tells you</text>
+  <text x="50" y="368" text-anchor="start" font-size="12" fill="#555555">Largest gap is 0.07 m. That is the honest claim,</text>
+  <text x="50" y="385" text-anchor="start" font-size="12" fill="#555555">not the finest detail you can see.</text>
+  <rect x="470" y="318" width="400" height="76" rx="10" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="490" y="344" text-anchor="start" font-size="13.5" font-weight="bold" fill="#1a1a1a">Independent means independent</text>
+  <text x="490" y="368" text-anchor="start" font-size="12" fill="#555555">Measuring the same way twice tests precision.</text>
+  <text x="490" y="385" text-anchor="start" font-size="12" fill="#555555">Only a different source tests accuracy.</text>
+  <text x="450.0" y="432" text-anchor="middle" font-size="12.5" fill="#555555">When someone asks whether your measurement is any good, this is the answer you give them.</text>
+</svg>

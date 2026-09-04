@@ -6,7 +6,7 @@
 
 ## Before Thursday, read
 
-- Measurement Fundamentals — being written; it will be linked here. It covers accuracy, precision, resolution and uncertainty, the vocabulary the lab assumes.
+- [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md) — accuracy, precision, resolution and uncertainty: the vocabulary the lab assumes, and the standard deviation you will compute from your own pace counts
 - [Aerial Measurement Products](../gen_reading/data_products.md) — what an orthomosaic is and what you can measure off one
 - [Using QGIS](../software/qgis_measurements.md) — the coordinate reference system and measurement tools the lab uses
 

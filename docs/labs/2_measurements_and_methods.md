@@ -118,6 +118,15 @@ The TAs will establish a straight 100-ft reference distance.
 3. Record the number of steps.
 4. Repeat the measurement at least three (3) times.
 5. Calculate your average number of steps over the 100-ft distance.
+6. Calculate the standard deviation of your three counts, the same way
+   [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md#2-accuracy-precision-and-resolution)
+   does it for Walker A. Record it next to the average.
+
+!!! note "You just measured your precision"
+    Those three repeats are a precision experiment. The spread between them — the standard deviation
+    you just calculated — is how much a single walk can be trusted against your other walks. Counts of
+    38, 39, 38 are precise; 35, 42, 39 are not, even though both average about the same. The spread
+    says nothing about accuracy: for that you have the taped 100 ft, which is your ground truth.
 
 Use the following equation to calculate your pace length:
 

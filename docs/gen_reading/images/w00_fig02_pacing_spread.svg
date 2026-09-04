@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 492" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="492" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Precision is the spread, and it has a number</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Two students pace the same 100 ft three times. Their step counts:</text>
+  <rect x="30" y="92" width="840" height="152" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="52" y="122" text-anchor="start" font-size="14.5" font-weight="bold" fill="#1a1a1a">Walker A</text>
+  <line x1="161" y1="170" x2="714" y2="170" stroke="#9aa7b2" stroke-width="2"/>
+  <line x1="175.0" y1="170" x2="175.0" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="175.0" y="192" text-anchor="middle" font-size="10.5" fill="#555555">34</text>
+  <line x1="233.33333333333334" y1="170" x2="233.33333333333334" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="233.33333333333334" y="192" text-anchor="middle" font-size="10.5" fill="#555555">35</text>
+  <line x1="291.6666666666667" y1="170" x2="291.6666666666667" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="291.6666666666667" y="192" text-anchor="middle" font-size="10.5" fill="#555555">36</text>
+  <line x1="350.0" y1="170" x2="350.0" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="350.0" y="192" text-anchor="middle" font-size="10.5" fill="#555555">37</text>
+  <line x1="408.33333333333337" y1="170" x2="408.33333333333337" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="408.33333333333337" y="192" text-anchor="middle" font-size="10.5" fill="#555555">38</text>
+  <line x1="466.6666666666667" y1="170" x2="466.6666666666667" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="466.6666666666667" y="192" text-anchor="middle" font-size="10.5" fill="#555555">39</text>
+  <line x1="525.0" y1="170" x2="525.0" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="525.0" y="192" text-anchor="middle" font-size="10.5" fill="#555555">40</text>
+  <line x1="583.3333333333333" y1="170" x2="583.3333333333333" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="583.3333333333333" y="192" text-anchor="middle" font-size="10.5" fill="#555555">41</text>
+  <line x1="641.6666666666667" y1="170" x2="641.6666666666667" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="641.6666666666667" y="192" text-anchor="middle" font-size="10.5" fill="#555555">42</text>
+  <line x1="700.0" y1="170" x2="700.0" y2="176" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="700.0" y="192" text-anchor="middle" font-size="10.5" fill="#555555">43</text>
+  <circle cx="408.33333333333337" cy="156" r="7" fill="#27ae60" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="466.6666666666667" cy="156" r="7" fill="#27ae60" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="408.33333333333337" cy="139" r="7" fill="#27ae60" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="427.77777777777794" y1="108" x2="427.77777777777794" y2="172" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="427.77777777777794" y="102" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a1a1a">mean 38.3</text>
+  <path d="M408.33333333333337,204 L408.33333333333337,212 L466.6666666666667,212 L466.6666666666667,204" fill="none" stroke="#27ae60" stroke-width="2"/>
+  <text x="437.5" y="228" text-anchor="middle" font-size="11" fill="#555555">spread</text>
+  <rect x="742" y="126" width="158" height="60" rx="8" fill="#f4f7fa" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="821" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#27ae60">σ = 0.6 steps</text>
+  <text x="821" y="170" text-anchor="middle" font-size="12" fill="#555555">precise</text>
+  <rect x="30" y="260" width="840" height="152" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="52" y="290" text-anchor="start" font-size="14.5" font-weight="bold" fill="#1a1a1a">Walker B</text>
+  <line x1="161" y1="338" x2="714" y2="338" stroke="#9aa7b2" stroke-width="2"/>
+  <line x1="175.0" y1="338" x2="175.0" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="175.0" y="360" text-anchor="middle" font-size="10.5" fill="#555555">34</text>
+  <line x1="233.33333333333334" y1="338" x2="233.33333333333334" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="233.33333333333334" y="360" text-anchor="middle" font-size="10.5" fill="#555555">35</text>
+  <line x1="291.6666666666667" y1="338" x2="291.6666666666667" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="291.6666666666667" y="360" text-anchor="middle" font-size="10.5" fill="#555555">36</text>
+  <line x1="350.0" y1="338" x2="350.0" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="350.0" y="360" text-anchor="middle" font-size="10.5" fill="#555555">37</text>
+  <line x1="408.33333333333337" y1="338" x2="408.33333333333337" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="408.33333333333337" y="360" text-anchor="middle" font-size="10.5" fill="#555555">38</text>
+  <line x1="466.6666666666667" y1="338" x2="466.6666666666667" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="466.6666666666667" y="360" text-anchor="middle" font-size="10.5" fill="#555555">39</text>
+  <line x1="525.0" y1="338" x2="525.0" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="525.0" y="360" text-anchor="middle" font-size="10.5" fill="#555555">40</text>
+  <line x1="583.3333333333333" y1="338" x2="583.3333333333333" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="583.3333333333333" y="360" text-anchor="middle" font-size="10.5" fill="#555555">41</text>
+  <line x1="641.6666666666667" y1="338" x2="641.6666666666667" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="641.6666666666667" y="360" text-anchor="middle" font-size="10.5" fill="#555555">42</text>
+  <line x1="700.0" y1="338" x2="700.0" y2="344" stroke="#b9c6d2" stroke-width="1.5"/>
+  <text x="700.0" y="360" text-anchor="middle" font-size="10.5" fill="#555555">43</text>
+  <circle cx="233.33333333333334" cy="324" r="7" fill="#f39c12" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="641.6666666666667" cy="324" r="7" fill="#f39c12" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="466.6666666666667" cy="324" r="7" fill="#f39c12" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="447.22222222222206" y1="276" x2="447.22222222222206" y2="340" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="447.22222222222206" y="270" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a1a1a">mean 38.7</text>
+  <path d="M233.33333333333334,372 L233.33333333333334,380 L641.6666666666667,380 L641.6666666666667,372" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <text x="437.50000000000006" y="396" text-anchor="middle" font-size="11" fill="#555555">spread</text>
+  <rect x="742" y="294" width="158" height="60" rx="8" fill="#f4f7fa" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="821" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#f39c12">σ = 3.5 steps</text>
+  <text x="821" y="338" text-anchor="middle" font-size="12" fill="#555555">not precise</text>
+  <rect x="30" y="432" width="840" height="46" rx="8" fill="#eef3f8" stroke="#d5dfe8" stroke-width="1"/>
+  <text x="450.0" y="450" text-anchor="middle" font-size="12.5" fill="#1a1a1a">Both walkers average about the same count. Only one of them can tell you how far to trust a single walk.</text>
+  <text x="450.0" y="468" text-anchor="middle" font-size="11.5" fill="#555555">This figure is only about precision. Accuracy needs the tape.</text>
+</svg>

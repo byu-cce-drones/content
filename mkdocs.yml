@@ -31,6 +31,7 @@ nav:
 
   - Start Here:
       - Syllabus: class_resources/syllabus.md
+      - Measurement Fundamentals: gen_reading/measurement_fundamentals.md
       # - Grading Policy: class_resources/grading_policy.md  # reverted 2026-09-04: describes a different course; syllabus is the single source
       - Teaching Assistants:
           - About the TAs: class_resources/ta/tas.md
@@ -61,7 +62,7 @@ nav:
 
   - Week 5 — Measurements and Field Practice:
       - This Week: weeks/week_05.md
-      # - Reading — Measurement Fundamentals: gen_reading/measurement_fundamentals.md   # Sprint 2: uncomment when the page lands
+      - Reading — Measurement Fundamentals: gen_reading/measurement_fundamentals.md
       - Lab — Measurements and Methods: labs/2_measurements_and_methods.md
 
   - Week 6 — Mission Planning:

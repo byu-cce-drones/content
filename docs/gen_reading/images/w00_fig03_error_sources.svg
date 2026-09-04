@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 486" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="486" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Four places the error comes from</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Only one of them is the instrument's fault.</text>
+  <rect x="322" y="176" width="256" height="168" rx="8" fill="#eef3f8" stroke="#c6d3de" stroke-width="1.5"/>
+  <path d="M348,318 L372,240 L470,214 L552,252 L536,318 Z" fill="#e4ead9" stroke="#333333" stroke-width="1.5"/>
+  <line x1="348" y1="336" x2="552" y2="336" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="348" y1="328" x2="348" y2="344" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="552" y1="328" x2="552" y2="344" stroke="#4a90d9" stroke-width="2"/>
+  <text x="450" y="200" text-anchor="middle" font-size="12" fill="#555555">one measurement</text>
+  <text x="450" y="358" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a90d9">210 ft</text>
+  <rect x="30" y="82" width="304" height="118" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="48" y="110" text-anchor="start" font-size="14.5" font-weight="bold" fill="#1a1a1a">The instrument</text>
+  <text x="48" y="134" text-anchor="start" font-size="11.5" fill="#555555">A tape that has stretched, or a scale too coarse</text>
+  <text x="48" y="164" text-anchor="start" font-size="12" fill="#27ae60">→  Check it against a known length</text>
+  <line x1="342" y1="140" x2="296" y2="214" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="296" cy="214" r="3.5" fill="#4a90d9"/>
+  <rect x="566" y="82" width="304" height="118" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="584" y="110" text-anchor="start" font-size="14.5" font-weight="bold" fill="#1a1a1a">The method</text>
+  <text x="584" y="134" text-anchor="start" font-size="11.5" fill="#555555">Treating a lot that is not rectangular as a rectangle</text>
+  <text x="584" y="164" text-anchor="start" font-size="12" fill="#27ae60">→  Match the method to the shape</text>
+  <line x1="558" y1="140" x2="604" y2="214" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="604" cy="214" r="3.5" fill="#4a90d9"/>
+  <rect x="30" y="316" width="304" height="118" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="48" y="344" text-anchor="start" font-size="14.5" font-weight="bold" fill="#1a1a1a">The operator</text>
+  <text x="48" y="368" text-anchor="start" font-size="11.5" fill="#555555">Stretching your stride while calibrating a pace</text>
+  <text x="48" y="398" text-anchor="start" font-size="12" fill="#27ae60">→  Repeat the measurement, then average</text>
+  <line x1="342" y1="374" x2="296" y2="306" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="296" cy="306" r="3.5" fill="#4a90d9"/>
+  <rect x="566" y="316" width="304" height="118" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="584" y="344" text-anchor="start" font-size="14.5" font-weight="bold" fill="#1a1a1a">The reference</text>
+  <text x="584" y="368" text-anchor="start" font-size="11.5" fill="#555555">A benchmark that moved, or imagery three years old</text>
+  <text x="584" y="398" text-anchor="start" font-size="12" fill="#27ae60">→  Use a reference you can verify</text>
+  <line x1="558" y1="374" x2="604" y2="306" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="604" cy="306" r="3.5" fill="#4a90d9"/>
+  <text x="450.0" y="462" text-anchor="middle" font-size="12.5" fill="#555555">Repeating a measurement exposes the operator. It hides the other three.</text>
+</svg>

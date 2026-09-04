@@ -14,17 +14,9 @@ and are meant to run in parallel without touching each other's files:
   `docs/weeks/` index pages and a Reference section; no URL changed. Once pushed, the measurement
   reading can be wired in: its nav placement is now **Start Here plus Week 5**, and the Week 5 line is
   already in `mkdocs.yml` as a comment.
-- **Measurement Fundamentals reading** — Sprint 2's core. Where it stands: the plan is approved
-  (`review/MEASUREMENT_READING_PLAN.md`, with the instructor's answers recorded at the top —
-  general engineering measurement, drones only in §6; `w00_` prefix; standard deviation in; Lab 2
-  may be edited). All seven figures are drawn by `fig_tools/fig_measurement.py`, rendered into
-  `review/` and checked by eye; 1–6 are good, 7 was fixed once for overlaps. **Next:** instructor
-  looks at the seven PNGs in `review/`; then write the page into `review/` first; then, once the
-  reorganization is pushed, move figures to `docs/gen_reading/images/`, the page to
-  `docs/gen_reading/measurement_fundamentals.md`, nav under Start Here **and** Week 5, wire Lab 2
-  (add the pacing-precision sentences to Part 1), make the four precision edits, strict build,
-  commit. Until the reorganization is pushed this stream touches only `review/` and
-  `fig_tools/fig_measurement.py`.
+- **Measurement Fundamentals reading** — **landed 2026-09-04**, committed on top of the reorg. Page,
+  seven figures, nav (Start Here and Week 5), Week 5 index link, and the Lab 2 Part 1 standard-deviation
+  step are all in. What is left is in `backlog.md` under Content gaps.
 
 Sections 1–3 below still need a sign-off before the syllabus is rewritten.
 

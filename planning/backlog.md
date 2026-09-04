@@ -103,20 +103,10 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
 
 ## Content gaps
 
-- [ ] **Write `gen_reading/measurement_fundamentals.md`** — the largest content gap on the site,
-      agreed by the instructor 2026-09-04. The course is called Aerial Measurement, the syllabus
-      schedules "Accuracy vs. precision" in Week 5, and no page covers measurement. Accuracy,
-      uncertainty, error sources, ground truth and significant figures appear only inside Lab 2's
-      activity instructions, where they cannot be assigned as pre-class reading or quizzed. It must
-      cover accuracy, precision, resolution **and** uncertainty — instructor: "need all of these" —
-      and tie explicitly to the Tier 1 outcomes. Section V of `mission_planning_sfm.md` ("How will
-      you know it worked?") is the model to build from. Outline in `path_forward.md` §3.
-- [ ] **Give the measurement reading top-level nav placement.** Instructor 2026-09-04: it is the base
-      of the course, "an overriding concept, not a specific activity", so it should sit first or at a
-      higher level rather than as one reading among ten. Proposal in `path_forward.md` §3.
-- [ ] **Write the Week 3 lab, `labs/flight_practice.md`.** Currently a titled coming-soon stub in the
-      nav (same pattern as Labs 4–6). Syllabus: Mini Drone Lab Part 2 — obstacle courses, team
-      flight activities, flight challenges and races. Outline awaiting review, see top of this file.
+- [ ] **Measurement Fundamentals: remaining polish.** The page landed 2026-09-04 (see Done). Left
+      open: real accuracy numbers for the aerial sub-table in §6 (instructor deferred; qualitative for
+      now), and `mission_planning_sfm.md` §V still needs its one-line link back to the new page so the
+      "this page defines, everything else applies" rule is visible from both ends.
 - [ ] **FE-style surveying and basic trigonometry review.** Instructor 2026-09-04: the course may
       need a basic trig review for the FE exam, and where it fits in the semester is undecided. The
       syllabus schedules "FE-style surveying review" and "basic trigonometry" in Week 12; no page
@@ -233,6 +223,13 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 
 ## Done
 
+- 2026-09-04 — **Measurement Fundamentals reading landed** (`gen_reading/measurement_fundamentals.md`,
+  337 lines, seven `w00_` figures from `fig_tools/fig_measurement.py`). Teaches general engineering
+  measurement — accuracy, precision (with standard deviation), resolution, uncertainty, the
+  accuracy-need ladder, what more accuracy costs, significant figures, ground truth — with drones
+  confined to one method table in §6, per the instructor. In the nav under Start Here and Week 5.
+  Lab 2 Part 1 now has students compute the standard deviation of their three pace counts and names
+  it as a precision measurement. Plan and instructor answers: `review/MEASUREMENT_READING_PLAN.md`.
 - 2026-09-04 — **Site reorganized by week**, following `planning/reorg_plan.md`. Nav is now Home,
   Start Here, `Week 1` … `Week 15` (headings match the syllabus schedule), Reference. Fifteen
   `docs/weeks/week_NN.md` index pages, each with the week's lecture/lab summary, readings, lab, and
