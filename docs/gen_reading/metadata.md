@@ -67,7 +67,7 @@ Always ensure your drone's settings are correct (especially the clock and GPS co
 
 ## Where this is used
 
-[Lab 5 — Data Processing](../labs/5_data_processing.md) depends on this metadata: the processing
+[Week 8 lab — Data Processing](../labs/5_data_processing.md) depends on this metadata: the processing
 software uses the GPS position and camera orientation stored in each photograph to work out where
 the pictures were taken from. See [Bentley iTwin Capture Modeler](../software/bentley_itwin.md) for
 the workflow that reads it.

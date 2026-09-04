@@ -51,7 +51,8 @@
 
 !!! warning "Decision needed — software"
     Which package teams use, and whether licences or seats are limited: _to be set_. Candidates
-    already taught in this course are Bentley iTwin and QGIS. Topic 2 covers both.
+    already taught in this course are Bentley iTwin and QGIS. [Using QGIS](../software/qgis_measurements.md)
+    (Week 4) and [Bentley iTwin](../software/bentley_itwin.md) (Week 7) cover both.
 
 ### Expected products
 
@@ -61,7 +62,7 @@ Produce at least:
 - A **digital surface model (DSM)**, or a point cloud, depending on your measurement.
 - Whatever specific product your question needs — a volume, an area, a profile, a difference map.
 
-Topic 4, [How Photos Become 3D](../gen_reading/sfm_workflow.md), explains what each stage is doing.
+The [Week 7](../weeks/week_07.md) reading, [How Photos Become 3D](../gen_reading/sfm_workflow.md), explains what each stage is doing.
 
 ### Check the reconstruction before you measure it
 

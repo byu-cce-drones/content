@@ -11,7 +11,7 @@
     - **DSM keeps the trees and buildings. DTM removes them.** That single distinction decides
       whether your earthwork numbers are right.
 
-This page is a reference. You will come back to it in Topics 2, 3, 4, and 6 as each product turns up.
+This page is a reference. You will come back to it from Week 4 through Week 8 as each product turns up.
 
 ---
 
@@ -137,5 +137,5 @@ Next: [Flight Basics](flight_basics.md) covers the aircraft itself and how to ge
 
 ## Where this is used
 
-- [Lab 2 — Measurements and Methods](../labs/2_measurements_and_methods.md) — you measure off an orthomosaic
-- [Lab 5 — Data Processing](../labs/5_data_processing.md) — you produce these products from your own flight
+- [Week 5 lab — Measurements and Methods](../labs/2_measurements_and_methods.md) — you measure off an orthomosaic
+- [Week 8 lab — Data Processing](../labs/5_data_processing.md) — you produce these products from your own flight

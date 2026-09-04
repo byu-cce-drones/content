@@ -384,7 +384,7 @@ Be prepared to discuss:
 
 ## Looking Ahead
 
-Next: [Lab 3 — Creating Flight Plans](3_creating_flight_plans.md).
+Next: [Week 6 lab — Creating Flight Plans](3_creating_flight_plans.md).
 
 In the next lab, you will apply concepts introduced in the upcoming lecture to plan an actual aerial mapping mission.
 

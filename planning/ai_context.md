@@ -7,7 +7,8 @@ Read this before editing any course content.
 Start here after any gap. This section is tracked, so it survives a re-clone even when Claude Code's
 per-project memory does not.
 
-**Repository.** `main` is at `51bff7f` and matches `origin/main`. Everything is pushed. Gus owns
+**Repository.** `main` carries the site-by-week reorganization commit of 2026-09-04 (see `git log`).
+Check `git status -sb` to see whether it has been pushed yet. Gus owns
 `byu-cce-drones/content` outright and pushes to `main` directly — no fork, no pull request step. The
 personal fork was deleted on 2026-09-04.
 
@@ -32,13 +33,20 @@ published pages: findings, a proposed set of ABET outcomes, a suggested order of
 questions for the instructor. Gus answers inline with `> GUS:` prefixes — never delete or rewrite
 those. Read it before proposing content work. Its durable summary is `backlog.md` in this folder.
 
-**What was last done.** The four orphan pages were added to `nav:` at Gus's request (`196cdde`), and
-`planning/` was reconciled with the merged repository. Nothing in the review has been acted on yet.
+**What was last done.** Sprint 1 of `path_forward.md` (`bc1f4c9`), then the **site reorganization by
+week** following `planning/reorg_plan.md`: the nav is now fifteen `Week N — Title` sections matching
+the syllabus schedule, each led by a `This Week` page in `docs/weeks/`, plus a Reference section.
+Every "Topic N" reference in prose and in two SVGs became a week reference, Lab 0's Looking Ahead
+now points at the Week 3 lab, and the three flying uses of "precision" in Lab 0 became "controlled".
+The TRUST certificate got its own page, `gen_reading/trust_certificate.md`, listed under Week 1.
+`docs/labs/flight_practice.md` (the Week 3 lab) is a titled coming-soon stub; its outline is in
+`review/WEEK3_LAB_OUTLINE.md` waiting for instructor review. No URL changed.
 
-**What is waiting on Gus.** The 16 review questions, and in particular: which outcome list to keep,
-whether Learning Suite speaks in Topics or weeks, what to do about the published answer keys and the
-grading policy page, and the ten final-project decisions. Those answers unblock most of the content
-work.
+**What is waiting on Gus.** The Week 3 lab outline (`review/WEEK3_LAB_OUTLINE.md`, six questions with
+`> GUS:` lines); sign-off on `path_forward.md` §1–§3 (the two-tier outcomes and the measurement
+reading) before the syllabus is rewritten; a look at the seven `w00_` measurement figures in
+`review/`; where the Lab 2 orthophoto should live; and the ten final-project decisions. The
+Learning Suite screenshots are no longer needed — the nav follows the syllabus schedule directly.
 
 ## What this repository is
 
@@ -79,21 +87,35 @@ earlier personal fork (`github.com/gus-p-williams/content`) was deleted once own
 
 ## How `docs/` is organized
 
-Folders are named by what a page **is**, not by when it is used. There are no `week_NN/` folders in
-this repository.
+Folders are named by what a page **is**, not by when it is used. The one exception is `docs/weeks/`,
+which holds the fifteen short `This Week` index pages; the full readings and labs stay in their
+section folders. There are no `week_NN/` content folders.
 
 | Folder | Holds |
 |--------|-------|
-| `docs/gen_reading/` | The readings. Images in `docs/gen_reading/images/`. |
-| `docs/labs/` | The lab sessions, numbered from 0. Images in `docs/labs/images/`. |
+| `docs/weeks/` | `week_01.md` … `week_15.md`: one index page per week — what the week covers, what to read, what the lab is, previous/next links. Week 1 also carries the TRUST-certificate requirement and the "how this site is organized" note. No due dates; those live in Learning Suite. |
+| `docs/gen_reading/` | The readings, including `trust_certificate.md`. Images in `docs/gen_reading/images/`. |
+| `docs/labs/` | The lab sessions. File names carry historical numbers (`0_` … `6_`) plus the unnumbered `flight_practice.md`; the nav labels labs by week, not number. Images in `docs/labs/images/`. |
 | `docs/part_107_license/` | Part 107 overview, knowledge review, resources, practice exams and keys. Images in `docs/part_107_license/images/`. |
 | `docs/software/` | QGIS and Bentley iTwin how-to pages. |
 | `docs/final_project/` | The five final project pages. |
 | `docs/class_resources/` | Syllabus, grading policy, TA pages, and the flight checklists. |
 
-The authoritative nav order is the `nav:` block in `mkdocs.yml`. Update it whenever a page is added,
-renamed, or removed. Nav nesting does not change a page's URL, so a page can be regrouped without
-moving the file; moving the file does break Learning Suite links.
+The authoritative nav is the `nav:` block in `mkdocs.yml`, **organized by course week** since
+2026-09-04 (`planning/reorg_plan.md`): Home, Start Here (syllabus, TAs), then `Week 1 — Course
+Introduction` through `Week 15 — Final Presentations` with headings matching the syllabus schedule
+exactly, then Reference. Each week section leads with its `This Week` page, then `Reading — Name`
+entries, then `Lab — Name`. Reference lists the cross-cutting pages (checklists, QGIS, Bentley,
+metadata, products, flight issues) a second time so they can be found without knowing the week; a
+page may appear in the nav more than once and `--strict` accepts it.
+
+When a page is added, put it under its week **and**, if it is cross-cutting, under Reference. Nav
+nesting does not change a page's URL, so a page can be regrouped without moving the file; moving or
+renaming the file does break Learning Suite links, which is why lab files keep their old numbers.
+
+Deliberately **not** in the nav: the two instructor answer-key pages, `coming_soon.md`, and
+`grading_policy.md`. They build, are reachable by URL, and show up as four INFO lines on a strict
+build. The Measurement Fundamentals line under Week 5 is commented out until that page lands.
 
 ### Figure prefixes do not match folder names
 
@@ -109,12 +131,21 @@ a figure came from once it is out of the repository. Roughly:
 | `w05_` | `docs/part_107_license/images/` | Part 107 material |
 | `w06_` | `docs/gen_reading/images/` | LiDAR, Thermal, Multispectral |
 
-### "Topic N" in prose no longer resolves
+### Weeks, not Topics
 
-Several pages say things like "Topic 2 covers both" or "see Topic 5". The nav in this repository has
-no Topic labels — its sections are Readings, Software, Labs, FAA Part 107 License, Final Project.
-A student reading "Topic 4" has nothing to look for. Either restore Topic labels in the nav or
-replace the references with page links. Tracked in `backlog.md`.
+The material was once organized in six Topics; the site now speaks in weeks. Every "Topic N" in
+prose and in the two SVGs that carried it was converted on 2026-09-04, and cross-links to labs read
+"Week 4 lab — Flight Checklist". If an old commit, figure prefix, or note says "Topic N", this is
+what it meant:
+
+| Old Topic | Covered | Now |
+|---|---|---|
+| 1 | Welcome, products, flight basics, flight issues | Weeks 1–3 |
+| 2 | QGIS and Bentley | Week 4 (QGIS), Week 7 (Bentley) |
+| 3 | Metadata | Week 7 |
+| 4 | How Photos Become 3D, Planning the Flight | Weeks 6–7 |
+| 5 | Part 107 | Week 3 (overview), Week 9 (exam prep) |
+| 6 | Sensors | Week 8 |
 
 ## Hardware and software referenced
 
@@ -148,12 +179,11 @@ in `docs/js/mathjax-config.js`.
   without checking with the instructor.
 - `docs/class_resources/grading_policy.md` is raw HTML pasted from Learning Suite and describes a
   **different course** (midterms, Colab notebooks, three units, groups of three). It contradicts the
-  syllabus. It was added to the nav on 2026-09-04 at the instructor's request; it needs rewriting or
-  removing before students see it.
-- `docs/software/qgis_measurements COPY.md` is a near-duplicate of the QGIS page in raw HTML with no
-  `# Title`. Also now in the nav, also needs resolving.
-- `docs/labs/4_rock_canyon_flight.md`, `5_data_processing.md` and `6_part_107_studying.md` are
-  **zero-byte files that are in the nav**. They publish as blank pages.
+  syllabus. It was briefly in the nav on 2026-09-04 and reverted the same day; the file is still in
+  the repository and should be deleted or folded into the syllabus.
+- `docs/labs/4_rock_canyon_flight.md`, `5_data_processing.md`, `6_part_107_studying.md` and
+  `flight_practice.md` are **titled coming-soon stubs in the nav**. TAs own the first three; the
+  fourth is the Week 3 lab whose outline is under instructor review.
 - Keep external links and figures attributable. Several LiDAR and Thermal images come from Wikimedia
   and need their captions and credits preserved.
 - Do not commit the full FAA supplement PDF or other large binaries.

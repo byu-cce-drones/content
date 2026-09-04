@@ -29,13 +29,20 @@ regulatory cautions, `tip` for practical advice, `example` for worked problems.
 
 | Folder | Holds |
 |--------|-------|
+| `docs/weeks/` | The fifteen `This Week` index pages, `week_01.md` … `week_15.md`. Short: what the week covers, what to read, the lab, previous/next. Never a due date. |
 | `docs/gen_reading/` | The readings. Images in `docs/gen_reading/images/`. |
-| `docs/labs/` | The lab sessions, numbered from 0. Images in `docs/labs/images/`. |
+| `docs/labs/` | The lab sessions. Numbers in the file names are historical; the nav labels labs by week. Images in `docs/labs/images/`. |
 | `docs/part_107_license/` | Part 107 pages, practice exams, and keys. Images in `docs/part_107_license/images/`. |
 | `docs/software/` | QGIS and Bentley iTwin how-to pages. |
 | `docs/final_project/` | The five final project pages. |
 | `docs/class_resources/` | Syllabus, grading policy, TA pages. |
 | `docs/class_resources/flight_check_list/` | The checklists, grouped under Class Resources in the nav. |
+
+The nav is organized by course week (`Week N — Title`, matching the syllabus schedule), with a
+Reference section at the bottom that lists cross-cutting pages a second time. Adding a page means
+adding it to its week **and**, if it is something students will look for out of sequence (a
+checklist, a software guide, a reference table), to Reference as well. Update the week's `This Week`
+page too.
 
 Nav nesting does not change a page's URL in MkDocs, so a page can be regrouped in `nav:` without
 moving the file or breaking a link. Moving the file does break links.
@@ -115,7 +122,10 @@ moving the file or breaking a link. Moving the file does break links.
 ## Cross-referencing
 
 - A lab should link to the reading a student was meant to have done, and a reading should link
-  forward to the lab that uses it. At present no lab page links to any reading page and no reading
-  links to any lab; this is the largest structural gap on the site.
-- Link to a page, not to a topic number. "Topic 4 covers this" means nothing in a nav that has no
-  Topic labels; `[Planning the Flight](../gen_reading/mission_planning_sfm.md)` always works.
+  forward to the lab that uses it. Every lab opens with a "Before this lab, read" block and every
+  reading with a lab has a "Where this is used" section (added 2026-09-04). Keep both current.
+- Cross-links to labs read by week and name: `[Week 4 lab — Flight Checklist](../labs/1_flight_checklist.md)`.
+  Not "Lab 1" (the file number is historical) and not a bare "Week 4" (a week number alone goes
+  stale when the schedule moves).
+- Link to a page, not to a topic or week number alone. `[Planning the Flight](../gen_reading/mission_planning_sfm.md)`
+  always works; "Topic 4 covers this" was what the 2026-09-04 conversion had to clean up.

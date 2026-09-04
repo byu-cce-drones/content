@@ -98,7 +98,7 @@ project and can be checked later.
     A digitized feature is a record. You can re-open it next week, correct one edge without redrawing
     everything, measure fifty stockpiles in one pass instead of one at a time, and export the result
     to a report or to CAD. This is the workflow you will use in
-    [Lab 2: Measurements and Methods](../labs/2_measurements_and_methods.md).
+    [Week 5 lab — Measurements and Methods](../labs/2_measurements_and_methods.md).
 
 ## 5. Estimating Cut and Fill from a DEM or DSM
 
@@ -130,7 +130,7 @@ Where it is lower, material was removed — that is cut.
 
 ## Where this is used
 
-You will use QGIS in [Lab 2: Measurements and Methods](../labs/2_measurements_and_methods.md), where
+You will use QGIS in [Week 5 lab — Measurements and Methods](../labs/2_measurements_and_methods.md), where
 you compare a measurement taken from a drone orthomosaic against pacing and against Google Maps. It
 is also one of the two processing and analysis tools available for the
 [Final Project](../final_project/overview.md).

@@ -1,7 +1,7 @@
 """Figure: the flying rules that apply to every flight.
 
-One drawing serves two topics. Topic 1 gets the full version, with line of sight
-and the altitude limit above the three prohibitions. Topic 5 already covers
+One drawing serves two weeks. Week 2 gets the full version, with line of sight
+and the altitude limit above the three prohibitions. Week 3 already covers
 those two in its own Figures 13 and 14, so it gets the prohibitions alone.
 
 Usage:
@@ -10,8 +10,8 @@ Usage:
     python fig_tools/fig_rules.py --no-scene --number 12         --slug prohibitions --week 5 --out docs/week_05/images
 
 Outputs:
-    w01_fig16_rules.svg         Topic 1: sight, altitude, and the never-dos
-    w05_fig12_prohibitions.svg  Topic 5: the never-dos on their own
+    w01_fig16_rules.svg         Week 2: sight, altitude, and the never-dos
+    w05_fig12_prohibitions.svg  Week 3: the never-dos on their own
 """
 from __future__ import annotations
 
@@ -79,7 +79,7 @@ def build(number: int = 16, scene: bool = True) -> Figure:
         fig = Figure(900, 664,
                      f"Figure {number}: The rules that apply on every flight",
                      "Keep it in sight, keep it low, and know what you must "
-                     "never fly over. Topic 5 covers the full set.")
+                     "never fly over. Week 3 covers the full set.")
     else:
         fig = Figure(900, 392,
                      f"Figure {number}: Three things you must never fly over "

@@ -195,5 +195,5 @@ used for.
 
 ## Where this is used
 
-- [Lab 3 — Creating Flight Plans](../labs/3_creating_flight_plans.md) — the overlap you plan for is driven by what this process needs
-- [Lab 5 — Data Processing](../labs/5_data_processing.md) — you run this process on your own photographs
+- [Week 6 lab — Creating Flight Plans](../labs/3_creating_flight_plans.md) — the overlap you plan for is driven by what this process needs
+- [Week 8 lab — Data Processing](../labs/5_data_processing.md) — you run this process on your own photographs

@@ -5,9 +5,28 @@ review file is git-ignored and will eventually be deleted; this file is the dura
 came out of it. Open items are tracked in `backlog.md`; this file holds the *reasoning and the
 proposed wording* that the backlog items point at.
 
-**Status.** Sprint 1 (§9) is applied and committed. Sections 1–3 still need a sign-off before
-Sprint 2 touches the syllabus or adds the measurement reading; §4 is blocked on the Learning
-Suite screenshots.
+**Status, 2026-09-04 (evening).** Sprint 1 (§9) is applied and pushed. Two streams are now in flight
+and are meant to run in parallel without touching each other's files:
+
+- **Site reorganization by week** — replaces Sprint 3. **Done and committed 2026-09-04** following
+  `planning/reorg_plan.md` (Steps 0–9; Step 2's Week 3 lab page waits on the outline review in
+  `review/WEEK3_LAB_OUTLINE.md`, and the page is a coming-soon stub until then). Nav is by week with
+  `docs/weeks/` index pages and a Reference section; no URL changed. Once pushed, the measurement
+  reading can be wired in: its nav placement is now **Start Here plus Week 5**, and the Week 5 line is
+  already in `mkdocs.yml` as a comment.
+- **Measurement Fundamentals reading** — Sprint 2's core. Where it stands: the plan is approved
+  (`review/MEASUREMENT_READING_PLAN.md`, with the instructor's answers recorded at the top —
+  general engineering measurement, drones only in §6; `w00_` prefix; standard deviation in; Lab 2
+  may be edited). All seven figures are drawn by `fig_tools/fig_measurement.py`, rendered into
+  `review/` and checked by eye; 1–6 are good, 7 was fixed once for overlaps. **Next:** instructor
+  looks at the seven PNGs in `review/`; then write the page into `review/` first; then, once the
+  reorganization is pushed, move figures to `docs/gen_reading/images/`, the page to
+  `docs/gen_reading/measurement_fundamentals.md`, nav under Start Here **and** Week 5, wire Lab 2
+  (add the pacing-precision sentences to Part 1), make the four precision edits, strict build,
+  commit. Until the reorganization is pushed this stream touches only `review/` and
+  `fig_tools/fig_measurement.py`.
+
+Sections 1–3 below still need a sign-off before the syllabus is rewritten.
 
 ---
 
@@ -219,6 +238,11 @@ Figures needed (all new, `fig_tools/`, prefix to be decided with the Topic numbe
 
 ## 4. Topic labels in the nav
 
+**Superseded 2026-09-04.** The instructor later chose to organize the nav by week rather than restore
+Topic labels; `planning/reorg_plan.md` is the plan that was executed. Every "Topic N" reference
+became a week reference and the two SVGs were regenerated. The Learning Suite screenshots are no
+longer needed. The text below is kept for the record.
+
 The instructor chose option (a): restore Topic labels rather than strip "Topic N" from prose, and
 will supply screenshots of the Learning Suite schedule and assignment pages.
 
@@ -390,12 +414,14 @@ section, because there was nothing true to put in one. Tracked in `backlog.md`.
     `class_overview.md` at the syllabus.
 11. Write `gen_reading/measurement_fundamentals.md` and its figures; place it top-level in the nav.
 12. Wire it into Lab 2, and add the "Skills built here" lines across labs and readings.
-13. Rename "precision hovering/landing" in Lab 0.
+13. ~~Rename "precision hovering/landing" in Lab 0.~~ Done 2026-09-04 as part of the reorganization.
 
-**Sprint 3 — blocked on the Learning Suite screenshots.**
+**Sprint 3 — superseded by the site reorganization by week, done 2026-09-04.** See
+`planning/reorg_plan.md`.
 
-14. Topic labels in the nav; verify the thirteen prose references; regenerate the two SVGs. (§4)
-15. Reorder the nav to match class progression.
+14. ~~Topic labels in the nav; verify the thirteen prose references; regenerate the two SVGs.~~
+    Converted to week references instead.
+15. ~~Reorder the nav to match class progression.~~ The nav is now the class progression.
 
 **Sprint 4 — figures.**
 
@@ -405,10 +431,12 @@ section, because there was nothing true to put in one. Tracked in `backlog.md`.
 
 ## 10. What I need from you
 
-1. **The Learning Suite screenshots** — schedule page and assignment pages. Blocks all of Sprint 3.
+1. ~~**The Learning Suite screenshots.**~~ No longer needed; the nav follows the syllabus schedule.
+   Instead: **review `review/WEEK3_LAB_OUTLINE.md`** so the Week 3 lab can be written.
 2. **A name for Tier 2.** Recommendation: "Course Skills". (§1)
 3. **Sign-off on M1–M4 as reworded** and on the thirteen Tier 2 skills. (§1)
 4. **Sign-off on the measurement reading sitting top-level in the nav,** directly under Home. (§3)
+   Under the week nav this means Start Here **plus** Week 5; the Week 5 line is already commented in.
 5. **Where the Lab 2 orthophoto should live** — is mirroring it into Learning Suite workable? (§7)
 
 Sprint 1 does not wait on any of these and can start immediately.

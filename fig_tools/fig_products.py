@@ -1,4 +1,4 @@
-"""Illustrations and example placeholders for the Topic 1 data products page.
+"""Illustrations and example placeholders for the Week 2 data products page.
 
 Captions, no figure numbers: nothing refers to these by number, so the numbered
 sequence on Flight Basics and Common Flight Issues stays untouched.
@@ -83,7 +83,7 @@ def build_family() -> Figure:
     fig.add(line(30, 396, 870, 396, stroke="#dde3e9", stroke_width=2))
     fig.add(text(30, 428, "From a specialist sensor", font_size=14,
                  font_weight="bold", fill=P["accent"]))
-    fig.add(text(262, 428, "(covered in Topic 6)", font_size=12,
+    fig.add(text(262, 428, "(covered in Week 8)", font_size=12,
                  fill=P["muted"]))
     for y, src, srcsub, out, outsub in (
         (474, "Thermal camera", "temperature", "Thermal mosaic",

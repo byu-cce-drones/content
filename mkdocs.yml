@@ -29,58 +29,98 @@ theme:
 nav:
   - Home: index.md
 
-  - Class Resources:
+  - Start Here:
       - Syllabus: class_resources/syllabus.md
       # - Grading Policy: class_resources/grading_policy.md  # reverted 2026-09-04: describes a different course; syllabus is the single source
-      - Teaching Assistants (TAs):
+      - Teaching Assistants:
           - About the TAs: class_resources/ta/tas.md
           - Office Hours: class_resources/ta/ta_hours.md
-      - Flight Checklist:
+
+  - Week 1 — Course Introduction:
+      - This Week: weeks/week_01.md
+      - Welcome to the Course: gen_reading/class_overview.md
+      - TRUST Certificate (Required): gen_reading/trust_certificate.md
+
+  - Week 2 — Drone Applications and Basic Flight:
+      - This Week: weeks/week_02.md
+      - Reading — Aerial Measurement Products: gen_reading/data_products.md
+      - Reading — Flight Basics: gen_reading/flight_basics.md
+      - Lab — Intro to Flying: labs/0_intro_to_flying.md
+
+  - Week 3 — FAA Rules and Flight Practice:
+      - This Week: weeks/week_03.md
+      - Reading — FAA Part 107 Overview: part_107_license/faa_exam_planning_and_overview.md
+      - Reading — Common Flight Issues: gen_reading/flight_issues.md
+      - Lab — Flight Practice: labs/flight_practice.md
+
+  - Week 4 — GIS and Pre-Flight Procedures:
+      - This Week: weeks/week_04.md
+      - Reading — Using QGIS: software/qgis_measurements.md
+      - Reading — Flight Checklists: class_resources/flight_check_list/index.md
+      - Lab — Flight Checklist: labs/1_flight_checklist.md
+
+  - Week 5 — Measurements and Field Practice:
+      - This Week: weeks/week_05.md
+      # - Reading — Measurement Fundamentals: gen_reading/measurement_fundamentals.md   # Sprint 2: uncomment when the page lands
+      - Lab — Measurements and Methods: labs/2_measurements_and_methods.md
+
+  - Week 6 — Mission Planning:
+      - This Week: weeks/week_06.md
+      - Reading — Planning the Flight: gen_reading/mission_planning_sfm.md
+      - Lab — Creating Flight Plans: labs/3_creating_flight_plans.md
+
+  - Week 7 — Photogrammetry and Flight Operations:
+      - This Week: weeks/week_07.md
+      - Reading — How Photos Become 3D: gen_reading/sfm_workflow.md
+      - Reading — Photo Metadata: gen_reading/metadata.md
+      - Reading — Bentley iTwin: software/bentley_itwin.md
+      - Lab — Rock Canyon Park Flight: labs/4_rock_canyon_flight.md
+
+  - Week 8 — Advanced Sensors and Data Processing:
+      - This Week: weeks/week_08.md
+      - Reading — LiDAR Imaging: gen_reading/lidar.md
+      - Reading — Thermal Imaging: gen_reading/thermal.md
+      - Reading — Multispectral Imaging: gen_reading/multispectral.md
+      - Lab — Data Processing: labs/5_data_processing.md
+
+  - Week 9 — Part 107 Exam Preparation:
+      - This Week: weeks/week_09.md
+      - Knowledge Review: part_107_license/part_107_knowledge_review.md
+      - Study Resources: part_107_license/part_107_resources.md
+      - Mini Practice Exam: part_107_license/mini_exam.md
+      - Full Practice Exam (60 Q): part_107_license/60_question_exam.md
+      - Lab — Part 107 Studying: labs/6_part_107_studying.md
+
+  - Week 10 — Final Project Planning:
+      - This Week: weeks/week_10.md
+      - Project Overview: final_project/overview.md
+      - Project Proposal: final_project/proposal.md
+
+  - Week 11 — Guest Lecture and Project Flights:
+      - This Week: weeks/week_11.md
+      - Flight and Data Processing: final_project/flight_and_data_processing.md
+
+  - Week 12 — Surveying and Project Flights:
+      - This Week: weeks/week_12.md
+
+  - Week 13 — Project Work:
+      - This Week: weeks/week_13.md
+
+  - Week 14 — Course Review and Project Support:
+      - This Week: weeks/week_14.md
+
+  - Week 15 — Final Presentations:
+      - This Week: weeks/week_15.md
+      - Project Presentation: final_project/presentation.md
+      - Final Report: final_project/report.md
+
+  - Reference:
+      - Flight Checklists:
           - Overview: class_resources/flight_check_list/index.md
-          - Pre-Flight Checklist:
-              - General Checklist: class_resources/flight_check_list/pre_flight/pre_general.md
-          - Post-Flight Checklist:
-              - General Checklist: class_resources/flight_check_list/post_flight/post_general.md
-
-  - Readings:
-      - Class Overview: gen_reading/class_overview.md
-      - Aerial Measurement Products: gen_reading/data_products.md
-      - Flight Basics: gen_reading/flight_basics.md
-      - Common Flight Issues: gen_reading/flight_issues.md
-      - How Photos Become 3D: gen_reading/sfm_workflow.md
-      - Planning the Flight: gen_reading/mission_planning_sfm.md
-      - LiDAR Imaging: gen_reading/lidar.md
-      - Thermal Imaging: gen_reading/thermal.md
-      - Multispectral Imaging: gen_reading/multispectral.md
-
-  - Software:
-      - QGIS: software/qgis_measurements.md
-      - Bentley: software/bentley_itwin.md
+          - Pre-Flight: class_resources/flight_check_list/pre_flight/pre_general.md
+          - Post-Flight: class_resources/flight_check_list/post_flight/post_general.md
+      - Using QGIS: software/qgis_measurements.md
+      - Bentley iTwin: software/bentley_itwin.md
       - Photo Metadata: gen_reading/metadata.md
-
-  - Labs:
-        - Intro to Flying: labs/0_intro_to_flying.md
-        - Flight Checklist: labs/1_flight_checklist.md
-        - Measurements and Methods: labs/2_measurements_and_methods.md
-        - Creating Flight Plans: labs/3_creating_flight_plans.md
-        - Rock Canyon Park Flight: labs/4_rock_canyon_flight.md
-        - Data Processing: labs/5_data_processing.md
-        - Part 107 Test Studying: labs/6_part_107_studying.md
-
-  - FAA Part 107 License:
-        - Exam Planning & Overview: part_107_license/faa_exam_planning_and_overview.md
-        - Knowledge Review: part_107_license/part_107_knowledge_review.md
-        - Part 107 Study Resources: part_107_license/part_107_resources.md
-        - Mini Practice Exam: part_107_license/mini_exam.md
-        - Mini Exam Key (Instructor): part_107_license/mini_exam_instructor_version.md
-        - Full Practice Exam (60 Q): part_107_license/60_question_exam.md
-        - Full Exam Key (Instructor): part_107_license/60_question_exam_instructor_key.md
-
-  - Final Project:
-        - Overview: final_project/overview.md
-        - Project Proposal: final_project/proposal.md
-        - Flight and Data Processing: final_project/flight_and_data_processing.md
-        - Project Presentation: final_project/presentation.md
-        - Final Report: final_project/report.md
-
-  - Coming Soon: coming_soon.md
+      - Aerial Measurement Products: gen_reading/data_products.md
+      - Common Flight Issues: gen_reading/flight_issues.md

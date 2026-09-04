@@ -105,5 +105,5 @@ sense at a greater distance.
 
 ## Where this is used
 
-- [Lab 1 — Flight Checklist](../labs/1_flight_checklist.md) — you build an emergency checklist from these situations
-- [Lab 4 — Rock Canyon Park Flight](../labs/4_rock_canyon_flight.md) — the first flight where these problems can happen at a real site
+- [Week 4 lab — Flight Checklist](../labs/1_flight_checklist.md) — you build an emergency checklist from these situations
+- [Week 7 lab — Rock Canyon Park Flight](../labs/4_rock_canyon_flight.md) — the first flight where these problems can happen at a real site

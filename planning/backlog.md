@@ -12,8 +12,9 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
 
 ## Waiting on the instructor
 
-- Screenshots of the Learning Suite schedule and assignment pages. These block the nav Topic labels
-  and the nav reorder.
+- **Review of `review/WEEK3_LAB_OUTLINE.md`**, the outline for the Week 3 Flight Practice lab. Six
+  questions with `> GUS:` lines (TA ownership, timed vs. completion races, team size, figure prefix,
+  overlap with Lab 0 Part 4, induced disorientation). The page is written only after this.
 - A name for the Tier 2 list ("skills", "knowledge", "competencies"). Recommendation is in
   `path_forward.md` §1.
 - Sign-off on the reworded Tier 1 outcomes M1-M4 and on where the measurement reading sits in the
@@ -22,7 +23,9 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
 
 ## Build state
 
-`mkdocs build --strict` passes with no warnings and no orphan-page INFO lines. Keep it that way.
+`mkdocs build --strict` passes with no warnings. Expected INFO lines for pages deliberately out of
+the nav: `coming_soon.md`, `grading_policy.md`, and the two instructor answer-key pages. Anything
+else is a regression.
 
 Note what strict mode does **not** catch: paths inside raw HTML `<img>` tags, a `*Figure NN:*`
 caption whose image is missing, and a page that is in the nav but empty.
@@ -83,28 +86,18 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
 
 ## Cross-referencing
 
-- [ ] **Three sensor readings have no lab, and no lab needs them.** `lidar.md`, `thermal.md` and
-      `multispectral.md` are the only readings with no "Where this is used" section, because there is
-      no lab and no assignment on the site that uses any of them. This is the first thing the
-      lab-to-reading rule turned up, exactly as the instructor predicted. Either they feed the final
-      project's method-selection decision and should say so, or the course teaches three sensors it
-      never asks a student to do anything with.
-- [ ] **Restore Topic labels in the nav** so the "Topic N" references resolve. Instructor chose
-      this over stripping the phrase from prose (2026-09-04). Thirteen references in prose plus two
-      baked into SVG text (`w01_fig16_rules.svg`, `w01_products_family.svg`). Blocked on screenshots
-      of the Learning Suite schedule and assignment pages, so the nav labels match what students are
-      told there. The two SVGs need `fig_tools/` regeneration, not a text edit. Nav labels do not
-      change URLs, so no Learning Suite link breaks.
-- [ ] **The final project still does not link to the software pages.** Lab 2 now links to the QGIS
-      page, but `final_project/flight_and_data_processing.md` names Bentley iTwin and QGIS as
-      "Topic 2" with no link to either. Wrapped into the Topic-label work above.
+- [ ] **The three sensor readings still have no "Where this is used" section.** Resolved as
+      structure — they are Week 8 lecture material and the Week 8 page says so — but the pages
+      themselves could still say they feed the final project's method-selection decision.
 - [ ] **`gen_reading/metadata.md` still does not follow the house page structure.** It uses numbered
       `## 1.` headings unlike every other reading. Moved under Software in the nav 2026-09-04; the
       structure was left alone.
-- [ ] **Reorder the nav to match class progression** (instructor, 2026-09-04). Readings currently run
-      Class Overview → Data Products → Flight Basics → Flight Issues → Metadata → How Photos Become
-      3D → Planning the Flight → LiDAR → Thermal → Multispectral, which matches neither the syllabus
-      order nor, necessarily, the lecture order. Blocked on the same Learning Suite screenshots.
+- [ ] **Week 12 has no page.** The syllabus schedules FE-style surveying review and basic
+      trigonometry; `weeks/week_12.md` says the material will be posted and links nothing for it.
+      Same gap as the FE/trig item under Content gaps, now visible in the nav.
+- [ ] **Radar is still in the Week 8 syllabus line** ("LiDAR, radar, thermal, and multispectral
+      sensors") although it was dropped from the outcomes and no page teaches it. Dropping it from
+      the schedule line makes the three sensor readings match the week exactly.
 
 ---
 
@@ -121,10 +114,9 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
 - [ ] **Give the measurement reading top-level nav placement.** Instructor 2026-09-04: it is the base
       of the course, "an overriding concept, not a specific activity", so it should sit first or at a
       higher level rather than as one reading among ten. Proposal in `path_forward.md` §3.
-- [ ] **Rename "precision hovering" and "precision landing" in Lab 0.** Instructor 2026-09-04:
-      precision belongs in the course as a measurement concept general to any measurement, not as a
-      flying skill. Three occurrences in `labs/0_intro_to_flying.md` teach a freshman the wrong sense
-      of the word weeks before the right one.
+- [ ] **Write the Week 3 lab, `labs/flight_practice.md`.** Currently a titled coming-soon stub in the
+      nav (same pattern as Labs 4–6). Syllabus: Mini Drone Lab Part 2 — obstacle courses, team
+      flight activities, flight challenges and races. Outline awaiting review, see top of this file.
 - [ ] **FE-style surveying and basic trigonometry review.** Instructor 2026-09-04: the course may
       need a basic trig review for the FE exam, and where it fits in the semester is undecided. The
       syllabus schedules "FE-style surveying review" and "basic trigonometry" in Week 12; no page
@@ -228,8 +220,6 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
       EXIF, CRS, NDVI). Several are defined more than once and at least one is never defined.
 - [ ] Add "Check Your Understanding" questions to the readings that lack them, to match
       `flight_basics.md`.
-- [ ] A short "how this site is organized" note on `index.md`, which is currently three sentences of
-      boilerplate and does not link to anything.
 
 ---
 
@@ -243,6 +233,30 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 
 ## Done
 
+- 2026-09-04 — **Site reorganized by week**, following `planning/reorg_plan.md`. Nav is now Home,
+  Start Here, `Week 1` … `Week 15` (headings match the syllabus schedule), Reference. Fifteen
+  `docs/weeks/week_NN.md` index pages, each with the week's lecture/lab summary, readings, lab, and
+  previous/next links; Week 1 carries the TRUST-certificate requirement as its own section, the
+  "how this site is organized" note, and the only mention of due dates. At the instructor's request
+  the TRUST certificate was also lifted out of the Welcome page into its own reading,
+  `gen_reading/trust_certificate.md`, listed as a third Week 1 nav entry. No file moved and no URL
+  changed. Closed by this work:
+    - "Restore Topic labels in the nav" — superseded; the site speaks in weeks. All thirteen
+      "Topic N" prose references converted, plus "Topics 2 to 4" and "Topics 2, 3, 4, and 6" that
+      the count had missed; `w01_fig16_rules.svg` and `w01_products_family.svg` regenerated from
+      `fig_tools/` with "Week 3" / "Week 8" text and checked by eye.
+    - "Reorder the nav to match class progression" — it now is the class progression.
+    - "The final project does not link to the software pages" — `flight_and_data_processing.md`
+      links Using QGIS (Week 4) and Bentley iTwin (Week 7).
+    - "Three sensor readings have no lab" — they are Week 8 lecture material; downgraded above.
+    - "Rename precision hovering / landing in Lab 0" — three occurrences now "controlled" /
+      "more demanding maneuvers".
+    - "How this site is organized note on `index.md`" — on Week 1's page, with a sentence and a
+      Week 1 link on `index.md`.
+    - Lab 0's Looking Ahead pointed at the Week 4 checklist lab while describing the Week 3 flying
+      lab; it now points at `labs/flight_practice.md`. Sprint 1 cross-links relabelled from
+      "Lab N — Name" to "Week N lab — Name" (16 places including two on the QGIS page).
+    - `fig_tools/README.md` paths updated from the long-gone `docs/week_NN/images/`.
 - 2026-09-04 — **Sprint 1 of `path_forward.md`.** Strict build clean; the only remaining orphan-page
   INFO line is `grading_policy.md`, which is deliberate.
     - Gave `labs/4_rock_canyon_flight.md`, `5_data_processing.md` and `6_part_107_studying.md` a

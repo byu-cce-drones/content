@@ -185,7 +185,7 @@ Next, you will practice controlling the drone using pitch, roll, and yaw. These 
 
 For this section, you will take off only once and remain in the air while completing all movement exercises. Focus on making small, controlled inputs and stabilizing the drone between each movement.
 
-Quickly running through these basic control movements is a useful habit when manually flying an unfamiliar drone. It allows you to gauge the sensitivity of the controls and understand how the aircraft responds before attempting more precise maneuvers.
+Quickly running through these basic control movements is a useful habit when manually flying an unfamiliar drone. It allows you to gauge the sensitivity of the controls and understand how the aircraft responds before attempting more demanding maneuvers.
 
 #### Forward and Backward Movement (Pitch)
 
@@ -337,19 +337,19 @@ Your response should include important topics discussed during the lab, such as:
 
 ## Looking Ahead
 
-Next: [Lab 1 — Flight Checklist](1_flight_checklist.md).
+Next: [Week 3 lab — Flight Practice](flight_practice.md).
 
 In the next lab, you will build on the skills practiced today.
 
 The next lab will focus more heavily on:
 
-* Precision hovering
+* Controlled hovering
 * Maintaining altitude
 * Directional control
 * Aircraft orientation
 * Flying controlled patterns
 * Combining multiple control inputs
-* Precision landing
+* Controlled landing
 * Recovering from mistakes and unexpected aircraft movement
 
 The goal is to become comfortable making deliberate and predictable aircraft movements before transitioning to larger drone systems.

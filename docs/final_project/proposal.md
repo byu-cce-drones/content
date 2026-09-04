@@ -68,7 +68,7 @@ Then state the flight parameters that follow from it:
 | Camera angle | | |
 | Estimated flight time | | |
 
-Topic 4, [Planning the Flight](../gen_reading/mission_planning_sfm.md), covers how these connect.
+The [Week 6](../weeks/week_06.md) reading, [Planning the Flight](../gen_reading/mission_planning_sfm.md), covers how these connect.
 
 ### 5. Ground truth plan
 

@@ -32,33 +32,10 @@ software. The [flight checklists](../class_resources/flight_check_list/index.md)
 
 ## Before you fly: the TRUST certificate
 
-Anyone flying a drone recreationally in the United States has to pass **TRUST**, The Recreational
-UAS Safety Test. You need yours before the first lab, and you will not be allowed to fly without it.
-
-It is not an exam in any meaningful sense. It is a short set of questions with a bit of reading
-attached, and it is designed so that everyone passes.
-
-| | |
-|---|---|
-| Cost | Free |
-| Where | Online, through any FAA-approved administrator |
-| How long | About 30 minutes |
-| Can you fail it? | No. Miss a question and it shows you the answer, then asks again |
-| Does it expire? | No |
-| Do you carry it? | Yes, whenever you fly |
-
-It covers the basics you would want any pilot near you to know: where you may and may not fly,
-staying below 400 feet, keeping the aircraft in sight, giving way to crewed aircraft, and when a
-drone has to be registered.
-
-!!! warning "Save your certificate when you finish"
-    The FAA does not keep a copy. The certificate is issued to you once, and if you lose it your
-    only option is to take the test again. Download the PDF, then email it to yourself.
-
-    [Take the TRUST test](https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates){target="_blank"}
-
-TRUST covers the flying you do in this class. **Part 107** is the separate certificate you need to
-fly for work, and [Topic 5](../part_107_license/faa_exam_planning_and_overview.md) is devoted to earning it.
+You need a **TRUST** certificate before the first flying lab in Week 2, and you will not be allowed
+to fly without it. It is free, online, takes about 30 minutes, and is designed so that everyone
+passes. [The TRUST Certificate](trust_certificate.md) page says what it is, how to take it, and what
+to do with the certificate when you finish.
 
 ---
 
@@ -113,7 +90,7 @@ back to it through the rest of the course.
 ## What you need
 
 - **Your TRUST certificate**, before the first lab. See
-  [above](#before-you-fly-the-trust-certificate). This one is not optional.
+  [The TRUST Certificate](trust_certificate.md). This one is not optional.
 - **Nothing to buy.** Aircraft, controllers, and batteries are provided.
 - **A laptop** that can run QGIS, which is free.
 - **Closed-toe shoes and a jacket.** Some of this class happens outside.
@@ -136,4 +113,4 @@ get it into the air and back again.
 
 ## Where this is used
 
-Your first time flying is [Lab 0 — Intro to Flying](../labs/0_intro_to_flying.md).
+Your first time flying is [Week 2 lab — Intro to Flying](../labs/0_intro_to_flying.md).

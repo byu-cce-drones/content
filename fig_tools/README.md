@@ -1,7 +1,7 @@
 # Figure tools
 
 Python scripts that generate SVG figures for the course pages. This folder holds the **tools**, not
-the pictures. Generated SVGs live with the page that uses them, in `docs/week_NN/images/`, and are
+the pictures. Generated SVGs live with the page that uses them, in the owning section's `images/` folder (for example `docs/gen_reading/images/`), and are
 committed there, so Read the Docs never runs these scripts.
 
 Re-run a script when a figure needs to change, then commit both the script and the regenerated SVG.
@@ -22,7 +22,7 @@ site, including scripts.
 | `fig_payloads.py` | Figure 3, the sensors a drone can carry |
 | `fig_sequence.py` | Figures 10 and 11, the flight sequence and the box practice pattern |
 | `fig_automation.py` | Figures 12 to 15, position hold, sensor coverage, battery states, Return to Home |
-| `fig_rules.py` | Topic 1 Figure 16 and Topic 5 Figure 12, from one drawing |
+| `fig_rules.py` | Flight Basics Figure 16 (Week 2) and Part 107 Figure 12 (Week 3), from one drawing |
 
 Each `fig_*.py` writes to `review/` by default and to a docs images folder with `--out`.
 
@@ -36,12 +36,12 @@ Scripts never spell the name out; they call `svgkit.figure_name(week, number, sl
 number in the file name always matches the number printed inside the drawing.
 
 A figure used in more than one week is generated once per week, with `--number` setting the number
-in its title. `fig_rules.py` works this way: Topic 1 gets the full drawing, Topic 5 gets `--no-scene`
+in its title. `fig_rules.py` works this way: Flight Basics (Week 2) gets the full drawing, Part 107 (Week 3) gets `--no-scene`
 because it already covers line of sight and altitude in its own figures.
 
 ```
-python fig_tools/fig_rules.py --out docs/week_01/images
-python fig_tools/fig_rules.py --no-scene --week 5 --number 12     --slug prohibitions --out docs/week_05/images
+python fig_tools/fig_rules.py --out docs/gen_reading/images
+python fig_tools/fig_rules.py --no-scene --week 5 --number 12     --slug prohibitions --out docs/part_107_license/images
 ```
 
 No third-party packages are required. Any Python 3.8 or newer works.
@@ -50,7 +50,7 @@ No third-party packages are required. Any Python 3.8 or newer works.
 
 ```
 python fig_tools/fig_controller.py --png
-python fig_tools/fig_controller.py --out docs/week_01/images
+python fig_tools/fig_controller.py --out docs/gen_reading/images
 ```
 
 `--png` renders a PNG next to each SVG using Inkscape if it is installed, which is the quickest

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 664" font-family="Arial, Helvetica, sans-serif" font-size="14">
   <rect x="0" y="0" width="900" height="664" fill="#f9f9f9" rx="8"/>
   <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 16: The rules that apply on every flight</text>
-  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Keep it in sight, keep it low, and know what you must never fly over. Topic 5 covers the full set.</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Keep it in sight, keep it low, and know what you must never fly over. Week 3 covers the full set.</text>
   <rect x="40" y="78" width="820" height="222" rx="10" fill="#e8f2fb" stroke="#cfe0ee" stroke-width="1.5"/>
   <rect x="40" y="300" width="820" height="18" fill="#e4ead9"/>
   <line x1="40" y1="300" x2="860" y2="300" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>

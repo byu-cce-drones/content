@@ -443,7 +443,7 @@ Your checklist should:
 
 ## Looking Ahead
 
-Next: [Lab 2 — Measurements and Methods](2_measurements_and_methods.md).
+Next: [Week 5 lab — Measurements and Methods](2_measurements_and_methods.md).
 
 In the next lab, you will begin looking at how drones can be used as a measurement tool.
 

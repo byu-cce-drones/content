@@ -197,5 +197,5 @@ planning app.
 
 ## Where this is used
 
-- [Lab 3 — Creating Flight Plans](../labs/3_creating_flight_plans.md) — you plan a mission using these parameters
-- [Lab 4 — Rock Canyon Park Flight](../labs/4_rock_canyon_flight.md) — you fly the plan you made
+- [Week 6 lab — Creating Flight Plans](../labs/3_creating_flight_plans.md) — you plan a mission using these parameters
+- [Week 7 lab — Rock Canyon Park Flight](../labs/4_rock_canyon_flight.md) — you fly the plan you made
