@@ -10,8 +10,8 @@
 | Credits                        | 1 credit                                                                                                                   |
 | Lecture                        | Tuesdays, 9:00–9:50 a.m.                                                                                                   |
 | Lab                            | Thursdays, 8:00–9:50 a.m.                                                                                                  |
-| Instructor and TA Information  | See the [Course Staff](https://byu-cce-aerial-measurements.readthedocs.io/en/latest/class_resources/ta/tas/) page          |
-| Office Hours                   | See the [Office Hours Schedule](https://byu-cce-aerial-measurements.readthedocs.io/en/latest/class_resources/ta/ta_hours/) |
+| Instructor and TA Information  | See the [Course Staff](ta/tas.md) page          |
+| Office Hours                   | See the [Office Hours Schedule](ta/ta_hours.md) |
 | Primary Communication Platform | Microsoft Teams                                                                                                            |
 
 ---
@@ -29,6 +29,29 @@ By the end of the semester, students will understand how drones can be used for 
 ## Learning Outcomes
 
 By the end of this course, students will be able to:
+
+1. Treat a drone as a **measurement instrument**, and state what a given data product can and
+   cannot be used to decide.
+2. Report a measurement together with its **uncertainty**, and identify where that uncertainty
+   came from.
+3. Distinguish **accuracy** from precision, and check a result against independent ground truth
+   rather than trusting the software's number.
+4. Choose a measurement method by weighing the **accuracy required against the effort it costs**,
+   across pacing, hand measurement, published imagery, and a drone flight.
+5. Plan and fly a mapping mission whose altitude, overlap, and camera angle match the accuracy the
+   job actually requires.
+6. Process imagery into standard products (orthomosaic, DSM, DTM, point cloud, 3D model) and judge
+   whether the result is fit for the decision at hand.
+7. Operate safely and legally under FAA rules, by checklist, as a matter of habit.
+8. Communicate a measurement result, and its limitations, well enough that another engineer could
+   defend a decision made from it.
+
+---
+
+## ABET Course Outcomes
+
+The following outcomes are recorded in the wording required for ABET accreditation. They cover the
+same material as the list above.
 
 1. Explain common civil engineering uses for drones, including surveying, mapping, inspection, construction documentation, and environmental monitoring.
 2. Describe basic FAA Part 107 rules and identify when a remote pilot certificate is required.
@@ -84,7 +107,7 @@ Students **MUST** complete the TRUST Certificate before participating in flight 
 
 The Part 107 practice test is intended to help students prepare for the FAA Remote Pilot Certificate exam if they are seeking licensure. The course practice test will include 60 questions and a 2-hour time limit. The passing threshold is 70%, or 42 out of 60 questions.
 
-The practice test will the Part 107 exam by using proctored-style settings, including one question per page and access to the FAA supplement as a PDF resource.
+The practice test will mirror the Part 107 exam by using proctored-style settings, including one question per page and access to the FAA supplement as a PDF resource.
 
 Students will receive two automatic attempts during the assigned test window. After the first attempt, students may review missed questions to guide further study.
 
