@@ -131,3 +131,9 @@ back to it through the rest of the course.
 
 Next up: [Flight Basics](flight_basics.md), which covers the aircraft, the controller, and how to
 get it into the air and back again.
+
+---
+
+## Where this is used
+
+Your first time flying is [Lab 0 — Intro to Flying](../labs/0_intro_to_flying.md).

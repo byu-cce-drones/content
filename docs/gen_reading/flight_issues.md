@@ -100,3 +100,10 @@ Land, or do not take off, if any of these are true:
 
 The last one matters most. A drone doing something you do not understand will not start making
 sense at a greater distance.
+
+---
+
+## Where this is used
+
+- [Lab 1 — Flight Checklist](../labs/1_flight_checklist.md) — you build an emergency checklist from these situations
+- [Lab 4 — Rock Canyon Park Flight](../labs/4_rock_canyon_flight.md) — the first flight where these problems can happen at a real site

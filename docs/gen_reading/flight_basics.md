@@ -457,3 +457,10 @@ your hands.
 - [Topic 5: FAA Part 107](../part_107_license/faa_exam_planning_and_overview.md) — the rules in full, and the
   certificate you will need
 - [Topic 6: Sensors](lidar.md) — thermal, multispectral, and LiDAR payloads in detail
+
+---
+
+## Where this is used
+
+[Lab 0 — Intro to Flying](../labs/0_intro_to_flying.md) is where you fly for the first time, using
+the controller and the orientation skills described above.

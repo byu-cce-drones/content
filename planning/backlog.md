@@ -6,6 +6,20 @@ Last reconciled against the repository: **2026-09-04**, after the topic-material
 (`1542bae`). A full site review from that date is in `review/SITE_REVIEW_2026-09-04.md`
 (git-ignored); this file is the durable summary of what came out of it.
 
+The instructor answered that review inline on 2026-09-04. Those answers are recorded against the
+items below and worked into a sequenced plan in `planning/path_forward.md`. Where an item says
+"instructor, 2026-09-04", the decision is made and does not need re-litigating.
+
+## Waiting on the instructor
+
+- Screenshots of the Learning Suite schedule and assignment pages. These block the nav Topic labels
+  and the nav reorder.
+- A name for the Tier 2 list ("skills", "knowledge", "competencies"). Recommendation is in
+  `path_forward.md` §1.
+- Sign-off on the reworded Tier 1 outcomes M1-M4 and on where the measurement reading sits in the
+  nav.
+- Where the Lab 2 orthophoto should live long term.
+
 ## Build state
 
 `mkdocs build --strict` passes with no warnings and no orphan-page INFO lines. Keep it that way.
@@ -17,78 +31,113 @@ caption whose image is missing, and a page that is in the nav but empty.
 
 ## Blocking, student-visible
 
-- [ ] **Three lab pages are empty files in the nav.** `labs/4_rock_canyon_flight.md`,
-      `labs/5_data_processing.md` and `labs/6_part_107_studying.md` are zero bytes and publish as
-      blank pages. Either write them or take them out of `nav:` until they exist.
 - [ ] **Lab 3 stops mid-page.** `labs/3_creating_flight_plans.md` ends after "Understanding Mission
       Constraints". It has no Activity Instructions, no Homework, no In Lab Reflection, and no
       Looking Ahead — the sections every other lab ends with.
 - [ ] **Answer keys are published to students.** `mini_exam.md` and `60_question_exam.md` each carry
       a complete answer key inline at the bottom of the student page, and both instructor key pages
-      are separate nav entries. The Part 107 practice test is 10% of the course grade. Decide what
-      stays public.
-- [ ] **`class_resources/grading_policy.md` describes a different course.** Raw HTML from Learning
-      Suite: midterms and a final, Colab notebooks and spreadsheet formulas, three units, groups of
-      three, a 10%-per-week late penalty. The syllabus says none of that. Added to the nav
-      2026-09-04 at the instructor's request; rewrite it against the syllabus or drop it.
-- [ ] **`software/qgis_measurements COPY.md` is a duplicate.** Raw HTML, no `# Title`, space in the
-      filename. It does hold three things the real QGIS page lacks: projected CRS vs. degrees,
-      digitizing to a vector layer, and cut/fill from a DEM/DSM. Merge those into
-      `software/qgis_measurements.md`, then delete the copy.
-- [ ] **`labs/example.md` is a second checklist lab.** "Drone Operations Checklist Lab", 635 lines,
-      overlaps `labs/1_flight_checklist.md` and is more detailed than it. It also uses numbered `##`
-      headings where the real labs do not. Merge the good parts into Lab 1 and delete it, or promote
-      it and retire Lab 1.
-- [ ] **`coming_soon.md`** is a bare image with no heading. Now in the nav. Remove it, or give it a
-      title and a purpose.
+      are separate nav entries. The Part 107 practice test is 10% of the course grade. Instructor
+      2026-09-04: leave for now. Revisit before the graded practice exam opens.
+- [ ] **Decide whether to delete `class_resources/grading_policy.md`.** It is out of the nav as of
+      2026-09-04 and no longer reachable from the site, but the file is still in the repository and
+      shows up as the one orphan-page INFO line on a strict build. If nothing in it is worth folding
+      into the syllabus, delete it and the commented nav line together.
+- [ ] **`coming_soon.md`** is a bare image with no heading and a top-level nav entry. Instructor
+      2026-09-04: leave for now.
 
 ---
 
 ## Learning outcomes
 
-- [ ] **The syllabus carries two parallel outcome lists.** Eight "Learning Outcomes" and thirteen
-      "ABET Course Outcomes", said to "cover the same material" — they do not. The ABET list is a
-      topic inventory, not outcomes: #13 is the bare fragment "Fundamental surveying concepts", #10
-      lists radar which the course never teaches, and #4 and #5 are lab activities rather than
-      outcomes. For a one-credit freshman measurements course this should be **three or four**
-      measurement outcomes. Draft wording is in the review file.
-- [ ] **A third outcome list is hidden on the Welcome page.** `gen_reading/class_overview.md` ends
-      with a collapsed "Course learning objectives" block of four bullets that match neither
-      syllabus list. Point it at the syllabus instead.
-- [ ] **ABET outcome 6 has nothing behind it.** "Explain the difference between accuracy and
-      precision" — precision is never defined anywhere on the site in the measurement sense. The
-      only occurrences are "precision hovering" and "precision landing" in Lab 0, which is the
-      flying sense and will actively confuse a freshman.
+**Structure decided 2026-09-04 (instructor).** Two tiers, not one flat list:
+
+- **Tier 1 — ABET outcomes.** Four measurement outcomes, worded generically enough that a surveying
+  or environmental-measurements course could meet the same four. Drones are the vehicle, not the
+  outcome. Short enough to assess and to defend at review time.
+- **Tier 2 — course skills.** Everything drone-specific and course-specific, including the old
+  thirteen. Deliberately *not* called learning outcomes. Each is attached to the lab, reading or
+  homework that builds it, and collected on one master page.
+
+Proposed wording for both tiers is in `planning/path_forward.md` §1.
+
+- [ ] **Write the two-tier list and rewrite the syllabus around it.** The syllabus carries two
+      parallel lists today — eight prose "Learning Outcomes" and thirteen "ABET Course Outcomes",
+      said to cover the same material when they do not — and a third list matching neither is
+      collapsed at the bottom of `gen_reading/class_overview.md`. End state: one Tier 1 list in the
+      syllabus, one Tier 2 skills page, and `class_overview.md` pointing at the syllabus rather than
+      carrying its own list.
+- [ ] **Name the Tier 2 list.** Instructor to choose the term; `path_forward.md` §1 recommends
+      "Course Skills".
+- [ ] **Attach Tier 2 skills to the labs and homework that build them,** with a master list on one
+      page.
+- [ ] **Precision belongs in the ABET list, inside M1 — not as its own outcome.** M1 carries
+      accuracy, precision and resolution; uncertainty is carried by M3, which requires reporting a
+      result with it. All four terms are therefore in Tier 1 without adding a fifth outcome.
+      Reasoning in `path_forward.md` §2.
+- [ ] **Drop radar** from the outcome wording (instructor, 2026-09-04). It appears in old ABET #10
+      and nowhere else on the site.
+- [ ] **Old ABET #13, "Fundamental surveying concepts",** becomes a Tier 2 skill, not an outcome.
+      Tied to the FE trig review item under Content gaps.
 
 ---
 
 ## Cross-referencing
 
-- [ ] **No lab links to any reading, and no reading links to any lab.** Zero edges in either
-      direction across 41 pages. Each lab ends with a "Looking Ahead" that describes the next lab in
-      prose without linking to it or to the reading behind it.
-- [ ] **"Topic N" references do not resolve.** Thirteen in prose plus two baked into SVG text
-      (`w01_fig16_rules.svg`, `w01_products_family.svg`). The nav has no Topic labels. Either
-      restore Topic labels in `nav:` or replace each reference with a page link.
-- [ ] **The software pages are unreachable from anywhere.** Lab 2 runs on QGIS and never links to
-      `software/qgis_measurements.md`; the final project names Bentley iTwin and QGIS as "Topic 2"
-      without linking either.
-- [ ] **`gen_reading/metadata.md` has no inbound link.** It is in the nav and nothing points at it.
-      The Bentley iTwin workflow depends on EXIF and would be the natural place to link from.
+- [ ] **Three sensor readings have no lab, and no lab needs them.** `lidar.md`, `thermal.md` and
+      `multispectral.md` are the only readings with no "Where this is used" section, because there is
+      no lab and no assignment on the site that uses any of them. This is the first thing the
+      lab-to-reading rule turned up, exactly as the instructor predicted. Either they feed the final
+      project's method-selection decision and should say so, or the course teaches three sensors it
+      never asks a student to do anything with.
+- [ ] **Restore Topic labels in the nav** so the "Topic N" references resolve. Instructor chose
+      this over stripping the phrase from prose (2026-09-04). Thirteen references in prose plus two
+      baked into SVG text (`w01_fig16_rules.svg`, `w01_products_family.svg`). Blocked on screenshots
+      of the Learning Suite schedule and assignment pages, so the nav labels match what students are
+      told there. The two SVGs need `fig_tools/` regeneration, not a text edit. Nav labels do not
+      change URLs, so no Learning Suite link breaks.
+- [ ] **The final project still does not link to the software pages.** Lab 2 now links to the QGIS
+      page, but `final_project/flight_and_data_processing.md` names Bentley iTwin and QGIS as
+      "Topic 2" with no link to either. Wrapped into the Topic-label work above.
+- [ ] **`gen_reading/metadata.md` still does not follow the house page structure.** It uses numbered
+      `## 1.` headings unlike every other reading. Moved under Software in the nav 2026-09-04; the
+      structure was left alone.
+- [ ] **Reorder the nav to match class progression** (instructor, 2026-09-04). Readings currently run
+      Class Overview → Data Products → Flight Basics → Flight Issues → Metadata → How Photos Become
+      3D → Planning the Flight → LiDAR → Thermal → Multispectral, which matches neither the syllabus
+      order nor, necessarily, the lecture order. Blocked on the same Learning Suite screenshots.
 
 ---
 
 ## Content gaps
 
-- [ ] **There is no measurement reading.** The course is called Aerial Measurement, the syllabus
-      schedules "Accuracy vs. precision" in Week 5, and the Readings section has no page on
-      measurement fundamentals. Accuracy vs. precision, uncertainty, error sources, ground truth and
-      significant figures appear only inside Lab 2's activity instructions, where they cannot be
-      assigned as pre-class reading or quizzed. Section V of `mission_planning_sfm.md` ("How will
-      you know it worked?") is the one good treatment on the site and is the model to build from.
-- [ ] **Seven figure captions sit under no image** on
-      `part_107_license/faa_exam_planning_and_overview.md`: Figures 15, 16, 19, 20, 24, 25, 27.
-      Either draw them or remove the captions.
+- [ ] **Write `gen_reading/measurement_fundamentals.md`** — the largest content gap on the site,
+      agreed by the instructor 2026-09-04. The course is called Aerial Measurement, the syllabus
+      schedules "Accuracy vs. precision" in Week 5, and no page covers measurement. Accuracy,
+      uncertainty, error sources, ground truth and significant figures appear only inside Lab 2's
+      activity instructions, where they cannot be assigned as pre-class reading or quizzed. It must
+      cover accuracy, precision, resolution **and** uncertainty — instructor: "need all of these" —
+      and tie explicitly to the Tier 1 outcomes. Section V of `mission_planning_sfm.md` ("How will
+      you know it worked?") is the model to build from. Outline in `path_forward.md` §3.
+- [ ] **Give the measurement reading top-level nav placement.** Instructor 2026-09-04: it is the base
+      of the course, "an overriding concept, not a specific activity", so it should sit first or at a
+      higher level rather than as one reading among ten. Proposal in `path_forward.md` §3.
+- [ ] **Rename "precision hovering" and "precision landing" in Lab 0.** Instructor 2026-09-04:
+      precision belongs in the course as a measurement concept general to any measurement, not as a
+      flying skill. Three occurrences in `labs/0_intro_to_flying.md` teach a freshman the wrong sense
+      of the word weeks before the right one.
+- [ ] **FE-style surveying and basic trigonometry review.** Instructor 2026-09-04: the course may
+      need a basic trig review for the FE exam, and where it fits in the semester is undecided. The
+      syllabus schedules "FE-style surveying review" and "basic trigonometry" in Week 12; no page
+      covers either.
+- [ ] **The Lab 2 orthophoto is a SharePoint link.** `labs/2_measurements_and_methods.md` sends
+      students to a SharePoint download that can expire or lose class-wide sharing, and that dies
+      with the account if it sits in a personal OneDrive. Mitigations in `path_forward.md` §7.
+- [ ] **Draw the seven missing Part 107 figures.** Seven italic captions on
+      `part_107_license/faa_exam_planning_and_overview.md` render under nothing: Figures 15, 16, 19,
+      20, 24, 25, 27. Instructor 2026-09-04 prefers all seven drawn over deleting the weaker five.
+      Per-figure specs in `path_forward.md` §5. Figures 2, 5, 6, 8, 9, 17, 18 and 21 are unused
+      numbers, so the sequence has gaps as well; recommendation is to leave the gaps rather than
+      renumber every caption.
 - [ ] **The labs have no figures.** The convention is set (`labNN_figMM_slug.svg` in
       `docs/labs/images/`); the drawings do not exist. Lab 0's homework asks students to label a
       controller, which `w01_fig07_controller.svg` already draws.
@@ -106,7 +155,9 @@ caption whose image is missing, and a page that is in the nav but empty.
       formation, individual versus team grading, site selection, whether every team flies, all four
       due dates, minimum ground truth, processing software, submission location, presentation length
       and venue, and the late-work policy. Nineteen "Decision needed" admonitions are live on the
-      site across the five pages, plus five "This page is a draft" banners.
+      site across the five pages, plus five "This page is a draft" banners. Instructor 2026-09-04:
+      the project is still being worked on — leave the pages as they are and collect suggestions and
+      open questions here rather than editing the pages.
 - [ ] **Rubrics are suggestions.** Every point split in the four project pages is a proposal for the
       instructor to confirm or replace.
 - [ ] **No AI-use policy** for the final report. Worth setting before the project is assigned.
@@ -192,6 +243,37 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 
 ## Done
 
+- 2026-09-04 — **Sprint 1 of `path_forward.md`.** Strict build clean; the only remaining orphan-page
+  INFO line is `grading_policy.md`, which is deliberate.
+    - Gave `labs/4_rock_canyon_flight.md`, `5_data_processing.md` and `6_part_107_studying.md` a
+      title, a "coming soon" note naming what the lab will cover, and a "Before this lab, read" block.
+      Correction to an earlier note in this file: the image path in those pages was **not** broken.
+      MkDocs rewrites `../images/` correctly and the strict build always passed; the pages rendered
+      as an untitled 1.8 MB logo, which is a different problem from a broken image.
+    - Reverted `grading_policy.md` out of the nav.
+    - Merged the three unique sections of `qgis_measurements COPY.md` into
+      `software/qgis_measurements.md` — projected CRS vs. degrees (into the CRS Crash Course
+      admonition), digitizing to a vector layer, and cut/fill from a DEM/DSM — and deleted the copy.
+    - Merged the emergency checklist and the weak/strong checklist-item exercise from
+      `labs/example.md` into `labs/1_flight_checklist.md` as a new `### Emergency` subsection and a
+      new `## Writing a Checklist That Works` section, added two objectives, and deleted
+      `example.md`.
+    - Added "Before this lab, read" blocks to all seven labs, "Where this is used" sections to the
+      seven readings that have a lab, and forward links in the Looking Ahead sections of Labs 0-2.
+      Lab 3 has no Looking Ahead to link from; that is part of finishing Lab 3.
+    - Linked Lab 2 to the QGIS page and reconciled the measure-tool discrepancy: the Measure tool is
+      the quick answer, digitizing plus the Field Calculator is the recorded one, both should agree,
+      and if they do not the CRS is the first thing to check. Added a units warning to Lab 2 Part 4.
+    - Moved `metadata.md` under Software in the nav as "Photo Metadata". The file did not move, so
+      no URL changed.
+- 2026-09-04 — Fixed `site_url` in `mkdocs.yml`. It read
+  `https://byu-cce_aerial_measurements.readthedocs.io/en/latest/` with underscores; the live site is
+  `https://byu-cce-aerial-measurements.readthedocs.io/en/latest/` with hyphens, confirmed by the
+  instructor. A wrong `site_url` breaks the canonical link on every page and every sitemap entry.
+  Closes review question 16.
+- 2026-09-04 — Recorded the instructor's answers to the site review against the items in this file
+  and worked them into `planning/path_forward.md`. Review question 15 (push access) is also closed:
+  `gus-p-williams` owns the repository and `main` tracks `origin/main` with nothing outstanding.
 - 2026-09-04 — Added the four orphan pages to `nav:` (`grading_policy.md`,
   `qgis_measurements COPY.md`, `labs/example.md`, `coming_soon.md`) at the instructor's request.
   Strict build clean and the orphan INFO block is gone. All four are flagged above as still needing

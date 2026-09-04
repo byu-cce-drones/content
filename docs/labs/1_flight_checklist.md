@@ -1,5 +1,10 @@
 # Flight Checklist Lab
 
+!!! abstract "Before this lab, read"
+    - [Flight Checklist Overview](../class_resources/flight_check_list/index.md) — how the course checklists are organized
+    - [Pre-Flight Checklist](../class_resources/flight_check_list/pre_flight/pre_general.md) and [Post-Flight Checklist](../class_resources/flight_check_list/post_flight/post_general.md) — the two you will work from
+    - [Common Flight Issues](../gen_reading/flight_issues.md) — the situations the emergency checklist exists for
+
 ---
 
 ## Key Takeaways
@@ -49,6 +54,8 @@ By completing this lab, students will:
 5. Identify the major components and supporting equipment used with the drone systems in the course.
 6. Become familiar with the basic setup and shutdown procedures for different drone systems.
 7. Develop a generic flight checklist that can be adapted for future drone operations.
+8. Describe how a pilot should respond to common in-flight emergencies.
+9. Judge whether a checklist item is specific enough to be useful, and rewrite it if it is not.
 
 ---
 
@@ -82,7 +89,7 @@ Throughout the lab, pay attention to which procedures are common between the dif
 
 ## Flight Checklist Structure
 
-A flight checklist helps organize the tasks that should be completed throughout a drone operation. While the exact items may vary, most checklists can be divided into three main stages:
+A flight checklist helps organize the tasks that should be completed throughout a drone operation. While the exact items may vary, most checklists can be divided into three main stages — pre-flight, during flight, and post-flight — plus an **emergency checklist**, which is not a stage but a response the pilot may need at any point in the flight.
 
 ### Pre-Flight
 
@@ -154,6 +161,51 @@ Common post-flight items may include:
 * Accounting for all equipment
 * Recording any problems or unusual behavior
 * Preparing equipment for storage or the next flight
+
+---
+
+### Emergency
+
+An emergency checklist is different from the other three. It is not tied to a stage of the flight,
+and it is not something you work through in order at a comfortable pace. It exists so that a pilot
+who is startled, rushed, or watching an aircraft do something unexpected still has a short list of
+correct actions to fall back on.
+
+Situations an emergency checklist should cover:
+
+* Low battery warning
+* Lost GPS
+* Lost connection to the aircraft
+* Strong or gusting wind
+* Nearby manned aircraft
+* People entering the flight area
+* The drone drifting unexpectedly
+* An obstacle avoidance warning
+* A propeller or motor problem
+* Return-to-home activating on its own
+
+Common emergency checklist items:
+
+* Stay calm.
+* Announce the issue to the flight team.
+* Maintain visual line of sight if possible.
+* Stop the mission if needed.
+* Move the drone away from people and obstacles.
+* Return to home if it is safe to do so.
+* Land immediately if conditions require it.
+* Report the issue to the instructor or TA.
+
+!!! question "Think About It"
+    Why should emergency checklist items be short and easy to follow?
+
+    Compare this list with the pre-flight list above. The pre-flight list has fourteen items and you
+    have as long as you need. This list has eight and you may have seconds. What does that change
+    about how each one should be written?
+
+!!! tip "Where the details are"
+    [Common Flight Issues](../gen_reading/flight_issues.md) works through the same situations as
+    symptom, cause, and action tables, including what to do about a fly-away. Read it alongside this
+    section.
 
 ---
 
@@ -252,6 +304,49 @@ Pay attention to:
 
 ---
 
+## Writing a Checklist That Works
+
+A checklist is only useful if the person holding it can act on it without stopping to interpret it.
+After you draft the checklist for your homework, review it against these questions:
+
+1. Are the checklist items clear?
+2. Are the checklist items in a logical order?
+3. Are any important steps missing?
+4. Are any items too vague?
+5. Could another student follow the checklist without extra explanation?
+6. Does the checklist cover safety, equipment, flight, and data?
+
+### Weak checklist items
+
+These look like checklists but do not tell anyone what to do:
+
+* [ ] Check drone.
+* [ ] Check site.
+* [ ] Make sure everything is good.
+* [ ] Fly safely.
+* [ ] Save stuff.
+
+Each one leaves the decision entirely to the person reading it, which is exactly what a checklist is
+supposed to remove. "Check drone" is a reminder that you own a drone.
+
+### Stronger checklist items
+
+These name the thing to look at and what would count as a problem:
+
+* [ ] Inspect each propeller for cracks, chips, or warping.
+* [ ] Confirm return-to-home altitude is higher than nearby trees and buildings.
+* [ ] Verify the controller is connected to the correct drone.
+* [ ] Identify an emergency landing area before takeoff.
+* [ ] Confirm photos or mapping images were saved before leaving the site.
+
+!!! success "Checklist Goal"
+    A good checklist should be specific enough to be useful, but short enough that the pilot will actually use it.
+
+    Those two pressures work against each other, and resolving them is the actual skill. A
+    forty-item checklist that nobody completes is worse than a ten-item checklist that everybody does.
+
+---
+
 ## In Lab Reflection
 
 Before leaving the lab, consider the following questions:
@@ -347,6 +442,8 @@ Your checklist should:
 ---
 
 ## Looking Ahead
+
+Next: [Lab 2 — Measurements and Methods](2_measurements_and_methods.md).
 
 In the next lab, you will begin looking at how drones can be used as a measurement tool.
 

@@ -1,5 +1,9 @@
 # Introduction to Flying Labs
 
+!!! abstract "Before this lab, read"
+    - [Flight Basics](../gen_reading/flight_basics.md) — the aircraft, the controller and its sticks, and keeping track of which way the drone is facing
+    - [Common Flight Issues](../gen_reading/flight_issues.md) — what to do when the aircraft does not behave as expected
+
 ---
 
 ## Key Takeaways
@@ -332,6 +336,8 @@ Your response should include important topics discussed during the lab, such as:
 ---
 
 ## Looking Ahead
+
+Next: [Lab 1 — Flight Checklist](1_flight_checklist.md).
 
 In the next lab, you will build on the skills practiced today.
 

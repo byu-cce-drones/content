@@ -192,3 +192,10 @@ planning app.
 - [ ] **Airspace:** TFRs and NOTAMs checked
 - [ ] **Aircraft:** the [general pre-flight checklist](../class_resources/flight_check_list/pre_flight/pre_general.md)
       still applies
+
+---
+
+## Where this is used
+
+- [Lab 3 — Creating Flight Plans](../labs/3_creating_flight_plans.md) — you plan a mission using these parameters
+- [Lab 4 — Rock Canyon Park Flight](../labs/4_rock_canyon_flight.md) — you fly the plan you made

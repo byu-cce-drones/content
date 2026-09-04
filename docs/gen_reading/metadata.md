@@ -62,3 +62,12 @@ If you take a photo with a drone and open the file properties on your computer, 
     Because metadata often includes exact GPS coordinates, many social media platforms (like Instagram or Facebook) automatically strip metadata from your photos when you upload them to protect your privacy. However, for engineering and surveying, we **must** keep this data intact for our tools to work!
 
 Always ensure your drone's settings are correct (especially the clock and GPS connection) so your metadata is accurate. **Bad metadata can make good data useless!**
+
+---
+
+## Where this is used
+
+[Lab 5 — Data Processing](../labs/5_data_processing.md) depends on this metadata: the processing
+software uses the GPS position and camera orientation stored in each photograph to work out where
+the pictures were taken from. See [Bentley iTwin Capture Modeler](../software/bentley_itwin.md) for
+the workflow that reads it.

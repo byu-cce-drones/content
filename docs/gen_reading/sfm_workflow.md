@@ -190,3 +190,10 @@ used for.
     - **Surface reconstruction:** Poisson reconstruction, Delaunay triangulation. These turn a cloud
       of points into a continuous surface.
     - **Open-source pipeline:** COLMAP, if you want to see the whole process end to end.
+
+---
+
+## Where this is used
+
+- [Lab 3 — Creating Flight Plans](../labs/3_creating_flight_plans.md) — the overlap you plan for is driven by what this process needs
+- [Lab 5 — Data Processing](../labs/5_data_processing.md) — you run this process on your own photographs

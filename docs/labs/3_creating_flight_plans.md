@@ -1,5 +1,9 @@
 # Creating Flight Plans Lab
 
+!!! abstract "Before this lab, read"
+    - [Planning the Flight](../gen_reading/mission_planning_sfm.md) — altitude, overlap, ground sample distance, and the decisions this lab asks you to make
+    - [How Photos Become 3D](../gen_reading/sfm_workflow.md) — why the processing software needs the overlap you are planning for
+
 ---
 
 ## Key Takeaways

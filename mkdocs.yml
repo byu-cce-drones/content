@@ -1,5 +1,5 @@
 site_name: BYU CCE Drone Measurements
-site_url: https://byu-cce_aerial_measurements.readthedocs.io/en/latest/
+site_url: https://byu-cce-aerial-measurements.readthedocs.io/en/latest/
 site_description: Course materials for the CCE class at BYU
 site_author: Instructors and TAs of the CCE class at BYU
 repo_url: https://github.com/byu-cce-drones/content/
@@ -31,7 +31,7 @@ nav:
 
   - Class Resources:
       - Syllabus: class_resources/syllabus.md
-      - Grading Policy: class_resources/grading_policy.md
+      # - Grading Policy: class_resources/grading_policy.md  # reverted 2026-09-04: describes a different course; syllabus is the single source
       - Teaching Assistants (TAs):
           - About the TAs: class_resources/ta/tas.md
           - Office Hours: class_resources/ta/ta_hours.md
@@ -47,7 +47,6 @@ nav:
       - Aerial Measurement Products: gen_reading/data_products.md
       - Flight Basics: gen_reading/flight_basics.md
       - Common Flight Issues: gen_reading/flight_issues.md
-      - Metadata: gen_reading/metadata.md
       - How Photos Become 3D: gen_reading/sfm_workflow.md
       - Planning the Flight: gen_reading/mission_planning_sfm.md
       - LiDAR Imaging: gen_reading/lidar.md
@@ -56,8 +55,8 @@ nav:
 
   - Software:
       - QGIS: software/qgis_measurements.md
-      - QGIS (duplicate copy): "software/qgis_measurements COPY.md"
       - Bentley: software/bentley_itwin.md
+      - Photo Metadata: gen_reading/metadata.md
 
   - Labs:
         - Intro to Flying: labs/0_intro_to_flying.md
@@ -67,7 +66,6 @@ nav:
         - Rock Canyon Park Flight: labs/4_rock_canyon_flight.md
         - Data Processing: labs/5_data_processing.md
         - Part 107 Test Studying: labs/6_part_107_studying.md
-        - Drone Operations Checklist Lab (alternate): labs/example.md
 
   - FAA Part 107 License:
         - Exam Planning & Overview: part_107_license/faa_exam_planning_and_overview.md

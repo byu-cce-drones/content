@@ -1,5 +1,10 @@
 # Measurement Lab
 
+!!! abstract "Before this lab, read"
+    - [Aerial Measurement Products](../gen_reading/data_products.md) — what an orthomosaic is and what you can measure off one
+    - [Using QGIS for Drone Measurement Analysis](../software/qgis_measurements.md) — installation, coordinate reference systems, and the measurement tools you will use in Part 4
+    - [Planning the Flight](../gen_reading/mission_planning_sfm.md), Section V — how you know whether a measurement worked
+
 ---
 
 ## Key Takeaways
@@ -250,12 +255,23 @@ The individual drone photographs have already been processed into an orthomosaic
 !!! success "Download the Lab Image"
     [**Download EB-Parking-1-22-26-orthophoto.tif**](https://byu.sharepoint.com/:i:/s/CEDroneClass/IQBihTemBdyeQoa21AmGFfznAev9rZIMYF_WNmvkp7KsD3s?download=1){target="_blank"}
 
+!!! tip "If you have not used QGIS before"
+    [Using QGIS for Drone Measurement Analysis](../software/qgis_measurements.md) covers installation,
+    loading an orthomosaic, coordinate reference systems, and both measurement methods. Work through
+    it before lab if you can.
+
 #### Load the Orthomosaic
 
 1. Open QGIS.
 2. Load EB-Parking-1-22-26-orthophoto.tif.
 3. Locate the parking lot used during the previous portions of the lab.
 4. Zoom in and examine the image resolution.
+
+!!! warning "Check the units before you measure"
+    Confirm the layer is in a **projected** coordinate reference system, with units of feet or metres
+    rather than degrees. An area measured in degrees is meaningless, and this is the most common
+    reason a result comes out absurd. See
+    [CRS Crash Course](../software/qgis_measurements.md#2-loading-your-orthomosaic).
 
 #### Measure a Parking Stall
 
@@ -270,6 +286,16 @@ The individual drone photographs have already been processed into an orthomosaic
 2. Follow the edge of the asphalt as closely as possible.
 3. Calculate the area using the Field Calculator.
 4. Record the total area in square feet.
+
+!!! note "Two ways to measure, and they should agree"
+    QGIS has a quick **Measure** tool (the ruler icon, `Ctrl+Shift+M`) that gives you a number on
+    screen and then forgets it. This lab uses the Polygon tool and the Field Calculator instead,
+    because that saves the shape you measured, so you can re-open it, correct one edge, and hand it
+    in as a record of what you actually did.
+
+    Neither is wrong, and on the same feature they should give you the same answer. If they do not,
+    check the coordinate reference system first. Both methods are covered on the
+    [QGIS page](../software/qgis_measurements.md).
 
 !!! note "Look Closely"
     Compare the level of detail visible in the drone orthomosaic with the imagery available in Google Maps.
@@ -357,6 +383,8 @@ Be prepared to discuss:
 ---
 
 ## Looking Ahead
+
+Next: [Lab 3 — Creating Flight Plans](3_creating_flight_plans.md).
 
 In the next lab, you will apply concepts introduced in the upcoming lecture to plan an actual aerial mapping mission.
 

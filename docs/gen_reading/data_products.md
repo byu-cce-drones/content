@@ -132,3 +132,10 @@ ground itself.*
 | 6 | Thermal and multispectral products, and LiDAR point clouds |
 
 Next: [Flight Basics](flight_basics.md) covers the aircraft itself and how to get it into the air.
+
+---
+
+## Where this is used
+
+- [Lab 2 — Measurements and Methods](../labs/2_measurements_and_methods.md) — you measure off an orthomosaic
+- [Lab 5 — Data Processing](../labs/5_data_processing.md) — you produce these products from your own flight
