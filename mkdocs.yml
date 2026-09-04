@@ -31,7 +31,7 @@ nav:
 
   - Class Resources:
       - Syllabus: class_resources/syllabus.md
-#      - Grading Policy: class_resources/grading_policy.md
+      - Grading Policy: class_resources/grading_policy.md
       - Teaching Assistants (TAs):
           - About the TAs: class_resources/ta/tas.md
           - Office Hours: class_resources/ta/ta_hours.md
@@ -56,6 +56,7 @@ nav:
 
   - Software:
       - QGIS: software/qgis_measurements.md
+      - QGIS (duplicate copy): "software/qgis_measurements COPY.md"
       - Bentley: software/bentley_itwin.md
 
   - Labs:
@@ -66,6 +67,7 @@ nav:
         - Rock Canyon Park Flight: labs/4_rock_canyon_flight.md
         - Data Processing: labs/5_data_processing.md
         - Part 107 Test Studying: labs/6_part_107_studying.md
+        - Drone Operations Checklist Lab (alternate): labs/example.md
 
   - FAA Part 107 License:
         - Exam Planning & Overview: part_107_license/faa_exam_planning_and_overview.md
@@ -82,3 +84,5 @@ nav:
         - Flight and Data Processing: final_project/flight_and_data_processing.md
         - Project Presentation: final_project/presentation.md
         - Final Report: final_project/report.md
+
+  - Coming Soon: coming_soon.md
