@@ -2,6 +2,7 @@
 
 !!! abstract "This week"
     - **Tuesday lecture:** surveying and civil engineering drone applications
+      [Slides](../slides/week_02.html) · [PDF](../slides/week_02.pdf)
     - **Thursday lab:** Mini Drone Lab Part 1 — basic controls, flight maneuvers, safety procedures, checklist introduction
 
 ## Before Thursday, read

@@ -100,11 +100,10 @@ section.title {
 section.title::before {
   content: "CCE 194R — Aerial Measurement";
   position: absolute;
-  display: block;
   top: 40px;
-  left: 0;
-  width: 100%;
-  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
   font-size: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;

@@ -22,6 +22,12 @@ This page is a reference. You will come back to it from Week 4 through Week 8 as
 *Photographs are the only thing a drone actually collects. Every product below is derived from them,
 and each step throws some information away in exchange for being easier to use.*
 
+!!! tip "Where this is going"
+    By the end of this page you should be able to answer a question like *"how much dirt is in that
+    stockpile?"* with the name of a product. Eight such questions are waiting near the bottom, under
+    [Which product answers which question](#which-product-answers-which-question). Try them before you
+    open the answers.
+
 ---
 
 ## The products
@@ -81,21 +87,6 @@ the two is short.
 
 ---
 
-## Which product answers which question
-
-| If the question is | Reach for |
-|--------------------|-----------|
-| How big is this parking lot? | Orthomosaic |
-| How much dirt is in that stockpile? | DSM or point cloud |
-| Where will water collect after a storm? | DTM |
-| Will the crane clear that roof? | Point cloud or DSM |
-| What did this site look like last month? | Orthomosaic from that date |
-| Is heat escaping from that roof? | Thermal mosaic |
-| Which part of this slope is not growing back? | Index map |
-| What do I show the client? | 3D model or orthomosaic |
-
----
-
 ## DSM or DTM
 
 This is the distinction worth getting right, because both look plausible and only one of them gives
@@ -105,6 +96,36 @@ you the correct answer for earthwork.
 
 *Use a DSM when you care about what is standing on the ground. Use a DTM when you care about the
 ground itself.*
+
+---
+
+## Which product answers which question
+
+You have now seen every product on the list. For each question below, decide which product you would
+reach for — and say why — before opening the answers. In class you will do this in groups.
+
+1. How big is this parking lot?
+2. How much dirt is in that stockpile?
+3. Where will water collect after a storm?
+4. Will the crane clear that roof?
+5. What did this site look like last month?
+6. Is heat escaping from that roof?
+7. Which part of this slope is not growing back?
+8. What do I show the client?
+
+??? note "Answers"
+    | Question | Reach for | Because |
+    |---|---|---|
+    | 1. Parking lot size | Orthomosaic | A flat, correctly scaled map; area is a 2D question |
+    | 2. Stockpile volume | DSM or point cloud | You need the height of the pile, not the ground under it |
+    | 3. Where water collects | DTM | Drainage follows the bare ground, not the tops of trees and trucks |
+    | 4. Crane clearance | Point cloud or DSM | The obstacle is the roof itself, so surface height is the question |
+    | 5. Last month's site | Orthomosaic from that date | Same product, earlier flight; the value is the date |
+    | 6. Heat escaping | Thermal mosaic | Only the thermal sensor measures temperature |
+    | 7. Slope not regrowing | Index map | Plant health is a band ratio, invisible in ordinary color |
+    | 8. Show the client | 3D model or orthomosaic | Communication, not measurement; pick what reads fastest |
+
+    Notice that the two hardest calls, 2 and 3, are exactly the DSM-versus-DTM distinction above.
 
 ---
 
