@@ -4,7 +4,7 @@
     - **Tuesday lecture:** final project introduction; group formation and planning
     - **Thursday:** group formation and proposal work
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [Project Overview](../final_project/overview.md) — the four deliverables, and the question the whole project answers: is this data good enough for the decision someone would make from it?
 - [Project Proposal](../final_project/proposal.md) — committing to a question and a required accuracy before you collect any data

@@ -7,7 +7,7 @@
 The practice exam opens this week and is worth 10% of your course grade, per the syllabus. See
 Learning Suite for exactly when it opens and closes.
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [Knowledge Review](../part_107_license/part_107_knowledge_review.md) — regulations, airspace, weather, and risk-management checklists condensed for study
 - [Study Resources](../part_107_license/part_107_resources.md) — official FAA sources and outside study guides, organized by type

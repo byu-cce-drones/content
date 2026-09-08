@@ -7,7 +7,7 @@
 The three sensor readings below are lecture material for this week and feed the final project's
 choice of measurement method. There is no lab exercise built on them directly.
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [LiDAR Imaging](../gen_reading/lidar.md) — how a laser point cloud measures distance directly and can see through gaps in vegetation to the ground
 - [Thermal Imaging](../gen_reading/thermal.md) — how a thermal camera reads surface temperature, and why timing decides whether there is anything to see

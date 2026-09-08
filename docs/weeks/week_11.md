@@ -4,7 +4,7 @@
     - **Tuesday lecture:** guest lecture on professional drone applications
     - **Thursday:** project flights for **Group A**. Group B does not meet this Thursday and flies next week.
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [Flight and Data Processing](../final_project/flight_and_data_processing.md) — flying the plan you proposed, running the checklist, and checking the processed result against something you measured yourself
 

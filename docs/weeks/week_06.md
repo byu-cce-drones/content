@@ -4,7 +4,7 @@
     - **Tuesday lecture:** principles of drone mission planning; flight parameters and coverage
     - **Thursday lab:** Rock Canyon mission-planning lab
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [Planning the Flight](../gen_reading/mission_planning_sfm.md) — altitude, overlap, ground sample distance, and how you know a flight plan worked
 

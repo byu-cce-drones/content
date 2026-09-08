@@ -24,14 +24,14 @@ TRUST covers the recreational-style flying you do in this class. The **FAA Part 
 Certificate is the separate, harder exam for flying commercially; the course prepares you for it
 starting in [Week 3](week_03.md).
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [Welcome to the Course](../gen_reading/class_overview.md) — why a drone counts as a measuring instrument, and why being able to defend the number is what makes this an engineering course
 
 ## How this site is organized
 
 The left-hand navigation is organized by course week, matching the syllabus schedule. Each week has
-a "This Week" page like this one, naming what to read before Thursday and what the lab covers. The
+a "This Week" page like this one, naming what to read before Tuesday and what the lab covers. The
 full readings and labs for a week are listed under that week. Pages that cut across several weeks —
 the flight checklists, QGIS, Bentley iTwin, photo metadata, aerial measurement products, and common
 flight issues — are also collected under **Reference** at the bottom of the navigation, so they can

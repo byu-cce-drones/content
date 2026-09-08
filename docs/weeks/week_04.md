@@ -4,7 +4,7 @@
     - **Tuesday lecture:** QGIS and GIS fundamentals; larger drone setup and equipment handling
     - **Thursday lab:** pre-flight checklist lab, plus batteries, controllers, and calibration procedures
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [Using QGIS](../software/qgis_measurements.md) — installing QGIS, why the coordinate reference system has to be projected rather than in degrees, and the measurement tools
 - [Flight Checklists](../class_resources/flight_check_list/index.md) — why a written checklist beats memory, and how pre-flight and post-flight lists are organized

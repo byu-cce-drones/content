@@ -4,7 +4,7 @@
     - **Tuesday lecture:** accuracy vs. precision; measurement methods and applications; Google Earth and pacing exercises — [Slides](../slides/week_05.html) · [PDF](../slides/week_05.pdf)
     - **Thursday lab:** measurement lab and first larger-drone flights
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md) — accuracy, precision, resolution and uncertainty: the vocabulary the lab assumes, and the standard deviation you will compute from your own pace counts
 - [Aerial Measurement Products](../gen_reading/data_products.md) — what an orthomosaic is and what you can measure off one

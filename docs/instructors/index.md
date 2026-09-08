@@ -31,7 +31,7 @@ Three pages follow this one:
 
 The nav is grouped by course week (`docs/weeks/week_01.md` through `week_15.md`), matching the
 Tuesday-lecture / Thursday-lab rhythm on the syllabus. Each week has a **"This Week" page** listed
-first — it says what the week covers, what to read before Thursday, and what the lab is, then links
+first — it says what the week covers, what to read before Tuesday, and what the lab is, then links
 to the full pages. The full readings and labs live in their own folders
 (`docs/gen_reading/`, `docs/labs/`, `docs/part_107_license/`, `docs/software/`,
 `docs/final_project/`) and are organized by what a page **is**, not by which week uses it.

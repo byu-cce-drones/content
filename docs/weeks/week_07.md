@@ -5,7 +5,7 @@
     - **Thursday lab:** Rock Canyon mission flight day
     - **Do this week:** create your Bentley account (Learning Suite has the link); next week's processing lab needs it
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [How Photos Become 3D](../gen_reading/sfm_workflow.md) — how overlapping photos are turned into a 3D model, and why the drone flies the way it does
 - [Photo Metadata](../gen_reading/metadata.md) — the location, time, and orientation data that photogrammetry depends on

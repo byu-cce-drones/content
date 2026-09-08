@@ -5,7 +5,7 @@
       [Slides](../slides/week_02.html) · [PDF](../slides/week_02.pdf)
     - **Thursday lab:** Mini Drone Lab Part 1 — basic controls, flight maneuvers, safety procedures, checklist introduction
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [Aerial Measurement Products](../gen_reading/data_products.md) — the products a drone can produce and why matching the product to the question matters
 - [Flight Basics](../gen_reading/flight_basics.md) — the aircraft, the controller and its sticks, and keeping track of which way the drone is facing

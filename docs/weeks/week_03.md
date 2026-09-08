@@ -4,7 +4,7 @@
     - **Tuesday lecture:** introduction to FAA Part 107; drone safety and regulations
     - **Thursday lab:** Mini Drone Lab Part 2 — obstacle courses, team flight activities, flight challenges and races
 
-## Before Thursday, read
+## Before Tuesday, read
 
 - [FAA Part 107 Overview](../part_107_license/faa_exam_planning_and_overview.md) — the exam structure, the commercial-use rule, and what the certificate actually requires
 - [Common Flight Issues](../gen_reading/flight_issues.md) — what to do when the aircraft does not behave as expected
