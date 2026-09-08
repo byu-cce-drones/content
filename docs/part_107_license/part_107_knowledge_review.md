@@ -105,12 +105,12 @@ Quick rule: For B/C/D/E (controlled) get ATC authorization; G is generally open.
 4. What mnemonic helps assess personal fitness to fly?  
 5. How far horizontally must you remain from clouds during Part 107 operations?
 
-Answers:
-1. 400 ft AGL.  
-2. Classes B, C, D, and E (controlled airspace) — ATC authorization required.  
-3. Current surface aviation weather observation (wind, visibility, clouds, temp/dew, altimeter).  
-4. IMSAFE.  
-5. 2,000 ft horizontal.
+??? note "Answers"
+    1. 400 ft AGL.
+    2. Classes B, C, D, and E (controlled airspace) — ATC authorization required.
+    3. Current surface aviation weather observation (wind, visibility, clouds, temp/dew, altimeter).
+    4. IMSAFE.
+    5. 2,000 ft horizontal.
 
 ---
 

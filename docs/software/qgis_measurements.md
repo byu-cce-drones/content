@@ -75,8 +75,13 @@ with the CRS.
 !!! question "Activity: The Ruler Challenge"
     1. Measure the length of a parking stall in **Meters**.
     2. Change the units to **Feet** and measure the same stall again.
-    3. Did the number change? (Yes). Did the actual physical size of the parking stall change? (No).
-    *Always check your units before recording data on your lab worksheet!*
+    3. Did the number change? Did the actual physical size of the parking stall change?
+
+??? note "Answer"
+    The number changed (Yes) — meters and feet are different units. The actual physical size of the
+    parking stall did not change (No).
+
+*Always check your units before recording data on your lab worksheet!*
 
 ## 4. Digitizing Features to a Vector Layer
 
