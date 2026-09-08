@@ -1,7 +1,7 @@
 # Week 5 — Measurements and Field Practice
 
 !!! abstract "This week"
-    - **Tuesday lecture:** accuracy vs. precision; measurement methods and applications; Google Earth and pacing exercises
+    - **Tuesday lecture:** accuracy vs. precision; measurement methods and applications; Google Earth and pacing exercises — [Slides](../slides/week_05.html) · [PDF](../slides/week_05.pdf)
     - **Thursday lab:** measurement lab and first larger-drone flights
 
 ## Before Thursday, read

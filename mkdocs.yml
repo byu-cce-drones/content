@@ -22,6 +22,11 @@ markdown_extensions:
         clickable_checkbox: true
     - pymdownx.emoji:
 
+# Marp slide sources live in docs/slides/*.md and are not pages; their exported
+# .html/.pdf next to them are served as static files. See instructors/slides.md.
+exclude_docs: |
+  slides/*.md
+
 theme:
   name: readthedocs
   logo: images/class_logo.png
@@ -125,3 +130,9 @@ nav:
       - Photo Metadata: gen_reading/metadata.md
       - Aerial Measurement Products: gen_reading/data_products.md
       - Common Flight Issues: gen_reading/flight_issues.md
+
+  - Instructors:
+      - For Instructors and TAs: instructors/index.md
+      - Editing the Site: instructors/editing.md
+      - Making Figures: instructors/figures.md
+      - Lecture Slides: instructors/slides.md

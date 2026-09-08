@@ -1,0 +1,83 @@
+/* @theme cce */
+@import 'default';
+
+/* CCE 194R lecture-slide theme. Palette, font stack and sizes come straight
+   from fig_tools/svgkit.py (PALETTE, FONT) so slides and figures read as one
+   system. 16:9 is Marp Core's default canvas, so no size directive needed. */
+
+:root {
+  --cce-bg: #f9f9f9;
+  --cce-ink: #1a1a1a;
+  --cce-muted: #555555;
+  --cce-accent: #4a90d9;
+}
+
+section {
+  background: var(--cce-bg);
+  color: var(--cce-ink);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 1.35;
+  padding: 56px 72px 46px;
+}
+
+h1 { font-size: 46px; font-weight: bold; color: var(--cce-ink); margin: 0 0 0.4em; }
+h2 { font-size: 32px; color: var(--cce-ink); margin: 0 0 0.4em; }
+h3 { font-size: 26px; color: var(--cce-accent); margin: 0 0 0.3em; }
+strong { color: var(--cce-accent); }
+a { color: var(--cce-accent); }
+ul, ol { margin: 0.3em 0; }
+li { margin: 0.2em 0; }
+
+section img { display: block; margin: 0.2em auto; }
+
+/* one-line figure caption under an image */
+.caption { font-size: 20px; color: var(--cce-muted); text-align: center; margin-top: 0.3em; }
+
+/* footer text on every slide; page number comes from paginate via ::after */
+section::before {
+  content: "CCE 194R — Aerial Measurement";
+  position: absolute;
+  left: 72px;
+  bottom: 22px;
+  font-size: 14px;
+  color: var(--cce-muted);
+}
+
+section::after { color: var(--cce-muted); font-size: 14px; }
+
+/* title slides: <!-- _class: title --> */
+section.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.title::before {
+  content: "CCE 194R — Aerial Measurement";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: var(--cce-muted);
+}
+
+section.title h1 { font-size: 60px; margin: 0.2em 0 0.1em; }
+section.title h2 { font-size: 28px; font-weight: normal; color: var(--cce-muted); }
+
+/* prompt slides: a question to the room. <!-- _class: prompt --> */
+section.prompt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.prompt h1 { color: var(--cce-accent); font-size: 48px; }
+section.prompt p { color: var(--cce-muted); font-size: 26px; }

@@ -37,6 +37,8 @@ regulatory cautions, `tip` for practical advice, `example` for worked problems.
 | `docs/final_project/` | The five final project pages. |
 | `docs/class_resources/` | Syllabus, grading policy, TA pages. |
 | `docs/class_resources/flight_check_list/` | The checklists, grouped under Class Resources in the nav. |
+| `docs/instructors/` | Public pages for TAs and future instructors, condensed from this folder. Listed last in the nav. |
+| `docs/slides/` | Marp lecture-deck sources (`week_NN.md`, excluded from the page build) and their committed `.html`/`.pdf` exports. Build with `fig_tools/build_slides.py`; see `docs/instructors/slides.md`. |
 
 The nav is organized by course week (`Week N — Title`, matching the syllabus schedule), with a
 Reference section at the bottom that lists cross-cutting pages a second time. Adding a page means

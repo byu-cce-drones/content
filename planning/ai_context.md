@@ -66,16 +66,14 @@ HS210; the Lab 0 repetition is deliberate; induced disorientation stays a studen
 answers are inline in `planning/week3_lab_outline.md`. Follow-on: the Holy Stone tutorial page in
 `backlog.md`, which would absorb the lab's Setup Review section and Figure 1.
 
-**In progress right now (2026-09-08, session c0 on the original workstation).** An **Instructors**
-section (`docs/instructors/`: index, editing, figures, slides) at the bottom of the nav, public,
-for TAs and future instructors; and a **Marp lecture-slide toolchain** (`docs/slides/theme.css`,
-`docs/slides/week_05.md` as the template deck, exports `week_05.html`/`.pdf` next to it,
-`fig_tools/build_slides.py`, `exclude_docs: slides/*.md` in `mkdocs.yml`, links from
-`weeks/week_05.md`). Until that commit lands, the nav names files that may not exist yet, so
-`mkdocs build --strict` can fail in this working tree — that is expected, not a regression. Files
-owned by that work, which another concurrent session should not edit: `mkdocs.yml`,
-`docs/instructors/`, `docs/slides/`, `fig_tools/build_slides.py`, `docs/weeks/week_05.md`. When the
-work is done this paragraph is replaced by a line in "What was last done".
+**Last done (2026-09-08).** A public **Instructors** section at the bottom of the nav
+(`docs/instructors/`: index, editing, figures, slides) for TAs and future instructors, condensed from
+`planning/instructions.md`; and the **Marp lecture-slide toolchain**: `docs/slides/theme.css` (house
+palette), `docs/slides/week_05.md` as the template deck (19 slides built from the Measurement
+Fundamentals figures), exports `week_05.html`/`.pdf` committed next to it and linked from
+`weeks/week_05.md`, `fig_tools/build_slides.py` to rebuild every deck, and `exclude_docs: slides/*.md`
+in `mkdocs.yml` so sources are not pages. Setup and process are on `instructors/slides.md`. No
+session currently owns any files; concurrent sessions need only the rules below.
 
 **Working concurrently.** Sessions on the same machine share one working tree. Either use a separate
 `git worktree` (`git worktree add ../byu-cce-drones-content-b main`) so the trees are isolated, or

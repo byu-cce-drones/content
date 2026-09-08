@@ -117,10 +117,13 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       open: real accuracy numbers for the aerial sub-table in §6 (instructor deferred; qualitative for
       now), and `mission_planning_sfm.md` §V still needs its one-line link back to the new page so the
       "this page defines, everything else applies" rule is visible from both ends.
-- [ ] **Instructors section and slide toolchain** — in progress 2026-09-08 (see the "In progress"
-      paragraph in `ai_context.md`). Once landed: write remaining decks `docs/slides/week_NN.md` from
-      each week's reading, one per Tuesday lecture, Week 5 being the template; decide whether the
-      two instructor answer-key pages move under Instructors (still the deferred keys decision).
+- [ ] **Remaining lecture decks.** The toolchain and the Week 5 template deck landed 2026-09-08.
+      Write `docs/slides/week_NN.md` for each Tuesday lecture from that week's reading, run
+      `fig_tools/build_slides.py`, link from the week page. Decide whether the two instructor
+      answer-key pages move under Instructors (still the deferred keys decision).
+- [ ] **Lab figure prefix: `labNN_` or `labfp_`?** `instructions.md` says `labNN_figMM_slug.svg`;
+      the one lab figure shipped so far (Week 3 lab) uses `labfp_`. Pick one and fix the other; the
+      Instructors "Making Figures" page currently describes both.
 - [ ] **A Holy Stone mini-drone tutorial page**, shared by the Week 2 and Week 3 labs (instructor,
       2026-09-04): pairing, gyro calibration, trim, speed modes, headless mode off, emergency stop,
       lights and beeps, batteries. Proposal at the top of `planning/week3_lab_outline.md`. Suggested
@@ -243,6 +246,10 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 
 ## Done
 
+- 2026-09-08 — Public Instructors section (`docs/instructors/`, four pages) and the Marp slide
+  toolchain (`docs/slides/`, `fig_tools/build_slides.py`, `exclude_docs`), with the Week 5 deck as
+  the template. Written largely by subagents from `planning/instructions.md`; reviewed and built
+  clean.
 - 2026-09-04 — **Week 3 Flight Practice lab written**, `labs/flight_practice.md`, replacing the
   coming-soon stub. From the outline in `planning/week3_lab_outline.md` with the instructor's six
   answers inline: TAs lay out courses on the day, completion-only scoring (optional timed round for
