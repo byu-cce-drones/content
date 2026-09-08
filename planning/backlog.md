@@ -117,6 +117,10 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       open: real accuracy numbers for the aerial sub-table in §6 (instructor deferred; qualitative for
       now), and `mission_planning_sfm.md` §V still needs its one-line link back to the new page so the
       "this page defines, everything else applies" rule is visible from both ends.
+- [ ] **Instructors section and slide toolchain** — in progress 2026-09-08 (see the "In progress"
+      paragraph in `ai_context.md`). Once landed: write remaining decks `docs/slides/week_NN.md` from
+      each week's reading, one per Tuesday lecture, Week 5 being the template; decide whether the
+      two instructor answer-key pages move under Instructors (still the deferred keys decision).
 - [ ] **A Holy Stone mini-drone tutorial page**, shared by the Week 2 and Week 3 labs (instructor,
       2026-09-04): pairing, gyro calibration, trim, speed modes, headless mode off, emergency stop,
       lights and beeps, batteries. Proposal at the top of `planning/week3_lab_outline.md`. Suggested
