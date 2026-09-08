@@ -117,7 +117,8 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       open: real accuracy numbers for the aerial sub-table in §6 (instructor deferred; qualitative for
       now), and `mission_planning_sfm.md` §V still needs its one-line link back to the new page so the
       "this page defines, everything else applies" rule is visible from both ends.
-- [ ] **Remaining lecture decks.** The toolchain and the Week 5 template deck landed 2026-09-08.
+- [ ] **Remaining lecture decks.** Weeks 1 and 5 exist (2026-09-08); Week 1 carries the nine-scenario
+      group activity as discuss-then-answer slides, a pattern worth reusing.
       Write `docs/slides/week_NN.md` for each Tuesday lecture from that week's reading, run
       `fig_tools/build_slides.py`, link from the week page. Decide whether the two instructor
       answer-key pages move under Instructors (still the deferred keys decision).
