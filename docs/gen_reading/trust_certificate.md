@@ -43,6 +43,11 @@ depth, in the Part 107 material.
 
 ## Taking the test
 
+!!! tip "The short version"
+    The steps below are also a seven-slide walkthrough:
+    [Slides](../slides/trust_certificate.html) · [PDF](../slides/trust_certificate.pdf).
+
+
 1. Open the FAA's list of approved test administrators and pick any one of them. They all give the
    same test.
 
