@@ -3,6 +3,7 @@
 !!! abstract "This week"
     - **Tuesday lecture:** Bentley / WebODM processing lecture; photogrammetry concepts and workflows
     - **Thursday lab:** Rock Canyon mission flight day
+    - **Do this week:** create your Bentley account (Learning Suite has the link); next week's processing lab needs it
 
 ## Before Thursday, read
 

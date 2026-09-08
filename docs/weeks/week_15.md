@@ -1,7 +1,8 @@
 # Week 15 — Final Presentations
 
 !!! abstract "This week"
-    - **Tuesday and Thursday:** final project presentations
+    - **Tuesday and Thursday:** final project show-and-tell, day 1 and day 2
+    - **Also this week:** the written report is due, and the Part 107 make-up test runs (see Learning Suite)
 
 ## Presenting this week
 

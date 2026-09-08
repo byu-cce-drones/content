@@ -20,12 +20,13 @@ That last part is what makes this an engineering course rather than a flying cou
 
 ## What you'll do this semester
 
-![The six weeks of the course](images/w01_overview_semester.svg){ width="100%" }
+![Overview of the course](images/w01_overview_semester.svg){ width="100%" }
 
-*Six weeks, one hour each. Every week builds on the one before it.*
+*Six areas of study across the semester. Each builds on the one before it.*
 
-Each week is a short lecture followed by something you actually do: a flight, a lab, or a piece of
-software. The [flight checklists](../class_resources/flight_check_list/index.md) and
+The course runs the whole semester. Each week is a short Tuesday lecture followed by something you
+actually do on Thursday: a flight, a lab, or a piece of software. The navigation on the left follows
+the semester week by week, and the areas above are the shape those weeks make. The [flight checklists](../class_resources/flight_check_list/index.md) and
 [Flight Basics](flight_basics.md) are there whenever you need them.
 
 ---

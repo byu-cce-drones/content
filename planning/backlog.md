@@ -12,6 +12,14 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
 
 ## Waiting on the instructor
 
+- **Learning Suite links point at a dead site.** The course calendar (iCal feed read 2026-09-08)
+  links almost every pre-class reading and lab to `byu-cce-drone-measurements.readthedocs.io`, which
+  returns 404; the live site is `byu-cce-aerial-measurements.readthedocs.io`. Only the Week 1
+  "Surveying With Drones" link is right. The Week 5 lab link also uses the old `week_03/` path. These
+  are Learning Suite edits, not site edits; the current URLs are the ones in `mkdocs.yml` `nav:`.
+- **Week 3 lab: Learning Suite says "Fun Day, no lab work"; the site page has a reflection and
+  homework.** `labs/flight_practice.md` ends with In Lab Reflection and Homework because every other
+  lab does. If Week 3 has no deliverable, either mark those two sections optional or drop them.
 - A read of the live Week 3 lab page, `labs/flight_practice.md`, written 2026-09-04 from the answered
   outline.
 - A name for the Tier 2 list ("skills", "knowledge", "competencies"). Recommendation is in

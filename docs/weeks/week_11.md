@@ -2,7 +2,7 @@
 
 !!! abstract "This week"
     - **Tuesday lecture:** guest lecture on professional drone applications
-    - **Thursday:** project flight operations
+    - **Thursday:** project flights for **Group A**. Group B does not meet this Thursday and flies next week.
 
 ## Before Thursday, read
 

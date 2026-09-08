@@ -1,7 +1,8 @@
 # Week 13 — Project Work
 
 !!! abstract "This week"
-    - **Tuesday and Thursday:** project work day, TA support and troubleshooting
+    - **Tuesday:** project work day, with TA help in the classroom
+    - **Thursday:** no class (Thanksgiving)
 
 Use this week to keep moving on the [Project Overview](../final_project/overview.md) deliverables
 and to get your [Final Report](../final_project/report.md) started.

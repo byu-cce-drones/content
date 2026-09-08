@@ -1,8 +1,9 @@
 # Week 1 — Course Introduction
 
 !!! abstract "This week"
-    - **Tuesday lecture:** course overview and syllabus; introduction to drones in engineering
-    - **Thursday:** course website and software overview
+    - **Thursday (the first class meeting):** introduction and syllabus; the course website and software;
+      introduction to drones in engineering. There is no Tuesday class in Week 1.
+    - **Before Week 2's lecture:** read the Welcome page below and take the syllabus quiz in Learning Suite
     - **Do this week:** earn your TRUST certificate (see below); you cannot fly in Week 2 without it
 
 ## Before you fly: the TRUST certificate

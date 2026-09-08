@@ -6,11 +6,12 @@ Issues untouched.
 
 Usage:
     python fig_tools/fig_overview.py --png
-    python fig_tools/fig_overview.py --out docs/week_01/images
+    python fig_tools/fig_overview.py --out docs/gen_reading/images
 
 Outputs:
     w01_overview_photo_placeholder.svg  stand-in until a real photo arrives
-    w01_overview_semester.svg           the six weeks at a glance
+    w01_overview_semester.svg           the semester at a glance, six
+                                        areas of study over fifteen weeks
     w01_overview_accuracy_effort.svg    picking a measurement method
     w01_overview_products.svg           one site, four things a drone gives you
 """
@@ -52,84 +53,108 @@ def build_placeholder() -> Figure:
 
 
 # ---------------------------------------------------------------------------
-# The six weeks
+# The semester at a glance
 # ---------------------------------------------------------------------------
-def icon_drone():
-    return aircraft_mini_top(0.52)
-
-
-def icon_laptop():
-    return g(rect(-30, -22, 60, 40, rx=4, fill="#5a6570", stroke=P["line"],
-                 stroke_width=1.5),
-             rect(-24, -16, 48, 28, rx=2, fill=P["screen"]),
-             rect(-40, 18, 80, 7, rx=3, fill="#8f9aa6", stroke=P["line"],
-                  stroke_width=1.2))
-
-
-def icon_ruler():
-    grp = g(rect(-38, -12, 76, 26, rx=3, fill="#e8d9a8", stroke=P["line"],
-                 stroke_width=1.5))
-    for i in range(7):
-        x = -30 + i * 10
-        grp.add(line(x, -12, x, -12 + (13 if i % 2 == 0 else 8),
-                     stroke=P["line"], stroke_width=1.5))
-    return grp
-
-
-def icon_grid():
-    grp = g()
-    for i in range(4):
-        y = -18 + i * 12
-        grp.add(line(-34, y, 34, y, stroke=P["accent"], stroke_width=2.5,
-                     stroke_linecap="round"))
-    grp.add(path("M34,-18 q10,6 0,12 M-34,-6 q-10,6 0,12 M34,6 q10,6 0,12",
-                 fill="none", stroke=P["accent"], stroke_width=2.5))
-    grp.add(rect(-40, 22, 80, 5, rx=2, fill="#c2cad2"))
-    return grp
-
-
-def icon_badge():
-    return g(path("M0,-26 l26,10 v18 q0,18 -26,26 q-26,-8 -26,-26 v-18 z",
-                  fill="#cfe3f7", stroke=P["accent"], stroke_width=2),
-             path("M-10,2 l7,8 l15,-16", fill="none", stroke=P["accent"],
-                  stroke_width=3.5, stroke_linecap="round",
-                  stroke_linejoin="round"))
-
-
-def icon_spectrum():
-    grp = g()
-    for i, c in enumerate(("#c0392b", "#e67e22", "#f4d03f", "#27ae60",
-                           "#2980b9", "#6c3483")):
-        grp.add(rect(-36 + i * 12, -18, 11, 36, rx=2, fill=c))
-    return grp
-
-
-WEEKS = (
-    (1, icon_drone, "Fly it", "meet the aircraft and get it in the air"),
-    (2, icon_laptop, "Process it", "turn a pile of photos into a map"),
-    (3, icon_ruler, "Measure it", "measure one site four different ways"),
-    (4, icon_grid, "Plan it", "design a flight that collects good data"),
-    (5, icon_badge, "Get certified", "the FAA Part 107 exam"),
-    (6, icon_spectrum, "See more", "thermal, multispectral, and LiDAR"),
+# Each area of study, drawn as a bar over the weeks it actually runs. The week
+# numbers are the ones in the site nav; change them here and in mkdocs.yml
+# together. Weeks are inclusive on both ends.
+AREAS = (
+    (1, "Fly it", 1, 3,
+     "meet the aircraft, earn your TRUST certificate, two flying labs"),
+    (2, "Measure it", 4, 5,
+     "GIS tools, checklists, and one site measured four different ways"),
+    (3, "Plan it", 6, 7,
+     "design a mapping flight, then fly it at Rock Canyon"),
+    (4, "Process it", 7, 8,
+     "turn a pile of photos into a map; what other sensors can see"),
+    (5, "Get certified", 9, 9,
+     "the FAA Part 107 exam"),
+    (6, "Prove it", 10, 15,
+     "the final project: plan, fly, process, report, present"),
 )
+
+N_WEEKS = 15
+STRIP_X, CELL = 100, 50          # left edge of Week 1, width of one week
+STRIP_TOP, STRIP_H = 410, 30
+LANE_TOP, LANE_H = 62, 57        # top of area 1's lane, and the lane pitch
+BAR_DY, BAR_H = 38, 14           # bar offset inside its lane, and bar height
+RIGHT_EDGE = 876                 # text may not run past here
+
+# rough Arial advance widths, used only to keep a long note on the canvas
+_W_NAME, _W_NOTE = 9.3, 6.4
+
+
+def _week_x(week: int) -> float:
+    """Left edge of a week cell."""
+    return STRIP_X + (week - 1) * CELL
+
+
+def _week_cx(week: int) -> float:
+    return _week_x(week) + CELL / 2
+
+
+def _span_bar(fig: Figure, num: int, bx: float, bw: float, by: float) -> None:
+    """A rounded span bar with its numbered badge at the left end."""
+    fig.add(rect(bx, by, bw, BAR_H, rx=BAR_H / 2, fill=P["screen"],
+                 stroke=P["accent"], stroke_width=2))
+    fig.add(circle(bx + 11, by + BAR_H / 2, 11, fill=P["accent"]))
+    fig.add(text(bx + 11, by + BAR_H / 2 + 4, num, text_anchor="middle",
+                 font_size=12, font_weight="bold", fill=P["white"]))
 
 
 def build_semester() -> Figure:
-    fig = Figure(900, 440, "Six weeks, start to finish",
-                 "One hour a week, and you fly in the first lab rather than the last week.")
-    cols, w, h = (155, 450, 745), 270, 158
-    for i, (num, icon, title, sub) in enumerate(WEEKS):
-        cx = cols[i % 3]
-        top = 84 + (i // 3) * 174
-        fig.add(rect(cx - w / 2, top, w, h, **CARD))
-        fig.add(circle(cx - 105, top + 26, 15, fill=P["accent"]))
-        fig.add(text(cx - 105, top + 31, num, text_anchor="middle",
-                     font_size=13, font_weight="bold", fill=P["white"]))
-        fig.add(translate(cx + 12, top + 44, icon()))
-        fig.add(text(cx, top + 108, title, text_anchor="middle", font_size=16,
-                     font_weight="bold", fill=P["ink"]))
-        fig.add(text(cx, top + 132, sub, text_anchor="middle", font_size=12.5,
-                     fill=P["muted"]))
+    fig = Figure(900, 470, "The semester at a glance",
+                 "Six areas of study. One hour of lecture and one lab a week, "
+                 "and you fly in Week 2, not at the end.")
+
+    # faint week gridlines, so a bar can be read against the strip below
+    for wk in range(1, N_WEEKS + 2):
+        fig.add(line(_week_x(wk), LANE_TOP - 2, _week_x(wk), STRIP_TOP,
+                     stroke=P["off"], stroke_width=1, opacity=0.5))
+
+    # --- the six areas, one lane each, in semester order -------------------
+    for i, (num, name, w_first, w_last, note) in enumerate(AREAS):
+        top = LANE_TOP + i * LANE_H
+        bx = _week_x(w_first)
+        bw = (w_last - w_first + 1) * CELL
+        by = top + BAR_DY
+
+        # Week 3 marker for Get certified: the rules are introduced long
+        # before the exam sits in Week 9.
+        if num == 5:
+            mx = _week_cx(3)
+            fig.add(line(mx, by + BAR_H / 2, bx, by + BAR_H / 2,
+                         stroke=P["accent"], stroke_width=1.5,
+                         stroke_dasharray="5 5"))
+            fig.add(circle(mx, by + BAR_H / 2, 6, fill=P["accent"]))
+            fig.add(text(mx, top + 28, "rules introduced", text_anchor="middle",
+                         font_size=11, fill=P["muted"]))
+
+        _span_bar(fig, num, bx, bw, by)
+
+        # keep a long note on the canvas even when its bar starts far right
+        tw = max(len(name) * _W_NAME, len(note) * _W_NOTE)
+        tx = max(20, min(bx, RIGHT_EDGE - tw))
+        fig.add(text(tx, top + 13, name, font_size=16, font_weight="bold",
+                     fill=P["ink"]))
+        fig.add(text(tx, top + 28, note, font_size=12.5, fill=P["muted"]))
+
+    # --- the week strip ----------------------------------------------------
+    fig.add(text(STRIP_X - 8, STRIP_TOP + 20, "Week", text_anchor="end",
+                 font_size=12, fill=P["muted"]))
+    for wk in range(1, N_WEEKS + 1):
+        break_week = wk == 13
+        fig.add(rect(_week_x(wk), STRIP_TOP, CELL, STRIP_H,
+                     fill=P["white"] if break_week else P["body"],
+                     stroke=P["body"] if break_week else P["white"],
+                     stroke_width=2))
+        fig.add(text(_week_cx(wk), STRIP_TOP + 20, wk, text_anchor="middle",
+                     font_size=12, fill=P["ink"]))
+
+    fig.add(text(_week_cx(13), STRIP_TOP + 46, "Thanksgiving",
+                 text_anchor="middle", font_size=11, fill=P["muted"]))
+    fig.add(text(_week_cx(15), STRIP_TOP + 46, "final presentations",
+                 text_anchor="middle", font_size=11, fill=P["muted"]))
     return fig
 
 
