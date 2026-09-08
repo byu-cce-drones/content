@@ -71,20 +71,99 @@ back to it through the rest of the course.
 
 ---
 
-!!! question "Activity: The Right Tool for the Job"
-    As an engineer, you must decide how much accuracy you actually need. Match the following scenarios to the most appropriate measurement method:
+## Activity: the right tool for the job
 
-    **Scenarios:**
-    1.  **Site Reconnaissance:** You need to see if a remote 100-acre field has large boulders or trees before sending a crew.
-    2.  **Structural Monitoring:** You are checking if a bridge support beam has settled by more than 5 millimeters in the last year.
-    3.  **Earthwork Volume:** You need to estimate the volume of a 50-foot tall dirt stockpile for a weekly billing report.
+An engineer's first measurement decision is not *how* to measure but *how accurately the answer has
+to be*. Too little accuracy and the number cannot support the decision; too much and you have spent
+time and money buying digits nobody will use.
 
-    **Methods:**
-    - **A. Manual/Approximate:** Pacing or simple aerial photos.
-    - **B. High-Precision Drone Survey:** Orthomosaic and 3D reconstruction with ground control points.
-    - **C. Specialized Survey:** High-order GPS or total station.
+For each scenario below, decide which method fits, then open the answer. The methods, roughly in
+order of accuracy and cost:
 
-    *Think about it:* Why would using a high-precision drone survey for Scenario #1 be a waste of resources? Why would Scenario #2 require even more than a standard drone?
+- **Eyeball or pacing** — free, seconds, good to a few percent at best
+- **Tape measure or hand tools** — cheap, minutes, good to a fraction of an inch over short distances
+- **Google Maps / Google Earth** — free, minutes, good to a metre or two, and the imagery may be years old
+- **Drone photos** — an hour, a picture of the whole site, no reliable measurements without more work
+- **Drone map with ground control** — half a day, centimetre-level over a whole site
+- **Survey crew** — total station or high-order GPS, days and dollars, millimetres
+
+**1. Site reconnaissance.** A remote 100-acre field may have large boulders or trees on it. You need
+to know before you send a crew and a trailer of equipment.
+
+??? note "Answer"
+    **Google Earth first, a drone flight if the imagery is old.** The question is yes or no, not a
+    number. Any method that shows the field is accurate enough. Sending a survey crew to answer it
+    would cost more than the trip you are trying to avoid.
+
+**2. Structural monitoring.** You are checking whether a bridge support has settled by more than
+5 millimetres in the last year.
+
+??? note "Answer"
+    **Survey crew, with precise levelling or a total station against fixed benchmarks.** Five
+    millimetres is below what a drone map can resolve reliably, and the answer decides whether a
+    bridge stays open. This is the case where buying the most accuracy available is the cheap
+    option.
+
+**3. Earthwork volume.** A contractor bills the owner every week for a 50-foot-tall stockpile of dirt
+that changes size as trucks come and go.
+
+??? note "Answer"
+    **Drone map with ground control.** A few percent accuracy on a volume is fine for billing, a
+    tape cannot measure a pile, and a survey crew every week costs more than the dirt. This is the
+    gap drones filled on construction sites.
+
+**4. New flooring.** You are ordering laminate for a bedroom at home.
+
+??? note "Answer"
+    **Tape measure.** An inch either way changes nothing, because you order ten percent extra for
+    cuts anyway. Nothing here needs an aircraft, or even a second decimal place.
+
+**5. Property line dispute.** A neighbour says your new fence is two feet onto their land.
+
+??? note "Answer"
+    **A licensed surveyor with a total station or survey-grade GPS.** Two feet is easy to measure;
+    the hard part is measuring it *from the legal boundary*, which is defined by recorded monuments,
+    not by anything you can see in Google Earth. Aerial imagery can be offset from the true position
+    by a metre or more, which is the whole dispute. The consequence is legal, so the method has to be
+    defensible in court.
+
+**6. Parking count.** Is this gravel lot roughly big enough for forty cars?
+
+??? note "Answer"
+    **Pacing, or the measure tool in Google Maps.** You need the area to within five or ten
+    percent, and forty cars at roughly 30 square metres each is a rough number to begin with. Spend
+    two minutes, not two hours.
+
+**7. Progress documentation.** A contractor has to show the owner what a 20-acre site looked like
+every two weeks for the life of the project.
+
+??? note "Answer"
+    **Drone photos, or an orthomosaic without ground control.** The owner wants to *see* progress,
+    not measure it. A map that is a metre off in absolute position is still a perfect record of
+    what was built when. Adding ground control would double the effort for a number nobody asked
+    for.
+
+**8. Floor flatness.** A new concrete slab has to meet a flatness specification of an eighth of an
+inch over ten feet before the flooring contractor will accept it.
+
+??? note "Answer"
+    **A ten-foot straightedge and feeler gauges, or a laser level.** This is a millimetre question
+    over a short distance, exactly where hand tools win and a drone is useless. Matching the tool to
+    the scale of the question matters as much as matching it to the accuracy.
+
+**9. Roof damage.** After a hailstorm, an insurer needs to know how much of a warehouse roof is
+damaged.
+
+??? note "Answer"
+    **Drone photos.** The measurement is "what fraction of the roof", which imagery answers to
+    within a few percent, and the alternative is putting a person on a damaged roof. Sometimes the
+    method is chosen for safety as much as for accuracy.
+
+!!! tip "The pattern"
+    Scenarios 2, 5 and 8 needed the most accuracy and got the most expensive or most specialised
+    tool. Scenarios 1, 4 and 6 needed almost none and got the cheapest. The drone won the middle:
+    large areas, moderate accuracy, repeated often. That middle is most of civil engineering, which
+    is why this course exists. The measurement reading in Week 5 turns this instinct into a method.
 
 ---
 
