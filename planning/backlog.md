@@ -12,7 +12,8 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
 
 ## Waiting on the instructor
 
-- **Learning Suite links point at a dead site.** The course calendar (iCal feed read 2026-09-08)
+- **Learning Suite links point at a dead site.** Full item-by-item URL table in
+  `planning/ls_crosscheck_2026-09-08.md`. The course calendar (iCal feed read 2026-09-08)
   links almost every pre-class reading and lab to `byu-cce-drone-measurements.readthedocs.io`, which
   returns 404; the live site is `byu-cce-aerial-measurements.readthedocs.io`. Only the Week 1
   "Surveying With Drones" link is right. The Week 5 lab link also uses the old `week_03/` path. These
