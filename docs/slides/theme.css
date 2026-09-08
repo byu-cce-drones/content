@@ -3,81 +3,137 @@
 
 /* CCE 194R lecture-slide theme. Palette, font stack and sizes come straight
    from fig_tools/svgkit.py (PALETTE, FONT) so slides and figures read as one
-   system. 16:9 is Marp Core's default canvas, so no size directive needed. */
+   system. 16:9 is Marp Core's default canvas, so no size directive needed.
+
+   Three slide kinds:
+     default  light ground, blue accent bar down the left, ruled h1
+     title    deep blue ground, white type          <!-- _class: title -->
+     prompt   sky-blue ground for questions to the room  <!-- _class: prompt -->
+*/
 
 :root {
   --cce-bg: #f9f9f9;
   --cce-ink: #1a1a1a;
   --cce-muted: #555555;
   --cce-accent: #4a90d9;
+  --cce-deep: #2b5f9e;      /* accent, darkened, for title grounds */
+  --cce-sky: #dceefb;       /* svgkit "screen" */
+  --cce-body: #d0d7de;      /* svgkit "body" */
 }
 
+/* ---------- default slide ---------- */
 section {
-  background: var(--cce-bg);
   color: var(--cce-ink);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 28px;
   line-height: 1.35;
-  padding: 56px 72px 46px;
+  padding: 56px 72px 46px 88px;
+  background:
+    /* accent bar down the left edge, fading toward the bottom */
+    linear-gradient(180deg, var(--cce-accent) 0%, var(--cce-accent) 70%, var(--cce-sky) 100%) 0 0 / 12px 100% no-repeat,
+    /* soft sky-blue wash in the lower-right corner */
+    radial-gradient(circle at 100% 100%, var(--cce-sky) 0, rgba(220, 238, 251, 0) 42%),
+    var(--cce-bg);
 }
 
-h1 { font-size: 46px; font-weight: bold; color: var(--cce-ink); margin: 0 0 0.4em; }
-h2 { font-size: 32px; color: var(--cce-ink); margin: 0 0 0.4em; }
+h1 {
+  font-size: 46px;
+  font-weight: bold;
+  color: var(--cce-ink);
+  margin: 0 0 0.5em;
+  padding-bottom: 0.15em;
+  border-bottom: 4px solid var(--cce-accent);
+  display: inline-block;
+}
+h2 { font-size: 32px; color: var(--cce-deep); margin: 0 0 0.4em; }
 h3 { font-size: 26px; color: var(--cce-accent); margin: 0 0 0.3em; }
-strong { color: var(--cce-accent); }
+strong { color: var(--cce-deep); }
 a { color: var(--cce-accent); }
 ul, ol { margin: 0.3em 0; }
 li { margin: 0.2em 0; }
+li::marker { color: var(--cce-accent); font-weight: bold; }
 
-section img { display: block; margin: 0.2em auto; }
+section img {
+  display: block;
+  margin: 0.2em auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(26, 26, 26, 0.10);
+}
 
 /* one-line figure caption under an image */
-.caption { font-size: 20px; color: var(--cce-muted); text-align: center; margin-top: 0.3em; }
+.caption { font-size: 20px; color: var(--cce-muted); text-align: center; margin-top: 0.4em; }
 
 /* footer text on every slide; page number comes from paginate via ::after */
 section::before {
   content: "CCE 194R — Aerial Measurement";
   position: absolute;
-  left: 72px;
+  left: 88px;
   bottom: 22px;
   font-size: 14px;
+  letter-spacing: 0.5px;
   color: var(--cce-muted);
 }
+section::after {
+  color: var(--cce-bg);
+  background: var(--cce-accent);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 10px;
+  border-radius: 10px;
+  bottom: 18px;
+}
 
-section::after { color: var(--cce-muted); font-size: 14px; }
-
-/* title slides: <!-- _class: title --> */
+/* ---------- title slide ---------- */
 section.title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: #ffffff;
+  padding: 56px 72px 46px;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(255, 255, 255, 0.14) 0, rgba(255, 255, 255, 0) 38%),
+    radial-gradient(circle at 10% 95%, rgba(220, 238, 251, 0.25) 0, rgba(220, 238, 251, 0) 45%),
+    linear-gradient(160deg, var(--cce-deep) 0%, var(--cce-accent) 100%);
 }
-
 section.title::before {
   content: "CCE 194R — Aerial Measurement";
   position: absolute;
+  display: block;
   top: 40px;
   left: 0;
-  right: 0;
+  width: 100%;
   text-align: center;
   font-size: 18px;
-  letter-spacing: 1px;
-  color: var(--cce-muted);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--cce-sky);
 }
+section.title::after { color: var(--cce-deep); background: var(--cce-sky); }
+section.title h1 {
+  font-size: 60px;
+  margin: 0.2em 0 0.15em;
+  color: #ffffff;
+  border-bottom: 4px solid var(--cce-sky);
+}
+section.title h2 { font-size: 28px; font-weight: normal; color: var(--cce-sky); }
+section.title strong, section.title a { color: #ffffff; }
 
-section.title h1 { font-size: 60px; margin: 0.2em 0 0.1em; }
-section.title h2 { font-size: 28px; font-weight: normal; color: var(--cce-muted); }
-
-/* prompt slides: a question to the room. <!-- _class: prompt --> */
+/* ---------- prompt slide: a question to the room ---------- */
 section.prompt {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 56px 72px 46px;
+  background:
+    linear-gradient(180deg, var(--cce-deep) 0%, var(--cce-accent) 100%) 0 0 / 12px 100% no-repeat,
+    radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.7) 0, rgba(255, 255, 255, 0) 40%),
+    var(--cce-sky);
 }
-
-section.prompt h1 { color: var(--cce-accent); font-size: 48px; }
-section.prompt p { color: var(--cce-muted); font-size: 26px; }
+section.prompt h1 { color: var(--cce-deep); font-size: 48px; border-bottom-color: var(--cce-deep); }
+section.prompt p { color: var(--cce-ink); font-size: 26px; }
+section.prompt strong { color: var(--cce-deep); }
+section.prompt::before { color: var(--cce-deep); }
