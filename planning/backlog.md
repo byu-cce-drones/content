@@ -122,6 +122,13 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       Write `docs/slides/week_NN.md` for each Tuesday lecture from that week's reading, run
       `fig_tools/build_slides.py`, link from the week page. Decide whether the two instructor
       answer-key pages move under Instructors (still the deferred keys decision).
+- [ ] **`data_products.md` "What you'll produce in this class" table still says Topic 2/3/4/6.** It is
+      a table, so the Topic-to-Week pass missed it. Map each row to a week (3 = Week 5 lab, 4 = Week 6,
+      6 = Week 8; row 2, "an orthomosaic from photos flown for you", needs the instructor to say
+      which week) and relabel the column.
+- [ ] **Marp hangs when launched after a heredoc in the same shell.** Runs fine alone or with
+      `< /dev/null`. `build_slides.py` should redirect stdin from the null device itself so the
+      caller never hits this; note it on `instructors/slides.md`.
 - [ ] **Lab figure prefix: `labNN_` or `labfp_`?** `instructions.md` says `labNN_figMM_slug.svg`;
       the one lab figure shipped so far (Week 3 lab) uses `labfp_`. Pick one and fix the other; the
       Instructors "Making Figures" page currently describes both.
