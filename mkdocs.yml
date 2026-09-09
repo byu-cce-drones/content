@@ -130,9 +130,3 @@ nav:
       - Photo Metadata: gen_reading/metadata.md
       - Aerial Measurement Products: gen_reading/data_products.md
       - Common Flight Issues: gen_reading/flight_issues.md
-
-  - Instructors:
-      - For Instructors and TAs: instructors/index.md
-      - Editing the Site: instructors/editing.md
-      - Making Figures: instructors/figures.md
-      - Lecture Slides: instructors/slides.md

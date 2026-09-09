@@ -1,12 +1,5 @@
 # Measurement Lab
 
-!!! abstract "Before this lab, read"
-    - [Aerial Measurement Products](../gen_reading/data_products.md) — what an orthomosaic is and what you can measure off one
-    - [Using QGIS for Drone Measurement Analysis](../software/qgis_measurements.md) — installation, coordinate reference systems, and the measurement tools you will use in Part 4
-    - [Planning the Flight](../gen_reading/mission_planning_sfm.md), Section V — how you know whether a measurement worked
-
----
-
 ## Key Takeaways
 
 1. Measurement accuracy depends on both the tool being used and the person collecting or interpreting the measurement.
@@ -322,7 +315,6 @@ Record your results below.
 | Pacing                   |                          |                        |
 | Google Maps              |                          |                        |
 | QGIS / Drone Orthomosaic |                          |                        |
-
 
 ---
 

@@ -1,12 +1,5 @@
 # Flight Checklist Lab
 
-!!! abstract "Before this lab, read"
-    - [Flight Checklist Overview](../class_resources/flight_check_list/index.md) — how the course checklists are organized
-    - [Pre-Flight Checklist](../class_resources/flight_check_list/pre_flight/pre_general.md) and [Post-Flight Checklist](../class_resources/flight_check_list/post_flight/post_general.md) — the two you will work from
-    - [Common Flight Issues](../gen_reading/flight_issues.md) — the situations the emergency checklist exists for
-
----
-
 ## Key Takeaways
 
 1. Flight checklists help reduce human error and ensure important safety and operational steps are not forgotten.

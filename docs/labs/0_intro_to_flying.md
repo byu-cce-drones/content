@@ -1,11 +1,5 @@
 # Introduction to Flying Labs
 
-!!! abstract "Before this lab, read"
-    - [Flight Basics](../gen_reading/flight_basics.md) — the aircraft, the controller and its sticks, and keeping track of which way the drone is facing
-    - [Common Flight Issues](../gen_reading/flight_issues.md) — what to do when the aircraft does not behave as expected
-
----
-
 ## Key Takeaways
 
 1. Safe drone operation begins before the aircraft ever leaves the ground.

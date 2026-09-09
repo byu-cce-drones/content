@@ -1,15 +1,5 @@
 # Flight Practice Lab
 
-!!! abstract "Before this lab, read"
-    - [Flight Basics](../gen_reading/flight_basics.md) — the controller, its sticks, and why the nose of the aircraft decides which way "left" means
-    - [Common Flight Issues](../gen_reading/flight_issues.md) — what to do when the aircraft does not behave as expected
-
-    You read both of these before [Introduction to Flying](0_intro_to_flying.md). Read the
-    orientation and stick-control sections again before this lab. Everything you fly today depends
-    on them.
-
----
-
 ## Key Takeaways
 
 1. Deliberate, repeatable control is a skill built by practice, not by reading about it.

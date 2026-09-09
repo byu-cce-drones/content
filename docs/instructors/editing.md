@@ -80,7 +80,7 @@ Enabled types and when to reach for each:
 
 | Type | Use for |
 |------|---------|
-| `abstract` | The "Key Takeaways" box at the top of every page, and "Before this lab, read" blocks |
+| `abstract` | The "Key Takeaways" box at the top of every page |
 | `note` | An aside — useful context that is not required to keep reading |
 | `warning` | Safety or regulatory cautions, and anything a student could get badly wrong |
 | `tip` | Practical advice — a habit, a shortcut, a way to avoid a common mistake |
@@ -109,14 +109,6 @@ A new file is invisible until it is listed in `mkdocs.yml`. Add it in two places
 
 The same file can be listed at two nav entries with no duplication problem; MkDocs serves it once,
 at one URL, regardless of how many places link to it.
-
-## Cross-linking labs and readings
-
-A lab should open with a "Before this lab, read" block (an `abstract` admonition, see the type
-table above) pointing at the reading it assumes. A reading that has a lab built on it should close
-with a "Where this is used" section linking to that lab. Link to the page directly —
-`[Planning the Flight](../gen_reading/mission_planning_sfm.md)` — never to a week or topic number
-in prose. A number in text goes stale the moment the schedule shifts; a page link does not.
 
 ## Commit messages
 
