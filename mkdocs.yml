@@ -62,7 +62,6 @@ nav:
   - Week 4 — GIS and Pre-Flight Procedures:
       - This Week: weeks/week_04.md
       - Reading — Using QGIS: software/qgis_measurements.md
-      - Reading — Flight Checklists: class_resources/flight_check_list/index.md
       - Lab — Flight Checklist: labs/1_flight_checklist.md
 
   - Week 5 — Measurements and Field Practice:
@@ -97,26 +96,11 @@ nav:
       - Full Practice Exam (60 Q): part_107_license/60_question_exam.md
       - Lab — Part 107 Studying: labs/6_part_107_studying.md
 
-  - Week 10 — Final Project Planning:
-      - This Week: weeks/week_10.md
+  - Weeks 10-15 — Final Project Planning:
+      - Final Weeks Schedule: final_project/schedule.md
       - Project Overview: final_project/overview.md
       - Project Proposal: final_project/proposal.md
-
-  - Week 11 — Guest Lecture and Project Flights:
-      - This Week: weeks/week_11.md
       - Flight and Data Processing: final_project/flight_and_data_processing.md
-
-  - Week 12 — Surveying and Project Flights:
-      - This Week: weeks/week_12.md
-
-  - Week 13 — Project Work:
-      - This Week: weeks/week_13.md
-
-  - Week 14 — Course Review and Project Support:
-      - This Week: weeks/week_14.md
-
-  - Week 15 — Final Presentations:
-      - This Week: weeks/week_15.md
       - Project Presentation: final_project/presentation.md
       - Final Report: final_project/report.md
 

@@ -20,4 +20,4 @@ Learning Suite for exactly when it opens and closes.
 
 ## Looking ahead
 
-Previous: [Week 8 — Advanced Sensors and Data Processing](week_08.md) · Next: [Week 10 — Final Project Planning](week_10.md)
+Previous: [Week 8 — Advanced Sensors and Data Processing](week_08.md) · Next: [Week 10-15 — Final Project Schedule](../final_project/schedule.md))
