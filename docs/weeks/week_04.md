@@ -7,7 +7,8 @@
 ## Before Tuesday, read
 
 - [Using QGIS](../software/qgis_measurements.md) — installing QGIS, why the coordinate reference system has to be projected rather than in degrees, and the measurement tools
-- [Flight Checklists](../class_resources/flight_check_list/index.md) — why a written checklist beats memory, and how pre-flight and post-flight lists are organized
+
+[//]: # (- [Flight Checklists]&#40;../class_resources/flight_check_list/index.md&#41; — why a written checklist beats memory, and how pre-flight and post-flight lists are organized)
 
 ## Thursday's lab
 
