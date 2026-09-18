@@ -58,7 +58,7 @@ nav:
       - Reading — Common Flight Issues: gen_reading/flight_issues.md
       - Lab — Flight Practice: labs/flight_practice.md
 
-  - Week 4 — GIS and Pre-Flight Procedures:
+  - Week 4 — QGIS and Pre-Flight Procedures:
       - This Week: weeks/week_04.md
       - Reading — Using QGIS: software/qgis_measurements.md
       - Lab — Flight Checklist: labs/1_flight_checklist.md
