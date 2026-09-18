@@ -36,7 +36,6 @@ nav:
 
   - Start Here:
       - Syllabus: class_resources/syllabus.md
-      - Measurement Fundamentals: gen_reading/measurement_fundamentals.md
       # - Grading Policy: class_resources/grading_policy.md  # reverted 2026-09-04: describes a different course; syllabus is the single source
       - Teaching Assistants:
           - About the TAs: class_resources/ta/tas.md
