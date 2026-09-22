@@ -110,6 +110,23 @@ Before each flight, the pilot should evaluate both the aircraft and the surround
 * If you become disoriented, stop making aggressive control inputs and attempt to stabilize the aircraft.
 * Follow all instructions from the instructor and TAs.
 
+!!! warning "There Is No Return to Home on These Drones"
+    The [Flight Basics](../gen_reading/flight_basics.md#return-to-home) reading describes Return to
+    Home as the safety net, and on the larger aircraft later in the course it is. **The Holy Stone
+    mini drones you fly today do not have it.** They carry no satellite receiver, so the aircraft
+    has no idea where it is or where it took off from, and there is no button that will bring it
+    back to you.
+
+    If you lose control, you cannot hand the problem to the aircraft. You have three options:
+
+    1. **Release the sticks.** The drone will drift, but it stops doing whatever you just told it to.
+    2. **Press the takeoff/landing button** to bring it straight down where it is.
+    3. **Cut the power** if the aircraft is about to hit a person. It will fall, which is better than
+       the alternative.
+
+    Recovering orientation yourself is the skill this lab is building, precisely because the
+    aircraft cannot do it for you.
+
 #### After Flight
 
 1. Make sure the propellers have completely stopped.
