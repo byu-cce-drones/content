@@ -110,10 +110,12 @@ that uses a course figure.
    [Slides](../slides/week_05.html) · [PDF](../slides/week_05.pdf)
    ```
 
-4. Run `mkdocs build --strict` to confirm the week page's links resolve.
-5. Commit the deck's Markdown source **and** its exported `.html`/`.pdf` together, in the same
+4. Add the deck's row on [Lecture Slides](../class_resources/lecture_slides.md) — the Slides page in
+   the nav — replacing "not yet posted" with links to the deck's HTML, PDF, and PPTX (if built).
+5. Run `mkdocs build --strict` to confirm the week page's links resolve.
+6. Commit the deck's Markdown source **and** its exported `.html`/`.pdf` together, in the same
    commit. Committing the export is what lets Read the Docs serve it without running Node.
-6. Push.
+7. Push.
 
 ## Design rule: a deck is not the reading
 

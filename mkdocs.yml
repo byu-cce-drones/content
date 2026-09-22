@@ -41,6 +41,8 @@ nav:
           - About the TAs: class_resources/ta/tas.md
           - Office Hours: class_resources/ta/ta_hours.md
 
+  - Slides: class_resources/lecture_slides.md
+
   - Week 1 — Course Introduction:
       - This Week: weeks/week_01.md
       - Welcome to the Course: gen_reading/class_overview.md
@@ -104,6 +106,7 @@ nav:
       - Final Report: final_project/report.md
 
   - Reference:
+      - Lecture Slides: class_resources/lecture_slides.md
       - Flight Checklists:
           - Overview: class_resources/flight_check_list/index.md
           - Pre-Flight: class_resources/flight_check_list/pre_flight/pre_general.md

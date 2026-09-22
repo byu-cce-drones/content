@@ -1,7 +1,7 @@
 # Week 4 — GIS and Pre-Flight Procedures
 
 !!! abstract "This week"
-    - **Tuesday lecture:** QGIS and GIS fundamentals; larger drone setup and equipment handling
+    - **Tuesday lecture:** QGIS and GIS fundamentals; larger drone setup and equipment handling — [Slides](../slides/week_04.html) · [PDF](../slides/week_04.pdf) · [PPTX](../slides/week_04.pptx)
     - **Thursday lab:** pre-flight checklist lab, plus batteries, controllers, and calibration procedures
 
 ## Before Tuesday, read

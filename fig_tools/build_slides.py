@@ -70,7 +70,8 @@ def build_deck(marp_exe: str, md_path: Path, pptx: bool) -> bool:
     base = ["--theme-set", str(THEME), "--allow-local-files", "--html"]
     jobs = [("html", []), ("pdf", ["--pdf"])]
     if pptx:
-        jobs.append(("pptx", ["--pptx"]))
+        # 1x render keeps the image-per-slide PPTX to a few MB instead of 30+
+        jobs.append(("pptx", ["--pptx", "--image-scale", "1"]))
 
     ok = True
     for ext, flags in jobs:

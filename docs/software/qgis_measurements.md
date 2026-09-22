@@ -32,7 +32,7 @@ image can give you a cut/fill volume estimate for a grading check or an as-built
 2.  Start a **New Empty Project**.
 3.  Locate your orthomosaic file (usually a `.tif` file created in Bentley iTwin or other software).
 4.  Drag and drop the `.tif` file into the main QGIS window.
-5.  You should see your map appear. if asked about Coordinate Reference Systems (CRS), click "OK" to use the image's default system.
+5.  You should see your map appear. If asked about Coordinate Reference Systems (CRS), click **OK** to use the image's default system, then follow **Setting the CRS** below to confirm it is one you can measure in.
 
 !!! info "CRS Crash Course"
     A **Coordinate Reference System (CRS)** is how the computer "flattens" the round Earth to fit on your screen. If your map looks "squashed" or "stretched," you might be using the wrong CRS. For most labs, we use **WGS 84 / UTM Zone 12N** (Utah's local coordinate system).
@@ -44,6 +44,42 @@ image can give you a cut/fill volume estimate for a grading check or an as-built
     length and area you read off the screen will be wrong.
 
     This is the most common reason a student's parking-lot area comes out absurd.
+
+### Setting the CRS
+
+Use **WGS 84 / UTM Zone 12N** (EPSG:32612) for everything in this course. It is a projected CRS with
+units of metres, and it covers all of Utah.
+
+QGIS has two CRS settings, and they are not the same thing:
+
+- **Project CRS** — how the map is displayed and measured on screen. This is the one that controls
+  the Measure tool.
+- **Layer CRS** — what the file itself was saved in. QGIS reprojects layers on the fly to match the
+  project, so you can leave the orthomosaic as it is.
+
+**Change the project CRS:**
+
+1.  Click the CRS code in the **bottom-right corner** of the QGIS window (it will say something like
+    `EPSG:4326`). Or go to **Project → Properties → CRS**.
+2.  In the **Filter** box, type `32612`.
+3.  Select **WGS 84 / UTM zone 12N** from the list.
+4.  Click **OK**. The bottom-right corner should now read `EPSG:32612`.
+
+**Set the measurement units** (so the numbers come out in the units the lab worksheet asks for):
+
+1.  **Project → Properties → General**.
+2.  Under **Measurements**, set **Distance units** to *feet* and **Area units** to *square feet*.
+    Use metres and square metres instead if that is what you are recording.
+3.  Click **OK**.
+
+**When you create a new vector layer** (section 4), set its CRS to `EPSG:32612` in the New Shapefile
+Layer dialog so the saved shapes and the `$area` calculation are in metres, not degrees.
+
+!!! warning "Check, do not assume"
+    Changing the project CRS fixes the Measure tool. It does **not** change what is stored in a layer
+    that was already saved in degrees. If a `$area` value looks absurdly small (a parking lot of
+    `0.00002`), the layer is in EPSG:4326 — create a new layer in 32612 and redraw, or right-click
+    the layer → **Export → Save Features As** and choose 32612.
 
 ## 3. Performing Measurements
 
@@ -115,8 +151,17 @@ surface against a design grade. Where the newer surface is higher, material was 
 Where it is lower, material was removed — that is cut.
 
 1.  Load both elevation rasters into the same project, in the same projected CRS.
-2.  **Raster → Raster Calculator**, and build the expression `"after@1" - "before@1"`. The result is a
-    difference surface: positive values are fill, negative values are cut.
+2.  **Raster → Raster Calculator**. In the **Raster Bands** list at the top left, double-click the
+    newer surface, type ` - `, then double-click the older surface. The expression will look like
+    `"after@1" - "before@1"`. The result is a difference surface: positive values are fill,
+    negative values are cut.
+
+    !!! note "Your layer names will be different"
+        `after` and `before` are just the names of the two layers as they appear in the Layers panel
+        — QGIS takes the name from the file name unless you rename the layer. `@1` means band 1 of
+        that layer. If your files are `rock_canyon_march.tif` and `rock_canyon_june.tif`, the
+        expression is `"rock_canyon_june@1" - "rock_canyon_march@1"`. Double-clicking in the Raster
+        Bands list inserts the exact name, so use that rather than typing it.
 3.  To get a volume over a specific area, clip the difference raster to the polygon you digitized in
     section 4, then use **Raster → Analysis → Zonal Statistics** to get the mean difference and the
     cell count.
