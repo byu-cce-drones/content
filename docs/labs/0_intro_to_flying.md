@@ -110,22 +110,32 @@ Before each flight, the pilot should evaluate both the aircraft and the surround
 * If you become disoriented, stop making aggressive control inputs and attempt to stabilize the aircraft.
 * Follow all instructions from the instructor and TAs.
 
-!!! warning "There Is No Return to Home on These Drones"
-    The [Flight Basics](../gen_reading/flight_basics.md#return-to-home) reading describes Return to
-    Home as the safety net, and on the larger aircraft later in the course it is. **The Holy Stone
-    mini drones you fly today do not have it.** They carry no satellite receiver, so the aircraft
-    has no idea where it is or where it took off from, and there is no button that will bring it
-    back to you.
+!!! warning "You Cannot Ask a Drone to Come Home Once It Stops Listening"
+    Two separate things are worth getting straight here, because they catch people out in different
+    ways.
 
-    If you lose control, you cannot hand the problem to the aircraft. You have three options:
+    **Return to Home is not something you press when you have lost the aircraft.** The
+    [Flight Basics](../gen_reading/flight_basics.md#return-to-home) reading lists three things that
+    start it: you press the button, the battery gets low, or the controller signal is lost. Those
+    last two happen *on their own*. If the link is down, your button presses are not reaching the
+    aircraft at all — that is what a lost link means. The aircraft starts the flight home by itself,
+    or it does not happen. Pressing the button is for when you still have a connection and simply
+    want it back.
+
+    **And these mini drones do not have it at all.** The Holy Stone minis you fly today carry no
+    satellite receiver, so the aircraft has no idea where it is or where it took off from. There is
+    no button on this controller that will bring it back to you.
+
+    So when you lose control in this lab, you have three options, all of them yours:
 
     1. **Release the sticks.** The drone will drift, but it stops doing whatever you just told it to.
     2. **Press the takeoff/landing button** to bring it straight down where it is.
     3. **Cut the power** if the aircraft is about to hit a person. It will fall, which is better than
        the alternative.
 
-    Recovering orientation yourself is the skill this lab is building, precisely because the
-    aircraft cannot do it for you.
+    Recovering orientation yourself is the skill this lab is building, precisely because nothing on
+    this aircraft will do it for you — and because on the larger drones later, the automation you do
+    have is a backup rather than a plan.
 
 #### After Flight
 
