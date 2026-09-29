@@ -19,6 +19,7 @@ paginate: true
 - Where measurement error actually comes from
 - How much accuracy a decision needs
 - Reporting a number you can defend
+- Checking it against something you trust
 
 ---
 
@@ -56,6 +57,22 @@ Averaging fixes scatter. It does not fix a result that is consistently off.
 
 ---
 
+## Precise, and wrong
+
+A 100-ft steel tape has stretched half a percent. Laid along a true 100.00 ft it reads:
+
+**99.50 &nbsp; 99.52 &nbsp; 99.49 ft**
+
+| Property | This tape |
+|---|---|
+| Resolution | 1/16 in — excellent |
+| Precision | $\sigma \approx 0.2$ in — excellent |
+| Accuracy | every reading **6 in short** |
+
+Nothing in the three readings tells you. Only a different tape would.
+
+---
+
 <!-- _class: prompt -->
 
 # Which walker would you trust for a single walk?
@@ -90,6 +107,20 @@ A tight $\sigma$ on an average near 38 — Walker A is precise. This says nothin
 
 ---
 
+## Trace it three times
+
+The same lot in Google Maps, three careful traces:
+
+**27,600 &nbsp; 28,100 &nbsp; 27,850 ft²** &nbsp;&nbsp; $\sigma \approx 250$ ft², about 1 %
+
+That spread is the **operator** — how steadily you follow the edge.
+
+The date in the corner of the image is the **reference**. If the lot was restriped after the photo, every trace is wrong the same way.
+
+Which of the four boxes does careful tracing fix? Which does it not touch?
+
+---
+
 ## Turning a percent into a range
 
 A calibrated pace is good to about **3%**.
@@ -113,6 +144,20 @@ Report **210 ± 6 ft** — not a bare 210.
 ![w:900](../gen_reading/images/w00_fig04_accuracy_ladder.svg)
 
 <p class="caption">The decision sets the accuracy needed — meters down to millimeters.</p>
+
+---
+
+## 1.2 inches over two acres
+
+A pad is flown before and after a week of grading. Every elevation in the second flight is **1.2 in (3 cm) high** — invisible at any one point.
+
+$$
+87{,}000\text{ ft}^2 \times 0.1\text{ ft} \approx 8{,}700\text{ ft}^3 \approx 320\text{ yd}^3
+$$
+
+About **thirty truckloads** of fill that was never placed, at the contractor's unit rate.
+
+A small systematic error, multiplied by a large area.
 
 ---
 
@@ -152,14 +197,32 @@ Pace is good to about 3% $\Rightarrow$ about ±3 ft.
 
 ![w:900](../gen_reading/images/w00_fig07_ground_truth.svg)
 
-<p class="caption">The largest residual against an independent check — that is the honest claim.</p>
+<p class="caption">Your method is as good as its worst miss against a source you trust.</p>
+
+---
+
+![w:900](../gen_reading/images/w00_fig08_stockpile.svg)
+
+<p class="caption">Three flights within 1 %, the survey 5 % away. Repeating tested precision; only the survey tested accuracy.</p>
+
+---
+
+<!-- _class: prompt -->
+
+# Is that a check?
+
+You measured the lot twice in QGIS and got the same number both times.
 
 ---
 
 ## What to do Thursday
 
-- Pace your calibration distance **three times** — record every count
-- Compute your own $\bar{x}$ and $\sigma$ before lab
-- Bring both to [Measurements and Methods](../labs/2_measurements_and_methods.md)
+You measure the same lot three ways. Each one's check is a **different** method.
 
-You will check your pace against a tape, then against a parking lot.
+| Method | Its precision comes from | Its check |
+|---|---|---|
+| Pacing | Your stride and the surface | The taped 100 ft |
+| Google Maps | How steadily you trace | The orthomosaic, or a tape |
+| Orthomosaic in QGIS | How carefully you trace | Taped stalls; surveyed points |
+
+Pace your calibration distance **three times** and bring your $\bar{x}$ and $\sigma$ to [Measurements and Methods](../labs/2_measurements_and_methods.md).

@@ -84,6 +84,12 @@ that the nav now groups Weeks 10–15 under one "Final Project Planning" section
 `docs/weeks/week_10.md` … `week_15.md` pages no longer exist; the Instructors section is also out of
 the nav as of the 2026-09 "Rearrange ToC" commits, so its four pages show as orphan INFO lines.
 
+**Last done (2026-09-29).** Measurement Fundamentals reading and Week 5 deck revised at the
+instructor's request: four non-pacing worked examples (stretched tape, Google Maps traced three
+times, cut-fill bias over two acres, stockpile vs. survey crew), Figure 7 redrawn, new Figure 8,
+a §9 table of Thursday's three methods, two new quiz questions. Stockpile and cut-fill numbers are
+illustrative, not measured, and say so. Deck is 24 slides in HTML, PDF and PPTX.
+
 **Working concurrently.** Sessions on the same machine share one working tree. Either use a separate
 `git worktree` (`git worktree add ../byu-cce-drones-content-b main`) so the trees are isolated, or
 stay in this tree and stage files by name (never `git add -A`), avoid the owned files above, and

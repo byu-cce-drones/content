@@ -9,6 +9,8 @@
       than a decision requires is waste; missing accuracy you needed is a failure you discover late.
     - **Pacing it off is sometimes the right answer.** Every method on the list, from a pair of boots
       to a survey crew, is correct for some question and wasteful for another.
+    - **A check comes from somewhere else.** Repeating a measurement tests precision. Only a
+      different, trusted source — a tape, a survey, an as-built — tests accuracy.
 
 Every method in this reading — pacing, a tape, web imagery, a survey crew, and more — answers the same
 question: how good is this number, and is it good enough for the decision at hand?
@@ -51,6 +53,25 @@ Averaging fixes scatter; it does not fix a shot that is consistently off to one 
     A tape that has stretched half a percent is still graduated in sixteenths of an inch, and reads
     to that resolution every time in exactly the same wrong way. Fine resolution, good precision,
     poor accuracy — that combination is exactly what a stretched tape gives you.
+
+!!! example "A stretched tape, in numbers"
+    A 100-ft steel tape that has stretched half a percent is 6 in too long over its length. Its
+    graduations are farther apart than they should be, so laid along a true 100.00 ft it reads
+    **99.50 ft**. Measure three times: 99.50, 99.52, 99.49 ft.
+
+    - **Resolution:** a sixteenth of an inch. Excellent.
+    - **Precision:** a standard deviation of about 0.2 in. Excellent.
+    - **Accuracy:** every reading 6 in (15 cm) short, in the same direction. Poor — and nothing in
+      the three readings hints at it.
+
+    Only a different tape, or a distance you know some other way, would catch it. That is what
+    Section 8 is about.
+
+!!! note "Resolution you will see Thursday"
+    Web imagery such as Google Maps is typically around 6 in (15 cm) per pixel. The orthomosaic
+    flown for the lab is about 0.4 in (1 cm) per pixel. A 6-in curb is one pixel wide on the first
+    and fifteen pixels wide on the second. Resolution decides how confidently you can put the cursor
+    on an edge; it says nothing about whether the map is in the right place.
 
 ### How much do your repeats scatter?
 
@@ -116,6 +137,16 @@ The method row matters more than it looks. The Week 5 lab has you treat a parkin
 though it is not one — often the largest source of error in the whole exercise, and no instrument
 caused it.
 
+!!! example "The same lot, traced three times"
+    Trace the parking lot in Google Maps three times and you might get 27,600, 28,100 and
+    27,850 ft² — an average of 27,850 ft² and a standard deviation of about 250 ft², or 1%. That
+    spread is the **operator**: how steadily you put the cursor on the edge of the asphalt. It says
+    nothing about the other three boxes.
+
+    The imagery's date is the **reference**. If the lot was extended or restriped after the photo was
+    taken, every one of your traces is wrong in the same way, and no amount of careful tracing fixes
+    it. Check the date in the corner of the image before you trust the picture.
+
 !!! note "Repeating a measurement does not catch everything"
     Pacing the same distance three times tells you only about the operator. It says nothing about a
     stretched reference tape or a method that does not match the shape you are measuring — precision
@@ -144,8 +175,17 @@ to your answer.
     so the honest report is **210 ± 6 ft**, not a bare 210. No error-propagation formula is needed
     here — just the percentage carried through by multiplication.
 
-The point is not the specific 3%. It is that every method carries some uncertainty, that uncertainty
-can usually be estimated with arithmetic this simple, and that a number without it is not finished.
+!!! example "Carrying the Google Maps trace through"
+    Section 3's three traces scattered by about 250 ft². Now add the edge you cannot place: at
+    roughly 6 in (15 cm) per pixel, around a perimeter of about 700 ft, one pixel of doubt along the
+    edge is about 350 ft² of area either way. Neither figure is exact and they do not simply add,
+    but together they say the traced area is good to about 500 ft², so the honest report is
+    **27,900 ± 500 ft²** — about 2%. Reporting 27,850 ft² to the last square foot would claim a
+    confidence the imagery cannot support.
+
+The point is not the specific 3%, or the specific 500 ft². It is that every method carries some
+uncertainty, that uncertainty can usually be estimated with arithmetic this simple, and that a
+number without it is not finished.
 
 ---
 
@@ -170,6 +210,21 @@ a field down to a beam that may have settled.*
     Decide what question you are answering before you decide what tool to reach for. A pace count
     honestly reported as ± several feet is completely adequate for the first two rows of that table,
     and no amount of survey-grade equipment changes that.
+
+!!! example "Why a small systematic error matters at scale"
+    A two-acre building pad (about 87,000 ft²) is flown before and after a week of grading to find
+    how much fill was placed. Suppose every elevation in the second flight is 1.2 in (3 cm) high — a
+    bias far too small to notice at any one point. The difference between the two surfaces then
+    reports
+
+    $$
+    87{,}000\text{ ft}^2 \times 0.1\text{ ft} \approx 8{,}700\text{ ft}^3 \approx 320\text{ yd}^3
+    $$
+
+    of fill that was never placed — about thirty truckloads, paid at the contractor's unit rate. An
+    error invisible at any single point becomes a large one when it is multiplied by two acres. That
+    is why a fill quantity is checked in elevation, against surveyed points on the pad, and not by
+    how sharp the map looks.
 
 ---
 
@@ -250,11 +305,11 @@ yours to claim — the rule about honest digits applies whether a person or a pr
 against — a taped reference distance, a surveyed benchmark, a dimension recorded on an as-built
 drawing.
 
-![A measurement checked against four independent reference points, with the residual at each one](images/w00_fig07_ground_truth.svg){ width="100%" }
+![Four parking-stall lengths measured by tape and again off the orthomosaic, with the difference at each one against a stated tolerance](images/w00_fig07_ground_truth.svg){ width="100%" }
 
-*Figure 7: Four known points and the residual — the difference between your measurement and the true
-value — at each one. The largest residual, not the average, is the honest statement of how good your
-data is.*
+*Figure 7: Four stall lengths taped on the ground, then measured off the orthomosaic. The worst
+miss, not the average, is what you report: on this lot the orthomosaic is good to about 3 in,
+whatever its 1 cm pixels suggest.*
 
 The check has to be genuinely **independent**. Measuring the same feature the same way twice tells
 you about your precision — how repeatable your method is — and nothing about your accuracy. A
@@ -265,6 +320,21 @@ tests whether you are close to the truth.
     Pacing the same lot twice and calling the second walk a "check" only confirms you are
     consistent, not correct. A real check comes from somewhere else entirely: the tape, the surveyed
     benchmark, the as-built drawing.
+
+!!! example "Three flights agree, and the survey crew disagrees"
+    A contractor flies a stockpile three days running and gets 1,240, 1,255 and 1,248 yd³ — within
+    about 1% of each other. Then a survey crew measures the same pile with a total station:
+    **1,310 yd³**. All three flights are about 60 yd³ low, roughly six truckloads.
+
+    The flights were precise. They were not accurate, and nothing about repeating them would have
+    shown it. The likely cause is the base surface assumed under the pile: the same base was used
+    every time, so every flight was wrong the same way. Only the survey, a different source, could
+    reveal it.
+
+![Three drone-derived stockpile volumes tightly grouped on a number line, with the survey crew's larger volume marked apart](images/w00_fig08_stockpile.svg){ width="100%" }
+
+*Figure 8: Three flights within 1% of each other and a survey 5% away. Repeating the flight tested
+precision; only the survey tested accuracy. The figures are illustrative, not a real survey.*
 
 The aerial version of this idea works the same way: a **ground control point (GCP)** is a surveyed
 point used to tie a map to real-world coordinates, and a **checkpoint** is a surveyed point held back
@@ -280,7 +350,22 @@ the actual skill this reading is trying to teach.
 
 ---
 
-## 9. Check Your Understanding
+## 9. Thursday's three methods
+
+On Thursday you measure the same parking lot three ways. This is where each idea in this reading
+shows up in each method.
+
+| Method | Resolution | What limits precision | What limits accuracy | Its check |
+|---|---|---|---|---|
+| Pacing | One step, about 2.5 ft | Your stride, the surface, losing count | A stride stretched during calibration; treating the lot as a rectangle | The taped 100 ft |
+| Google Maps | About 6 in (15 cm) per pixel | How steadily you trace the edge | The imagery's age; where the pavement edge really is at that pixel size | The orthomosaic, or a tape |
+| Orthomosaic in QGIS | About 0.4 in (1 cm) per pixel | How carefully you trace — small | The coordinate system; how well the map was georeferenced | Taped stall lengths; surveyed points |
+
+Each method's check is a **different** method. None of them checks itself.
+
+---
+
+## 10. Check Your Understanding
 
 **1.** Three students pace the same 100 ft. One gets 38, 39, 38. Another gets 35, 42, 39. Who is more
 precise? Can you tell from this who is more accurate?
@@ -325,6 +410,24 @@ cause in each of the four error categories.
     of you measured along the wall face and the other cut a diagonal corner; **operator** — a tape
     read at an angle instead of straight-on; **reference** — you started from different corners of
     the wall.
+
+**6.** A stockpile is flown three days running: 1,240, 1,255 and 1,248 yd³. The site engineer says
+that settles it. Does it? What would?
+
+??? note "Answer"
+    No. Three flights that agree show the method is precise. Whether any of them is close to the
+    truth is accuracy, and only an independent measurement tests that — a survey crew with a total
+    station, or a different method entirely. Three flights that share the same assumed base surface
+    can all be wrong in the same way, and agreeing with each other proves nothing about it.
+
+**7.** Two flights of a two-acre pad a week apart give a fill quantity 320 yd³ larger than the truck
+tickets say was delivered. What is the first thing you would check, and why?
+
+??? note "Answer"
+    A vertical bias between the two flights. A shift of only 1.2 in (3 cm) across 87,000 ft² is
+    about 320 yd³, so an error too small to notice at any one point explains the whole discrepancy.
+    Check both flights against the same surveyed points on the pad before believing either surface —
+    or the truck tickets.
 
 ---
 

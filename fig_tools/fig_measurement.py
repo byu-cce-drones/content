@@ -21,6 +21,7 @@ Outputs:
     w00_fig05_accuracy_effort.svg      what it costs to buy more (re-saved)
     w00_fig06_significant_figures.svg  the digits you can defend
     w00_fig07_ground_truth.svg         checking against something independent
+    w00_fig08_stockpile.svg            three flights agree; the survey disagrees
 """
 from __future__ import annotations
 
@@ -326,56 +327,174 @@ def build_sigfigs() -> Figure:
 # ---------------------------------------------------------------------------
 # Figure 7 - checking against something independent
 # ---------------------------------------------------------------------------
-CHECKS = [(0.04, "A"), (-0.07, "B"), (0.02, "C"), (-0.05, "D")]
+# Four stall lengths taped on the ground (the source you trust) and measured
+# again off the orthomosaic. Differences in inches; tolerance stated.
+STALLS = [  # (taped ft, orthomosaic ft)
+    (19.33, 19.42),
+    (18.75, 18.52),
+    (19.50, 19.56),
+    (19.00, 18.84),
+]
+TOL_IN = 2.0
 
 
 def build_ground_truth() -> Figure:
-    fig = Figure(W, 470, "A check is only worth anything if it is independent",
-                 "Four known points, measured again by your method. The gap "
-                 "is what you report.")
-    base = 196
+    fig = Figure(W, 520, "Check your method against something you trust",
+                 "Four stall lengths taped on the ground, then measured off "
+                 "the orthomosaic. The difference is what you report.")
+    base = 175
+    px_per_in = 22.0
+    # tolerance band
+    fig.add(rect(90, base - TOL_IN * px_per_in, 720, 2 * TOL_IN * px_per_in,
+                 fill="#e8f5ec", stroke="none"))
+    _label(fig, 812, base - TOL_IN * px_per_in + 4, "needed:", size=11,
+           fill=P["muted"], anchor="start")
+    _label(fig, 812, base - TOL_IN * px_per_in + 18, "within 2 in", size=11,
+           fill=P["muted"], anchor="start")
     fig.add(line(90, base, 810, base, stroke="#9aa7b2", stroke_width=2))
-    _label(fig, 812, base + 4, "known", size=11, fill=P["muted"],
+    _label(fig, 812, base + 4, "taped", size=11, fill=P["muted"],
            anchor="start")
-    _label(fig, 812, base + 18, "value", size=11, fill=P["muted"],
+    _label(fig, 812, base + 18, "length", size=11, fill=P["muted"],
            anchor="start")
 
-    scale = 720.0
-    for i, (res, tag) in enumerate(CHECKS):
+    worst = 0.0
+    for i, (tape, ortho) in enumerate(STALLS):
+        diff_in = (ortho - tape) * 12.0
+        worst = max(worst, abs(diff_in))
         x = 176 + i * 176
-        y = base - res * scale
+        y = base - diff_in * px_per_in
         fig.add(polygon([(x - 9, base + 12), (x + 9, base + 12), (x, base)],
                         fill=P["ink"]))
-        colour = P["ok"] if abs(res) <= 0.05 else P["warn"]
+        colour = P["ok"] if abs(diff_in) <= TOL_IN else P["warn"]
         fig.add(line(x, base, x, y, stroke=colour, stroke_width=2.5))
         fig.add(circle(x, y, 7, fill=colour, stroke=P["white"],
                        stroke_width=1.5))
-        _label(fig, x, base + 34, f"point {tag}", size=12, bold=True)
-        _label(fig, x, y - 16 if res > 0 else y + 26,
-               f"{res:+.2f} m", size=12, bold=True, fill=colour)
+        _label(fig, x, y - 16 if diff_in > 0 else y + 26,
+               f"{diff_in:+.1f} in", size=12, bold=True, fill=colour)
+        _label(fig, x, base + 106, f"stall {i + 1}", size=12, bold=True)
+        _label(fig, x, base + 124, f"tape {tape:.2f} ft", size=11,
+               fill=P["muted"])
+        _label(fig, x, base + 140, f"orthomosaic {ortho:.2f} ft", size=11,
+               fill=P["muted"])
 
-    fig.add(rect(30, 318, 420, 76, **CARD))
-    _label(fig, 50, 344, "What this tells you", size=13.5, bold=True,
+    fig.add(rect(30, 358, 420, 92, **CARD))
+    _label(fig, 50, 384, "What you report", size=13.5, bold=True,
            anchor="start")
-    _label(fig, 50, 368,
-           "Largest gap is 0.07 m. That is the honest claim,", size=12,
+    _label(fig, 50, 408,
+           f"The worst miss is {worst:.1f} in, so on this lot the orthomosaic",
+           size=12, fill=P["muted"], anchor="start")
+    _label(fig, 50, 425, "is good to about ±3 in (7 cm).", size=12,
            fill=P["muted"], anchor="start")
-    _label(fig, 50, 385, "not the finest detail you can see.", size=12,
+    _label(fig, 50, 442, "Not the 1 cm pixel you can see.", size=12,
            fill=P["muted"], anchor="start")
 
-    fig.add(rect(470, 318, 400, 76, rx=10, fill="#fdf3e6", stroke=P["warn"],
+    fig.add(rect(470, 358, 400, 92, rx=10, fill="#fdf3e6", stroke=P["warn"],
                  stroke_width=1.5))
-    _label(fig, 490, 344, "Independent means independent", size=13.5,
+    _label(fig, 490, 384, "Measuring twice is not a check", size=13.5,
            bold=True, anchor="start")
-    _label(fig, 490, 368,
-           "Measuring the same way twice tests precision.", size=12,
-           fill=P["muted"], anchor="start")
-    _label(fig, 490, 385, "Only a different source tests accuracy.", size=12,
-           fill=P["muted"], anchor="start")
+    _label(fig, 490, 408, "The same tool again only tests precision.",
+           size=12, fill=P["muted"], anchor="start")
+    _label(fig, 490, 425, "A tape, a survey, or an as-built drawing",
+           size=12, fill=P["muted"], anchor="start")
+    _label(fig, 490, 442, "tests accuracy.", size=12, fill=P["muted"],
+           anchor="start")
 
-    _label(fig, W / 2, 432,
-           "When someone asks whether your measurement is any good, this is "
-           "the answer you give them.", size=12.5, fill=P["muted"])
+    _label(fig, W / 2, 486,
+           "Your method is as good as its worst miss against a source you "
+           "trust.", size=12.5, fill=P["muted"])
+    return fig
+
+
+# ---------------------------------------------------------------------------
+# Figure 8 - three flights agree; the survey crew disagrees
+# ---------------------------------------------------------------------------
+FLIGHTS = [("flight 1", 1240), ("flight 2", 1255), ("flight 3", 1248)]
+SURVEY = 1310
+
+
+def build_stockpile() -> Figure:
+    fig = Figure(W, 470, "Three flights agree. That does not make them right.",
+                 "One stockpile flown three days running, then measured by a "
+                 "survey crew. Volumes in cubic yards.")
+    # --- the pile, left ---------------------------------------------------
+    gx, gy = 40, 250
+    fig.add(line(gx, gy, gx + 280, gy, stroke="#9aa7b2", stroke_width=2))
+    fig.add(path(f"M {gx + 30} {gy} Q {gx + 90} {gy - 40} {gx + 130} {gy - 95} "
+                 f"Q {gx + 165} {gy - 130} {gx + 200} {gy - 80} "
+                 f"Q {gx + 230} {gy - 40} {gx + 258} {gy} Z",
+                 fill="#d9c7ad", stroke="#8c7a5e", stroke_width=1.5))
+    for dy, inset in ((30, 42), (60, 68), (90, 100)):
+        fig.add(path(f"M {gx + 30 + inset} {gy - dy} "
+                     f"Q {gx + 150} {gy - dy - 18} {gx + 258 - inset} {gy - dy}",
+                     fill="none", stroke="#8c7a5e", stroke_width=1,
+                     stroke_dasharray="4 4"))
+    fig.add(line(gx, gy + 14, gx + 280, gy + 14, stroke=P["warn"],
+                 stroke_width=1.5, stroke_dasharray="6 4"))
+    _label(fig, gx + 140, gy + 34, "base surface: every flight used the same one",
+           size=11, fill=P["warn"])
+    _label(fig, gx + 140, gy + 50, "so every flight is wrong the same way",
+           size=11, fill=P["warn"])
+
+    # --- the number line, right -------------------------------------------
+    ax0, ax1, ay = 380, 860, 250
+    v0, v1 = 1200, 1340
+
+    def vx(v):
+        return ax0 + (v - v0) / (v1 - v0) * (ax1 - ax0)
+
+    fig.add(line(ax0, ay, ax1, ay, stroke="#9aa7b2", stroke_width=2))
+    for v in range(1200, 1341, 20):
+        fig.add(line(vx(v), ay - 4, vx(v), ay + 4, stroke="#9aa7b2",
+                     stroke_width=1.5))
+        _label(fig, vx(v), ay + 20, f"{v:,}", size=11, fill=P["muted"])
+    _label(fig, (ax0 + ax1) / 2, ay + 40, "cubic yards", size=11,
+           fill=P["muted"])
+
+    placement = ((150, "end"), (118, "start"), (182, "start"))
+    for (name, v), (h, side) in zip(FLIGHTS, placement):
+        fig.add(line(vx(v), ay, vx(v), h + 8, stroke=P["ok"], stroke_width=2))
+        fig.add(circle(vx(v), h, 7, fill=P["ok"], stroke=P["white"],
+                       stroke_width=1.5))
+        dx = -13 if side == "end" else 13
+        _label(fig, vx(v) + dx, h + 4, f"{name}  {v:,}", size=11, bold=True,
+               fill=P["ok"], anchor=side)
+    mean = sum(v for _, v in FLIGHTS) / len(FLIGHTS)
+    _label(fig, vx(1248), 92, "within about 1 % (σ ≈ 8 yd³): precise",
+           size=11, fill=P["ok"])
+
+    sx = vx(SURVEY)
+    fig.add(polygon([(sx - 9, ay - 14), (sx + 9, ay - 14), (sx, ay)],
+                    fill=P["ink"]))
+    _label(fig, sx, ay - 22, f"survey crew  {SURVEY:,}", size=11, bold=True)
+    fig.add(arrow(vx(mean), 215, sx - 4, 215, color=P["warn"], width=2))
+    _label(fig, (vx(mean) + sx) / 2, 206,
+           "all three about 60 yd³ low (5 %)", size=11,
+           bold=True, fill=P["warn"])
+
+    fig.add(rect(30, 330, 400, 92, **CARD))
+    _label(fig, 50, 356, "What repeating the flight showed", size=13.5,
+           bold=True, anchor="start")
+    _label(fig, 50, 380, "That the method is repeatable. Three flights",
+           size=12, fill=P["muted"], anchor="start")
+    _label(fig, 50, 397, "within 1 % of each other say nothing about",
+           size=12, fill=P["muted"], anchor="start")
+    _label(fig, 50, 414, "whether any of them is close to the truth.",
+           size=12, fill=P["muted"], anchor="start")
+
+    fig.add(rect(450, 330, 420, 92, rx=10, fill="#fdf3e6", stroke=P["warn"],
+                 stroke_width=1.5))
+    _label(fig, 470, 356, "What the survey crew showed", size=13.5,
+           bold=True, anchor="start")
+    _label(fig, 470, 380, "A 60 yd³ bias, about six truckloads, that no",
+           size=12, fill=P["muted"], anchor="start")
+    _label(fig, 470, 397, "number of repeat flights would have found.",
+           size=12, fill=P["muted"], anchor="start")
+    _label(fig, 470, 414, "Only a different source tests accuracy.",
+           size=12, fill=P["muted"], anchor="start")
+
+    _label(fig, W / 2, 452,
+           "Illustrative figures, not a real survey.", size=11,
+           fill=P["muted"])
     return fig
 
 
@@ -393,6 +512,7 @@ def main() -> None:
         (4, "accuracy_ladder", build_ladder),
         (6, "significant_figures", build_sigfigs),
         (7, "ground_truth", build_ground_truth),
+        (8, "stockpile", build_stockpile),
     ]
 
     # Figure 5 is the existing accuracy-vs-effort drawing, re-saved under its

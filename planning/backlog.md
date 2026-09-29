@@ -259,6 +259,16 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 
 ## Done
 
+- 2026-09-29 — **Measurement Fundamentals: four non-pacing examples and a redrawn Figure 7.**
+  Instructor review of the Week 5 deck found every worked number was pacing and Figure 7 (ground
+  truth) unreadable. Added, with numbers carried through in feet and cubic yards: a stretched tape
+  (§2), the lot traced three times in Google Maps (§3, carried into §4 as 27,900 ± 500 ft²), a 1.2 in
+  vertical bias over a two-acre pad (§5, about 320 yd³ of phantom fill), and a stockpile flown three
+  times against a survey crew (§8, new Figure 8 `w00_fig08_stockpile.svg`, illustrative figures).
+  Figure 7 redrawn as four taped stall lengths checked against the orthomosaic with a stated
+  tolerance; "measuring twice is not a check" moved to its own box. New §9 table mapping Thursday's
+  three methods to resolution, precision, accuracy and their checks; two new quiz questions; a fifth
+  Key Takeaway. Week 5 deck 19 → 24 slides, with a "Is that a check?" prompt after the two figures.
 - 2026-09-22 — **Week 4 QGIS lecture deck** (`docs/slides/week_04.md`, 26 slides, exported to HTML,
   PDF and PPTX) walking through Lab 2 Part 4: install, load the orthomosaic, check and set the CRS,
   Measure tool, digitize a polygon, Field Calculator. Seventeen screenshots in
