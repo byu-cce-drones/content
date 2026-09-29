@@ -44,9 +44,6 @@ caption whose image is missing, and a page that is in the nav but empty.
 
 ## Blocking, student-visible
 
-- [ ] **Lab 3 stops mid-page.** `labs/3_creating_flight_plans.md` ends after "Understanding Mission
-      Constraints". It has no Activity Instructions, no Homework, no In Lab Reflection, and no
-      Looking Ahead — the sections every other lab ends with.
 - [ ] **Answer keys are published to students.** `mini_exam.md` and `60_question_exam.md` each carry
       a complete answer key inline at the bottom of the student page, and both instructor key pages
       are separate nav entries. The Part 107 practice test is 10% of the course grade. Instructor
@@ -259,6 +256,18 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 
 ## Done
 
+- 2026-09-29 — **Week 6 Creating Flight Plans lab finished** (`labs/3_creating_flight_plans.md`),
+  closing "Lab 3 stops mid-page". Students plan three personal missions in the class flight planner
+  (cce-byu-flight-planner.streamlit.app; setting names taken from the `flight_planner` repo code):
+  Stadium Turf Check (DJI Fly, 99-photo limit), Inspecting the Y (DJI Pilot 2, slope and tilted
+  camera), Racing the Sunset at Utah Lake (DJI Pilot 2, time limit and airspace ceiling). Constraints
+  for these are on the page only. The team mission at Rock Canyon Park is flown the next week; teams
+  are pre-assigned, constraints go on the board and depend on the drone, and teams rotate through a
+  controller station while the others work on their personal missions. Each mission is turned in as
+  a named KMZ plus a screenshot, with one downloadable Mission Log
+  (`docs/labs/files/lab03_mission_log.xlsx`, built by `fig_tools/make_mission_log.py`). Still worth
+  a TA check: planner labels against the live site, the Y's size, and how controller-built plans
+  are exported.
 - 2026-09-29 — **Measurement Fundamentals: four non-pacing examples and a redrawn Figure 7.**
   Instructor review of the Week 5 deck found every worked number was pacing and Figure 7 (ground
   truth) unreadable. Added, with numbers carried through in feet and cubic yards: a stretched tape
