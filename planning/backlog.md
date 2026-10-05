@@ -114,7 +114,7 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       open: real accuracy numbers for the aerial sub-table in §6 (instructor deferred; qualitative for
       now), and `mission_planning_sfm.md` §V still needs its one-line link back to the new page so the
       "this page defines, everything else applies" rule is visible from both ends.
-- [ ] **Remaining lecture decks.** Weeks 1, 2, 4 and 5 exist (Week 4 added 2026-09-22); Week 1 carries the nine-scenario
+- [ ] **Remaining lecture decks.** Weeks 1, 2, 4, 5 and 6 exist (Week 6 added 2026-10-05); Week 1 carries the nine-scenario
       group activity as discuss-then-answer slides, a pattern worth reusing.
       Write `docs/slides/week_NN.md` for each Tuesday lecture from that week's reading, run
       `fig_tools/build_slides.py`, link from the week page. Decide whether the two instructor
@@ -256,6 +256,17 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 
 ## Done
 
+- 2026-10-05 — **Week 6 Mission Planning deck and three new Planning-the-Flight figures.**
+  `docs/slides/week_06.md` (27 slides, HTML/PDF/PPTX) from the reading's figures plus four
+  screenshots of the class Streamlit flight planner (`docs/software/images/planner_NN_*.jpg`; the
+  app is course-authored, so no permission question; no DJI interface screenshots by decision).
+  New figures from `fig_tools/fig_week04.py`: `w04_fig09_building_sides` (instructor's rule: for a
+  3D object run the grid lines a building height past every edge, or add an oblique line or orbit
+  the planner will not draw), `w04_fig11_decision_chain` (smallest feature → GSD → altitude →
+  overlap → pattern → time, loop back on a hard constraint) and `w04_fig12_flight_time` (minutes
+  from distance and speed, batteries from minutes). The accuracy figure moved from 9 to 10. The
+  reading gained a "Plan for the sides from the start" subsection in §IV and "Putting it together"
+  and "Flight time by hand" in §VII, with the lab's `distance ÷ (mph × 88)` formula as a tip.
 - 2026-09-29 — **Week 6 Creating Flight Plans lab finished** (`labs/3_creating_flight_plans.md`),
   closing "Lab 3 stops mid-page". Students plan three personal missions in the class flight planner
   (cce-byu-flight-planner.streamlit.app; setting names taken from the `flight_planner` repo code):

@@ -117,15 +117,33 @@ than one height.*
     Look at Figure 8. Why use an orbit instead of extending the grid? If the structure were a tall
     silo, would a single orbit at one altitude capture the whole side? What would you add?
 
+### Plan for the sides from the start
+
+If the goal is a **3D object** — a building, a water tower, a bridge pier — rather than a map of the
+ground, the plan has to put the sides of it in the frame, and a grid that stops at the footprint
+never will. There are two ways to get them, and you should decide which before you draw anything:
+
+- **Run the grid lines well past the object.** A line or two beyond the building on every side, at
+  least one building height out, puts the wall at the edge of the frame even with the camera at
+  nadir. This is the cheap fix, and the planner will do it if you draw the area large enough.
+- **Add a dedicated pass the planner will not draw.** An oblique line along each face, or an orbit
+  (Figure 8), flown as a separate mission after the grid.
+
+![A mapping grid extended a building height past every edge of a footprint, and a section showing the edge of a nadir frame catching the wall](images/w04_fig09_building_sides.svg){ width="100%" }
+
+*Figure 9: A grid that stops at the footprint sees only the roof. Lines run a building height past
+every edge catch the walls at the edge of the frame; a dedicated oblique line or orbit is the other
+way.*
+
 ---
 
 ## V. How will you know it worked?
 
 This is the question that turns a nice-looking model into a defensible measurement.
 
-![Resolution, accuracy, and ground truth](images/w04_fig09_accuracy.svg){ width="100%" }
+![Resolution, accuracy, and ground truth](images/w04_fig10_accuracy.svg){ width="100%" }
 
-*Figure 9: Three different questions. Flying lower answers the first one only.*
+*Figure 10: Three different questions. Flying lower answers the first one only.*
 
 - **Resolution** is set by GSD and answers "can I see it at all".
 - **Accuracy** is how close your measurement is to the truth. Flying lower does **not** fix it.
@@ -170,6 +188,32 @@ planning app.
 | Flight speed | 5 m/s |
 | Gimbal angle | 0° nadir, or 15° to 45° oblique |
 | Camera | RAW, manual exposure, fixed white balance |
+
+### Putting it together
+
+The parameters are not independent. Each follows from the one before it, starting from the question
+the map has to answer, and the planner only draws what you have already decided.
+
+![The planning chain: smallest feature, GSD, altitude, overlap, pattern, then time and batteries, with a loop back when a hard constraint breaks](images/w04_fig11_decision_chain.svg){ width="100%" }
+
+*Figure 11: Start from the smallest feature the map must show and work right. When the plan breaks
+a hard constraint — a photo cap, a time limit, an altitude ceiling — go back one step, not to the
+start.*
+
+### Flight time by hand
+
+The planner reports the total path distance. Minutes and batteries are your arithmetic, and the hard
+constraints you will meet on Thursday are written in minutes.
+
+![Two cards: minutes from path distance and speed, and batteries from minutes and battery life](images/w04_fig12_flight_time.svg){ width="100%" }
+
+*Figure 12: At 10 mph the aircraft covers 880 ft a minute, so 5,280 ft of flight line is six minutes
+before turns and climb. Round batteries up and keep a landing reserve.*
+
+!!! tip "The formula the lab uses"
+    Flight time in minutes is path distance in feet divided by speed in mph times 88, because 1 mph
+    is 88 ft per minute. Add a minute or two for turns and the climb to the first line. A time limit
+    is a distance limit in disguise: at 10 mph, 12 minutes is 10,560 ft of flight line.
 
 !!! question "Activity: the tradeoff game"
     You must map a 50-acre construction site, checking surface drainage **and** identifying concrete

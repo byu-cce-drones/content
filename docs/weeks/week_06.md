@@ -1,7 +1,7 @@
 # Week 6 — Mission Planning
 
 !!! abstract "This week"
-    - **Tuesday lecture:** principles of drone mission planning; flight parameters and coverage
+    - **Tuesday lecture:** principles of drone mission planning; flight parameters and coverage — [Slides](../slides/week_06.html) · [PDF](../slides/week_06.pdf) · [PPTX](../slides/week_06.pptx)
     - **Thursday lab:** Rock Canyon mission-planning lab
 
 ## Before Tuesday, read

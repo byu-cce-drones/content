@@ -1,8 +1,10 @@
 """Proposed figures for Topic 4: SfM workflow and mission planning.
 
 Numbered per the Topic 4 convention: the topic runs straight through in nav
-order, so SfM Workflow takes 1 to 3 and Mission Planning takes 4 to 9. Figure 3
-is the existing pipeline drawing, renamed.
+order, so SfM Workflow takes 1 to 3 and Mission Planning takes 4 to 12. Figure 3
+is the existing pipeline drawing, renamed. Figures 9, 11 and 12 (building sides,
+the planning chain, flight time by hand) were added 2026-10-05 for the Week 6
+deck; the accuracy figure moved from 9 to 10.
 
 Three are replacements for figures that already exist but sit outside the house
 style. Three cover concepts the pages currently explain in prose only: overlap,
@@ -582,6 +584,216 @@ def build_orbit() -> Figure:
 
 
 # ---------------------------------------------------------------------------
+# 9. Getting the sides of a building into the frame
+# ---------------------------------------------------------------------------
+def build_building_sides() -> Figure:
+    fig = Figure(900, 560, "Plan for the sides from the start",
+                 "A grid that stops at the footprint sees only the roof. Run "
+                 "the lines well past the building, or add a line the planner "
+                 "will not draw for you.")
+
+    # ---- plan view -----------------------------------------------------
+    fig.add(rect(30, 84, 420, 400, **CARD))
+    fig.add(text(240, 112, "From above", text_anchor="middle", font_size=14,
+                 font_weight="bold", fill=P["ink"]))
+    bx, by, bw, bh = 170, 230, 140, 110          # building footprint
+    # margin: at least one building height on every side
+    fig.add(rect(bx - 90, by - 70, bw + 180, bh + 140, fill="#e8f1fb",
+                 stroke=SHOT, stroke_width=1.2, stroke_dasharray="6 4"))
+    fig.add(rect(bx, by, bw, bh, fill="#c2cad2", stroke=P["line"],
+                 stroke_width=1.5))
+    fig.add(text(bx + bw / 2, by + bh / 2 + 5, "building", text_anchor="middle",
+                 font_size=12, fill=P["ink"]))
+    # flight lines, extended past the footprint on both ends
+    for i, ly in enumerate(range(by - 60, by + bh + 61, 30)):
+        x0, x1 = bx - 84, bx + bw + 84
+        if i % 2:
+            x0, x1 = x1, x0
+        fig.add(arrow(x0, ly, x1, ly, color=SHOT, width=2, head=7))
+    # the margin brackets
+    fig.add(bracket(bx - 90, bx, by + bh + 84, "one building height",
+                    colour=P["muted"], above=False))
+    fig.add(bracket(bx + bw, bx + bw + 90, by + bh + 84, "one building height",
+                    colour=P["muted"], above=False))
+    fig.add(text(240, 460,
+                 "lines run a building height or more past every edge",
+                 text_anchor="middle", font_size=12, fill=P["muted"]))
+
+    # ---- section view ----------------------------------------------------
+    fig.add(rect(470, 84, 400, 400, **CARD))
+    fig.add(text(670, 112, "From the side", text_anchor="middle", font_size=14,
+                 font_weight="bold", fill=P["ink"]))
+    gy = 420
+    fig.add(line(500, gy, 840, gy, stroke="#9aa7b2", stroke_width=3,
+                 stroke_linecap="round"))
+    wx0, wx1, roof = 636, 704, gy - 120
+    fig.add(rect(wx0, roof, wx1 - wx0, gy - roof, fill="#c2cad2",
+                 stroke=P["line"], stroke_width=1.5))
+    # aircraft directly over the roof: sees roof only
+    ax, ay = 670, 170
+    fig.add(path(f"M{ax},{ay + 14} L{ax - 70},{gy} L{ax + 70},{gy} Z",
+                 fill=SHOT, fill_opacity="0.08", stroke=SHOT,
+                 stroke_width=1.2, stroke_dasharray="5 4"))
+    fig.add(translate(ax, ay, aircraft_mini_side(0.5, nose=False)))
+    fig.add(text(ax, ay - 26, "over the roof", text_anchor="middle",
+                 font_size=11.5, fill=P["muted"]))
+    # aircraft one building height past the wall: the frame edge takes the wall
+    bx2 = 540
+    fig.add(path(f"M{bx2},{ay + 14} L{bx2 - 70},{gy} L{wx0},{gy} "
+                 f"L{wx0},{roof} Z",
+                 fill="#2f8f4e", fill_opacity="0.10", stroke="#2f8f4e",
+                 stroke_width=1.2, stroke_dasharray="5 4"))
+    fig.add(translate(bx2, ay, aircraft_mini_side(0.5, nose=False)))
+    fig.add(text(bx2, ay - 26, "past the edge", text_anchor="middle",
+                 font_size=11.5, fill=P["muted"]))
+    fig.add(line(wx0, roof, wx0, gy, stroke="#2f8f4e", stroke_width=5))
+    fig.add(line(wx0, roof, wx1, roof, stroke="#2f8f4e", stroke_width=5,
+                 stroke_linecap="round"))
+    fig.add(line(wx1, roof, wx1, gy, stroke=P["bad"], stroke_width=4,
+                 stroke_dasharray="5 4"))
+    fig.add(text(670, 456,
+                 "the edge of the frame catches the wall, even at nadir",
+                 text_anchor="middle", font_size=12, fill="#2f8f4e"))
+
+    fig.add(text(450, 522,
+                 "Water towers, bridges, and anything you want as a 3D object: "
+                 "same rule, every side. Or add an oblique line or an orbit "
+                 "outside the planner.",
+                 text_anchor="middle", font_size=12.5, font_style="italic",
+                 fill=P["muted"]))
+    return fig
+
+
+# ---------------------------------------------------------------------------
+# 11. The planning chain, from the question to the batteries
+# ---------------------------------------------------------------------------
+CHAIN = [
+    ("Smallest feature", "the map must show"),
+    ("GSD", "several pixels across it"),
+    ("Altitude", "the highest that gives it"),
+    ("Overlap", "from the site table"),
+    ("Pattern, gimbal", "grid, cross, oblique"),
+    ("Lines, photos, time", "and batteries"),
+]
+
+
+def build_decision_chain() -> Figure:
+    fig = Figure(900, 400, "Start from what the map must show, not from the drone",
+                 "Each choice follows from the one before it. When the plan "
+                 "breaks a hard constraint, go back one step, not to the start.")
+    n = len(CHAIN)
+    bw, bh, gap = 124, 74, 18
+    x0 = (900 - (n * bw + (n - 1) * gap)) / 2
+    y = 150
+    for i, (head, sub) in enumerate(CHAIN):
+        x = x0 + i * (bw + gap)
+        fig.add(rect(x, y, bw, bh, rx=10, fill=P["white"], stroke=SHOT,
+                     stroke_width=1.8))
+        fig.add(circle(x + 16, y + 16, 10, fill=SHOT))
+        fig.add(text(x + 16, y + 20.5, str(i + 1), text_anchor="middle",
+                     font_size=11.5, font_weight="bold", fill=P["white"]))
+        fig.add(text(x + bw / 2, y + 40, head, text_anchor="middle",
+                     font_size=13, font_weight="bold", fill=P["ink"]))
+        fig.add(text(x + bw / 2, y + 60, sub, text_anchor="middle",
+                     font_size=11, fill=P["muted"]))
+        if i < n - 1:
+            fig.add(arrow(x + bw + 2, y + bh / 2, x + bw + gap - 2, y + bh / 2,
+                          color=SHOT, width=2, head=7))
+
+    # hard-constraint check and the loop back
+    cx = 450
+    fig.add(rect(cx - 150, 262, 300, 48, rx=10, fill="#fdf3e6", stroke=P["warn"],
+                 stroke_width=1.5))
+    fig.add(text(cx, 284, "Does it break a hard constraint?", text_anchor="middle",
+                 font_size=13, font_weight="bold", fill=P["ink"]))
+    fig.add(text(cx, 301, "photo cap, flight time, altitude ceiling, airspace",
+                 text_anchor="middle", font_size=11, fill=P["muted"]))
+    last_x = x0 + (n - 1) * (bw + gap) + bw / 2
+    fig.add(path(f"M{last_x},{y + bh} V286 H{cx + 152}", fill="none",
+                 stroke=P["warn"], stroke_width=2))
+    fig.add(path(f"M{cx - 150},286 H{x0 + bw / 2 + (bw + gap) * 2} V{y + bh + 2}",
+                 fill="none", stroke=P["warn"], stroke_width=2,
+                 stroke_dasharray="6 4"))
+    fig.add(polygon([(x0 + bw / 2 + (bw + gap) * 2 - 6, y + bh + 10),
+                     (x0 + bw / 2 + (bw + gap) * 2 + 6, y + bh + 10),
+                     (x0 + bw / 2 + (bw + gap) * 2, y + bh + 1)],
+                    fill=P["warn"]))
+    fig.add(text(x0 + bw / 2 + (bw + gap) * 2 - 70, 330,
+                 "yes: fly higher, or trim side overlap, then recount",
+                 text_anchor="start", font_size=11.5, fill=P["warn"]))
+    fig.add(text(450, 372,
+                 "The planner draws the lines and counts the photos. The six "
+                 "choices are still yours.",
+                 text_anchor="middle", font_size=12.5, font_style="italic",
+                 fill=P["muted"]))
+    return fig
+
+
+# ---------------------------------------------------------------------------
+# 12. Flight time by hand
+# ---------------------------------------------------------------------------
+def build_flight_time() -> Figure:
+    fig = Figure(900, 420, "Flight time by hand",
+                 "The planner reports path distance. Minutes and batteries are "
+                 "your arithmetic, and the hard constraints are written in minutes.")
+
+    # left card: the formula
+    fig.add(rect(30, 84, 410, 290, **CARD))
+    fig.add(text(235, 114, "Minutes from distance and speed",
+                 text_anchor="middle", font_size=14, font_weight="bold",
+                 fill=P["ink"]))
+    fig.add(text(235, 160, "time (min)  =", text_anchor="end", font_size=15,
+                 fill=P["ink"]))
+    fig.add(text(330, 148, "path distance (ft)", text_anchor="middle",
+                 font_size=14, fill=P["ink"]))
+    fig.add(line(250, 156, 410, 156, stroke=P["ink"], stroke_width=1.5))
+    fig.add(text(330, 176, "speed (mph) × 88", text_anchor="middle",
+                 font_size=14, fill=P["ink"]))
+    fig.add(text(235, 210, "88 ft per minute for every 1 mph", text_anchor="middle",
+                 font_size=11.5, fill=P["muted"]))
+    fig.add(text(235, 232, "(metric: metres ÷ (m/s × 60))", text_anchor="middle",
+                 font_size=11.5, fill=P["muted"]))
+    fig.add(rect(60, 258, 350, 88, rx=8, fill="#e8f1fb", stroke="none"))
+    fig.add(text(235, 284, "5,280 ft at 10 mph", text_anchor="middle",
+                 font_size=13.5, font_weight="bold", fill=P["ink"]))
+    fig.add(text(235, 306, "5,280 ÷ (10 × 88) = 6.0 min", text_anchor="middle",
+                 font_size=13.5, fill=P["ink"]))
+    fig.add(text(235, 330, "plus turns, climb, and the trip to the first line",
+                 text_anchor="middle", font_size=11.5, fill=P["muted"]))
+
+    # right card: batteries
+    fig.add(rect(460, 84, 410, 290, **CARD))
+    fig.add(text(665, 114, "Batteries from minutes", text_anchor="middle",
+                 font_size=14, font_weight="bold", fill=P["ink"]))
+    fig.add(text(665, 160, "batteries  =", text_anchor="end", font_size=15,
+                 fill=P["ink"]))
+    fig.add(text(760, 148, "flight time (min)", text_anchor="middle",
+                 font_size=14, fill=P["ink"]))
+    fig.add(line(680, 156, 840, 156, stroke=P["ink"], stroke_width=1.5))
+    fig.add(text(760, 176, "battery (min) − reserve", text_anchor="middle",
+                 font_size=14, fill=P["ink"]))
+    fig.add(text(665, 210, "round up; a part battery is a whole battery",
+                 text_anchor="middle", font_size=11.5, fill=P["muted"]))
+    fig.add(text(665, 232, "keep a landing reserve of about 20 %",
+                 text_anchor="middle", font_size=11.5, fill=P["muted"]))
+    fig.add(rect(490, 258, 350, 88, rx=8, fill="#e8f1fb", stroke="none"))
+    fig.add(text(665, 284, "34 min of lines, 25-min battery",
+                 text_anchor="middle", font_size=13.5, font_weight="bold",
+                 fill=P["ink"]))
+    fig.add(text(665, 306, "34 ÷ (25 − 5) = 1.7  →  2 batteries", text_anchor="middle",
+                 font_size=13.5, fill=P["ink"]))
+    fig.add(text(665, 330, "and a battery swap means a pause in the pattern",
+                 text_anchor="middle", font_size=11.5, fill=P["muted"]))
+
+    fig.add(text(450, 398,
+                 "A 12-minute limit is a distance limit in disguise: at 10 mph "
+                 "it is 10,560 ft of flight line, and not one foot more.",
+                 text_anchor="middle", font_size=12.5, font_style="italic",
+                 fill=P["muted"]))
+    return fig
+
+
+# ---------------------------------------------------------------------------
 # 7. Resolution, accuracy, and how you know
 # ---------------------------------------------------------------------------
 def build_accuracy() -> Figure:
@@ -693,7 +905,10 @@ def main() -> None:
         (build_grid, 6, "grid"),
         (build_nadir_oblique, 7, "nadir_oblique"),
         (build_orbit, 8, "orbit"),
-        (build_accuracy, 9, "accuracy"),
+        (build_building_sides, 9, "building_sides"),
+        (build_accuracy, 10, "accuracy"),
+        (build_decision_chain, 11, "decision_chain"),
+        (build_flight_time, 12, "flight_time"),
     ):
         fname = os.path.join(args.out, figure_name(4, number, slug))
         builder().save(fname)

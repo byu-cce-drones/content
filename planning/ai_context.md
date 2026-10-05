@@ -90,6 +90,13 @@ times, cut-fill bias over two acres, stockpile vs. survey crew), Figure 7 redraw
 a §9 table of Thursday's three methods, two new quiz questions. Stockpile and cut-fill numbers are
 illustrative, not measured, and say so. Deck is 24 slides in HTML, PDF and PPTX.
 
+**Last done (2026-10-05).** Week 6 Mission Planning deck, `docs/slides/week_06.md`, with four
+screenshots of the class Streamlit flight planner (course-authored; no vendor material used) and
+three new reading figures: building sides (the instructor's rule that a 3D object needs grid lines
+run well past it, or a dedicated oblique line or orbit), the planning decision chain, and flight
+time by hand. `w04_fig09_accuracy` became `w04_fig10_accuracy`. Figures 1–3 of the `w04_` set
+belong to How Photos Become 3D; 4–12 to Planning the Flight.
+
 **Working concurrently.** Sessions on the same machine share one working tree. Either use a separate
 `git worktree` (`git worktree add ../byu-cce-drones-content-b main`) so the trees are isolated, or
 stay in this tree and stage files by name (never `git add -A`), avoid the owned files above, and

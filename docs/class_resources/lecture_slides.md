@@ -19,7 +19,7 @@
 | 3 | FAA Rules and Flight Practice | not yet posted | not yet posted | not yet posted |
 | 4 | QGIS and Pre-Flight Procedures | [HTML](../slides/week_04.html) | [PDF](../slides/week_04.pdf) | [PPTX](../slides/week_04.pptx) |
 | 5 | Measurements and Field Practice | [HTML](../slides/week_05.html) | [PDF](../slides/week_05.pdf) | [PPTX](../slides/week_05.pptx) |
-| 6 | Mission Planning | not yet posted | not yet posted | not yet posted |
+| 6 | Mission Planning | [HTML](../slides/week_06.html) | [PDF](../slides/week_06.pdf) | [PPTX](../slides/week_06.pptx) |
 | 7 | Photogrammetry and Flight Operations | not yet posted | not yet posted | not yet posted |
 | 8 | Advanced Sensors and Data Processing | not yet posted | not yet posted | not yet posted |
 | 9 | Part 107 Exam Preparation | not yet posted | not yet posted | not yet posted |
