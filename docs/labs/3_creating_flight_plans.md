@@ -1,5 +1,8 @@
 # Creating Flight Plans Lab
 
+!!! tip "Rock Canyon flight sign-up"
+    Sign up with your teammate for next week's Rock Canyon Park flight on the [**Rock Canyon Flights sign-up sheet**](https://docs.google.com/spreadsheets/d/1PY6UmZ-bPXODonB8KVhoySvfqFCsi2Hi9SblSYZBIEE/edit?usp=sharing){target="_blank"}. See [Part 5](#part-5-mission-4-rock-canyon-park-team).
+
 ## Key Takeaways
 
 1. A good flight plan begins with a clear mission objective.
@@ -338,9 +341,10 @@ Plan this mission on your own, following the same steps as the first two and rec
 
 The team mission is planned for **Rock Canyon Park** in Provo. **The plan you make in this part will be flown during next week's lab.**
 
-Teams are assigned before the lab; check the team list to find your teammate.
+!!! tip "Sign up for a Rock Canyon flight"
+    With your teammate, sign up on the [**Rock Canyon Flights sign-up sheet**](https://docs.google.com/spreadsheets/d/1PY6UmZ-bPXODonB8KVhoySvfqFCsi2Hi9SblSYZBIEE/edit?usp=sharing){target="_blank"}. Choose one row: a trip time, a mission area, and a drone. Put both names in it. Your row is the flight you plan in this part and fly next week.
 
-Its constraints will be listed on the board, and they depend on the drone and controller your team is assigned. Some teams will fly a mission built in the class flight planner; others will use a drone whose controller has its own mission planning app.
+Its constraints will be listed on the board, and they depend on the drone and controller your team signed up for. Some teams will fly a mission built in the class flight planner; others will use a drone whose controller has its own mission planning app.
 
 You do not work on this mission as a separate block at the end of the lab. While everyone works on their personal missions, teams take turns at the **controller station**, where a TA helps each team build its plan on the actual controller for its drone. See [How the Lab Runs](#how-the-lab-runs).
 
@@ -350,8 +354,8 @@ The team mission is planned the way a real flight crew plans: one person builds 
 
 Do these with your teammate at your desks, in between your personal missions:
 
-1. Find your assigned teammate.
-2. Find out which **drone and controller** your team is assigned, and record them in the Mission 4 column of the [Mission Log](#mission-log).
+1. Find your teammate and sign up together on the [Rock Canyon Flights sign-up sheet](https://docs.google.com/spreadsheets/d/1PY6UmZ-bPXODonB8KVhoySvfqFCsi2Hi9SblSYZBIEE/edit?usp=sharing){target="_blank"}, if you have not already.
+2. Record the **drone and controller** from your sign-up row in the Mission 4 column of the [Mission Log](#mission-log).
 3. Read the team constraints on the board together, and agree on the hard constraints, the goals, and a one-sentence mission objective.
 4. Each of you briefly explains how you approached one of your personal missions. Decide together which approach fits this mission best, and sketch the altitude, overlap, speed, and camera angle you plan to use.
 5. If your drone flies missions made in the class flight planner, build the plan there now (set **Drone Platform** to match your drone; if it is a DJI Fly drone, the 99-photo limit applies). Name it with both last names and the site, for example `Smith_Jones_RockCanyon`, click **Save & Generate KMZ**, then **Download KMZ**, and bring the file to the station.
