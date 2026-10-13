@@ -214,9 +214,35 @@ Stored inside the image file. Right-click, Properties, Details to see it.
 
 ---
 
+## One real photo's EXIF
+
+<div style="display:flex; gap:22px; align-items:flex-start;">
+<div style="flex:0 0 420px;">
+
+![w:420](../gen_reading/images/metadata_example_anafi.jpg)
+
+<p class="caption">Parrot Anafi, Utah Lake shore, May 2023</p>
+</div>
+<div style="flex:1; font-size:21px;">
+
+| Field | Value |
+|---|---|
+| Position | 40° 20′ 12.9″ N, 111° 46′ 39.5″ W |
+| Altitude | 1417.2 m above sea level |
+| Time | 2023-05-26 13:14:08 |
+| Image | 4608 × 3456 px |
+| Lens | 4.0 mm, f/2.4 |
+| Exposure | 1/3846 s, ISO 142 |
+| Camera pitch | 6.4° — nearly nadir |
+
+</div>
+</div>
+
+---
+
 ## Metadata and privacy
 
-- Exact GPS coordinates are in every photo
+- Exact GPS coordinates are in every photo — and this one also carried the aircraft **serial number** and firmware
 - Social media strips them on upload to protect you
 - For engineering we **must keep** them intact
 - Check the drone's clock and GPS lock before you fly

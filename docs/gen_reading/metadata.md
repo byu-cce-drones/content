@@ -51,6 +51,30 @@ If you take a photo with a drone and open the file properties on your computer, 
     
     *Try this with a photo you've taken recently! Can you find the GPS coordinates or the camera settings (ISO, Shutter Speed)?*
 
+### A real photo's metadata
+
+![A nadir drone photo of a lakeshore with white and yellow turbidity-curtain rings on the ground](images/metadata_example_anafi.jpg){ width="100%" }
+
+*One frame from a Parrot Anafi flight over a construction site on the Utah Lake shore, May 2023.
+The table is what its EXIF record said, read with a free tool called ExifTool. The copy shown here
+has had its metadata removed.*
+
+| Field | Value in this photo | What it is for |
+|---|---|---|
+| Make, Model | Parrot, Anafi | Which camera, so the software knows the sensor size |
+| DateTimeOriginal | 2023-05-26 13:14:08 | Change over time; sun angle; matching to a flight log |
+| GPSLatitude, GPSLongitude | 40° 20′ 12.9″ N, 111° 46′ 39.5″ W | Where the camera was, to a few metres |
+| GPSAltitude | 1417.2 m above sea level | Height, which sets the scale of the photo |
+| ImageWidth × ImageHeight | 4608 × 3456 | Pixel count, which with height gives the ground sample distance |
+| FocalLength, FNumber | 4.0 mm, f/2.4 | The lens geometry the camera solve starts from |
+| ExposureTime, ISO | 1/3846 s, 142 | Was it sharp, was it noisy |
+| Camera pitch, yaw, roll | 6.4°, 9.8°, 0.0° | Which way the camera pointed: this one is close to nadir |
+
+Every row above is something the processing software in [How Photos Become 3D](sfm_workflow.md)
+uses: position and altitude give it the first guess for where each camera was, the lens numbers
+give it the camera model, and the pitch tells it which way the camera looked. DJI aircraft write the
+same information under their own tag names (for example `GimbalPitchDegree` and `RelativeAltitude`).
+
 ---
 
 ## 4. Summary & Privacy
@@ -60,6 +84,12 @@ If you take a photo with a drone and open the file properties on your computer, 
 
 !!! warning "A Note on Privacy"
     Because metadata often includes exact GPS coordinates, many social media platforms (like Instagram or Facebook) automatically strip metadata from your photos when you upload them to protect your privacy. However, for engineering and surveying, we **must** keep this data intact for our tools to work!
+
+    The photo above also carried the aircraft's **serial number** (`PI040416BA8H090078`) and its
+    **firmware version**, and the GPS position and timestamp together say exactly where someone was
+    standing at 1:14 pm on a given day. That is why the copy on this page has its metadata stripped,
+    and why you should strip it from any drone photo you post publicly. Keep the originals for
+    processing.
 
 Always ensure your drone's settings are correct (especially the clock and GPS connection) so your metadata is accurate. **Bad metadata can make good data useless!**
 
