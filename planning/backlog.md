@@ -299,6 +299,12 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
   driving the app on a migrated copy of the Utah Lake project) placed through the guide and as six
   slides in the lab deck, with the labels corrected to what the app shows (Orthophoto/DSM, Submit
   Production, Surveys tab, Resolution, Adjust poses when photos carry GPS).
+  Instructor slide notes the same day: the Week 7 deck is the first on a **BYU theme**
+  (`docs/slides/theme_byu.css`, which layers on `theme.css`; the class badge is embedded as a data
+  URI and `build_slides.py` loads every theme in the folder) — if liked, switch the other decks by
+  changing `theme: cce` to `theme: byu`; three more figures as letter variants so numbers stay put
+  (`w04_fig02b_triangle_math`, the trig for one tie point; `w04_fig06b_sift`; `w04_fig06c_ransac`),
+  on the slides and in the reading; the overlap slide no longer clips in the PPTX.
 - 2026-10-05 — **Week 6 Mission Planning deck and three new Planning-the-Flight figures.**
   `docs/slides/week_06.md` (27 slides, HTML/PDF/PPTX) from the reading's figures plus four
   screenshots of the class Streamlit flight planner (`docs/software/images/planner_NN_*.jpg`; the

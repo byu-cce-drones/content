@@ -47,6 +47,12 @@ What does the computer actually know?
 
 ---
 
+![w:900](../gen_reading/images/w04_fig02b_triangle_math.svg)
+
+<p class="caption">Two known positions, two measured angles, one unknown. GPS supplies the baseline; the photos supply the angles.</p>
+
+---
+
 ![h:540](../gen_reading/images/w04_fig04_overlap.svg)
 
 <p class="caption">Overlap is what puts every ground point into five to nine different photos.</p>
@@ -87,12 +93,24 @@ Overcast is good: flat light looks the same in every photo, and no moving shadow
 
 ---
 
+![w:900](../gen_reading/images/w04_fig06b_sift.svg)
+
+<p class="caption">Blur, orient, describe: the same corner gets nearly the same 128 numbers from higher up or turned round.</p>
+
+---
+
 ## Matching, then cleaning up
 
 - Compare fingerprints; keep a match only if the best is **clearly better than the second best** — the ratio test
 - **RANSAC**: guess a camera geometry from a few matches, count who agrees, repeat
 - Matches that never agree with anything are **thrown out**
 - Once the geometry is known, a partner point lies on **one line** in the other photo
+
+---
+
+![w:900](../gen_reading/images/w04_fig06c_ransac.svg)
+
+<p class="caption">Guess from two matches, count who agrees, repeat. The geometry most matches agree with wins; the rest are dropped.</p>
 
 ---
 

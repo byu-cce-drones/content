@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="520" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">The triangle, with the numbers</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Side view. The baseline b comes from the GPS tags; the angles α and β come from where P sits in each photo.</text>
+  <rect x="30" y="84" width="520" height="394" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <g>
+    <line x1="290.0" y1="138" x2="157.0" y2="138.0" stroke="#555555" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="150,138 157.0,134.5 157.0,141.5" fill="#555555"/>
+  </g>
+  <line x1="150" y1="132" x2="150" y2="144" stroke="#555555" stroke-width="1.4"/>
+  <g>
+    <line x1="290.0" y1="138" x2="423.0" y2="138.0" stroke="#555555" stroke-width="1.4" stroke-linecap="round"/>
+    <polygon points="430.0,138 423.0,141.5 423.0,134.5" fill="#555555"/>
+  </g>
+  <line x1="430.0" y1="132" x2="430.0" y2="144" stroke="#555555" stroke-width="1.4"/>
+  <text x="290.0" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">baseline b = 40 m</text>
+  <text x="290.0" y="126" text-anchor="middle" font-size="11" fill="#555555">measured from GPS</text>
+  <line x1="150" y1="182" x2="430.0" y2="182" stroke="#9aa7b2" stroke-width="1.5"/>
+  <line x1="150" y1="177" x2="150" y2="187" stroke="#444444" stroke-width="1.5"/>
+  <line x1="310.34375442376427" y1="177" x2="310.34375442376427" y2="187" stroke="#444444" stroke-width="1.5"/>
+  <line x1="430.0" y1="177" x2="430.0" y2="187" stroke="#444444" stroke-width="1.5"/>
+  <text x="230.17187721188213" y="204" text-anchor="middle" font-size="13" font-weight="bold" fill="#f39c12">d·tan α</text>
+  <text x="370.17187721188213" y="204" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f8f4e">d·tan β</text>
+  <line x1="60" y1="438.6036467204287" x2="520" y2="438.6036467204287" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="310.34375442376427" y1="182" x2="310.34375442376427" y2="438.6036467204287" stroke="#4a90d9" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="300.34375442376427" y="304" text-anchor="end" font-size="13" font-weight="bold" fill="#4a90d9">depth d</text>
+  <line x1="150" y1="182" x2="310.34375442376427" y2="438.6036467204287" stroke="#f39c12" stroke-width="2"/>
+  <line x1="430.0" y1="182" x2="310.34375442376427" y2="438.6036467204287" stroke="#2f8f4e" stroke-width="2"/>
+  <line x1="150" y1="182" x2="150" y2="244" stroke="#555555" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="430.0" y1="182" x2="430.0" y2="244" stroke="#555555" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <path d="M150.0,232.0 A50,50 0 0 0 176.5,224.4" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <path d="M430.0,232.0 A50,50 0 0 1 408.9,227.3" fill="none" stroke="#2f8f4e" stroke-width="2"/>
+  <text x="184.49111592983428" y="262" text-anchor="end" font-size="13" font-weight="bold" fill="#f39c12">α = 32°</text>
+  <text x="406.2910792454601" y="262" text-anchor="start" font-size="13" font-weight="bold" fill="#2f8f4e">β = 25°</text>
+  <circle cx="310.34375442376427" cy="438.6036467204287" r="7" fill="#4a90d9" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="324.34375442376427" y="458.6036467204287" text-anchor="start" font-size="13" font-weight="bold" fill="#4a90d9">P</text>
+  <g transform="translate(150,164)">
+    <g transform="rotate(0.0)">
+      <rect x="-16.0" y="-9.0" width="32.0" height="18.0" rx="3.0" fill="#444444"/>
+      <rect x="-6.0" y="9.0" width="12.0" height="7.0" fill="#444444"/>
+      <circle cx="0" cy="18.0" r="4.0" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <text x="124" y="169" text-anchor="end" font-size="14" font-weight="bold" fill="#1a1a1a">A</text>
+  <g transform="translate(430.0,164)">
+    <g transform="rotate(0.0)">
+      <rect x="-16.0" y="-9.0" width="32.0" height="18.0" rx="3.0" fill="#444444"/>
+      <rect x="-6.0" y="9.0" width="12.0" height="7.0" fill="#444444"/>
+      <circle cx="0" cy="18.0" r="4.0" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <text x="456.0" y="169" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">B</text>
+  <rect x="570" y="84" width="300" height="394" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="720" y="112" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">The arithmetic</text>
+  <text x="592" y="150" text-anchor="start" font-size="11.5" fill="#555555">the two offsets make up the baseline</text>
+  <text x="592" y="174" text-anchor="start" font-size="14" fill="#1a1a1a">d·tan α + d·tan β = b</text>
+  <text x="592" y="224" text-anchor="start" font-size="11.5" fill="#555555">take d out and divide both sides</text>
+  <text x="592" y="248" text-anchor="start" font-size="14" fill="#1a1a1a">d = b / (tan α + tan β)</text>
+  <text x="592" y="298" text-anchor="start" font-size="11.5" fill="#555555">tan 32° = 0.625, tan 25° = 0.466</text>
+  <text x="592" y="322" text-anchor="start" font-size="14" fill="#1a1a1a">d = 40 / (0.625 + 0.466) = 36.7 m</text>
+  <text x="592" y="372" text-anchor="start" font-size="11.5" fill="#555555">offset from A: 36.7 × 0.625 = 22.9 m</text>
+  <rect x="582" y="384" width="276" height="62" rx="8" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="592" y="410" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a1a">the point is 36.7 m below the cameras</text>
+  <text x="592" y="432" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a1a">and 22.9 m from A</text>
+  <text x="450.0" y="506" text-anchor="middle" font-size="12" font-style="italic" fill="#555555">Two known positions, two measured angles, one unknown: with GPS for b and the photos for α and β, every tie point is a triangle like this.</text>
+</svg>

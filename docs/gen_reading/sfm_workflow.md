@@ -33,6 +33,12 @@ If you already know where the drone was for each photo, the only unknowns left a
 position of the pole, and two photos are enough to solve for them. Two known camera positions, two
 measured angles, one unknown height: that is a triangle.
 
+![Two cameras a known distance apart, the angle of each ray to a ground point, and the depth solved from the two tangents](images/w04_fig02b_triangle_math.svg){ width="100%" }
+
+*Figure 2b: The triangle with its numbers. The baseline between the cameras comes from GPS, the two
+angles come from where the point sits in each photo, and one line of trigonometry gives the depth.
+The software does this for every tie point, thousands of times per photo.*
+
 ### What if you do not know where the drone was?
 
 In practice you rarely know the camera positions exactly. Then you are solving a bigger problem:
@@ -146,6 +152,12 @@ same building corner gets nearly the same 128 numbers in a photo taken from fart
 different angle. ORB and AKAZE are other detectors of the same kind, and processing software
 rarely tells you which one it is using.
 
+![SIFT in four steps: blur at several scales, assign an orientation, describe the neighbourhood as a grid of gradient histograms, and the resulting 128-number descriptor](images/w04_fig06b_sift.svg){ width="100%" }
+
+*Figure 6b: SIFT in four steps. A corner that survives blurring is a keypoint; turning the patch to
+its dominant direction and summarising the gradients in a 4 × 4 grid gives the 128 numbers that
+make up its fingerprint.*
+
 Matching compares descriptors between two photos. A match is kept only if its best candidate is
 clearly better than the runner-up, the **ratio test**. A stall line fails that test, because every
 other stripe looks about as good.
@@ -154,6 +166,12 @@ Some wrong matches still get through. **RANSAC (Random Sample Consensus)** deals
 few matches at random, work out the camera geometry they imply, count how many of the other matches
 agree with it, and repeat. The geometry that the most matches agree with wins, and the matches that
 never agree with anything are discarded as outliers. That is the red match in Figure 6.
+
+![RANSAC in three cards: matches with some outliers, a random two-point guess and the count of points that agree, and the winning line with the outliers struck out](images/w04_fig06c_ransac.svg){ width="100%" }
+
+*Figure 6c: RANSAC lets the majority decide. A random guess from two matches is scored by how many
+others agree with it; after many guesses the best-supported geometry is kept and the matches that
+never agreed are deleted before the camera solve.*
 
 Once the geometry between two photos is known, a point in one of them can only have its partner
 somewhere along one line in the other, the **epipolar line**. That is why a search of the whole
