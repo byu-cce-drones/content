@@ -257,12 +257,9 @@ Stored inside the image file. Right-click, Properties, Details to see it.
 
 ## Bentley iTwin Capture Modeler
 
-1. **New Project**
-2. **Import Photos**
-3. **Aerotriangulation**
-4. **Reconstruction & Production**
+![w:980](../software/images/itwin_01_project_tree.jpg)
 
-Three outputs: **Orthophoto/DSM** (TIFF), **3D mesh** (3MX or OBJ), **point cloud** (LAS).
+<p class="caption">One project: a block of photos, its aerotriangulated copy, a reconstruction, and a production. iTwin Capture Modeler, Bentley Systems.</p>
 
 ---
 

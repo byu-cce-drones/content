@@ -4,7 +4,7 @@
     - **Photos + Metadata = 3D Reality**: Photogrammetry works by finding matching points in multiple overlapping photos and using GPS metadata to triangulate their position.
     - **Aerotriangulation (AT) is Critical**: This is the "brain" of the process where the software figures out exactly where the camera was for every shot. If the AT fails, the model fails.
     - **Check before you continue**: After AT, confirm that (almost) every photo was calibrated. Reconstruction on a bad AT only wastes hours.
-    - **Two reconstructions, four products**: One *Orthomosaic/DSM* reconstruction gives the orthophoto and the DSM; one *3D reconstruction* gives the 3D mesh and the point cloud.
+    - **Two reconstructions, four products**: One *Orthophoto/DSM* reconstruction gives the orthophoto and the DSM; one *3D reconstruction* gives the 3D mesh and the point cloud.
     - **The deliverable for QGIS is a GeoTIFF in EPSG:32612**: Choose the coordinate system when you make the production, not afterward.
 
 ---
@@ -18,7 +18,7 @@
 Slides for the processing lab: [HTML](../slides/bentley_itwin.html) · [PDF](../slides/bentley_itwin.pdf) · [PPTX](../slides/bentley_itwin.pptx)
 
 !!! note "Which version this page describes"
-    The step names below follow the user guide installed with iTwin Capture Modeler 2024.1.8 on the lab computers. Newer releases may move a button, but the four steps stay the same. Where a label could not be checked against the guide, it is written in plain words.
+    The step names below follow iTwin Capture Modeler 2024.1.8 (Help > About reads "iTwin Capture Modeler 2024 Update 1") on the lab computers. Newer releases may move a button, but the four steps stay the same. Where a label could not be checked in the program, it is written in plain words. The screenshots come from a thermal-survey project of the instructor's, so they show thermal photos; a student's RGB project will look the same with colour photos.
 
 ---
 
@@ -53,7 +53,7 @@ These are rough numbers for a lab-sized set (a few hundred photos) on a lab comp
 |------|--------------|
 | Import | A few minutes |
 | Aerotriangulation | 15 minutes to an hour |
-| Orthomosaic/DSM reconstruction and production | 30 minutes to a few hours |
+| Orthophoto/DSM reconstruction and production | 30 minutes to a few hours |
 | 3D reconstruction and mesh production | Several hours (the slowest step) |
 
 Plan for outputs to take **several times the size of the photo folder** on disk, and more for the mesh. Start the long jobs early in the lab, or run them overnight; once submitted, a job keeps running even if you close the window.
@@ -70,20 +70,32 @@ Plan for outputs to take **several times the size of the photo folder** on disk,
 !!! note "Project, block, reconstruction, production"
     The software organizes work as a tree. A **Project** contains **Blocks** (photos). A block contains **Reconstructions** (a workspace and settings). A reconstruction contains **Productions** (the files you actually export). Click the items in the tree on the left to move between them.
 
+![The project tree: Block_1, Block_1 - AT, Orthophoto/DSM_1 and Production_1](images/itwin_01_project_tree.jpg){ width="100%" }
+
+*Screenshot: The project tree on the left shows a block of photos (`Block_1`), its aerotriangulated copy (`Block_1 - AT`), a reconstruction (`Orthophoto/DSM_1`) and a production (`Production_1`). iTwin Capture Modeler 2024, Bentley Systems.*
+
 ---
 
 ## 2. Import Photos
 
 1.  Select your block and open the **Photos** tab.
-2.  Click the button to add photos. You can add a handful of files, or add **all the photos of a directory** and select your photo folder.
+2.  Click **Add Photos...**. You can add a handful of files, or add **all the photos of a directory** and select your photo folder. The other buttons on this tab are **Import Videos...**, **Remove Photos**, **Set Downsampling...**, **Check Image Files...** and **Import Positions...**.
 3.  A dialog may say that GPS altitude was interpreted using **sea level** as its reference. Drone altitude is usually measured from the takeoff point or the GPS ellipsoid, so click **Modify** and choose the reference that matches your drone's documentation (**Sea level** or **WGS 84 ellipsoid**). If you do not know, leave the default for the lab; the orthophoto's horizontal position is not affected. <!-- verify label in app -->
 4.  Photos with the same camera and settings land together in one **photogroup**. A single drone should produce one photogroup. If you see two or more, a photo came from a different camera or setting; find and remove the odd one.
+
+![The Photos tab of a block](images/itwin_02_block_photos.jpg){ width="100%" }
+
+*Screenshot: A block's **Photos** tab, with the tab row (Overview, Photos, Point Clouds, Surveys, Additional Data, 3D View), the photo buttons, and one photogroup of 150 photos. iTwin Capture Modeler 2024, Bentley Systems.*
 
 ### Check that positions were read
 
 In the Photos tab, each photo should show a position (latitude and longitude, or easting and northing). Open the block's **3D view** tab: you should see the camera positions laid out in the pattern you flew.
 
-*   If positions are missing, the photos probably had no complete GPS tag. The software ignores a tag that has latitude and longitude but no altitude. The AT can still run, but the result will have an arbitrary position and scale, and QGIS will not place it on the map. Ask a TA for the flight log, and use the Photos tab's option to **import positions from a text file**. <!-- verify label in app -->
+![The 3D View tab showing camera positions in a grid](images/itwin_03_block_3dview.jpg){ width="100%" }
+
+*Screenshot: The block's **3D View** tab, seen from above: each dot is a camera position, laid out in the grid pattern that was flown. iTwin Capture Modeler 2024, Bentley Systems.*
+
+*   If positions are missing, the photos probably had no complete GPS tag. The software ignores a tag that has latitude and longitude but no altitude. The AT can still run, but the result will have an arbitrary position and scale, and QGIS will not place it on the map. Ask a TA for the flight log, and use the Photos tab's **Import Positions...** button to load them from a text file. <!-- verify label in app -->
 *   If the sensor size or focal length is flagged as missing, Capture Modeler is not sure about your camera. Pick your drone's camera from the camera list if it is offered, or enter the sensor size from the drone's specification sheet.
 
 !!! tip "Pro-Tip: The 'Bad Photo' Hunt"
@@ -97,12 +109,25 @@ This step figures out exactly where each camera was in 3D space when it took the
 
 ### Submit it
 
-1.  With the block selected, click **Submit Aerotriangulation**.
-2.  A wizard opens. Go through its pages and change very little:
-    *   **Output block name:** accept the suggested name or add `_AT`.
-    *   **Components:** appears only if the photos fell into separate groups. Choose **Use all photos** the first time.
-    *   **Positioning/georeferencing:** keep the default, which uses the **photo positioning metadata** (the drone's GPS). Leave control points off for now (see section 4).
-    *   **Settings:** leave **Poses and tie points** on **Compute**, **Keypoints density** on **Normal**, and **Pair selection mode** on **Default**. Do not open the **Advanced** buttons. Bentley's own advice is to try the default modes first.
+1.  With the block selected, click **Submit Aerotriangulation**. A small popup asks whether to **Process with iTwin Capture Modeler Engine** or **Process on the Cloud**; choose the Engine.
+
+    ![The Aerotriangulation Definition wizard, Output Block Name page](images/itwin_11_at_wizard.jpg){ width="100%" }
+
+    *Screenshot: The **Aerotriangulation Definition** wizard opens on its **Output Block Name** page; the other pages are Positioning/Georeferencing and Settings. iTwin Capture Modeler 2024, Bentley Systems.*
+
+2.  The **Aerotriangulation Definition** wizard opens, with three pages. Go through them and change very little:
+    *   **Output Block Name:** accept the suggested name or add `_AT`.
+    *   **Positioning/Georeferencing:** keep the default, which uses the **photo positioning metadata** (the drone's GPS). Leave control points off for now (see section 4).
+    *   **Settings:** leave **Poses and tie points** on the default (**Adjust**, which suits photos that already carry GPS positions; the other choices are **Compute**, **Extend** and **Lock**), and leave the keypoints density and pair selection mode at their defaults. Do not open the **Advanced** buttons. Bentley's own advice is to try the default modes first.
+
+    ![The Positioning/Georeferencing page](images/itwin_11b_at_positioning.jpg){ width="100%" }
+
+    *Screenshot: The **Positioning/Georeferencing** page, with **Photo positioning metadata** selected for the final rigid registration. iTwin Capture Modeler 2024, Bentley Systems.*
+
+    ![The Settings page with Compute, Adjust, Extend and Lock](images/itwin_11c_at_settings.jpg){ width="100%" }
+
+    *Screenshot: The **Settings** page, with **Poses and tie points** set to Adjust; **Submit** is on this last page. iTwin Capture Modeler 2024, Bentley Systems.*
+
 3.  On the last page, click **Submit**. A new block appears in the tree and shows progress while it works.
 
 You can keep working, or close Master altogether; the job stays in the queue. While it runs, a counter shows the number of **lost photos**. If many photos are lost, cancel, delete the output block, and look at the acquisition report (below) before you try again.
@@ -112,8 +137,23 @@ You can keep working, or close Master altogether; the job stays in the queue. Wh
 Open the new (output) block. Its overview, or *dashboard*, summarizes the result. Check these four things:
 
 1.  **How many photos were calibrated.** Every photo should be in the main component. A few lost photos at the edge of the site are tolerable; a large fraction is not. Photos that were not calibrated are flagged in the **Photos** tab.
+
+    ![The dashboard of an aerotriangulated block](images/itwin_04_at_dashboard.jpg){ width="100%" }
+
+    *Screenshot: The output block's overview (dashboard): 46 of the 150 photos are in the main component, and a warning says 104 cannot be used for reconstruction. iTwin Capture Modeler 2024, Bentley Systems.*
+
 2.  **The reprojection error.** Open **View quality report**. The *reprojection error* is how far, in pixels, the software's 3D point lands from where it was actually seen in a photo; smaller is better. In the 3D view, photos are colored by this error: under **1 px** is good, **1 to 3 px** is acceptable, and over **3 px** deserves a look. A well-flown drone set typically sits well under 1 px on average. <!-- verify label in app -->
+
+    ![The quality report window](images/itwin_06_quality_report.jpg){ width="100%" }
+
+    *Screenshot: The quality report opened from **View quality report**, starting with its Project Summary. iTwin Capture Modeler 2024, Bentley Systems.*
+
 3.  **The sparse point cloud.** Open the output block's **3D view** tab. The colored points are the *tie points* (features the software matched across photos), and the pyramid-shaped cameras are the photos. This is called **sparse** because it is only the matched points, not the finished model.
+
+    ![The 3D view of an aerotriangulated block](images/itwin_05_at_sparse.jpg){ width="100%" }
+
+    *Screenshot: The output block's **3D View**: the colored tie points and the camera positions, with the thumbnail strip of photos along the bottom. iTwin Capture Modeler 2024, Bentley Systems.*
+
 4.  **The acquisition report.** **View acquisition report** lists disconnected groups of photos and the photos that were lost, so you can see where the flight did not overlap enough.
 
 !!! question "Activity: 3D vs. 2D Thinking"
@@ -133,10 +173,10 @@ Open the new (output) block. Its overview, or *dashboard*, summarizes the result
 
 **For the lab, skip this section.** The Rock Canyon flight uses only the drone's GPS, so your orthophoto is good for measuring *distances and areas* within the site, which is what the lab asks for, but its absolute position can be off by a meter or two. If your TAs did survey control points, the steps are:
 
-1.  Open the output block's **Control Points** (Surveys) tab. <!-- verify label in app -->
+1.  Open the output block's **Surveys** tab (the block's tabs are Overview, Photos, Point Clouds, Surveys, Additional Data and 3D View).
 2.  Click **Add Survey Point**, set the type to **Control Point**, and enter its coordinates in the right coordinate system. If the point is a checkpoint, tick **Check point**.
 3.  Open photos that show the target and mark it by clicking, then **Accept position**. Mark each point in at least **two** photos (three or more is better).
-4.  You need at least **three** control points for the software to use them. Run **Submit Aerotriangulation** again on the output block and, on the Positioning/georeferencing page, choose **Control points**.
+4.  You need at least **three** control points for the software to use them. Run **Submit Aerotriangulation** again on the output block and, on the Positioning/Georeferencing page, choose **Control points**.
 
 ---
 
@@ -144,42 +184,65 @@ Open the new (output) block. Its overview, or *dashboard*, summarizes the result
 
 A *reconstruction* is the workspace in which the products are built. You make **two**, because the 2D and 3D products are computed differently.
 
-### Orthomosaic/DSM reconstruction (for QGIS)
+### Orthophoto/DSM reconstruction (for QGIS)
 
-1.  Select the **AT output block** (the one that finished successfully) and click **New Reconstruction**. <!-- verify label in app -->
-2.  Choose the reconstruction type **Orthomosaic/DSM**. Name it `RockCanyon_ortho`.
-3.  Open the **Spatial framework** tab:
+1.  Select the **AT output block** (the one that finished successfully) and click **New Reconstruction** (the other button beside it is **Export**). The new reconstruction appears in the tree with a name such as `Orthophoto/DSM_1` and has the tabs **Overview**, **Spatial Framework**, **Geometry Constraints**, **Reference Model** and **Processing Settings**.
+2.  Choose the reconstruction type **Orthophoto/DSM**. Name it `RockCanyon_ortho`.
+3.  Open the **Spatial Framework** tab:
     *   **Spatial reference system:** set **WGS 84 / UTM zone 12N** (`EPSG:32612`), the system the QGIS page uses for this course. Search the list or the database for "32612".
     *   **Resolution:** this is the pixel size of the finished map. Choose roughly the **ground sample distance (GSD)** of your photos (about 2 to 5 cm per pixel for a typical Rock Canyon flight). A finer value only makes bigger files, not a better map.
     *   **Region of interest:** the box the software will process. The default (called *Smart*) is usually right. If distant background was included, edit the box or polygon in the 3D view so that it covers only your site; the smaller the area, the faster the job.
     *   **Tiling:** for a site this size, **No tiling** is fine. Use a **Regular planar grid** if the job fails for lack of memory.
-4.  Open the **Processing settings** tab. Set **Geometric precision** to **Medium**, which Bentley describes as the fastest and best suited to orthomosaic/DSM products. Leave everything else alone.
+
+    ![The Spatial Framework tab of an Orthophoto/DSM reconstruction](images/itwin_07_reconstruction_spatial.jpg){ width="100%" }
+
+    *Screenshot: The **Spatial Framework** tab of `Orthophoto/DSM_1`: reference system, resolution, region of interest and tiling on the right, the region of interest box in the 3D view. iTwin Capture Modeler 2024, Bentley Systems.*
+
+4.  Open the **Processing Settings** tab. Set **Geometric precision** to **Medium**, which Bentley describes as the fastest and best suited to orthomosaic/DSM products. Leave everything else alone.
+
+    ![The Processing Settings tab](images/itwin_08_reconstruction_settings.jpg){ width="100%" }
+
+    *Screenshot: The **Processing Settings** tab, with **Geometric precision** set to Medium. iTwin Capture Modeler 2024, Bentley Systems.*
 
 ### 3D reconstruction (for the mesh and the point cloud)
 
 1.  Select the AT output block again and click **New Reconstruction**. Choose **3D reconstruction** and name it `RockCanyon_3D`.
 2.  Use the same coordinate system and region of interest as before. Because 3D models are large, choose a **Regular planar grid** or **Adaptive tiling** for anything bigger than a small building site.
-3.  In **Processing settings**, **Geometric precision** defaults to **Extra**. Use **High** if you are short on time; it is similar in cost but gives a smaller file. Avoid **Ultra**, which Bentley says is about four times slower and uses four times the memory.
+3.  In **Processing Settings**, **Geometric precision** defaults to **Extra**. Use **High** if you are short on time; it is similar in cost but gives a smaller file. Avoid **Ultra**, which Bentley says is about four times slower and uses four times the memory.
 4.  Leave **Hole-filling** on **Fix small holes only**, and leave color correction, untextured regions and the resolution limits at their defaults.
 
 !!! warning "Settings lock after the first production"
-    Once you submit a production, the **Spatial framework** and **Processing settings** tabs become read-only. To try other settings, **clone** the reconstruction (right-click it, then **Clone**) and edit the copy.
+    Once you submit a production, the **Spatial Framework** and **Processing Settings** tabs become read-only. To try other settings, **clone** the reconstruction (right-click it, then **Clone**) and edit the copy.
 
 ---
 
 ## 6. Production
 
-A *production* is the step that writes the files. Select a reconstruction and click **Submit new production**. A wizard asks for a **Name**, a **Purpose**, **Format and options**, **Spatial reference system**, **Extent** and **Destination**. Use a new, empty folder for each production (for example `outputs\ortho`, `outputs\mesh`, `outputs\points`).
+A *production* is the step that writes the files. Select a reconstruction and click **Submit Production**. A wizard with six pages asks for a **Name**, a **Purpose**, **Format/Options**, **Spatial Reference System**, **Extent** and **Destination**. Use a new, empty folder for each production (for example `outputs\ortho`, `outputs\mesh`, `outputs\points`).
 
-### Orthophoto and DSM (from the Orthomosaic/DSM reconstruction)
+![The production wizard Name page](images/itwin_12_production_wizard.jpg){ width="100%" }
 
-1.  **Purpose:** **Export Orthomosaic/DSM**.
-2.  **Format and options:** turn on both the orthophoto and the DSM.
-    *   **Orthophoto format:** **TIFF/GeoTIFF**. This is the file QGIS opens. (JPEG has no coordinates and cannot be used for measurement.)
+*Screenshot: The production wizard opens on its **Name** page; the pages listed at the left run from Name to Destination. iTwin Capture Modeler 2024, Bentley Systems.*
+
+### Orthophoto and DSM (from the Orthophoto/DSM reconstruction)
+
+1.  **Purpose:** **Export Orthomosaic/DSM**. (For an Orthophoto/DSM reconstruction the purposes offered are **Reference model**, **Export Orthomosaic/DSM** and **Water detection**.)
+
+    ![The Purpose page](images/itwin_12b_production_purpose.jpg){ width="100%" }
+
+    *Screenshot: The **Purpose** page for an Orthophoto/DSM reconstruction, with **Export Orthomosaic/DSM** ticked. iTwin Capture Modeler 2024, Bentley Systems.*
+
+2.  **Format/Options:** tick both the **Orthomosaic** and the **DSM** checkboxes.
+    *   **Orthomosaic format:** **TIFF/GeoTIFF**. This is the file QGIS opens. (JPEG has no coordinates and cannot be used for measurement.)
     *   **DSM format:** **TIFF/GeoTIFF**.
-    *   **Sampling distance:** the pixel size, in the units of the coordinate system (meters for UTM). Use the same value as the reconstruction resolution, for example `0.03` for 3 cm.
+    *   **Resolution (meters):** the pixel size, in the units of the coordinate system (meters for UTM). Use the same value as the reconstruction resolution, for example `0.03` for 3 cm.
     *   **Merge output parts:** tick it, so you get **one** file instead of several pieces.
     *   Leave the color source and the **no data** setting at their defaults (areas with no photos will be left empty or transparent).
+
+    ![The Format/Options page](images/itwin_12c_production_format.jpg){ width="100%" }
+
+    *Screenshot: The **Format/Options** page: **Resolution (meters)**, **Merge output parts**, and the **Orthomosaic** and **DSM** checkboxes, each with TIFF/GeoTIFF. iTwin Capture Modeler 2024, Bentley Systems.*
+
 3.  **Spatial reference system:** `EPSG:32612` again. A GeoTIFF made in a *geographic* system such as WGS 84 latitude/longitude is in degrees and will give wrong lengths in QGIS.
 4.  **Extent:** keep the default, the whole region of interest. **Destination:** your empty `outputs\ortho` folder.
 5.  Click **Submit**.
@@ -212,8 +275,16 @@ A *production* is the step that writes the files. Select a reconstruction and cl
 
 Each production writes into the destination folder you picked. Open the production in the project tree and click **Open output directory** to see them in File Explorer. Check the **3D view** tab of the production to look at the result inside Capture Modeler before you leave the lab.
 
+![A completed production overview](images/itwin_09_production_general.jpg){ width="100%" }
+
+*Screenshot: A finished production's **Overview** tab, with its tabs Overview, Settings and Result. This example is a GeometryConstraints production; yours will list its own format. iTwin Capture Modeler 2024, Bentley Systems.*
+
+![The production Settings tab](images/itwin_09b_production_settings.jpg){ width="100%" }
+
+*Screenshot: The same production's **Settings** tab, listing its format, destination folder and spatial reference system. iTwin Capture Modeler 2024, Bentley Systems.*
+
 !!! tip "Do the orthophoto first"
-    The orthophoto and DSM finish far sooner than the 3D mesh. Submit the **Orthomosaic/DSM** production first, then start the QGIS part of the lab while the 3D jobs run.
+    The orthophoto and DSM finish far sooner than the 3D mesh. Submit the **Orthophoto/DSM** production first, then start the QGIS part of the lab while the 3D jobs run.
 
 !!! info "Which format do I need?"
     For most labs in this class, you need the **Orthophoto (GeoTIFF)** to perform measurements in QGIS. The DSM is used for elevations and volumes; the mesh is for visuals; the point cloud is for engineering analysis.

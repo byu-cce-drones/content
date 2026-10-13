@@ -133,13 +133,14 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
 - [ ] **QGIS screenshots show QGIS 3.38 on Windows; the download page now offers LTR 3.44 and
       4.2.** Menus and dialogs are the same, but rerun `fig_tools/qgis_shots/` after the fleet
       laptops upgrade so the pictures match what students see.
-- [ ] **Bentley lab deck needs software screenshots.** `docs/slides/bentley_itwin.md` ends with a
-      placeholder slide. Open a processed project in iTwin Capture Modeler (a 2021 Utah Lake
-      ContextCapture project exists under `D:\Home\Research\2021_01_TSSD_UtahLake\2021_10_ContextCaptureModels`)
-      and capture: photos imported with GPS read, the aerotriangulation submission and its report,
-      the Reconstruction/Production dialog with the three outputs, and the result in the viewer.
-      Our own screenshots of the licensed software, with Bentley named in the caption; no images
-      from Bentley's web documentation.
+- [ ] **Five iTwin Capture Modeler labels still unverified** in `software/bentley_itwin.md` (HTML
+      comments `verify label in app`): the new-project button on the start screen, the Engine's
+      Start-menu name, the GPS altitude reference dialog's Modify button, the Import Positions
+      text-file dialog, and the quality report's reprojection-error colouring. A TA with a fresh
+      RGB project can clear them in ten minutes. The screenshots on the page and in the lab deck
+      come from the instructor's 2021 Utah Lake thermal project (a migrated copy, git-ignored in
+      `.claude/local/scratch/itwin_project/`); replacing them with a class RGB project would be nicer
+      but is not required.
 - [ ] **Marp hangs when launched after a heredoc in the same shell.** Runs fine alone or with
       `< /dev/null`. `build_slides.py` should redirect stdin from the null device itself so the
       caller never hits this; note it on `instructors/slides.md`.
@@ -294,6 +295,10 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
   a GSD-sized resolution, the three productions and their formats, opening the GeoTIFF in QGIS, a
   troubleshooting table, and Bentley links. Seven labels carry an invisible
   `<!-- verify label in app -->` comment for a TA to check against the software.
+  Same day: sixteen screenshots of the software (`docs/software/images/itwin_NN_*.jpg`, captured by
+  driving the app on a migrated copy of the Utah Lake project) placed through the guide and as six
+  slides in the lab deck, with the labels corrected to what the app shows (Orthophoto/DSM, Submit
+  Production, Surveys tab, Resolution, Adjust poses when photos carry GPS).
 - 2026-10-05 — **Week 6 Mission Planning deck and three new Planning-the-Flight figures.**
   `docs/slides/week_06.md` (27 slides, HTML/PDF/PPTX) from the reading's figures plus four
   screenshots of the class Streamlit flight planner (`docs/software/images/planner_NN_*.jpg`; the

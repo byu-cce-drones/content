@@ -3,6 +3,7 @@ marp: true
 theme: cce
 math: mathjax
 paginate: true
+
 ---
 
 <!-- _class: title -->
@@ -38,12 +39,24 @@ paginate: true
 
 ---
 
+![w:1000](../software/images/itwin_01_project_tree.jpg)
+
+<p class="caption">One project: a block of photos, its aerotriangulated copy, a reconstruction and a production. iTwin Capture Modeler, Bentley Systems.</p>
+
+---
+
 ## Step 2 — Import Photos
 
 - Open the block's **Photos** tab
 - Add all the photos of a directory
 - GPS positions are read from the photo metadata
 - Check the block **3D view**: do the cameras match your flight?
+
+---
+
+![w:1000](../software/images/itwin_02_block_photos.jpg)
+
+<p class="caption">The block's Photos tab, with the buttons for adding photos. iTwin Capture Modeler, Bentley Systems.</p>
 
 ---
 
@@ -61,10 +74,16 @@ Garbage in, garbage out.
 
 ## Step 3 — Aerotriangulation
 
-- Click **Submit Aerotriangulation**
-- Keep the **default settings** (Compute, Normal, Default)
+- Click **Submit Aerotriangulation**, then choose the **Engine**
+- Keep the **default settings** (Adjust, Normal, Default)
 - Click **Submit**, then wait
 - Result: a new block with a **sparse point cloud**
+
+---
+
+![w:1000](../software/images/itwin_11_at_wizard.jpg)
+
+<p class="caption">The Aerotriangulation Definition wizard. iTwin Capture Modeler, Bentley Systems.</p>
 
 ---
 
@@ -77,24 +96,48 @@ Garbage in, garbage out.
 
 ---
 
+![w:1000](../software/images/itwin_04_at_dashboard.jpg)
+
+<p class="caption">The output block's dashboard: how many photos were calibrated. iTwin Capture Modeler, Bentley Systems.</p>
+
+---
+
+![w:1000](../software/images/itwin_05_at_sparse.jpg)
+
+<p class="caption">The sparse cloud and the camera positions in the output block's 3D View. iTwin Capture Modeler, Bentley Systems.</p>
+
+---
+
 ## Step 5 — Reconstruction
 
 - (Step 4, ground control, is skipped in this lab)
-- **New Reconstruction**: **Orthomosaic/DSM** for the map, **3D reconstruction** for mesh and points
-- **Spatial framework:** set `EPSG:32612`, check the region of interest
+- **New Reconstruction**: **Orthophoto/DSM** for the map, **3D reconstruction** for mesh and points
+- **Spatial Framework:** set `EPSG:32612`, check the region of interest
 - **Geometric precision:** Medium for the map
+
+---
+
+![w:1000](../software/images/itwin_07_reconstruction_spatial.jpg)
+
+<p class="caption">The Spatial Framework tab: reference system, resolution and region of interest. iTwin Capture Modeler, Bentley Systems.</p>
 
 ---
 
 ## Step 6 — Production
 
-Click **Submit new production**, pick the purpose:
+Click **Submit Production**, pick the purpose:
 
-- **Export Orthomosaic/DSM** — **TIFF/GeoTIFF**, `EPSG:32612`
+- **Export Orthomosaic/DSM** — **TIFF/GeoTIFF**, `EPSG:32612`, **Resolution** in meters
 - **Export 3D mesh** — **iTwin Ready** or **OBJ wavefront**
 - **Export 3D point cloud** — **LAS**
 
 QGIS needs the orthophoto GeoTIFF.
+
+---
+
+![w:1000](../software/images/itwin_12c_production_format.jpg)
+
+<p class="caption">The production's Format/Options page. iTwin Capture Modeler, Bentley Systems.</p>
 
 ---
 
@@ -120,9 +163,3 @@ What happened on the flight?
 The lab page has the deliverables: [Data Processing](../labs/5_data_processing.md).
 
 Full written steps: [Bentley iTwin](../software/bentley_itwin.md).
-
----
-
-## Screenshots
-
-Screenshots of each step will be added from the class project.
