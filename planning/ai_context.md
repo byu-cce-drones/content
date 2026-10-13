@@ -33,7 +33,7 @@ move and any future re-clone must do the same:
 | Path | Holds |
 |---|---|
 | `review/` | `SITE_REVIEW_2026-09-04.md` (the site review, with Gus's answers), `MEASUREMENT_READING_PLAN.md` and `SITE_REORG_BY_WEEK.md` (reasoning behind work now landed; decisions are duplicated in `planning/`), `measurement_fundamentals_DRAFT.md` (superseded by the live page), and PNG renders of figures |
-| `.claude/local/` | `SOURCE_MATERIAL.md`, `notes.md`, `rtd_snapshot/`, `instructor_bundle/`, `drafts/`, `scratch/` |
+| `.claude/local/` | `SOURCE_MATERIAL.md`, `notes.md`, `rtd_snapshot/`, `instructor_bundle/`, `drafts/`, `scratch/`, `onedrive_review/` (renders, parsed data and reusable scripts behind `planning/onedrive_materials_review.md`) |
 | `.claude/settings.local.json` | per-machine permission allowlist, untracked in `51bff7f` |
 | `fig_tools/__pycache__/` | disposable |
 

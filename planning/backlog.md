@@ -36,6 +36,12 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
+- **Class SharePoint materials review, 2026-10-13** (`planning/onedrive_materials_review.md`):
+  real class flights, products, checklists and videos mapped to each week's deck and reading, plus
+  twelve questions (Terra report location, video hosting, consent for student flights and class
+  photos, failed productions, PPK, NDVI calibration, project format). Renders, data and scripts in
+  `.claude/local/onedrive_review/`.
+
 ## Build state
 
 `mkdocs build --strict` passes with no warnings. Expected INFO lines for pages deliberately out of
