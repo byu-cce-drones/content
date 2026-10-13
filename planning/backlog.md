@@ -30,6 +30,11 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
 - Where the Lab 2 orthophoto should live long term.
 - Real accuracy numbers for the aerial sub-table in `measurement_fundamentals.md` §6, if wanted;
   it is qualitative by the instructor's choice for now.
+- **Bentley guide decisions** (`software/bentley_itwin.md`, 2026-10-13): output pixel size (page says
+  "about the GSD, 2 to 5 cm", example 0.03 m); EPSG:32612 for every output; students skip ground
+  control for the lab; whether the Engine is left running on the lab machines; the processing-time
+  and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
+  verify in the app.
 
 ## Build state
 
@@ -114,7 +119,7 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       open: real accuracy numbers for the aerial sub-table in §6 (instructor deferred; qualitative for
       now), and `mission_planning_sfm.md` §V still needs its one-line link back to the new page so the
       "this page defines, everything else applies" rule is visible from both ends.
-- [ ] **Remaining lecture decks.** Weeks 1, 2, 4, 5 and 6 exist (Week 6 added 2026-10-05); Week 1 carries the nine-scenario
+- [ ] **Remaining lecture decks.** Weeks 1, 2, 4, 5, 6 and 7 exist (Week 7 added 2026-10-13); Week 1 carries the nine-scenario
       group activity as discuss-then-answer slides, a pattern worth reusing.
       Write `docs/slides/week_NN.md` for each Tuesday lecture from that week's reading, run
       `fig_tools/build_slides.py`, link from the week page. Decide whether the two instructor
@@ -128,6 +133,13 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
 - [ ] **QGIS screenshots show QGIS 3.38 on Windows; the download page now offers LTR 3.44 and
       4.2.** Menus and dialogs are the same, but rerun `fig_tools/qgis_shots/` after the fleet
       laptops upgrade so the pictures match what students see.
+- [ ] **Bentley lab deck needs software screenshots.** `docs/slides/bentley_itwin.md` ends with a
+      placeholder slide. Open a processed project in iTwin Capture Modeler (a 2021 Utah Lake
+      ContextCapture project exists under `D:\Home\Research\2021_01_TSSD_UtahLake\2021_10_ContextCaptureModels`)
+      and capture: photos imported with GPS read, the aerotriangulation submission and its report,
+      the Reconstruction/Production dialog with the three outputs, and the result in the viewer.
+      Our own screenshots of the licensed software, with Bentley named in the caption; no images
+      from Bentley's web documentation.
 - [ ] **Marp hangs when launched after a heredoc in the same shell.** Runs fine alone or with
       `< /dev/null`. `build_slides.py` should redirect stdin from the null device itself so the
       caller never hits this; note it on `instructors/slides.md`.
@@ -256,6 +268,32 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 
 ## Done
 
+- 2026-10-13 — **Week 7 How Photos Become 3D deck, Bentley lab deck, eight SfM mechanism figures,
+  and a one-time renumber of the `w04_` set.** `docs/slides/week_07.md` (30 slides: SfM, the
+  metadata reading, two Bentley overview slides) and `docs/slides/bentley_itwin.md` (14 slides for the
+  Week 8 processing lab, with one placeholder slide where software screenshots go). New
+  `fig_tools/fig_sfm.py` draws the pipeline overview with Bentley's four step names, the camera solve,
+  feature detection, matching with one rejected match, dense matching along one line, meshing and the
+  webbed pole, the DEM grid, and orthorectification; all eight are in `sfm_workflow.md` at the
+  matching paragraphs. The `w04_` set is now one sequence in page order: How Photos Become 3D 1–12,
+  Planning the Flight 13–21 (the old 4–12 moved up by nine; `fig_week04.py`, `fig_pipeline.py`, both
+  readings and the Week 6 deck updated). No Bentley web images were used: Bentley's terms allow
+  classroom reproduction of its documents with attribution but not distribution outside the
+  classroom, which a public site is. The Bentley page carries the pipeline figure and links the lab
+  deck; `lecture_slides.md` has a Lab decks section. Same day, from six sources the instructor
+  supplied (Humboldt GSP 216, IEEE TechNav, Wikipedia SfM/SIFT/RANSAC/epipolar, UT Dallas CS 6384,
+  Heliyon 2024 survey, OpenCV): a new reading subsection on SIFT, descriptors, the ratio test, RANSAC
+  and the epipolar line; two deck slides; a Resources list; and four corrections (the solve is a
+  best fit, not a unique answer; incremental vs. global; camera calibration is solved too; GPS enters
+  the solve while GCPs pin the result; three photos is the minimum, five to nine the target).
+  Also the same day: **`software/bentley_itwin.md` rewritten as a full student processing guide**
+  (259 lines) from the user manual installed with iTwin Capture Modeler 2024.1.8 at
+  `C:\Program Files\Bentley\iTwin Capture Modeler\doc\`: before you start, project and block,
+  import and the GPS altitude reference, AT settings and how to read the quality and acquisition
+  reports, optional ground control, two reconstructions (Orthomosaic/DSM and 3D) with EPSG:32612 and
+  a GSD-sized resolution, the three productions and their formats, opening the GeoTIFF in QGIS, a
+  troubleshooting table, and Bentley links. Seven labels carry an invisible
+  `<!-- verify label in app -->` comment for a TA to check against the software.
 - 2026-10-05 — **Week 6 Mission Planning deck and three new Planning-the-Flight figures.**
   `docs/slides/week_06.md` (27 slides, HTML/PDF/PPTX) from the reading's figures plus four
   screenshots of the class Streamlit flight planner (`docs/software/images/planner_NN_*.jpg`; the

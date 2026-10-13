@@ -1,7 +1,7 @@
 # Week 7 — Photogrammetry and Flight Operations
 
 !!! abstract "This week"
-    - **Tuesday lecture:** Bentley / WebODM processing lecture; photogrammetry concepts and workflows
+    - **Tuesday lecture:** Bentley / WebODM processing lecture; photogrammetry concepts and workflows — [Slides](../slides/week_07.html) · [PDF](../slides/week_07.pdf) · [PPTX](../slides/week_07.pptx)
     - **Thursday lab:** Rock Canyon mission flight day
     - **Do this week:** create your Bentley account (Learning Suite has the link); next week's processing lab needs it
 

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="540" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Where was the camera? Where is the point? Solved together</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Every matched point sends one ray from every photo that saw it. Move cameras and points until the rays agree.</text>
+  <rect x="30" y="84" width="560" height="420" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <line x1="60" y1="440" x2="560" y2="440" stroke="#9aa7b2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="130" y1="166" x2="170" y2="400" stroke="#2f8f4e" stroke-width="1.3" opacity="0.75"/>
+  <line x1="300" y1="146" x2="170" y2="400" stroke="#2f8f4e" stroke-width="1.3" opacity="0.75"/>
+  <line x1="470" y1="166" x2="170" y2="400" stroke="#2f8f4e" stroke-width="1.3" opacity="0.75"/>
+  <line x1="130" y1="166" x2="310" y2="380" stroke="#4a90d9" stroke-width="1.3" opacity="0.75"/>
+  <line x1="300" y1="146" x2="310" y2="380" stroke="#4a90d9" stroke-width="1.3" opacity="0.75"/>
+  <line x1="470" y1="166" x2="310" y2="380" stroke="#4a90d9" stroke-width="1.3" opacity="0.75"/>
+  <line x1="130" y1="166" x2="440" y2="405" stroke="#f39c12" stroke-width="1.3" opacity="0.75"/>
+  <line x1="300" y1="146" x2="440" y2="405" stroke="#f39c12" stroke-width="1.3" opacity="0.75"/>
+  <line x1="470" y1="166" x2="440" y2="405" stroke="#f39c12" stroke-width="1.3" opacity="0.75"/>
+  <g transform="translate(130,150)">
+    <g transform="rotate(0.0)">
+      <rect x="-14.4" y="-8.1" width="28.8" height="16.2" rx="2.7" fill="#444444"/>
+      <rect x="-5.4" y="8.1" width="10.8" height="6.3" fill="#444444"/>
+      <circle cx="0" cy="16.2" r="3.6" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <text x="130" y="128" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">photo A</text>
+  <g transform="translate(300,130)">
+    <g transform="rotate(0.0)">
+      <rect x="-14.4" y="-8.1" width="28.8" height="16.2" rx="2.7" fill="#444444"/>
+      <rect x="-5.4" y="8.1" width="10.8" height="6.3" fill="#444444"/>
+      <circle cx="0" cy="16.2" r="3.6" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <text x="300" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">photo B</text>
+  <g transform="translate(470,150)">
+    <g transform="rotate(0.0)">
+      <rect x="-14.4" y="-8.1" width="28.8" height="16.2" rx="2.7" fill="#444444"/>
+      <rect x="-5.4" y="8.1" width="10.8" height="6.3" fill="#444444"/>
+      <circle cx="0" cy="16.2" r="3.6" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <text x="470" y="128" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">photo C</text>
+  <circle cx="170" cy="400" r="7" fill="#2f8f4e" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="310" cy="380" r="7" fill="#4a90d9" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="440" cy="405" r="7" fill="#f39c12" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="170" y="426" text-anchor="middle" font-size="12" font-weight="bold" fill="#2f8f4e">P</text>
+  <text x="310" y="426" text-anchor="middle" font-size="12" font-weight="bold" fill="#4a90d9">Q</text>
+  <text x="440" y="426" text-anchor="middle" font-size="12" font-weight="bold" fill="#f39c12">R</text>
+  <text x="310" y="480" text-anchor="middle" font-size="12" fill="#555555">three cameras, three points, nine rays: one solve</text>
+  <rect x="610" y="84" width="260" height="420" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="740" y="112" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">A ray that misses</text>
+  <g transform="translate(700,170)">
+    <g transform="rotate(0.0)">
+      <rect x="-12.8" y="-7.2" width="25.6" height="14.4" rx="2.4000000000000004" fill="#444444"/>
+      <rect x="-4.800000000000001" y="7.2" width="9.600000000000001" height="5.6000000000000005" fill="#444444"/>
+      <circle cx="0" cy="14.4" r="3.2" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <circle cx="740" cy="300" r="7" fill="#4a90d9" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="700" y1="186" x2="766" y2="314" stroke="#e74c3c" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="740" y1="300" x2="766" y2="314" stroke="#e74c3c" stroke-width="2"/>
+  <text x="790" y="322" text-anchor="middle" font-size="11" font-weight="bold" fill="#e74c3c">error</text>
+  <g>
+    <line x1="700" y1="150" x2="719.0" y2="150.0" stroke="#2f8f4e" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="726,150 719.0,153.5 719.0,146.5" fill="#2f8f4e"/>
+  </g>
+  <g>
+    <line x1="738" y1="288" x2="738.0" y2="277.0" stroke="#2f8f4e" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="738,270 741.5,277.0 734.5,277.0" fill="#2f8f4e"/>
+  </g>
+  <text x="740" y="372" text-anchor="middle" font-size="11.5" fill="#555555">nudge the camera and the point</text>
+  <text x="740" y="390" text-anchor="middle" font-size="11.5" fill="#555555">until the miss is as small as it</text>
+  <text x="740" y="408" text-anchor="middle" font-size="11.5" fill="#555555">can be for every ray at once</text>
+  <text x="740" y="446" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">This is bundle adjustment.</text>
+  <text x="740" y="466" text-anchor="middle" font-size="12" fill="#555555">Bentley: aerotriangulation.</text>
+  <text x="450.0" y="526" text-anchor="middle" font-size="12.5" font-style="italic" fill="#555555">The GPS tag on each photo is the first guess and sets the scale. The photos themselves do the rest.</text>
+</svg>

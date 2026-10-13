@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="480" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Points become triangles</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">A cloud is not a surface. Joining neighbouring points into triangles makes one, and the one rule that matters is how far apart two points may be and still be joined.</text>
+  <rect x="30" y="84" width="280" height="330" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="170" y="112" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Dense points</text>
+  <rect x="310" y="84" width="280" height="330" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="450" y="112" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Joined into triangles</text>
+  <rect x="590" y="84" width="280" height="330" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="730" y="112" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">The thin pole problem</text>
+  <circle cx="70.64766552966633" cy="348.4198106206909" r="1.8" fill="#444444"/>
+  <circle cx="75.30186894607971" cy="348.2177142773135" r="1.8" fill="#444444"/>
+  <circle cx="79.07176400861337" cy="347.08972168739416" r="1.8" fill="#444444"/>
+  <circle cx="82.11599784954942" cy="346.53840322669686" r="1.8" fill="#444444"/>
+  <circle cx="86.07499131688397" cy="346.6990736993681" r="1.8" fill="#444444"/>
+  <circle cx="90.13971084714925" cy="347.7885435484719" r="1.8" fill="#444444"/>
+  <circle cx="94.84903837828503" cy="345.80354286070735" r="1.8" fill="#444444"/>
+  <circle cx="98.24760392229929" cy="347.8728542630205" r="1.8" fill="#444444"/>
+  <circle cx="103.25486644481117" cy="346.2155255472115" r="1.8" fill="#444444"/>
+  <circle cx="107.15420589723499" cy="348.3681631044996" r="1.8" fill="#444444"/>
+  <circle cx="111.95251021118584" cy="289.8602519581467" r="1.8" fill="#444444"/>
+  <circle cx="115.71693691809736" cy="289.131172141005" r="1.8" fill="#444444"/>
+  <circle cx="118.28851016671487" cy="289.6466232857649" r="1.8" fill="#444444"/>
+  <circle cx="122.61696364820386" cy="287.5516209226399" r="1.8" fill="#444444"/>
+  <circle cx="126.36145275984788" cy="288.2551995090126" r="1.8" fill="#444444"/>
+  <circle cx="131.27782693785235" cy="288.8828073718228" r="1.8" fill="#444444"/>
+  <circle cx="135.0954889314191" cy="289.81163307508" r="1.8" fill="#444444"/>
+  <circle cx="138.11920233993249" cy="289.382123861542" r="1.8" fill="#444444"/>
+  <circle cx="143.36079994636356" cy="288.7172230829918" r="1.8" fill="#444444"/>
+  <circle cx="146.6282943407536" cy="288.2433144094771" r="1.8" fill="#444444"/>
+  <circle cx="150.90636875274157" cy="289.10069900940897" r="1.8" fill="#444444"/>
+  <circle cx="155.588758963045" cy="287.9030166988113" r="1.8" fill="#444444"/>
+  <circle cx="158.48819302144432" cy="288.276728869224" r="1.8" fill="#444444"/>
+  <circle cx="163.05039300762292" cy="287.3745875132797" r="1.8" fill="#444444"/>
+  <circle cx="167.45889057887842" cy="289.13618670532946" r="1.8" fill="#444444"/>
+  <circle cx="171.96034969498515" cy="289.6458026652351" r="1.8" fill="#444444"/>
+  <circle cx="174.83624564357046" cy="287.72857721130424" r="1.8" fill="#444444"/>
+  <circle cx="178.303969069321" cy="288.53311069857256" r="1.8" fill="#444444"/>
+  <circle cx="182.07841451409487" cy="287.9953524303968" r="1.8" fill="#444444"/>
+  <circle cx="187.52914173242561" cy="288.2809221791679" r="1.8" fill="#444444"/>
+  <circle cx="191.75095562366178" cy="351.5380045238566" r="1.8" fill="#444444"/>
+  <circle cx="195.3905907325473" cy="350.06434846820406" r="1.8" fill="#444444"/>
+  <circle cx="199.159790408565" cy="349.82877772755955" r="1.8" fill="#444444"/>
+  <circle cx="203.67993556102508" cy="347.61362336885753" r="1.8" fill="#444444"/>
+  <circle cx="206.9481966748393" cy="347.9487721038188" r="1.8" fill="#444444"/>
+  <circle cx="210.12133885519444" cy="347.38467123819544" r="1.8" fill="#444444"/>
+  <circle cx="215.29425770905533" cy="345.87866786805336" r="1.8" fill="#444444"/>
+  <circle cx="219.64384957321943" cy="347.5948448676894" r="1.8" fill="#444444"/>
+  <circle cx="222.77158288489343" cy="346.22593167694936" r="1.8" fill="#444444"/>
+  <circle cx="226.04512585611118" cy="346.69452527928155" r="1.8" fill="#444444"/>
+  <circle cx="230.3360967578131" cy="347.64906542245944" r="1.8" fill="#444444"/>
+  <circle cx="234.11790883866263" cy="345.7409036439343" r="1.8" fill="#444444"/>
+  <circle cx="238.25868044403737" cy="347.47451614198127" r="1.8" fill="#444444"/>
+  <circle cx="242.78189940626646" cy="345.93014620175984" r="1.8" fill="#444444"/>
+  <circle cx="246.16116260240028" cy="347.5290215912006" r="1.8" fill="#444444"/>
+  <circle cx="251.09887981828808" cy="346.83048478545066" r="1.8" fill="#444444"/>
+  <circle cx="255.63855967567147" cy="347.54685539687233" r="1.8" fill="#444444"/>
+  <circle cx="258.5568421290278" cy="349.35591640610846" r="1.8" fill="#444444"/>
+  <circle cx="262.71754233066326" cy="348.6463054570022" r="1.8" fill="#444444"/>
+  <circle cx="267.915462407928" cy="351.7463843642553" r="1.8" fill="#444444"/>
+  <circle cx="270.35243545698074" cy="351.9246638869297" r="1.8" fill="#444444"/>
+  <circle cx="274.4666721673617" cy="351.85883815556235" r="1.8" fill="#444444"/>
+  <circle cx="279.1782470074645" cy="353.26656663598584" r="1.8" fill="#444444"/>
+  <circle cx="282.0081872067701" cy="353.2036290437607" r="1.8" fill="#444444"/>
+  <circle cx="286.7385071457894" cy="353.35364595426364" r="1.8" fill="#444444"/>
+  <circle cx="291.9061958510502" cy="353.48034482187563" r="1.8" fill="#444444"/>
+  <circle cx="295.0309828661416" cy="353.91549347912013" r="1.8" fill="#444444"/>
+  <circle cx="299.352400164899" cy="355.7905813360033" r="1.8" fill="#444444"/>
+  <circle cx="303.7990660201159" cy="353.6570237005786" r="1.8" fill="#444444"/>
+  <circle cx="307.74902636826897" cy="353.5177479682313" r="1.8" fill="#444444"/>
+  <text x="170" y="392" text-anchor="middle" font-size="11" fill="#555555">a side slice through the cloud</text>
+  <polygon points="350,348.94380597830735 362,348.0642619335405 356,334.94380597830735" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="362,348.0642619335405 368,334.0642619335405 356,334.94380597830735" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="362,348.0642619335405 374,348.2319884406288 368,334.0642619335405" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="374,348.2319884406288 380,334.2319884406288 368,334.0642619335405" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="374,348.2319884406288 386,349.40235472672293 380,334.2319884406288" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="386,349.40235472672293 392,335.40235472672293 380,334.2319884406288" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="386,349.40235472672293 398,290 392,335.40235472672293" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="398,290 404,276 392,335.40235472672293" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="398,290 410,290 404,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="410,290 416,276 404,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="410,290 422,290 416,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="422,290 428,276 416,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="422,290 434,290 428,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="434,290 440,276 428,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="434,290 446,290 440,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="446,290 452,276 440,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="446,290 458,290 452,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="458,290 464,276 452,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="458,290 470,352.7798875418658 464,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="470,352.7798875418658 476,338.7798875418658 464,276" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="470,352.7798875418658 482,350.72083050776683 476,338.7798875418658" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="482,350.72083050776683 488,336.72083050776683 476,338.7798875418658" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="482,350.72083050776683 494,349.0021509371642 488,336.72083050776683" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="494,349.0021509371642 500,335.0021509371642 488,336.72083050776683" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="494,349.0021509371642 506,348.08117664811226 500,335.0021509371642" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="506,348.08117664811226 512,334.08117664811226 500,335.0021509371642" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="506,348.08117664811226 518,348.202972031496 512,334.08117664811226" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="518,348.202972031496 524,334.202972031496 512,334.08117664811226" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="518,348.202972031496 530,349.33512824398906 524,334.202972031496" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="530,349.33512824398906 536,335.33512824398906 524,334.202972031496" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="530,349.33512824398906 542,351.17638695959954 536,335.33512824398906" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="542,351.17638695959954 548,337.17638695959954 536,335.33512824398906" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="542,351.17638695959954 554,353.2368029638228 548,337.17638695959954" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="554,353.2368029638228 560,339.2368029638228 548,337.17638695959954" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="554,353.2368029638228 566,354.9681149218451 560,339.2368029638228" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="566,354.9681149218451 572,340.9681149218451 560,339.2368029638228" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="566,354.9681149218451 578,355.9096336315157 572,340.9681149218451" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="578,355.9096336315157 584,341.9096336315157 572,340.9681149218451" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="578,355.9096336315157 590,355.8108279848166 584,341.9096336315157" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <polygon points="590,355.8108279848166 596,341.8108279848166 584,341.9096336315157" fill="#e8f1fb" stroke="#4a90d9" stroke-width="0.9"/>
+  <text x="450" y="392" text-anchor="middle" font-size="11" fill="#555555">every point joined to its neighbours</text>
+  <line x1="610" y1="360" x2="710" y2="360" stroke="#9aa7b2" stroke-width="2"/>
+  <line x1="660" y1="360" x2="660" y2="250" stroke="#444444" stroke-width="3"/>
+  <polygon points="660,250 618,360 660,360" fill="#e8f1fb" stroke="#e74c3c" stroke-width="1"/>
+  <polygon points="660,250 702,360 660,360" fill="#e8f1fb" stroke="#e74c3c" stroke-width="1"/>
+  <polygon points="660,280 630,360 660,250" fill="#e8f1fb" stroke="#e74c3c" stroke-width="1"/>
+  <polygon points="660,280 690,360 660,250" fill="#e8f1fb" stroke="#e74c3c" stroke-width="1"/>
+  <text x="660" y="382" text-anchor="middle" font-size="11" font-weight="bold" fill="#e74c3c">tolerance loose</text>
+  <line x1="760" y1="360" x2="860" y2="360" stroke="#9aa7b2" stroke-width="2"/>
+  <line x1="810" y1="360" x2="810" y2="250" stroke="#444444" stroke-width="3"/>
+  <text x="810" y="382" text-anchor="middle" font-size="11" font-weight="bold" fill="#2f8f4e">tolerance tight</text>
+  <text x="730" y="150" text-anchor="middle" font-size="11" fill="#555555">a pole or a wire has points far</text>
+  <text x="730" y="166" text-anchor="middle" font-size="11" fill="#555555">from the ground points beside it;</text>
+  <text x="730" y="182" text-anchor="middle" font-size="11" fill="#555555">join them and you get a tent</text>
+  <text x="450.0" y="448" text-anchor="middle" font-size="12.5" font-style="italic" fill="#555555">A webbed mesh is not a bad flight. It is a tolerance to change in the software.</text>
+</svg>

@@ -252,8 +252,8 @@ def main() -> None:
     args = ap.parse_args()
 
     for builder, number, slug, variant in (
-        (build_pipeline, 3, "pipeline", ""),
-        (build_products_branch, 3, "to_products", "b"),
+        (build_pipeline, 7, "stages", ""),
+        (build_products_branch, 12, "to_products", ""),
     ):
         fname = os.path.join(args.out, figure_name(4, number, slug, variant))
         builder().save(fname)

@@ -94,8 +94,19 @@ illustrative, not measured, and say so. Deck is 24 slides in HTML, PDF and PPTX.
 screenshots of the class Streamlit flight planner (course-authored; no vendor material used) and
 three new reading figures: building sides (the instructor's rule that a 3D object needs grid lines
 run well past it, or a dedicated oblique line or orbit), the planning decision chain, and flight
-time by hand. `w04_fig09_accuracy` became `w04_fig10_accuracy`. Figures 1–3 of the `w04_` set
-belong to How Photos Become 3D; 4–12 to Planning the Flight.
+time by hand. (Superseded 2026-10-13: the whole set was renumbered; see the next block.)
+
+**Last done (2026-10-13).** Week 7 deck (`docs/slides/week_07.md`, SfM + metadata + Bentley
+overview) and a separate Bentley iTwin Capture Modeler lab deck (`docs/slides/bentley_itwin.md`, one
+screenshot placeholder slide still to fill from our own licensed software — see `backlog.md`).
+Eight new mechanism figures from `fig_tools/fig_sfm.py` went into How Photos Become 3D, and the
+whole `w04_` set was renumbered once into page order: How Photos Become 3D is Figures 1–12 and
+Planning the Flight is 13–21. The nav shows Week 7 as "Photogrammetry and Flight Operations".
+The SfM reading also gained a SIFT/matching subsection, a Resources list and four corrections from
+six instructor-supplied sources, and `software/bentley_itwin.md` is now a full processing guide
+written from the manual installed with iTwin Capture Modeler 2024.1.8 (the PDFs are in
+`C:\Program Files\Bentley\iTwin Capture Modeler\doc\`). Bentley's web terms forbid reusing their
+images on a public site; our own screenshots of the licensed software are the route, still to do.
 
 **Working concurrently.** Sessions on the same machine share one working tree. Either use a separate
 `git worktree` (`git worktree add ../byu-cce-drones-content-b main`) so the trees are isolated, or

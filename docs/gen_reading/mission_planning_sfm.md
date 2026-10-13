@@ -17,9 +17,9 @@ explains why these choices matter.
 Altitude sets **Ground Sample Distance (GSD)**, the real-world size of one pixel. A GSD of 2 cm
 means one pixel covers 2 cm of ground.
 
-![Altitude against detail and area](images/w04_fig04_gsd_altitude.svg){ width="100%" }
+![Altitude against detail and area](images/w04_fig13_gsd_altitude.svg){ width="100%" }
 
-*Figure 4: Flying twice as high doubles the size of every pixel, but each photo covers four times
+*Figure 13: Flying twice as high doubles the size of every pixel, but each photo covers four times
 the area.*
 
 `GSD ∝ (flight height × sensor size) / (focal length × image width in pixels)`
@@ -42,9 +42,9 @@ highest altitude that still delivers that GSD. Anything lower is time you have s
 
 Overlap is what puts each ground point into several photos. The two kinds do not cost the same.
 
-![What forward and side overlap each cost](images/w04_fig05_overlap_cost.svg){ width="100%" }
+![What forward and side overlap each cost](images/w04_fig14_overlap_cost.svg){ width="100%" }
 
-*Figure 5: More forward overlap is more photos on the same flight lines. More side overlap means
+*Figure 14: More forward overlap is more photos on the same flight lines. More side overlap means
 more flight lines, and every extra line costs a battery.*
 
 | Site | Forward | Side |
@@ -66,9 +66,9 @@ a setting to max out.**
 
 ## III. What pattern should you fly?
 
-![A mapping grid, with an optional second pass](images/w04_fig06_grid.svg){ width="100%" }
+![A mapping grid, with an optional second pass](images/w04_fig15_grid.svg){ width="100%" }
 
-*Figure 6: Parallel lines with alternating direction. A second pass at ninety degrees is added only
+*Figure 15: Parallel lines with alternating direction. A second pass at ninety degrees is added only
 when the site needs it.*
 
 A simple back-and-forth grid handles most sites. A **cross-hatch**, a second set of lines flown at
@@ -97,9 +97,9 @@ spend.
 
 A camera pointing straight down is called **nadir**. It is ideal for maps and useless for walls.
 
-![Nadir compared with oblique](images/w04_fig07_nadir_oblique.svg){ width="100%" }
+![Nadir compared with oblique](images/w04_fig16_nadir_oblique.svg){ width="100%" }
 
-*Figure 7: A nadir camera sees the roof and nothing else. Tilting it to 30 or 45 degrees brings the
+*Figure 16: A nadir camera sees the roof and nothing else. Tilting it to 30 or 45 degrees brings the
 near wall into view.*
 
 - **Nadir, 0°:** orthomosaics, terrain, volumes. The default for mapping.
@@ -108,13 +108,13 @@ near wall into view.*
 
 One oblique pass only captures the walls facing the camera. For a whole structure, orbit it.
 
-![Orbiting a structure](images/w04_fig08_orbit.svg){ width="100%" }
+![Orbiting a structure](images/w04_fig17_orbit.svg){ width="100%" }
 
-*Figure 8: The camera points inward and circles the structure. Tall structures need a ring at more
+*Figure 17: The camera points inward and circles the structure. Tall structures need a ring at more
 than one height.*
 
 !!! question "Activity: orbit strategy"
-    Look at Figure 8. Why use an orbit instead of extending the grid? If the structure were a tall
+    Look at Figure 17. Why use an orbit instead of extending the grid? If the structure were a tall
     silo, would a single orbit at one altitude capture the whole side? What would you add?
 
 ### Plan for the sides from the start
@@ -127,11 +127,11 @@ never will. There are two ways to get them, and you should decide which before y
   least one building height out, puts the wall at the edge of the frame even with the camera at
   nadir. This is the cheap fix, and the planner will do it if you draw the area large enough.
 - **Add a dedicated pass the planner will not draw.** An oblique line along each face, or an orbit
-  (Figure 8), flown as a separate mission after the grid.
+  (Figure 17), flown as a separate mission after the grid.
 
-![A mapping grid extended a building height past every edge of a footprint, and a section showing the edge of a nadir frame catching the wall](images/w04_fig09_building_sides.svg){ width="100%" }
+![A mapping grid extended a building height past every edge of a footprint, and a section showing the edge of a nadir frame catching the wall](images/w04_fig18_building_sides.svg){ width="100%" }
 
-*Figure 9: A grid that stops at the footprint sees only the roof. Lines run a building height past
+*Figure 18: A grid that stops at the footprint sees only the roof. Lines run a building height past
 every edge catch the walls at the edge of the frame; a dedicated oblique line or orbit is the other
 way.*
 
@@ -141,9 +141,9 @@ way.*
 
 This is the question that turns a nice-looking model into a defensible measurement.
 
-![Resolution, accuracy, and ground truth](images/w04_fig10_accuracy.svg){ width="100%" }
+![Resolution, accuracy, and ground truth](images/w04_fig19_accuracy.svg){ width="100%" }
 
-*Figure 10: Three different questions. Flying lower answers the first one only.*
+*Figure 19: Three different questions. Flying lower answers the first one only.*
 
 - **Resolution** is set by GSD and answers "can I see it at all".
 - **Accuracy** is how close your measurement is to the truth. Flying lower does **not** fix it.
@@ -194,9 +194,9 @@ planning app.
 The parameters are not independent. Each follows from the one before it, starting from the question
 the map has to answer, and the planner only draws what you have already decided.
 
-![The planning chain: smallest feature, GSD, altitude, overlap, pattern, then time and batteries, with a loop back when a hard constraint breaks](images/w04_fig11_decision_chain.svg){ width="100%" }
+![The planning chain: smallest feature, GSD, altitude, overlap, pattern, then time and batteries, with a loop back when a hard constraint breaks](images/w04_fig20_decision_chain.svg){ width="100%" }
 
-*Figure 11: Start from the smallest feature the map must show and work right. When the plan breaks
+*Figure 20: Start from the smallest feature the map must show and work right. When the plan breaks
 a hard constraint — a photo cap, a time limit, an altitude ceiling — go back one step, not to the
 start.*
 
@@ -205,9 +205,9 @@ start.*
 The planner reports the total path distance. Minutes and batteries are your arithmetic, and the hard
 constraints you will meet on Thursday are written in minutes.
 
-![Two cards: minutes from path distance and speed, and batteries from minutes and battery life](images/w04_fig12_flight_time.svg){ width="100%" }
+![Two cards: minutes from path distance and speed, and batteries from minutes and battery life](images/w04_fig21_flight_time.svg){ width="100%" }
 
-*Figure 12: At 10 mph the aircraft covers 880 ft a minute, so 5,280 ft of flight line is six minutes
+*Figure 21: At 10 mph the aircraft covers 880 ft a minute, so 5,280 ft of flight line is six minutes
 before turns and climb. Round batteries up and keep a landing reserve.*
 
 !!! tip "The formula the lab uses"

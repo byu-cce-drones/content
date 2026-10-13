@@ -1,10 +1,10 @@
 """Proposed figures for Topic 4: SfM workflow and mission planning.
 
 Numbered per the Topic 4 convention: the topic runs straight through in nav
-order, so SfM Workflow takes 1 to 3 and Mission Planning takes 4 to 12. Figure 3
-is the existing pipeline drawing, renamed. Figures 9, 11 and 12 (building sides,
-the planning chain, flight time by hand) were added 2026-10-05 for the Week 6
-deck; the accuracy figure moved from 9 to 10.
+order. Renumbered 2026-10-13 when fig_sfm.py added eight mechanism figures to
+How Photos Become 3D: that reading now takes 1 to 12 (this script draws 2 and
+4; fig_pipeline.py draws 7 and 10; fig_sfm.py draws the rest) and Planning the
+Flight takes 13 to 21, all drawn here.
 
 Three are replacements for figures that already exist but sit outside the house
 style. Three cover concepts the pages currently explain in prose only: overlap,
@@ -898,17 +898,17 @@ def main() -> None:
     args = ap.parse_args()
 
     for builder, number, slug in (
-        (build_matching, 1, "parallax"),
-        (build_overlap, 2, "overlap"),
-        (build_gsd, 4, "gsd_altitude"),
-        (build_overlap_cost, 5, "overlap_cost"),
-        (build_grid, 6, "grid"),
-        (build_nadir_oblique, 7, "nadir_oblique"),
-        (build_orbit, 8, "orbit"),
-        (build_building_sides, 9, "building_sides"),
-        (build_accuracy, 10, "accuracy"),
-        (build_decision_chain, 11, "decision_chain"),
-        (build_flight_time, 12, "flight_time"),
+        (build_matching, 2, "parallax"),
+        (build_overlap, 4, "overlap"),
+        (build_gsd, 13, "gsd_altitude"),
+        (build_overlap_cost, 14, "overlap_cost"),
+        (build_grid, 15, "grid"),
+        (build_nadir_oblique, 16, "nadir_oblique"),
+        (build_orbit, 17, "orbit"),
+        (build_building_sides, 18, "building_sides"),
+        (build_accuracy, 19, "accuracy"),
+        (build_decision_chain, 20, "decision_chain"),
+        (build_flight_time, 21, "flight_time"),
     ):
         fname = os.path.join(args.out, figure_name(4, number, slug))
         builder().save(fname)

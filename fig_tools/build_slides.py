@@ -1,8 +1,8 @@
 """Export Marp lecture decks under docs/slides/ to HTML and PDF.
 
 Every docs/slides/*.md that opens with `marp: true` in its front matter is a
-deck. This script runs the Marp CLI once per deck with the course theme
-(docs/slides/theme.css) and writes the exports next to the source Markdown,
+deck. This script runs the Marp CLI once per deck with the course themes
+(every docs/slides/*.css; theme.css is "cce", theme_byu.css is "byu") and writes the exports next to the source Markdown,
 which is where MkDocs will publish them from. Files without `marp: true` are
 skipped, so this folder can hold notes or a README without choking the build.
 
@@ -30,7 +30,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SLIDES_DIR = REPO_ROOT / "docs" / "slides"
-THEME = SLIDES_DIR / "theme.css"
+THEME = SLIDES_DIR  # every *.css in the folder is a theme; decks pick one by name
 
 
 def find_marp() -> str | None:

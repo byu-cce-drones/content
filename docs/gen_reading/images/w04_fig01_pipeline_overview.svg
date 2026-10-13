@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="400" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Six stages, four buttons</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">What structure from motion does, and what the software calls each part of it.</text>
+  <rect x="33.0" y="120" width="124" height="78" rx="10" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="95.0" y="154" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Photos</text>
+  <text x="95.0" y="176" text-anchor="middle" font-size="11" fill="#555555">with GPS tags</text>
+  <g>
+    <line x1="159.0" y1="159.0" x2="166.0" y2="159.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="173.0,159.0 166.0,162.5 166.0,155.5" fill="#4a90d9"/>
+  </g>
+  <rect x="175.0" y="120" width="124" height="78" rx="10" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="237.0" y="154" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Features</text>
+  <text x="237.0" y="176" text-anchor="middle" font-size="11" fill="#555555">and matches</text>
+  <g>
+    <line x1="301.0" y1="159.0" x2="308.0" y2="159.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="315.0,159.0 308.0,162.5 308.0,155.5" fill="#4a90d9"/>
+  </g>
+  <rect x="317.0" y="120" width="124" height="78" rx="10" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="379.0" y="154" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Cameras</text>
+  <text x="379.0" y="176" text-anchor="middle" font-size="11" fill="#555555">+ sparse cloud</text>
+  <g>
+    <line x1="443.0" y1="159.0" x2="450.0" y2="159.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="457.0,159.0 450.0,162.5 450.0,155.5" fill="#4a90d9"/>
+  </g>
+  <rect x="459.0" y="120" width="124" height="78" rx="10" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="521.0" y="154" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Dense cloud</text>
+  <text x="521.0" y="176" text-anchor="middle" font-size="11" fill="#555555">millions of points</text>
+  <g>
+    <line x1="585.0" y1="159.0" x2="592.0" y2="159.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="599.0,159.0 592.0,162.5 592.0,155.5" fill="#4a90d9"/>
+  </g>
+  <rect x="601.0" y="120" width="124" height="78" rx="10" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="663.0" y="154" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Mesh</text>
+  <text x="663.0" y="176" text-anchor="middle" font-size="11" fill="#555555">and texture</text>
+  <g>
+    <line x1="727.0" y1="159.0" x2="734.0" y2="159.0" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="741.0,159.0 734.0,162.5 734.0,155.5" fill="#4a90d9"/>
+  </g>
+  <rect x="743.0" y="120" width="124" height="78" rx="10" fill="#ffffff" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="805.0" y="154" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Products</text>
+  <text x="805.0" y="176" text-anchor="middle" font-size="11" fill="#555555">ortho, DSM, 3D</text>
+  <rect x="81.0" y="84" width="28" height="20" rx="3" fill="#d0d7de" stroke="#333333" stroke-width="1"/>
+  <circle cx="217.0" cy="94" r="2.5" fill="#4a90d9"/>
+  <circle cx="227.0" cy="94" r="2.5" fill="#4a90d9"/>
+  <circle cx="237.0" cy="94" r="2.5" fill="#4a90d9"/>
+  <circle cx="247.0" cy="94" r="2.5" fill="#4a90d9"/>
+  <circle cx="257.0" cy="94" r="2.5" fill="#4a90d9"/>
+  <g transform="translate(379.0,92)">
+    <g transform="rotate(0.0)">
+      <rect x="-8.8" y="-4.95" width="17.6" height="9.9" rx="1.6500000000000001" fill="#444444"/>
+      <rect x="-3.3000000000000003" y="4.95" width="6.6000000000000005" height="3.8500000000000005" fill="#444444"/>
+      <circle cx="0" cy="9.9" r="2.2" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <circle cx="508.4223021004108" cy="94.70766760473524" r="1.2" fill="#444444"/>
+  <circle cx="514.7578479943078" cy="95.66272061753911" r="1.2" fill="#444444"/>
+  <circle cx="527.0345745971866" cy="87.04846174783701" r="1.2" fill="#444444"/>
+  <circle cx="497.63206359463396" cy="99.39950531354336" r="1.2" fill="#444444"/>
+  <circle cx="509.44899268774435" cy="89.74929537674714" r="1.2" fill="#444444"/>
+  <circle cx="544.7909521045023" cy="93.52421612035917" r="1.2" fill="#444444"/>
+  <circle cx="537.1501496611706" cy="93.62165133918936" r="1.2" fill="#444444"/>
+  <circle cx="527.6752707461197" cy="88.40986278437639" r="1.2" fill="#444444"/>
+  <circle cx="527.4733115976891" cy="99.88872491429275" r="1.2" fill="#444444"/>
+  <circle cx="522.1126980983985" cy="97.86002969922384" r="1.2" fill="#444444"/>
+  <circle cx="529.2277508177405" cy="87.02450301163196" r="1.2" fill="#444444"/>
+  <circle cx="533.3950518217672" cy="95.45759332690108" r="1.2" fill="#444444"/>
+  <circle cx="511.4608476567542" cy="86.496188023516" r="1.2" fill="#444444"/>
+  <circle cx="538.5453073749894" cy="93.56398541864746" r="1.2" fill="#444444"/>
+  <circle cx="531.5035483551585" cy="100.0610048040877" r="1.2" fill="#444444"/>
+  <circle cx="531.2782152133377" cy="100.73757868134199" r="1.2" fill="#444444"/>
+  <circle cx="515.9582433920357" cy="98.81454033576365" r="1.2" fill="#444444"/>
+  <circle cx="518.3418106904365" cy="100.96938754727233" r="1.2" fill="#444444"/>
+  <circle cx="539.185599696226" cy="87.55926895569404" r="1.2" fill="#444444"/>
+  <circle cx="503.5265052896321" cy="89.4717910597302" r="1.2" fill="#444444"/>
+  <circle cx="543.3430466671138" cy="92.97858986603887" r="1.2" fill="#444444"/>
+  <circle cx="527.0791179616066" cy="90.81641917480809" r="1.2" fill="#444444"/>
+  <circle cx="521.3476632237948" cy="92.17386014151845" r="1.2" fill="#444444"/>
+  <circle cx="513.8437034609686" cy="95.36118571848581" r="1.2" fill="#444444"/>
+  <circle cx="525.0440860625696" cy="100.4672283335644" r="1.2" fill="#444444"/>
+  <circle cx="529.7351425584784" cy="100.86312961920027" r="1.2" fill="#444444"/>
+  <circle cx="538.1072271870443" cy="101.85583431790104" r="1.2" fill="#444444"/>
+  <circle cx="529.2211300238009" cy="88.60959395153712" r="1.2" fill="#444444"/>
+  <circle cx="538.3106015895809" cy="101.43412715694498" r="1.2" fill="#444444"/>
+  <circle cx="540.4254072565874" cy="95.10572005558917" r="1.2" fill="#444444"/>
+  <circle cx="531.2632169683616" cy="89.37799973880958" r="1.2" fill="#444444"/>
+  <circle cx="536.917180653121" cy="95.17651763762055" r="1.2" fill="#444444"/>
+  <circle cx="510.67795817533784" cy="87.01536923432367" r="1.2" fill="#444444"/>
+  <circle cx="537.9892394442886" cy="101.8368962387453" r="1.2" fill="#444444"/>
+  <circle cx="501.24886846926694" cy="98.80952514012003" r="1.2" fill="#444444"/>
+  <circle cx="516.7021677126036" cy="88.41224599124496" r="1.2" fill="#444444"/>
+  <circle cx="511.106779847315" cy="98.30067019643751" r="1.2" fill="#444444"/>
+  <circle cx="538.8928171821536" cy="86.7070409780727" r="1.2" fill="#444444"/>
+  <circle cx="526.4975613695268" cy="86.71904389593658" r="1.2" fill="#444444"/>
+  <circle cx="531.4851429175287" cy="91.29526633630412" r="1.2" fill="#444444"/>
+  <path d="M641.0,102 l14,-16 l14,16 l14,-16 l14,16 M655.0,102 l14,-16" fill="none" stroke="#444444" stroke-width="1.2"/>
+  <rect x="789.0" y="85" width="32" height="18" fill="#dceefb" stroke="#333333" stroke-width="1"/>
+  <path d="M33.0,230 V238 H157.0 V230" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <rect x="33.0" y="250" width="124" height="26" rx="13" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="95.0" y="267" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a1a1a">Import photos</text>
+  <path d="M175.0,230 V238 H441.0 V230" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <rect x="246.0" y="250" width="124" height="26" rx="13" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="308.0" y="267" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a1a1a">Aerotriangulation</text>
+  <path d="M459.0,230 V238 H725.0 V230" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <rect x="530.0" y="250" width="124" height="26" rx="13" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="592.0" y="267" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a1a1a">Reconstruction</text>
+  <path d="M743.0,230 V238 H867.0 V230" fill="none" stroke="#f39c12" stroke-width="2"/>
+  <rect x="743.0" y="250" width="124" height="26" rx="13" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="805.0" y="267" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a1a1a">Production</text>
+  <text x="450.0" y="302" text-anchor="middle" font-size="11.5" fill="#555555">Bentley iTwin Capture Modeler, the four steps you click</text>
+  <text x="450.0" y="372" text-anchor="middle" font-size="12.5" font-style="italic" fill="#555555">The software does the arithmetic. The photos decide whether the arithmetic has anything to work with.</text>
+</svg>

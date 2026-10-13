@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="540" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">From thousands of points to millions</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Once the cameras are known, every pixel can be matched, not just the distinctive ones, because the search is one line long.</text>
+  <rect x="40" y="96" width="250" height="180" rx="6" fill="#e6e8ea" stroke="#333333" stroke-width="1.5"/>
+  <text x="165" y="88" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1a1a1a">photo A</text>
+  <polygon points="80,130 190,130 190,220 140,220 140,180 80,180" fill="#c2cad2" stroke="#333333" stroke-width="1"/>
+  <rect x="118" y="196" width="12" height="12" fill="none" stroke="#f39c12" stroke-width="2.5"/>
+  <text x="124" y="240" text-anchor="middle" font-size="11" fill="#f39c12">one pixel on the wall</text>
+  <rect x="330" y="96" width="250" height="180" rx="6" fill="#e6e8ea" stroke="#333333" stroke-width="1.5"/>
+  <text x="455" y="88" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1a1a1a">photo B</text>
+  <polygon points="350,130 460,130 460,220 410,220 410,180 350,180" fill="#c2cad2" stroke="#333333" stroke-width="1"/>
+  <line x1="340" y1="214" x2="570" y2="186" stroke="#4a90d9" stroke-width="1.8" stroke-dasharray="6 4"/>
+  <rect x="354" y="205.56521739130434" width="12" height="12" fill="none" stroke="#9aa7b2" stroke-width="1.2"/>
+  <rect x="386" y="201.6695652173913" width="12" height="12" fill="none" stroke="#9aa7b2" stroke-width="1.2"/>
+  <rect x="418" y="197.77391304347827" width="12" height="12" fill="none" stroke="#2f8f4e" stroke-width="2.5"/>
+  <rect x="450" y="193.87826086956522" width="12" height="12" fill="none" stroke="#9aa7b2" stroke-width="1.2"/>
+  <rect x="482" y="189.98260869565217" width="12" height="12" fill="none" stroke="#9aa7b2" stroke-width="1.2"/>
+  <rect x="514" y="186.08695652173913" width="12" height="12" fill="none" stroke="#9aa7b2" stroke-width="1.2"/>
+  <rect x="546" y="182.19130434782608" width="12" height="12" fill="none" stroke="#9aa7b2" stroke-width="1.2"/>
+  <text x="455" y="250" text-anchor="middle" font-size="11" fill="#4a90d9">its match must lie on this one line</text>
+  <text x="455" y="266" text-anchor="middle" font-size="11" fill="#555555">try each candidate; keep the best fingerprint</text>
+  <g>
+    <line x1="295" y1="186" x2="317.0" y2="186.0" stroke="#f39c12" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="325,186 317.0,190.0 317.0,182.0" fill="#f39c12"/>
+  </g>
+  <rect x="620" y="84" width="250" height="290" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="745" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">From the side</text>
+  <line x1="640" y1="330" x2="850" y2="330" stroke="#9aa7b2" stroke-width="2.5" stroke-linecap="round"/>
+  <g transform="translate(690,150)">
+    <g transform="rotate(0.0)">
+      <rect x="-11.2" y="-6.3" width="22.4" height="12.6" rx="2.0999999999999996" fill="#444444"/>
+      <rect x="-4.199999999999999" y="6.3" width="8.399999999999999" height="4.8999999999999995" fill="#444444"/>
+      <circle cx="0" cy="12.6" r="2.8" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <g transform="translate(800,150)">
+    <g transform="rotate(0.0)">
+      <rect x="-11.2" y="-6.3" width="22.4" height="12.6" rx="2.0999999999999996" fill="#444444"/>
+      <rect x="-4.199999999999999" y="6.3" width="8.399999999999999" height="4.8999999999999995" fill="#444444"/>
+      <circle cx="0" cy="12.6" r="2.8" fill="#dceefb" stroke="#444444" stroke-width="1.5"/>
+    </g>
+  </g>
+  <text x="690" y="128" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">A</text>
+  <text x="800" y="128" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a1a1a">B</text>
+  <line x1="690" y1="164" x2="752" y2="286" stroke="#f39c12" stroke-width="1.6"/>
+  <line x1="800" y1="164" x2="752" y2="286" stroke="#2f8f4e" stroke-width="1.6"/>
+  <circle cx="752" cy="286" r="6" fill="#4a90d9" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="792" y1="164" x2="792" y2="286" stroke="#555555" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="814" y="230" text-anchor="middle" font-size="11" fill="#555555">depth</text>
+  <text x="745" y="356" text-anchor="middle" font-size="11" fill="#555555">two rays cross: that is the point</text>
+  <rect x="40" y="400" width="830" height="90" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="60" y="426" text-anchor="start" font-size="12.5" font-weight="bold" fill="#1a1a1a">Repeat for every pixel of every photo</text>
+  <text x="60" y="448" text-anchor="start" font-size="11.5" fill="#555555">Thousands of tie points become millions of surface points. Blank asphalt still gives nothing: no fingerprint, no match.</text>
+  <text x="60" y="468" text-anchor="start" font-size="11.5" fill="#555555">This is the slow step. It is why a reconstruction runs for hours while aerotriangulation took minutes.</text>
+  <text x="450.0" y="522" text-anchor="middle" font-size="12" font-style="italic" fill="#555555">Multi-view stereo, in the appendix. Bentley: Reconstruction.</text>
+</svg>

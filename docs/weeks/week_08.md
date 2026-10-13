@@ -16,6 +16,7 @@ choice of measurement method. There is no lab exercise built on them directly.
 ## Thursday's lab
 
 - [Data Processing](../labs/5_data_processing.md) — this lab is being written; the readings above are worth doing in the meantime
+- Lab slides: [Bentley iTwin Capture Modeler](../slides/bentley_itwin.html) · [PDF](../slides/bentley_itwin.pdf) · [PPTX](../slides/bentley_itwin.pptx)
 
 ## Looking ahead
 

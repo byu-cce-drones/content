@@ -41,7 +41,7 @@ Answer that first. Every other number follows from it.
 
 ---
 
-![w:900](../gen_reading/images/w04_fig04_gsd_altitude.svg)
+![w:900](../gen_reading/images/w04_fig13_gsd_altitude.svg)
 
 <p class="caption">Flying twice as high doubles the size of every pixel, but each photo covers four times the area.</p>
 
@@ -67,13 +67,13 @@ A 50-acre site. You need drainage **and** 5 mm cracks.
 
 ---
 
-![w:760](../gen_reading/images/w04_fig02_overlap.svg)
+![w:760](../gen_reading/images/w04_fig04_overlap.svg)
 
 <p class="caption">Overlap exists so the same point lands in several photos. Without that, there is nothing to triangulate.</p>
 
 ---
 
-![w:900](../gen_reading/images/w04_fig05_overlap_cost.svg)
+![w:900](../gen_reading/images/w04_fig14_overlap_cost.svg)
 
 <p class="caption">More forward overlap is more photos on the same lines. More side overlap is more lines, and every line costs battery.</p>
 
@@ -100,25 +100,25 @@ Forward or side? Why does it matter which one you raise first?
 
 ---
 
-![w:900](../gen_reading/images/w04_fig06_grid.svg)
+![w:900](../gen_reading/images/w04_fig15_grid.svg)
 
 <p class="caption">Parallel lines, alternating direction. A second pass at ninety degrees only when the site needs it.</p>
 
 ---
 
-![w:900](../gen_reading/images/w04_fig07_nadir_oblique.svg)
+![w:900](../gen_reading/images/w04_fig16_nadir_oblique.svg)
 
 <p class="caption">A nadir camera sees the roof and nothing else. Tilting it to 30 or 45 degrees brings the near wall into view.</p>
 
 ---
 
-![w:900](../gen_reading/images/w04_fig08_orbit.svg)
+![w:900](../gen_reading/images/w04_fig17_orbit.svg)
 
 <p class="caption">The camera points inward and circles the structure. Tall structures need a ring at more than one height.</p>
 
 ---
 
-![w:900](../gen_reading/images/w04_fig09_building_sides.svg)
+![w:900](../gen_reading/images/w04_fig18_building_sides.svg)
 
 <p class="caption">A grid that stops at the footprint sees only the roof. Lines a building height past every edge catch the walls at the edge of the frame.</p>
 
@@ -148,13 +148,13 @@ Everything else is a goal. Start from the constraint that bites, and plan outwar
 
 ---
 
-![w:920](../gen_reading/images/w04_fig11_decision_chain.svg)
+![w:920](../gen_reading/images/w04_fig20_decision_chain.svg)
 
 <p class="caption">Start from what the map must show and work right. When a hard constraint breaks, go back one step, not to the start.</p>
 
 ---
 
-![w:900](../gen_reading/images/w04_fig12_flight_time.svg)
+![w:900](../gen_reading/images/w04_fig21_flight_time.svg)
 
 <p class="caption">The planner gives you distance. Minutes and batteries are your arithmetic.</p>
 
@@ -208,7 +208,7 @@ Add a minute or two for turns and the climb. A 12-minute limit at 10 mph is **10
 
 ---
 
-![w:900](../gen_reading/images/w04_fig10_accuracy.svg)
+![w:900](../gen_reading/images/w04_fig19_accuracy.svg)
 
 <p class="caption">Three different questions. Flying lower answers the first one only.</p>
 
