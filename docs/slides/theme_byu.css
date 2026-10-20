@@ -42,3 +42,11 @@ section.prompt {
     radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.7) 0, rgba(255, 255, 255, 0) 40%),
     var(--cce-sky);
 }
+
+section.answer {
+  background:
+    var(--byu-badge) right 24px bottom 46px / 54px 54px no-repeat,
+    linear-gradient(180deg, var(--cce-ok-deep) 0%, var(--cce-ok) 100%) 0 0 / 12px 100% no-repeat,
+    radial-gradient(circle at 100% 100%, var(--cce-ok-wash) 0, rgba(227, 244, 234, 0) 45%),
+    var(--cce-bg);
+}

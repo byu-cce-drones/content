@@ -93,6 +93,24 @@ which is stripping the vegetation away to get at the ground.
 model, the last one that reached the ground builds the terrain model, and the gap between them is the
 height of whatever is growing there.*
 
+![Camera rays stop on the canopy; some laser pulses pass through gaps between leaves to the ground](images/w06_fig01b_canopy_gaps.svg){ width="100%" }
+
+*Figure 1b: A leaf stops a laser pulse just as it blocks a camera's view. The pulses that reach the
+ground are the ones that find a gap, so a canopy with 20 % gaps still gives about 40 ground points
+per square metre from 200 pulses, where photographs give none.*
+
+![Three panels: all points, points classified as ground, vegetation, building and other, and a terrain model gridded through the ground points](images/w06_fig01c_ground_classification.svg){ width="100%" }
+
+*Figure 1c: Every point is labelled ground, vegetation, building or other. Only the ground points go
+into the terrain model, which is gridded through them and interpolated, less certainly, wherever a
+roof or dense cover left no ground returns.*
+
+![Four views of a BYU LiDAR flight: the full point cloud, the trees and brush separated out, the ground points left behind, and the gridded bare-earth surface](images/w06_class_lidar_clothfilter.jpg){ width="100%" }
+
+*Our own data: a BYU LiDAR flight over a road and a conifer slope, processed in CloudCompare with a
+cloth simulation filter. The 12.8 million points split into 4.7 million off the ground and 8.1
+million on it, and the ground points are gridded into a 1 m bare-earth surface.*
+
 **Activity:**
 - If you were looking for an old stone wall buried under a forest, which data product would you use: the DSM or the DTM? Why?
 

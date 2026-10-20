@@ -108,6 +108,13 @@ written from the manual installed with iTwin Capture Modeler 2024.1.8 (the PDFs 
 `C:\Program Files\Bentley\iTwin Capture Modeler\doc\`). Bentley's web terms forbid reusing their
 images on a public site; our own screenshots of the licensed software are the route, still to do.
 
+**Last done (2026-10-20).** Week 8 Advanced Sensors deck (`docs/slides/week_08.md`, 40 slides) built
+around thirteen ask-then-reveal thought questions and a group activity, with a new `answer` slide style in the shared theme
+and speaker notes on every question. Five new `w06_` letter-variant figures, six real class images
+from the new `fig_tools/class_images.py` (thermal, NDVI, CloudCompare LiDAR), all placed in the three
+sensor readings as well. Thermal temperatures are labelled uncalibrated until the separate
+`autel-thermal` project verifies the Autel scale; see `backlog.md`.
+
 **Working concurrently.** Sessions on the same machine share one working tree. Either use a separate
 `git worktree` (`git worktree add ../byu-cce-drones-content-b main`) so the trees are isolated, or
 stay in this tree and stage files by name (never `git add -A`), avoid the owned files above, and

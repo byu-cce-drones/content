@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 636" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="636" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Photos see the canopy; pulses reach the ground through the gaps</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">A leaf stops a laser pulse just as it blocks a camera's view. The difference is the holes between leaves: a pulse that finds one keeps going.</text>
+  <rect x="30" y="84" width="410" height="416" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="235.0" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Photographs: the surface is the canopy top</text>
+  <rect x="460" y="84" width="410" height="416" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="665.0" y="114" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">LiDAR: some pulses find a gap</text>
+  <line x1="52" y1="420" x2="418" y2="420" stroke="#8a6a45" stroke-width="3" stroke-linecap="round"/>
+  <line x1="110" y1="420" x2="110" y2="334" stroke="#7a5a3a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="233" y1="420" x2="233" y2="340" stroke="#7a5a3a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="352" y1="420" x2="352" y2="346" stroke="#7a5a3a" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="114" cy="282" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="92" cy="298" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="104" cy="324" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="118" cy="346" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="88" cy="332" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="152" cy="286" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="172" cy="306" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="151" cy="322" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="166" cy="342" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="149" cy="365" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="193" cy="290" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="180" cy="314" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="194" cy="336" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="185" cy="358" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="233" cy="274" r="15" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="226" cy="300" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="240" cy="298" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="230" cy="326" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="234" cy="352" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="273" cy="292" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="285" cy="314" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="272" cy="336" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="280" cy="358" r="11" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="316" cy="288" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="300" cy="310" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="314" cy="332" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="306" cy="356" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="320" cy="368" r="10" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="350" cy="284" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="372" cy="304" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="350" cy="324" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="368" cy="346" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="352" cy="368" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <line x1="52" y1="202" x2="418" y2="202" stroke="#c5cdd5" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <g transform="translate(235,190)">
+    <g transform="scale(0.55)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <polygon points="22,-7 32,1 22,9" fill="#444444" stroke="#333333" stroke-width="1"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <text x="416" y="194" text-anchor="end" font-size="11" fill="#555555">flight line</text>
+  <line x1="56.0" y1="202" x2="56.0" y2="420" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="71.4" y1="202" x2="71.4" y2="293.92078438912574" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="86.8" y1="202" x2="86.8" y2="277.6539930207424" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="102.2" y1="202" x2="102.2" y2="264.6287593995132" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="117.6" y1="202" x2="117.6" y2="261.31087242052" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="133.0" y1="202" x2="133.0" y2="273.05572809000085" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="148.4" y1="202" x2="148.4" y2="265.31087242052" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="163.8" y1="202" x2="163.8" y2="268.6287593995132" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="179.2" y1="202" x2="179.2" y2="274.1709128500725" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="194.6" y1="202" x2="194.6" y2="269.0610410956036" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="210.0" y1="202" x2="210.0" y2="277.67117199406204" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="225.4" y1="202" x2="225.4" y2="253.3544193590977" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="240.8" y1="202" x2="240.8" y2="253.42914683344418" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="256.20000000000005" y1="202" x2="256.20000000000005" y2="279.4" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="271.6" y1="202" x2="271.6" y2="271.04671863406594" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="287.0" y1="202" x2="287.0" y2="276.3475241575015" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="302.4" y1="202" x2="302.4" y2="271.9987500488243" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="317.8" y1="202" x2="317.8" y2="267.0772850710048" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="333.2" y1="202" x2="333.2" y2="271.4" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="348.6" y1="202" x2="348.6" y2="263.04671863406594" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="364.0" y1="202" x2="364.0" y2="268.3475241575015" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="379.40000000000003" y1="202" x2="379.40000000000003" y2="285.4193649193576" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="394.8" y1="202" x2="394.8" y2="420" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <line x1="410.2" y1="202" x2="410.2" y2="420" stroke="#555555" stroke-width="1" opacity="0.55"/>
+  <circle cx="56.0" cy="420" r="2.6" fill="#e74c3c"/>
+  <circle cx="71.4" cy="293.92078438912574" r="2.6" fill="#e74c3c"/>
+  <circle cx="86.8" cy="277.6539930207424" r="2.6" fill="#e74c3c"/>
+  <circle cx="102.2" cy="264.6287593995132" r="2.6" fill="#e74c3c"/>
+  <circle cx="117.6" cy="261.31087242052" r="2.6" fill="#e74c3c"/>
+  <circle cx="133.0" cy="273.05572809000085" r="2.6" fill="#e74c3c"/>
+  <circle cx="148.4" cy="265.31087242052" r="2.6" fill="#e74c3c"/>
+  <circle cx="163.8" cy="268.6287593995132" r="2.6" fill="#e74c3c"/>
+  <circle cx="179.2" cy="274.1709128500725" r="2.6" fill="#e74c3c"/>
+  <circle cx="194.6" cy="269.0610410956036" r="2.6" fill="#e74c3c"/>
+  <circle cx="210.0" cy="277.67117199406204" r="2.6" fill="#e74c3c"/>
+  <circle cx="225.4" cy="253.3544193590977" r="2.6" fill="#e74c3c"/>
+  <circle cx="240.8" cy="253.42914683344418" r="2.6" fill="#e74c3c"/>
+  <circle cx="256.20000000000005" cy="279.4" r="2.6" fill="#e74c3c"/>
+  <circle cx="271.6" cy="271.04671863406594" r="2.6" fill="#e74c3c"/>
+  <circle cx="287.0" cy="276.3475241575015" r="2.6" fill="#e74c3c"/>
+  <circle cx="302.4" cy="271.9987500488243" r="2.6" fill="#e74c3c"/>
+  <circle cx="317.8" cy="267.0772850710048" r="2.6" fill="#e74c3c"/>
+  <circle cx="333.2" cy="271.4" r="2.6" fill="#e74c3c"/>
+  <circle cx="348.6" cy="263.04671863406594" r="2.6" fill="#e74c3c"/>
+  <circle cx="364.0" cy="268.3475241575015" r="2.6" fill="#e74c3c"/>
+  <circle cx="379.40000000000003" cy="285.4193649193576" r="2.6" fill="#e74c3c"/>
+  <circle cx="394.8" cy="420" r="2.6" fill="#e74c3c"/>
+  <circle cx="410.2" cy="420" r="2.6" fill="#e74c3c"/>
+  <path d="M56.0,420.0 L71.4,293.9 L86.8,277.7 L102.2,264.6 L117.6,261.3 L133.0,273.1 L148.4,265.3 L163.8,268.6 L179.2,274.2 L194.6,269.1 L210.0,277.7 L225.4,253.4 L240.8,253.4 L256.2,279.4 L271.6,271.0 L287.0,276.3 L302.4,272.0 L317.8,267.1 L333.2,271.4 L348.6,263.0 L364.0,268.3 L379.4,285.4 L394.8,420.0 L410.2,420.0" fill="none" stroke="#e74c3c" stroke-width="2.2" stroke-dasharray="7 5"/>
+  <line x1="76" y1="429" x2="185" y2="429" stroke="#e74c3c" stroke-width="3" opacity="0.75"/>
+  <line x1="167" y1="429" x2="297" y2="429" stroke="#e74c3c" stroke-width="3" opacity="0.75"/>
+  <line x1="287" y1="429" x2="385" y2="429" stroke="#e74c3c" stroke-width="3" opacity="0.75"/>
+  <text x="235" y="450" text-anchor="middle" font-size="12" fill="#e74c3c">red: ground that no photo ever saw</text>
+  <text x="235" y="467" text-anchor="middle" font-size="11.5" fill="#555555">the model there is a guess copied from the canopy</text>
+  <line x1="56" y1="146" x2="86" y2="146" stroke="#e74c3c" stroke-width="2.2" stroke-dasharray="7 5"/>
+  <text x="94" y="150" text-anchor="start" font-size="12" fill="#1a1a1a">the surface the photos reconstruct</text>
+  <text x="94" y="166" text-anchor="start" font-size="11.5" fill="#555555">every camera ray stops at the first leaf</text>
+  <line x1="482" y1="420" x2="848" y2="420" stroke="#8a6a45" stroke-width="3" stroke-linecap="round"/>
+  <line x1="540" y1="420" x2="540" y2="334" stroke="#7a5a3a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="663" y1="420" x2="663" y2="340" stroke="#7a5a3a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="782" y1="420" x2="782" y2="346" stroke="#7a5a3a" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="544" cy="282" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="522" cy="298" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="534" cy="324" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="548" cy="346" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="518" cy="332" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="582" cy="286" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="602" cy="306" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="581" cy="322" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="596" cy="342" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="579" cy="365" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="623" cy="290" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="610" cy="314" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="624" cy="336" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="615" cy="358" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="663" cy="274" r="15" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="656" cy="300" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="670" cy="298" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="660" cy="326" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="664" cy="352" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="703" cy="292" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="715" cy="314" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="702" cy="336" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="710" cy="358" r="11" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="746" cy="288" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="730" cy="310" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="744" cy="332" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="736" cy="356" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="750" cy="368" r="10" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="780" cy="284" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="802" cy="304" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="780" cy="324" r="14" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="798" cy="346" r="13" fill="#4a8a4a" opacity="0.55"/>
+  <circle cx="782" cy="368" r="12" fill="#4a8a4a" opacity="0.55"/>
+  <line x1="482" y1="202" x2="848" y2="202" stroke="#c5cdd5" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <g transform="translate(665,190)">
+    <g transform="scale(0.55)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <polygon points="22,-7 32,1 22,9" fill="#444444" stroke="#333333" stroke-width="1"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <text x="846" y="194" text-anchor="end" font-size="11" fill="#555555">flight line</text>
+  <line x1="486.0" y1="202" x2="486.0" y2="420" stroke="#4a90d9" stroke-width="1" opacity="0.5"/>
+  <circle cx="486.0" cy="420" r="2.6" fill="#8a6a45"/>
+  <line x1="501.4" y1="202" x2="501.4" y2="420" stroke="#4a90d9" stroke-width="1" opacity="0.5"/>
+  <circle cx="501.4" cy="420" r="2.6" fill="#8a6a45"/>
+  <line x1="516.8" y1="202" x2="516.8" y2="285.0015385525825" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="532.2" y1="202" x2="532.2" y2="274.46607671926506" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="547.6" y1="202" x2="547.6" y2="268.47077237976976" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="563.0" y1="202" x2="563.0" y2="420" stroke="#4a90d9" stroke-width="1.8" opacity="1"/>
+  <line x1="578.4" y1="202" x2="578.4" y2="272.47077237976976" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="593.8" y1="202" x2="593.8" y2="278.46607671926506" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="609.2" y1="202" x2="609.2" y2="287.6420347754897" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="624.6" y1="202" x2="624.6" y2="276.091729079429" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="640.0" y1="202" x2="640.0" y2="420" stroke="#4a90d9" stroke-width="1.8" opacity="1"/>
+  <line x1="655.4" y1="202" x2="655.4" y2="261.0678694717382" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="670.8" y1="202" x2="670.8" y2="261.18750609756245" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="686.2" y1="202" x2="686.2" y2="420" stroke="#4a90d9" stroke-width="1.8" opacity="1"/>
+  <line x1="701.6" y1="202" x2="701.6" y2="278.07017588050735" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="717.0" y1="202" x2="717.0" y2="302.16784043380073" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="732.4" y1="202" x2="732.4" y2="284.6773504548329" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="747.8" y1="202" x2="747.8" y2="274.1161964865531" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="763.2" y1="202" x2="763.2" y2="420" stroke="#4a90d9" stroke-width="1.8" opacity="1"/>
+  <line x1="778.6" y1="202" x2="778.6" y2="270.07017588050735" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="794.0" y1="202" x2="794.0" y2="293.7530492340404" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="809.4000000000001" y1="202" x2="809.4000000000001" y2="293.3116886272901" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <line x1="824.8" y1="202" x2="824.8" y2="420" stroke="#4a90d9" stroke-width="1" opacity="0.5"/>
+  <circle cx="824.8" cy="420" r="2.6" fill="#8a6a45"/>
+  <line x1="840.2" y1="202" x2="840.2" y2="420" stroke="#4a90d9" stroke-width="1" opacity="0.5"/>
+  <circle cx="840.2" cy="420" r="2.6" fill="#8a6a45"/>
+  <circle cx="516.8" cy="285.0015385525825" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="532.2" cy="274.46607671926506" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="547.6" cy="268.47077237976976" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="578.4" cy="272.47077237976976" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="593.8" cy="278.46607671926506" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="609.2" cy="287.6420347754897" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="624.6" cy="276.091729079429" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="655.4" cy="261.0678694717382" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="670.8" cy="261.18750609756245" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="701.6" cy="278.07017588050735" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="717.0" cy="302.16784043380073" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="732.4" cy="284.6773504548329" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="747.8" cy="274.1161964865531" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="778.6" cy="270.07017588050735" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="794.0" cy="293.7530492340404" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="809.4000000000001" cy="293.3116886272901" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="563.0" cy="420" r="4.5" fill="#8a6a45" stroke="#ffffff" stroke-width="1.2"/>
+  <circle cx="640.0" cy="420" r="4.5" fill="#8a6a45" stroke="#ffffff" stroke-width="1.2"/>
+  <circle cx="686.2" cy="420" r="4.5" fill="#8a6a45" stroke="#ffffff" stroke-width="1.2"/>
+  <circle cx="763.2" cy="420" r="4.5" fill="#8a6a45" stroke="#ffffff" stroke-width="1.2"/>
+  <circle cx="494" cy="145" r="3.4" fill="#4a90d9" stroke="#ffffff" stroke-width="1"/>
+  <text x="506" y="150" text-anchor="start" font-size="12" fill="#1a1a1a">stopped by a leaf: a canopy return</text>
+  <circle cx="494" cy="163" r="4.5" fill="#8a6a45" stroke="#ffffff" stroke-width="1.2"/>
+  <text x="506" y="168" text-anchor="start" font-size="12" fill="#1a1a1a">through a gap: a ground return</text>
+  <text x="665" y="450" text-anchor="middle" font-size="12" fill="#1a1a1a">here: 20 pulses over the crowns, 4 reached the ground</text>
+  <text x="665" y="467" text-anchor="middle" font-size="11.5" fill="#555555">a leaf is not transparent; the pulse went between leaves</text>
+  <rect x="30" y="520" width="410" height="62" rx="8" fill="#fdeeee" stroke="#e74c3c" stroke-width="1.2"/>
+  <text x="235" y="546" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Photographs: 0 ground points under the crowns</text>
+  <text x="235" y="566" text-anchor="middle" font-size="11.5" fill="#555555">the ground has to be seen in two photos to be modelled</text>
+  <rect x="460" y="520" width="410" height="62" rx="8" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="665" y="546" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">20 % gaps × 200 pulses/m² ≈ 40 ground points/m²</text>
+  <text x="665" y="566" text-anchor="middle" font-size="11.5" fill="#555555">plenty for a terrain model on a 1 m grid</text>
+  <text x="450.0" y="614" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Dense evergreen canopy leaves few gaps; bare winter branches leave many, so a deciduous site maps best with the leaves off.</text>
+</svg>

@@ -1,12 +1,21 @@
-"""Proposed figures for the Topic 6 thermal page.
+"""Diagrams for the Thermal Imaging reading (Week 8).
 
-The page currently has three photographs and no diagrams, so the three things
-students actually get wrong are all explained in prose: what the camera is
-reading, why a shiny surface lies to it, and when to fly.
+The page's photographs show results; these four show the mechanisms behind the
+things students get wrong: what the camera is reading, whether the file it
+saved is a measurement at all, why a shiny surface lies to it, and when to fly.
+
+    w06_fig04_thermal_what_it_sees.svg     the camera reads a surface, nothing more
+    w06_fig04b_radiometric_vs_jpg.svg      a radiometric file vs. a colour JPG
+    w06_fig05_thermal_emissivity.svg       emissivity, and the false hotspot
+    w06_fig06_thermal_timing.svg           when to fly
+
+The w06_ set is one sequence across the three sensor readings (LiDAR, Thermal,
+Multispectral). 4b is a lettered variant that sits beside Figure 4, so adding
+it moved no number.
 
 Usage:
     python fig_tools/fig_thermal.py --png
-    python fig_tools/fig_thermal.py --out docs/week_06/images
+    python fig_tools/fig_thermal.py --out docs/gen_reading/images
 """
 from __future__ import annotations
 
@@ -97,6 +106,156 @@ def build_what_it_sees() -> Figure:
         fig.add(text(622, y, claim, font_size=12.5, font_weight="bold",
                      fill=P["ink"]))
         fig.add(text(622, y + 17, why, font_size=11, fill=P["muted"]))
+    return fig
+
+
+# ---------------------------------------------------------------------------
+# Figure A-b: a radiometric file vs. a colour JPG
+# ---------------------------------------------------------------------------
+RAMP = ("#2b2d5e", "#3d5a80", "#6f9bc4", "#e8a33d", "#d94f38", "#f7e8b0")
+
+# one small pavement patch with a warm spot, in degrees C, read left to right
+SCENE = (
+    (18.4, 18.6, 18.9, 19.1, 18.5),
+    (18.3, 19.8, 23.6, 24.1, 18.8),
+    (18.6, 20.4, 24.9, 23.2, 18.7),
+    (18.2, 18.5, 19.3, 18.9, 18.4),
+)
+BAR_1 = (15.0, 30.0)   # the colour bar the camera picked for this frame
+BAR_2 = (5.0, 45.0)    # the bar it picks once something hotter enters the next
+
+
+def ramp_colour(t: float) -> str:
+    """Interpolate the thermal palette at t in [0, 1]."""
+    t = min(max(t, 0.0), 1.0) * (len(RAMP) - 1)
+    i = min(int(t), len(RAMP) - 2)
+    f = t - i
+    a = [int(RAMP[i][k:k + 2], 16) for k in (1, 3, 5)]
+    b = [int(RAMP[i + 1][k:k + 2], 16) for k in (1, 3, 5)]
+    return "#" + "".join(f"{round(a[k] + (b[k] - a[k]) * f):02x}"
+                         for k in range(3))
+
+
+def _scaled(temp: float, bar) -> float:
+    return (temp - bar[0]) / (bar[1] - bar[0])
+
+
+def pixel_grid(x, y, cell, bar, labels: bool):
+    """The scene as a block of pixels, coloured against one bar."""
+    grp = g()
+    for r, row in enumerate(SCENE):
+        for c, temp in enumerate(row):
+            t = _scaled(temp, bar)
+            px, py = x + c * cell, y + r * cell
+            grp.add(rect(px, py, cell, cell, fill=ramp_colour(t),
+                         stroke=P["white"], stroke_width=1.5))
+            if labels:
+                grp.add(text(px + cell / 2, py + cell / 2 + 5, f"{temp:.1f}",
+                             text_anchor="middle", font_size=13.5,
+                             font_weight="bold",
+                             fill=P["white"] if t < 0.5 else P["ink"]))
+    w, h = cell * len(SCENE[0]), cell * len(SCENE)
+    grp.add(rect(x, y, w, h, fill="none", stroke=P["line"], stroke_width=1.5))
+    return grp
+
+
+def colour_bar(x, y, w, h, bar, marker: float | None = None, label=""):
+    """A colour bar with its end temperatures and an optional marked value."""
+    grp = g()
+    n = 48
+    for i in range(n):
+        grp.add(rect(x + i * w / n, y, w / n + 0.6, h, fill=ramp_colour(i / (n - 1))))
+    grp.add(rect(x, y, w, h, fill="none", stroke=P["line"], stroke_width=1))
+    grp.add(text(x, y + h + 14, f"{bar[0]:.0f} °C", font_size=11,
+                 fill=P["muted"]))
+    grp.add(text(x + w, y + h + 14, f"{bar[1]:.0f} °C", text_anchor="end",
+                 font_size=11, fill=P["muted"]))
+    if marker is not None:
+        mx = x + w * _scaled(marker, bar)
+        grp.add(polygon([(mx, y - 2), (mx - 6, y - 11), (mx + 6, y - 11)],
+                        fill=P["ink"]))
+        grp.add(text(mx, y - 15, label or f"{marker:.0f} °C",
+                     text_anchor="middle", font_size=11.5, font_weight="bold",
+                     fill=P["ink"]))
+    return grp
+
+
+def build_radiometric_vs_jpg() -> Figure:
+    fig = Figure(900, 548, "A picture or a measurement?",
+                 "The same thermal scene saved two ways. The pixels look alike; "
+                 "only one file still knows how hot anything was.")
+
+    cell = 50
+    gw, gh = cell * 5, cell * 4          # 250 x 200
+    top = 136
+    warm_rc = (2, 2)                      # the hottest pixel, row and column
+
+    def ring(gx):
+        r, c = warm_rc
+        return rect(gx + c * cell + 2, top + r * cell + 2, cell - 4, cell - 4,
+                    fill="none", stroke=P["ink"], stroke_width=2.5)
+
+    # --- left: the radiometric file -------------------------------------
+    lx = 30
+    fig.add(rect(lx, 72, 410, 414, **CARD))
+    fig.add(text(lx + 205, 100, "Radiometric file (TIFF / R-JPEG)",
+                 text_anchor="middle", font_size=15, font_weight="bold",
+                 fill=P["ink"]))
+    fig.add(text(lx + 205, 119, "every pixel holds a temperature, in °C",
+                 text_anchor="middle", font_size=12, fill=P["muted"]))
+    gx = lx + (410 - gw) / 2
+    fig.add(pixel_grid(gx, top, cell, BAR_1, labels=True))
+    fig.add(ring(gx))
+    fig.add(text(lx + 205, 362, "24.9 °C is a number: read it, compare it, keep it.",
+                 text_anchor="middle", font_size=12.5, fill=P["ink"]))
+    fig.add(text(lx + 205, 396, "The colour is only a display choice. Change the",
+                 text_anchor="middle", font_size=12, fill=P["muted"]))
+    fig.add(text(lx + 205, 413, "palette or the bar and the numbers do not move.",
+                 text_anchor="middle", font_size=12, fill=P["muted"]))
+    fig.add(text(lx + 205, 456, "Warm spot: 24.9 − 18.4 = 6.5 °C above the pavement.",
+                 text_anchor="middle", font_size=12.5, font_weight="bold",
+                 fill=P["ink"]))
+
+    # --- right: the colour JPG ------------------------------------------
+    rx = 460
+    fig.add(rect(rx, 72, 410, 414, **CARD))
+    fig.add(text(rx + 205, 100, "Colour JPG", text_anchor="middle",
+                 font_size=15, font_weight="bold", fill=P["ink"]))
+    fig.add(text(rx + 205, 119, "every pixel holds a colour; the bar is "
+                 "rescaled every frame",
+                 text_anchor="middle", font_size=12, fill=P["muted"]))
+    gx2 = rx + (410 - gw) / 2
+    fig.add(pixel_grid(gx2, top, cell, BAR_1, labels=False))
+    fig.add(ring(gx2))
+    fig.add(text(rx + 205, 360, "The same pixel is orange. How hot is orange?",
+                 text_anchor="middle", font_size=12.5, fill=P["ink"]))
+
+    # two frames, two bars, one orange
+    t_warm = _scaled(SCENE[warm_rc[0]][warm_rc[1]], BAR_1)
+    orange = ramp_colour(t_warm)
+    by, bw = 420, 150
+    for bar, bx, head in ((BAR_1, rx + 32, "this frame"),
+                          (BAR_2, rx + 228, "next frame")):
+        temp = bar[0] + t_warm * (bar[1] - bar[0])
+        fig.add(text(bx + bw / 2, by - 30, head, text_anchor="middle",
+                     font_size=12, font_weight="bold", fill=P["ink"]))
+        fig.add(colour_bar(bx, by, bw, 12, bar, marker=temp,
+                           label=f"{temp:.0f} °C"))
+    fig.add(rect(rx + 192, by - 3, 26, 18, fill=orange, stroke=P["line"],
+                 stroke_width=1))
+    fig.add(text(rx + 205, by - 26, "same", text_anchor="middle", font_size=10.5,
+                 fill=P["muted"]))
+    fig.add(text(rx + 205, by - 14, "colour", text_anchor="middle", font_size=10.5,
+                 fill=P["muted"]))
+    fig.add(text(rx + 205, 460, "Something hotter enters the next frame, the bar",
+                 text_anchor="middle", font_size=12, fill=P["muted"]))
+    fig.add(text(rx + 205, 476, "stretches, and the same orange now means 31 °C.",
+                 text_anchor="middle", font_size=12, fill=P["muted"]))
+
+    fig.add(text(450, 518, "You can measure, compare and mosaic only the left one. "
+                 "Check the save format before takeoff.",
+                 text_anchor="middle", font_size=13.5, font_weight="bold",
+                 fill=P["ink"]))
     return fig
 
 
@@ -251,10 +410,15 @@ def main() -> None:
     ap.add_argument("--out", default="review")
     ap.add_argument("--png", action="store_true")
     args = ap.parse_args()
-    for builder, number, slug in ((build_what_it_sees, 4, "thermal_what_it_sees"),
-                                  (build_emissivity, 5, "thermal_emissivity"),
-                                  (build_timing, 6, "thermal_timing")):
-        fname = os.path.join(args.out, figure_name(6, number, slug))
+    # (builder, number, variant, slug): a lettered variant sits beside the
+    # figure it extends without moving any number after it
+    for builder, number, variant, slug in (
+        (build_what_it_sees, 4, "", "thermal_what_it_sees"),
+        (build_radiometric_vs_jpg, 4, "b", "radiometric_vs_jpg"),
+        (build_emissivity, 5, "", "thermal_emissivity"),
+        (build_timing, 6, "", "thermal_timing"),
+    ):
+        fname = os.path.join(args.out, figure_name(6, number, slug, variant))
         builder().save(fname)
         print("wrote", fname)
         if args.png:

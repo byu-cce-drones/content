@@ -36,6 +36,16 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
+- **Autel thermal temperature scale** (2026-10-20). The Week 8 thermal images use
+  `raw / 10 − 273.15` in `fig_tools/class_images.py:raw_to_celsius()` and label colour bars
+  "°C (uncalibrated)". Believable at the EB lot and Carterville, but the 2025-10-21 parking-lot frame
+  reads −8 °C on sunlit asphalt. A separate project, `G:\GIT_Repo\autel-thermal` (private GitHub
+  repo; plan and prompt in `.claude/local/autel_session_prompt.md`), is verifying it with the Autel
+  SDK. When its `FINDINGS.md` lands, paste the function in, rerun the thermal commands in the
+  script's docstring, drop "(uncalibrated)", and revisit the Week 8 "−8 °C" question slides.
+- **Week 8 deck, optional:** a "returns to products" table and a "the last return is always the
+  ground — true or false?" question, offered 2026-10-20, not yet added. The second unlicensed
+  Multispectral image (orchard `.webp`) is still on the page.
 - **Class SharePoint materials review, 2026-10-13** (`planning/onedrive_materials_review.md`):
   real class flights, products, checklists and videos mapped to each week's deck and reading, plus
   twelve questions (Terra report location, video hosting, consent for student flights and class
@@ -274,6 +284,28 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-10-20 — **Week 8 Advanced Sensors deck** (`docs/slides/week_08.md`, 40 slides, HTML/PDF/PPTX)
+  built around **thirteen ask-then-reveal thought questions** plus a group activity (instructor request): each question is a
+  `prompt` slide, the answer is the next slide in a new green `answer` style (added to `theme.css` and
+  `theme_byu.css` for every deck), and each question carries speaker notes with the format (groups,
+  then class discussion — not a quiz), minutes, the likely wrong answer and a follow-up. Sections:
+  LiDAR (gaps not leaves, ground points per m², classification, the DSM drainage trap), thermal
+  (surfaces, picture vs measurement, shade, "do you believe −8 °C?", bridge timing), multispectral
+  (ratios cancel shade, NDVI says less leaf not why, calibration between flights), a processing table,
+  an **other sensors** slide from web research (GPR, InSAR, magnetometer, gravimeter, methane,
+  hyperspectral, bathymetry, air quality, gamma; sources in `.claude/local/scratch/week08_check/`)
+  with a magnetometer question, and a pick-the-sensor activity. Five new figures as letter variants
+  (`w06_fig01b_canopy_gaps`, `w06_fig01c_ground_classification`, `w06_fig04b_radiometric_vs_jpg`,
+  `w06_fig10b_ratio_cancels_light`, `w06_fig10c_calibration`); `fig_lidar.py`, `fig_thermal.py` and
+  `fig_spectral.py` now use the `fig_sfm.py` variant loop and regenerate their old figures
+  byte-identical. Six class images from **`fig_tools/class_images.py`** (new; source paths as
+  arguments, EXIF stripped, commands in its docstring): East EB lot and parking-lot thermal,
+  Carterville bridge approach, a Rock Canyon colour IR JPG, the EB lawn NDVI (DJI Mavic 3M
+  sunlight-sensor method; panel frames saturated, so relative reflectance), and the CE 594R
+  CloudCompare cloth-filter sequence (instructor permission). All five figures and the cloth-filter
+  and NDVI images are also in the three readings; the NDVI replaces the unlicensed NDVI screenshot on
+  `multispectral.md`, which also gained the three panel rules. Week 8 page and Slides page link the deck.
 
 - 2026-10-13 — **Week 7 How Photos Become 3D deck, Bentley lab deck, eight SfM mechanism figures,
   and a one-time renumber of the `w04_` set.** `docs/slides/week_07.md` (30 slides: SfM, the

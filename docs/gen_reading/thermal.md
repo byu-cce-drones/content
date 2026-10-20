@@ -35,6 +35,14 @@ a cause.
 ## How thermal sensors work
 - **Infrared Detection:** Sensors detect emitted infrared radiation and convert it to temperature values, either as scaled pixel values or calibrated temperature measurements.
 - **Radiometric vs. Non-radiometric:** Some cameras provide relative thermal imagery (for visual inspection), while higher-end units provide radiometrically calibrated images for quantitative temperature analysis.
+
+![The same thermal patch saved two ways: a radiometric file with a temperature in every pixel, and a colour JPG whose colour bar is rescaled every frame](images/w06_fig04b_radiometric_vs_jpg.svg){ width="100%" }
+
+*Figure 4b: A radiometric TIFF or R-JPEG stores a temperature in every pixel, so pixels can be read,
+compared and mosaicked. A colour JPG stores only a colour against a bar the camera rescales every
+frame, so the same orange can mean 25 °C in one frame and 31 °C in the next. Check the save format
+before takeoff.*
+
 - **Emissivity:** Surfaces radiate heat with different efficiency. A rough, dull surface radiates
   well; polished metal barely radiates at all and mirrors its surroundings instead.
 

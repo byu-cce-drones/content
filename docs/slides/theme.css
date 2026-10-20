@@ -5,10 +5,11 @@
    from fig_tools/svgkit.py (PALETTE, FONT) so slides and figures read as one
    system. 16:9 is Marp Core's default canvas, so no size directive needed.
 
-   Three slide kinds:
+   Four slide kinds:
      default  light ground, blue accent bar down the left, ruled h1
      title    deep blue ground, white type          <!-- _class: title -->
      prompt   sky-blue ground for questions to the room  <!-- _class: prompt -->
+     answer   green accent and "Answer" tag for the reveal <!-- _class: answer -->
 */
 
 :root {
@@ -136,3 +137,32 @@ section.prompt h1 { color: var(--cce-deep); font-size: 48px; border-bottom-color
 section.prompt p { color: var(--cce-ink); font-size: 26px; }
 section.prompt strong { color: var(--cce-deep); }
 section.prompt::before { color: var(--cce-deep); }
+
+/* ---------- answer slide: the reveal after a prompt ---------- */
+/* <!-- _class: answer --> then a "## Short answer" heading and 2-4 bullets.
+   Green accent and an "Answer" tag so the room can tell a reveal from teaching. */
+section.answer {
+  --cce-ok: #27ae60;        /* svgkit "ok" */
+  --cce-ok-deep: #1e8449;
+  --cce-ok-wash: #e3f4ea;
+  background:
+    linear-gradient(180deg, var(--cce-ok-deep) 0%, var(--cce-ok) 100%) 0 0 / 12px 100% no-repeat,
+    radial-gradient(circle at 100% 100%, var(--cce-ok-wash) 0, rgba(227, 244, 234, 0) 45%),
+    var(--cce-bg);
+}
+section.answer h2 { color: var(--cce-ok-deep); }
+section.answer h2::before {
+  content: "Answer";
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 2px 12px;
+  border-radius: 12px;
+  background: var(--cce-ok);
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+section.answer strong { color: var(--cce-ok-deep); }
+section.answer li::marker { color: var(--cce-ok); }

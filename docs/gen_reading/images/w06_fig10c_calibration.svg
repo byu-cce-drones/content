@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="520" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Making two flights comparable</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">A ratio steadies one flight. A light sensor and a panel of known reflectance tie every flight to the same scale.</text>
+  <rect x="30" y="76" width="530" height="354" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <path d="M31,388 H559 V420 a9,9 0 0 1 -9,9 H40 a9,9 0 0 1 -9,-9 Z" fill="#d7e9c8" stroke="none"/>
+  <line x1="31" y1="388" x2="559" y2="388" stroke="#8aa87a" stroke-width="1.5"/>
+  <path d="M44,388 q3,-8 6,-13 M52,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M64,388 q3,-8 6,-13 M72,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M84,388 q3,-8 6,-13 M92,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M104,388 q3,-8 6,-13 M112,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M124,388 q3,-8 6,-13 M132,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M144,388 q3,-8 6,-13 M152,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M164,388 q3,-8 6,-13 M172,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M184,388 q3,-8 6,-13 M192,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M204,388 q3,-8 6,-13 M212,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M224,388 q3,-8 6,-13 M232,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M244,388 q3,-8 6,-13 M252,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M264,388 q3,-8 6,-13 M272,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M284,388 q3,-8 6,-13 M292,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M304,388 q3,-8 6,-13 M312,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M324,388 q3,-8 6,-13 M332,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M344,388 q3,-8 6,-13 M352,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M364,388 q3,-8 6,-13 M372,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M384,388 q3,-8 6,-13 M392,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M404,388 q3,-8 6,-13 M412,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M424,388 q3,-8 6,-13 M432,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M444,388 q3,-8 6,-13 M452,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M464,388 q3,-8 6,-13 M472,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M484,388 q3,-8 6,-13 M492,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M504,388 q3,-8 6,-13 M512,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M524,388 q3,-8 6,-13 M532,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <path d="M544,388 q3,-8 6,-13 M552,388 q-2,-7 -4,-11" fill="none" stroke="#6f9a5c" stroke-width="1.2"/>
+  <line x1="515.0" y1="134.0" x2="524.0" y2="134.0" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="511.4" y1="147.5" x2="519.2" y2="152.0" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="501.5" y1="157.4" x2="506.0" y2="165.2" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="488.0" y1="161.0" x2="488.0" y2="170.0" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="474.5" y1="157.4" x2="470.0" y2="165.2" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="464.6" y1="147.5" x2="456.8" y2="152.0" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="461.0" y1="134.0" x2="452.0" y2="134.0" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="464.6" y1="120.5" x2="456.8" y2="116.0" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="474.5" y1="110.6" x2="470.0" y2="102.8" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="488.0" y1="107.0" x2="488.0" y2="98.0" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="501.5" y1="110.6" x2="506.0" y2="102.8" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="511.4" y1="120.5" x2="519.2" y2="116.0" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="488" cy="134" r="22" fill="#f4d03f" stroke="#d4b02f" stroke-width="2"/>
+  <polygon points="328,386 416,386 426,398 338,398" fill="#ececec" stroke="#333333" stroke-width="1.5"/>
+  <polygon points="344,388 400,388 406,396 350,396" fill="#bfbfbf" stroke="none"/>
+  <polygon points="300,254 324,384 420,384" fill="#4a90d9" opacity="0.08"/>
+  <line x1="300" y1="254" x2="324" y2="384" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="300" y1="254" x2="420" y2="384" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 4"/>
+  <g transform="translate(300,232)">
+    <g>
+      <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+      <polygon points="22,-7 32,1 22,9" fill="#444444" stroke="#333333" stroke-width="1"/>
+      <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+      <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+      <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+      <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+      <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+    </g>
+  </g>
+  <rect x="293" y="215" width="14" height="9" rx="2" fill="#444444"/>
+  <circle cx="300" cy="215" r="5" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+  <circle cx="300" cy="245" r="4" fill="#dceefb" stroke="#333333" stroke-width="1.2"/>
+  <g>
+    <line x1="458" y1="152" x2="318.436295744218" y2="203.86489009505414" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="310,207 316.86874079174504,199.64674222294514 320.00385069669096,208.08303796716314" fill="#d4b02f"/>
+  </g>
+  <g>
+    <line x1="478" y1="170" x2="393.7498923944389" y2="353.81841659395144" stroke="#d4b02f" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="390,362 389.65910069141466,351.943470396732 397.84068409746317,355.6933627911709" fill="#d4b02f"/>
+  </g>
+  <text x="50" y="118" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a1a">Light sensor on top:</text>
+  <text x="50" y="136" text-anchor="start" font-size="12.5" fill="#1a1a1a">records how bright the sky is</text>
+  <text x="50" y="152" text-anchor="start" font-size="12.5" fill="#1a1a1a">for every photo</text>
+  <line x1="150" y1="160" x2="297" y2="211" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="297" cy="211" r="3" fill="#4a90d9"/>
+  <text x="50" y="296" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a1a">Panel of known reflectance:</text>
+  <text x="50" y="314" text-anchor="start" font-size="12.5" fill="#1a1a1a">photographed before and after the flight,</text>
+  <text x="50" y="330" text-anchor="start" font-size="12.5" fill="#1a1a1a">hovering low so it fills a third of the frame</text>
+  <line x1="200" y1="340" x2="352" y2="392" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="352" cy="392" r="3" fill="#4a90d9"/>
+  <text x="295.0" y="416" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555555">the sky brightness and the panel together say how bright “white” was that day</text>
+  <rect x="580" y="76" width="290" height="354" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="725.0" y="108" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Three rules for the panel shot</text>
+  <circle cx="610" cy="145" r="11" fill="#4a90d9"/>
+  <text x="610" y="149" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">1</text>
+  <text x="630" y="150" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a1a">Near solar noon</text>
+  <text x="630" y="168" text-anchor="start" font-size="11.5" fill="#555555">within about 2.5 h of it</text>
+  <circle cx="610" cy="207" r="11" fill="#4a90d9"/>
+  <text x="610" y="211" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">2</text>
+  <text x="630" y="212" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a1a">Panel flat, about a third of the frame</text>
+  <text x="630" y="230" text-anchor="start" font-size="11.5" fill="#555555">no shadow from you: sun at your</text>
+  <text x="630" y="246" text-anchor="start" font-size="11.5" fill="#555555">back, then step aside</text>
+  <circle cx="610" cy="285" r="11" fill="#4a90d9"/>
+  <text x="610" y="289" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">3</text>
+  <text x="630" y="290" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a1a">Uniform sky</text>
+  <text x="630" y="308" text-anchor="start" font-size="11.5" fill="#555555">clear or completely overcast, not</text>
+  <text x="630" y="324" text-anchor="start" font-size="11.5" fill="#555555">partly cloudy</text>
+  <text x="725.0" y="384" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555555">Partly cloudy is the worst case:</text>
+  <text x="725.0" y="400" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555555">the light changes between the panel</text>
+  <text x="725.0" y="416" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555555">shot and the photos it corrects.</text>
+  <rect x="35.0" y="450" width="250" height="52" rx="8" fill="#ffffff" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="160.0" y="472" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Raw brightness</text>
+  <text x="160.0" y="490" text-anchor="middle" font-size="11" fill="#555555">depends on the sun that day</text>
+  <g>
+    <line x1="289.0" y1="476.0" x2="312.0" y2="476.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="321.0,476.0 312.0,480.5 312.0,471.5" fill="#4a90d9"/>
+  </g>
+  <rect x="325.0" y="450" width="250" height="52" rx="8" fill="#ffffff" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="450.0" y="472" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Reflectance, 0 to 1</text>
+  <text x="450.0" y="490" text-anchor="middle" font-size="11" fill="#555555">a property of the ground</text>
+  <g>
+    <line x1="579.0" y1="476.0" x2="602.0" y2="476.0" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="611.0,476.0 602.0,480.5 602.0,471.5" fill="#4a90d9"/>
+  </g>
+  <rect x="615.0" y="450" width="250" height="52" rx="8" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="740.0" y="472" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">May and August compared</text>
+  <text x="740.0" y="490" text-anchor="middle" font-size="11" fill="#555555">same legend on both maps</text>
+</svg>

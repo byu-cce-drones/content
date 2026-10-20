@@ -66,6 +66,12 @@ A **ratio between bands** cancels most of that out, because whatever scaled one 
 others in the same image at the same instant. Two flights that disagree completely on raw values can
 agree closely on the ratio.
 
+![Three lawn patches with NIR and red bars: sunlit healthy, the same grass in shade, and sunlit stressed grass, with NDVI 0.82, 0.82 and 0.40](images/w06_fig10b_ratio_cancels_light.svg){ width="100%" }
+
+*Figure 10b: Shade halved both the NIR and the red value of patch B, but the ratio cancelled it and
+B's NDVI matches A's. Patch C, stressed grass in full sun, is the real outlier. Illustrative numbers;
+in real shade the cancellation is close, not exact.*
+
 ### Why *normalized* ratios
 
 In practice the ratios used are **normalized differences**, of the form:
@@ -158,6 +164,23 @@ construction work, and it is usually the same few indices being applied to a dif
 - **Downwelling Light Sensors (DLS):** Records illumination for per-image correction.
 - **Why calibrate:** Without it, index values can vary between flights and are not comparable over time.
 
+![A drone with an upward-facing light sensor photographs a reflectance panel on the ground, with three rules for the panel shot](images/w06_fig10c_calibration.svg){ width="100%" }
+
+*Figure 10c: A light sensor on top of the aircraft records how bright the sky was for every photo,
+and a panel of known reflectance is photographed before and after the flight. Together they turn raw
+brightness, which depends on the day, into reflectance, which is a property of the ground.*
+
+Three rules for the panel shot:
+
+1. **Near solar noon,** within about 2.5 hours of it.
+2. **Panel flat and about a third of the frame,** with no shadow from you: sun at your back, then step
+   aside.
+3. **A uniform sky,** clear or completely overcast. Partly cloudy is the worst case, because the light
+   changes between the panel shot and the photos it corrects.
+
+Check the panel photos before you leave the site. If they are overexposed, the panel cannot be used,
+which is what happened on our own EB lawn flight below.
+
 ## Processing workflow
 1. **Ingest images and metadata:** GPS tags, camera model, band wavelengths.
 2. **Apply radiometric calibration:** Using panel or DLS readings.
@@ -171,10 +194,15 @@ construction work, and it is usually the same few indices being applied to a dif
 
 ## Example outputs & images
 
-### 1) NDVI / crop health map
-<img src="../images/Screenshot-2019-04-09-14.04.41.webp" alt="NDVI map example" width="600" />
+### 1) NDVI of a lawn on campus
 
-*Description: An NDVI (Normalized Difference Vegetation Index) map. By calculating the ratio between Red and NIR reflectance, we can create a "heat map" of plant vigor. Greener areas indicate high biomass and healthy chlorophyll levels.*
+![The lawn east of the Engineering Building as an RGB photo, a near-infrared band and an NDVI map, with dry patches showing low NDVI](images/w06_class_eblawn_ndvi.jpg){ width="100%" }
+
+*Our own data: the lawn east of the Engineering Building, flown with a DJI Mavic 3 Multispectral in
+September 2025. The bands were normalized with the aircraft's sunlight sensor following DJI's
+published method. The panel photos were overexposed, so reflectance is relative rather than absolute;
+NDVI is unaffected because that factor cancels in the ratio. Healthy turf reads about 0.8, the dry
+patches 0.4 to 0.5, and pavement about 0.1.*
 
 **Activity:**
 - Find the areas of the field with the lowest NDVI values (red/yellow). What are three possible real-world reasons (e.g., water, soil, pests) that might cause this?

@@ -21,7 +21,7 @@
 | 5 | Measurements and Field Practice | [HTML](../slides/week_05.html) | [PDF](../slides/week_05.pdf) | [PPTX](../slides/week_05.pptx) |
 | 6 | Mission Planning | [HTML](../slides/week_06.html) | [PDF](../slides/week_06.pdf) | [PPTX](../slides/week_06.pptx) |
 | 7 | Photogrammetry and Flight Operations | [HTML](../slides/week_07.html) | [PDF](../slides/week_07.pdf) | [PPTX](../slides/week_07.pptx) |
-| 8 | Advanced Sensors and Data Processing | not yet posted | not yet posted | not yet posted |
+| 8 | Advanced Sensors and Data Processing | [HTML](../slides/week_08.html) | [PDF](../slides/week_08.pdf) | [PPTX](../slides/week_08.pptx) |
 | 9 | Part 107 Exam Preparation | not yet posted | not yet posted | not yet posted |
 | 10–15 | Final Project Planning | not yet posted | not yet posted | not yet posted |
 
