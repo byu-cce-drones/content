@@ -50,13 +50,6 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   in its footer; recreational pilots may also fly at night with lighting. Its "never over people /
   moving traffic" tiles are the FAA's recreational guidance and were left alone. Decide whether to
   reword the footer (`fig_tools/fig_rules.py`, scene version only).
-- **Autel thermal temperature scale** (2026-10-20). The Week 8 thermal images use
-  `raw / 10 − 273.15` in `fig_tools/class_images.py:raw_to_celsius()` and label colour bars
-  "°C (uncalibrated)". Believable at the EB lot and Carterville, but the 2025-10-21 parking-lot frame
-  reads −8 °C on sunlit asphalt. A separate project, `G:\GIT_Repo\autel-thermal` (private GitHub
-  repo; plan and prompt in `.claude/local/autel_session_prompt.md`), is verifying it with the Autel
-  SDK. When its `FINDINGS.md` lands, paste the function in, rerun the thermal commands in the
-  script's docstring, drop "(uncalibrated)", and revisit the Week 8 "−8 °C" question slides.
 - **Week 8 deck, optional:** a "returns to products" table and a "the last return is always the
   ground — true or false?" question, offered 2026-10-20, not yet added. The second unlicensed
   Multispectral image (orchard `.webp`) is still on the page.
@@ -298,6 +291,15 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-10-20 — **Autel thermal scale verified and applied.** The separate `autel-thermal` project
+  (github.com/gus-p-williams/autel-thermal, `FINDINGS.md`) confirmed °C = (raw − 2732) / 10 against
+  Autel's own SDK, bit-exact on 233 class frames. That function now replaces the old guess in
+  `fig_tools/class_images.py`; the East EB lot and Carterville images are re-rendered with plain °C
+  colour bars. The −8 °C parking-lot reading was a stale non-uniformity correction after a cold
+  start (frames IRX_0001–0036; the camera had been on 90 s); that frame stays labelled uncalibrated
+  because the Week 8 deck asks whether to believe it, and the answer slide now shows the cause and a
+  new image ten seconds later (`w06_class_parkinglot_after_nuc.jpg`, asphalt 5 °C, air 5 °C).
 
 - 2026-10-20 — **Week 3 and Week 9 Part 107 decks, the Part 107 readings fixed and expanded, the
   question banks audited, and every missing Part 107 figure drawn.** Two complementary decks on the

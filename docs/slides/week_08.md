@@ -254,20 +254,26 @@ Our camera's reading at 9:25 a.m. Do you believe it? What would you check?
 <!--
 Groups 2 min, then class.
 Likely answers: "Trust it, it's the instrument" or "the camera is broken."
-This is our own data. We are checking the conversion in a separate project; use the doubt itself as the lesson.
+This is our own data, and the reading really was wrong. Let them argue before the reveal.
+The conversion itself is verified against Autel's SDK (autel-thermal project, FINDINGS.md); the cause was the camera's state.
 -->
 
 ---
 
 <!-- _class: answer -->
 
-## Not until it's checked
+## No — and here it was wrong
 
-- Put something of **known temperature** in the frame: a water bucket, a contact thermometer
-- Give the camera time to **warm up** before the flight
-- Check the **emissivity** setting and the **viewing angle**
-- Check how the file stores temperature
-- A number is not a measurement until it has been checked
+- The camera had been switched on **90 seconds** earlier and was still cooling
+- Until its first **self-calibration**, the top of every frame read up to **30 °C too cold**
+- Ten seconds later the same asphalt read **5 °C** — the air was 5 °C
+- Warm the camera up outdoors, and put something of **known temperature** in the frame
+
+![h:230](../gen_reading/images/w06_class_parkinglot_after_nuc.jpg)
+
+<!--
+Source: autel-thermal FINDINGS.md section 3. Frames IRX_0001-0036 carry a ~30 C top-to-bottom ramp that vanishes between IRX_0036 and IRX_0037 with no change in height, pitch or heading: the microbolometer's non-uniformity correction catching up after a cold start. Air at KPVU was 5.2 C at 09:25.
+-->
 
 ---
 

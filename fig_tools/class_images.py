@@ -36,16 +36,23 @@ OneDrive paths are given in the comment above each command.
   # East EB lot, 2025-09-16 10:05. OneDrive: Data and Images/2025-09-16/EastEBLot/Autel/
   python fig_tools/class_images.py thermal $SRC/EastEBLot/IRX_0029.TIFF $SRC/EastEBLot/MAX_0029.JPG \\
       --name w06_class_eblot_thermal.jpg --title "Parking lot, 10 a.m.: thermal beside visible" \\
-      --crop 40 100 520 512 --annotate "446,400,8,75,shade: cooler asphalt"
+      --crop 40 100 520 512 --annotate "446,400,8,75,shade: cooler asphalt" --calibrated
 
   # Parking lot east of the EB, 2025-10-21 09:25. OneDrive: Data and Images/2025-10-21_PrkingLotThermal/
+  # IRX_0020 is from before the camera's first non-uniformity correction (frames 0001-0036 read up to
+  # 30 C too cold), so it stays "uncalibrated" on purpose: the Week 8 deck asks whether to believe it.
   python fig_tools/class_images.py thermal $SRC/ParkingLot/IRX_0020.TIFF $SRC/ParkingLot/MAX_0020.JPG \\
       --name w06_class_parkinglot_thermal.jpg --title "Our camera's reading, 9:25 a.m."
+
+  # The same lot ten seconds after the correction (IRX_0039): asphalt about 5 C, matching 5 C air.
+  python fig_tools/class_images.py thermal $SRC/ParkingLot/IRX_0039.TIFF $SRC/ParkingLot/MAX_0039.JPG \\
+      --name w06_class_parkinglot_after_nuc.jpg --title "Ten seconds later, after the camera recalibrated" \\
+      --calibrated
 
   # Carterville bridge approach, 2025-10-28 09:44. OneDrive: Data and Images/2025-10-28-Carterville200/
   python fig_tools/class_images.py thermal $SRC/Carterville200/IRX_0169.TIFF $SRC/Carterville200/MAX_0169.JPG \\
       --name w06_class_carterville_thermal.jpg --title "Bridge approach slab, 9:44 a.m., late October" \\
-      --crop 120 0 640 512
+      --crop 120 0 640 512 --calibrated
 
   # Rock Canyon, 2026-03-05, Autel IR JPG (colour only, no temperatures).
   # OneDrive: SoftWare-Processing/Old/Rock Canyon Flight Plan Lab/Rock Canyon Thunderdome/thermal images/
@@ -100,16 +107,21 @@ MAX_WIDTH = 1600
 # Thermal: raw counts to temperature
 # ---------------------------------------------------------------------------
 def raw_to_celsius(raw):
-    """Convert Autel T640 radiometric TIFF counts to degrees Celsius.
+    """Convert Autel EVO II Dual 640T thermal counts to degrees Celsius.
 
-    CURRENT ASSUMPTION: counts are tenths of a kelvin, so  T = raw / 10 - 273.15.
-    This gives believable values at the East EB lot (asphalt about 28 C at 10 a.m. in September)
-    and at Carterville (about 5 C in late October) but reads -8 C on sunlit asphalt in the
-    2025-10-21 parking-lot frames, so the scale is NOT confirmed. A separate session is checking
-    the Autel scale against the temperatures Autel's own software reports and will replace this
-    function. Until then every colour bar says "uncalibrated" unless `--calibrated` is passed.
+    The counts (TIFF int16 or .irg; both hold the same numbers) are kelvin x 10.
+    This is exactly the conversion in Autel's AutelIrTempParserSDK V2.5, (raw - 2732) / 10,
+    checked pixel for pixel on all 233 class frames from four flights: differences 0.0. The
+    camera applies its emissivity (0.95) and reflected temperature (25 C) on board; no header
+    value changes the scale. Absolute accuracy is the camera's, about +-3 C or 3 % of reading.
+
+    Do not use parking-lot frames IRX_0001-0036 (2025-10-21) for temperatures. The camera had
+    been on for under 3 minutes and was still cooling, and before its first non-uniformity
+    correction those frames read up to 30 C too cold at the top of the frame (-8 C "asphalt").
+    From IRX_0037 the asphalt reads about 5 C, matching 5 C air. See FINDINGS.md in
+    github.com/gus-p-williams/autel-thermal.
     """
-    return np.asarray(raw, dtype=float) / 10.0 - 273.15
+    return (np.asarray(raw, dtype=float) - 2732.0) / 10.0
 
 
 # Thermal pixel (u, v) -> MAX_ visible pixel (s*u + ox, s*v + oy). Measured on EastEBLot
