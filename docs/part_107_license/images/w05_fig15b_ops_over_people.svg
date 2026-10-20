@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 504" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="504" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 15b: Flying over people, the four categories</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">§107.39 and Subpart D. No category is needed over people taking part, under a covered structure, or inside a stationary vehicle.</text>
+  <rect x="24" y="84" width="207" height="280" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <rect x="71.5" y="94" width="112" height="26" rx="13" fill="#4a90d9"/>
+  <text x="127.5" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Category 1</text>
+  <g transform="translate(127.5,150)">
+    <g transform="scale(0.42)">
+      <g>
+        <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+          <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+          <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+          <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+          <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+        </g>
+        <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+          <circle cx="-30" cy="-24" r="15"/>
+          <circle cx="30" cy="-24" r="15"/>
+          <circle cx="-30" cy="24" r="15"/>
+          <circle cx="30" cy="24" r="15"/>
+        </g>
+        <g fill="#444444">
+          <circle cx="-30" cy="-24" r="5"/>
+          <circle cx="30" cy="-24" r="5"/>
+          <circle cx="-30" cy="24" r="5"/>
+          <circle cx="30" cy="24" r="5"/>
+        </g>
+        <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(105.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <g transform="translate(127.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <g transform="translate(149.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <text x="127.5" y="212" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a90d9">0.55 lb or less</text>
+  <text x="127.5" y="229" text-anchor="middle" font-size="11" fill="#555555">takeoff weight, everything on board</text>
+  <text x="38" y="252" text-anchor="start" font-size="11.5" fill="#555555">No Declaration of Compliance</text>
+  <text x="38" y="268" text-anchor="start" font-size="11.5" fill="#555555">needed. No exposed rotating</text>
+  <text x="38" y="284" text-anchor="start" font-size="11.5" fill="#555555">parts that could cut skin.</text>
+  <text x="38" y="300" text-anchor="start" font-size="11.5" fill="#555555"></text>
+  <text x="38" y="316" text-anchor="start" font-size="11.5" fill="#555555">Weigh it with everything attached:</text>
+  <text x="38" y="332" text-anchor="start" font-size="11.5" fill="#555555">lights, guards, payload.</text>
+  <text x="127.5" y="354" text-anchor="middle" font-size="10.5" fill="#555555">§107.110</text>
+  <rect x="241" y="84" width="207" height="280" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <rect x="288.5" y="94" width="112" height="26" rx="13" fill="#4a90d9"/>
+  <text x="344.5" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Category 2</text>
+  <g transform="translate(344.5,150)">
+    <g transform="scale(0.42)">
+      <g>
+        <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+          <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+          <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+          <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+          <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+        </g>
+        <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+          <circle cx="-30" cy="-24" r="15"/>
+          <circle cx="30" cy="-24" r="15"/>
+          <circle cx="-30" cy="24" r="15"/>
+          <circle cx="30" cy="24" r="15"/>
+        </g>
+        <g fill="#444444">
+          <circle cx="-30" cy="-24" r="5"/>
+          <circle cx="30" cy="-24" r="5"/>
+          <circle cx="-30" cy="24" r="5"/>
+          <circle cx="30" cy="24" r="5"/>
+        </g>
+        <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(322.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <g transform="translate(344.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <g transform="translate(366.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <text x="344.5" y="212" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a90d9">under 11 ft·lb</text>
+  <text x="344.5" y="229" text-anchor="middle" font-size="11" fill="#555555">impact energy on a person</text>
+  <text x="255" y="252" text-anchor="start" font-size="11.5" fill="#555555">FAA-accepted Declaration of</text>
+  <text x="255" y="268" text-anchor="start" font-size="11.5" fill="#555555">Compliance from the maker,</text>
+  <text x="255" y="284" text-anchor="start" font-size="11.5" fill="#555555">and a category label on the</text>
+  <text x="255" y="300" text-anchor="start" font-size="11.5" fill="#555555">aircraft. No exposed parts</text>
+  <text x="255" y="316" text-anchor="start" font-size="11.5" fill="#555555">that could cut skin.</text>
+  <text x="344.5" y="354" text-anchor="middle" font-size="10.5" fill="#555555">§107.115, §107.120</text>
+  <rect x="458" y="84" width="207" height="280" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <rect x="505.5" y="94" width="112" height="26" rx="13" fill="#4a90d9"/>
+  <text x="561.5" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Category 3</text>
+  <g transform="translate(561.5,150)">
+    <g transform="scale(0.42)">
+      <g>
+        <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+          <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+          <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+          <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+          <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+        </g>
+        <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+          <circle cx="-30" cy="-24" r="15"/>
+          <circle cx="30" cy="-24" r="15"/>
+          <circle cx="-30" cy="24" r="15"/>
+          <circle cx="30" cy="24" r="15"/>
+        </g>
+        <g fill="#444444">
+          <circle cx="-30" cy="-24" r="5"/>
+          <circle cx="30" cy="-24" r="5"/>
+          <circle cx="-30" cy="24" r="5"/>
+          <circle cx="30" cy="24" r="5"/>
+        </g>
+        <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(539.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <g transform="translate(561.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <g transform="translate(583.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <text x="561.5" y="212" text-anchor="middle" font-size="16" font-weight="bold" fill="#4a90d9">under 25 ft·lb</text>
+  <text x="561.5" y="229" text-anchor="middle" font-size="11" fill="#555555">impact energy on a person</text>
+  <text x="472" y="252" text-anchor="start" font-size="11.5" fill="#555555">Declaration and label, plus:</text>
+  <text x="472" y="268" text-anchor="start" font-size="11.5" fill="#555555">only over a closed or restricted</text>
+  <text x="472" y="284" text-anchor="start" font-size="11.5" fill="#555555">site with people on notice, or</text>
+  <text x="472" y="300" text-anchor="start" font-size="11.5" fill="#555555">no sustained flight over anyone</text>
+  <text x="472" y="316" text-anchor="start" font-size="11.5" fill="#555555">not under cover.</text>
+  <text x="472" y="332" text-anchor="start" font-size="11.5" fill="#555555">Never over open-air assemblies.</text>
+  <text x="561.5" y="354" text-anchor="middle" font-size="10.5" fill="#555555">§107.125, §107.130</text>
+  <rect x="675" y="84" width="207" height="280" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <rect x="722.5" y="94" width="112" height="26" rx="13" fill="#4a90d9"/>
+  <text x="778.5" y="112" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Category 4</text>
+  <g transform="translate(778.5,150)">
+    <g transform="scale(0.42)">
+      <g>
+        <g stroke="#333333" stroke-width="5" stroke-linecap="round">
+          <line x1="-8.4" y1="-12.0" x2="-30" y2="-24"/>
+          <line x1="8.4" y1="-12.0" x2="30" y2="-24"/>
+          <line x1="-8.4" y1="12.0" x2="-30" y2="24"/>
+          <line x1="8.4" y1="12.0" x2="30" y2="24"/>
+        </g>
+        <g fill="#e8edf2" stroke="#b6c2cc" stroke-width="1">
+          <circle cx="-30" cy="-24" r="15"/>
+          <circle cx="30" cy="-24" r="15"/>
+          <circle cx="-30" cy="24" r="15"/>
+          <circle cx="30" cy="24" r="15"/>
+        </g>
+        <g fill="#444444">
+          <circle cx="-30" cy="-24" r="5"/>
+          <circle cx="30" cy="-24" r="5"/>
+          <circle cx="-30" cy="24" r="5"/>
+          <circle cx="30" cy="24" r="5"/>
+        </g>
+        <rect x="-11" y="-20" width="22" height="40" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <polygon points="0,-37 -11,-21 11,-21" fill="#444444" stroke="#333333" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(756.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <g transform="translate(778.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <g transform="translate(800.5,186)">
+    <g transform="scale(0.9)">
+      <circle cx="0" cy="-14" r="7" fill="#7a8794"/>
+      <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
+    </g>
+  </g>
+  <text x="778.5" y="212" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#4a90d9">Airworthiness certificate</text>
+  <text x="778.5" y="229" text-anchor="middle" font-size="11" fill="#555555">issued under Part 21</text>
+  <text x="689" y="252" text-anchor="start" font-size="11.5" fill="#555555">Certified like a manned</text>
+  <text x="689" y="268" text-anchor="start" font-size="11.5" fill="#555555">aircraft: flown to its Flight</text>
+  <text x="689" y="284" text-anchor="start" font-size="11.5" fill="#555555">Manual limits, maintained</text>
+  <text x="689" y="300" text-anchor="start" font-size="11.5" fill="#555555">and inspected to its manual,</text>
+  <text x="689" y="316" text-anchor="start" font-size="11.5" fill="#555555">records kept.</text>
+  <text x="778.5" y="354" text-anchor="middle" font-size="10.5" fill="#555555">§107.140</text>
+  <rect x="24" y="380" width="858" height="62" rx="10" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="450.0" y="404" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Declaration of Compliance: the manufacturer declares it, the FAA accepts it, the label on the aircraft shows the category.</text>
+  <text x="450.0" y="426" text-anchor="middle" font-size="12" fill="#555555">The pilot's job is to check the label. This is the most-missed item on the knowledge test (FAA statistics, 2023 to 2025).</text>
+  <text x="450.0" y="466" text-anchor="middle" font-size="12" font-style="italic" fill="#555555">Sustained flight over an open-air assembly (a crowd): Categories 1, 2 and 4 only with Remote ID (§89.110 or §89.115(a));</text>
+  <text x="450.0" y="484" text-anchor="middle" font-size="12" font-style="italic" fill="#555555">Category 3 never (§107.125).</text>
+</svg>

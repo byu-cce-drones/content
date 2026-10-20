@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="560" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 20b: Turning adds weight: load factor</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">In a level turn the lift must hold the aircraft up and pull it round the corner, so the structure carries more than the aircraft weighs.</text>
+  <rect x="30" y="84" width="205" height="230" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="132.5" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">0° bank</text>
+  <line x1="50" y1="234" x2="215" y2="234" stroke="#9aa7b2" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g transform="translate(132.5,234) rotate(0)">
+    <g transform="scale(1.4)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="132.5" y1="244" x2="132.5" y2="278.0" stroke="#444444" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="132.5,288 127.5,278.0 137.5,278.0" fill="#444444"/>
+  </g>
+  <text x="142.5" y="288" text-anchor="start" font-size="11" fill="#444444">weight</text>
+  <g>
+    <line x1="132.5" y1="204" x2="132.5" y2="171.0" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="132.5,160.0 138.0,171.0 127.0,171.0" fill="#4a90d9"/>
+  </g>
+  <text x="132.5" y="154.0" text-anchor="middle" font-size="11" fill="#4a90d9">lift</text>
+  <rect x="60" y="276" width="145" height="28" rx="14" fill="#e9f6ee" stroke="#2f8f4e" stroke-width="1.5"/>
+  <text x="132.5" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f8f4e">1.00 G</text>
+  <rect x="242" y="84" width="205" height="230" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="344.5" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">30° bank</text>
+  <line x1="262" y1="234" x2="427" y2="234" stroke="#9aa7b2" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g transform="translate(344.5,234) rotate(30)">
+    <g transform="scale(1.4)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="344.5" y1="244" x2="344.5" y2="278.0" stroke="#444444" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="344.5,288 339.5,278.0 349.5,278.0" fill="#444444"/>
+  </g>
+  <text x="354.5" y="288" text-anchor="start" font-size="11" fill="#444444">weight</text>
+  <g>
+    <line x1="344.5" y1="204" x2="364.4034118443435" y2="169.52627944162882" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="369.9034118443435,160.0 369.16655156515793,172.27627944162882 359.6402721235291,166.77627944162882" fill="#4a90d9"/>
+  </g>
+  <text x="381.9034118443435" y="164.0" text-anchor="start" font-size="11" fill="#4a90d9">lift</text>
+  <rect x="272" y="276" width="145" height="28" rx="14" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="344.5" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a90d9">1.15 G</text>
+  <rect x="454" y="84" width="205" height="230" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="556.5" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">45° bank</text>
+  <line x1="474" y1="234" x2="639" y2="234" stroke="#9aa7b2" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g transform="translate(556.5,234) rotate(45)">
+    <g transform="scale(1.4)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="556.5" y1="244" x2="556.5" y2="278.0" stroke="#444444" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="556.5,288 551.5,278.0 561.5,278.0" fill="#444444"/>
+  </g>
+  <text x="566.5" y="288" text-anchor="start" font-size="11" fill="#444444">weight</text>
+  <g>
+    <line x1="556.5" y1="204" x2="592.721825406948" y2="167.77817459305203" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="600.5,160.0 596.610912703474,171.66726188957804 588.832738110422,163.88908729652601" fill="#4a90d9"/>
+  </g>
+  <text x="612.5" y="164.0" text-anchor="start" font-size="11" fill="#4a90d9">lift</text>
+  <rect x="484" y="276" width="145" height="28" rx="14" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="556.5" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a90d9">1.41 G</text>
+  <rect x="666" y="84" width="205" height="230" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="768.5" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">60° bank</text>
+  <line x1="686" y1="234" x2="851" y2="234" stroke="#9aa7b2" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g transform="translate(768.5,234) rotate(60)">
+    <g transform="scale(1.4)">
+      <g>
+        <rect x="-22" y="-8" width="44" height="18" rx="6" fill="#d0d7de" stroke="#333333" stroke-width="1.5"/>
+        <line x1="-34" y1="-8" x2="-34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-51" y1="-20" x2="-17" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-20.4" y1="-2" x2="-34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="34" y1="-8" x2="34" y2="-18" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="17" y1="-20" x2="51" y2="-20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="20.4" y1="-2" x2="34" y2="-10" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-14" y1="10" x2="-14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="10" x2="14" y2="20" stroke="#444444" stroke-width="4" stroke-linecap="round"/>
+        <rect x="-6" y="-4" width="10" height="9" rx="3" fill="#444444"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line x1="768.5" y1="244" x2="768.5" y2="278.0" stroke="#444444" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="768.5,288 763.5,278.0 773.5,278.0" fill="#444444"/>
+  </g>
+  <text x="778.5" y="288" text-anchor="start" font-size="11" fill="#444444">weight</text>
+  <g>
+    <line x1="768.5" y1="204" x2="835.1839560914017" y2="165.5" stroke="#4a90d9" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="844.7102355330305,160.0 837.9339560914017,170.26313972081442 832.4339560914017,160.73686027918558" fill="#4a90d9"/>
+  </g>
+  <text x="856.7102355330305" y="164.0" text-anchor="start" font-size="11" fill="#4a90d9">lift</text>
+  <rect x="696" y="276" width="145" height="28" rx="14" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="768.5" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a90d9">2.00 G</text>
+  <rect x="30" y="326" width="400" height="190" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="230" y="350" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1a1a1a">Load factor against bank angle</text>
+  <path d="M70,364 V474 H370" fill="none" stroke="#9aa7b2" stroke-width="1.2"/>
+  <path d="M70.0,474.0 L74.3,474.0 L78.6,474.0 L82.9,473.9 L87.1,473.9 L91.4,473.8 L95.7,473.7 L100.0,473.6 L104.3,473.5 L108.6,473.3 L112.9,473.2 L117.1,473.0 L121.4,472.8 L125.7,472.6 L130.0,472.3 L134.3,472.1 L138.6,471.8 L142.9,471.5 L147.1,471.2 L151.4,470.8 L155.7,470.5 L160.0,470.1 L164.3,469.7 L168.6,469.3 L172.9,468.8 L177.1,468.3 L181.4,467.8 L185.7,467.3 L190.0,466.7 L194.3,466.1 L198.6,465.5 L202.9,464.8 L207.1,464.1 L211.4,463.4 L215.7,462.7 L220.0,461.9 L224.3,461.0 L228.6,460.1 L232.9,459.2 L237.1,458.2 L241.4,457.2 L245.7,456.1 L250.0,455.0 L254.3,453.8 L258.6,452.5 L262.9,451.2 L267.1,449.8 L271.4,448.4 L275.7,446.8 L280.0,445.2 L284.3,443.4 L288.6,441.6 L292.9,439.7 L297.1,437.6 L301.4,435.4 L305.7,433.1 L310.0,430.6 L314.3,428.0 L318.6,425.2 L322.9,422.2 L327.1,419.0 L331.4,415.6 L335.7,411.8 L340.0,407.9 L344.3,403.5 L348.6,398.9 L352.9,393.8 L357.1,388.2 L361.4,382.2" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="198.57142857142858" cy="465.49147038914117" r="4.5" fill="#4a90d9" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="190.57142857142858" y="457.49147038914117" text-anchor="end" font-size="10.5" font-weight="bold" fill="#4a90d9">1.15</text>
+  <circle cx="262.8571428571429" cy="451.21825406947977" r="4.5" fill="#4a90d9" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="254.8571428571429" y="443.21825406947977" text-anchor="end" font-size="10.5" font-weight="bold" fill="#4a90d9">1.41</text>
+  <circle cx="327.14285714285717" cy="419.0" r="4.5" fill="#4a90d9" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="319.14285714285717" y="411.0" text-anchor="end" font-size="10.5" font-weight="bold" fill="#4a90d9">2.00</text>
+  <text x="70.0" y="488" text-anchor="middle" font-size="10.5" fill="#555555">0°</text>
+  <text x="198.57142857142858" y="488" text-anchor="middle" font-size="10.5" fill="#555555">30°</text>
+  <text x="262.8571428571429" y="488" text-anchor="middle" font-size="10.5" fill="#555555">45°</text>
+  <text x="327.14285714285717" y="488" text-anchor="middle" font-size="10.5" fill="#555555">60°</text>
+  <text x="64" y="478.0" text-anchor="end" font-size="10.5" fill="#555555">1 G</text>
+  <text x="64" y="423.0" text-anchor="end" font-size="10.5" fill="#555555">2 G</text>
+  <text x="64" y="368.0" text-anchor="end" font-size="10.5" fill="#555555">3 G</text>
+  <text x="230" y="508" text-anchor="middle" font-size="11.5" fill="#555555">load factor = 1 ÷ cos(bank)</text>
+  <rect x="450" y="326" width="420" height="190" rx="10" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="660" y="352" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1a1a1a">Worked example (FAA sample question)</text>
+  <text x="470" y="380" text-anchor="start" font-size="12" fill="#1a1a1a">A 33 lb aircraft holds altitude in a 30° banked turn.</text>
+  <text x="470" y="397" text-anchor="start" font-size="12" fill="#1a1a1a">What load must its structure support?</text>
+  <text x="470" y="428" text-anchor="start" font-size="18" font-weight="bold" fill="#1a1a1a">33 lb × 1.155 ≈ 38 lb</text>
+  <text x="470" y="456" text-anchor="start" font-size="11.5" fill="#555555">The test gives you the curve: FAA-CT-8080-2H, Figure 2.</text>
+  <text x="470" y="471" text-anchor="start" font-size="11.5" fill="#555555">Read the load factor at the bank angle, multiply by the weight.</text>
+  <text x="470" y="486" text-anchor="start" font-size="11.5" fill="#555555">The answer choices are far enough apart that 1.15 is enough.</text>
+  <text x="450.0" y="544" text-anchor="middle" font-size="11.5" font-style="italic" fill="#555555">The same aircraft weighs 33 lb on the ground and has to be built for 66 lb at 60° of bank. Steep turns, hard pull-ups and gusts all add load.</text>
+</svg>

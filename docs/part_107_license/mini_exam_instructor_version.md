@@ -60,6 +60,9 @@ The dashed blue circle surrounding an airport indicates:
 **Explanation:**
 A **blue dashed circle** represents Class D airspace, typically
 extending from the surface to 2,500 feet AGL (unless otherwise noted).
+The bracketed number inside the circle is the ceiling in hundreds of feet
+MSL: Provo's **[70]** on Figure 10 means 7,000 ft MSL, about 2,500 ft
+above the 4,497 ft field.
 Part 107 pilots must obtain **ATC authorization (LAANC)** to operate
 inside it.
 
@@ -113,9 +116,11 @@ A restricted area labeled with an "R" indicates:
 **Correct Answer: C --- Flight is restricted when active**
 
 **Explanation:**
-Restricted areas contain unusual, often hazardous activity.
-They may be flown through only when **not active and with proper
-authorization**.
+Restricted areas contain unusual, often hazardous activity (on Figure 10,
+R-6402A and R-6404A over the Dugway and Utah Test and Training Range
+complex). Under 14 CFR 107.45 a remote pilot may not operate inside one
+without **permission from the using or controlling agency**; when the
+area is not active the controlling agency may grant that permission.
 
 ------------------------------------------------------------------------
 
@@ -139,18 +144,23 @@ regardless of altitude (even at 50 ft AGL).
 
 ### Question 7
 
-A flag symbol next to an airport indicates:
+A magenta flag symbol beside a named landmark in Figure 10 (for example STADIUM or BIRD ISLAND) indicates:
 
-- (A) The airport has a rotating beacon
-- (B) The airport has weather reporting capability
-- (C) The airport is private
-- (D) The airport is military
+- (A) A rotating airport beacon
+- (B) A VFR checkpoint that pilots use for visual position reports
+- (C) A private airport
+- (D) A military airport
 
-**Correct Answer: B --- Weather reporting capability**
+**Correct Answer: B --- A VFR checkpoint**
 
 **Explanation:**
-A flag symbol indicates **AWOS/ASOS weather reporting services** are
-available.
+The magenta flag is the sectional symbol for a **VFR checkpoint**, a
+prominent landmark pilots use to report their position (Figure 10 shows
+STADIUM, BIRD ISLAND, TREE FARM, QUARRY and GOLF COURSE). Weather
+reporting is shown by the AWOS/ASOS frequency in the airport data block,
+not by a flag; a rotating beacon is a star beside the airport symbol.
+(Corrected 2026-10-20: the question previously keyed the flag as weather
+reporting, which the chart legend does not support.)
 
 ------------------------------------------------------------------------
 
@@ -242,7 +252,7 @@ G.
 
 ### Question 13
 
-The top number in a fractional airspace label (e.g., 100/40)
+The top number in a fractional airspace label (e.g., 120/60)
 represents:
 
 - (A) The floor in hundreds of feet AGL
@@ -257,9 +267,14 @@ In sectional fractional notation:
 Top number = ceiling (MSL)
 Bottom number = floor (MSL)
 
-Example: 100/40
-Ceiling = 10,000 ft MSL
-Floor = 4,000 ft MSL
+Example from Figure 10: 120/60 (the Salt Lake City Class B shelf over Sandy)
+Ceiling = 12,000 ft MSL
+Floor = 6,000 ft MSL
+
+Every shelf on Figure 10 reads 120/xx because the SLC Class B ceiling is
+12,000 ft MSL; the chart's own "Examples of Class B Altitudes" box
+(70/30) is generic. A floor of 4,000 ft MSL would be below the ground
+here (the valley floor is about 4,200-4,500 ft MSL).
 
 ------------------------------------------------------------------------
 

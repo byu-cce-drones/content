@@ -1,7 +1,7 @@
 # Week 9 — Part 107 Exam Preparation
 
 !!! abstract "This week"
-    - **Tuesday lecture:** FAA Part 107 exam preparation; aeronautics overview; sectional charts, weather reports, and NOTAMs
+    - **Tuesday lecture:** FAA Part 107 exam preparation; aeronautics overview; sectional charts, weather reports, and NOTAMs — [Slides](../slides/week_09.html) · [PDF](../slides/week_09.pdf) · [PPTX](../slides/week_09.pptx)
     - **Thursday lab:** Part 107 practice lab; the practice exam opens this week
 
 The practice exam opens this week and is worth 10% of your course grade, per the syllabus. See
@@ -20,4 +20,4 @@ Learning Suite for exactly when it opens and closes.
 
 ## Looking ahead
 
-Previous: [Week 8 — Advanced Sensors and Data Processing](week_08.md) · Next: [Week 10-15 — Final Project Schedule](../final_project/schedule.md))
+Previous: [Week 8 — Advanced Sensors and Data Processing](week_08.md) · Next: [Week 10-15 — Final Project Schedule](../final_project/schedule.md)

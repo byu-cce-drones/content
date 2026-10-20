@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 392" font-family="Arial, Helvetica, sans-serif" font-size="14">
   <rect x="0" y="0" width="900" height="392" fill="#f9f9f9" rx="8"/>
-  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 12: Three things you must never fly over or into</text>
-  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">These are absolute. No altitude and no distance makes any of them acceptable.</text>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 12: Three things to settle before takeoff</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">None of them can be fixed in the air: check the category, what is below the route, and the airspace before you launch.</text>
   <rect x="20.0" y="84" width="270" height="252" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
   <g transform="translate(121,194)">
     <g transform="scale(1.25)">
@@ -21,13 +21,9 @@
       <path d="M-8,3 a8,10 0 0,1 16,0 z" fill="#7a8794"/>
     </g>
   </g>
-  <g>
-    <circle cx="155" cy="174" r="44" fill="none" stroke="#e74c3c" stroke-width="5"/>
-    <line x1="125.08" y1="144.07999999999998" x2="184.92000000000002" y2="203.92000000000002" stroke="#e74c3c" stroke-width="5" stroke-linecap="round"/>
-  </g>
-  <text x="155" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Never over people</text>
-  <text x="155" y="296" text-anchor="middle" font-size="12" fill="#555555">anyone not taking part</text>
-  <text x="155" y="314" text-anchor="middle" font-size="12" fill="#555555">in your operation</text>
+  <text x="155" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Over people: category first</text>
+  <text x="155" y="296" text-anchor="middle" font-size="12" fill="#555555">only a Category 1-4 aircraft;</text>
+  <text x="155" y="314" text-anchor="middle" font-size="12" fill="#555555">the label decides (§107.39)</text>
   <rect x="315.0" y="84" width="270" height="252" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
   <rect x="358" y="180" width="184" height="26" rx="3" fill="#b9c1c9"/>
   <g stroke="#ffffff" stroke-width="3">
@@ -45,13 +41,9 @@
       <circle cx="18" cy="16" r="6" fill="#444444"/>
     </g>
   </g>
-  <g>
-    <circle cx="450" cy="174" r="44" fill="none" stroke="#e74c3c" stroke-width="5"/>
-    <line x1="420.08" y1="144.07999999999998" x2="479.92" y2="203.92000000000002" stroke="#e74c3c" stroke-width="5" stroke-linecap="round"/>
-  </g>
-  <text x="450" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Never over moving traffic</text>
-  <text x="450" y="296" text-anchor="middle" font-size="12" fill="#555555">roads, rail, and</text>
-  <text x="450" y="314" text-anchor="middle" font-size="12" fill="#555555">waterways in use</text>
+  <text x="450" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Over moving vehicles: limited</text>
+  <text x="450" y="296" text-anchor="middle" font-size="12" fill="#555555">closed site, or passing over</text>
+  <text x="450" y="314" text-anchor="middle" font-size="12" fill="#555555">only, with a category (§107.145)</text>
   <rect x="610.0" y="84" width="270" height="252" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
   <path d="M649,204 a96,42 0 0,1 192,0" fill="none" stroke="#e74c3c" stroke-width="2.5" stroke-dasharray="8 6"/>
   <g transform="translate(745,180)">
@@ -63,11 +55,7 @@
     </g>
   </g>
   <text x="745" y="238" text-anchor="middle" font-size="11" fill="#555555">controlled airspace</text>
-  <g>
-    <circle cx="745" cy="174" r="44" fill="none" stroke="#e74c3c" stroke-width="5"/>
-    <line x1="715.08" y1="144.07999999999998" x2="774.92" y2="203.92000000000002" stroke="#e74c3c" stroke-width="5" stroke-linecap="round"/>
-  </g>
-  <text x="745" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Never in restricted airspace</text>
-  <text x="745" y="296" text-anchor="middle" font-size="12" fill="#555555">no FAA authorization</text>
-  <text x="745" y="314" text-anchor="middle" font-size="12" fill="#555555">means no flight</text>
+  <text x="745" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Controlled airspace: authorize</text>
+  <text x="745" y="296" text-anchor="middle" font-size="12" fill="#555555">LAANC or DroneZone,</text>
+  <text x="745" y="314" text-anchor="middle" font-size="12" fill="#555555">before takeoff (§107.41)</text>
 </svg>

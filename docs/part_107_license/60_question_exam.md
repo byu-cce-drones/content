@@ -25,12 +25,12 @@ Refer to Figure 10. The solid blue concentric rings surrounding KSLC indicate:
 - (D) Class E airspace
 
 ### Question 2
-Refer to Figure 10. The number '100/40' within a Class B shelf indicates:
+Refer to Figure 10. The number '120/60' within a Class B shelf indicates:
 
-- (A) Ceiling 10,000 MSL / Floor 4,000 MSL
-- (B) Floor 10,000 AGL / Ceiling 4,000 AGL
-- (C) Visibility 10 SM / Cloud clearance 4 SM
-- (D) Surface to 10,000 AGL
+- (A) Ceiling 12,000 MSL / Floor 6,000 MSL
+- (B) Floor 12,000 AGL / Ceiling 6,000 AGL
+- (C) Visibility 12 SM / Cloud clearance 6 SM
+- (D) Surface to 12,000 AGL
 
 ### Question 3
 Refer to Figure 10. Provo Airport (KPVU) is surrounded by a dashed blue circle. This indicates:
@@ -49,7 +49,7 @@ Refer to Figure 10. West of Salt Lake City is R-6402A. This area is:
 - (D) MOA
 
 ### Question 5
-Refer to Figure 10. The area labeled 'UTTR' west of the lake is:
+Refer to Figure 10. The area labeled 'SEVIER B & D MOAs' southwest of the lake is:
 
 - (A) Prohibited
 - (B) Military Operations Area
@@ -89,10 +89,10 @@ Given TAF: TAF KSLC 121720Z 1218/1324 32010KT P6SM SCT050 FM130300 35015KT P6SM 
 - (D) Ceiling lowers below 1,000 ft
 
 ### Question 10
-(Refer to Figure 10) You plan to operate at 350 ft AGL beneath the Class B shelf marked 100/40. What is required?
+(Refer to Figure 10) You plan to operate at 350 ft AGL near Sandy, beneath the Class B shelf marked 120/60 and outside any Class D or Class E surface area. What is required?
 
 - (A) ATC authorization required
-- (B) No authorization required (below 4,000 MSL floor)
+- (B) No authorization required (below the 6,000 ft MSL floor, in uncontrolled airspace)
 - (C) Waiver required
 - (D) Must remain below 200 ft
 
@@ -145,12 +145,12 @@ What mnemonic helps a pilot assess their physical and mental fitness to fly?
 - (D) LAANC
 
 ### Question 17
-A small UAS must be registered with the FAA if it weighs more than:
+Under Part 107, when must a small unmanned aircraft be registered with the FAA?
 
-- (A) 0.55 lbs
-- (B) 1.0 lbs
-- (C) 2.0 lbs
-- (D) 5.5 lbs
+- (A) Always, regardless of weight; the 0.55 lb (250 g) exemption applies only to purely recreational flying
+- (B) Only if it weighs more than 0.55 lbs
+- (C) Only if it weighs more than 2.0 lbs
+- (D) Only if it weighs more than 5.5 lbs
 
 ### Question 18
 When must a remote pilot yield the right-of-way to all other aircraft?
@@ -193,7 +193,7 @@ How often must a remote pilot complete recurrent training to maintain currency?
 - (D) Every 5 years
 
 ### Question 23
-(Refer to Figure 10) The area marked R-6404 is a:
+(Refer to Figure 10) The area marked R-6404A is a:
 
 - (A) Restricted Area
 - (B) Prohibited Area
@@ -265,12 +265,12 @@ What is the primary purpose of a "Visual Observer" (VO)?
 - (D) To record the flight logs
 
 ### Question 32
-(Refer to Figure 10) The "80/40" label on the Class B shelf east of KSLC indicates a floor of:
+(Refer to Figure 10) The "120/60" label on the Class B shelf south of KSLC (near Sandy) indicates a floor of:
 
-- (A) 4,000 ft MSL
-- (B) 4,000 ft AGL
-- (C) 8,000 ft MSL
-- (D) 800 ft AGL
+- (A) 6,000 ft MSL
+- (B) 6,000 ft AGL
+- (C) 12,000 ft MSL
+- (D) 600 ft AGL
 
 ### Question 33
 What is the effect of high humidity on sUAS performance?
@@ -361,9 +361,9 @@ What type of cloud has the most significant vertical development and is associat
 - (D) Altocumulus
 
 ### Question 44
-(Refer to Figure 10) The blue "tower" symbol with the number (512) next to it represents:
+(Refer to Figure 10) The blue obstruction symbol labeled "4656 (408)" beside the Stadium in Salt Lake City represents:
 
-- (A) An obstruction with a height of 512 ft AGL
+- (A) An obstruction whose top is 408 ft above the ground (4,656 ft MSL)
 - (B) A radio frequency
 - (C) A runway length
 - (D) An airport elevation
@@ -433,7 +433,7 @@ What is the risk of "spatial disorientation"?
 - (D) Flying into a cloud
 
 ### Question 53
-(Refer to Figure 10) The "hatched brown" boundary labeled R-6402A indicates:
+(Refer to Figure 10) The hatched blue boundary labeled R-6402A indicates:
 
 - (A) Restricted Airspace
 - (B) A National Park
@@ -500,7 +500,7 @@ What should a pilot do if they encounter a manned aircraft while flying their dr
 # Answer Key
 
 1) B, 2) A, 3) B, 4) C, 5) B, 6) A, 7) B, 8) A, 9) A, 10) B, 
-11) A, 12) C, 13) B, 14) B, 15) B, 16) C, 17) A, 18) C, 19) A, 20) B, 
+11) A, 12) C, 13) C, 14) B, 15) B, 16) C, 17) A, 18) C, 19) A, 20) B, 
 21) A, 22) B, 23) A, 24) A, 25) A, 26) A, 27) B, 28) B, 29) B, 30) C, 
 31) B, 32) A, 33) B, 34) B, 35) B, 36) A, 37) A, 38) B, 39) B, 40) A, 
 41) A, 42) A, 43) C, 44) A, 45) C, 46) C, 47) B, 48) B, 49) B, 50) C, 

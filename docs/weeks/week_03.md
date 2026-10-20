@@ -1,7 +1,7 @@
 # Week 3 — FAA Rules and Flight Practice
 
 !!! abstract "This week"
-    - **Tuesday lecture:** introduction to FAA Part 107; drone safety and regulations
+    - **Tuesday lecture:** introduction to FAA Part 107; drone safety and regulations — [Slides](../slides/week_03.html) · [PDF](../slides/week_03.pdf) · [PPTX](../slides/week_03.pptx)
     - **Thursday lab:** Mini Drone Lab Part 2 — obstacle courses, team flight activities, flight challenges and races
 
 ## Before Tuesday, read

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="600" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 11c: Reading a traffic pattern</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Runway 13, standard left-hand pattern, north up. Where is an aircraft that reports “midfield left downwind, runway 13”?</text>
+  <g transform="translate(600,320) rotate(40)">
+    <rect x="-95" y="-9" width="190" height="18" fill="#444444"/>
+    <line x1="-79" y1="0" x2="-65" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="-55" y1="0" x2="-41" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="-31" y1="0" x2="-17" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="-7" y1="0" x2="7" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="17" y1="0" x2="31" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="41" y1="0" x2="55" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="65" y1="0" x2="79" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  <text x="544.0787556523146" y="278.07650449288263" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">13</text>
+  <text x="655.9212443476854" y="371.92349550711737" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">31</text>
+  <path d="M678.9,386.2 L753.2,448.6 L827.1,360.5 L520.7,103.3 L446.8,191.4 L521.1,253.8" fill="none" stroke="#4a90d9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <g>
+    <line x1="709.1613331444544" y1="411.5972343803319" x2="713.7575998031682" y2="415.4539600384511" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="722.9501331205959,423.16741135468965 709.900874145049,420.05022669716493 717.6143254612874,410.85769337973727" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="784.3840876935927" y1="411.4043664460375" x2="788.240813351712" y2="406.8080997873236" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="795.9542646679505,397.6155664698959 792.8370800104258,410.6648254454429 783.6445466929981,402.95137412920434" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="680.8149751020228" y1="237.6899775284964" x2="676.218708443309" y2="233.8332518703772" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="667.0261751258813,226.1198005541387 680.0754341014282,229.23698521166335 672.3619827851898,238.42951852909107" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="489.5364874203593" y1="140.50052259528007" x2="485.67976176224005" y2="145.09678925399396" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="477.96631044600156,154.28932257142168 481.08349510352616,141.24006359587472 490.27602842095393,148.9535149121132" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="477.049866879404" y1="216.83258864531044" x2="481.6461335381179" y2="220.68931430342968" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="490.8386668555456,228.40276561966814 477.7894078799987,225.28558096214354 485.5028591962371,216.09304764471582" fill="#4a90d9"/>
+  </g>
+  <text x="697.5646527275723" y="433.19623906362006" text-anchor="middle" font-size="13" font-weight="bold" fill="#4a90d9">upwind</text>
+  <text x="471.58154200747384" y="243.5738942060909" text-anchor="middle" font-size="13" font-weight="bold" fill="#4a90d9">final</text>
+  <text x="816.3077291487622" y="417.1192049848325" text-anchor="start" font-size="13" font-weight="bold" fill="#4a90d9">crosswind</text>
+  <text x="460.183996403936" y="131.72150628400908" text-anchor="end" font-size="13" font-weight="bold" fill="#4a90d9">base</text>
+  <text x="733.1138631066382" y="267.11122174323367" text-anchor="end" font-size="13" font-weight="bold" fill="#4a90d9">downwind</text>
+  <line x1="600.0" y1="320.0" x2="673.920575113952" y2="231.90488904131752" stroke="#555555" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="673.920575113952" cy="231.90488904131752" r="17" fill="#fdf3e6" stroke="#f39c12" stroke-width="2"/>
+  <g transform="translate(673.9,231.9) rotate(220)">
+    <g transform="scale(1.1)">
+      <path d="M14,0 L-10,-3 L-10,3 Z" fill="#444444"/>
+      <path d="M-1,-16 L4,-1 L4,1 L-1,16 L-5,16 L-3,1 L-3,-1 L-5,-16 Z" fill="#444444"/>
+      <path d="M-11,-6 L-7,0 L-11,6 L-13,6 L-12,0 L-13,-6 Z" fill="#444444"/>
+    </g>
+  </g>
+  <text x="697.920575113952" y="201.90488904131752" text-anchor="start" font-size="13" font-weight="bold" fill="#f39c12">midfield left downwind</text>
+  <text x="697.920575113952" y="217.90488904131752" text-anchor="start" font-size="11.5" fill="#555555">heading 310°, runway on the left</text>
+  <text x="697.920575113952" y="233.90488904131752" text-anchor="start" font-size="11.5" fill="#555555">north-east of the runway</text>
+  <g>
+    <line x1="840" y1="144" x2="840.0" y2="114.0" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="840,104 845.0,114.0 835.0,114.0" fill="#1a1a1a"/>
+  </g>
+  <text x="840" y="98" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">N</text>
+  <rect x="30" y="84" width="300" height="350" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="180" y="112" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">How to read it</text>
+  <text x="50" y="140" text-anchor="start" font-size="12.5" font-weight="bold" fill="#1a1a1a">Runway number = heading ÷ 10</text>
+  <text x="50" y="158" text-anchor="start" font-size="11.5" fill="#555555">Runway 13 lands toward 130° magnetic.</text>
+  <text x="50" y="173" text-anchor="start" font-size="11.5" fill="#555555">Runway 31 is the same strip from the</text>
+  <text x="50" y="188" text-anchor="start" font-size="11.5" fill="#555555">other end, heading 310°.</text>
+  <text x="50" y="223" text-anchor="start" font-size="12.5" font-weight="bold" fill="#1a1a1a">Standard pattern: all turns left</text>
+  <text x="50" y="241" text-anchor="start" font-size="11.5" fill="#555555">Unless the chart says RP, right pattern.</text>
+  <text x="50" y="276" text-anchor="start" font-size="12.5" font-weight="bold" fill="#1a1a1a">Downwind: parallel, opposite way</text>
+  <text x="50" y="294" text-anchor="start" font-size="11.5" fill="#555555">The runway stays on the pilot’s left,</text>
+  <text x="50" y="309" text-anchor="start" font-size="11.5" fill="#555555">so the downwind of runway 13 is flown on</text>
+  <text x="50" y="324" text-anchor="start" font-size="11.5" fill="#555555">310° along the north-east side.</text>
+  <text x="50" y="359" text-anchor="start" font-size="12.5" font-weight="bold" fill="#1a1a1a">The test answer</text>
+  <text x="50" y="377" text-anchor="start" font-size="11.5" fill="#555555">“Midfield left downwind, runway 13” puts</text>
+  <text x="50" y="392" text-anchor="start" font-size="11.5" fill="#555555">the aircraft east of the runway (FAA</text>
+  <text x="50" y="407" text-anchor="start" font-size="11.5" fill="#555555">sample question, Figure 26, area 2).</text>
+  <rect x="30" y="450" width="300" height="70" rx="8" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="50" y="474" text-anchor="start" font-size="12.5" font-weight="bold" fill="#1a1a1a">Why a drone pilot cares</text>
+  <text x="50" y="492" text-anchor="start" font-size="11.5" fill="#555555">Stay out of the pattern (14 CFR 107.43).</text>
+  <text x="50" y="507" text-anchor="start" font-size="11.5" fill="#555555">Hear a position report, know where to look.</text>
+  <text x="450.0" y="576" text-anchor="middle" font-size="12" font-style="italic" fill="#555555">Upwind, crosswind, downwind, base, final: five legs, four left turns. Draw the pattern from the runway number and the answer falls out.</text>
+</svg>

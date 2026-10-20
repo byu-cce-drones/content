@@ -1,13 +1,15 @@
 """Figure: the flying rules that apply to every flight.
 
-One drawing serves two weeks. Week 2 gets the full version, with line of sight
-and the altitude limit above the three prohibitions. Week 3 already covers
-those two in its own Figures 13 and 14, so it gets the prohibitions alone.
+One drawing serves two readings. Flight Basics (Week 2, recreational flying)
+gets the full version, with line of sight and the altitude limit above three
+never-dos. The Part 107 overview (Week 3) gets the three tiles alone, reworded
+for Part 107: since 2021 flying over people and moving vehicles is allowed by
+category (Subpart D), so its tiles are "settle before takeoff", not "never".
 
 Usage:
     python fig_tools/fig_rules.py --png
-    python fig_tools/fig_rules.py --out docs/week_01/images
-    python fig_tools/fig_rules.py --no-scene --number 12         --slug prohibitions --week 5 --out docs/week_05/images
+    python fig_tools/fig_rules.py --out docs/gen_reading/images
+    python fig_tools/fig_rules.py --no-scene --number 12 --slug prohibitions --week 5 --out docs/part_107_license/images
 
 Outputs:
     w01_fig16_rules.svg         Week 2: sight, altitude, and the never-dos
@@ -82,10 +84,10 @@ def build(number: int = 16, scene: bool = True) -> Figure:
                      "never fly over. Week 3 covers the full set.")
     else:
         fig = Figure(900, 392,
-                     f"Figure {number}: Three things you must never fly over "
-                     "or into",
-                     "These are absolute. No altitude and no distance makes "
-                     "any of them acceptable.")
+                     f"Figure {number}: Three things to settle before takeoff",
+                     "None of them can be fixed in the air: check the "
+                     "category, what is below the route, and the airspace "
+                     "before you launch.")
 
     # ---- upper scene: line of sight and the altitude limit ----
     sky_top, ground_y, ceiling_y = 78, 300, 132
@@ -94,14 +96,23 @@ def build(number: int = 16, scene: bool = True) -> Figure:
 
     # ---- three things you must never fly over ----
     top, h, w = (348 if scene else 84), 252, 270
-    for cx, icon, label, lines in (
+    tiles_rec = (
         (155, "people", "Never over people",
          ("anyone not taking part", "in your operation")),
         (450, "traffic", "Never over moving traffic",
          ("roads, rail, and", "waterways in use")),
         (745, "airspace", "Never in restricted airspace",
          ("no FAA authorization", "means no flight")),
-    ):
+    )
+    tiles_107 = (
+        (155, "people", "Over people: category first",
+         ("only a Category 1-4 aircraft;", "the label decides (\u00a7107.39)")),
+        (450, "traffic", "Over moving vehicles: limited",
+         ("closed site, or passing over", "only, with a category (\u00a7107.145)")),
+        (745, "airspace", "Controlled airspace: authorize",
+         ("LAANC or DroneZone,", "before takeoff (\u00a7107.41)")),
+    )
+    for cx, icon, label, lines in (tiles_rec if scene else tiles_107):
         fig.add(rect(cx - w / 2, top, w, h, rx=10, fill=P["white"],
                      stroke="#dde3e9", stroke_width=1.5))
         mid = top + 84
@@ -121,7 +132,8 @@ def build(number: int = 16, scene: bool = True) -> Figure:
             fig.add(control_tower(cx, mid + 12, 1.15))
             fig.add(text(cx, mid + 70, "controlled airspace",
                          text_anchor="middle", font_size=11, fill=P["muted"]))
-        fig.add(no_symbol(cx, mid + 6))
+        if scene:  # the Part 107 tiles are conditions, not bans
+            fig.add(no_symbol(cx, mid + 6))
 
         fig.add(text(cx, top + 188, label, text_anchor="middle", font_size=14,
                      font_weight="bold", fill=P["ink"]))

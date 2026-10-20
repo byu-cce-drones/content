@@ -115,6 +115,11 @@ from the new `fig_tools/class_images.py` (thermal, NDVI, CloudCompare LiDAR), al
 sensor readings as well. Thermal temperatures are labelled uncalibrated until the separate
 `autel-thermal` project verifies the Autel scale; see `backlog.md`.
 
+**Also 2026-10-20.** Week 3 (FAA rules) and Week 9 (exam prep) decks, complementary, on the same
+question-and-answer pattern; the Part 107 readings corrected and expanded; both question banks
+audited (the graded Learning Suite test must be updated to match; see `backlog.md`); all missing
+Part 107 figures drawn by `fig_part107_rules.py`, `fig_part107_ops.py` and `supplement_crops.py`.
+
 **Working concurrently.** Sessions on the same machine share one working tree. Either use a separate
 `git worktree` (`git worktree add ../byu-cce-drones-content-b main`) so the trees are isolated, or
 stay in this tree and stage files by name (never `git add -A`), avoid the owned files above, and

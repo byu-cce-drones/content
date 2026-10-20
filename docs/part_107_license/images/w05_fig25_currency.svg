@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 444" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="444" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 25: Staying current</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">The certificate never expires. The right to use it does: recurrent training every 24 calendar months (§107.65).</text>
+  <rect x="30" y="84" width="840" height="266" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <line x1="70" y1="200" x2="836" y2="200" stroke="#9aa7b2" stroke-width="2"/>
+  <g>
+    <line x1="820" y1="200" x2="840.0" y2="200.0" stroke="#9aa7b2" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="850,200 840.0,205.0 840.0,195.0" fill="#9aa7b2"/>
+  </g>
+  <line x1="150" y1="194" x2="150" y2="206" stroke="#9aa7b2" stroke-width="2"/>
+  <line x1="420" y1="194" x2="420" y2="206" stroke="#9aa7b2" stroke-width="2"/>
+  <line x1="690" y1="194" x2="690" y2="206" stroke="#9aa7b2" stroke-width="2"/>
+  <rect x="150" y="212" width="270" height="12" fill="#e6f4ea" stroke="#2f8f4e" stroke-width="1.2"/>
+  <text x="285.0" y="222" text-anchor="middle" font-size="11" font-weight="bold" fill="#2f8f4e">current</text>
+  <rect x="420" y="212" width="270" height="12" fill="#e6f4ea" stroke="#2f8f4e" stroke-width="1.2"/>
+  <text x="555.0" y="222" text-anchor="middle" font-size="11" font-weight="bold" fill="#2f8f4e">current</text>
+  <rect x="690" y="212" width="130" height="12" fill="#e6f4ea" stroke="#2f8f4e" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="755.0" y="222" text-anchor="middle" font-size="11" font-weight="bold" fill="#2f8f4e">and on</text>
+  <circle cx="150" cy="200" r="11" fill="#4a90d9" stroke="#ffffff" stroke-width="2"/>
+  <text x="150" y="142" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Pass the knowledge test</text>
+  <text x="150" y="160" text-anchor="middle" font-size="11.5" fill="#555555">certificate issued;</text>
+  <text x="150" y="175" text-anchor="middle" font-size="11.5" fill="#555555">it does not expire</text>
+  <circle cx="420" cy="200" r="11" fill="#4a90d9" stroke="#ffffff" stroke-width="2"/>
+  <text x="420" y="142" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Recurrent training</text>
+  <text x="420" y="160" text-anchor="middle" font-size="11.5" fill="#555555">free online course, FAA Safety Team</text>
+  <text x="420" y="175" text-anchor="middle" font-size="11.5" fill="#555555">ALC-677; no retest since April 2021</text>
+  <circle cx="690" cy="200" r="11" fill="#4a90d9" stroke="#ffffff" stroke-width="2"/>
+  <text x="690" y="142" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">Recurrent training again</text>
+  <text x="690" y="160" text-anchor="middle" font-size="11.5" fill="#555555">every 24 calendar months</text>
+  <text x="690" y="175" text-anchor="middle" font-size="11.5" fill="#555555">for as long as you fly</text>
+  <text x="150" y="248" text-anchor="middle" font-size="11" fill="#555555">month 0</text>
+  <text x="420" y="248" text-anchor="middle" font-size="11" fill="#555555">24 calendar months</text>
+  <text x="690" y="248" text-anchor="middle" font-size="11" fill="#555555">48 months</text>
+  <rect x="420" y="274" width="150" height="12" fill="#fdecea" stroke="#e74c3c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="495" y="284" text-anchor="middle" font-size="11" font-weight="bold" fill="#e74c3c">not current</text>
+  <circle cx="570" cy="280" r="7" fill="#2f8f4e" stroke="#ffffff" stroke-width="1.5"/>
+  <path d="M570,272 V226" fill="none" stroke="#2f8f4e" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="586" y="284" text-anchor="start" font-size="11" fill="#2f8f4e">finish the course and you are current again</text>
+  <text x="60" y="288" text-anchor="start" font-size="11.5" fill="#555555">Missed the training at month 24? Then you are</text>
+  <text x="60" y="303" text-anchor="start" font-size="11.5" fill="#555555">not current: you may not act as remote pilot in</text>
+  <text x="60" y="318" text-anchor="start" font-size="11.5" fill="#555555">command until you finish the course. The</text>
+  <text x="60" y="333" text-anchor="start" font-size="11.5" fill="#555555">certificate itself is still valid; nothing is reissued.</text>
+  <rect x="30" y="366" width="840" height="60" rx="10" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="450.0" y="390" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Carry the certificate and a photo ID whenever you fly (§107.7).</text>
+  <text x="450.0" y="412" text-anchor="middle" font-size="12" fill="#555555">Show them on request to the FAA, the NTSB, the TSA or any federal, state or local law enforcement officer.</text>
+</svg>

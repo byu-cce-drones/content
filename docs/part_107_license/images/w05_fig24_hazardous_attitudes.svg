@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="520" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 24: Five hazardous attitudes and their antidotes</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Recognise the thought, name the attitude, say the antidote. Wording from the FAA Pilot’s Handbook, chapter 2.</text>
+  <text x="230.0" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#e74c3c">The attitude, and what it sounds like</text>
+  <text x="670.0" y="86" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f8f4e">The antidote: say it to yourself</text>
+  <rect x="40" y="100" width="380" height="60" rx="10" fill="#fdecea" stroke="#e74c3c" stroke-width="1.5"/>
+  <circle cx="70" cy="130.0" r="15" fill="#e74c3c"/>
+  <text x="70" y="135.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">1</text>
+  <text x="96" y="125" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">Anti-authority</text>
+  <text x="96" y="145" text-anchor="start" font-size="13" font-style="italic" fill="#555555">“Don’t tell me.”</text>
+  <g>
+    <line x1="430" y1="130.0" x2="458.0" y2="130.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="470,130.0 458.0,136.0 458.0,124.0" fill="#4a90d9"/>
+  </g>
+  <rect x="480" y="100" width="380" height="60" rx="10" fill="#e9f6ee" stroke="#2f8f4e" stroke-width="1.5"/>
+  <text x="500" y="135.0" text-anchor="start" font-size="13.5" font-weight="bold" fill="#1a1a1a">Follow the rules. They are usually right.</text>
+  <rect x="40" y="172" width="380" height="60" rx="10" fill="#fdecea" stroke="#e74c3c" stroke-width="1.5"/>
+  <circle cx="70" cy="202.0" r="15" fill="#e74c3c"/>
+  <text x="70" y="207.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">2</text>
+  <text x="96" y="197" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">Impulsivity</text>
+  <text x="96" y="217" text-anchor="start" font-size="13" font-style="italic" fill="#555555">“Do it quickly.”</text>
+  <g>
+    <line x1="430" y1="202.0" x2="458.0" y2="202.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="470,202.0 458.0,208.0 458.0,196.0" fill="#4a90d9"/>
+  </g>
+  <rect x="480" y="172" width="380" height="60" rx="10" fill="#e9f6ee" stroke="#2f8f4e" stroke-width="1.5"/>
+  <text x="500" y="207.0" text-anchor="start" font-size="13.5" font-weight="bold" fill="#1a1a1a">Not so fast. Think first.</text>
+  <rect x="40" y="244" width="380" height="60" rx="10" fill="#fdecea" stroke="#e74c3c" stroke-width="1.5"/>
+  <circle cx="70" cy="274.0" r="15" fill="#e74c3c"/>
+  <text x="70" y="279.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">3</text>
+  <text x="96" y="269" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">Invulnerability</text>
+  <text x="96" y="289" text-anchor="start" font-size="13" font-style="italic" fill="#555555">“It won’t happen to me.”</text>
+  <g>
+    <line x1="430" y1="274.0" x2="458.0" y2="274.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="470,274.0 458.0,280.0 458.0,268.0" fill="#4a90d9"/>
+  </g>
+  <rect x="480" y="244" width="380" height="60" rx="10" fill="#e9f6ee" stroke="#2f8f4e" stroke-width="1.5"/>
+  <text x="500" y="279.0" text-anchor="start" font-size="13.5" font-weight="bold" fill="#1a1a1a">It could happen to me.</text>
+  <rect x="40" y="316" width="380" height="60" rx="10" fill="#fdecea" stroke="#e74c3c" stroke-width="1.5"/>
+  <circle cx="70" cy="346.0" r="15" fill="#e74c3c"/>
+  <text x="70" y="351.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">4</text>
+  <text x="96" y="341" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">Macho</text>
+  <text x="96" y="361" text-anchor="start" font-size="13" font-style="italic" fill="#555555">“I can do it.”</text>
+  <g>
+    <line x1="430" y1="346.0" x2="458.0" y2="346.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="470,346.0 458.0,352.0 458.0,340.0" fill="#4a90d9"/>
+  </g>
+  <rect x="480" y="316" width="380" height="60" rx="10" fill="#e9f6ee" stroke="#2f8f4e" stroke-width="1.5"/>
+  <text x="500" y="351.0" text-anchor="start" font-size="13.5" font-weight="bold" fill="#1a1a1a">Taking chances is foolish.</text>
+  <rect x="40" y="388" width="380" height="60" rx="10" fill="#fdecea" stroke="#e74c3c" stroke-width="1.5"/>
+  <circle cx="70" cy="418.0" r="15" fill="#e74c3c"/>
+  <text x="70" y="423.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">5</text>
+  <text x="96" y="413" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">Resignation</text>
+  <text x="96" y="433" text-anchor="start" font-size="13" font-style="italic" fill="#555555">“What’s the use?”</text>
+  <g>
+    <line x1="430" y1="418.0" x2="458.0" y2="418.0" stroke="#4a90d9" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="470,418.0 458.0,424.0 458.0,412.0" fill="#4a90d9"/>
+  </g>
+  <rect x="480" y="388" width="380" height="60" rx="10" fill="#e9f6ee" stroke="#2f8f4e" stroke-width="1.5"/>
+  <text x="500" y="423.0" text-anchor="start" font-size="13.5" font-weight="bold" fill="#1a1a1a">I’m not helpless. I can make a difference.</text>
+  <text x="450.0" y="478" text-anchor="middle" font-size="12" fill="#1a1a1a">The test tells a short story and asks which attitude it shows. “Fly first, ask questions later” is impulsivity;</text>
+  <text x="450.0" y="496" text-anchor="middle" font-size="12" fill="#1a1a1a">“watch this” is macho; “the rules are for other people” is anti-authority.</text>
+</svg>

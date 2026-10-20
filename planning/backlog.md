@@ -36,6 +36,20 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
+- **Mirror the question-bank fixes in Learning Suite** (2026-10-20). The graded practice test draws on
+  `mini_exam.md` and `60_question_exam.md`; eleven items were corrected (full audit in
+  `.claude/local/scratch/week09_check/bank_audit.md`). Only one keyed letter changed: **60-Q Q13,
+  Provo Class D ceiling, now C (7,000 ft MSL)**. Wording changed, letter unchanged: mini Q7 (magenta
+  flag = VFR checkpoint, B) and Q13 (120/60, B); 60-Q Q2 (120/60, A), Q5 (SEVIER B & D MOAs, B), Q10
+  (under 120/60 near Sandy, B), Q17 (register every Part 107 aircraft, A), Q23 (R-6404A, A), Q32
+  (120/60 floor 6,000 MSL, A), Q44 (obstruction 4656 (408), A), Q53 (hatched blue, A). The 60-Q
+  instructor key page was corrupted (17 copies of Q10, Q27–60 missing) and was rebuilt.
+- **"Flying at BYU" box on the Part 107 overview assumes the department holds BYU's UAS permit**
+  (risk.byu.edu) for class flights. Confirm.
+- **Flight Basics Figure 16 (`w01_fig16_rules.svg`, recreational rules)** still says "Daylight only"
+  in its footer; recreational pilots may also fly at night with lighting. Its "never over people /
+  moving traffic" tiles are the FAA's recreational guidance and were left alone. Decide whether to
+  reword the footer (`fig_tools/fig_rules.py`, scene version only).
 - **Autel thermal temperature scale** (2026-10-20). The Week 8 thermal images use
   `raw / 10 − 273.15` in `fig_tools/class_images.py:raw_to_celsius()` and label colour bars
   "°C (uncalibrated)". Believable at the EB lot and Carterville, but the 2025-10-21 parking-lot frame
@@ -176,7 +190,7 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
 - [ ] **The Lab 2 orthophoto is a SharePoint link.** `labs/2_measurements_and_methods.md` sends
       students to a SharePoint download that can expire or lose class-wide sharing, and that dies
       with the account if it sits in a personal OneDrive. Mitigations in `path_forward.md` §7.
-- [ ] **Draw the seven missing Part 107 figures.** Seven italic captions on
+- [x] **Draw the seven missing Part 107 figures.** Done 2026-10-20; see Done. Seven italic captions on
       `part_107_license/faa_exam_planning_and_overview.md` render under nothing: Figures 15, 16, 19,
       20, 24, 25, 27. Instructor 2026-09-04 prefers all seven drawn over deleting the weaker five.
       Per-figure specs in `path_forward.md` §5. Figures 2, 5, 6, 8, 9, 17, 18 and 21 are unused
@@ -284,6 +298,27 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-10-20 — **Week 3 and Week 9 Part 107 decks, the Part 107 readings fixed and expanded, the
+  question banks audited, and every missing Part 107 figure drawn.** Two complementary decks on the
+  Week 8 pattern (question slide, green answer slide, speaker notes): `docs/slides/week_03.md`
+  (35 slides, eight thought questions: purpose decides the rules, structure exception, night with
+  lighting, the stadium flight restriction FDC 0/0367 on game days, operations over people and the
+  Declaration of Compliance, Remote ID failure, accident reporting, fly-away) and
+  `docs/slides/week_09.md` (40 slides: exam logistics with a dated fee, the PSI 2025 weighting, how to
+  read a figure question, a "seen in Week 3" rapid round, and ten FAA sample questions adapted from the
+  public-domain UAG set on real FAA-CT-8080-2H crops, plus course questions). Research basis:
+  PSI UAG bulletin effective 2025-09-29 (Regulations 48 %, Operations 25 %, Airspace 20 %, Weather 5 %,
+  Loading 2 %), eCFR Parts 107/89/48 as of 2026-10-15, FAA ArcGIS airspace (campus is in Provo
+  Class D, LAANC 400 ft). New scripts: `fig_part107_rules.py` (Figures 7, 15, 15b, 25, 27),
+  `fig_part107_ops.py` (11b, 11c, 16, 19, 20, 20b, 24), `supplement_crops.py` (nine crops of the FAA
+  testing supplement, credited and "not for navigation"); `fig_rules.py` gives Figure 12 Part 107
+  tiles ("settle before takeoff") while Flight Basics Figure 16 is unchanged; Figure 1's daylight-only
+  line corrected. The overview, knowledge review and resources pages had their rule errors fixed
+  (night, operations over people, registration, surface Class E, calculators, LAANC providers, exam
+  weights, recurrent training, Remote ID) and gained "Which rules apply", certificate steps, airports
+  and traffic patterns, stadiums and flying at BYU, figure-question reading, common traps and a study
+  plan. All seven orphan captions now have figures. Question banks: 75 checked, 11 corrected.
 
 - 2026-10-20 — **Week 8 Advanced Sensors deck** (`docs/slides/week_08.md`, 40 slides, HTML/PDF/PPTX)
   built around **thirteen ask-then-reveal thought questions** plus a group activity (instructor request): each question is a

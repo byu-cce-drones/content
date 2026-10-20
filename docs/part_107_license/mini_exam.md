@@ -88,12 +88,12 @@ If operating inside the dashed blue circle at 300 feet AGL under Part
 
 ### Question 7
 
-A flag symbol next to an airport in Figure 10 indicates:
+A magenta flag symbol beside a named landmark in Figure 10 (for example STADIUM or BIRD ISLAND) indicates:
 
-- (A) The airport has a rotating beacon
-- (B) The airport has weather reporting capability
-- (C) The airport is private
-- (D) The airport is military
+- (A) A rotating airport beacon
+- (B) A VFR checkpoint that pilots use for visual position reports
+- (C) A private airport
+- (D) A military airport
 
 ------------------------------------------------------------------------
 
@@ -157,7 +157,7 @@ If no shading or dashed lines appear at your launch location in Figure
 
 ### Question 13
 
-The top number in a fractional airspace label (e.g., 100/40) represents:
+The top number in a fractional airspace label (e.g., 120/60) represents:
 
 - (A) The floor in hundreds of feet AGL
 - (B) The ceiling in hundreds of feet MSL

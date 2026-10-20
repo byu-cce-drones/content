@@ -16,13 +16,13 @@
 |---|---|---|---|---|
 | 1 | Course Introduction | [HTML](../slides/week_01.html) | [PDF](../slides/week_01.pdf) | — |
 | 2 | Drone Applications and Basic Flight | [HTML](../slides/week_02.html) | [PDF](../slides/week_02.pdf) | — |
-| 3 | FAA Rules and Flight Practice | not yet posted | not yet posted | not yet posted |
+| 3 | FAA Rules and Flight Practice | [HTML](../slides/week_03.html) | [PDF](../slides/week_03.pdf) | [PPTX](../slides/week_03.pptx) |
 | 4 | QGIS and Pre-Flight Procedures | [HTML](../slides/week_04.html) | [PDF](../slides/week_04.pdf) | [PPTX](../slides/week_04.pptx) |
 | 5 | Measurements and Field Practice | [HTML](../slides/week_05.html) | [PDF](../slides/week_05.pdf) | [PPTX](../slides/week_05.pptx) |
 | 6 | Mission Planning | [HTML](../slides/week_06.html) | [PDF](../slides/week_06.pdf) | [PPTX](../slides/week_06.pptx) |
 | 7 | Photogrammetry and Flight Operations | [HTML](../slides/week_07.html) | [PDF](../slides/week_07.pdf) | [PPTX](../slides/week_07.pptx) |
 | 8 | Advanced Sensors and Data Processing | [HTML](../slides/week_08.html) | [PDF](../slides/week_08.pdf) | [PPTX](../slides/week_08.pptx) |
-| 9 | Part 107 Exam Preparation | not yet posted | not yet posted | not yet posted |
+| 9 | Part 107 Exam Preparation | [HTML](../slides/week_09.html) | [PDF](../slides/week_09.pdf) | [PPTX](../slides/week_09.pptx) |
 | 10–15 | Final Project Planning | not yet posted | not yet posted | not yet posted |
 
 ---

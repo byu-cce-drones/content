@@ -54,7 +54,7 @@
   <text x="320" y="383" font-size="10" fill="#333">- TSA background check</text>
   <text x="320" y="398" font-size="10" fill="#333">- 400 ft AGL max altitude</text>
   <text x="320" y="413" font-size="10" fill="#333">- VLOS required</text>
-  <text x="320" y="428" font-size="10" fill="#333">- Daylight / civil twilight</text>
+  <text x="320" y="428" font-size="10" fill="#333">- Night OK with anti-collision lights</text>
   <text x="320" y="443" font-size="10" fill="#333">- ATC auth. in controlled</text>
   <text x="320" y="458" font-size="10" fill="#333">- Register drone</text>
 
