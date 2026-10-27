@@ -36,6 +36,10 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
+- **Week 9 lab follow-ups** (2026-10-27): a TA should click through PSI's free sample-test path
+  (Exam Resources → Unmanned Aircraft Systems → UAG) once and supply the class aircraft's wind limit
+  for the lab's Part 4 go / no-go; confirm whether the graded practice exam opens during the lab; the
+  lab's two "Learning Suite Question" boxes assume a Learning Suite quiz, as the other labs do.
 - **Week 8 deck, optional:** a "returns to products" table and a "the last return is always the
   ground — true or false?" question, offered 2026-10-20, not yet added. The second unlicensed
   Multispectral image (orchard `.webp`) is still on the page.
@@ -277,6 +281,16 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-10-27 — **Week 9 lab written: Part 107 Studying** (`labs/6_part_107_studying.md`, replacing the
+  coming-soon stub), from the approved outline in `.claude/local/week9_lab_plan.md`. Not a study
+  session: pairs with a TA find and open every resource (ten verified finds), work four FAA sample
+  figure questions not used in the lecture (Q9, Q24, Q26, Q31, answers checked on the supplement),
+  run a look-it-up race where every answer needs its CFR or AC 107-2A source, decode the live KPVU
+  METAR for a go / no-go, and build a two-week study plan. Downloadable Resource Passport worksheet
+  (`labs/files/lab06_resource_passport.xlsx`, built by `fig_tools/make_resource_passport.py`); answers
+  on a separate student-facing page, `labs/6_part_107_studying_answers.md`, linked from the lab and
+  the Week 9 page and kept out of the nav like the exam explanation pages.
 
 - 2026-10-27 — **Instructor answers and follow-ups.** The TAs are mirroring the 2026-10-20
   question-bank fixes in Learning Suite; the department holds the BYU UAS permit, so the

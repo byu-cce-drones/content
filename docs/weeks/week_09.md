@@ -16,7 +16,8 @@ Learning Suite for exactly when it opens and closes.
 
 ## Thursday's lab
 
-- [Part 107 Studying](../labs/6_part_107_studying.md) — this lab is being written; the pages above are the material the exam is drawn from
+- [Part 107 Studying](../labs/6_part_107_studying.md) — not a cram session: in pairs, with a TA, you find and open every study resource, work FAA figure questions, race to look up rules with their sources, decode today's Provo weather, and build your own two-week study plan
+- Download the [Resource Passport worksheet](../labs/files/lab06_resource_passport.xlsx) before the lab; check your answers afterwards on the [lab answers page](../labs/6_part_107_studying_answers.md)
 
 ## Looking ahead
 
