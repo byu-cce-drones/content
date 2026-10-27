@@ -109,5 +109,5 @@
   <text x="745" y="536" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Never in restricted airspace</text>
   <text x="745" y="560" text-anchor="middle" font-size="12" fill="#555555">no FAA authorization</text>
   <text x="745" y="578" text-anchor="middle" font-size="12" fill="#555555">means no flight</text>
-  <text x="450" y="640" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Daylight only, one aircraft at a time, and never from a moving vehicle.</text>
+  <text x="450" y="640" text-anchor="middle" font-size="13" font-style="italic" fill="#555555">Lights on after dark, one aircraft at a time, and never from a moving vehicle.</text>
 </svg>

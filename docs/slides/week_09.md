@@ -33,6 +33,29 @@ Slides tagged "Seen in Week 3" are review.
 
 ---
 
+## Where to start studying
+
+<style scoped>
+table { font-size: 21px; }
+th, td { padding: 4px 12px; }
+</style>
+
+| # | Start with | Why | Time |
+|---|---|---|---|
+| 1 | Our readings: The Part 107 Exam and the Knowledge Review | Written for this class and current to the 2026 rules | 3 h |
+| 2 | AC 107-2A, chapters 5, 6 and 8 | The FAA's own rules guide; regulations are half the test | 3 h |
+| 3 | Testing supplement chart excerpts, legend open beside them | Charts are the most-missed area; the test shows these figures | 4 h |
+| 4 | Matt Kendall's full video review (2024) | The one recent full review; watch one, not four | 2 h |
+| 5 | FAA sample questions, then timed practice exams | Real test wording; log every miss by topic | 3 h |
+
+The full ranked list, a drill-by-topic table and every link: **Study Resources → Start here**. Thursday's lab walks you through finding each one.
+
+<!--
+The ranking is the top of the Study Resources page (part_107_resources.md#the-top-8-ranked). Older material (FAA study guide 2016, some videos from 2017-2018) predates the 2021 rules on night, people and Remote ID: use it for charts and weather, not rules.
+-->
+
+---
+
 ![w:900](../part_107_license/images/w05_fig07_exam_topics.svg)
 
 <p class="caption">Half the test is regulations. Weather and loading are small, but they are on it.</p>
@@ -570,7 +593,7 @@ FAA sample question, adapted (Figure 2). Pairs 2 min. Calculator allowed.
 - **Week 2:** charts every day — the supplement figures and the legend; the practice exams here
 - **Day before:** the traps list; sleep
 - Free: FAA sample questions · AC 107-2A · the Pilot's Handbook of Aeronautical Knowledge · PSI's sample test
-- [Knowledge Review](../part_107_license/part_107_knowledge_review.md) · [Study Resources](../part_107_license/part_107_resources.md)
+- [Knowledge Review](../part_107_license/part_107_knowledge_review.md) · [Study Resources — Start here](../part_107_license/part_107_resources.md#start-here-how-to-study) · ranked list on slide 3
 
 ---
 

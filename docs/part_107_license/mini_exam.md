@@ -203,3 +203,10 @@ If a prohibited area (P‑###) appears in Figure 10, you may:
 13) B
 14) B
 15) C
+
+------------------------------------------------------------------------
+
+## Why each answer is right
+
+Try all fifteen first. Each answer is explained, with notes on the tempting wrong answers, on the
+[Mini-Exam answers explained](mini_exam_instructor_version.md) page.

@@ -36,20 +36,6 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
-- **Mirror the question-bank fixes in Learning Suite** (2026-10-20). The graded practice test draws on
-  `mini_exam.md` and `60_question_exam.md`; eleven items were corrected (full audit in
-  `.claude/local/scratch/week09_check/bank_audit.md`). Only one keyed letter changed: **60-Q Q13,
-  Provo Class D ceiling, now C (7,000 ft MSL)**. Wording changed, letter unchanged: mini Q7 (magenta
-  flag = VFR checkpoint, B) and Q13 (120/60, B); 60-Q Q2 (120/60, A), Q5 (SEVIER B & D MOAs, B), Q10
-  (under 120/60 near Sandy, B), Q17 (register every Part 107 aircraft, A), Q23 (R-6404A, A), Q32
-  (120/60 floor 6,000 MSL, A), Q44 (obstruction 4656 (408), A), Q53 (hatched blue, A). The 60-Q
-  instructor key page was corrupted (17 copies of Q10, Q27–60 missing) and was rebuilt.
-- **"Flying at BYU" box on the Part 107 overview assumes the department holds BYU's UAS permit**
-  (risk.byu.edu) for class flights. Confirm.
-- **Flight Basics Figure 16 (`w01_fig16_rules.svg`, recreational rules)** still says "Daylight only"
-  in its footer; recreational pilots may also fly at night with lighting. Its "never over people /
-  moving traffic" tiles are the FAA's recreational guidance and were left alone. Decide whether to
-  reword the footer (`fig_tools/fig_rules.py`, scene version only).
 - **Week 8 deck, optional:** a "returns to products" table and a "the last return is always the
   ground — true or false?" question, offered 2026-10-20, not yet added. The second unlicensed
   Multispectral image (orchard `.webp`) is still on the page.
@@ -291,6 +277,17 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-10-27 — **Instructor answers and follow-ups.** The TAs are mirroring the 2026-10-20
+  question-bank fixes in Learning Suite; the department holds the BYU UAS permit, so the
+  "Flying at BYU" box on the Part 107 overview stands; Flight Basics now says recreational flights
+  after dark need lights (text and `w01_fig16_rules.svg` footer, "Daylight only" removed). Both
+  practice exams gained a collapsed "Why each answer is right" section after the answer key, with
+  wrong-answer notes where useful. Week 9 deck revised in instructor review (`1e4776f`): larger chart
+  questions in a new `prompt chart` layout, FAA sample questions 16, 18 and 25 word for word, the
+  traffic pattern and the 30-degree load factor drawn on the FAA charts
+  (`fig_tools/supplement_annotate.py`), the KMDW METAR decoded, ground elevation, TFR and NOTAM
+  defined, an MTR "is it legal?" discussion.
 
 - 2026-10-20 — **Autel thermal scale verified and applied.** The separate `autel-thermal` project
   (github.com/gus-p-williams/autel-thermal, `FINDINGS.md`) confirmed °C = (raw − 2732) / 10 against

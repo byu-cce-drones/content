@@ -2,6 +2,8 @@
 
 This is the Week 9 reading: concise study notes for the FAA Part 107 knowledge test, organized the way the test is. The rules themselves are taught in [The Part 107 Exam](faa_exam_planning_and_overview.md) (Week 3); this page assumes you have read it and concentrates on what the test asks and how it asks it. Links to free study material are on the [Study Resources](part_107_resources.md) page.
 
+Not sure what to read first? Follow the six steps under [Start here](part_107_resources.md#start-here-how-to-study) on that page; they name the exact document, page or video for each step.
+
 !!! abstract "Key Takeaways"
     - **The test:** 60 scored questions (plus 5 unscored), 120 minutes, 70 % to pass, at a PSI testing center. Regulations are 48 % of it, Operations 25 %, Airspace 20 %, Weather 5 %, Loading 2 %.
     - **Regulatory limits:** 400 ft AGL, 3 SM visibility, 500 ft below and 2,000 ft horizontal from clouds, keep the aircraft in sight, yield to every aircraft, lighting at night.
@@ -61,7 +63,7 @@ A figure question reads like this:
 
 For the example above: in area 2, find Coeur d'Alene. In the airport data block the frequency followed by a white "C" in a magenta circle is the Common Traffic Advisory Frequency, **122.8**.
 
-Practice this with the local copy of the supplement linked from the Week 3 reading — on a screen, because the FAA now embeds the figures in the question rather than relying on the printed book.
+Practice this with the [course copy of the supplement](images/sport_rec_private_akts_FAA-CT-8080-2H_small.pdf) (also linked from the Week 3 reading) — on a screen, because the FAA now embeds the figures in the question rather than relying on the printed book.
 
 ---
 
@@ -77,7 +79,7 @@ Learn these with their section numbers; the test sometimes quotes them.
 - **Over people (§107.39, Subpart D):** only participants, people under cover or in stopped vehicles — or within Category 1, 2, 3 or 4. Categories 2 and 3 exist only through a **Declaration of Compliance** filed by the manufacturer; Category 3 never over open-air assemblies. Over moving vehicles (§107.145): closed site with notice, or transit only.
 - **Right of way (§107.37):** yield to every aircraft, manned or not.
 - **Airspace (§107.41):** prior ATC authorization in Class B, C, D and the surface area of Class E; through LAANC or DroneZone.
-- **Airports and restricted areas (§107.43, §107.45):** no interference with traffic patterns; permission from the controlling agency for prohibited and restricted areas. **TFRs (§107.47):** obey them.
+- **Airports and restricted areas (§107.43, §107.45):** no interference with traffic patterns; permission from the controlling agency for prohibited and restricted areas. **Temporary flight restrictions (TFRs, §107.47):** obey them.
 - **Alcohol and drugs (§107.27):** 8 hours bottle to throttle; 0.04 alcohol concentration; no impairing drugs.
 - **Emergencies (§107.21):** deviate as needed; report to the FAA *on request*.
 - **Safety events (§107.9):** report to the FAA within **10 calendar days** for serious injury, loss of consciousness, or over $500 of damage to someone else's property.
@@ -97,7 +99,7 @@ Learn these with their section numbers; the test sometimes quotes them.
 - **Class E:** controlled airspace that is none of the above. Its **floor** is the key: the surface (dashed magenta — authorization required), 700 ft AGL (shaded magenta edge), or 1,200 ft AGL (shaded blue edge, or by default). Below a 700 or 1,200 ft floor a drone is in Class G and needs no authorization.
 - **Class G:** uncontrolled. No authorization, every other rule applies.
 - **Special-use airspace:** **Prohibited** (P-) — never. **Restricted** (R-) — permission from the controlling agency. **MOA** and **military training routes** (IR/VR; a four-digit number means at or below 1,500 ft AGL) — not forbidden, but a serious hazard; check the chart margin for times of use. **Warning** and **Alert** areas — caution.
-- **TFRs:** by NOTAM; mandatory; check before every flight. Stadiums, wildfires, VIP movements, launches.
+- **TFRs:** announced by NOTAM (Notice to Air Missions, the FAA's bulletin of short-term changes and hazards); mandatory; check before every flight. Stadiums, wildfires, VIP movements, launches.
 
 Quick rule: authorization for **B, C, D and surface E**; G is open; everything military needs a look at the chart margin.
 
@@ -109,6 +111,7 @@ Quick rule: authorization for **B, C, D and surface E**; G is open; everything m
 - **Frequencies:** the number before a circled **C** is the CTAF; a star means part-time tower; the Chart Supplement has the rest.
 - **Airspace lines:** solid blue (B), solid magenta (C), dashed blue (D), dashed magenta (surface E), shaded magenta (E at 700 ft), shaded blue (E at 1,200 ft).
 - **Obstacles:** tower symbol with the top in MSL, and the height AGL in parentheses underneath. Lightning-bolt marks mean the obstruction is lit. A group obstacle symbol means several.
+- **Ground elevation:** the chart gives it two ways. An airport data block prints the field elevation in feet MSL (Savannah/Hilton Head in Figure 23 shows **50**). For any obstacle, the top in MSL minus the height in parentheses is the ground elevation at its base: near Pooler in Figure 23, "1548 (1534)" is a 1,534 ft tower whose top is at 1,548 ft MSL, so the ground there is about 14 ft. Subtract the ground elevation from an MSL shelf floor to get that floor in AGL, which is what your 400 ft limit compares to.
 - **Maximum elevation figures:** the big numbers in each grid square are the highest terrain or obstacle in that square, in thousands and hundreds of feet MSL.
 - **Latitude and longitude:** tick marks along the chart edges and the grid lines; some questions give a coordinate and ask you to name the airport there.
 - **Runway direction:** the runway diagram inside an airport symbol shows its orientation; the runway number is its magnetic heading ÷ 10.
@@ -173,7 +176,7 @@ Quick rule: authorization for **B, C, D and surface E**; G is open; everything m
 The wrong answer offered on the test is usually one of these.
 
 1. **MSL vs AGL.** Everything printed on a sectional is MSL except obstacle heights in parentheses. Cloud bases in a METAR and the 400 ft rule are AGL.
-2. **Obstacle heights.** "Top 1,549 (1,049)" means 1,549 ft MSL, 1,049 ft above the ground. The question will offer both.
+2. **Obstacle heights.** "1548 (1534)" in Figure 23 means the top is 1,548 ft MSL and the tower is 1,534 ft tall. The question will offer both.
 3. **Ceiling** = lowest BKN or OVC layer only. SCT at 1,500 ft is not a ceiling.
 4. **Zulu time.** `121856Z` is the 12th at 18:56 UTC. Utah is UTC−7 in winter (MST) and UTC−6 in summer (MDT), so 18:56 Z is 11:56 am MST or 12:56 pm MDT. The supplement's time-conversion table is Figure 27.
 5. **Wind direction.** METAR and TAF winds are **true**; tower and ATIS winds are magnetic.
@@ -218,10 +221,10 @@ Test day is day 14. Two short sessions a day beat one long one.
 | Days | Do |
 |---|---|
 | **1–2** | Reread [The Part 107 Exam](faa_exam_planning_and_overview.md). Make a one-page sheet of the numbers: 400, 3, 500/2,000, 87/100, 8 h, 0.04, 10 days, $500, 0.55 lb, 24 months, 14 days. Read AC 107-2A chapters on operating rules and over-people categories. |
-| **3–5** | Airspace. Open the supplement on a screen and work every chart excerpt: name the airspace at each red number, the floor of every shelf, every CTAF. Read PHAK chapter 15 (airspace) and 14 (airports). |
+| **3–5** | Airspace. Open the [course copy of the supplement](images/sport_rec_private_akts_FAA-CT-8080-2H_small.pdf) on a screen with the sectional legend (PDF page 13) beside it, and work all sixteen chart excerpts: Figures 20–26 (pages 53–59), 59 (page 90), 69–71 (pages 100–102), 74–76 (pages 105–107), 78 (page 109) and 80 (page 111). Name the airspace at each red number, the floor of every shelf, every CTAF. Read PHAK chapter 15 (airspace) and 14 (airports). |
 | **6–7** | Weather and loading. Decode ten real METARs on AviationWeather.gov. PHAK chapters 12–13 (weather) and the density altitude and load factor pages of chapters 5 and 11. |
 | **8–9** | Operations. PHAK chapter 2 (decision-making) and 17 (aeromedical); AC 107-2A on emergencies and batteries. Learn the five attitudes with their antidotes. |
-| **10–11** | Practice tests. The FAA sample questions (no key; answers are on the Week 9 slides), PSI's free UAG sample test, and one of the study-guide banks. Log every miss by topic. |
+| **10–11** | Practice tests, items 5–8 of the [ranked list](part_107_resources.md#the-top-8-ranked): the FAA sample questions (no key; answers are on the Week 9 slides), PSI's free UAG sample test, Rupprecht's 72 questions for the explanations, then the course practice exams timed at two minutes a question. Log every miss by topic. |
 | **12–13** | Retest your weak topics only. Reread the Common Traps list above. Confirm your ID, FTN and appointment time. |
 | **14** | Test. Arrive early, read every question twice, flag and return. |
 

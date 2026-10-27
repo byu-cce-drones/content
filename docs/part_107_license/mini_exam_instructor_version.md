@@ -1,4 +1,6 @@
-# Part 107 Mini-Exam — Instructor Version
+# Part 107 Mini-Exam — Answers Explained
+
+Try the questions on the [Mini Practice Exam](mini_exam.md) page first. Each answer below says why it is right; where a wrong answer is tempting, a "Not" note says why it is wrong.
 
 ## FAA Part 107 Sectional Chart Practice (Figure 10)
 
@@ -44,6 +46,8 @@ On sectional charts, **blue airport symbols indicate towered airports**.
 Magenta symbols indicate non‑towered airports.
 This distinction is heavily tested on the FAA exam.
 
+**Why not the others:** Not C: military airports are marked by their names and symbols, not by colour alone.
+
 ------------------------------------------------------------------------
 
 ### Question 2
@@ -66,6 +70,8 @@ above the 4,497 ft field.
 Part 107 pilots must obtain **ATC authorization (LAANC)** to operate
 inside it.
 
+**Why not the others:** Not B: Class B is a **solid** blue line. Not A: Class C is solid **magenta**.
+
 ------------------------------------------------------------------------
 
 ### Question 3
@@ -82,6 +88,8 @@ A shaded magenta area indicates:
 **Explanation:**
 Shaded magenta means Class E starts at **700 feet AGL**.
 Below 700 feet AGL is typically Class G unless otherwise designated.
+
+**Why not the others:** Not C: restricted areas are blue hatched boundaries with an "R" number.
 
 ------------------------------------------------------------------------
 
@@ -101,6 +109,8 @@ exists at 400 feet AGL?
 From the surface up to 699 feet AGL, the airspace is **Class G**.
 Since 400 feet AGL is below 700 feet AGL, the operation would be in
 Class G.
+
+**Why not the others:** Not A: Class E starts at 700 ft here, so at 400 ft you are still below it.
 
 ------------------------------------------------------------------------
 
@@ -122,6 +132,8 @@ complex). Under 14 CFR 107.45 a remote pilot may not operate inside one
 without **permission from the using or controlling agency**; when the
 area is not active the controlling agency may grant that permission.
 
+**Why not the others:** Not A: restricted areas are not closed all the time. Not B: you still need the controlling agency's permission (§107.45).
+
 ------------------------------------------------------------------------
 
 ### Question 6
@@ -139,6 +151,8 @@ If operating inside the dashed blue circle at 300 feet AGL under Part
 **Explanation:**
 Class D airspace requires prior ATC authorization under Part 107,
 regardless of altitude (even at 50 ft AGL).
+
+**Why not the others:** Not D: staying low does not change the airspace; Class D starts at the ground.
 
 ------------------------------------------------------------------------
 
@@ -159,8 +173,8 @@ prominent landmark pilots use to report their position (Figure 10 shows
 STADIUM, BIRD ISLAND, TREE FARM, QUARRY and GOLF COURSE). Weather
 reporting is shown by the AWOS/ASOS frequency in the airport data block,
 not by a flag; a rotating beacon is a star beside the airport symbol.
-(Corrected 2026-10-20: the question previously keyed the flag as weather
-reporting, which the chart legend does not support.)
+
+**Why not the others:** Not A: a rotating beacon is a star next to the airport symbol.
 
 ------------------------------------------------------------------------
 
@@ -179,6 +193,8 @@ Solid blue concentric rings around an airport indicate:
 Class B airspace is depicted as **solid blue concentric rings** and
 surrounds the nation's busiest airports.
 
+**Why not the others:** Not A: Class C is solid **magenta**. Not C: Class D is **dashed** blue.
+
 ------------------------------------------------------------------------
 
 ### Question 9
@@ -194,6 +210,8 @@ If Class E airspace begins at 1,200 feet AGL, how is it depicted?
 
 **Explanation:**
 Shaded blue indicates Class E beginning at **1,200 feet AGL**.
+
+**Why not the others:** Not A: shaded magenta marks the 700 ft floor. Not C: dashed magenta is Class E that starts at the surface.
 
 ------------------------------------------------------------------------
 
@@ -212,6 +230,8 @@ Figure 10, you must:
 **Explanation:**
 All controlled airspace (Class B, C, D, and E to the surface) requires
 authorization before operating under Part 107.
+
+**Why not the others:** Not A: a waiver sets aside a rule; entering controlled airspace needs an authorization, usually through LAANC.
 
 ------------------------------------------------------------------------
 
@@ -248,6 +268,8 @@ airspace is most likely present at the surface?
 Absent shading or dashed boundaries, surface airspace is generally Class
 G.
 
+**Why not the others:** Always confirm with a LAANC or airspace app before flying; Class E normally begins at 1,200 ft above the ground overhead.
+
 ------------------------------------------------------------------------
 
 ### Question 13
@@ -276,6 +298,8 @@ Every shelf on Figure 10 reads 120/xx because the SLC Class B ceiling is
 (70/30) is generic. A floor of 4,000 ft MSL would be below the ground
 here (the valley floor is about 4,200-4,500 ft MSL).
 
+**Why not the others:** Not A: both numbers are MSL, not AGL. Subtract the ground elevation to compare with your 400 ft limit.
+
 ------------------------------------------------------------------------
 
 ### Question 14
@@ -293,6 +317,8 @@ Under Part 107, maximum altitude is:
 Maximum altitude is 400 ft AGL,
 OR within 400 ft of a structure and not more than 400 ft above that
 structure.
+
+**Why not the others:** Not A: MSL would put you underground in most of Utah; the limit is measured above the ground (§107.51).
 
 ------------------------------------------------------------------------
 
@@ -312,6 +338,8 @@ authorization**
 Prohibited areas are **completely off-limits** unless specific
 authorization is granted.
 These are often established for national security or safety reasons.
+
+**Why not the others:** Not A: ATC cannot authorize you into a prohibited area; no altitude or LAANC request makes it legal.
 
 ------------------------------------------------------------------------
 

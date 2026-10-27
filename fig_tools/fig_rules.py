@@ -143,7 +143,7 @@ def build(number: int = 16, scene: bool = True) -> Figure:
 
     if scene:
         fig.add(text(450, 640,
-                     "Daylight only, one aircraft at a time, and never from a "
+                     "Lights on after dark, one aircraft at a time, and never from a "
                      "moving vehicle.",
                      text_anchor="middle", font_size=13, font_style="italic",
                      fill=P["muted"]))

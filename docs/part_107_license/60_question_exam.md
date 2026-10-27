@@ -505,3 +505,9 @@ What should a pilot do if they encounter a manned aircraft while flying their dr
 31) B, 32) A, 33) B, 34) B, 35) B, 36) A, 37) A, 38) B, 39) B, 40) A, 
 41) A, 42) A, 43) C, 44) A, 45) C, 46) C, 47) B, 48) B, 49) B, 50) C, 
 51) C, 52) B, 53) A, 54) A, 55) B, 56) A, 57) A, 58) A, 59) B, 60) A
+
+---
+## Why each answer is right
+
+Try the exam first. Each answer is explained, with notes on the tempting wrong answers, on
+[the answers-explained page](60_question_exam_instructor_key.md).

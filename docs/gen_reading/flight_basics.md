@@ -355,7 +355,7 @@ must never fly over or into.*
 - Keep the aircraft **within your own unaided sight** at all times. Binoculars and the camera view
   do not count.
 - Stay at or below **400 ft (120 m) above the ground**.
-- **Daylight only**, one aircraft at a time, and never from a moving vehicle.
+- **After dark only with lights** that show where the aircraft is and which way it faces; one aircraft at a time; never from a moving vehicle.
 - **Register the aircraft** if it weighs 250 g or more, and comply with **Remote ID**.
 - Any flight connected to work, study, or business needs a **Part 107 Remote Pilot Certificate**.
 
