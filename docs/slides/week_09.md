@@ -45,12 +45,29 @@ Weights from PSI's applicant bulletin, effective 29 September 2025. Older study 
 
 ## How to read a figure question
 
+<div style="display:flex; gap:28px; align-items:center;">
+<div style="flex:1;">
+
 "(Refer to FAA-CT-8080-2H, Figure 26, area 2.)"
 
 1. Find **Figure 26** in the testing supplement — or on screen, inside the question
 2. Find the **red number 2** on the chart
 3. Read the question about *that* spot
 4. When a symbol is unfamiliar, **use the legend** — it is in the supplement too
+
+</div>
+<div style="flex:0 0 430px;">
+
+![w:430](../part_107_license/images/w05_supp_fig26_cooperstown.jpg)
+
+<p class="caption">Figure 26, area 2: the red circled 2 sits beside Cooperstown airport.</p>
+
+</div>
+</div>
+
+<!--
+Point at the red 2, then at the airport symbol and its label block (elevation, runway length, CTAF with the C in a circle). Every chart question on the test starts this way.
+-->
 
 ---
 
@@ -109,7 +126,16 @@ This is the most-missed item on the real test — about three in four people get
 - The pilot's job is to **check the category on the label** before flying over people
 - Category 1: 0.55 lb or less, no exposed parts that could cut skin — no declaration needed
 - Category 4: an airworthiness certificate
-- Figure 15b in the reading has all four categories on one page
+
+---
+
+![h:520](../part_107_license/images/w05_fig15b_ops_over_people.svg)
+
+<p class="caption">The four categories on one page. The label on the aircraft tells you which one it is.</p>
+
+<!--
+Seen in Week 3. Walk the four cards left to right, then the amber strip: the manufacturer declares, the FAA accepts, the pilot checks the label.
+-->
 
 ---
 
@@ -148,13 +174,15 @@ Likely answer: B.
 
 ---
 
-<!-- _class: prompt -->
+<!-- _class: prompt chart -->
 
 # Savannah, area 3: what is the floor of the Class C shelf (outer circle)?
 
-A) 1,300 ft AGL · B) 1,300 ft MSL · C) 1,700 ft MSL
+- A) 1,300 ft AGL
+- B) 1,300 ft MSL
+- C) 1,700 ft MSL
 
-![h:330](../part_107_license/images/w05_supp_fig23_savannah.jpg)
+![](../part_107_license/images/w05_supp_fig23_savannah.jpg)
 
 <!--
 FAA sample question, adapted (Figure 23, area 3). Groups 1.5 min.
@@ -170,17 +198,24 @@ Likely answer: A — students forget chart altitudes are MSL.
 - "41/13" means **ceiling 4,100 ft, floor 1,300 ft**, in hundreds of feet
 - Airspace altitudes on a sectional are **MSL** — above sea level
 - The 400 ft drone limit is **AGL** — above the ground
-- Subtract the ground elevation to compare the two
+- **Ground elevation is on the chart:** the airport's data block ("SAVANNAH/HILTON HEAD INTL … **50** L 93": field at 50 ft), or any obstacle — "559 **(505)**" is a top at 559 ft MSL, 505 ft tall, so the ground is about 54 ft
+- Shelf floor above the ground: 1,300 − 50 ≈ **1,250 ft AGL**
+
+<!--
+Point at the airport data block in the lower right of the crop, then at an obstacle near the shelf. Obstacle numbers: bold = top in MSL, (brackets) = height above ground. Top minus height = ground elevation. Contour tints and spot elevations also give ground height, but on the test the airport block and obstacles are quickest.
+-->
 
 ---
 
-<!-- _class: prompt -->
+<!-- _class: prompt chart -->
 
 # Inspecting a tower near Jamestown Regional, area 4. What do you need first?
 
-A) Military authorization · B) ATC authorization · C) National Park Service authorization
+- A) Military authorization
+- B) ATC authorization
+- C) National Park Service authorization
 
-![h:330](../part_107_license/images/w05_supp_fig26_jamestown.jpg)
+![](../part_107_license/images/w05_supp_fig26_jamestown.jpg)
 
 <!--
 FAA sample question, adapted (Figure 26, area 4). Groups 1.5 min.
@@ -199,13 +234,15 @@ Likely answer: "nothing" — students who miss the dashed magenta line think it 
 
 ---
 
-<!-- _class: prompt -->
+<!-- _class: prompt chart -->
 
 # Area 2: the gray line labelled "VR1667, VR1617…". Is it a hazard?
 
-A) No, all operations are above 400 ft · B) Yes, a military training route from the surface to 1,500 ft AGL · C) Yes, the route separates traffic
+- A) No, all operations are above 400 ft
+- B) Yes, a military training route from the surface to 1,500 ft AGL
+- C) Yes, the route separates traffic
 
-![h:330](../part_107_license/images/w05_supp_fig59_mtr.jpg)
+![](../part_107_license/images/w05_supp_fig59_mtr.jpg)
 
 <!--
 FAA sample question, adapted (Figure 59, area 2). Groups 1 min.
@@ -225,11 +262,39 @@ FAA sample question, adapted (Figure 59, area 2). Groups 1 min.
 
 <!-- _class: prompt -->
 
+# So can you fly a survey under that route at 300 ft?
+
+It is a hazard. Is it allowed? What would you do first?
+
+<!--
+Groups 2 min, then class. Follow-on discussion, not an FAA sample question.
+Likely answers: "No, it's military airspace" or "Yes, we're below 400 ft so we're fine."
+Both miss the point: legal, but you must manage the risk.
+-->
+
+---
+
+<!-- _class: answer -->
+
+## Yes — legal, but plan for the jets
+
+- An MTR is **not restricted airspace**: no permission is needed beyond the airspace class underneath
+- The jets can fly **as low as 100 ft AGL** at **well over 250 knots** — your 400 ft ceiling overlaps their route
+- The line is a **centreline**; the route can be several miles wide
+- You must **yield** (§107.37), and a jet can close a mile in about ten seconds
+- So: ask Flight Service (1-800-WX-BRIEF) if the route is active, add a visual observer, stay low, and be ready to land
+
+---
+
+<!-- _class: prompt chart -->
+
 # A crop survey in the Devils Lake West MOA. How do you find out whether it is active?
 
-A) The chart legend · B) A small UAS database · C) A military operations directory
+- A) The chart legend
+- B) A small UAS database
+- C) A military operations directory
 
-![h:330](../part_107_license/images/w05_supp_fig21_moa.jpg)
+![](../part_107_license/images/w05_supp_fig21_moa.jpg)
 
 <!--
 FAA sample question, adapted (Figure 21). Groups 1 min.
@@ -244,17 +309,25 @@ FAA sample question, adapted (Figure 21). Groups 1 min.
 - A full sectional lists each special-use area's times of use in its legend and margin tables
 - A **military operations area (MOA)** is a hazard to know about, not a ban
 - A **restricted area** needs the controlling agency's permission
-- A **TFR** comes by NOTAM — check before every flight
+- A **TFR — temporary flight restriction** — closes airspace for a while: a wildfire, a stadium game, a VIP visit. It is **not printed on the chart**
+- A **NOTAM — notice to air missions** — is the FAA's bulletin of short-term changes, and it is how TFRs are announced
+- Check both before every flight: tfr.faa.gov, or your LAANC app
+
+<!--
+Beginners have never seen either word. A TFR is the restriction; a NOTAM is the message that announces it (and other temporary changes, like a closed runway or a crane near an airport).
+-->
 
 ---
 
-<!-- _class: prompt -->
+<!-- _class: prompt chart -->
 
 # Area 2: what is the CTAF at Coeur d'Alene?
 
-A) 122.05 · B) 135.075 · C) 122.8
+- A) 122.05
+- B) 135.075
+- C) 122.8
 
-![h:330](../part_107_license/images/w05_supp_fig22_coeur_dalene.jpg)
+![](../part_107_license/images/w05_supp_fig22_coeur_dalene.jpg)
 
 <!--
 FAA sample question, adapted (Figure 22, area 2). Groups 1 min.
@@ -278,16 +351,20 @@ FAA sample question, adapted (Figure 22, area 2). Groups 1 min.
 
 ---
 
-<!-- _class: prompt -->
+<!-- _class: prompt chart -->
 
-# On the Cooperstown CTAF: "midfield left downwind, runway 13."
+# Midfield left downwind — the test version
 
-Where is that aircraft? A) East of the runway · B) South of the runway · C) West of the runway
+(Refer to FAA-CT-8080-2H, Figure 26, area 2.) While monitoring the Cooperstown CTAF you hear an aircraft announce that they are midfield left downwind to RWY 13. Where would the aircraft be relative to the runway?
 
-![h:300](../part_107_license/images/w05_supp_fig26_cooperstown.jpg)
+- A) The aircraft is East.
+- B) The aircraft is South.
+- C) The aircraft is West.
+
+![](../part_107_license/images/w05_supp_fig26_cooperstown.jpg)
 
 <!--
-FAA sample question, adapted (Figure 26, area 2). Pairs 2 min: draw the runway, then the pattern.
+FAA sample question 18, word for word (UAG sample set, public domain; ACS code UA.V.A.K3). Pairs 2 min: find the runway on the chart, draw the landing direction toward 130 degrees, turn left four times. The previous slide (Figure 11c) is the worked picture; ask them to apply it to this chart without looking back.
 -->
 
 ---
@@ -297,9 +374,17 @@ FAA sample question, adapted (Figure 26, area 2). Pairs 2 min: draw the runway, 
 ## A — east of the runway
 
 - Runway 13: landing toward about **130°** magnetic
-- Left traffic: all turns are to the **left**, so the pattern sits on the **left** of the landing direction
-- Downwind runs the opposite way, about 310°, on that side — **northeast, to the east** of the runway
-- Draw it: runway, landing arrow, turn left four times
+- Left traffic: every turn is to the **left**, so the pattern sits on the **left** of the landing direction
+- Downwind runs the opposite way, **310°**, on that side — **north-east**, so "east" of the runway
+- On the test: find the runway, draw the landing arrow, turn left four times
+
+---
+
+![h:560](../part_107_license/images/w05_supp_fig26_cooperstown_pattern.jpg)
+
+<!--
+The same Figure 26 crop as the question, with the left-hand pattern for runway 13 sketched on it (not to scale). Trace it with the class: land toward 130, upwind, turn left onto crosswind, left onto downwind heading 310 (the north-east side), then base and final.
+-->
 
 ---
 
@@ -311,12 +396,14 @@ FAA sample question, adapted (Figure 26, area 2). Pairs 2 min: draw the runway, 
 
 <!-- _class: prompt -->
 
-# Your station manager says "fly first, ask questions later." Which hazardous attitude?
+# Which hazardous attitude?
 
-A) Macho · B) Invulnerability · C) Impulsivity
+You have been hired as a remote pilot by a local TV news station to film breaking news with a small UA. You expressed a safety concern and the station manager has instructed you to "fly first, ask questions later." What type of hazardous attitude does this attitude represent?
+
+A) Machismo. · B) Invulnerability. · C) Impulsivity.
 
 <!--
-FAA sample question, adapted. Groups 1 min.
+FAA sample question 16, word for word (UAG sample set, public domain; ACS code UA.V.D.K4). Groups 1 min.
 -->
 
 ---
@@ -326,7 +413,7 @@ FAA sample question, adapted. Groups 1 min.
 ## C — impulsivity
 
 - Impulsivity: "Do it quickly." Antidote: **"Not so fast. Think first."**
-- Macho is "I can do it"; invulnerability is "It won't happen to me"
+- Machismo (macho) is "I can do it"; invulnerability is "It won't happen to me"
 - On the test, match the **words** to the attitude
 
 ---
@@ -368,14 +455,17 @@ Course question. Groups 1 min.
 
 <!-- _class: prompt -->
 
-# KMDW: "32005KT 1 1/2SM RA OVC007". What are the conditions?
+# Current conditions at Chicago Midway (KMDW)?
 
-A) 700 ft overcast, visibility 1½ SM, rain · B) 7,000 ft overcast, 1½ SM, heavy rain · C) 700 ft overcast, visibility 11, occasionally 2 SM, rain
+(Refer to FAA-CT-8080-2H, Figure 12.) The full report is the **SPECI KMDW** line in the table — find it first.
 
-![h:300](../part_107_license/images/w05_supp_fig12_metar.jpg)
+A) Sky 700 feet overcast, visibility 1-1/2SM, rain. · B) Sky 7,000 feet overcast, visibility 1-1/2SM, heavy rain. · C) Sky 700 feet overcast, visibility 11, occasionally 2SM, with rain.
+
+![w:1080](../part_107_license/images/w05_supp_fig12_metar.jpg)
 
 <!--
-FAA sample question, adapted (Figure 12). Groups 1.5 min.
+FAA sample question 25, word for word (UAG sample set, public domain). Groups 1.5 min.
+The first skill is finding the right line: five reports, one for Midway. Then read it left to right.
 -->
 
 ---
@@ -392,19 +482,48 @@ FAA sample question, adapted (Figure 12). Groups 1.5 min.
 
 ---
 
+## Decoding the KMDW report, group by group
+
+`SPECI KMDW 121856Z 32005KT 1 1/2SM RA OVC007 17/16 A2980 RMK RAB35`
+
+<style scoped>
+table { font-size: 21px; }
+th, td { padding: 3px 12px; }
+code { font-size: 24px; }
+</style>
+
+| Group | Means |
+|---|---|
+| `SPECI` | A special report, issued because conditions changed (a routine one says METAR) |
+| `KMDW` | Chicago Midway International Airport |
+| `121856Z` | 12th of the month, 18:56 Zulu (UTC) |
+| `32005KT` | Wind from 320° true at 5 knots |
+| `1 1/2SM` | Visibility 1½ statute miles — below the 3 SM Part 107 needs |
+| `RA` | Rain, moderate (`-RA` light, `+RA` heavy) |
+| `OVC007` | Overcast at 700 ft above the ground — this is the ceiling |
+| `17/16` | Temperature 17 °C, dew point 16 °C — only 1° apart, so fog or low cloud is likely |
+| `A2980` | Altimeter setting 29.80 inches of mercury |
+| `RMK RAB35` | Remarks: rain began at 35 minutes past the hour |
+
+---
+
 ![w:900](../part_107_license/images/w05_fig19_density_altitude.svg)
 
 <p class="caption">Hot and high: thinner air means less lift. Loading and performance is about 2 % of the test.</p>
 
 ---
 
-<!-- _class: prompt -->
+<!-- _class: prompt chart -->
 
 # A 33 lb unmanned airplane in a 30° level banked turn.
 
-What load must its structure support? A) 34 lb · B) 47 lb · C) 38 lb
+What load must its structure support?
 
-![h:300](../part_107_license/images/w05_supp_fig02_load_factor.png)
+- A) 34 lb
+- B) 47 lb
+- C) 38 lb
+
+![](../part_107_license/images/w05_supp_fig02_load_factor.png)
 
 <!--
 FAA sample question, adapted (Figure 2). Pairs 2 min. Calculator allowed.
@@ -416,10 +535,21 @@ FAA sample question, adapted (Figure 2). Pairs 2 min. Calculator allowed.
 
 ## C — about 38 lb
 
-- Load factor in a 30° bank is **1.154**, read from the chart (it is 1 ÷ cos 30°)
+<div style="display:flex; gap:26px; align-items:center;">
+<div style="flex:1; font-size:24px;">
+
+- Find **30°** in the table, or go up from 30° to the curve: load factor **1.154**
 - 33 lb × 1.154 ≈ **38 lb**
 - 45° → 1.41; 60° → 2.0 — steep turns get expensive fast
-- Figure 20b in the reading draws all four bank angles
+- The table is the faster read; the curve shows why steep turns are risky
+
+</div>
+<div style="flex:0 0 560px;">
+
+![w:560](../part_107_license/images/w05_supp_fig02_load_factor_30deg.png)
+
+</div>
+</div>
 
 ---
 
@@ -429,7 +559,7 @@ FAA sample question, adapted (Figure 2). Pairs 2 min. Calculator allowed.
 - A **ceiling** is BKN or OVC only
 - METAR times are **Zulu**; METAR winds are **true**
 - **Surface** Class E needs authorization; 700 ft and 1,200 ft Class E don't, below 400 ft
-- MOA = hazard; restricted = permission; TFR = by NOTAM
+- MOA = hazard; restricted = permission; temporary flight restriction (TFR) = announced by NOTAM, not on the chart
 - Emergency deviations: report to the FAA **on request**; accidents: **within 10 days**
 
 ---

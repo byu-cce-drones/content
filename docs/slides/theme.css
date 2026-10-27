@@ -5,11 +5,12 @@
    from fig_tools/svgkit.py (PALETTE, FONT) so slides and figures read as one
    system. 16:9 is Marp Core's default canvas, so no size directive needed.
 
-   Four slide kinds:
+   Five slide kinds:
      default  light ground, blue accent bar down the left, ruled h1
      title    deep blue ground, white type          <!-- _class: title -->
      prompt   sky-blue ground for questions to the room  <!-- _class: prompt -->
      answer   green accent and "Answer" tag for the reveal <!-- _class: answer -->
+     chart    a prompt with a large figure beside it    <!-- _class: prompt chart -->
 */
 
 :root {
@@ -166,3 +167,36 @@ section.answer h2::before {
 }
 section.answer strong { color: var(--cce-ok-deep); }
 section.answer li::marker { color: var(--cce-ok); }
+
+/* ---------- chart question: a prompt with a large figure beside it ---------- */
+/* <!-- _class: prompt chart -->  then "# question", a "- A) ..." list of choices,
+   and one image on its own line. The image fills the right column at near
+   full slide height; question and choices stack on the left. */
+section.prompt.chart {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  grid-auto-rows: min-content;
+  align-content: center;
+  column-gap: 40px;
+  text-align: left;
+  padding: 40px 56px 50px 72px;
+}
+section.prompt.chart h1 { grid-column: 1; font-size: 34px; margin: 0 0 0.5em; }
+section.prompt.chart > ul,
+section.prompt.chart > p:not(:has(img)) { grid-column: 1; }
+section.prompt.chart ul { list-style: none; padding: 0; margin: 0; font-size: 24px; }
+section.prompt.chart li { margin: 0.4em 0; }
+section.prompt.chart li::marker { content: ""; }
+section.prompt.chart p { font-size: 22px; margin: 0 0 0.4em; }
+section.prompt.chart > p:has(img) {
+  grid-column: 2;
+  grid-row: 1 / span 4;
+  align-self: center;
+  margin: 0;
+}
+section.prompt.chart > p:has(img) img {
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  object-fit: contain;
+}

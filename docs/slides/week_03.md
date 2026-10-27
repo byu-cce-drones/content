@@ -228,7 +228,7 @@ This is the most-missed topic on the real test — about three in four people ge
 - **Register** every Part 107 aircraft, whatever it weighs, and mark the number on it
 - **Remote ID**: three ways to comply
 - **Carry** your certificate and photo ID; show them when asked (§107.7)
-- **Preflight**: weather, airspace, NOTAMs and TFRs, aircraft condition, crew briefing
+- **Preflight**: weather, airspace, **NOTAMs** (notices to air missions: the FAA's short-term changes) and **TFRs**, aircraft condition, crew briefing
 
 ---
 
