@@ -145,18 +145,19 @@ fact and **where you found it** (PDF page, section number or URL) in the Passpor
 
 The first pair to finish all ten correctly demonstrates one of its finds to the room.
 
-| # | Open this | Write this in the Passport |
-|---|---|---|
-| 1 | The course copy of the testing supplement, [FAA-CT-8080-2H (PDF)](../part_107_license/images/sport_rec_private_akts_FAA-CT-8080-2H_small.pdf) | The PDF page number of the **sectional chart legend** |
-| 2 | Supplement **Figure 26** (PDF page 59) | The name of the airport at **area 2** |
-| 3 | Supplement **Figure 12** (PDF page 46) | The station whose report is a **SPECI with rain** |
-| 4 | [AC 107-2A (PDF)](https://www.faa.gov/documentlibrary/media/Advisory_Circular/AC_107-2A.pdf){target="_blank"} — use the table of contents or search for "Declaration of Compliance" | The **chapter** that covers the Declaration of Compliance |
-| 5 | [14 CFR §107.51 on eCFR](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.51){target="_blank"} | The maximum **groundspeed**, in knots |
-| 6 | [14 CFR §107.9 on eCFR](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.9){target="_blank"} | How many **days** you have to report a safety event |
-| 7 | [PHAK chapter 15, Airspace](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-15-airspace){target="_blank"} — the page links the chapter PDF; open it | The airspace **class** that begins at 18,000 ft MSL |
-| 8 | The [FAA LAANC page](https://www.faa.gov/uas/getting_started/laanc){target="_blank"} | The name of **one approved provider** that offers public service |
-| 9 | The PSI testing site, [faa.psiexams.com](https://faa.psiexams.com/){target="_blank"} | The **menu path** to the free UAG sample test, as it appears on the site |
-| 10 | The [FAA UAG sample-question PDF](https://www.faa.gov/sites/faa.gov/files/training_testing/testing/test_questions/uag_questions.pdf){target="_blank"} | How many **questions** it has, and whether it includes an **answer key** |
+??? question "The ten finds — click to open"
+    | # | Open this | Write this in the Passport |
+    |---|---|---|
+    | 1 | The course copy of the testing supplement, [FAA-CT-8080-2H (PDF)](../part_107_license/images/sport_rec_private_akts_FAA-CT-8080-2H_small.pdf) | The PDF page number of the **sectional chart legend** |
+    | 2 | Supplement **Figure 26** (PDF page 59) | The name of the airport at **area 2** |
+    | 3 | Supplement **Figure 12** (PDF page 46) | The station whose report is a **SPECI with rain** |
+    | 4 | [AC 107-2A (PDF)](https://www.faa.gov/documentlibrary/media/Advisory_Circular/AC_107-2A.pdf){target="_blank"} — use the table of contents or search for "Declaration of Compliance" | The **chapter** that covers the Declaration of Compliance |
+    | 5 | [14 CFR §107.51 on eCFR](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.51){target="_blank"} | The maximum **groundspeed**, in knots |
+    | 6 | [14 CFR §107.9 on eCFR](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-A/section-107.9){target="_blank"} | How many **days** you have to report a safety event |
+    | 7 | [PHAK chapter 15, Airspace](https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/phak/chapter-15-airspace){target="_blank"} — the page links the chapter PDF; open it | The airspace **class** that begins at 18,000 ft MSL |
+    | 8 | The [FAA LAANC page](https://www.faa.gov/uas/getting_started/laanc){target="_blank"} | The name of **one approved provider** that offers public service |
+    | 9 | The PSI testing site, [faa.psiexams.com](https://faa.psiexams.com/){target="_blank"} | The **menu path** to the free UAG sample test, as it appears on the site |
+    | 10 | The [FAA UAG sample-question PDF](https://www.faa.gov/sites/faa.gov/files/training_testing/testing/test_questions/uag_questions.pdf){target="_blank"} | How many **questions** it has, and whether it includes an **answer key** |
 
 !!! tip "Two windows"
     For finds 1–3 and all of Part 2, keep the supplement open twice: the legend on PDF page 13 in
@@ -186,7 +187,7 @@ away.
 
 Watch for each of the five steps as the TA does them.
 
-!!! example "FAA sample question 9"
+??? example "FAA sample question 9"
     (Refer to FAA-CT-8080-2H, Figure 20, area 3.) With ATC authorization, you are operating your
     small unmanned aircraft approximately 4 SM southeast of Elizabeth City Regional Airport (ECG).
     What hazard is indicated to be in that area?
@@ -201,7 +202,7 @@ For each, write in the Passport the **figure and area you used**, your **answer*
 sentence on why**. Do not stop at the letter; the sentence is the part that transfers to the next
 question.
 
-!!! example "FAA sample question 24"
+??? example "FAA sample question 24"
     (Refer to FAA-CT-8080-2H, Figure 21.) What airport is located approximately 47 (degrees) 40
     (minutes) N latitude and 101 (degrees) 26 (minutes) W longitude?
 
@@ -209,14 +210,14 @@ question.
     B. Semshenko Airport.
     C. Garrison Airport.
 
-!!! example "FAA sample question 26"
+??? example "FAA sample question 26"
     (Refer to FAA-CT-8080-2H, Figure 12.) The wind direction and velocity at KJFK is from
 
     A. 180° true at 4 knots.
     B. 180° magnetic at 4 knots.
     C. 040° true at 18 knots.
 
-!!! example "FAA sample question 31"
+??? example "FAA sample question 31"
     (Refer to FAA-CT-8080-2H, Figure 26.) What does the line of latitude at area 4 measure?
 
     A. The degrees of latitude east and west of the Prime Meridian.
@@ -251,20 +252,21 @@ chapter 5 is the operating rules, chapter 6 the certificate, chapter 7 maintenan
 operations over people. Anything the regulations do not cover, the [Part 107 Exam](../part_107_license/faa_exam_planning_and_overview.md)
 reading does, with its own source links.
 
-| # | Question |
-|---|---|
-| 1 | Minimum flight visibility from the control station? |
-| 2 | Minimum distance below a cloud, and horizontally from it? |
-| 3 | How many hours after drinking alcohol before you may fly? |
-| 4 | Who submits a Declaration of Compliance, and for which categories of operation over people? |
-| 5 | A standard Remote ID aircraft stops broadcasting in flight. What must the person on the controls do? |
-| 6 | Which airspace classes need prior ATC authorization? |
-| 7 | How often must you complete recurrent training to keep flying under Part 107? |
-| 8 | Can a waiver allow flight over people? Which section says so? |
-| 9 | When is a drone under 0.55 lb exempt from registration? |
-| 10 | On a BYU home football game day, how far from the stadium and for how long is drone flight prohibited? |
+??? question "The ten race questions — click to open"
+    | # | Question |
+    |---|---|
+    | 1 | Minimum flight visibility from the control station? |
+    | 2 | Minimum distance below a cloud, and horizontally from it? |
+    | 3 | How many hours after drinking alcohol before you may fly? |
+    | 4 | Who submits a Declaration of Compliance, and for which categories of operation over people? |
+    | 5 | A standard Remote ID aircraft stops broadcasting in flight. What must the person on the controls do? |
+    | 6 | Which airspace classes need prior ATC authorization? |
+    | 7 | How often must you complete recurrent training to keep flying under Part 107? |
+    | 8 | Can a waiver allow flight over people? Which section says so? |
+    | 9 | When is a drone under 0.55 lb exempt from registration? |
+    | 10 | On a BYU home football game day, how far from the stadium and for how long is drone flight prohibited? |
 
-!!! question "Learning Suite Question"
+??? question "Learning Suite Question"
     Which of the ten took longest to find, and what finally led you to it: the table of contents, a
     search, or the course reading? That route is the one to remember for the test.
 
@@ -337,7 +339,7 @@ the plan filled in).
 The TA checks each plan for one thing: that every day names a resource you could open right now.
 "Study charts" is sent back.
 
-!!! question "Learning Suite Question"
+??? question "Learning Suite Question"
     What are your two weakest areas, and which single resource will you open first for each?
 
 ---
