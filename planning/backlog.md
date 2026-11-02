@@ -192,16 +192,17 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
 
 ## Final project
 
-- [ ] **Ten open decisions**, listed at the bottom of `final_project/overview.md`: team size and
-      formation, individual versus team grading, site selection, whether every team flies, all four
-      due dates, minimum ground truth, processing software, submission location, presentation length
-      and venue, and the late-work policy. Nineteen "Decision needed" admonitions are live on the
-      site across the five pages, plus five "This page is a draft" banners. Instructor 2026-09-04:
-      the project is still being worked on — leave the pages as they are and collect suggestions and
-      open questions here rather than editing the pages.
-- [ ] **Rubrics are suggestions.** Every point split in the four project pages is a proposal for the
-      instructor to confirm or replace.
-- [ ] **No AI-use policy** for the final report. Worth setting before the project is assigned.
+- [x] **Open decisions resolved 2026-11-02** (TA, from last semester's Learning Suite rubric and this
+      semester's schedule): groups of 2; four turn-in points (proposal Nov 5; flight and data
+      processing one week after the group's flight, Group A Nov 19 / Group B Nov 26; slides Dec 7;
+      memo Dec 10); nine groups present Dec 8 (1 hour, 3 groups) and Dec 10 (2 hours, 6 groups),
+      12 + 5 minutes; Bentley and QGIS; Learning Suite submission; no late work per the syllabus.
+      The final report is now a one-page technical memo, as last semester. A ground-truth check is
+      encouraged, not required. Every deliverable has a 3-criterion, 30-point rubric (10 / 8 / 5
+      or 0). Draft banners and "Decision needed" boxes removed; instructor keys updated to match.
+- [ ] **Confirm the start time for the presentation days** on the sign-up sheet (kept outside the
+      repository; it collects student names).
+- [ ] **No AI-use policy** for the technical memo.
 
 ---
 

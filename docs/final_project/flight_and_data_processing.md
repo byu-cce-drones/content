@@ -1,123 +1,101 @@
 # Flight and Data Processing
 
 !!! abstract "Key Takeaways"
-    - Fly the plan you proposed. If you change it in the field, record what you changed and why.
-    - Run the checklist. This is the deliverable where checklist habits are actually graded.
-    - Processing is not finished when the software stops. It is finished when you have checked the
-      result against something you measured yourself.
-    - Worth **5%** of your course grade, the largest single piece.
-
----
-
-!!! warning "This page is a draft"
-    Items marked **Decision needed** are still open. See
-    [Open decisions](overview.md#open-decisions).
+    - Turn-in point 2 of 4, due **one week after your group flies**: Group A Thu Nov 19, Group B
+      Thu Nov 26. Worth **5%** of your course grade, the largest piece of the project.
+    - Fly the plan you proposed. If you change something in the field, write down what and why.
+    - Run the checklists. This is where checklist habits are graded.
+    - Processing is done when you have **looked at** the result, not when the software stops.
 
 ---
 
 ## Part 1 — The flight
 
+Group A flies Thu Nov 12 and Group B flies Thu Nov 19, starting in EB B122. Coordinate the details
+with the TAs.
+
 ### Before you go
 
-- Batteries charged, SD card in and empty, controller and aircraft updated.
-- Equipment checklist complete. See the [Pre-Flight Checklist](../class_resources/flight_check_list/pre_flight/pre_general.md).
-- Supervising TA or instructor confirmed.
-- Weather checked, including wind at altitude rather than at the ground.
+- Proposal approved, and the flight plan loaded on the controller.
+- Batteries charged, SD card in and empty.
+- Supervising TA confirmed.
+- Weather checked, including the wind forecast.
 
 ### On site
 
-1. Run the site safety check and brief the team.
-2. Set up, calibrate, and confirm the mission loads correctly on the controller.
+1. Brief your partner and the TA on the site and its hazards.
+2. Run the [Pre-Flight Checklist](../class_resources/flight_check_list/pre_flight/pre_general.md).
 3. Fly the mission. Hold your roles.
-4. Fly the ground truth measurements too, or measure them physically while the aircraft is down.
-5. Run the [Post-Flight Checklist](../class_resources/flight_check_list/post_flight/post_general.md) before leaving.
+4. Take any extra photos or ground measurements you planned.
+5. Run the [Post-Flight Checklist](../class_resources/flight_check_list/post_flight/post_general.md)
+   before you leave.
 
-!!! warning "Record what actually happened"
-    Flight logs are part of the deliverable. If you changed altitude, re-flew a line, aborted for
-    wind, or swapped a battery mid-mission, write it down at the time. You will not remember two
-    weeks later, and the report needs it.
+!!! warning "Write it down at the time"
+    If you changed altitude, re-flew a line, waited out wind, or swapped a battery mid-mission, note
+    it on site. You will not remember it by the time you write the memo.
 
-### Field notes to hand in
+### Flight record to hand in
 
-- Date, time, and conditions, including wind and cloud.
-- Actual parameters flown, against the proposed ones.
-- Number of images collected.
+- Date, time, and weather (wind and cloud).
+- Settings actually flown, beside the ones you proposed.
+- Number of photos collected.
 - Anything that went wrong, and what you did about it.
-- Your ground truth measurements, raw.
 
 ---
 
 ## Part 2 — Processing
 
-!!! warning "Decision needed — software"
-    Which package teams use, and whether licences or seats are limited: _to be set_. Candidates
-    already taught in this course are Bentley iTwin and QGIS. [Using QGIS](../software/qgis_measurements.md)
-    (Week 4) and [Bentley iTwin](../software/bentley_itwin.md) (Week 7) cover both.
+Process your photos in [Bentley iTwin Capture Modeler](../software/bentley_itwin.md), as in the
+[Week 8 lab — Data Processing](../labs/5_data_processing.md). Start the same week you fly; processing
+can take hours and the lab machines are shared.
 
-### Expected products
+### Products
 
-Produce at least:
+Produce at least **two** of the following, chosen to fit your purpose:
 
 - An **orthomosaic** of the site.
-- A **digital surface model (DSM)**, or a point cloud, depending on your measurement.
-- Whatever specific product your question needs — a volume, an area, a profile, a difference map.
+- A **3D model** (mesh).
+- A **digital surface model (DSM)** or **point cloud**.
 
-The [Week 7](../weeks/week_07.md) reading, [How Photos Become 3D](../gen_reading/sfm_workflow.md), explains what each stage is doing.
+Then make the measurement or observation your project needs: a length, an area, a count of stalls,
+the extent of cracked pavement. Use [QGIS](../software/qgis_measurements.md) for measurements on the
+orthomosaic.
 
-### Check the reconstruction before you measure it
+### Check the result before you use it
 
-Look at the model before you trust it:
+[How Photos Become 3D](../gen_reading/sfm_workflow.md) explains why these happen:
 
-- Are there holes over blank asphalt, water, or glass?
-- Did anything get matched wrongly — repeating parking stall lines, grass, row crops?
-- Does the mesh web across gaps between surfaces that are not connected?
-- Does the ortho blur or double anywhere?
+- Holes over blank asphalt, water, or glass?
+- Trees or poles that came out as blobs or webs?
+- Blurry or doubled areas in the orthomosaic?
+- Did the aerotriangulation report use most of your photos?
 
-Report what you found. A team that spots a bad patch and works around it is doing better engineering
-than one that does not look.
-
----
-
-## Part 3 — The measurement and its check
-
-1. Make your measurement from the drone product.
-2. Compare it against your ground truth.
-3. Report the difference, as an absolute value **and** as a percentage.
-4. Say whether it meets the tolerance you set in your proposal.
-
-| | Drone result | Ground truth | Difference | Within tolerance? |
-|---|---|---|---|---|
-| Measurement 1 | | | | |
-| Measurement 2 | | | | |
-
-!!! tip "A disagreement is a result"
-    If your drone measurement is off by 8% and your proposal called for 5%, that is a finding, not a
-    failure. Explain where the error most likely came from. Teams lose points for hiding a
-    disagreement, not for having one.
+Note what you find. These go in the Limitations section of your memo.
 
 ---
 
-## Submission
+## Turning it in
 
-!!! warning "Decision needed — what gets handed in"
-    - Do teams submit the **processed products** themselves, or only screenshots and the report?
-      Orthomosaics are large. _to be set_
-    - **Where:** Learning Suite, Teams, or a shared drive? _to be set_
-    - **Raw images:** kept, submitted, or discarded after processing? _to be set_
-    - **Due:** _to be set_
+Upload to Learning Suite, **one submission per group**:
+
+1. Your flight record (Part 1), as a PDF.
+2. Screenshots of each product, with the whole site in view.
+3. One screenshot of your measurement or observation.
+4. A sentence or two on any problems you found in the products.
+
+Keep your processed files on the lab machine or your own drive. You will need them for the slides
+and memo, and you do not need to upload them.
 
 ---
 
 ## Grading
 
-!!! warning "Decision needed — rubric"
-    A suggested split, for the instructor to confirm:
+Scored on three criteria, 10 points each, **30 points total**. Both partners get the same score.
 
-    | Element | Points |
-    |---|---:|
-    | Flight executed safely and by checklist | 20 |
-    | Flight matches the proposal, with deviations recorded | 15 |
-    | Field notes and logs complete | 10 |
-    | Products processed correctly and inspected for defects | 25 |
-    | Measurement made and compared against ground truth | 20 |
-    | Difference reported honestly and explained | 10 |
+| Criterion | Exceeds (10) | Meets (8) | Below (5) |
+|---|---|---|---|
+| **Mission execution** | Flight matches the proposed plan, checklists used, and the mission ran smoothly, to the standard a client would expect from a contractor | Flight completed in the time given with a few hiccups, or changes from the plan not explained | Flight poorly executed, or it does not match the project |
+| **Flight record** | Complete: conditions, settings flown against settings planned, photo count, problems and fixes | Mostly complete; one or two items missing | Little or no record kept |
+| **Processed products** | At least two products that fit the purpose, a measurement made, and problems in the products noted | Products made, but no measurement or no check of their quality | One product or less, or products unusable |
+
+A part that is missing entirely scores **0**.

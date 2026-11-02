@@ -1,120 +1,83 @@
 # Final Project Overview
 
 !!! abstract "Key Takeaways"
-    - The final project is worth **15%** of your course grade, split across four deliverables.
-    - You work in a team to plan a flight, fly it, process the data, and defend a measurement.
-    - The point is not a pretty 3D model. It is answering one question: **is this data good enough
-      for the decision someone would make from it?**
-    - Every deliverable builds on the one before it, so falling behind on the proposal costs you
-      later.
-
----
-
-!!! warning "This page is a draft"
-    The structure below is settled. The items marked **Decision needed** are still open and will be
-    filled in by the instructor and TAs before the project is assigned. They are collected in
-    [Open decisions](#open-decisions) at the bottom of this page.
+    - Everything from this semester comes together: pick a civil or construction engineering
+      question, plan a flight for it, fly it, process the data, and report what you found.
+    - You work in **groups of 2**.
+    - The project has **four turn-in points**, worth **15%** of your course grade together.
+    - Each turn-in builds on the one before it, so a late or weak proposal costs you later.
 
 ---
 
 ## What the project is
 
-Your team picks a site, plans a mapping flight over it, flies it, processes the imagery into
-measurable products, and makes one **specific measurement** that someone could act on. You then
-argue in writing and out loud that your number is trustworthy.
+Imagine you have been hired as a contractor to fly a drone mission for a client: a city, a
+contractor, a property owner. Your group will:
 
-That last part is the course in miniature. Anyone can produce an orthomosaic. An engineer states how
-accurate it is, how they know, and what decision it can and cannot support.
+1. Identify a civil or construction engineering use for surveying with drones.
+2. Plan a project to collect and analyze the data for that purpose.
+3. Create a flight plan that fits the mission.
+4. Execute the flight plan.
+5. Process the data.
+6. Present your project in class.
+7. Write a brief technical memo that summarizes the results.
 
-Good project questions look like this:
+Anyone can produce an orthomosaic. What makes this an engineering project is that you can say who
+needs the data, why you flew it the way you did, and what the data can and cannot be used for.
 
-- How much material is in this stockpile, and to what tolerance?
-- How much of this site is paved, and how would that change a runoff calculation?
-- Has this slope changed since the last flight?
-- What is the area of this roof, and how does it compare to the drawings?
+### Good project ideas
 
----
-
-## Deliverables
-
-| Deliverable | Weight | Roughly when |
-|---|---:|---|
-| [Project proposal](proposal.md) | 2.5% | *Decision needed* |
-| [Flight and data processing](flight_and_data_processing.md) | 5% | *Decision needed* |
-| [Project presentation](presentation.md) | 2.5% | *Decision needed* |
-| [Final report](report.md) | 5% | *Decision needed* |
-| **Total** | **15%** | |
-
-Weights are from the [syllabus](../class_resources/syllabus.md).
+- Pavement condition on a road or parking lot, and where repairs are needed.
+- Room for more parking stalls, a trail, or a new structure on a site.
+- The area of a roof, field, or paved surface, for example for a runoff calculation.
+- The volume of a stockpile or the shape of a slope.
+- Documenting progress on a construction site.
 
 ---
 
-## Teams
+## The four turn-in points
 
-!!! warning "Decision needed — team formation"
-    - **Team size:** _to be set_ (suggested: 3 to 4, so every member can hold a role during the
-      flight).
-    - **How teams are formed:** self-selected, assigned, or by lab section? _to be set_
-    - **Roles:** does each member take a named role — pilot, visual observer, data manager,
-      note-taker — and do the roles rotate? _to be set_
-    - **Individual accountability:** is any part of the grade individual, or is it all team? _to be
-      set_
+| # | Turn-in | Weight | Due |
+|---|---|---:|---|
+| 1 | [Project Proposal](proposal.md) | 2.5% | Thu, Nov 5 (lab) |
+| 2 | [Flight and Data Processing](flight_and_data_processing.md) | 5% | One week after your flight |
+| 3 | [Project Presentation](presentation.md) | 2.5% | Slides due Mon, Dec 7. Present Dec 8 or Dec 10 |
+| 4 | [Technical Memo](report.md) | 5% | Thu, Dec 10 |
+| | **Total** | **15%** | |
 
----
-
-## Site selection
-
-!!! warning "Decision needed — sites"
-    - **Do teams choose a site, or is one assigned?** _to be set_
-    - **Approved site list:** _to be set_. Rock Canyon Park is already used in the flight planning
-      lab and is a candidate.
-    - **Airspace:** any site must be checked before it is approved. Teams should be required to show
-      the airspace check in the proposal.
-    - **Do all teams fly, or do some teams share a data set?** _to be set_. This matters for
-      scheduling, because only one larger drone may be airborne per certified TA or instructor at a
-      time.
+The full week-by-week plan is on the [Final Weeks Schedule](schedule.md). Weights are from the
+[syllabus](../class_resources/syllabus.md). Final project work cannot be turned in late.
 
 ---
 
-## Ground truth
+## Groups and flights
 
-Every project needs at least one **independent check** — a measurement made a different way, that
-the drone result can be compared against. A taped distance, a paced dimension, a published drawing,
-or a stall count all work.
+- Groups are **2 students**. Both members get the same score, except on the presentation, where a
+  student who does not present gets a zero.
+- Each group flies on its **lab group's flight day**: Group A on Thu, Nov 12, Group B on Thu, Nov 19,
+  in EB B122 and the field.
+- Coordinate the details of your flight with the TAs. Every flight must have a certified TA or
+  instructor supervising, and only one larger drone can be in the air per TA at a time.
+- If you need more lab time to process your data, contact the TAs.
 
-Without it you have a number with no error bar, and there is nothing to defend.
+---
 
-!!! warning "Decision needed — required ground truth"
-    Set a minimum: for example, *at least two independent check measurements, at least one made
-    physically on site*. _to be set_
+## Software
+
+Process your images with [Bentley iTwin Capture Modeler](../software/bentley_itwin.md) and measure
+with [QGIS](../software/qgis_measurements.md), the same tools you used in the Week 7 and Week 4 labs.
 
 ---
 
 ## What good work looks like
 
-- The measurement answers a question someone would actually ask.
-- The flight plan matches the accuracy needed, and the report says why those parameters were chosen.
-- The result is compared against ground truth, and the difference is reported honestly, including
-  when it is disappointing.
-- The team states plainly what the data cannot support.
+- The project answers a question someone would actually ask.
+- The flight plan is made **before** flying, and each setting has a reason.
+- The mission runs smoothly, at a standard a client would accept from a contractor.
+- The results are shown with clear figures, and the group says plainly what went wrong and what the
+  data cannot support.
 
-A project that reports a 3% disagreement and explains it will score better than one that reports no
-disagreement and cannot say why.
-
----
-
-## Open decisions
-
-Collected for the instructor and TAs. Delete this section once they are resolved.
-
-1. Team size, formation method, and whether roles are assigned.
-2. Whether any portion of the grade is individual rather than team.
-3. Site selection: assigned or chosen, and the approved list.
-4. Whether every team flies, or some share data.
-5. Due dates for all four deliverables.
-6. Minimum required ground-truth measurements.
-7. Which processing software teams use, and whether licences are seat-limited.
-8. Where teams submit: Learning Suite, Teams, or a shared drive.
-9. Whether the presentation happens in lecture or lab, and how long it runs.
-10. Late-work policy for project deliverables, which the syllabus currently excludes from late
-    submission.
+!!! tip "Check one number"
+    It is not required, but the strongest projects compare one drone measurement against something
+    measured another way: a taped distance, a stall count, or a dimension from a plan. Report the
+    difference in your memo. See [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md).

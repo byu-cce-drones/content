@@ -103,7 +103,7 @@ nav:
       - Project Proposal: final_project/proposal.md
       - Flight and Data Processing: final_project/flight_and_data_processing.md
       - Project Presentation: final_project/presentation.md
-      - Final Report: final_project/report.md
+      - Final Report (Technical Memo): final_project/report.md
 
   - Reference:
       - Lecture Slides: class_resources/lecture_slides.md

@@ -1,95 +1,78 @@
 # Project Presentation
 
 !!! abstract "Key Takeaways"
-    - Short, visual, and specific. Show the site, the products, the number, and the check.
-    - Every team member speaks.
-    - Expect to be asked "how do you know?" about your measurement. Have the answer ready.
-    - Worth **2.5%** of your course grade.
+    - Turn-in point 3 of 4. Slides due **Mon, Dec 7**; present on **Tue Dec 8** or **Thu Dec 10** in
+      EB 321. Worth **2.5%** of your course grade.
+    - **12 minutes** to present, then **5 minutes** of questions.
+    - Both partners present. **A student who does not present receives a zero.**
+    - Present as a contractor reporting to a client: what you did, what you found, and what it
+      means.
 
 ---
 
-!!! warning "This page is a draft"
-    Items marked **Decision needed** are still open. See
-    [Open decisions](overview.md#open-decisions).
+## Days and sign-up
+
+Nine groups present over two days:
+
+| Day | Length | Groups |
+|---|---|---|
+| Tue, Dec 8 | 1 hour | 3 |
+| Thu, Dec 10 | 2 hours | 6 |
+
+Sign up for a slot on the sheet the TAs share. Be in the room for the whole session on your day,
+not just your slot.
 
 ---
 
-## Purpose
+## Required sections
 
-You are presenting to people who will decide whether to believe your number. That is a normal
-engineering situation: a client, a reviewer, or an inspector who was not there when you collected
-the data.
+The presentation must cover each of these:
 
----
-
-## Suggested structure
-
-!!! warning "Decision needed — length and format"
-    - **Time:** _to be set_ (suggested: 6 to 8 minutes plus 2 minutes of questions).
-    - **Slides:** _to be set_ (suggested: 6 to 8).
-    - **Where:** lecture or lab? _to be set_
-    - **When:** _to be set_
-
-A structure that fits that length:
-
-| Slide | Content |
+| Section | What to show |
 |---|---|
-| 1 | The question, and the site. One image. |
-| 2 | The flight plan, and why those parameters |
-| 3 | What actually happened in the field, including anything that went wrong |
-| 4 | The products: orthomosaic, DSM, or point cloud |
-| 5 | The measurement |
-| 6 | The ground truth check, and the difference |
-| 7 | What the data can and cannot support |
+| **Project introduction and purpose** | The client, the problem, and the site. One image of the site. |
+| **Flight plan** | Your settings and why you chose them. |
+| **Mission execution** | What actually happened in the field, including anything that went wrong. |
+| **Data results and summary** | Your products and your measurement or observation. Use your own images. |
+| **Conclusion** | What you recommend, and what the data can and cannot support. |
 
----
-
-## What to show, and what to skip
-
-**Show:**
-
-- The site, so the audience knows where they are.
-- Your actual products, not stock images.
-- The comparison table between your measurement and your check.
-- The defects you found, if any.
-
-**Skip:**
-
-- A history of photogrammetry.
-- Long explanations of how the software works.
-- Reading your slides aloud.
+About 8 to 12 slides fits 12 minutes.
 
 !!! tip "Lead with the answer"
-    Say the number in the first thirty seconds, then spend the rest of the time justifying it. Do
-    not save it for a reveal at the end.
+    Say your main finding in the first minute, then spend the rest of the time showing how you got
+    it. Do not save it for a reveal at the end.
 
 ---
 
-## Questions to expect
+## What to show and what to skip
 
-Be ready for these. They are the questions a reviewer would actually ask.
+**Show:** the site, your actual products, your measurement, and any problems you found.
 
-- How accurate is that number, and how do you know?
-- What did you compare it against?
-- What would you do differently if you flew it again?
-- Would you sign off on a decision based on this data?
-- What is the biggest source of error in your result?
+**Skip:** a history of drones, long explanations of how the software works, and reading your slides
+aloud.
+
+### Questions to expect
+
+- Why did you choose that altitude and overlap?
+- What would you change if you flew it again?
+- How sure are you of that measurement?
+- What can the client **not** decide from this data?
+
+---
+
+## Turning it in
+
+Upload your slides (PDF or PPTX) to Learning Suite by **Monday, Dec 7**, one submission per group.
+Present from the uploaded file.
 
 ---
 
 ## Grading
 
-!!! warning "Decision needed — rubric"
-    A suggested split, for the instructor to confirm:
+Scored on three criteria, 10 points each, **30 points total**.
 
-    | Element | Points |
-    |---|---:|
-    | Question and site are clear | 15 |
-    | Flight and processing explained at the right level | 20 |
-    | Results shown visually and specifically | 25 |
-    | Accuracy and ground truth addressed | 25 |
-    | All members participate, timing respected | 15 |
-
-!!! warning "Decision needed — peer evaluation"
-    Do teammates evaluate each other's contribution, and does it affect individual grades?
-    _to be set_
+| Criterion | Exceeds (10) | Meets (8) | Below (0) |
+|---|---|---|---|
+| **Content** | All five required sections, each clear and supported by your own images | Most sections present; one is missing or thin | Most sections missing, or no presentation |
+| **Professional and informative** | Organized, on time, readable slides, and questions answered well | Professional, but runs long or short, or questions answered weakly | Disorganized or not professional |
+| **Participation** *(scored per student)* | Both partners present equally | Partners do not contribute equally | Did not present: **0 for the whole assignment** |

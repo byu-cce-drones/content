@@ -1,111 +1,96 @@
 # Project Proposal
 
 !!! abstract "Key Takeaways"
-    - The proposal is where you commit to a **question**, not just a site.
-    - You must show the flight is legal and safe before you are approved to fly.
-    - State the accuracy you need *before* you collect data. Deciding afterwards is how people talk
-      themselves into a number.
-    - Worth **2.5%** of your course grade.
-
----
-
-!!! warning "This page is a draft"
-    Items marked **Decision needed** are still open. See
-    [Open decisions](overview.md#open-decisions).
+    - Turn-in point 1 of 4, due in lab **Thu, Nov 5**. Worth **2.5%** of your course grade.
+    - Commit to a **purpose**, not just a site: who needs this data, and what will they decide with it?
+    - Make the flight plan **now**, before you fly. Every setting needs a reason.
+    - Your group is not cleared to fly until the TAs approve the proposal.
 
 ---
 
 ## Purpose
 
-The proposal is your team's plan, submitted before you fly. Its job is to prove three things:
+The proposal is your group's plan, written before you fly. It shows three things:
 
-1. You have a real question that a measurement can answer.
-2. You know how accurate the answer needs to be.
-3. The flight is legal, safe, and achievable in the time available.
+1. You picked a real civil or construction engineering use for drone data.
+2. You know what data you need and how you will collect it.
+3. The flight is legal, safe, and doable in your lab time.
 
-Approval to fly depends on this document.
+You will spend most of the Thursday Nov 5 lab writing it with your partner and talking it over with a
+TA.
 
 ---
 
 ## Required sections
 
-### 1. The question
+Keep it to about **one page** plus your flight plan screenshot and Mission Log.
 
-One or two sentences. What are you measuring, and who would care about the answer?
+### 1. Project and purpose
 
-> *Example: We will measure the volume of the gravel stockpile at the north end of the lot, so the
-> quantity can be checked against the delivery ticket.*
+Two or three sentences. Who is the client, what is the problem, and what will your data help them
+decide?
 
-### 2. The site
+> *Example: Provo City wants to repave the upper Rock Canyon Park road and add parking. We will map
+> the road and parking area so the city can locate the worst pavement failures and see where new
+> stalls would fit.*
 
-- Where it is, with a map or image.
-- Why it suits the question.
-- Hazards: people, roads, trees, power lines, buildings, parking.
+### 2. Site
 
-### 3. Airspace and legality
+- Where it is, with a map or screenshot showing the area you will fly.
+- Why it suits your purpose.
+- Hazards: people, roads, trees, power lines, buildings, parked cars.
 
-- Airspace class, and any controlled airspace or LAANC requirement.
-- Whether the site is over people or a moving roadway.
-- Confirmation that a Part 107 certified TA or instructor will supervise.
+### 3. Airspace and safety
 
-!!! warning "You cannot fly without this section approved"
-    A proposal with an incomplete airspace check will be returned. This is the same check you would
-    do on a real job.
+- Airspace class, and whether LAANC authorization is needed.
+- Whether you will be over people or moving vehicles, and how you will avoid it.
+- Which TA or instructor will supervise. Every flight needs a certified pilot present.
 
-### 4. Accuracy required
+### 4. Flight plan
 
-State the tolerance the answer needs, and why. "Within 5%" is an answer. "As accurate as possible"
-is not.
+Build the mission in the class flight planner, the same way you did in the
+[Week 6 lab — Creating Flight Plans](../labs/3_creating_flight_plans.md). Fill in one column of the
+[Mission Log](../labs/files/lab03_mission_log.xlsx) for it, and give a reason for each of these:
 
-Then state the flight parameters that follow from it:
-
-| Parameter | Your value | Why |
+| Setting | Your value | Why |
 |---|---|---|
-| Altitude (AGL) | | |
+| Altitude (AGL, above ground level) | | |
 | Ground sample distance (GSD) | | |
-| Forward overlap | | |
+| Front overlap | | |
 | Side overlap | | |
-| Camera angle | | |
-| Estimated flight time | | |
+| Gimbal angle | | |
+| Flight pattern (grid, double grid, orbit) | | |
+| Estimated flight time and batteries | | |
 
-The [Week 6](../weeks/week_06.md) reading, [Planning the Flight](../gen_reading/mission_planning_sfm.md), covers how these connect.
+[Planning the Flight](../gen_reading/mission_planning_sfm.md) explains how these connect.
 
-### 5. Ground truth plan
+### 5. Products and roles
 
-What independent measurements will you make, and how? See
-[Ground truth](overview.md#ground-truth).
-
-### 6. Team and roles
-
-Who is on the team, and who does what during the flight.
-
-### 7. Schedule
-
-When you will fly, and your backup date. Weather will eventually cost someone their first attempt.
+- Which products you will make: orthomosaic, 3D model, DSM, point cloud.
+- What you will measure or show from them.
+- Who will pilot, who will be the visual observer, and who will handle the data.
 
 ---
 
-## Format and submission
+## Turning it in
 
-!!! warning "Decision needed — format"
-    - **Length:** _to be set_ (suggested: 2 pages, or a short slide deck).
-    - **Submitted where:** _to be set_.
-    - **Due:** _to be set_.
-    - **Approval turnaround:** how long before teams hear back, and can they revise and resubmit?
-      _to be set_
+Upload **one PDF per group** to Learning Suite, plus the flight plan file (KMZ) and your Mission
+Log. Both partners' names go on the first line.
 
 ---
 
 ## Grading
 
-!!! warning "Decision needed — rubric"
-    A suggested split, for the instructor to confirm:
+Scored on three criteria, 10 points each, **30 points total**. Both partners get the same score.
 
-    | Element | Points |
-    |---|---:|
-    | Question is specific and answerable | 20 |
-    | Site description and hazards | 15 |
-    | Airspace and safety check complete | 25 |
-    | Required accuracy stated, with flight parameters that follow from it | 25 |
-    | Ground truth plan | 10 |
-    | Team, roles, and schedule | 5 |
+| Criterion | Exceeds (10) | Meets (8) | Below (5) |
+|---|---|---|---|
+| **Project and purpose** | A relevant civil or construction project with a clear client and a clear use for the data | Relevant project, but the purpose or client is vague | Project is not relevant to civil or construction engineering, or no purpose is given |
+| **Site, airspace, and safety** | Site shown, hazards listed, airspace checked, supervising TA named | Most items present; one is missing or thin | Airspace not checked, or several items missing |
+| **Flight plan** | Plan built in advance, every setting has a reason, and the settings fit the purpose | Plan built, but some settings are unexplained or do not fit | No plan, or the plan does not match the project |
+
+A section that is missing entirely scores **0**.
+
+!!! warning "Airspace is the gate"
+    A proposal whose flight would not be legal is returned, whatever else it does well. Fix it and
+    resubmit before your flight day.
