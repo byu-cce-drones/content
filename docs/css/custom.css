@@ -45,11 +45,20 @@
     height: auto;
 }
 
-/* wide tables scroll inside themselves instead of stretching the page */
+/* tables fit the page width: cells wrap their text (the theme sets nowrap) so a
+   wide table shrinks with the window instead of needing a sideways scroll. The
+   theme's .wy-table-responsive wrapper still scrolls if a table truly cannot fit. */
 .rst-content table {
-    display: block;
-    overflow-x: auto;
     max-width: 100%;
+}
+
+.rst-content table td,
+.rst-content table th,
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+    white-space: normal !important;
+    word-break: normal;
+    overflow-wrap: break-word;
 }
 
 /* below the breakpoint, let everything use the full screen again */
