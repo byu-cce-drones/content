@@ -4,6 +4,8 @@
     - Turn-in point 1 of 4, due in lab **Thu, Nov 5**. Worth **2.5%** of your course grade.
     - Commit to a **purpose**, not just a site: who needs this data, and what will they decide with it?
     - Make the flight plan **now**, before you fly. Every setting needs a reason.
+    - Your whole trip, from EB B122 to the site and back, has to fit in **50 minutes**.
+    - Finding out what permissions you need is **your** job.
     - Your group is not cleared to fly until the TAs approve the proposal.
 
 ---
@@ -14,7 +16,9 @@ The proposal is your group's plan, written before you fly. It shows three things
 
 1. You picked a real civil or construction engineering use for drone data.
 2. You know what data you need and how you will collect it.
-3. The flight is legal, safe, and doable in your lab time.
+3. The flight is legal, safe, and doable in your 50-minute trip.
+
+Need an idea? See [Example Projects](project_ideas.md).
 
 You will spend most of the Thursday Nov 5 lab writing it with your partner and talking it over with a
 TA.
@@ -40,13 +44,42 @@ decide?
 - Why it suits your purpose.
 - Hazards: people, roads, trees, power lines, buildings, parked cars.
 
-### 3. Airspace and safety
+### 3. Airspace, permissions, and safety
 
-- Airspace class, and whether LAANC authorization is needed.
-- Whether you will be over people or moving vehicles, and how you will avoid it.
-- Which TA or instructor will supervise. Every flight needs a certified pilot present.
+Figure out every permission your flight needs, and how you will get it before flight day:
 
-### 4. Flight plan
+- **Airspace:** the airspace class, and whether LAANC (Low Altitude Authorization and Notification
+  Capability) authorization is needed. Most of campus is in Provo's Class D airspace. If you need
+  LAANC, **work with a TA** to submit it; they hold the Part 107 certificate it is filed under.
+- **Property:** who owns the site. Private property, active construction sites, and some campus
+  areas need the owner's OK. Get it in writing (an email is fine).
+- **People and traffic:** whether you will be over people or moving vehicles, and how you will
+  avoid it.
+
+Every flight is supervised by a certified TA or instructor. Proof of permission is graded in the
+[Flight and Data Processing](flight_and_data_processing.md) turn-in.
+
+### 4. Time budget
+
+Each lab has two trips, **8:00–8:50** and **9:00–9:50**. Your group meets at **EB B122** at the
+start of its trip, and the drone has to be back for the next trip. Plan every minute:
+
+| Step | Minutes |
+|---|---:|
+| Check out drone at EB B122 | |
+| Travel to site | |
+| Set up and pre-flight checklist | |
+| Flight time (from your plan) | |
+| Extra photos or ground measurements | |
+| Post-flight checklist and pack up | |
+| Travel back to EB B122 | |
+| **Total (50 or less)** | |
+
+!!! tip "Leave a margin"
+    Plan for 40 minutes, not 50. Wind, a pedestrian, or a battery swap will use the rest. A site
+    within walking distance of the Engineering Building makes this much easier.
+
+### 5. Flight plan
 
 Build the mission in the class flight planner, the same way you did in the
 [Week 6 lab — Creating Flight Plans](../labs/3_creating_flight_plans.md). Fill in one column of the
@@ -54,6 +87,7 @@ Build the mission in the class flight planner, the same way you did in the
 
 | Setting | Your value | Why |
 |---|---|---|
+| Drone (Mini, Thermal, or Multispectral), and a backup | | |
 | Altitude (AGL, above ground level) | | |
 | Ground sample distance (GSD) | | |
 | Front overlap | | |
@@ -64,7 +98,10 @@ Build the mission in the class flight planner, the same way you did in the
 
 [Planning the Flight](../gen_reading/mission_planning_sfm.md) explains how these connect.
 
-### 5. Products and roles
+Only one of each drone is out per trip, and the thermal and multispectral drones go fast. Name a
+backup drone in case yours is taken. See [Drones](overview.md#drones).
+
+### 6. Products and roles
 
 - Which products you will make: orthomosaic, 3D model, DSM, point cloud.
 - What you will measure or show from them.
@@ -86,11 +123,11 @@ Scored on three criteria, 10 points each, **30 points total**. Both partners get
 | Criterion | Exceeds (10) | Meets (8) | Below (5) |
 |---|---|---|---|
 | **Project and purpose** | A relevant civil or construction project with a clear client and a clear use for the data | Relevant project, but the purpose or client is vague | Project is not relevant to civil or construction engineering, or no purpose is given |
-| **Site, airspace, and safety** | Site shown, hazards listed, airspace checked, supervising TA named | Most items present; one is missing or thin | Airspace not checked, or several items missing |
+| **Site, permissions, and time** | Site shown, hazards listed, airspace checked, every needed permission named with a plan to get it, and a time budget of 50 minutes or less | Most items present; one is missing or thin | Airspace or permissions not checked, no time budget, or several items missing |
 | **Flight plan** | Plan built in advance, every setting has a reason, and the settings fit the purpose | Plan built, but some settings are unexplained or do not fit | No plan, or the plan does not match the project |
 
 A section that is missing entirely scores **0**.
 
-!!! warning "Airspace is the gate"
-    A proposal whose flight would not be legal is returned, whatever else it does well. Fix it and
-    resubmit before your flight day.
+!!! warning "Airspace and time are the gates"
+    A proposal whose flight would not be legal, or that cannot fit in a 50-minute trip, is returned,
+    whatever else it does well. Fix it and resubmit before your flight day.

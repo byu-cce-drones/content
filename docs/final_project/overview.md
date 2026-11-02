@@ -27,6 +27,8 @@ needs the data, why you flew it the way you did, and what the data can and canno
 
 ### Good project ideas
 
+[Example Projects](project_ideas.md) has more, with notes on what went wrong for past groups.
+
 - Pavement condition on a road or parking lot, and where repairs are needed.
 - Room for more parking stalls, a trail, or a new structure on a site.
 - The area of a roof, field, or paved surface, for example for a runoff calculation.
@@ -54,11 +56,27 @@ The full week-by-week plan is on the [Final Weeks Schedule](schedule.md). Weight
 
 - Groups are **2 students**. Both members get the same score, except on the presentation, where a
   student who does not present gets a zero.
-- Each group flies on its **lab group's flight day**: Group A on Thu, Nov 12, Group B on Thu, Nov 19,
-  in EB B122 and the field.
-- Coordinate the details of your flight with the TAs. Every flight must have a certified TA or
-  instructor supervising, and only one larger drone can be in the air per TA at a time.
+- Each group signs up for **one 50-minute trip**: 8:00–8:50 or 9:00–9:50 on Thu Nov 12 (5 groups)
+  or Thu Nov 19 (4 groups), on the [flight sign-up sheet](https://docs.google.com/spreadsheets/d/1-hEvm97lUHL3hY51JkCKc-cPAqJRwi-Ihlb1KQrEZ54/edit?usp=sharing). Be at **EB B122** by the start of
+  your trip; it leaves on time, and the trip covers travel, flying, and getting back.
+- Your group works out what permissions the flight needs. If it needs LAANC authorization, a TA
+  files it with you.
+- Every flight has a certified TA or instructor supervising, and only one larger drone can be in the
+  air per TA at a time.
 - If you need more lab time to process your data, contact the TAs.
+
+### Drones
+
+One of each drone is available at a time:
+
+| Drone | Use it for |
+|---|---|
+| **Mini** | Regular photos: orthomosaics, 3D models, areas, counts |
+| **Thermal** (Autel) | Regular photos, plus thermal images: roofs, pavement, moisture |
+| **Multispectral** | Vegetation health (NDVI), plus regular photos |
+
+So each trip can fly at most three groups, one per drone. The thermal and multispectral drones are
+in the most demand. **If your project only needs regular photos, plan on the Mini.**
 
 ---
 

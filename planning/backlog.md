@@ -200,6 +200,20 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       The final report is now a one-page technical memo, as last semester. A ground-truth check is
       encouraged, not required. Every deliverable has a 3-criterion, 30-point rubric (10 / 8 / 5
       or 0). Draft banners and "Decision needed" boxes removed; instructor keys updated to match.
+- [x] **2026-11-02, second pass:** Example Projects page (ideas drawn from spring 2026 reports, no
+      student names or images), Example Technical Memo on the EB east lot using the class
+      orthophoto screenshots (client, flight details, costs and the taped check are illustrative and
+      the page says so), proposal gains a 50-minute trip time budget and a permissions section,
+      Flight and Data Processing reweighted to 50 points toward output (products 25, raw data 10,
+      plan and permissions 10, attendance at EB B122 5). Flights: 5 groups Nov 12, 4 groups Nov 19,
+      trips 8:00–8:50 and 9:00–9:50. Sign-up sheet kept outside the repository.
+- [x] **2026-11-02, third pass:** attendance is all-or-nothing at the trip's start time (no late
+      credit; if neither partner shows, the group reschedules with a TA). One Mini, one Thermal
+      (Autel) and one Multispectral per trip, so groups sign up for a drone on a trip; Drones table on
+      the overview, backup drone in the proposal. `fig_tools/make_flight_signup.py` builds the blank
+      sign-up sheet each semester (edit its dates and trips); the filled sheet lives in Google Sheets.
+- [ ] **Raw-data shared folder:** the Flight and Data Processing page says the TAs post its link on
+      Teams. Create the folder and post the link before Nov 12.
 - [ ] **Confirm the start time for the presentation days** on the sign-up sheet (kept outside the
       repository; it collects student names).
 - [ ] **No AI-use policy** for the technical memo.

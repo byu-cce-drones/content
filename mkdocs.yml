@@ -100,10 +100,12 @@ nav:
   - Weeks 10-15 — Final Project Planning:
       - Final Weeks Schedule: final_project/schedule.md
       - Project Overview: final_project/overview.md
+      - Example Projects: final_project/project_ideas.md
       - Project Proposal: final_project/proposal.md
       - Flight and Data Processing: final_project/flight_and_data_processing.md
       - Project Presentation: final_project/presentation.md
       - Final Report (Technical Memo): final_project/report.md
+      - Example Technical Memo: final_project/example_memo.md
 
   - Reference:
       - Lecture Slides: class_resources/lecture_slides.md

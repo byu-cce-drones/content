@@ -1,42 +1,49 @@
 # Flight and Data Processing
 
 !!! abstract "Key Takeaways"
-    - Turn-in point 2 of 4, due **one week after your group flies**: Group A Thu Nov 19, Group B
-      Thu Nov 26. Worth **5%** of your course grade, the largest piece of the project.
-    - Fly the plan you proposed. If you change something in the field, write down what and why.
-    - Run the checklists. This is where checklist habits are graded.
-    - Processing is done when you have **looked at** the result, not when the software stops.
+    - Turn-in point 2 of 4, due **one week after your group flies**: Thu Nov 19 if you fly Nov 12,
+      Thu Nov 26 if you fly Nov 19. Worth **5%** of your course grade, the largest piece of the
+      project.
+    - Most of the points are for **output**: processed products uploaded and raw data shared.
+    - Be at **EB B122** by the start of your trip. The trip leaves on time, with or without you.
+    - Have your permissions in hand before flight day. If you need LAANC, work it out with a TA
+      ahead of time.
 
 ---
 
-## Part 1 — The flight
+## Part 1 — Flight day
 
-Group A flies Thu Nov 12 and Group B flies Thu Nov 19, starting in EB B122. Coordinate the details
-with the TAs.
+Each lab runs **two trips**: 8:00–8:50 and 9:00–9:50. Sign up for one on the [flight sign-up sheet](https://docs.google.com/spreadsheets/d/1-hEvm97lUHL3hY51JkCKc-cPAqJRwi-Ihlb1KQrEZ54/edit?usp=sharing). You have
+**50 minutes** to leave EB B122, fly, and get back.
 
-### Before you go
+### Before flight day
 
-- Proposal approved, and the flight plan loaded on the controller.
-- Batteries charged, SD card in and empty.
-- Supervising TA confirmed.
-- Weather checked, including the wind forecast.
+- Proposal approved, and the flight plan built in the planner.
+- **Permissions secured:** LAANC authorization through a TA if your site needs it, and the
+  property owner's OK if the site is private or an active construction site.
+- Weather forecast checked, including wind.
 
-### On site
+### On flight day
 
-1. Brief your partner and the TA on the site and its hazards.
-2. Run the [Pre-Flight Checklist](../class_resources/flight_check_list/pre_flight/pre_general.md).
-3. Fly the mission. Hold your roles.
-4. Take any extra photos or ground measurements you planned.
-5. Run the [Post-Flight Checklist](../class_resources/flight_check_list/post_flight/post_general.md)
-   before you leave.
+1. **Be at EB B122 by the start of your trip.** The TA checks you in and you pick up the drone. The
+   trip leaves on time: a partner who is not there is left behind and gets 0 for attendance. If
+   **neither** partner is there, the group gets 0 for attendance and has to find a new time to fly
+   with a TA.
+2. Travel to the site.
+3. Brief your partner and the TA on the site and its hazards, then run the
+   [Pre-Flight Checklist](../class_resources/flight_check_list/pre_flight/pre_general.md).
+4. Fly the mission. Hold your roles.
+5. Take any extra photos or ground measurements you planned.
+6. Run the [Post-Flight Checklist](../class_resources/flight_check_list/post_flight/post_general.md)
+   and head back. The next trip needs the drone.
 
 !!! warning "Write it down at the time"
     If you changed altitude, re-flew a line, waited out wind, or swapped a battery mid-mission, note
-    it on site. You will not remember it by the time you write the memo.
+    it on site. You will need it for the memo.
 
-### Flight record to hand in
+### Flight record
 
-- Date, time, and weather (wind and cloud).
+- Date, trip time, and weather (wind and cloud).
 - Settings actually flown, beside the ones you proposed.
 - Number of photos collected.
 - Anything that went wrong, and what you did about it.
@@ -51,7 +58,7 @@ can take hours and the lab machines are shared.
 
 ### Products
 
-Produce at least **two** of the following, chosen to fit your purpose:
+Produce at least **two** of the following, chosen to fit your project:
 
 - An **orthomosaic** of the site.
 - A **3D model** (mesh).
@@ -59,7 +66,7 @@ Produce at least **two** of the following, chosen to fit your purpose:
 
 Then make the measurement or observation your project needs: a length, an area, a count of stalls,
 the extent of cracked pavement. Use [QGIS](../software/qgis_measurements.md) for measurements on the
-orthomosaic.
+orthomosaic, and set the project CRS to EPSG:32612 first.
 
 ### Check the result before you use it
 
@@ -68,7 +75,7 @@ orthomosaic.
 - Holes over blank asphalt, water, or glass?
 - Trees or poles that came out as blobs or webs?
 - Blurry or doubled areas in the orthomosaic?
-- Did the aerotriangulation report use most of your photos?
+- Did aerotriangulation use most of your photos?
 
 Note what you find. These go in the Limitations section of your memo.
 
@@ -76,26 +83,28 @@ Note what you find. These go in the Limitations section of your memo.
 
 ## Turning it in
 
-Upload to Learning Suite, **one submission per group**:
+**Learning Suite**, one submission per group:
 
-1. Your flight record (Part 1), as a PDF.
-2. Screenshots of each product, with the whole site in view.
-3. One screenshot of your measurement or observation.
-4. A sentence or two on any problems you found in the products.
+1. Your **flight record**, as a PDF.
+2. Your **proof of permission**: a screenshot of the LAANC approval, an email from the property
+   owner, or one sentence saying why none was needed.
+3. **Processed images:** a screenshot of each product with the whole site in view, a screenshot of
+   your measurement or observation, and a sentence or two on any problems you found.
 
-Keep your processed files on the lab machine or your own drive. You will need them for the slides
-and memo, and you do not need to upload them.
+**Raw data**, in the class shared folder (the TAs post the link on Teams):
+
+- A folder named for your project, holding **all the original photos** from the flight, unedited.
 
 ---
 
 ## Grading
 
-Scored on three criteria, 10 points each, **30 points total**. Both partners get the same score.
+**50 points total.** Both partners get the same score, except attendance, which is scored per
+student.
 
-| Criterion | Exceeds (10) | Meets (8) | Below (5) |
-|---|---|---|---|
-| **Mission execution** | Flight matches the proposed plan, checklists used, and the mission ran smoothly, to the standard a client would expect from a contractor | Flight completed in the time given with a few hiccups, or changes from the plan not explained | Flight poorly executed, or it does not match the project |
-| **Flight record** | Complete: conditions, settings flown against settings planned, photo count, problems and fixes | Mostly complete; one or two items missing | Little or no record kept |
-| **Processed products** | At least two products that fit the purpose, a measurement made, and problems in the products noted | Products made, but no measurement or no check of their quality | One product or less, or products unusable |
-
-A part that is missing entirely scores **0**.
+| Criterion | Points | Full credit | Partial credit | No credit |
+|---|---:|---|---|---|
+| **Mission plan and permissions** | 10 | Flight matches the approved plan, changes recorded with reasons, permission shown, flight record complete | Flown, but changes unexplained, flight record thin, or permission proof missing (5) | Required permission not obtained, or no record (0) |
+| **Flight attendance** *(per student)* | 5 | At EB B122 by the trip's start time and on site for the flight | — | Not at B122 when the trip leaves (0). If neither partner is there, the group must reschedule with a TA |
+| **Processed products** | 25 | At least two products that fit the project, a measurement or observation made, and problems in the products noted | One product, or products with no measurement (15) | No processed products uploaded (0) |
+| **Raw data shared** | 10 | Every original photo in the shared folder, in a folder named for the project | Some photos missing or folder hard to identify (5) | Not shared (0) |

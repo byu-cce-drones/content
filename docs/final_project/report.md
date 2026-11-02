@@ -60,15 +60,8 @@ Your answer and your recommendation, in two or three sentences.
 
 ## An example
 
-The example memo from last semester is posted with the assignment in Learning Suite. It shows the
-format and length: a Rock Canyon Park road and parking study for Provo City, with a 3D model
-screenshot, a pavement-failure figure, and a proposed parking area.
-
-Read it for the format, and do better on two points:
-
-- **Explain every setting.** The example lists its overlap and gimbal angle but says little about why.
-- **Proofread.** Check that the figure captions show their numbers and that names are spelled right
-  (Bentley iTwin).
+See the [Example Technical Memo](example_memo.md): a resurfacing estimate for the parking lot east of
+the Engineering Building, with notes on why each section is written the way it is.
 
 ---
 
