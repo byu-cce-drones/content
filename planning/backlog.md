@@ -42,6 +42,11 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   the app and drone for DJI's ascending-circle tower mission on the slides and Example Projects if
   wanted (they say "a TA sets it up"). Also noticed: `week_09.md` links site pages as `.md`, which
   do not resolve from the published `slides/week_09.html`; use `../section/page/` instead.
+  The roof-heat-loss slides and Example Projects entry send students to
+  `github.com/gus-p-williams/autel-thermal`, still private on 2026-11-03 (instructor: public soon).
+  Until it is, the `pip install` line asks for a GitHub sign-in and the link 404s; the page says
+  "ask a TA". Once public, drop that sentence from `project_ideas.md` and the speaker note on the
+  deck's autel-thermal slide.
 - **Week 9 lab follow-ups** (2026-10-27): a TA should click through PSI's free sample-test path
   (Exam Resources → Unmanned Aircraft Systems → UAG) once and supply the class aircraft's wind limit
   for the lab's Part 4 go / no-go; confirm whether the graded practice exam opens during the lab; the
@@ -313,7 +318,13 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
   model of the group, how tall is it, roof heat loss at 8 a.m., ramp slope against ADA 1:12, and
   counting the lot with a Python detector; sites left generic on purpose, second flights by
   arrangement with the TAs. One class image, `w10_class_watertank_mesh.jpg`, cropped from the
-  SharePoint review render.
+  SharePoint review render. Same day, after class: the roof-heat-loss idea now runs through the
+  instructor's **autel-thermal** tool (deck 35 → 39 slides): camera warm-up and FFC, JPG + TIFF,
+  90 % overlap, `autel-ortho ... --mosaic`, a slide of the Carterville mosaic and footprints
+  (`w10_class_carterville_mosaic.jpg`, cropped from the autel-thermal docs figure
+  `m4-carterville-mosaic.png`), and a question on the flat-ground assumption: a 6 m roof flown at
+  40 m comes out about 40 % too large in area; `--ground-below-takeoff -6` fixes it (tested on the
+  Carterville flight: 55 m camera height, 0.051 m cells instead of 61 m and 0.056 m).
 
 - 2026-10-27 — **Week 9 lab written: Part 107 Studying** (`labs/6_part_107_studying.md`, replacing the
   coming-soon stub), from the approved outline in `.claude/local/week9_lab_plan.md`. Not a study

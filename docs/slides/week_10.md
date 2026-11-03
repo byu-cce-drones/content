@@ -308,10 +308,81 @@ Follow-up: what does a thin pole look like from straight above?
 
 ## Roof heat loss at 8 a.m.
 
-- Cold November mornings are the right time: the building has been heating all night and the sun has not warmed the roof yet
-- Warm patches on a cold roof mark where heat is leaking — wet insulation, a gap, an unsealed vent
-- Fly the thermal drone on a grid over a low roof you are allowed to fly; save the **radiometric** files, not just the colour JPGs
+- Cold November morning, before the sun reaches the roof: the building has heated all night, so a warm patch is heat leaking out — wet insulation, a gap, an unsealed vent
+- Fly the Autel on a grid with about **90 %** front and side overlap; thermal photos have little texture
+- **Power on 10 minutes early**, then run the shutter calibration (FFC). A cold camera read up to 30 °C too cold — Week 8's −8 °C parking lot
+- Photo format **JPG + TIFF**: the `.irg` and `.TIFF` hold the temperatures, the colour JPG is only a picture
 - **Limit to say in the memo:** apparent temperature, not true temperature — shiny metal and glass lie
+
+<!--
+Warm-up and FFC: autel-thermal CAPTURE_AND_PHOTOGRAMMETRY.md §3. The parking-lot frames 1-36 were taken 1.5-3 min after power-on; the first 2-5 frames of later flights still read 4-7 °C cold. Ten minutes plus a manual FFC avoids both.
+Leave emissivity 0.95 and reflected 25 °C on the drone; the tool re-corrects afterwards (--emissivity, --reflected).
+-->
+
+---
+
+## From frames to a temperature map: autel-thermal
+
+The class's own Python tool, written for this camera.
+
+```text
+pip install "autel-thermal[notebooks] @ git+https://github.com/gus-p-williams/autel-thermal"
+autel-ortho roof_flight roof_out --mosaic
+```
+
+- Copy the whole flight folder off the SD card — `.irg`, `.TIFF`, `.jpg` and the `.mrk` GPS log — and rename nothing
+- Converts every frame to °C (matches Autel's own software, bit for bit), places it on the map in UTM metres, and stitches `mosaic.tif`
+- Leaves out frames with the cold-camera fault and says why in `ortho_report.csv`
+- Open `mosaic.tif` in QGIS, or work through the four example notebooks — 04 finds the hot spots and their area in m²
+
+<!--
+As of Nov 3 the GitHub repository is still private; it goes public before groups process their flights. If pip asks for a GitHub sign-in, it is not public yet: a TA runs it.
+examples/README.md in the repository has the install steps (venv or conda), where to put the flight folders, and troubleshooting.
+autel-ortho is ortho_frames.py's command: flat-ground placement from the drone's GPS (the .mrk) and gimbal angles, not photogrammetry. That is why the next question matters.
+-->
+
+---
+
+## What you get: a class flight
+
+![h:460](../final_project/images/w10_class_carterville_mosaic.jpg)
+
+<p class="caption">Carterville, Oct 2025, 16 frames at 61 m. Left: the mosaic in °C. Right: each frame's outline.</p>
+
+<!--
+Left is mosaic.tif; right is footprints.geojson, straight-down frames in blue, 45° frames in orange. Where they overlap, the straight-down frame wins.
+The same Carterville bridge approach as the Week 8 thermal question — there one frame, here the whole flight on the map.
+-->
+
+
+
+---
+
+<!-- _class: prompt -->
+
+# The tool puts every frame on flat ground at the takeoff height. Your roof is 6 m up and you fly at 40 m. What happens to the area of a warm patch?
+
+<!--
+Pairs 1 min. Likely answer: "nothing, it is a map".
+Follow-up: how far is the camera from the roof, and how far does the tool think it is?
+-->
+
+---
+
+<!-- _class: answer -->
+
+## It comes out about 40 % too large
+
+- The camera is 34 m above the roof, but the tool thinks 40 m, so every roof pixel is drawn 40 ÷ 34 = **1.18** times too long — and too wide
+- Area: 1.18 × 1.18 ≈ **1.38**
+- Fix: put the plane at the roof — `--ground-below-takeoff -6` (negative means above the takeoff point). Then measure only on the roof
+- Check: one roof edge from the plans or a tape, measured again in QGIS
+
+<!--
+Tested on the Carterville flight: -6 gives a 55 m camera height instead of 61 m and 0.051 m cells instead of 0.056 m.
+Roof edges also shift between neighbouring frames (relief displacement), so seams run through the parapet. autel-thermal docs: m4-relief-displacement.
+This is the course theme in one slide: a number from software is only as good as what it assumed.
+-->
 
 ---
 

@@ -114,8 +114,22 @@ height. A nadir grid will not do it: from straight above, a pole is a dot.
 Fly the thermal drone over a low roof you have permission to fly, on a cold morning before the sun
 reaches it. Warm patches mark where heat is leaking: wet insulation, a gap, an unsealed vent.
 
-- **Products:** thermal orthomosaic; a marked-up figure of the warm areas.
-- **Watch out for:** save the radiometric files, not just the colour JPGs. Shiny metal and glass show
+- **Products:** a thermal mosaic in °C; a marked-up figure of the warm areas and their size.
+- **Before takeoff:** power the drone on 10 minutes before the first photo and run the shutter
+  calibration (FFC) by hand; a cold camera reads up to 30 °C too cold. Set the photo format to
+  JPG + TIFF, since the `.irg` and `.TIFF` files hold the temperatures and the colour JPG is only a
+  picture. Plan about 90 % front and side overlap.
+- **Processing:** [autel-thermal](https://github.com/gus-p-williams/autel-thermal), the class's own
+  Python tool for this camera, converts every frame to °C, places it on the map and stitches a
+  mosaic you can open in QGIS. Its `examples/` folder has the install steps and four notebooks,
+  the last of which finds hot spots and their area. Copy the whole flight folder off the SD card,
+  `.mrk` file included, and rename nothing. If the install asks you to sign in to GitHub, the
+  repository is not public yet: ask a TA.
+- **Check one number:** an infrared thermometer on one roof surface you can reach, compared with
+  the mosaic at the same spot.
+- **Watch out for:** the tool places every frame on flat ground at the takeoff height. A roof sits
+  above that, so its areas come out too large (about 40 % for a 6 m roof flown at 40 m) unless you
+  tell the tool where the roof is, with `--ground-below-takeoff -6`. Shiny metal and glass show
   reflected sky, not their own temperature, so say so in the limitations. See
   [Thermal Imaging](../gen_reading/thermal.md).
 
