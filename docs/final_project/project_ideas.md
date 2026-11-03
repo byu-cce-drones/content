@@ -78,6 +78,69 @@ Map an area beside a trailhead or park and measure how many stalls would fit.
 
 ---
 
+## Quick projects near campus
+
+New for fall 2026. Each one is walkable from EB, needs one battery, and takes about 30 minutes on
+site, so it fits a 50-minute trip with room to spare. The sites are left generic on purpose: your
+proposal names the exact one. If a project needs a second flight on another day, arrange it with the
+TAs.
+
+### A 3D model of your group
+
+The group stands still on a lawn and the drone flies an **ascending circle** around it, camera
+pointed in, the same pattern DJI's tower-inspection missions fly. A TA sets the mission up with you.
+
+![An ascending circle around a standing group, seen from above and from the side](images/w10_fig02_group_orbit.svg){ width="100%" }
+
+*Figure 2: The drone circles 20 to 30 ft out and climbs from about 8 ft to 35 ft, tilting the camera
+down as it goes. It never passes over the group.*
+
+- **Products:** 3D model (mesh).
+- **Check one number:** tape one person's height and compare it with the same height in the model.
+- **Watch out for:** anyone who moves during the 3 to 5 minutes of the flight comes out as a blur or a
+  ghost. Pick a spot with no foot traffic; a passer-by inside the circle means pausing the mission.
+
+### How tall is it?
+
+Model a light pole, flagpole, or building corner with the same ascending circle and measure its
+height. A nadir grid will not do it: from straight above, a pole is a dot.
+
+- **Products:** 3D model; point cloud.
+- **Check one number:** a height from the building plans, or the shadow method (tape the pole's
+  shadow and a yardstick's shadow at the same moment).
+
+### Roof heat loss at 8 a.m.
+
+Fly the thermal drone over a low roof you have permission to fly, on a cold morning before the sun
+reaches it. Warm patches mark where heat is leaking: wet insulation, a gap, an unsealed vent.
+
+- **Products:** thermal orthomosaic; a marked-up figure of the warm areas.
+- **Watch out for:** save the radiometric files, not just the colour JPGs. Shiny metal and glass show
+  reflected sky, not their own temperature, so say so in the limitations. See
+  [Thermal Imaging](../gen_reading/thermal.md).
+
+### Is this ramp accessible?
+
+Measure the slope of a campus ramp or walkway against the ADA (Americans with Disabilities Act)
+limit for a ramp, 1:12 or about 8.3 %.
+
+- **Products:** DSM; slope or rise-over-run measurements in QGIS.
+- **Check one number:** a 2 ft level and a tape at two spots on the ramp.
+- **Tip:** fly low for a fine GSD, and add one oblique line along the ramp.
+
+### Count the lot by computer
+
+Make an orthomosaic of a parking lot and let a Python image-recognition model count the cars and
+trucks. Fly it twice (two days, or the start and end of your trip) and it becomes an occupancy
+study. The Week 10 [lecture slides](../slides/week_10.html) have a starting script that uses a model
+trained on aerial photos.
+
+- **Products:** orthomosaic; vehicle counts by type.
+- **Check one number:** count one row by hand. How many did the model miss, and how many did it
+  invent?
+
+---
+
 ## Before you pick a site
 
 - **Can you do it in 50 minutes?** Walk or drive from EB B122, set up, fly, pack up, and get back.

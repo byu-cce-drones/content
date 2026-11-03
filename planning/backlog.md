@@ -36,6 +36,12 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
+- **Week 10 follow-ups** (2026-11-03): a TA should run the "Count the lot by computer" snippet
+  (Ultralytics `yolo11n-obb.pt`, DOTA classes) once on the class orthophoto before a group relies on
+  it — it was written untested, since ultralytics is not installed on the authoring machine; name
+  the app and drone for DJI's ascending-circle tower mission on the slides and Example Projects if
+  wanted (they say "a TA sets it up"). Also noticed: `week_09.md` links site pages as `.md`, which
+  do not resolve from the published `slides/week_09.html`; use `../section/page/` instead.
 - **Week 9 lab follow-ups** (2026-10-27): a TA should click through PSI's free sample-test path
   (Exam Resources → Unmanned Aircraft Systems → UAG) once and supply the class aircraft's wind limit
   for the lab's Part 4 go / no-go; confirm whether the graded practice exam opens during the lab; the
@@ -296,6 +302,18 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-11-03 — **Week 10 Final Project Introduction deck** (`docs/slides/week_10.md`, 35 slides,
+  HTML/PDF/PPTX), built from the fall 2026 project pages the TAs pushed 2026-11-02, with seven
+  ask-then-reveal questions (weak vs. strong project, the 12-minute walk, LAANC is airspace only,
+  the group portrait and §107.39, a pole from a nadir grid, what the client cannot decide). Three new
+  figures from `fig_tools/fig_final_project.py` (`w10_` prefix, `docs/final_project/images/`): the
+  turn-in timeline (on the schedule page), the group-portrait ascending circle (Example Projects) and
+  the 50-minute trip budget (proposal §4). Example Projects gained "Quick projects near campus": a 3D
+  model of the group, how tall is it, roof heat loss at 8 a.m., ramp slope against ADA 1:12, and
+  counting the lot with a Python detector; sites left generic on purpose, second flights by
+  arrangement with the TAs. One class image, `w10_class_watertank_mesh.jpg`, cropped from the
+  SharePoint review render.
 
 - 2026-10-27 — **Week 9 lab written: Part 107 Studying** (`labs/6_part_107_studying.md`, replacing the
   coming-soon stub), from the approved outline in `.claude/local/week9_lab_plan.md`. Not a study

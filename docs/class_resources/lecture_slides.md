@@ -24,6 +24,7 @@
 | 8 | Advanced Sensors and Data Processing | [HTML](../slides/week_08.html) | [PDF](../slides/week_08.pdf) | [PPTX](../slides/week_08.pptx) |
 | 9 | Part 107 Exam Preparation | [HTML](../slides/week_09.html) | [PDF](../slides/week_09.pdf) | [PPTX](../slides/week_09.pptx) |
 | 10–15 | Final Project Planning | [HTML](../slides/final_project.html) | [PDF](../slides/final_project.pdf) | [PPTX](../slides/final_project.pptx) |
+| 10 | Final Project Introduction | [HTML](../slides/week_10.html) | [PDF](../slides/week_10.pdf) | [PPTX](../slides/week_10.pptx) |
 
 ---
 

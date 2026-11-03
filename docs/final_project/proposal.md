@@ -87,6 +87,10 @@ start of its trip, and the drone has to be back for the next trip. Plan every mi
 | Travel back to EB B122 | |
 | **Total (50 or less)** | |
 
+![Two 50-minute trips compared: a site 5 minutes away fits, a site 12 minutes away does not](images/w10_fig03_trip_budget.svg){ width="100%" }
+
+*Figure 3: The flight is the small part. Walking both ways and the checklists take most of the trip.*
+
 !!! tip "Leave a margin"
     Plan for 40 minutes, not 50. Wind, a pedestrian, or a battery swap will use the rest. A site
     within walking distance of the Engineering Building makes this much easier.

@@ -15,6 +15,13 @@
 
 ## Week by week
 
+![Timeline of the four turn-ins, the two flight days and the presentations](images/w10_fig01_turn_ins.svg){ width="100%" }
+
+*Figure 1: The four turn-ins above the line, class days below it.*
+
+The [Week 10 lecture slides](../slides/week_10.html) introduce the project
+([PDF](../slides/week_10.pdf), [PPTX](../slides/week_10.pptx)).
+
 | Week | Tuesday | Thursday | Due |
 |---|---|---|---|
 | 10 (Nov 3, 5) | Lecture: Final Project Introduction, EB 321. Form groups of 2 | Lab: Project Proposals, EB 321. Write the proposal; LAANC requests with a TA | **Project Proposal** with permissions, Thu Nov 5, 11:59 PM |

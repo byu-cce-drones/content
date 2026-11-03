@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 368" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="368" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 1: The final project, week by week</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Fall 2026. Learning Suite has the official dates; if they differ, Learning Suite wins.</text>
+  <rect x="40" y="176" width="140" height="26" fill="#eaf0f6"/>
+  <text x="110.0" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#555555">Week 10</text>
+  <rect x="180" y="176" width="140" height="26" fill="#dfe6ee"/>
+  <text x="250.0" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#555555">Week 11</text>
+  <rect x="320" y="176" width="140" height="26" fill="#eaf0f6"/>
+  <text x="390.0" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#555555">Week 12</text>
+  <rect x="460" y="176" width="140" height="26" fill="#dfe6ee"/>
+  <text x="530.0" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#555555">Week 13</text>
+  <rect x="600" y="176" width="140" height="26" fill="#eaf0f6"/>
+  <text x="670.0" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#555555">Week 14</text>
+  <rect x="740" y="176" width="140" height="26" fill="#dfe6ee"/>
+  <text x="810.0" y="193" text-anchor="middle" font-size="12" font-weight="bold" fill="#555555">Week 15</text>
+  <rect x="35.0" y="76" width="150" height="65" rx="8" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="110" y="95" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">1. Proposal</text>
+  <text x="110" y="112" text-anchor="middle" font-size="12" fill="#555555">Thu Nov 5, 11:59 PM</text>
+  <text x="110" y="129" text-anchor="middle" font-size="12" fill="#555555">2.5 %</text>
+  <line x1="100" y1="141" x2="100" y2="176" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="100" cy="176" r="3.5" fill="#4a90d9"/>
+  <rect x="335.0" y="76" width="230" height="65" rx="8" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="450" y="95" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">2. Flight and Data Processing</text>
+  <text x="450" y="112" text-anchor="middle" font-size="12" fill="#555555">one week after your flight</text>
+  <text x="450" y="129" text-anchor="middle" font-size="12" fill="#555555">5 %</text>
+  <line x1="380" y1="141" x2="380" y2="176" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="380" cy="176" r="3.5" fill="#4a90d9"/>
+  <line x1="520" y1="141" x2="520" y2="176" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="520" cy="176" r="3.5" fill="#4a90d9"/>
+  <rect x="632.0" y="76" width="116" height="65" rx="8" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="690" y="95" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">3. Slides</text>
+  <text x="690" y="112" text-anchor="middle" font-size="12" fill="#555555">Mon Dec 7</text>
+  <text x="690" y="129" text-anchor="middle" font-size="12" fill="#555555">2.5 % with talk</text>
+  <line x1="740" y1="141" x2="740" y2="176" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="740" cy="176" r="3.5" fill="#4a90d9"/>
+  <rect x="763.0" y="76" width="110" height="65" rx="8" fill="#e8f1fb" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="818" y="95" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a1a1a">4. Memo</text>
+  <text x="818" y="112" text-anchor="middle" font-size="12" fill="#555555">Thu Dec 10</text>
+  <text x="818" y="129" text-anchor="middle" font-size="12" fill="#555555">5 %</text>
+  <line x1="800" y1="141" x2="800" y2="176" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="800" cy="176" r="3.5" fill="#4a90d9"/>
+  <line x1="60" y1="202" x2="60" y2="280" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="60" cy="202" r="3.5" fill="#1a1a1a"/>
+  <rect x="15.0" y="280" width="110" height="48" rx="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="70" y="299" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Today</text>
+  <text x="70" y="316" text-anchor="middle" font-size="11.5" fill="#555555">form groups of 2</text>
+  <line x1="100" y1="202" x2="100" y2="224" stroke="#8a96a3" stroke-width="1.5"/>
+  <circle cx="100" cy="202" r="3.5" fill="#8a96a3"/>
+  <rect x="70.0" y="224" width="140" height="48" rx="8" fill="#ffffff" stroke="#8a96a3" stroke-width="1.5"/>
+  <text x="140" y="243" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Thursday lab</text>
+  <text x="140" y="260" text-anchor="middle" font-size="11.5" fill="#555555">proposal and LAANC</text>
+  <line x1="240" y1="202" x2="240" y2="224" stroke="#f39c12" stroke-width="1.5"/>
+  <circle cx="240" cy="202" r="3.5" fill="#f39c12"/>
+  <rect x="212.0" y="224" width="120" height="48" rx="8" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="272" y="243" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Flight day 1</text>
+  <text x="272" y="260" text-anchor="middle" font-size="11.5" fill="#555555">5 groups</text>
+  <line x1="380" y1="202" x2="380" y2="224" stroke="#f39c12" stroke-width="1.5"/>
+  <circle cx="380" cy="202" r="3.5" fill="#f39c12"/>
+  <rect x="342.0" y="224" width="120" height="48" rx="8" fill="#fdf3e6" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="402" y="243" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Flight day 2</text>
+  <text x="402" y="260" text-anchor="middle" font-size="11.5" fill="#555555">4 groups</text>
+  <line x1="480" y1="202" x2="480" y2="280" stroke="#8a96a3" stroke-width="1.5"/>
+  <circle cx="480" cy="202" r="3.5" fill="#8a96a3"/>
+  <rect x="422.0" y="280" width="96" height="48" rx="8" fill="#eef1f4" stroke="#8a96a3" stroke-width="1.5"/>
+  <text x="470" y="299" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Work day</text>
+  <text x="470" y="316" text-anchor="middle" font-size="11.5" fill="#555555">TA help</text>
+  <line x1="520" y1="202" x2="520" y2="224" stroke="#8a96a3" stroke-width="1.5"/>
+  <circle cx="520" cy="202" r="3.5" fill="#8a96a3"/>
+  <rect x="492.0" y="224" width="112" height="48" rx="8" fill="#eef1f4" stroke="#8a96a3" stroke-width="1.5"/>
+  <text x="548" y="243" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Thanksgiving</text>
+  <text x="548" y="260" text-anchor="middle" font-size="11.5" fill="#555555">no class</text>
+  <line x1="660" y1="202" x2="660" y2="280" stroke="#8a96a3" stroke-width="1.5"/>
+  <circle cx="660" cy="202" r="3.5" fill="#8a96a3"/>
+  <rect x="612.0" y="280" width="96" height="48" rx="8" fill="#eef1f4" stroke="#8a96a3" stroke-width="1.5"/>
+  <text x="660" y="299" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Work day</text>
+  <text x="660" y="316" text-anchor="middle" font-size="11.5" fill="#555555">TA help</text>
+  <line x1="760" y1="202" x2="760" y2="224" stroke="#2f8f4e" stroke-width="1.5"/>
+  <circle cx="760" cy="202" r="3.5" fill="#2f8f4e"/>
+  <line x1="800" y1="202" x2="800" y2="224" stroke="#2f8f4e" stroke-width="1.5"/>
+  <circle cx="800" cy="202" r="3.5" fill="#2f8f4e"/>
+  <rect x="715.0" y="224" width="150" height="48" rx="8" fill="#e6f4ea" stroke="#2f8f4e" stroke-width="1.5"/>
+  <text x="790" y="243" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Presentations</text>
+  <text x="790" y="260" text-anchor="middle" font-size="11.5" fill="#555555">Dec 8 and 10</text>
+  <text x="450.0" y="354" text-anchor="middle" font-size="12" font-style="italic" fill="#555555">Flights leave EB B122 at 8:00 or 9:00 and last 50 minutes. Final project work cannot be turned in late.</text>
+</svg>
