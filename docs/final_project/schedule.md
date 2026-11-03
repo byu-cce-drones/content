@@ -6,6 +6,8 @@
     - **Four turn-in points:** Proposal, Flight and Data Processing, Presentation, Technical Memo.
     - **Flight days:** 5 groups fly Thu Nov 12 and 4 fly Thu Nov 19, in two trips each lab:
       8:00–8:50 and 9:00–9:50. Meet at **EB B122** at the start of your trip.
+    - Attendance is still taken most days. Flight days count only for the groups flying, and work
+      days are optional. See [Attendance](#attendance).
     - Learning Suite has the official due dates. If this page and Learning Suite disagree, Learning
       Suite wins.
 
@@ -21,6 +23,28 @@
 | 13 (Nov 24, 26) | Project Work Day, TA help in EB 321 | Thanksgiving, no class | **Flight and Data Processing** for day 2 groups, Thu Nov 26 |
 | 14 (Dec 1, 3) | Class Recap, EB 321 | Project Work Day, TA help in EB 321 | |
 | 15 (Dec 7–10) | **Presentations Day 1** (1 hour, 3 groups), EB 321 | **Presentations Day 2** (2 hours, 6 groups), EB 321 | **Slides**, Mon Dec 7. **Technical Memo**, Thu Dec 10 |
+
+---
+
+## Attendance
+
+| Date | Class | Attendance |
+|---|---|---|
+| Tue, Nov 3 | Lecture: Final Project Introduction | **Taken** |
+| Thu, Nov 5 | Lab: Project Proposals | **Taken** |
+| Tue, Nov 10 | Lecture: Guest Speaker | **Taken** |
+| Thu, Nov 12 | Flight day 1 | **Taken only if your group flies today** |
+| Tue, Nov 17 | Lecture: FE Prep, Survey Questions | **Taken** |
+| Thu, Nov 19 | Flight day 2 | **Taken only if your group flies today** |
+| Tue, Nov 24 | Project Work Day | Optional |
+| Thu, Nov 26 | Thanksgiving | No class |
+| Tue, Dec 1 | Class Recap | **Taken** |
+| Thu, Dec 3 | Project Work Day | Optional |
+| Tue, Dec 8 | Presentations Day 1 | **Taken** |
+| Thu, Dec 10 | Presentations Day 2 | **Taken** |
+
+On your flight day, attendance means being at EB B122 when your trip leaves. Optional work days
+are the best time to get TA help with processing, slides, and the memo.
 
 ---
 
