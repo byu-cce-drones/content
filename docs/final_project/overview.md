@@ -7,6 +7,9 @@
     - The project has **four turn-in points**, worth **15%** of your course grade together.
     - Each turn-in builds on the one before it, so a late or weak proposal costs you later.
 
+**Introduction slides:** [Slides](../slides/final_project.html) · [PDF](../slides/final_project.pdf) ·
+[PPTX](../slides/final_project.pptx)
+
 ---
 
 ## What the project is

@@ -23,7 +23,7 @@
 | 7 | Photogrammetry and Flight Operations | [HTML](../slides/week_07.html) | [PDF](../slides/week_07.pdf) | [PPTX](../slides/week_07.pptx) |
 | 8 | Advanced Sensors and Data Processing | [HTML](../slides/week_08.html) | [PDF](../slides/week_08.pdf) | [PPTX](../slides/week_08.pptx) |
 | 9 | Part 107 Exam Preparation | [HTML](../slides/week_09.html) | [PDF](../slides/week_09.pdf) | [PPTX](../slides/week_09.pptx) |
-| 10–15 | Final Project Planning | not yet posted | not yet posted | not yet posted |
+| 10–15 | Final Project Planning | [HTML](../slides/final_project.html) | [PDF](../slides/final_project.pdf) | [PPTX](../slides/final_project.pptx) |
 
 ---
 
