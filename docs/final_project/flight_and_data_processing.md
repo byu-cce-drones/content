@@ -104,7 +104,7 @@ student.
 
 | Criterion | Points | Full credit | Partial credit | No credit |
 |---|---:|---|---|---|
-| **Mission plan and permissions** | 10 | Flight matches the approved plan, changes recorded with reasons, permission shown, flight record complete | Flown, but changes unexplained, flight record thin, or permission proof missing (5) | Required permission not obtained, or no record (0) |
-| **Flight attendance** *(per student)* | 5 | At EB B122 by the trip's start time and on site for the flight | — | Not at B122 when the trip leaves (0). If neither partner is there, the group must reschedule with a TA |
+| **Mission plan and permissions** | 5 | Flight matches the approved plan, changes recorded with reasons, permission shown, flight record complete | Flown, but changes unexplained, flight record thin, or permission proof missing (3) | Required permission not obtained, or no record (0) |
+| **Flight attendance** *(per student)* | 10 | At EB B122 by the trip's start time and on site for the flight | — | Not at B122 when the trip leaves (0). If neither partner is there, the group must reschedule with a TA |
 | **Processed products** | 25 | At least two products that fit the project, a measurement or observation made, and problems in the products noted | One product, or products with no measurement (15) | No processed products uploaded (0) |
 | **Raw data shared** | 10 | Every original photo in the shared folder, in a folder named for the project | Some photos missing or folder hard to identify (5) | Not shared (0) |

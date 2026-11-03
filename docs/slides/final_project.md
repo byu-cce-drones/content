@@ -197,8 +197,8 @@ Due **one week after you fly**. Most of the points are for **output**.
 
 | Criterion | Points |
 |---|---:|
-| Mission plan and permissions | 10 |
-| Flight attendance *(per student)* | 5 |
+| Mission plan and permissions | 5 |
+| Flight attendance *(per student)* | 10 |
 | Processed products: two or more, with a measurement | 25 |
 | Raw data shared: every original photo | 10 |
 | **Total** | **50** |
