@@ -152,6 +152,9 @@ trained on aerial photos.
 - **Products:** orthomosaic; vehicle counts by type.
 - **Check one number:** count one row by hand. How many did the model miss, and how many did it
   invent?
+- **Watch out for:** the model learned on cars about 20 to 60 pixels long. Export the orthomosaic as
+  an 8-bit RGB image at about 10 to 15 cm per pixel before you run it; at full resolution, or squeezed
+  to 1,024 pixels, it misses most of the cars.
 
 ---
 

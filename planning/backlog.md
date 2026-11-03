@@ -36,9 +36,12 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
-- **Week 10 follow-ups** (2026-11-03): a TA should run the "Count the lot by computer" snippet
-  (Ultralytics `yolo11n-obb.pt`, DOTA classes) once on the class orthophoto before a group relies on
-  it — it was written untested, since ultralytics is not installed on the authoring machine; name
+- **Week 10 follow-ups** (2026-11-03): a TA should run the "Count the lot by computer" script
+  (Ultralytics `yolo11n-obb.pt`, DOTA v1 classes) once on the class orthophoto before a group relies
+  on it — it was written untested, since ultralytics is not installed on the authoring machine.
+  Revised the same day from the instructor's notes: resample to about 12 cm/px first and run at that
+  full size, `max_det=3000`, an 8-bit RGB export, `r.plot()` saved for the hand check; tiling with
+  SAHI is only in the speaker notes, and whether SAHI handles OBB models is unchecked. Also name
   the app and drone for DJI's ascending-circle tower mission on the slides and Example Projects if
   wanted (they say "a TA sets it up"). Also noticed: `week_09.md` links site pages as `.md`, which
   do not resolve from the published `slides/week_09.html`; use `../section/page/` instead.
@@ -319,7 +322,7 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
   counting the lot with a Python detector; sites left generic on purpose, second flights by
   arrangement with the TAs. One class image, `w10_class_watertank_mesh.jpg`, cropped from the
   SharePoint review render. Same day, after class: the roof-heat-loss idea now runs through the
-  instructor's **autel-thermal** tool (deck 35 → 39 slides): camera warm-up and FFC, JPG + TIFF,
+  instructor's **autel-thermal** tool (deck 35 → 39 slides; 40 after the vehicle-count slide was split in two): camera warm-up and FFC, JPG + TIFF,
   90 % overlap, `autel-ortho ... --mosaic`, a slide of the Carterville mosaic and footprints
   (`w10_class_carterville_mosaic.jpg`, cropped from the autel-thermal docs figure
   `m4-carterville-mosaic.png`), and a question on the flat-ground assumption: a 6 m roof flown at

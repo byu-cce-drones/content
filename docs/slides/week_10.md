@@ -395,25 +395,56 @@ This is the course theme in one slide: a number from software is only as good as
 
 ---
 
+<style scoped>
+section { font-size: 25px; }
+</style>
+
 ## Count the lot by computer
 
 Fly a lot, make the orthomosaic, and let a Python image-recognition model count the cars and trucks.
 
-```python
-from ultralytics import YOLO             # pip install ultralytics
-model = YOLO("yolo11n-obb.pt")           # trained on aerial photos (DOTA)
-r = model.predict("lot.jpg", imgsz=1024, conf=0.3)[0]
-names = [r.names[int(c)] for c in r.obb.cls]
-print({n: names.count(n) for n in set(names)})   # small vehicle, large vehicle
-```
-
+- **The model:** YOLO11 nano, the smallest and fastest version, in its oriented bounding box (OBB) variant. The weights download automatically the first time it runs
+- **Trained on DOTA v1**, aerial images labelled with 15 classes: plane, ship, storage tank, baseball diamond, tennis court, basketball court, ground track field, harbor, bridge, large vehicle, small vehicle, helicopter, roundabout, soccer ball field and swimming pool
+- **Oriented** means each box can rotate to match how the car is parked, instead of being a box aligned to the image edges
 - Fly it twice — two days, or 8:05 and 8:40 — and the project becomes an **occupancy study**
 - The check: count one row by hand. How many did the model miss, and how many did it invent?
 
 <!--
 The DOTA model was trained on aerial photos, so it knows cars from above; a street-view model does not.
-It expects coarser pixels than our 1 cm orthomosaics: export a reduced copy, or a crop of the lot, so a car is a few dozen pixels long.
-This snippet is a starting point that a TA should run once on the class orthophoto before a group relies on it.
+Cars and trucks come out as "small vehicle" and "large vehicle"; there is no separate pickup or bus class.
+Ask before the next slide: a car is 4.5 m long. At our 2 cm GSD, how many pixels is that? (225.) Squeeze a 20,000 px wide orthomosaic to 1,024 px: now how many? (About 11.)
+-->
+
+---
+
+<style scoped>
+section { font-size: 22px; }
+</style>
+
+## A starting script: resample first
+
+```python
+import cv2
+from ultralytics import YOLO                     # pip install ultralytics
+model = YOLO("yolo11n-obb.pt")
+img = cv2.imread("lot.tif")                      # 8-bit RGB export
+scale = 0.02 / 0.12                              # native GSD / target GSD
+img = cv2.resize(img, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA)
+r = model.predict(img, imgsz=max(img.shape[:2]), conf=0.3, max_det=3000)[0]
+names = [r.names[int(c)] for c in r.obb.cls]
+print({n: names.count(n) for n in set(names)})   # small vehicle, large vehicle
+cv2.imwrite("lot_boxes.jpg", r.plot())           # every box drawn: check one row
+```
+
+- **Pixel size:** DOTA cars are mostly 20–60 px long. Squeeze a 20,000 px orthomosaic to 1,024 px and a car is 11 × 5 px; leave it at 2 cm and it is 225 px. Both miss. At **10–15 cm/px** a car is 30–50 px
+- **`max_det`** defaults to 300: a lot with more cars is cut off at 300, silently
+- **Export first:** JPEG stops at 65,535 px per side, and OpenCV may choke on BigTIFF, 4-band or float GeoTIFFs. Save an 8-bit RGB copy
+
+<!--
+Change 0.02 to your own orthomosaic's GSD. Or let QGIS do both steps: right-click the layer > Export > Save As, output mode "Rendered image", resolution 0.12 m; that writes an 8-bit RGB GeoTIFF already at 12 cm, and scale becomes 1.
+The other way is to cut the full-resolution image into overlapping 1,024 px tiles. It works, but a car on an overlap is counted twice unless the duplicates are merged; the SAHI library does the tiling and merging.
+lot_boxes.jpg answers the check on the last slide: you can see exactly which cars it missed and which detections it invented.
+Untested on our own orthophoto: a TA should run it once before a group relies on it.
 -->
 
 ---
