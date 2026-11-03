@@ -15,7 +15,7 @@
 
 | Week | Tuesday | Thursday | Due |
 |---|---|---|---|
-| 10 (Nov 3, 5) | Lecture: Final Project Introduction, EB 321 | Lab: Project Proposals, EB 321 | **Project Proposal**, Thu Nov 5 |
+| 10 (Nov 3, 5) | Lecture: Final Project Introduction, EB 321. Form groups of 2 | Lab: Project Proposals, EB 321. Write the proposal; LAANC requests with a TA | **Project Proposal** with permissions, Thu Nov 5, 11:59 PM |
 | 11 (Nov 10, 12) | Lecture: Guest Speaker, EB 321 | **Flight day 1**: 5 groups, from EB B122. Other groups: no class | |
 | 12 (Nov 17, 19) | Lecture: FE Prep, Survey Questions, EB 321 | **Flight day 2**: 4 groups, from EB B122. Other groups: no class | **Flight and Data Processing** for day 1 groups, Thu Nov 19 |
 | 13 (Nov 24, 26) | Project Work Day, TA help in EB 321 | Thanksgiving, no class | **Flight and Data Processing** for day 2 groups, Thu Nov 26 |

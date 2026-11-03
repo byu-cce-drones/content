@@ -41,7 +41,7 @@ needs the data, why you flew it the way you did, and what the data can and canno
 
 | # | Turn-in | Weight | Due |
 |---|---|---:|---|
-| 1 | [Project Proposal](proposal.md) | 2.5% | Thu, Nov 5 (lab) |
+| 1 | [Project Proposal](proposal.md) | 2.5% | Thu, Nov 5, 11:59 PM |
 | 2 | [Flight and Data Processing](flight_and_data_processing.md) | 5% | One week after your flight |
 | 3 | [Project Presentation](presentation.md) | 2.5% | Slides due Mon, Dec 7. Present Dec 8 or Dec 10 |
 | 4 | [Technical Memo](report.md) | 5% | Thu, Dec 10 |

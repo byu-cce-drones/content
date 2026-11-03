@@ -1,7 +1,8 @@
 # Project Proposal
 
 !!! abstract "Key Takeaways"
-    - Turn-in point 1 of 4, due in lab **Thu, Nov 5**. Worth **2.5%** of your course grade.
+    - Turn-in point 1 of 4, due **Thu, Nov 5 at 11:59 PM**. Worth **2.5%** of your course grade.
+    - Turn in your permissions with it: any LAANC request, and the owner's OK if you already have it.
     - Commit to a **purpose**, not just a site: who needs this data, and what will they decide with it?
     - Make the flight plan **now**, before you fly. Every setting needs a reason.
     - Your whole trip, from EB B122 to the site and back, has to fit in **50 minutes**.
@@ -20,8 +21,10 @@ The proposal is your group's plan, written before you fly. It shows three things
 
 Need an idea? See [Example Projects](project_ideas.md).
 
-You will spend most of the Thursday Nov 5 lab writing it with your partner and talking it over with a
-TA.
+The project is introduced in lecture on **Tuesday, Nov 3**. Form your group of two and start on your
+project idea then. The **Thursday, Nov 5 lab** is work time: write the proposal with your partner,
+check your site and permissions with a TA, and fill out a LAANC request if you need one. The proposal
+is due that night at 11:59 PM.
 
 ---
 
@@ -56,8 +59,17 @@ Figure out every permission your flight needs, and how you will get it before fl
 - **People and traffic:** whether you will be over people or moving vehicles, and how you will
   avoid it.
 
-Every flight is supervised by a certified TA or instructor. Proof of permission is graded in the
-[Flight and Data Processing](flight_and_data_processing.md) turn-in.
+Every flight is supervised by a certified TA or instructor.
+
+**What to turn in with the proposal:**
+
+- **LAANC:** if your site needs it, the LAANC request you filled out with a TA (location, altitude,
+  date, and trip time).
+- **Property owner:** the owner's OK if you have it. Reaching an owner can take longer than two days,
+  so if you are still waiting, say who you contacted, how, and when. You need the OK before you fly.
+
+Final proof of permission is graded in the [Flight and Data Processing](flight_and_data_processing.md)
+turn-in.
 
 ### 4. Time budget
 
@@ -111,8 +123,11 @@ backup drone in case yours is taken. See [Drones](overview.md#drones).
 
 ## Turning it in
 
-Upload **one PDF per group** to Learning Suite, plus the flight plan file (KMZ) and your Mission
-Log. Both partners' names go on the first line.
+Upload to Learning Suite by **Thu, Nov 5 at 11:59 PM**, one submission per group:
+
+- The proposal as **one PDF**, with both partners' names on the first line.
+- The flight plan file (KMZ) and your Mission Log.
+- Your permissions, if any: the LAANC request, and the owner's OK or a note on who you contacted.
 
 ---
 
