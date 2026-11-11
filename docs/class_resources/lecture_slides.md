@@ -31,6 +31,7 @@
 ## Lab decks
 
 - Bentley iTwin Capture Modeler: [HTML](../slides/bentley_itwin.html) · [PDF](../slides/bentley_itwin.pdf) · [PPTX](../slides/bentley_itwin.pptx)
+- FE Surveying Review: [PPTX](../slides/fe_surveying_review.pptx) · [page with homework](../gen_reading/fe_surveying_review.md)
 
 Lab decks are used in the Thursday session rather than the Tuesday lecture.
 
