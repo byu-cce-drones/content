@@ -4,11 +4,13 @@ Numbered in the order the deck uses them, which is the order the reading will
 follow. Three figures are plotted from the worked examples' own numbers, so a
 drawing cannot disagree with the arithmetic beside it:
 
-    Figure 6  the level run BM-1 to BM-2 (rod readings and elevations)
-    Figure 7  the four-sided traverse (adjusted coordinates, angles, distances)
-    Figure 10 the crest vertical curve (g1, g2, L, PVI)
+    Figure 7  the level run BM-1 to BM-2 (rod readings and elevations)
+    Figure 8  the four-sided traverse (adjusted coordinates, angles, distances)
+    Figure 11 the crest vertical curve (g1, g2, L, PVI)
 
-Figure 5 carries the NGS GEOID18 geoid height at the BYU Engineering Building.
+Figures 5 and 6 carry official values for the BYU Engineering Building: the NGS
+GEOID18 geoid height, the USGS ground elevation, and the NGS NCAT state plane
+and UTM scale and combined factors (sources beside each builder).
 
 If a worked example changes, change the numbers here and re-run.
 
@@ -22,11 +24,12 @@ Outputs (all w12_ in docs/gen_reading/images/):
     w12_fig03_field_angles.svg       interior, deflection, angle to the right
     w12_fig04_oblique_triangle.svg   side a opposite angle A
     w12_fig05_height_systems.svg     ground, geoid, ellipsoid; h = H + N
-    w12_fig06_leveling_run.svg       the BM-1 to BM-2 level run, to scale
-    w12_fig07_traverse.svg           the worked traverse, to scale
-    w12_fig08_average_end_area.svg   two end areas and the prism between them
-    w12_fig09_horizontal_curve.svg   parts of a simple circular curve
-    w12_fig10_vertical_curve.svg     the worked crest curve, to scale
+    w12_fig06_grid_ground.svg        ground, ellipsoid and grid lengths at BYU
+    w12_fig07_leveling_run.svg       the BM-1 to BM-2 level run, to scale
+    w12_fig08_traverse.svg           the worked traverse, to scale
+    w12_fig09_average_end_area.svg   two end areas and the prism between them
+    w12_fig10_horizontal_curve.svg   parts of a simple circular curve
+    w12_fig11_vertical_curve.svg     the worked crest curve, to scale
 """
 from __future__ import annotations
 
@@ -845,17 +848,153 @@ def build_height_systems(number: int) -> Figure:
 
 
 # ---------------------------------------------------------------------------
+# Figure 6 - grid versus ground (state plane and UTM)
+# Values for the BYU Engineering Building (40.2466 N, 111.6476 W), 2026-11-17:
+#   ground elevation 1,416.82 m, USGS EPQS
+#     https://epqs.nationalmap.gov/v1/json?x=-111.6476&y=40.2466&wkid=4326&units=Meters
+#   h = 1,416.82 + (-16.93) = 1,399.89 m (GEOID18, see Figure 5)
+#   NGS NCAT, SPCS 83 Utah Central (4302) and UTM 12:
+#     https://geodesy.noaa.gov/api/ncat/llh?lat=40.2466&lon=-111.6476&eht=1399.89
+#     &inDatum=nad83(2011)&outDatum=nad83(2011)&spcZone=4302
+# The elevation factor is derived: combined / scale (0.99978 for both).
+# ---------------------------------------------------------------------------
+BYU_SPC = dict(scale=0.99992458, combined=0.99970504)
+BYU_UTM = dict(scale=0.99963734, combined=0.99941786)
+BYU_GROUND_M = 1416.82
+
+
+def build_grid_ground(number: int) -> Figure:
+    k, c = BYU_SPC["scale"], BYU_SPC["combined"]
+    ef = c / k
+    fig = Figure(900, 500, _title(number, "Grid distance is not ground "
+                                  "distance"),
+                 "Not to scale. A tape measures on the ground; state plane "
+                 "and UTM coordinates live on the grid.")
+    GROUND_EDGE = "#9a8a72"
+    GRID_C = P["ink"]
+
+    # ---- left: where the scale is exact ---------------------------------
+    fig.add(rect(30, 64, 290, 416, **CARD))
+    _t(fig, 175, 90, "Where the grid scale is exact", bold=True)
+    ccx, ccy, R = 175, 380, 200             # a piece of the Earth
+    arc_pts = [_az(ccx, ccy, a, R) for a in range(-38, 39)]
+    fig.add(path("M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in arc_pts),
+                 fill="none", stroke=EDGE, stroke_width=3))
+    # secant projection surface: cuts the arc at two standard lines
+    std = 22
+    ys = ccy - R * math.cos(math.radians(std))
+    xs1 = ccx - R * math.sin(math.radians(std))
+    xs2 = ccx + R * math.sin(math.radians(std))
+    fig.add(line(45, ys, 305, ys, stroke=GRID_C, stroke_width=2.2,
+                 stroke_dasharray="8 5"))
+    for xs in (xs1, xs2):
+        fig.add(circle(xs, ys, 5, fill=P["accent"]))
+    _t(fig, ccx, ys + 20, "k < 1", size=13, bold=True)
+    _t(fig, 62, ys - 9, "k > 1", size=13, bold=True)
+    _t(fig, 288, ys - 9, "k > 1", size=13, bold=True)
+    bx = ccx - 34
+    fig.add(circle(bx, ys, 5, fill=ORANGE))
+    _leader(fig, (bx, ys + 70), (bx, ys + 5), color=ORANGE)
+    _t(fig, bx, ys + 86, f"BYU: k = {k:.5f}", size=12, bold=True,
+       fill=ORANGE)
+    _t(fig, bx, ys + 101, "(Utah Central zone)", size=12, fill=P["muted"])
+    _leader(fig, (250, ys + 50), (xs2, ys + 4))
+    _t(fig, 250, ys + 66, "k = 1 on the", size=12, bold=True,
+       fill=P["accent"])
+    _t(fig, 250, ys + 81, "standard lines", size=12, bold=True,
+       fill=P["accent"])
+    _t(fig, 175, 340, "Solid: the ellipsoid.  Dashed: the projection.",
+       size=12, fill=P["ink"])
+    for i, s_ in enumerate((
+            "Utah's three zones use a cone",
+            "(Lambert conformal conic); UTM and",
+            "north–south zones use a cylinder",
+            "(transverse Mercator). Either way the",
+            "surface cuts the Earth along two lines",
+            "where the scale is exact. That is why",
+            "a state is split into zones.")):
+        _t(fig, 175, 368 + 15 * i, s_, size=12, fill=P["muted"])
+
+    # ---- right: three lengths for one line ------------------------------
+    x0, x1 = 340, 870
+    fig.add(rect(x0, 64, x1 - x0, 416, **CARD))
+    _t(fig, (x0 + x1) / 2, 90, "One line at BYU, three lengths", bold=True)
+    mid = 640
+    # converging normals toward the Earth's centre (far below)
+    gy_, ry_, gw_, rw_ = 150, 352, 320, 276
+    ew_ = gw_ - (gw_ - rw_) * (262 - gy_) / (ry_ - gy_)
+    levels = [("ground", gy_, gw_), ("ellipsoid", 262, ew_), ("grid", ry_, rw_)]
+    for side in (-1, 1):
+        fig.add(line(mid + side * gw_ / 2, gy_, mid + side * rw_ / 2, ry_,
+                     stroke=GRID, stroke_width=1.2, stroke_dasharray="4 4"))
+    # ground
+    gy, gw = levels[0][1], levels[0][2]
+    fig.add(path(f"M {x0 + 20} {gy + 10} Q {mid - 200} {gy - 18} "
+                 f"{mid - gw / 2} {gy} L {mid + gw / 2} {gy} "
+                 f"Q {mid + 200} {gy + 14} {x1 - 20} {gy - 6}",
+                 fill="none", stroke=GROUND_EDGE, stroke_width=3))
+    for xx in (mid - gw / 2, mid + gw / 2):
+        fig.add(circle(xx, gy, 5, fill=P["ink"]))
+    _t(fig, mid - gw / 2 - 10, gy - 10, "A", anchor="end", bold=True)
+    _t(fig, mid + gw / 2 + 10, gy - 10, "B", anchor="start", bold=True)
+    _t(fig, mid, gy - 14, "ground distance: what you tape", size=13,
+       bold=True, fill=GROUND_EDGE)
+    _t(fig, mid, gy + 22, "1,000.000 ft", size=13)
+    # ellipsoid (a gentle arc)
+    ey, ew = levels[1][1], levels[1][2]
+    fig.add(path(f"M {mid - ew / 2} {ey + 4} Q {mid} {ey - 8} {mid + ew / 2} "
+                 f"{ey + 4}", fill="none", stroke=EDGE, stroke_width=3))
+    _t(fig, mid, ey - 14, "on the ellipsoid", size=13, bold=True, fill=EDGE)
+    _t(fig, mid, ey + 24, f"{1000 * ef:,.3f} ft", size=13)
+    # grid (straight, with ticks)
+    ry, rw = levels[2][1], levels[2][2]
+    fig.add(line(mid - rw / 2, ry, mid + rw / 2, ry, stroke=GRID_C,
+                 stroke_width=3))
+    for i in range(9):
+        xx = mid - rw / 2 + i * rw / 8
+        fig.add(line(xx, ry - 6, xx, ry + 6, stroke=GRID_C, stroke_width=1.5))
+    _t(fig, mid, ry - 14, "on the grid: what coordinates give", size=13,
+       bold=True)
+    _t(fig, mid, ry + 26, f"{1000 * c:,.3f} ft", size=13, bold=True)
+    # the two factors, on the left between levels
+    fx = x0 + 22
+    _t(fig, fx, (gy + ey) / 2 + 2, "× elevation factor", anchor="start",
+       size=12, bold=True, fill=EDGE)
+    _t(fig, fx, (gy + ey) / 2 + 18, f"{ef:.5f}", anchor="start", size=12,
+       fill=P["muted"])
+    _t(fig, fx, (ey + ry) / 2 + 6, "× scale factor k", anchor="start",
+       size=12, bold=True)
+    _t(fig, fx, (ey + ry) / 2 + 22, f"{k:.5f}", anchor="start", size=12,
+       fill=P["muted"])
+    # summary
+    _t(fig, (x0 + x1) / 2, 420, f"Combined factor = k × elevation factor = "
+       f"{c:.8f}  (NGS, Utah Central)", size=13, bold=True)
+    _t(fig, (x0 + x1) / 2, 440, f"Grid is {1000 * (1 - c):.3f} ft shorter "
+       f"per 1,000 ft (about 3½ in). In UTM Zone 12: "
+       f"{1000 * (1 - BYU_UTM['combined']):.3f} ft.", size=12,
+       fill=P["muted"])
+    _t(fig, (x0 + x1) / 2, 458, f"Ground at BYU: {BYU_GROUND_M:,.0f} m "
+       f"({BYU_GROUND_M / 0.3048006:,.0f} ft) above the geoid. Higher "
+       "ground, smaller elevation factor.", size=12, fill=P["muted"])
+    return fig
+
+
+DRAFTS: list = []      # (number, slug, builder) for figures still in review
+
+
+# ---------------------------------------------------------------------------
 BUILDERS = [
     (1, "right_triangle", build_right_triangle),
     (2, "azimuth_bearing", build_azimuth_bearing),
     (3, "field_angles", build_field_angles),
     (4, "oblique_triangle", build_oblique_triangle),
     (5, "height_systems", build_height_systems),
-    (6, "leveling_run", build_leveling_run),
-    (7, "traverse", build_traverse),
-    (8, "average_end_area", build_average_end_area),
-    (9, "horizontal_curve", build_horizontal_curve),
-    (10, "vertical_curve", build_vertical_curve),
+    (6, "grid_ground", build_grid_ground),
+    (7, "leveling_run", build_leveling_run),
+    (8, "traverse", build_traverse),
+    (9, "average_end_area", build_average_end_area),
+    (10, "horizontal_curve", build_horizontal_curve),
+    (11, "vertical_curve", build_vertical_curve),
 ]
 
 
@@ -863,8 +1002,10 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--out", default="review")
     ap.add_argument("--png", action="store_true")
+    ap.add_argument("--drafts", action="store_true",
+                    help="build only the figures still in review")
     args = ap.parse_args()
-    for number, slug, builder in BUILDERS:
+    for number, slug, builder in (DRAFTS if args.drafts else BUILDERS):
         fname = os.path.join(args.out, figure_name(WEEK, number, slug))
         builder(number).save(fname)
         print("wrote", fname)

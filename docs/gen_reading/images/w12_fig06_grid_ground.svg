@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="500" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 6: Grid distance is not ground distance</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Not to scale. A tape measures on the ground; state plane and UTM coordinates live on the grid.</text>
+  <rect x="30" y="64" width="290" height="416" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="175" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Where the grid scale is exact</text>
+  <path d="M 51.9 222.4 L 54.6 220.3 L 57.4 218.2 L 60.3 216.2 L 63.2 214.2 L 66.1 212.3 L 69.0 210.4 L 72.0 208.6 L 75.0 206.8 L 78.0 205.1 L 81.1 203.4 L 84.2 201.8 L 87.3 200.2 L 90.5 198.7 L 93.7 197.3 L 96.9 195.9 L 100.1 194.6 L 103.3 193.3 L 106.6 192.1 L 109.9 190.9 L 113.2 189.8 L 116.5 188.7 L 119.9 187.7 L 123.2 186.8 L 126.6 185.9 L 130.0 185.1 L 133.4 184.4 L 136.8 183.7 L 140.3 183.0 L 143.7 182.5 L 147.2 181.9 L 150.6 181.5 L 154.1 181.1 L 157.6 180.8 L 161.0 180.5 L 164.5 180.3 L 168.0 180.1 L 171.5 180.0 L 175.0 180.0 L 178.5 180.0 L 182.0 180.1 L 185.5 180.3 L 189.0 180.5 L 192.4 180.8 L 195.9 181.1 L 199.4 181.5 L 202.8 181.9 L 206.3 182.5 L 209.7 183.0 L 213.2 183.7 L 216.6 184.4 L 220.0 185.1 L 223.4 185.9 L 226.8 186.8 L 230.1 187.7 L 233.5 188.7 L 236.8 189.8 L 240.1 190.9 L 243.4 192.1 L 246.7 193.3 L 249.9 194.6 L 253.1 195.9 L 256.3 197.3 L 259.5 198.7 L 262.7 200.2 L 265.8 201.8 L 268.9 203.4 L 272.0 205.1 L 275.0 206.8 L 278.0 208.6 L 281.0 210.4 L 283.9 212.3 L 286.8 214.2 L 289.7 216.2 L 292.6 218.2 L 295.4 220.3 L 298.1 222.4" fill="none" stroke="#3d6f9e" stroke-width="3"/>
+  <line x1="45" y1="194.5632290866425" x2="305" y2="194.5632290866425" stroke="#1a1a1a" stroke-width="2.2" stroke-dasharray="8 5"/>
+  <circle cx="100.0786813168176" cy="194.5632290866425" r="5" fill="#4a90d9"/>
+  <circle cx="249.9213186831824" cy="194.5632290866425" r="5" fill="#4a90d9"/>
+  <text x="175" y="214.5632290866425" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">k &lt; 1</text>
+  <text x="62" y="185.5632290866425" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">k &gt; 1</text>
+  <text x="288" y="185.5632290866425" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">k &gt; 1</text>
+  <circle cx="141" cy="194.5632290866425" r="5" fill="#e67e22"/>
+  <line x1="141" y1="264.56322908664254" x2="141" y2="199.5632290866425" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="141" cy="199.5632290866425" r="3" fill="#e67e22"/>
+  <text x="141" y="280.56322908664254" text-anchor="middle" font-size="12" font-weight="bold" fill="#e67e22">BYU: k = 0.99992</text>
+  <text x="141" y="295.56322908664254" text-anchor="middle" font-size="12" fill="#555555">(Utah Central zone)</text>
+  <line x1="250" y1="244.5632290866425" x2="249.9213186831824" y2="198.5632290866425" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="249.9213186831824" cy="198.5632290866425" r="3" fill="#4a90d9"/>
+  <text x="250" y="260.56322908664254" text-anchor="middle" font-size="12" font-weight="bold" fill="#4a90d9">k = 1 on the</text>
+  <text x="250" y="275.56322908664254" text-anchor="middle" font-size="12" font-weight="bold" fill="#4a90d9">standard lines</text>
+  <text x="175" y="340" text-anchor="middle" font-size="12" fill="#1a1a1a">Solid: the ellipsoid.  Dashed: the projection.</text>
+  <text x="175" y="368" text-anchor="middle" font-size="12" fill="#555555">Utah's three zones use a cone</text>
+  <text x="175" y="383" text-anchor="middle" font-size="12" fill="#555555">(Lambert conformal conic); UTM and</text>
+  <text x="175" y="398" text-anchor="middle" font-size="12" fill="#555555">north–south zones use a cylinder</text>
+  <text x="175" y="413" text-anchor="middle" font-size="12" fill="#555555">(transverse Mercator). Either way the</text>
+  <text x="175" y="428" text-anchor="middle" font-size="12" fill="#555555">surface cuts the Earth along two lines</text>
+  <text x="175" y="443" text-anchor="middle" font-size="12" fill="#555555">where the scale is exact. That is why</text>
+  <text x="175" y="458" text-anchor="middle" font-size="12" fill="#555555">a state is split into zones.</text>
+  <rect x="340" y="64" width="530" height="416" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="605.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">One line at BYU, three lengths</text>
+  <line x1="480.0" y1="150" x2="502.0" y2="352" stroke="#b9c6d2" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="800.0" y1="150" x2="778.0" y2="352" stroke="#b9c6d2" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <path d="M 360 160 Q 440 132 480.0 150 L 800.0 150 Q 840 164 850 144" fill="none" stroke="#9a8a72" stroke-width="3"/>
+  <circle cx="480.0" cy="150" r="5" fill="#1a1a1a"/>
+  <circle cx="800.0" cy="150" r="5" fill="#1a1a1a"/>
+  <text x="470.0" y="140" text-anchor="end" font-size="14" font-weight="bold" fill="#1a1a1a">A</text>
+  <text x="810.0" y="140" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">B</text>
+  <text x="640" y="136" text-anchor="middle" font-size="13" font-weight="bold" fill="#9a8a72">ground distance: what you tape</text>
+  <text x="640" y="172" text-anchor="middle" font-size="13" fill="#1a1a1a">1,000.000 ft</text>
+  <path d="M 492.1980198019802 266 Q 640 254 787.8019801980198 266" fill="none" stroke="#3d6f9e" stroke-width="3"/>
+  <text x="640" y="248" text-anchor="middle" font-size="13" font-weight="bold" fill="#3d6f9e">on the ellipsoid</text>
+  <text x="640" y="286" text-anchor="middle" font-size="13" fill="#1a1a1a">999.780 ft</text>
+  <line x1="502.0" y1="352" x2="778.0" y2="352" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="502.0" y1="346" x2="502.0" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="536.5" y1="346" x2="536.5" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="571.0" y1="346" x2="571.0" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="605.5" y1="346" x2="605.5" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="640.0" y1="346" x2="640.0" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="674.5" y1="346" x2="674.5" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="709.0" y1="346" x2="709.0" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="743.5" y1="346" x2="743.5" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="778.0" y1="346" x2="778.0" y2="358" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="640" y="338" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">on the grid: what coordinates give</text>
+  <text x="640" y="378" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">999.705 ft</text>
+  <text x="362" y="208.0" text-anchor="start" font-size="12" font-weight="bold" fill="#3d6f9e">× elevation factor</text>
+  <text x="362" y="224.0" text-anchor="start" font-size="12" fill="#555555">0.99978</text>
+  <text x="362" y="313.0" text-anchor="start" font-size="12" font-weight="bold" fill="#1a1a1a">× scale factor k</text>
+  <text x="362" y="329.0" text-anchor="start" font-size="12" fill="#555555">0.99992</text>
+  <text x="605.0" y="420" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Combined factor = k × elevation factor = 0.99970504  (NGS, Utah Central)</text>
+  <text x="605.0" y="440" text-anchor="middle" font-size="12" fill="#555555">Grid is 0.295 ft shorter per 1,000 ft (about 3½ in). In UTM Zone 12: 0.582 ft.</text>
+  <text x="605.0" y="458" text-anchor="middle" font-size="12" fill="#555555">Ground at BYU: 1,417 m (4,648 ft) above the geoid. Higher ground, smaller elevation factor.</text>
+</svg>

@@ -148,7 +148,7 @@ Convert everything to azimuths before computing latitudes and departures.
 
 <!--
 A common error is mixing the two systems mid-problem.
-Figures 1-10 are drawn by fig_tools/fig_fe_surveying.py, most from the TA's originals; 6, 7 and 10 are plotted from the worked examples' numbers.
+Figures 1-11 are drawn by fig_tools/fig_fe_surveying.py, most from the TA's originals; 7, 8 and 11 are plotted from the worked examples' numbers, and 5 and 6 carry official NGS and USGS values for BYU.
 -->
 
 ---
@@ -318,6 +318,33 @@ EPSG:32612 is WGS 84 / UTM zone 12N, the system the Bentley guide and QGIS page 
 
 ---
 
+## Grid versus ground at BYU
+
+![w:680](../gen_reading/images/w12_fig06_grid_ground.svg)
+
+<div class="cols small">
+<div>
+
+**Why it matters.** Coordinates give **grid** distances; a tape measures **ground** distances. At BYU, 1,000.000 ft on the state plane grid is **1,000.295 ft** on the ground: stake it unconverted and the point lands about **3½ in short**.
+
+</div>
+<div>
+
+**On the FE:** grid = ground × combined factor (= scale × elevation factor). Check which way the problem converts.
+**In this class:** our UTM products (EPSG:32612) run 0.058 % short here: 2 in across a 300 ft lot, 3 ft over a mile.
+
+</div>
+</div>
+
+<!--
+Discussion, 2 minutes: "A crew stakes a property corner 1,000.00 ft from a monument. The distance came from state plane coordinates; they tape 1,000.00 ft. Is the corner too far or too short, and by how much?" Answer: too short. Ground = grid ÷ combined factor = 1,000.00 ÷ 0.99970504 = 1,000.295 ft, so the taped point is 0.295 ft (3½ in) short of where the coordinates put it.
+Follow-up: "Why is the factor smaller at BYU than in St. George?" Higher ground means a smaller elevation factor; the scale factor depends on where you are in the zone. Do not quote a St. George number; the point is the direction.
+On the FE: expect one multiplication or division with a given combined factor, or building the combined factor from a given scale factor and elevation (elevation factor about R / (R + h)). The trap is converting the wrong way.
+Sources, all for the Engineering Building (40.2466 N, 111.6476 W), checked 2026-11-17: USGS EPQS ground elevation 1,416.82 m; GEOID18 N = −16.93 m, so h = 1,399.89 m; NGS NCAT with that h: Utah Central scale factor 0.99992458, combined 0.99970504; UTM 12 scale 0.99963734, combined 0.99941786. Elevation factor 0.99978 is combined ÷ scale and matches for both.
+-->
+
+---
+
 ## Forward and inverse computations
 
 <div class="cols">
@@ -361,7 +388,7 @@ The quadrant comes from the signs of ΔN and ΔE — never from the calculator a
 
 ## Differential leveling
 
-![w:740](../gen_reading/images/w12_fig06_leveling_run.svg)
+![w:740](../gen_reading/images/w12_fig07_leveling_run.svg)
 
 <div class="cols small">
 <div>
@@ -490,7 +517,7 @@ The denominator is horizontal distance, not slope distance.
 </div>
 <div>
 
-![](../gen_reading/images/w12_fig07_traverse.svg)
+![](../gen_reading/images/w12_fig08_traverse.svg)
 
 </div>
 </div>
@@ -775,7 +802,7 @@ $A = \dfrac{d}{3}\left[h_0 + 4\Sigma h_{\text{odd}} + 2\Sigma h_{\text{even}} + 
 
 ## Average end area
 
-![w:860](../gen_reading/images/w12_fig08_average_end_area.svg)
+![w:860](../gen_reading/images/w12_fig09_average_end_area.svg)
 
 <p class="small">Next segment, 11+00 to 12+00 (A₃ = 196 ft²): 100 (318 + 196)/2 = 25,700 ft³. <b>Total 53,850 ft³ = 1,994.4 yd³.</b> Cut and fill are tracked separately — never net them inside a segment.</p>
 
@@ -885,7 +912,7 @@ table { font-size: 20px; }
 </div>
 <div>
 
-![](../gen_reading/images/w12_fig09_horizontal_curve.svg)
+![](../gen_reading/images/w12_fig10_horizontal_curve.svg)
 
 </div>
 </div>
@@ -945,7 +972,7 @@ Pairs, 2 minutes. A is PI + T, the classic trap. C is PI + L. D is the PC.
 
 ## Vertical curves
 
-![w:760](../gen_reading/images/w12_fig10_vertical_curve.svg)
+![w:760](../gen_reading/images/w12_fig11_vertical_curve.svg)
 
 <div class="cols small">
 <div>

@@ -187,9 +187,10 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       still has its own nav section between Week 9 and Weeks 10–15.
 - [ ] **Turn `gen_reading/fe_surveying_review.md` into a full reading** (instructor 2026-11-17;
       planned for a fresh session). Figures are ready and numbered for it in deck order:
-      `w12_fig01`–`w12_fig10` in `docs/gen_reading/images/`, drawn by
+      `w12_fig01`–`w12_fig11` in `docs/gen_reading/images/`, drawn by
       `fig_tools/fig_fe_surveying.py` (Figure 5 is the height systems, with the NGS GEOID18
-      N = −16.93 m at the Engineering Building; Figures 6, 7 and 10 are plotted from the deck's
+      N = −16.93 m at the Engineering Building; Figure 6 is grid versus ground, with NGS NCAT
+      state plane and UTM factors there; Figures 7, 8 and 11 are plotted from the deck's
       worked examples). Content source: `docs/slides/week_12.md` and its speaker notes (NCEES and
       NGS sources are cited there), plus the homework and hints already on the page; keep both.
 - [ ] **FE-style surveying and basic trigonometry review.** Partly covered 2026-11-17 by the Week 12
@@ -346,7 +347,12 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
   height systems (whole-Earth ellipsoid and geoid, and the site cross-section with H, h and
   N; N = −16.93 m at the Engineering Building from the NGS GEOID18 web service), went in as
   Figure 5 on a new slide, "Two heights for the same point", with discussion and speaker
-  notes; the later figures moved up one (deck now 49 slides).
+  notes; the later figures moved up one (deck now 49 slides). Then Figure 6, grid versus
+  ground (secant projection and k; one line's ground, ellipsoid and grid lengths at BYU), on
+  a new slide after the state plane slide, with official values for the Engineering
+  Building: USGS EPQS ground 1,416.82 m; NGS NCAT Utah Central scale 0.99992458, combined
+  0.99970504; UTM 12 scale 0.99963734, combined 0.99941786. Later figures are now 7–11;
+  deck 50 slides.
 
 - 2026-11-03 — **Week 10 Final Project Introduction deck** (`docs/slides/week_10.md`, 35 slides,
   HTML/PDF/PPTX), built from the fall 2026 project pages the TAs pushed 2026-11-02, with seven

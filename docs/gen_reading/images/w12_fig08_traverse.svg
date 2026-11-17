@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" font-family="Arial, Helvetica, sans-serif" font-size="14">
   <rect x="0" y="0" width="640" height="560" fill="#f9f9f9" rx="8"/>
-  <text x="320.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 7: The traverse in the worked example</text>
+  <text x="320.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 8: The traverse in the worked example</text>
   <text x="320.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Drawn to scale from the adjusted coordinates. Run counterclockwise; adjusted interior angles shown.</text>
   <polygon points="289.7231999999998,488.0 564.9473999999998,329.1435999999999 420.4563999999996,100.10939999999994 150.0,250.06879999999987" fill="#dce7f2" stroke="#3d6f9e" stroke-width="2.5"/>
   <g>
