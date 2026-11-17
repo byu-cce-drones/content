@@ -46,8 +46,9 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
       help; none are on the page yet.
     - **SharePoint link** to `Software/autel-thermal/autel-thermal.zip`: the page has a visible
       "link to come: ask a TA" and an HTML `PLACEHOLDER` comment. Instructor to supply.
-    - **Colab section is a draft**, marked in an HTML comment, not to be published until the
-      instructor approves it. It deletes the notebook's "Colab setup" cell (installs from GitHub,
+    - **Colab section is published but needs review.** Pushed 2026-11-17 at the instructor's
+      request before anyone had reviewed it; a read-through and a test run in Colab are still
+      owed. It deletes the notebook's "Colab setup" cell (installs from GitHub,
       fails while private) and its "save the results" cell (would copy `OUT_DIR` a second time).
       Simplify once the planned zip option lands in the autel-thermal notebook.
     - **Switch to the public repository** when it opens: replace the one marked paragraph in What You

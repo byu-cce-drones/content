@@ -190,7 +190,7 @@ The same roof or pond should read within about **1 °C**, and outlines should li
 
 ## Google Colab (No Install)
 
-<!-- DRAFT, instructor to approve before publishing (2026-11-17). The notebook's own "Colab setup" cell still installs from GitHub, which fails while the repository is private; the steps below work around it by deleting that cell. Simplify once the zip option lands in autel-thermal. -->
+<!-- Published 2026-11-17 at the instructor's request; still needs review and a test run in Colab. The notebook's own "Colab setup" cell still installs from GitHub, which fails while the repository is private; the steps below work around it by deleting that cell. Simplify once the zip option lands in autel-thermal. -->
 
 **Google Colab** runs notebooks on Google's computers in your web browser, so nothing needs installing. It saves the install, not the data handling: your flight has to go up to Google Drive and the results come back down, and Colab forgets everything (the install included) when the session closes. iTwin still runs on a Windows computer afterwards. Use the local route above if you can; use Colab if you cannot install on the computer you have.
 
