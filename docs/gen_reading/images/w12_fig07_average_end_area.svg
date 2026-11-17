@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="400" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 7: Volume between two cross-sections</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Average end area uses the two ends. The prismoidal formula also uses the section measured halfway, Aₘ.</text>
+  <line x1="138.86" y1="285" x2="429.40999999999997" y2="135" stroke="#b9c6d2" stroke-width="1.5"/>
+  <line x1="321.14" y1="285" x2="630.59" y2="135" stroke="#b9c6d2" stroke-width="1.5"/>
+  <line x1="272.0" y1="317.76" x2="572.0" y2="174.06" stroke="#b9c6d2" stroke-width="1.5"/>
+  <line x1="188.0" y1="317.76" x2="488.0" y2="174.06" stroke="#b9c6d2" stroke-width="1.5"/>
+  <line x1="98.86000000000001" y1="285" x2="361.14" y2="285" stroke="#8a9aab" stroke-width="2"/>
+  <line x1="389.40999999999997" y1="135" x2="670.59" y2="135" stroke="#8a9aab" stroke-width="2"/>
+  <polygon points="429.40999999999997,135 630.59,135 572.0,174.06 488.0,174.06" fill="#dce7f2" stroke="#3d6f9e" stroke-width="2.5"/>
+  <polygon points="283.82,210.0 476.18,210.0 422.0,246.12 338.0,246.12" fill="none" stroke="#e67e22" stroke-width="2" stroke-dasharray="7 5"/>
+  <polygon points="138.86,285 321.14,285 272.0,317.76 188.0,317.76" fill="#dce7f2" stroke="#3d6f9e" stroke-width="2.5"/>
+  <text x="230" y="303" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">A₁ = 245 ft²</text>
+  <text x="230" y="347" text-anchor="middle" font-size="14" fill="#555555">Sta 10+00</text>
+  <text x="530" y="155" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">A₂ = 318 ft²</text>
+  <text x="680" y="155" text-anchor="middle" font-size="14" fill="#555555">Sta 11+00</text>
+  <line x1="200" y1="150" x2="289.82" y2="213.0" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="289.82" cy="213.0" r="3" fill="#e67e22"/>
+  <text x="196" y="136" text-anchor="end" font-size="14" font-weight="bold" fill="#e67e22">Aₘ, measured at 10+50</text>
+  <text x="196" y="152" text-anchor="end" font-size="12" fill="#555555">prismoidal formula only</text>
+  <g>
+    <line x1="456.0" y1="275.90999999999997" x2="313.2149967690223" y2="344.3040165476383" stroke="#555555" stroke-width="1.6" stroke-linecap="round"/>
+    <polygon points="306.0,347.76 311.4870050428415,340.69651816312717 314.94298849520317,347.91151493214943" fill="#555555"/>
+  </g>
+  <g>
+    <line x1="456.0" y1="275.90999999999997" x2="598.7850032309777" y2="207.5159834523617" stroke="#555555" stroke-width="1.6" stroke-linecap="round"/>
+    <polygon points="606.0,204.06 600.5129949571585,211.12348183687286 597.057011504797,203.90848506785053" fill="#555555"/>
+  </g>
+  <line x1="276.0" y1="321.76" x2="310.0" y2="351.76" stroke="#b9c6d2" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <line x1="576.0" y1="178.06" x2="610.0" y2="208.06" stroke="#b9c6d2" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="470.0" y="297.90999999999997" text-anchor="start" font-size="14" font-weight="bold" fill="#555555">L = 100 ft</text>
+  <text x="690" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#3d6f9e">V = L (A₁ + A₂) / 2</text>
+  <text x="690" y="352" text-anchor="middle" font-size="13" fill="#1a1a1a">= 100 (245 + 318) / 2 = 28,150 ft³</text>
+  <text x="690" y="372" text-anchor="middle" font-size="13" fill="#1a1a1a">÷ 27 = 1,042.6 yd³</text>
+</svg>

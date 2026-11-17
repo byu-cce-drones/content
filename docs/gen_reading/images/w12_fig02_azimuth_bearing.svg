@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="600" height="500" fill="#f9f9f9" rx="8"/>
+  <text x="300.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 2: One direction, two ways</text>
+  <text x="300.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Azimuth: 0° to 360°, clockwise from north. Bearing: under 90°, from N or S toward E or W.</text>
+  <circle cx="300" cy="262" r="150" fill="#ffffff" stroke="#b9c6d2" stroke-width="1.5"/>
+  <line x1="300" y1="94" x2="300" y2="430" stroke="#999999" stroke-width="1.2"/>
+  <line x1="132" y1="262" x2="468" y2="262" stroke="#999999" stroke-width="1.2"/>
+  <text x="300" y="86" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">N</text>
+  <text x="300" y="452" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">S</text>
+  <text x="484" y="268" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">E</text>
+  <text x="116" y="268" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">W</text>
+  <text x="460" y="122" text-anchor="middle" font-size="14" fill="#555555">NE</text>
+  <text x="140" y="122" text-anchor="middle" font-size="14" fill="#555555">NW</text>
+  <text x="140" y="412" text-anchor="middle" font-size="14" fill="#555555">SW</text>
+  <text x="460" y="412" text-anchor="middle" font-size="14" fill="#555555">SE</text>
+  <g>
+    <path d="M 300.0 207.0 A 55 55 0 0 1 345.1 293.5" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+    <polygon points="345.05336243589454,293.5467039993075 346.52936616375354,283.5932416371269 353.9017345623544,288.75542956428626" fill="#4a90d9"/>
+  </g>
+  <g>
+    <path d="M 300.0 362.0 A 100 100 0 0 0 381.9 319.4" fill="none" stroke="#e67e22" stroke-width="2.5"/>
+    <polygon points="381.9152044288992,319.35764363510464 380.4392007010402,329.31110599728527 373.0668323024393,324.1489180701259" fill="#e67e22"/>
+  </g>
+  <g>
+    <line x1="300" y1="262" x2="421.23450255477076" y2="346.88931257995483" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="432.70263117481664,354.91938268886946 417.21946750031344,352.62337688997775 425.24953760922807,341.1552482699319" fill="#1a1a1a"/>
+  </g>
+  <circle cx="300" cy="262" r="4" fill="#1a1a1a"/>
+  <line x1="401" y1="150" x2="347.6313972081441" y2="234.5" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="347.6313972081441" cy="234.5" r="3" fill="#4a90d9"/>
+  <text x="405" y="144" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">Azimuth 125°</text>
+  <text x="405" y="161" text-anchor="start" font-size="12" fill="#555555">from north, clockwise</text>
+  <line x1="146" y1="317" x2="346.9471562785891" y2="350.2947592858927" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="346.9471562785891" cy="350.2947592858927" r="3" fill="#e67e22"/>
+  <text x="28" y="322" text-anchor="start" font-size="14" font-weight="bold" fill="#1a1a1a">Bearing S 55° E</text>
+  <text x="28" y="339" text-anchor="start" font-size="12" fill="#555555">from south, toward east</text>
+  <text x="300.0" y="486" text-anchor="middle" font-size="12" fill="#555555">SE quadrant: bearing = 180° − azimuth = 180° − 125° = 55°</text>
+</svg>

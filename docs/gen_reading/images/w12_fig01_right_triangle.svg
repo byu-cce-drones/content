@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="340" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 1: Right triangles, and reducing a slope distance</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Every computation that follows uses horizontal distance. Reduce a slope distance first.</text>
+  <rect x="30" y="66" width="405" height="254" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <rect x="465" y="66" width="405" height="254" rx="10" fill="#ffffff" stroke="#dde3e9" stroke-width="1.5"/>
+  <text x="232" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Right triangle</text>
+  <text x="667" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Slope distance to horizontal</text>
+  <polygon points="80,280 360,280 360,120" fill="#dce7f2" stroke="#3d6f9e" stroke-width="2.5"/>
+  <path d="M 348.0 280.0 L 348.0 268.0 L 360.0 268.0" fill="none" stroke="#333333" stroke-width="1.5"/>
+  <g>
+    <path d="M 130.0 280.0 A 50 50 0 0 0 123.4 255.2" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  </g>
+  <text x="144" y="270" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">θ</text>
+  <text x="220" y="304" text-anchor="middle" font-size="14" fill="#1a1a1a">b, adjacent</text>
+  <text x="372" y="205" text-anchor="start" font-size="14" fill="#1a1a1a">a, opposite</text>
+  <text x="196" y="188" text-anchor="end" font-size="14" fill="#1a1a1a">c, hypotenuse</text>
+  <line x1="520" y1="280" x2="784.8842778576781" y2="139.15853116423276" stroke="#3d6f9e" stroke-width="3.5"/>
+  <line x1="520" y1="280" x2="784.8842778576781" y2="280" stroke="#1a1a1a" stroke-width="1.8" stroke-dasharray="7 5"/>
+  <line x1="784.8842778576781" y1="280" x2="784.8842778576781" y2="139.15853116423276" stroke="#e67e22" stroke-width="2.2" stroke-dasharray="7 5"/>
+  <path d="M 772.9 280.0 L 772.9 268.0 L 784.9 268.0" fill="none" stroke="#333333" stroke-width="1.5"/>
+  <line x1="520" y1="280" x2="520" y2="118" stroke="#b9c6d2" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <g>
+    <path d="M 582.0 280.0 A 62 62 0 0 0 574.7 250.9" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  </g>
+  <g>
+    <path d="M 520.0 240.0 A 40 40 0 0 1 555.3 261.2" fill="none" stroke="#b9c6d2" stroke-width="1.8"/>
+  </g>
+  <circle cx="520" cy="280" r="5" fill="#1a1a1a"/>
+  <text x="592" y="270" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">α</text>
+  <text x="536" y="234" text-anchor="middle" font-size="15" font-weight="bold" fill="#555555">z</text>
+  <text x="640" y="196" text-anchor="end" font-size="14" font-weight="bold" fill="#3d6f9e">S, slope distance</text>
+  <text x="652.4421389288391" y="304" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">H = S cos α</text>
+  <text x="774.8842778576781" y="201.57926558211636" text-anchor="end" font-size="14" font-weight="bold" fill="#e67e22">V = S sin α</text>
+  <text x="545" y="130" text-anchor="start" font-size="12" fill="#555555">From a zenith angle z:</text>
+  <text x="545" y="146" text-anchor="start" font-size="12" fill="#555555">H = S sin z,  V = S cos z</text>
+</svg>

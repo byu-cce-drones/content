@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="760" height="500" fill="#f9f9f9" rx="8"/>
+  <text x="380.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 8: Parts of a simple horizontal curve</text>
+  <text x="380.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Δ at the PI equals the central angle. Stationing follows the curve: PT = PC + L, never PI + T.</text>
+  <line x1="380" y1="90" x2="230.870126548728" y2="302.97953151513786" stroke="#b9c6d2" stroke-width="1.8" stroke-dasharray="7 5"/>
+  <line x1="380" y1="90" x2="529.1298734512719" y2="302.97953151513786" stroke="#b9c6d2" stroke-width="1.8" stroke-dasharray="7 5"/>
+  <line x1="380" y1="90" x2="380" y2="407.4013930779786" stroke="#b9c6d2" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <g>
+    <path d="M 351.3 131.0 A 50 50 0 0 0 408.7 131.0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  </g>
+  <text x="380" y="166" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Δ</text>
+  <text x="289.435063274364" y="196.48976575756893" text-anchor="middle" font-size="16" font-weight="bold" fill="#555555">R</text>
+  <text x="470.56493672563596" y="196.48976575756893" text-anchor="middle" font-size="16" font-weight="bold" fill="#555555">R</text>
+  <circle cx="380" cy="90" r="5" fill="#1a1a1a"/>
+  <text x="380" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">O, centre</text>
+  <line x1="140.76340167693888" y1="239.8861235165228" x2="380" y2="407.4013930779786" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="380" y1="407.4013930779786" x2="619.236598323061" y2="239.8861235165228" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="380" y1="407.4013930779786" x2="453.7236839860093" y2="459.0232723495727" stroke="#b9c6d2" stroke-width="2" stroke-dasharray="7 5"/>
+  <g>
+    <path d="M 424.2 438.4 A 54 54 0 0 0 424.2 376.4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+    <polygon points="424.23421039160553,376.4282655150221 433.0825825180654,381.2195399500433 425.7102141194645,386.3817278772027" fill="#4a90d9"/>
+  </g>
+  <text x="450" y="415.4013930779786" text-anchor="middle" font-size="18" font-weight="bold" fill="#4a90d9">Δ</text>
+  <text x="136.76340167693888" y="229.8861235165228" text-anchor="start" font-size="12" fill="#555555">back tangent</text>
+  <text x="623.236598323061" y="229.8861235165228" text-anchor="end" font-size="12" fill="#555555">forward tangent</text>
+  <path d="M 230.9 303.0 A 260 260 0 0 0 529.1 303.0" fill="none" stroke="#3d6f9e" stroke-width="4.5"/>
+  <line x1="230.870126548728" y1="302.97953151513786" x2="529.1298734512719" y2="302.97953151513786" stroke="#4a90d9" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="300" y="293.97953151513786" text-anchor="middle" font-size="13" font-weight="bold" fill="#4a90d9">LC, long chord</text>
+  <line x1="385" y1="302.97953151513786" x2="385" y2="350" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="385" y1="350" x2="385" y2="407.4013930779786" stroke="#e67e22" stroke-width="2"/>
+  <line x1="420" y1="288.97953151513786" x2="385" y2="326.48976575756893" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="385" cy="326.48976575756893" r="3" fill="#4a90d9"/>
+  <text x="424" y="292.97953151513786" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a1a">M, middle ordinate</text>
+  <line x1="328" y1="429.4013930779786" x2="385" y2="378.7006965389893" stroke="#e67e22" stroke-width="1.5"/>
+  <circle cx="385" cy="378.7006965389893" r="3" fill="#e67e22"/>
+  <text x="324" y="437.4013930779786" text-anchor="end" font-size="13" font-weight="bold" fill="#e67e22">E, external</text>
+  <text x="293.96353454734304" y="377.5735031823381" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">T</text>
+  <text x="466.0364654526569" y="377.5735031823381" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">T</text>
+  <line x1="219" y1="352" x2="303.9833567720884" y2="338.6392365503892" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="303.9833567720884" cy="338.6392365503892" r="3" fill="#4a90d9"/>
+  <text x="215" y="357" text-anchor="end" font-size="13" font-weight="bold" fill="#3d6f9e">L, length along the curve</text>
+  <circle cx="230.870126548728" cy="302.97953151513786" r="6" fill="#1a1a1a"/>
+  <text x="218.870126548728" y="328.97953151513786" text-anchor="end" font-size="15" font-weight="bold" fill="#1a1a1a">PC</text>
+  <circle cx="529.1298734512719" cy="302.97953151513786" r="6" fill="#1a1a1a"/>
+  <text x="541.1298734512719" y="328.97953151513786" text-anchor="start" font-size="15" font-weight="bold" fill="#1a1a1a">PT</text>
+  <circle cx="380" cy="407.4013930779786" r="6" fill="#1a1a1a"/>
+  <text x="376" y="437.4013930779786" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">PI</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="900" height="440" fill="#f9f9f9" rx="8"/>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 5: The level run from BM-1 to BM-2</text>
+  <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Vertical scale exaggerated. HI = elevation + BS; the next elevation = HI − FS.</text>
+  <polygon points="40,362.0 90,356.0 210.0,336.1999999999999 330,308.4800000000001 450.0,272.4000000000001 570,335.53999999999985 690.0,347.1999999999999 810,360.17999999999995 860,358.17999999999995 860,420 40,420" fill="#e9eef3" stroke="#8a9aab" stroke-width="2"/>
+  <rect x="85" y="136.0" width="10" height="220.0" fill="#3d6f9e"/>
+  <circle cx="90" cy="356.0" r="4" fill="#1a1a1a"/>
+  <text x="90" y="378.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">BM-1</text>
+  <text x="90" y="394.0" text-anchor="middle" font-size="12" fill="#555555">100.00</text>
+  <rect x="325" y="88.48000000000008" width="10" height="220.0" fill="#3d6f9e"/>
+  <circle cx="330" cy="308.4800000000001" r="4" fill="#1a1a1a"/>
+  <text x="330" y="330.4800000000001" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">TP-1</text>
+  <text x="330" y="346.4800000000001" text-anchor="middle" font-size="12" fill="#555555">102.16</text>
+  <rect x="565" y="115.53999999999985" width="10" height="220.0" fill="#3d6f9e"/>
+  <circle cx="570" cy="335.53999999999985" r="4" fill="#1a1a1a"/>
+  <text x="570" y="357.53999999999985" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">TP-2</text>
+  <text x="570" y="373.53999999999985" text-anchor="middle" font-size="12" fill="#555555">100.93</text>
+  <rect x="805" y="140.17999999999995" width="10" height="220.0" fill="#3d6f9e"/>
+  <circle cx="810" cy="360.17999999999995" r="4" fill="#1a1a1a"/>
+  <text x="810" y="382.17999999999995" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">BM-2</text>
+  <text x="810" y="398.17999999999995" text-anchor="middle" font-size="12" fill="#555555">99.81</text>
+  <line x1="210.0" y1="244.75999999999996" x2="194.0" y2="336.1999999999999" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="210.0" y1="244.75999999999996" x2="210.0" y2="336.1999999999999" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="210.0" y1="244.75999999999996" x2="226.0" y2="336.1999999999999" stroke="#1a1a1a" stroke-width="1.6"/>
+  <rect x="192.0" y="231.75999999999996" width="36" height="10" rx="3" fill="#1a1a1a"/>
+  <g>
+    <line x1="190.0" y1="236.75999999999996" x2="104.0" y2="236.75999999999996" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="96,236.75999999999996 104.0,232.75999999999996 104.0,240.75999999999996" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="230.0" y1="236.75999999999996" x2="316.0" y2="236.75999999999996" stroke="#e67e22" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="324,236.75999999999996 316.0,240.75999999999996 316.0,232.75999999999996" fill="#e67e22"/>
+  </g>
+  <text x="153.0" y="228.75999999999996" text-anchor="middle" font-size="13" font-weight="bold" fill="#4a90d9">BS 5.42</text>
+  <text x="267.0" y="228.75999999999996" text-anchor="middle" font-size="13" font-weight="bold" fill="#e67e22">FS 3.26</text>
+  <text x="210.0" y="210.75999999999996" text-anchor="middle" font-size="12" fill="#555555">HI 105.42</text>
+  <line x1="450.0" y1="158.51999999999992" x2="434.0" y2="272.4000000000001" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="450.0" y1="158.51999999999992" x2="450.0" y2="272.4000000000001" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="450.0" y1="158.51999999999992" x2="466.0" y2="272.4000000000001" stroke="#1a1a1a" stroke-width="1.6"/>
+  <rect x="432.0" y="145.51999999999992" width="36" height="10" rx="3" fill="#1a1a1a"/>
+  <g>
+    <line x1="430.0" y1="150.51999999999992" x2="344.0" y2="150.51999999999992" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="336,150.51999999999992 344.0,146.51999999999992 344.0,154.51999999999992" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="470.0" y1="150.51999999999992" x2="556.0" y2="150.51999999999992" stroke="#e67e22" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="564,150.51999999999992 556.0,154.51999999999992 556.0,146.51999999999992" fill="#e67e22"/>
+  </g>
+  <text x="393.0" y="142.51999999999992" text-anchor="middle" font-size="13" font-weight="bold" fill="#4a90d9">BS 7.18</text>
+  <text x="507.0" y="142.51999999999992" text-anchor="middle" font-size="13" font-weight="bold" fill="#e67e22">FS 8.41</text>
+  <text x="450.0" y="124.51999999999992" text-anchor="middle" font-size="12" fill="#555555">HI 109.34</text>
+  <line x1="690.0" y1="234.6399999999998" x2="674.0" y2="347.1999999999999" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="690.0" y1="234.6399999999998" x2="690.0" y2="347.1999999999999" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="690.0" y1="234.6399999999998" x2="706.0" y2="347.1999999999999" stroke="#1a1a1a" stroke-width="1.6"/>
+  <rect x="672.0" y="221.6399999999998" width="36" height="10" rx="3" fill="#1a1a1a"/>
+  <g>
+    <line x1="670.0" y1="226.6399999999998" x2="584.0" y2="226.6399999999998" stroke="#4a90d9" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="576,226.6399999999998 584.0,222.6399999999998 584.0,230.6399999999998" fill="#4a90d9"/>
+  </g>
+  <g>
+    <line x1="710.0" y1="226.6399999999998" x2="796.0" y2="226.6399999999998" stroke="#e67e22" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="804,226.6399999999998 796.0,230.6399999999998 796.0,222.6399999999998" fill="#e67e22"/>
+  </g>
+  <text x="633.0" y="218.6399999999998" text-anchor="middle" font-size="13" font-weight="bold" fill="#4a90d9">BS 4.95</text>
+  <text x="747.0" y="218.6399999999998" text-anchor="middle" font-size="13" font-weight="bold" fill="#e67e22">FS 6.07</text>
+  <text x="690.0" y="200.6399999999998" text-anchor="middle" font-size="12" fill="#555555">HI 105.88</text>
+</svg>

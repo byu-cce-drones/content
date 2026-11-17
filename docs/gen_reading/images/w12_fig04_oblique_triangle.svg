@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="600" height="400" fill="#f9f9f9" rx="8"/>
+  <text x="300.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 4: Naming an oblique triangle</text>
+  <text x="300.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Each side carries the lower-case letter of the angle opposite it.</text>
+  <polygon points="90,330 520,290 250,100" fill="#dce7f2" stroke="#3d6f9e" stroke-width="2.5"/>
+  <g>
+    <path d="M 123.9 326.9 A 34 34 0 0 0 109.4 302.1" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  </g>
+  <circle cx="90" cy="330" r="5" fill="#1a1a1a"/>
+  <text x="68" y="352" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">A</text>
+  <g>
+    <path d="M 492.2 270.4 A 34 34 0 0 0 486.1 293.1" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  </g>
+  <circle cx="520" cy="290" r="5" fill="#1a1a1a"/>
+  <text x="538" y="310" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">B</text>
+  <g>
+    <path d="M 230.6 127.9 A 34 34 0 0 0 277.8 119.6" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  </g>
+  <circle cx="250" cy="100" r="5" fill="#1a1a1a"/>
+  <text x="250" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">C</text>
+  <text x="401.0" y="189.0" text-anchor="middle" font-size="18" font-weight="bold" font-style="italic" fill="#3d6f9e">a</text>
+  <text x="152.0" y="211.0" text-anchor="middle" font-size="18" font-weight="bold" font-style="italic" fill="#3d6f9e">b</text>
+  <text x="305.0" y="334.0" text-anchor="middle" font-size="18" font-weight="bold" font-style="italic" fill="#3d6f9e">c</text>
+  <text x="300" y="382" text-anchor="middle" font-size="12" fill="#555555">Law of sines: a / sin A = b / sin B = c / sin C     Law of cosines: a² = b² + c² − 2bc cos A</text>
+</svg>

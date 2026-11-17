@@ -97,7 +97,7 @@ NCEES's own pages give the appointment as both "6 hours" and "5 hr 55 min".
 
 ## Right-triangle trigonometry
 
-![w:900](../gen_reading/images/w12_fe_right_triangle.png)
+![w:900](../gen_reading/images/w12_fig01_right_triangle.svg)
 
 <div class="cols small">
 <div>
@@ -141,14 +141,14 @@ Convert everything to azimuths before computing latitudes and departures.
 </div>
 <div>
 
-![](../gen_reading/images/w12_fe_azimuth_bearing.svg)
+![](../gen_reading/images/w12_fig02_azimuth_bearing.svg)
 
 </div>
 </div>
 
 <!--
 A common error is mixing the two systems mid-problem.
-Figure redrawn 2026-11-17 in the house style; the TA's version had the SW label printed over "bearing angle".
+Figures 1-9 are drawn by fig_tools/fig_fe_surveying.py from the TA's originals; 5, 6 and 9 are plotted from the worked examples' numbers.
 -->
 
 ---
@@ -180,7 +180,7 @@ Quadrant first, then the angle.
 
 ## Angles as they are measured in the field
 
-![w:820](../gen_reading/images/w12_fe_field_angles.png)
+![w:820](../gen_reading/images/w12_fig03_field_angles.svg)
 
 <div class="cols small">
 <div>
@@ -217,7 +217,7 @@ Two sides and the included angle, or all three sides to find an angle.
 </div>
 <div>
 
-![](../gen_reading/images/w12_fe_oblique_triangle.png)
+![](../gen_reading/images/w12_fig04_oblique_triangle.svg)
 
 </div>
 </div>
@@ -334,7 +334,7 @@ The quadrant comes from the signs of ΔN and ΔE — never from the calculator a
 
 ## Differential leveling
 
-![w:900](../gen_reading/images/w12_fe_leveling_run.png)
+![w:740](../gen_reading/images/w12_fig05_leveling_run.svg)
 
 <div class="cols small">
 <div>
@@ -463,7 +463,7 @@ The denominator is horizontal distance, not slope distance.
 </div>
 <div>
 
-![](../gen_reading/images/w12_fe_traverse.png)
+![](../gen_reading/images/w12_fig06_traverse.svg)
 
 </div>
 </div>
@@ -748,24 +748,9 @@ $A = \dfrac{d}{3}\left[h_0 + 4\Sigma h_{\text{odd}} + 2\Sigma h_{\text{even}} + 
 
 ## Average end area
 
-![w:640](../gen_reading/images/w12_fe_average_end_area.png)
+![w:860](../gen_reading/images/w12_fig07_average_end_area.svg)
 
-<div class="cols small">
-<div>
-
-$V = L\,\dfrac{A_1 + A_2}{2}$
-ft³ from ft² and ft; ÷ 27 for cubic yards.
-Cut and fill are tracked separately — never net them inside a segment.
-
-</div>
-<div>
-
-10+00 to 11+00: 100 (245 + 318)/2 = 28,150 ft³
-11+00 to 12+00 (A₃ = 196 ft²): 100 (318 + 196)/2 = 25,700 ft³
-**Total 53,850 ft³ = 1,994.4 yd³**
-
-</div>
-</div>
+<p class="small">Next segment, 11+00 to 12+00 (A₃ = 196 ft²): 100 (318 + 196)/2 = 25,700 ft³. <b>Total 53,850 ft³ = 1,994.4 yd³.</b> Cut and fill are tracked separately — never net them inside a segment.</p>
 
 ---
 
@@ -851,24 +836,29 @@ Shrinkage and swell factors convert between bank, loose and compacted volumes �
 
 ## Horizontal curve elements
 
+<style scoped>
+.cols { grid-template-columns: 1fr 1.2fr; }
+table { font-size: 20px; }
+</style>
+
 <div class="cols">
 <div>
 
 | Element | Formula |
 |---|---|
 | Tangent T | $R\tan(\Delta/2)$ |
-| Curve length L | $R\Delta$ (radians) $= \pi R\Delta/180°$ |
+| Curve length L | $R\Delta$ (rad) $= \pi R\Delta/180°$ |
 | Long chord LC | $2R\sin(\Delta/2)$ |
 | External E | $R[\sec(\Delta/2) - 1]$ |
 | Middle ordinate M | $R[1 - \cos(\Delta/2)]$ |
 | Degree of curve D (arc) | $5{,}729.58/R$ |
 
+<p class="small">Stationing runs along the curve: <b>PT = PC + L</b>, never PI + T. Δ is the deflection between the tangents — the same angle the curve subtends at the centre.</p>
+
 </div>
 <div>
 
-![](../gen_reading/images/w12_fe_horizontal_curve.png)
-
-Stationing runs along the curve: **PT = PC + L**, never PI + T. Δ is the deflection between the tangents — the same angle the curve subtends at the centre.
+![](../gen_reading/images/w12_fig08_horizontal_curve.svg)
 
 </div>
 </div>
@@ -928,23 +918,18 @@ Pairs, 2 minutes. A is PI + T, the classic trap. C is PI + L. D is the PC.
 
 ## Vertical curves
 
-<div class="cols">
+![w:760](../gen_reading/images/w12_fig09_vertical_curve.svg)
+
+<div class="cols small">
 <div>
 
-$A = g_2 - g_1$ (percent)  $K = L/|A|$
-Negative A: crest. Positive A: sag.
-
-$y = \text{Elev}_{\text{PVC}} + \dfrac{g_1}{100}x + \dfrac{A}{200L}x^2$
-High or low point: $x = -g_1 L / A$
-
-**Example:** $g_1$ = +2.4 %, $g_2$ = −1.8 %, L = 600 ft, PVI 28+00 at 4,250.00
-PVC 25+00 at 4,250.00 − 0.024(300) = 4,242.80
-A = −4.2 %, K = 142.86; x = 342.86 ft → **28+42.86**, y = **4,246.91**
+$A = g_2 - g_1$ (percent), $K = L/|A|$. Negative A: crest. Positive A: sag.
+$y = \text{Elev}_{\text{PVC}} + \dfrac{g_1}{100}x + \dfrac{A}{200L}x^2$; high or low point at $x = -g_1 L / A$
 
 </div>
 <div>
 
-![](../gen_reading/images/w12_fe_vertical_curve.png)
+**Example:** $g_1$ = +2.4 %, $g_2$ = −1.8 %, L = 600 ft, PVI 28+00 at 4,250.00. PVC 25+00 at 4,250.00 − 0.024(300) = 4,242.80. A = −4.2 %, K = 142.86; x = 342.86 ft → **28+42.86**, y = **4,246.91**
 
 </div>
 </div>
