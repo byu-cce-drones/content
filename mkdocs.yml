@@ -106,6 +106,7 @@ nav:
       - Example Projects: final_project/project_ideas.md
       - Project Proposal: final_project/proposal.md
       - Flight and Data Processing: final_project/flight_and_data_processing.md
+      - Thermal Mosaic in iTwin: software/thermal_itwin.md
       - Project Presentation: final_project/presentation.md
       - Final Report (Technical Memo): final_project/report.md
       - Example Technical Memo: final_project/example_memo.md
@@ -118,6 +119,7 @@ nav:
           - Post-Flight: class_resources/flight_check_list/post_flight/post_general.md
       - Using QGIS: software/qgis_measurements.md
       - Bentley iTwin: software/bentley_itwin.md
+      - Thermal Mosaic in iTwin: software/thermal_itwin.md
       - Photo Metadata: gen_reading/metadata.md
       - Aerial Measurement Products: gen_reading/data_products.md
       - Common Flight Issues: gen_reading/flight_issues.md

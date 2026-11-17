@@ -54,7 +54,9 @@ Each lab runs **two trips**: 8:00–8:50 and 9:00–9:50. Sign up for one on the
 
 Process your photos in [Bentley iTwin Capture Modeler](../software/bentley_itwin.md), as in the
 [Week 8 lab — Data Processing](../labs/5_data_processing.md). Start the same week you fly; processing
-can take hours and the lab machines are shared.
+can take hours and the lab machines are shared. If you flew the Autel thermal drone, prepare the
+photos first with [Thermal Mosaic in iTwin](../software/thermal_itwin.md), which also brings the
+temperatures back in °C.
 
 ### Products
 

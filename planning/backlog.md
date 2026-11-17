@@ -36,6 +36,30 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
+- **Thermal Mosaic in iTwin follow-ups** (2026-11-17, `software/thermal_itwin.md`):
+    - **Run the route once end to end** on a class Autel flight (the notebook is tested on synthetic
+      data only): iTwin import, AT, Orthophoto/DSM, production, then the QGIS Raster Calculator. Clear
+      the six `verify label in app` comments (photogroup band, AT colour options, Color correction
+      mode on an Orthophoto/DSM reconstruction, production Color source and No data, Photos used for
+      geometry, Import Positions with `positions_itwin.csv`), and find out what pixel values iTwin
+      writes under transparent no-data. Add our own screenshots of the licensed software where they
+      help; none are on the page yet.
+    - **SharePoint link** to `Software/autel-thermal/autel-thermal.zip`: the page has a visible
+      "link to come: ask a TA" and an HTML `PLACEHOLDER` comment. Instructor to supply.
+    - **Colab section is a draft**, marked in an HTML comment, not to be published until the
+      instructor approves it. It deletes the notebook's "Colab setup" cell (installs from GitHub,
+      fails while private) and its "save the results" cell (would copy `OUT_DIR` a second time).
+      Simplify once the planned zip option lands in the autel-thermal notebook.
+    - **Switch to the public repository** when it opens: replace the one marked paragraph in What You
+      Need §3, drop "private for now" under Resources and the first Troubleshooting row; also the
+      same sentence on `project_ideas.md` and the Week 10 deck (existing item above). The notebook
+      then has to come from the repository, since `pip install` does not install `examples/`.
+    - **8-bit vs 16-bit:** the page uses `BITS = 8` (one flight-wide scale, 256 levels, Bentley's
+      FAQ says 16-bit input is reduced to 8 bits by a mapping we don't control). Try `BITS = 16` on
+      the same flight once and compare against the 8-bit result and an IR thermometer reading.
+    - `gen_reading/thermal.md` never mentions camera warm-up, NUC or FFC; the new page explains
+      stale NUC itself and points at `project_ideas.md`. Worth a short paragraph in the reading.
+    - Open question for the instructor: should a TA be on hand in a work-day session for installs?
 - **Week 10 follow-ups** (2026-11-03): a TA should run the "Count the lot by computer" script
   (Ultralytics `yolo11n-obb.pt`, DOTA v1 classes) once on the class orthophoto before a group relies
   on it — it was written untested, since ultralytics is not installed on the authoring machine.
@@ -324,6 +348,21 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-11-17 — **Thermal Mosaic in iTwin page** (`docs/software/thermal_itwin.md`) for final-project
+  groups who flew the Autel thermal drone (Flight and Data Processing due Nov 19 / Nov 26): what to
+  download and install (flight folder, Miniforge and a `thermal` environment, the autel-thermal zip
+  from SharePoint installed with `pip install ".[notebooks,rgb]"`, VS Code or JupyterLab), running
+  the tool's `examples/05_itwin_export` notebook, the iTwin differences as a table against the
+  Bentley page's sections (WGS 84 ellipsoid altitude, photogroup 640 × 512 / 13 mm / 7.68 mm,
+  resolution no finer than `median_ground_pixel_m`, Color correction mode None, Color source matching
+  the band, not iTwin's Temperature map), back to °C with the QGIS Raster Calculator, a one-number
+  check, a draft Colab section, troubleshooting. iTwin settings checked against the 2024.1.8 user
+  manual; the route itself is untested and the page says so. New figure
+  `w10_fig04_thermal_itwin_route.svg` (`fig_tools/fig_thermal_itwin.py`, rendered with headless
+  Edge since Inkscape is not installed). In the nav after Flight and Data Processing and under
+  Reference; linked from Example Projects (roof heat loss now names two routes), Flight and Data
+  Processing Part 2, the Bentley page (a tip) and Thermal Imaging.
 
 - 2026-11-17 — **Week 12 FE Surveying Review deck in Marp** (`docs/slides/week_12.md`, 48 slides,
   HTML/PDF/PPTX), ported from the TA's PowerPoint (`slides/fe_surveying_review.pptx`, Nov 10, kept

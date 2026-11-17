@@ -32,6 +32,9 @@ Slides for the processing lab: [HTML](../slides/bentley_itwin.html) · [PDF](../
 !!! warning "The processing engine must be running"
     Capture Modeler is really two programs. **iTwin Capture Modeler Master** is the window where you click buttons. **iTwin Capture Modeler Engine** does the heavy computing. Master only places a job in a queue; if no Engine is running, the job sits at "pending" forever. On the lab computers the Engine should already be running; if a job never starts, search the Start menu for "iTwin Capture Modeler Engine" and open it. <!-- verify label in app -->
 
+!!! tip "Thermal photos from the Autel"
+    iTwin cannot read the Autel thermal camera's temperatures directly. Prepare the photos first, and get °C back afterwards, with [Thermal Mosaic in iTwin](thermal_itwin.md); it lists the few settings below that differ for thermal.
+
 ### Put the photos in one place
 
 1.  Copy the photos from the drone's memory card to the **local drive** of the computer (a folder such as `C:\Drone\RockCanyon\photos`). Do not process from a USB stick or a cloud-synced folder; both are slow and can drop out mid-job.
