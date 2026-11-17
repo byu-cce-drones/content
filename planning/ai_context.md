@@ -120,6 +120,14 @@ question-and-answer pattern; the Part 107 readings corrected and expanded; both 
 audited (the graded Learning Suite test must be updated to match; see `backlog.md`); all missing
 Part 107 figures drawn by `fig_part107_rules.py`, `fig_part107_ops.py` and `supplement_crops.py`.
 
+**Last done (2026-11-17).** Week 12 FE Surveying Review deck, `docs/slides/week_12.md` (Marp, 48
+slides), ported from and reviewed against the TA's `slides/fe_surveying_review.pptx`, which stays
+unchanged as the editable original. Details and follow-ups are in `backlog.md`. On this machine
+(`C:\Users\Williams\GitHub\content`), Python is miniconda (`C:\Users\Williams\miniconda3\python.exe`;
+run `python -m mkdocs`, since its Scripts folder is not on PATH), the Marp CLI was installed
+globally with npm, and Inkscape is not installed — figures were checked by rendering slides with
+`marp --images png`.
+
 **Working concurrently.** Sessions on the same machine share one working tree. Either use a separate
 `git worktree` (`git worktree add ../byu-cce-drones-content-b main`) so the trees are isolated, or
 stay in this tree and stage files by name (never `git add -A`), avoid the owned files above, and

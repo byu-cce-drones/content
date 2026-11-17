@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" font-family="Arial, Helvetica, sans-serif" font-size="14">
+  <rect x="0" y="0" width="600" height="500" fill="#f9f9f9" rx="8"/>
+  <text x="300.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Azimuth and bearing: one direction, two ways</text>
+  <text x="300.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Azimuth: 0° to 360°, clockwise from north. Bearing: under 90°, from north or south, toward east or west.</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a1a1a"/></marker></defs>
+  <circle cx="300" cy="262" r="150" fill="#ffffff" stroke="#b9c6d2" stroke-width="1.5"/>
+  <line x1="300" y1="94" x2="300" y2="430" stroke="#999999" stroke-width="1.2"/>
+  <line x1="132" y1="262" x2="468" y2="262" stroke="#999999" stroke-width="1.2"/>
+  <text x="300" y="86" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">N</text>
+  <text x="300" y="452" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">S</text>
+  <text x="484" y="268" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">E</text>
+  <text x="116" y="268" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">W</text>
+  <text x="460" y="122" text-anchor="middle" font-size="14" fill="#555555">NE</text>
+  <text x="140" y="122" text-anchor="middle" font-size="14" fill="#555555">NW</text>
+  <text x="140" y="412" text-anchor="middle" font-size="14" fill="#555555">SW</text>
+  <text x="460" y="412" text-anchor="middle" font-size="14" fill="#555555">SE</text>
+  <path d="M 300.0 207.0 A 55 55 0 0 1 345.1 293.5" fill="none" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ah)"/>
+  <path d="M 300.0 362.0 A 100 100 0 0 0 381.9 319.4" fill="none" stroke="#e67e22" stroke-width="2.5" marker-end="url(#ah)"/>
+  <line x1="300" y1="262" x2="432.7" y2="354.9" stroke="#1a1a1a" stroke-width="3" marker-end="url(#ah)"/>
+  <circle cx="300" cy="262" r="4" fill="#1a1a1a"/>
+  <line x1="401" y1="150" x2="347.6" y2="234.5" stroke="#4a90d9" stroke-width="1.2"/><circle cx="347.6" cy="234.5" r="3" fill="#4a90d9"/>
+  <text x="405" y="144" fill="#1a1a1a"><tspan font-weight="bold">Azimuth 125°</tspan></text>
+  <text x="405" y="161" fill="#555555" font-size="12">from north, clockwise</text>
+  <line x1="146" y1="317" x2="346.9" y2="350.3" stroke="#4a90d9" stroke-width="1.2"/><circle cx="346.9" cy="350.3" r="3" fill="#4a90d9"/>
+  <text x="28" y="322" fill="#1a1a1a"><tspan font-weight="bold">Bearing S 55° E</tspan></text>
+  <text x="28" y="339" fill="#555555" font-size="12">from south, toward east</text>
+  <text x="300.0" y="486" text-anchor="middle" font-size="12" fill="#555555">SE quadrant: bearing = 180° − azimuth = 180° − 125° = 55°</text>
+</svg>

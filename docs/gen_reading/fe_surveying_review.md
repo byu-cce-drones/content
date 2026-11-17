@@ -7,9 +7,33 @@
 
 ---
 
+## What's on the exam
+
+The FE Civil exam has 110 questions. **Surveying** is one of its knowledge areas, with **6 to 9
+questions** covering five topics:
+
+| | Topic |
+|---|---|
+| A | Angles, distances, and trigonometry |
+| B | Area computations |
+| C | Earthwork and volume computations |
+| D | Coordinate systems (e.g., state plane, latitude/longitude) |
+| E | Leveling (e.g., differential, elevations, percent grades) |
+
+The closed traverse is not a separate topic, but it uses A, B and D together. Horizontal and
+vertical curves are tested under Transportation (geometric design), not Surveying.
+
+Source: the NCEES [FE Civil exam specifications](https://ncees.org/exams/fe-exam/), effective July
+2020 and still current in November 2026. NCEES is reviewing the FE content, so check the
+specifications when you register.
+
+---
+
 ## Downloads
 
-- [FE Surveying Review slides (PowerPoint)](../slides/fe_surveying_review.pptx)
+- FE Surveying Review lecture slides: [HTML](../slides/week_12.html) ·
+  [PDF](../slides/week_12.pdf) · [PPTX](../slides/week_12.pptx)
+- [Original TA slides (PowerPoint, editable)](../slides/fe_surveying_review.pptx)
 - [FE Surveying Homework (Word)](fe_surveying_homework.docx)
 
 ---

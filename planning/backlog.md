@@ -180,7 +180,15 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       home `docs/class_resources/holy_stone_mini_drone.md`, listed under Reference and in both labs'
       "Before this lab, read" blocks. Confirm the fleet's model first: the calibration stick corner
       differs (HS210 lower-left, HS420 lower-right).
-- [ ] **FE-style surveying and basic trigonometry review.** Instructor 2026-09-04: the course may
+- [ ] **Week 12 FE deck follow-ups** (2026-11-17): the FE Reference Handbook's own surveying
+      contents could not be checked (MyNCEES login); someone with the current Handbook should
+      confirm the deck's formulas match it and whether curves sit in its transportation material.
+      The eight reused TA figures are PNGs without the house title and panel; redraw in
+      `fig_tools/` if wanted. Decide whether the homework answer key is published, kept with the
+      TAs, or neither. The FE review page still has its own nav section between Week 9 and
+      Weeks 10–15.
+- [ ] **FE-style surveying and basic trigonometry review.** Partly covered 2026-11-17 by the Week 12
+      FE Surveying Review deck and page (trig, bearings and the oblique triangle are in it). Instructor 2026-09-04: the course may
       need a basic trig review for the FE exam, and where it fits in the semester is undecided. The
       syllabus schedules "FE-style surveying review" and "basic trigonometry" in Week 12; no page
       covers either.
@@ -310,6 +318,23 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-11-17 — **Week 12 FE Surveying Review deck in Marp** (`docs/slides/week_12.md`, 48 slides,
+  HTML/PDF/PPTX), ported from the TA's PowerPoint (`slides/fe_surveying_review.pptx`, Nov 10, kept
+  unchanged and still linked as the editable original) after an instructor review against NCEES
+  sources only (FE Civil specs effective July 2020: Surveying is area 9, 6–9 questions, topics A–E;
+  curves fall under Transportation 13.A; "Closure" was dropped in 2020). Changes: the "seven
+  topics" claim corrected and every agenda item tagged with its spec letter; a new "The exam itself"
+  slide (110 questions, item types, no partial credit, calculators through 2027, Handbook 10.4,
+  $225 dated); the blank "Handbook → section no." footers removed; three unsupported "the FE
+  expects" claims reworded; Utah UTM zone, re-entrant corner n = 3, 2T − L = 7.96, and the
+  answer-key promise fixed; four course tie-ins (EPSG:32612, QGIS polygon area, DSM cut/fill as the
+  grid method, closure as precision in the Measurement Fundamentals sense); five ask-then-reveal
+  questions (azimuth to bearing, a level-notes table, 2A to acres, average end area, the PI + T
+  trap). Every worked number in the deck and all five homework problems were recomputed. The TA's
+  figures are reused as `gen_reading/images/w12_fe_*.png`; the azimuth figure, whose "SW" label
+  was printed over "bearing angle", is redrawn as `w12_fe_azimuth_bearing.svg`. The review page
+  gained a "What's on the exam" section; the Slides page lists the deck as Week 12.
 
 - 2026-11-03 — **Week 10 Final Project Introduction deck** (`docs/slides/week_10.md`, 35 slides,
   HTML/PDF/PPTX), built from the fall 2026 project pages the TAs pushed 2026-11-02, with seven

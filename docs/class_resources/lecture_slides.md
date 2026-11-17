@@ -25,13 +25,13 @@
 | 9 | Part 107 Exam Preparation | [HTML](../slides/week_09.html) | [PDF](../slides/week_09.pdf) | [PPTX](../slides/week_09.pptx) |
 | 10–15 | Final Project Planning | [HTML](../slides/final_project.html) | [PDF](../slides/final_project.pdf) | [PPTX](../slides/final_project.pptx) |
 | 10 | Final Project Introduction | [HTML](../slides/week_10.html) | [PDF](../slides/week_10.pdf) | [PPTX](../slides/week_10.pptx) |
+| 12 | FE Surveying Review | [HTML](../slides/week_12.html) | [PDF](../slides/week_12.pdf) | [PPTX](../slides/week_12.pptx) |
 
 ---
 
 ## Lab decks
 
 - Bentley iTwin Capture Modeler: [HTML](../slides/bentley_itwin.html) · [PDF](../slides/bentley_itwin.pdf) · [PPTX](../slides/bentley_itwin.pptx)
-- FE Surveying Review: [PPTX](../slides/fe_surveying_review.pptx) · [page with homework](../gen_reading/fe_surveying_review.md)
 
 Lab decks are used in the Thursday session rather than the Tuesday lecture.
 
