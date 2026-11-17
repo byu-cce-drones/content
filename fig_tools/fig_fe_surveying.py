@@ -4,9 +4,11 @@ Numbered in the order the deck uses them, which is the order the reading will
 follow. Three figures are plotted from the worked examples' own numbers, so a
 drawing cannot disagree with the arithmetic beside it:
 
-    Figure 5  the level run BM-1 to BM-2 (rod readings and elevations)
-    Figure 6  the four-sided traverse (adjusted coordinates, angles, distances)
-    Figure 9  the crest vertical curve (g1, g2, L, PVI)
+    Figure 6  the level run BM-1 to BM-2 (rod readings and elevations)
+    Figure 7  the four-sided traverse (adjusted coordinates, angles, distances)
+    Figure 10 the crest vertical curve (g1, g2, L, PVI)
+
+Figure 5 carries the NGS GEOID18 geoid height at the BYU Engineering Building.
 
 If a worked example changes, change the numbers here and re-run.
 
@@ -19,11 +21,12 @@ Outputs (all w12_ in docs/gen_reading/images/):
     w12_fig02_azimuth_bearing.svg    one direction as an azimuth and a bearing
     w12_fig03_field_angles.svg       interior, deflection, angle to the right
     w12_fig04_oblique_triangle.svg   side a opposite angle A
-    w12_fig05_leveling_run.svg       the BM-1 to BM-2 level run, to scale
-    w12_fig06_traverse.svg           the worked traverse, to scale
-    w12_fig07_average_end_area.svg   two end areas and the prism between them
-    w12_fig08_horizontal_curve.svg   parts of a simple circular curve
-    w12_fig09_vertical_curve.svg     the worked crest curve, to scale
+    w12_fig05_height_systems.svg     ground, geoid, ellipsoid; h = H + N
+    w12_fig06_leveling_run.svg       the BM-1 to BM-2 level run, to scale
+    w12_fig07_traverse.svg           the worked traverse, to scale
+    w12_fig08_average_end_area.svg   two end areas and the prism between them
+    w12_fig09_horizontal_curve.svg   parts of a simple circular curve
+    w12_fig10_vertical_curve.svg     the worked crest curve, to scale
 """
 from __future__ import annotations
 
@@ -696,16 +699,163 @@ def build_vertical_curve(number: int) -> Figure:
 
 
 # ---------------------------------------------------------------------------
+# Figure 5 - height systems (ground, geoid, ellipsoid)
+# N is the NGS GEOID18 value at the BYU Engineering Building (40.2466 N,
+# 111.6476 W): https://geodesy.noaa.gov/api/geoid/ght?lat=40.2466&lon=-111.6476
+# ---------------------------------------------------------------------------
+GEOID_N_BYU = -16.93
+
+
+def _blob(cx, cy, rx, ry, wobble, n=180):
+    """Closed path: an ellipse plus wobble(az) px along the radius."""
+    pts = []
+    for i in range(n):
+        az = 360 * i / n
+        a = math.radians(az)
+        r = (rx * ry) / math.hypot(ry * math.sin(a), rx * math.cos(a))
+        r += wobble(az)
+        pts.append(_az(cx, cy, az, r))
+    return "M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in pts) + " Z"
+
+
+def build_height_systems(number: int) -> Figure:
+    fig = Figure(900, 500, _title(number, "Three surfaces, two heights"),
+                 "Not to scale. GNSS measures h above the ellipsoid; plans use "
+                 "H above the geoid. A geoid model supplies N.")
+    GROUND_FILL = "#ece6dc"
+    GROUND_EDGE = "#9a8a72"
+
+    # ---- left: the whole Earth ------------------------------------------
+    fig.add(rect(30, 64, 250, 416, **CARD))
+    _t(fig, 155, 90, "The whole Earth", bold=True)
+    cx, cy, rx, ry = 155, 250, 100, 88          # flattening exaggerated
+
+    def wob(az):                                 # geoid lumps, exaggerated
+        return 7 * math.sin(math.radians(3 * az + 40)) + \
+            5 * math.sin(math.radians(5 * az + 10))
+
+    fig.add(path(_blob(cx, cy, rx, ry, lambda a: 0), fill=P["white"],
+                 stroke=EDGE, stroke_width=2.5))
+    fig.add(path(_blob(cx, cy, rx, ry, wob), fill="none", stroke=ORANGE,
+                 stroke_width=2.2, stroke_dasharray="6 4"))
+    # the site: a small box on the surface where the geoid dips below the
+    # ellipsoid, as it does in Utah; zoom lines lead right to the site panel
+    site_az = 60
+    a = math.radians(site_az)
+    r_site = (rx * ry) / math.hypot(ry * math.sin(a), rx * math.cos(a))
+    bx, by = _az(cx, cy, site_az, r_site - 2)
+    fig.add(rect(bx - 13, by - 11, 26, 22, fill="none", stroke=P["ink"],
+                 stroke_width=1.5))
+    fig.add(line(bx + 13, by - 11, 310, 150, stroke=GRID, stroke_width=1,
+                 stroke_dasharray="4 4"))
+    fig.add(line(bx + 13, by + 11, 310, 300, stroke=GRID, stroke_width=1,
+                 stroke_dasharray="4 4"))
+    _t(fig, 155, 378, "Ellipsoid: a smooth oval,", size=12, fill=EDGE,
+       bold=True)
+    _t(fig, 155, 394, "slightly flattened at the poles", size=12,
+       fill=P["muted"])
+    _t(fig, 155, 418, "Geoid: lumpy, above and below", size=12, fill=ORANGE,
+       bold=True)
+    _t(fig, 155, 434, "the ellipsoid (lumps exaggerated)", size=12,
+       fill=P["muted"])
+    _t(fig, 155, 462, "Box: a site in Utah, enlarged at right", size=12,
+       fill=P["muted"])
+
+    # ---- right: at the site ---------------------------------------------
+    x0, x1 = 310, 870
+    fig.add(rect(x0, 64, x1 - x0, 416, **CARD))
+    _t(fig, (x0 + x1) / 2, 90, "At the site", bold=True)
+
+    def ground_y(x):
+        return 196 + 14 * math.sin((x - 330) / 70) + 6 * math.sin((x - 330) / 23)
+
+    gx = [x0 + 1 + i * 4 for i in range(int((x1 - x0 - 2) / 4) + 1)]
+    gpts = [(x, ground_y(x)) for x in gx]
+    fig.add(polygon(gpts + [(gx[-1], 250), (gx[0], 250)], fill=GROUND_FILL,
+                    stroke="none"))
+    fig.add(path("M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in gpts),
+                 fill="none", stroke=GROUND_EDGE, stroke_width=2.5))
+    _t(fig, x1 - 14, ground_y(x1 - 14) - 12, "ground", anchor="end",
+       bold=True, fill=GROUND_EDGE)
+    # break marks: the ground is far above the two reference surfaces
+    for yb in (262, 270):
+        fig.add(path(f"M {x0 + 12} {yb} " + " ".join(
+            f"L {x0 + 12 + 10 * k} {yb + (4 if k % 2 else -4)}"
+            for k in range(1, 54)), fill="none", stroke=GRID,
+            stroke_width=1.2))
+    _t(fig, x1 - 16, 292, "the ground is far higher than drawn", anchor="end",
+       size=12, fill=P["muted"])
+
+    ell_y = 360
+    fig.add(line(x0 + 10, ell_y, x1 - 10, ell_y, stroke=EDGE, stroke_width=3))
+    _t(fig, x1 - 14, ell_y - 8, "ellipsoid", anchor="end", bold=True,
+       fill=EDGE)
+
+    def geoid_y(x):
+        return ell_y + 40 + 5 * math.sin((x - 330) / 55)
+
+    gd = [(x, geoid_y(x)) for x in gx]
+    fig.add(path("M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in gd),
+                 fill="none", stroke=ORANGE, stroke_width=2.5,
+                 stroke_dasharray="8 5"))
+    _t(fig, x1 - 14, geoid_y(x1 - 14) + 20, "geoid, about mean sea level",
+       anchor="end", bold=True, fill=ORANGE)
+
+    # the point P and a GNSS rover on a pole
+    px = 560
+    py = ground_y(px)
+    fig.add(line(px, py, px, py - 54, stroke=P["ink"], stroke_width=2.5))
+    fig.add(rect(px - 16, py - 64, 32, 10, rx=5, fill=P["ink"]))
+    fig.add(circle(px, py, 5, fill=P["ink"]))
+    _t(fig, px + 12, py - 30, "GNSS rover", anchor="start", size=12,
+       fill=P["muted"])
+    _t(fig, px - 10, py + 22, "P", size=15, bold=True, anchor="end")
+    fig.add(line(470, py, 640, py, stroke=GRID, stroke_width=1.2,
+                 stroke_dasharray="3 3"))
+
+    # H: geoid up to P
+    hx = 490
+    fig.add(arrow(hx, geoid_y(hx), hx, py + 2, color=P["ink"], width=2.2,
+                  head=10))
+    _t(fig, hx - 10, 318, "H", anchor="end", size=18, bold=True)
+    _t(fig, hx - 10, 336, "orthometric height:", anchor="end", size=12,
+       fill=P["muted"])
+    _t(fig, hx - 10, 350, "the elevation on plans (NAVD 88)", anchor="end",
+       size=12, fill=P["muted"])
+    # h: ellipsoid up to P
+    ex_ = 630
+    fig.add(arrow(ex_, ell_y, ex_, py + 2, color=EDGE, width=2.2, head=10))
+    _t(fig, ex_ + 10, 316, "h", anchor="start", size=18, bold=True, fill=EDGE)
+    _t(fig, ex_ + 10, 334, "ellipsoid height:", anchor="start", size=12,
+       fill=P["muted"])
+    _t(fig, ex_ + 10, 348, "what GNSS measures", anchor="start", size=12,
+       fill=P["muted"])
+    # N: ellipsoid down to the geoid (negative here)
+    nx = 760
+    fig.add(arrow(nx, ell_y, nx, geoid_y(nx) - 1, color=ORANGE, width=2.2,
+                  head=9))
+    _t(fig, nx - 10, ell_y + 26, "N", anchor="end", size=16, bold=True,
+       fill=ORANGE)
+    _t(fig, (x0 + x1) / 2, 452, f"h = H + N.   At BYU, N = {GEOID_N_BYU:.2f} m "
+       "(NGS GEOID18), so h = H − 16.93 m".replace("-", "−"), size=13,
+       bold=True)
+    _t(fig, (x0 + x1) / 2, 470, "A GNSS height reads about 17 m lower than "
+       "the plan elevation of the same point.", size=12, fill=P["muted"])
+    return fig
+
+
+# ---------------------------------------------------------------------------
 BUILDERS = [
     (1, "right_triangle", build_right_triangle),
     (2, "azimuth_bearing", build_azimuth_bearing),
     (3, "field_angles", build_field_angles),
     (4, "oblique_triangle", build_oblique_triangle),
-    (5, "leveling_run", build_leveling_run),
-    (6, "traverse", build_traverse),
-    (7, "average_end_area", build_average_end_area),
-    (8, "horizontal_curve", build_horizontal_curve),
-    (9, "vertical_curve", build_vertical_curve),
+    (5, "height_systems", build_height_systems),
+    (6, "leveling_run", build_leveling_run),
+    (7, "traverse", build_traverse),
+    (8, "average_end_area", build_average_end_area),
+    (9, "horizontal_curve", build_horizontal_curve),
+    (10, "vertical_curve", build_vertical_curve),
 ]
 
 

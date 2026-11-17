@@ -148,7 +148,7 @@ Convert everything to azimuths before computing latitudes and departures.
 
 <!--
 A common error is mixing the two systems mid-problem.
-Figures 1-9 are drawn by fig_tools/fig_fe_surveying.py from the TA's originals; 5, 6 and 9 are plotted from the worked examples' numbers.
+Figures 1-10 are drawn by fig_tools/fig_fe_surveying.py, most from the TA's originals; 6, 7 and 10 are plotted from the worked examples' numbers.
 -->
 
 ---
@@ -262,6 +262,33 @@ NGS is replacing NAD 83 and NAVD 88 with modernized reference frames; verify cur
 
 ---
 
+## Two heights for the same point
+
+![w:720](../gen_reading/images/w12_fig05_height_systems.svg)
+
+<div class="cols small">
+<div>
+
+**Why it matters.** GNSS rovers and drone photo positions give **h**. Plans and benchmarks give **H** (NAVD 88). Compare one with the other at BYU and you are off by **16.93 m — about 55 ft**.
+
+</div>
+<div>
+
+**Converting:** $H = h - N$. At BYU, $H = h + 16.93$ m.
+**In this class:** Bentley asks whether photo altitudes use sea level or the WGS 84 ellipsoid. A DSM about 17 m off a benchmark points straight at that setting.
+
+</div>
+</div>
+
+<!--
+Discussion, 2 minutes, before showing the bottom half of the slide if you can: "A drone survey's surface comes back about 17 m below the benchmark elevation printed on the plans. The drone was RTK. What went wrong?" Answer: nothing in the measurement — the drone's heights are ellipsoid heights (h) and the benchmark is an orthometric height (H). At BYU the geoid is 16.93 m below the ellipsoid.
+Follow-up: "Which way do you convert?" H = h − N; N is negative here, so H = h + 16.93 m. Have them say the sign out loud.
+On the FE: know which surface GNSS uses, which surface elevations use, and h = H + N with the sign of N given in the problem.
+Source for N: NGS GEOID18 web service at 40.2466 N, 111.6476 W (the Engineering Building), N = −16.93 m ± 0.05 m, checked 2026-11-17. The Bentley altitude-reference choice is section 2 of the Bentley iTwin guide.
+-->
+
+---
+
 ## State plane, UTM, and grid versus ground
 
 <div class="cols">
@@ -334,7 +361,7 @@ The quadrant comes from the signs of ΔN and ΔE — never from the calculator a
 
 ## Differential leveling
 
-![w:740](../gen_reading/images/w12_fig05_leveling_run.svg)
+![w:740](../gen_reading/images/w12_fig06_leveling_run.svg)
 
 <div class="cols small">
 <div>
@@ -463,7 +490,7 @@ The denominator is horizontal distance, not slope distance.
 </div>
 <div>
 
-![](../gen_reading/images/w12_fig06_traverse.svg)
+![](../gen_reading/images/w12_fig07_traverse.svg)
 
 </div>
 </div>
@@ -748,7 +775,7 @@ $A = \dfrac{d}{3}\left[h_0 + 4\Sigma h_{\text{odd}} + 2\Sigma h_{\text{even}} + 
 
 ## Average end area
 
-![w:860](../gen_reading/images/w12_fig07_average_end_area.svg)
+![w:860](../gen_reading/images/w12_fig08_average_end_area.svg)
 
 <p class="small">Next segment, 11+00 to 12+00 (A₃ = 196 ft²): 100 (318 + 196)/2 = 25,700 ft³. <b>Total 53,850 ft³ = 1,994.4 yd³.</b> Cut and fill are tracked separately — never net them inside a segment.</p>
 
@@ -858,7 +885,7 @@ table { font-size: 20px; }
 </div>
 <div>
 
-![](../gen_reading/images/w12_fig08_horizontal_curve.svg)
+![](../gen_reading/images/w12_fig09_horizontal_curve.svg)
 
 </div>
 </div>
@@ -918,7 +945,7 @@ Pairs, 2 minutes. A is PI + T, the classic trap. C is PI + L. D is the PC.
 
 ## Vertical curves
 
-![w:760](../gen_reading/images/w12_fig09_vertical_curve.svg)
+![w:760](../gen_reading/images/w12_fig10_vertical_curve.svg)
 
 <div class="cols small">
 <div>

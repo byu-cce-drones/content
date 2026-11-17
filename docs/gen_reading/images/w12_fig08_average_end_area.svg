@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, Helvetica, sans-serif" font-size="14">
   <rect x="0" y="0" width="900" height="400" fill="#f9f9f9" rx="8"/>
-  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 7: Volume between two cross-sections</text>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 8: Volume between two cross-sections</text>
   <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Average end area uses the two ends. The prismoidal formula also uses the section measured halfway, Aₘ.</text>
   <line x1="138.86" y1="285" x2="429.40999999999997" y2="135" stroke="#b9c6d2" stroke-width="1.5"/>
   <line x1="321.14" y1="285" x2="630.59" y2="135" stroke="#b9c6d2" stroke-width="1.5"/>

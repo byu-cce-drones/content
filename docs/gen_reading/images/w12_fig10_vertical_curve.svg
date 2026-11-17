@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Arial, Helvetica, sans-serif" font-size="14">
   <rect x="0" y="0" width="900" height="420" fill="#f9f9f9" rx="8"/>
-  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 9: The crest curve in the worked example</text>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 10: The crest curve in the worked example</text>
   <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Vertical scale exaggerated. A = g₂ − g₁ = −4.2 %; the high point is x = −g₁L/A = 342.86 ft past the PVC.</text>
   <line x1="70.0" y1="347.600000000004" x2="450.0" y2="110.0" stroke="#1a1a1a" stroke-width="2" stroke-dasharray="8 6"/>
   <line x1="450.0" y1="110.0" x2="830.0" y2="288.199999999988" stroke="#1a1a1a" stroke-width="2" stroke-dasharray="8 6"/>

@@ -187,13 +187,11 @@ Proposed wording for both tiers is in `planning/path_forward.md` §1.
       still has its own nav section between Week 9 and Weeks 10–15.
 - [ ] **Turn `gen_reading/fe_surveying_review.md` into a full reading** (instructor 2026-11-17;
       planned for a fresh session). Figures are ready and numbered for it in deck order:
-      `w12_fig01`–`w12_fig09` in `docs/gen_reading/images/`, drawn by
-      `fig_tools/fig_fe_surveying.py` (Figures 5, 6 and 9 are plotted from the deck's worked
-      examples). Content source: `docs/slides/week_12.md` and its speaker notes (NCEES sources are
-      cited there), plus the homework and hints already on the page; keep both. A height-systems
-      figure (ground, geoid, ellipsoid; h = H + N) was proposed for the deck's coordinate-systems
-      section; if it is added it becomes Figure 5 and the later figures move up one, which the
-      script's BUILDERS list does in one edit. Renumber before the reading is written, not after.
+      `w12_fig01`–`w12_fig10` in `docs/gen_reading/images/`, drawn by
+      `fig_tools/fig_fe_surveying.py` (Figure 5 is the height systems, with the NGS GEOID18
+      N = −16.93 m at the Engineering Building; Figures 6, 7 and 10 are plotted from the deck's
+      worked examples). Content source: `docs/slides/week_12.md` and its speaker notes (NCEES and
+      NGS sources are cited there), plus the homework and hints already on the page; keep both.
 - [ ] **FE-style surveying and basic trigonometry review.** Partly covered 2026-11-17 by the Week 12
       FE Surveying Review deck and page (trig, bearings and the oblique triangle are in it). Instructor 2026-09-04: the course may
       need a basic trig review for the FE exam, and where it fits in the semester is undecided. The
@@ -344,7 +342,11 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
   gained a "What's on the exam" section; the Slides page lists the deck as Week 12.
   Later the same day all nine figures were redrawn in house style by the new
   `fig_tools/fig_fe_surveying.py` as `w12_fig01`–`w12_fig09`, numbered for the planned
-  reading, and the `w12_fe_*` copies of the TA's PNGs were removed.
+  reading, and the `w12_fe_*` copies of the TA's PNGs were removed. Then a tenth figure,
+  height systems (whole-Earth ellipsoid and geoid, and the site cross-section with H, h and
+  N; N = −16.93 m at the Engineering Building from the NGS GEOID18 web service), went in as
+  Figure 5 on a new slide, "Two heights for the same point", with discussion and speaker
+  notes; the later figures moved up one (deck now 49 slides).
 
 - 2026-11-03 — **Week 10 Final Project Introduction deck** (`docs/slides/week_10.md`, 35 slides,
   HTML/PDF/PPTX), built from the fall 2026 project pages the TAs pushed 2026-11-02, with seven

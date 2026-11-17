@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="Arial, Helvetica, sans-serif" font-size="14">
   <rect x="0" y="0" width="900" height="440" fill="#f9f9f9" rx="8"/>
-  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 5: The level run from BM-1 to BM-2</text>
+  <text x="450.0" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Figure 6: The level run from BM-1 to BM-2</text>
   <text x="450.0" y="46" text-anchor="middle" font-size="12" fill="#555555">Vertical scale exaggerated. HI = elevation + BS; the next elevation = HI − FS.</text>
   <polygon points="40,362.0 90,356.0 210.0,336.1999999999999 330,308.4800000000001 450.0,272.4000000000001 570,335.53999999999985 690.0,347.1999999999999 810,360.17999999999995 860,358.17999999999995 860,420 40,420" fill="#e9eef3" stroke="#8a9aab" stroke-width="2"/>
   <rect x="85" y="136.0" width="10" height="220.0" fill="#3d6f9e"/>
