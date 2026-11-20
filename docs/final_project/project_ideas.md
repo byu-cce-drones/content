@@ -118,17 +118,18 @@ reaches it. Warm patches mark where heat is leaking: wet insulation, a gap, an u
 - **Before takeoff:** power the drone on 10 minutes before the first photo and run the shutter
   calibration (FFC) by hand; a cold camera reads up to 30 °C too cold. Set the photo format to
   JPG + TIFF, since the `.irg` and `.TIFF` files hold the temperatures and the colour JPG is only a
-  picture. Plan about 90 % front and side overlap.
+  picture. Plan 80 to 90 % front and side overlap for the **thermal** camera, not the visible one
+  ([Planning a thermal flight that works](../software/thermal_quick_mosaic.md#planning-a-thermal-flight-that-works)).
 - **Processing:** [autel-thermal](https://github.com/gus-p-williams/autel-thermal), the class's own
   Python tool for this camera, converts every frame to °C. Copy the whole flight folder off the SD
   card, `.mrk` file included, and rename nothing. If the install asks you to sign in to GitHub, the
   repository is not public yet: ask a TA. There are two routes:
-    - **Quick mosaic:** `autel-ortho` places every frame on the map and stitches a °C mosaic you
-      can open in QGIS. Its `examples/` folder has the install steps and four notebooks, the
-      fourth of which finds hot spots and their area.
+    - **Quick mosaic (use this one):** [Thermal Quick Mosaic](../software/thermal_quick_mosaic.md).
+      `autel-ortho` places every frame on the map and stitches a °C mosaic you can open in QGIS.
+      It needs no overlap, and the instructor can make it for your group.
     - **iTwin:** [Thermal Mosaic in iTwin](../software/thermal_itwin.md) runs the photos through
-      Bentley iTwin and brings the °C back in QGIS. Use it when the roof's relief matters (see
-      *Watch out for*) or you want a DSM as a product.
+      Bentley iTwin and brings the °C back in QGIS. Only for a flight planned for the thermal
+      camera; then it also gives a DSM and handles the roof's relief (see *Watch out for*).
 - **Check one number:** an infrared thermometer on one roof surface you can reach, compared with
   the mosaic at the same spot.
 - **Watch out for:** the tool places every frame on flat ground at the takeoff height. A roof sits

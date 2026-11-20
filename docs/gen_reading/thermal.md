@@ -156,7 +156,7 @@ will be flat and useless, no matter how good the sensor is.
 
 ## Tools & software
 - **Processing:** FLIR Tools, QGIS (with plugins), Agisoft Metashape, Pix4D, and UAV-specific inspection tools.
-- **In this class:** the Autel thermal drone's photos go through the class's autel-thermal tool and Bentley iTwin; see [Thermal Mosaic in iTwin](../software/thermal_itwin.md).
+- **In this class:** the Autel thermal drone's photos go through the class's autel-thermal tool: [Thermal Quick Mosaic](../software/thermal_quick_mosaic.md) for a °C map in minutes, and [Thermal Mosaic in iTwin](../software/thermal_itwin.md) for photogrammetry on a flight planned for the thermal camera.
 
 ## Example images & student activities
 
