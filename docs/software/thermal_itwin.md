@@ -1,27 +1,35 @@
 # Thermal Mosaic in iTwin
 
 !!! abstract "Key Takeaways"
-    - **iTwin cannot read the Autel's temperatures.** A short Python notebook turns them into grey photos that iTwin can process, and writes down the scale that turns grey back into °C.
-    - **One scale for the whole flight.** Every photo uses the same grey-to-°C line, so the same grey means the same temperature everywhere on the map.
-    - **Three changes from the normal iTwin steps:** GPS heights measured from the **WGS 84 ellipsoid**, **colour correction off**, and a pixel size no finer than the thermal camera's ground pixel (about 5 cm).
+    - **This route needs a flight planned for the thermal camera**, with about 80 % forward and side overlap, and a camera warmed up for 10 minutes. A flight planned for the visible camera leaves the thermal photos far short. **This semester, use the [Thermal Quick Mosaic](thermal_quick_mosaic.md)** instead.
+    - **iTwin cannot read the Autel's temperatures.** A short Python notebook turns them into grey photos that iTwin can process, all on one grey-to-°C scale for the whole flight, and writes that scale down.
+    - **Settings that differ from the normal iTwin steps:** **Color correction mode None** in the reconstruction (left on, it shifted a test map by about 10 °C); in the production, `EPSG:32612`, **No data Transparent** and **Image sharpening Disabled**; and a pixel size no finer than the thermal camera's ground pixel (about 5 cm).
     - **QGIS turns the grey orthophoto back into °C** with one Raster Calculator line copied from `temperature_scale.json`. Keep that file with your results.
     - **Check one number** against an infrared thermometer or the tool's quick mosaic before you believe the map.
 
 ---
 
-This page is for final-project groups who flew the **Autel thermal drone** and want a thermal orthophoto (a map-accurate mosaic) from **Bentley iTwin Capture Modeler**, in °C, in QGIS. There are two ways to get a thermal map from that drone:
+This page is for final-project groups who flew the **Autel thermal drone** and want a thermal orthophoto (a map-accurate mosaic) from **Bentley iTwin Capture Modeler**, in °C, in QGIS. **Read this first:** iTwin builds a map only from photos that overlap a lot, and the thermal camera sees about 2.5 times less ground across than the visible camera beside it. A flight planned with the visible camera's settings gives the thermal photos far too little overlap, as the 2026-11-19 test below found. This semester, make your map with the [Thermal Quick Mosaic](thermal_quick_mosaic.md), which the instructor can also make for your group, and use this page only for a flight planned as in [Planning a thermal flight that works](thermal_quick_mosaic.md#planning-a-thermal-flight-that-works).
 
-| Route | What you get | Use it when |
-|---|---|---|
-| **Quick mosaic** (`autel-ortho`, on [Example Projects](../final_project/project_ideas.md#roof-heat-loss-at-8-am)) | A °C mosaic in a few minutes, each photo laid flat on the ground at the takeoff height | The ground is flat, or a rough picture of where the warm spots are is enough |
-| **iTwin route** (this page) | A °C orthophoto and a DSM (Digital Surface Model) from photogrammetry | The roof or site has real relief, or you want a surface model as one of your products |
+There are two ways to get a thermal map from that drone:
+
+| Route | What you get | Needs | Use it when |
+|---|---|---|---|
+| [Thermal Quick Mosaic](thermal_quick_mosaic.md) (`autel-ortho`) | A °C mosaic in a few minutes, each photo laid flat on the ground at the takeoff height, or at a roof height you give it | A normal flight; overlap does not matter | **This semester, for every thermal group** |
+| **iTwin route** (this page) | A °C orthophoto and a DSM (Digital Surface Model) from photogrammetry | A flight **planned for the thermal camera** (about 80 % forward and side overlap) and a warmed-up camera | Only with such a flight; then also when the roof or site has real relief, or you want a surface model as one of your products |
 
 ![The four stages: SD card, Python notebook, iTwin, QGIS, with the files passed between them](images/w10_fig04_thermal_itwin_route.svg){ width="100%" }
 
 *Figure 4: From the SD card to °C on a map. iTwin only ever sees grey levels; `temperature_scale.json` carries the formula from the notebook to QGIS.*
 
-!!! note "This route is new"
-    The notebook has been tested, but the iTwin and QGIS steps on this page have **not yet been run end to end** on a class flight. Settings marked in plain words come from the iTwin user manual, not from the program. If something on your screen differs from this page, or a step fails, tell a TA what you saw, so the page can be corrected for the next group.
+!!! note "Tested on 2026-11-19"
+    Loading the photos and making the orthophoto were tested on 2026-11-19 with iTwin Capture Modeler 2024.1.7, on a final-project flight (68 thermal photos at 31 m).
+
+    - **What worked:** iTwin loaded every photo with its GPS position, the camera's size and its angles, with no typing. The photos it could connect fitted each other to under half a pixel, and the orthophoto came out in UTM with its grey levels still on the notebook's temperature scale, once colour correction was off. The settings in Step 2 are the ones that test confirmed.
+    - **What did not:** aerotriangulation connected only **13 of the 68** photos. The flight had been planned for the visible camera, which gave the thermal photos about 57 % forward and 23 % side overlap, and the camera had been switched on only 75 seconds before the first photo, so its temperatures were wrong anyway. [Why the test flight did not work in iTwin](thermal_quick_mosaic.md#why-the-test-flight-did-not-work-in-itwin) has the details.
+    - **If you downloaded `autel-thermal.zip` before 2026-11-19, download it again.** iTwin refused every photo the older notebook wrote ("Failed to add photo").
+
+    The QGIS step, the colour options on the AT settings page and **Import Positions...** have not been checked in the program yet. If something on your screen differs from this page, or a step fails, tell a TA what you saw, so the page can be corrected for the next group.
 
 ---
 
@@ -144,19 +152,19 @@ Follow the [Bentley iTwin Capture Modeler](bentley_itwin.md) page, sections 1 to
 | Bentley page section | For thermal photos |
 |---|---|
 | [Put the photos in one place](bentley_itwin.md#put-the-photos-in-one-place) | Copy the `itwin_images` folder to the computer's local drive. That folder is your photo folder; do **not** add the original flight folder or its `.jpg` files. |
-| [2. Import Photos](bentley_itwin.md#2-import-photos) | Add all the photos of the `itwin_images` directory. When iTwin says GPS altitude was read using **sea level**, click **Modify** and choose **WGS 84 ellipsoid**: this camera records its height above the ellipsoid, and in Utah the two references differ by more than ten metres. |
-| [Check that positions were read](bentley_itwin.md#check-that-positions-were-read) | You should see one photogroup. If its sensor size or focal length is flagged as missing, enter **640 × 512** pixels, focal length **13 mm**, sensor size **7.68 mm** (iTwin asks for the sensor's largest dimension: 640 pixels × 12 µm). The same numbers are under `camera` in `temperature_scale.json`. Note whether iTwin set the photogroup's band to **Visible** or **Thermal**; you need it in the production. <!-- verify label in app --> |
-| [3. Aerotriangulation (AT)](bentley_itwin.md#3-aerotriangulation-at) | Same defaults: photo positioning metadata, **Adjust**. Leave any colour equalization or colour correction option on the Settings page **off**. Expect fewer photos to be calibrated than in an RGB set: thermal photos of uniform ground (grass, water, fresh asphalt) have little texture to match. Roads, buildings and edges in view help. <!-- verify label in app --> |
-| [5. Reconstruction](bentley_itwin.md#5-reconstruction) | Spatial Framework: `EPSG:32612` as usual, and **Resolution** no finer than `median_ground_pixel_m` from `temperature_scale.json` (about 0.055 m for a flight at 60 m, 0.046 m at 50 m). Processing Settings: **Geometric precision** Medium, and **Color correction mode: None**. The other modes change grey levels, and so temperatures. <!-- verify label in app --> |
-| [6. Production](bentley_itwin.md#6-production) | Export Orthomosaic/DSM, both as **TIFF/GeoTIFF**, Resolution the same as the reconstruction, **Merge output parts** ticked, `EPSG:32612`. Set **Color source** to the optimized computation that matches the photogroup's band (**visible colors** for Visible, **thermal** for Thermal), and **No data** to **transparent**. <!-- verify label in app --> |
+| [2. Import Photos](bentley_itwin.md#2-import-photos) | Add all the photos of the `itwin_images` directory. Every photo should load; if iTwin says **Failed to add photo** for each one, your copy of the tool is older than 2026-11-19 (see [When Something Goes Wrong](#when-something-goes-wrong)). iTwin reports that the GPS altitude was interpreted using the **WGS 84 ellipsoid**: that is right for this camera, so leave it. Only if it says **sea level**, click **Modify** and choose **WGS 84 ellipsoid**; in Utah the two references differ by more than ten metres. |
+| [Check that positions were read](bentley_itwin.md#check-that-positions-were-read) | You should see one photogroup, **Autel Robotics/XL709**, with sensor size **7.68 mm** and focal length **13 mm** filled in from the photos, and each photo's pose shown as **Complete** (position and rotation). A message that the camera "is not in the database" is harmless. If the sizes are missing, enter **640 × 512** pixels, focal length **13 mm**, sensor size **7.68 mm** (iTwin asks for the sensor's largest dimension: 640 pixels × 12 µm); the same numbers are under `camera` in `temperature_scale.json`. iTwin treats these TIFFs as ordinary photos, not as thermal ones. |
+| [3. Aerotriangulation (AT)](bentley_itwin.md#3-aerotriangulation-at) | Same defaults: photo positioning metadata, **Adjust**. Leave any colour equalization or colour correction option on the Settings page **off**. <!-- verify label in app --> **Expect few photos to be calibrated unless the flight was planned for the thermal camera:** the 2026-11-19 test flight, planned for the visible camera, had 13 of its 68 photos calibrated. Thermal photos of uniform ground (grass, water, fresh asphalt) also have little texture to match; roads, buildings and edges in view help. |
+| [5. Reconstruction](bentley_itwin.md#5-reconstruction) | Spatial Framework: `EPSG:32612` as usual, and **Resolution** no finer than `median_ground_pixel_m` from `temperature_scale.json` (about 0.055 m for a flight at 60 m, 0.046 m at 50 m). Processing Settings: **Geometric precision** Medium, and **Color correction mode: None**. The default, **Automatic (blockwise)**, changes grey levels, and so temperatures: in the test it shifted the orthophoto by about 10 °C. **Photos used for geometry** shows "Exclude thermal imagery" and cannot be changed; leave it, since iTwin treats these TIFFs as ordinary photos and excludes nothing. |
+| [6. Production](bentley_itwin.md#6-production) | Export Orthomosaic/DSM, both as **TIFF/GeoTIFF**, Resolution the same as the reconstruction, **Merge output parts** ticked. On **Format/Options**: **No data** to **Transparent** (the default, black, would read as the coldest temperature); **Image sharpening** to **Disabled** (the default, Enabled, changes grey levels near edges); **Color source** left at **Reference orthophoto** (the settings page later calls it "Reference model visible colors"). **Thermal** is greyed out, and so is **Temperature Map** (see the note below). **Spatial reference system:** choose `EPSG:32612`; the default may be **Local East-North-Up**, which QGIS cannot place on the map. |
 
 The ground pixel follows from the camera: height × 12 µm ÷ 13 mm, so 60 m × 0.012 mm ÷ 13 mm ≈ 0.055 m. Asking iTwin for finer pixels only makes a bigger file with the same detail.
 
 !!! warning "Settings lock after the first production"
     If you find colour correction was left on after you submitted a production, the reconstruction's settings are read-only. Clone the reconstruction, set **None** in the copy, and produce again (see the warning in [5. Reconstruction](bentley_itwin.md#5-reconstruction)).
 
-!!! note "Not iTwin's Temperature map"
-    The production page may offer a **Temperature map**. It reads temperatures stored inside R-JPEG files from the cameras Bentley supports (FLIR and some DJI models). The Autel's `.jpg` holds no temperatures and the notebook's TIFFs are not R-JPEGs, so that option does not apply here. The °C come back in QGIS instead.
+!!! note "Why Temperature Map is greyed out"
+    The production page lists a **Temperature Map**, greyed out for these photos. According to a Bentley reply on the iTwin Capture ideas forum (April 2026), temperature maps come only from radiometric R-JPEG files of the cameras Bentley supports (FLIR, the DJI M3T, H20T and H20N, and Skydio). The Autel's `.jpg` holds no temperatures and the notebook's TIFFs are not R-JPEGs, so that option cannot apply here. The °C come back in QGIS instead.
 
 ---
 
@@ -164,12 +172,12 @@ The ground pixel follows from the camera: height × 12 µm ÷ 13 mm, so 60 m × 
 
 1. Open the orthophoto `.tif` in QGIS and confirm the bottom-right corner reads `EPSG:32612`, as in [7. Open the Orthophoto in QGIS](bentley_itwin.md#7-open-the-orthophoto-in-qgis).
 2. Open `temperature_scale.json` in a text editor (Notepad, TextEdit or VS Code) and copy the text after `"qgis_raster_calculator":`, without its outer quotation marks. It looks like `-2 + "ORTHO@1" * 38 / 255`, with your flight's numbers.
-3. In QGIS, open **Raster > Raster Calculator**. Paste the expression, then replace `"ORTHO@1"` with your orthophoto's band 1 as listed under **Raster Bands** (double-click it there to insert it, for example `"Production_1_ortho@1"`). The orthophoto may have three identical colour bands and a fourth for transparency; any of bands 1 to 3 gives the same answer.
+3. In QGIS, open **Raster > Raster Calculator**. Paste the expression, then replace `"ORTHO@1"` with your orthophoto's **band 1** as listed under **Raster Bands** (double-click it there to insert it, for example `"Production_1_ortho@1"`). The orthophoto has three grey bands and, with **No data: Transparent**, a fourth (alpha) band that makes the empty area around the site see-through. iTwin writes the three grey bands slightly differently (by less than one grey level on average), so always use band 1.
 4. Under **Output layer**, choose a file name such as `thermal_degC.tif` with **GeoTIFF** as the format, and click **OK**. The new layer holds °C in every pixel.
 5. Colour it: **Layer Properties > Symbology**, Render type **Singleband pseudocolor**, set Min and Max to the range you care about, and pick a colour ramp. Use the **Identify Features** tool to read the °C of any pixel.
 
 !!! warning "Clipped pixels are not measurements"
-    Grey 0 means `lo_c` **or colder** and grey 255 means `hi_c` **or warmer**, so pixels at exactly those two values were cut off, not measured. The empty area around the site may also come out at `lo_c`. To hide both, open **Layer Properties > Transparency** for the °C layer and enter `lo_c` as an additional no-data value. Do not report a minimum or maximum temperature that sits at either end of the scale.
+    Grey 0 means `lo_c` **or colder** and grey 255 means `hi_c` **or warmer**, so pixels at exactly those two values were cut off, not measured. Do not report a minimum or maximum temperature that sits at either end of the scale. The orthophoto's alpha band hides the empty area around the site, but the Raster Calculator reads band 1 only, so that area may still show a value in the °C layer (`lo_c` if No data was left black). Click it with **Identify Features**, then open **Layer Properties > Transparency** for the °C layer and enter that value as an additional no-data value.
 
 ---
 
@@ -178,13 +186,13 @@ The ground pixel follows from the camera: height × 12 µm ÷ 13 mm, so 60 m × 
 A map that looks right can still be wrong by several degrees. Before you put a temperature in your memo, check one against something independent, as the [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md) reading asks:
 
 - **An infrared thermometer** on one surface you can reach, such as a roof edge, a wall or a pavement patch, read as close in time to the flight as you can. Compare it with the °C layer at the same spot.
-- **The tool's quick mosaic** of the same flight. In your command window, with `(thermal)` showing:
+- **The tool's [quick mosaic](thermal_quick_mosaic.md)** of the same flight. In your command window, with `(thermal)` showing:
 
         autel-ortho "path\to\your flight folder" "path\to\quick_out" --mosaic
 
-    Open `quick_out\mosaic.tif` (already in °C) beside your °C layer in QGIS. Remember the quick mosaic lays every photo flat at the takeoff height, so a raised roof comes out too large there; it is a check on the temperature, not on the outline.
+    Open `quick_out\mosaic.tif` (already in °C) beside your °C layer in QGIS. Remember the quick mosaic lays every photo flat at the takeoff height unless you give it the roof height, so a raised roof comes out too large there; it is a check on the temperature, not on the outline.
 
-The same roof or pond should read within about **1 °C**, and outlines should line up within a few metres. A bigger difference usually means colour correction was on, the expression came from a different flight's `temperature_scale.json`, or cold first frames were left in. Report the check, and its result, in your memo's Limitations section.
+The same roof or pond should read within about **1 °C**, and outlines should line up within a few metres. A bigger difference usually means colour correction or image sharpening was on, the expression came from a different flight's `temperature_scale.json`, or cold first frames were left in. Report the check, and its result, in your memo's Limitations section.
 
 ---
 
@@ -226,18 +234,20 @@ The same roof or pond should read within about **1 °C**, and outlines should li
 | `Can't find the flight folder` | `DATA_DIR` is wrong | Use the full path, with the `r` before the quotes on Windows. The message prints where Python looked |
 | `No IRX_nnnn.irg or .TIFF files` | A JPG-only flight (camera not set to JPG + TIFF), or the wrong folder | If the message says it found thermal JPEGs only, there are no temperatures to recover. Otherwise point `DATA_DIR` at the folder that holds the `IRX_` files (it may be a `Thermal` subfolder) |
 | **Every frame** skipped as `stale-NUC ramp`, or `No usable frames` | The camera was not warmed up before the flight, so its temperatures are wrong | The flight cannot give trustworthy °C. Talk to a TA; the warm-up habit is on [Example Projects](../final_project/project_ideas.md#roof-heat-loss-at-8-am) |
+| iTwin says **Failed to add photo** for every photo | Your `autel-thermal.zip` is older than 2026-11-19: its notebook wrote TIFFs that iTwin refuses | Download the zip again, unzip it, and run `examples/05_itwin_export.ipynb` from the new copy. Add the new `itwin_images` folder to a new block |
 | iTwin shows **no positions** | The photos' GPS tags were not read | Check you added the `itwin_images` TIFFs. Then use **Import Positions...** on the Photos tab with `positions_itwin.csv` (longitude, latitude, ellipsoidal height in metres). <!-- verify label in app --> |
-| AT calibrates **few photos** | Uniform ground with little thermal texture, or too little overlap | Look at the acquisition report. If most photos are lost, use the quick mosaic and say why in your memo |
-| Reconstruction says it has **no photos for geometry** | The photogroup is marked Thermal, and iTwin builds geometry from visible photos by default | In the reconstruction's Processing Settings, set **Photos used for geometry** to **Include thermal imagery** <!-- verify label in app --> |
-| Orthophoto is **all one grey**, or blank | Colour correction was on; the Color source does not match the photogroup's band; or QGIS is showing band 4 (transparency) | Clone the reconstruction with **Color correction mode: None**; match the Color source to the band; in QGIS use band 1 |
-| °C are **several degrees off** the check | Colour correction on, the wrong `temperature_scale.json`, or cold first frames left in | Check each of the three; the expression must come from the same run as the photos |
-| Area around the site reads as a **temperature** | No-data pixels are grey 0, which the expression turns into `lo_c` | Add `lo_c` as an additional no-data value (Step 3) |
+| AT calibrates **few photos** | The flight was planned for the visible camera, so the thermal photos overlap far too little (on the 2026-11-19 test, 57 % forward and 23 % side: 13 of 68 photos calibrated); uniform ground with little thermal texture makes it worse | Look at the acquisition report. Use the [Thermal Quick Mosaic](thermal_quick_mosaic.md), which needs no overlap, and say why in your memo. For the next flight, see [Planning a thermal flight that works](thermal_quick_mosaic.md#planning-a-thermal-flight-that-works) |
+| **Photos used for geometry** shows "Exclude thermal imagery" and cannot be changed | Expected: iTwin treats these TIFFs as ordinary photos | Leave it; nothing is excluded |
+| Orthophoto is **all one grey**, or blank | Colour correction was on, or QGIS is showing band 4 (transparency) | Clone the reconstruction with **Color correction mode: None**; in QGIS use band 1 |
+| Orthophoto °C are **several degrees off** the check | **Color correction mode** left at Automatic (blockwise) (about 10 °C in the test), image sharpening on, the wrong `temperature_scale.json`, or cold first frames left in | Clone the reconstruction with **None** and produce again with sharpening **Disabled**; the expression must come from the same run as the photos |
+| Area around the site reads as a **temperature** | No data was left black (grey 0, which the expression turns into `lo_c`), or the Raster Calculator read band 1 under the transparent area | Produce with No data **Transparent**; in QGIS add the value shown there as an additional no-data value (Step 3) |
 
 ---
 
 ## Resources
 
 - **autel-thermal**: the class's Python tool. Its repository, [github.com/gus-p-williams/autel-thermal](https://github.com/gus-p-williams/autel-thermal), is **private for now** and the link will not open; use the SharePoint zip. The zip's `examples/README.md` has the tool's own install notes and troubleshooting.
+- [Thermal Quick Mosaic](thermal_quick_mosaic.md): the route for this semester, and how to plan a thermal flight that works in iTwin.
 - [Bentley Education](https://www.bentley.com/education): free student licences for iTwin Capture Modeler.
 - [Bentley iTwin Capture Modeler](bentley_itwin.md) and [Using QGIS](qgis_measurements.md): the full walkthroughs this page builds on.
 - [Thermal Imaging](../gen_reading/thermal.md): what a thermal camera measures, and when to fly.

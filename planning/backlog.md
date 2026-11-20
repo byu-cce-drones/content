@@ -36,16 +36,27 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
   and disk-space table is a rough guess, not measured. Seven interface labels marked for a TA to
   verify in the app.
 
-- **Thermal Mosaic in iTwin follow-ups** (2026-11-17, `software/thermal_itwin.md`):
-    - **Run the route once end to end** on a class Autel flight (the notebook is tested on synthetic
-      data only): iTwin import, AT, Orthophoto/DSM, production, then the QGIS Raster Calculator. Clear
-      the six `verify label in app` comments (photogroup band, AT colour options, Color correction
-      mode on an Orthophoto/DSM reconstruction, production Color source and No data, Photos used for
-      geometry, Import Positions with `positions_itwin.csv`), and find out what pixel values iTwin
-      writes under transparent no-data. Add our own screenshots of the licensed software where they
-      help; none are on the page yet.
-    - **SharePoint link** to `Software/autel-thermal/autel-thermal.zip`: the page has a visible
-      "link to come: ask a TA" and an HTML `PLACEHOLDER` comment. Instructor to supply.
+- **Thermal pages follow-ups** (2026-11-17, updated 2026-11-19; `software/thermal_itwin.md` and
+  `software/thermal_quick_mosaic.md`):
+    - **Finish the end-to-end run.** Loading, AT and the orthophoto were run on 2026-11-19 (Done
+      below) and four of the six `verify label in app` comments were cleared. Still open: the QGIS
+      Raster Calculator step on a real iTwin orthophoto; what pixel values iTwin writes in band 1
+      under transparent no-data (the page tells students to read the value with Identify Features);
+      the two remaining comments (AT settings colour options; Import Positions with
+      `positions_itwin.csv`); a warmed-up flight planned for the thermal camera, to measure how far
+      iTwin's °C differ from the quick mosaic's.
+    - **Screenshots of our own iTwin runs** for both thermal pages (photogroup with 7.68 mm / 13 mm,
+      Color correction mode, the production's Format/Options and Spatial Reference System pages).
+      Bentley's web terms forbid reusing their images; ours from the licensed software are the route.
+    - **Overlap figure** for the quick-mosaic page: thermal versus visible footprints at 31 m on the
+      same photo spacing (18 × 15 m against 46 × 35 m; 57 %/23 % against 82 %/70 % overlap), drawn in
+      house style by a `fig_tools` script; it would replace or sit beside the table in "The flight
+      was planned for the wrong camera".
+    - **SharePoint link** to `Software/autel-thermal/autel-thermal.zip`: the iTwin page has a visible
+      "link to come: ask a TA" and an HTML `PLACEHOLDER` comment, and the quick-mosaic page points
+      at it. Instructor to supply.
+    - **Autel Explorer mission planner:** whether it offers a thermal-camera choice (HTML comment on
+      the quick-mosaic page's planning section).
     - **Colab section is published but needs review.** Pushed 2026-11-17 at the instructor's
       request before anyone had reviewed it; a read-through and a test run in Colab are still
       owed. It deletes the notebook's "Colab setup" cell (installs from GitHub,
@@ -58,8 +69,11 @@ items below and worked into a sequenced plan in `planning/path_forward.md`. Wher
     - **8-bit vs 16-bit:** the page uses `BITS = 8` (one flight-wide scale, 256 levels, Bentley's
       FAQ says 16-bit input is reduced to 8 bits by a mapping we don't control). Try `BITS = 16` on
       the same flight once and compare against the 8-bit result and an IR thermometer reading.
-    - `gen_reading/thermal.md` never mentions camera warm-up, NUC or FFC; the new page explains
-      stale NUC itself and points at `project_ideas.md`. Worth a short paragraph in the reading.
+    - `gen_reading/thermal.md` never mentions camera warm-up, NUC or FFC, nor that a thermal flight
+      must be planned with the thermal camera's footprint; the thermal pages explain both. Worth a
+      short paragraph in the reading.
+    - The Bentley page's thermal tip (`software/bentley_itwin.md`, Before You Start) still sends
+      Autel groups only to the iTwin route; a pointer to the quick mosaic would match the new advice.
     - Open question for the instructor: should a TA be on hand in a work-day session for installs?
 - **Week 10 follow-ups** (2026-11-03): a TA should run the "Count the lot by computer" script
   (Ultralytics `yolo11n-obb.pt`, DOTA v1 classes) once on the class orthophoto before a group relies
@@ -349,6 +363,34 @@ Figures are named `wNN_figMM_short_name.svg`, numbered as one sequence per topic
 ---
 
 ## Done
+
+- 2026-11-19 — **Thermal Quick Mosaic page, and the iTwin thermal page corrected after a test run.**
+  The iTwin route was run on 2026-11-19 (iTwin Capture Modeler 2024.1.7) on a final-project Autel
+  flight, `100FTASK`, 68 thermal photos at 31 m; evidence in the autel-thermal repository, FINDINGS
+  §12. iTwin refused the notebook's first TIFFs ("Failed to add photo"); fixed in the tool and the
+  SharePoint zip rebuilt the same day. With the new TIFFs iTwin loads every photo, reads the
+  altitude as WGS 84 ellipsoidal itself, fills in 7.68 mm / 13 mm and shows the pose as Complete;
+  AT tied 13 of 68 because the mission was planned for the visible camera (thermal overlap about
+  57 % / 23 % against 82 % / 70 % visible), and the camera was on only 75 s before the first photo.
+  New page `docs/software/thermal_quick_mosaic.md` (from `review/thermal_quick_mosaic_DRAFT.md`):
+  `autel-ortho --mosaic` step by step, its options and outputs, QGIS styling and warm-patch areas,
+  the instructor's offer to make mosaics (reply in the class Teams thread with group number,
+  SharePoint location and roof height), reading the relative map the instructor sends for a
+  flight that was not warmed up, why the test flight failed in iTwin, and a planning table for
+  thermal flights (80 % forward and side overlap with the thermal footprint). The draft's second
+  test flight was dropped: nothing in FINDINGS §12 supports it. `software/thermal_itwin.md`
+  corrected: Key Takeaways and intro now require a flight planned for the thermal camera and
+  recommend the quick mosaic; the route table has a Needs column; "This route is new" became
+  "Tested on 2026-11-19"; Step 2 has the confirmed settings (leave the WGS 84 ellipsoid iTwin
+  reports; photogroup filled in automatically, no band to note; Color correction mode None, default
+  Automatic (blockwise), about 10 °C off; Photos used for geometry left alone; production
+  EPSG:32612 instead of Local East-North-Up, No data Transparent, Image sharpening Disabled, Color
+  source Reference orthophoto; Thermal and Temperature Map greyed out, with Bentley's forum reply);
+  Step 3 uses band 1 and explains the alpha band; troubleshooting gained "Failed to add photo" and
+  lost "Include thermal imagery". Nav: the new page sits before Thermal Mosaic in iTwin under
+  Weeks 10-15 and in Reference. Linked from Example Projects (roof heat loss: quick mosaic first,
+  80 to 90 % overlap planned for the thermal camera), Flight and Data Processing Part 2, and
+  Thermal Imaging (Tools & software).
 
 - 2026-11-17 — **Thermal Mosaic in iTwin page** (`docs/software/thermal_itwin.md`) for final-project
   groups who flew the Autel thermal drone (Flight and Data Processing due Nov 19 / Nov 26): what to
