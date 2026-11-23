@@ -172,6 +172,12 @@ Attendance is recorded for every lecture and lab time. No absences are automatic
 
 Because some flight activities depend on weather and equipment availability, students are expected to be flexible and responsive to schedule adjustments. If a student must miss a lab, they should contact the instructor or TA as early as possible.
 
+### Lab Times
+
+Each student is assigned one lab time (Lab A, B or C) and attends it every week. Switching lab times week to week is not allowed.
+
+To attend a different lab time for **one week**, a student must tell the professor or the head TA **by the end of their own lab one week before**. The professor or head TA will decide whether the student can simply attend the other lab time or needs to find someone in that lab time to trade with for that week.
+
 ---
 
 ## Classroom Procedures
