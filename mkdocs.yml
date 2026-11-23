@@ -35,6 +35,7 @@ nav:
   - Home: index.md
 
   - Start Here:
+      - Schedule — Winter 2027: class_resources/schedule_winter_2027.md
       - Syllabus: class_resources/syllabus.md
       # - Grading Policy: class_resources/grading_policy.md  # reverted 2026-09-04: describes a different course; syllabus is the single source
       - Teaching Assistants:

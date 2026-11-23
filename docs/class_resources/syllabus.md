@@ -121,7 +121,14 @@ The purpose of this policy is to encourage preparation, allow targeted learning,
 
 ## Late Work
 
-Only Homework and Lab Work may be turned in late. Pre-class reading quizzes cannot be made up, reopened, or redone for any reason.
+Any assignment except a pre-class reading quiz may be turned in late. Pre-class reading quizzes cannot be made up, reopened, or redone for any reason.
+
+* Late work loses **10% of the assignment's full points for each week it is late**: 1 to 7 days late is 10% off, 8 to 14 days is 20% off, and so on, up to a maximum of **50%** off.
+* The penalty is taken from the points possible, not from the score earned. On a 20-point assignment turned in one week late, 2 points come off whatever the student earns.
+* **No work is accepted after 11:59 PM on the last day of classes.** Until then, even work due in the first week can still be turned in, for at most 50% off.
+* A late TRUST certificate still loses points, and the student cannot fly until it is turned in.
+
+Due dates and times for the current semester are on the [class schedule](schedule_winter_2027.md).
 
 If an assignment is turned in late, it is the student's responsibility to contact the TA responsible for grading that assignment in order to have the submission rescored. Information about which TA grades each assignment will be posted on the course website.
 
