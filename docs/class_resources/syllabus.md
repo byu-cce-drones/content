@@ -119,6 +119,38 @@ The purpose of this policy is to encourage preparation, allow targeted learning,
 
 ---
 
+## Due Dates
+
+Unless an assignment says otherwise, these rules set when it is due.
+
+| Assignment | Due |
+|---|---|
+| Pre-class reading quiz | **Before the lecture starts**, Tuesday 8:00 AM |
+| Lecture reaction or homework | **One week after the lecture**, Tuesday 11:59 PM |
+| Lab work | **One week after your lab**, 11:59 PM on the same weekday as your lab |
+
+**Example, Week 2:** the Intro to Flying lab is on Tue Jan 12 (Lab A) and Thu Jan 14 (Labs B and C).
+Lab A's work is due **Tue Jan 19 at 11:59 PM**; Labs B and C's work is due **Thu Jan 21 at
+11:59 PM**. The reaction to the Jan 12 lecture is due **Tue Jan 19 at 11:59 PM**.
+
+### Assignments with Their Own Deadlines (Winter 2027)
+
+| Assignment | Due |
+|---|---|
+| [TRUST Certificate](../gen_reading/trust_certificate.md) | **Sat Jan 9, 11:59 PM** |
+| Syllabus quiz | **Wed Jan 13, 11:59 PM** (the university add/drop deadline) |
+| Bentley student account | **Tue Mar 2, 11:59 PM**, one week after the Feb 23 software lecture. **Lab A: create it before your lab at 9:00 AM that morning**, because that lab uses it |
+| Final project partner and flight week | Chosen in the proposal lab (Mar 16 or 18); no separate deadline |
+| [Project proposal](../final_project/proposal.md) | One week after your proposal lab: Lab A **Tue Mar 23**, Labs B and C **Thu Mar 25**, 11:59 PM. Your plan is checked in the lab; this is the formal write-up |
+| [Flight and data processing](../final_project/flight_and_data_processing.md) | One week after your group's flight, 11:59 PM |
+| [Presentation slides](../final_project/presentation.md) | **Before your lab starts** on presentation day: Lab A **Tue Apr 6, 9:00 AM**; Labs B and C **Thu Apr 8, 8:00 AM** |
+| [Final technical memo](../final_project/report.md) | **Wed Apr 14, 11:59 PM** (last day of classes) |
+| Part 107 practice test (your final) | Opens **Thu Mar 11**, closes **Wed Apr 21, 11:59 PM** (last day of finals) |
+
+The week-by-week dates are on the [class schedule](schedule_winter_2027.md).
+
+---
+
 ## Late Work
 
 Any assignment except a pre-class reading quiz may be turned in late. Pre-class reading quizzes cannot be made up, reopened, or redone for any reason.
@@ -127,8 +159,6 @@ Any assignment except a pre-class reading quiz may be turned in late. Pre-class 
 * The penalty is taken from the points possible, not from the score earned. On a 20-point assignment turned in one week late, 2 points come off whatever the student earns.
 * **No work is accepted after 11:59 PM on the last day of classes.** Until then, even work due in the first week can still be turned in, for at most 50% off.
 * A late TRUST certificate still loses points, and the student cannot fly until it is turned in.
-
-Due dates and times for the current semester are on the [class schedule](schedule_winter_2027.md).
 
 If an assignment is turned in late, it is the student's responsibility to contact the TA responsible for grading that assignment in order to have the submission rescored. Information about which TA grades each assignment will be posted on the course website.
 
@@ -167,6 +197,8 @@ Many course activities involve shared equipment and group responsibility. Studen
 Attendance is required for both lectures and labs. Drone work depends on safety training, instructor supervision, equipment coordination, and group participation.
 
 Lecture attendance will be tracked through roll call or another attendance method. Lab attendance will be tracked using a lab sign-in sheet. Lab sign-ins are also important for safety and regulatory tracking.
+
+Attendance is taken **at the start** of every lecture and lab; a student who arrives late misses it. In the two final project flight weeks, only the groups flying that week have lab, and attendance is taken at the start of their flight time. If neither partner shows up, the group reschedules its flight with a TA.
 
 Attendance is recorded for every lecture and lab time. No absences are automatically dropped. Because many course activities involve safety training, group coordination, and hands-on flight work, students are expected to attend consistently. Missing class may affect the attendance portion of the course grade and may make it difficult to complete required lab activities.
 

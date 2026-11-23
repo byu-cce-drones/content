@@ -9,6 +9,7 @@
     - **First class is Thursday, Jan 7, 8:00–9:50 in CTB 250**, with everyone together.
     - Your **TRUST certificate is due Sat Jan 9 at 11:59 PM**. You cannot fly without it.
     - Late work loses 10% per week, up to 50%. Nothing is accepted after **Wed Apr 14, 11:59 PM**.
+      Due dates and rules are in the [syllabus](syllabus.md#due-dates).
 
 ---
 
@@ -63,65 +64,9 @@ Each row links to the reading for the lecture and the page for the lab. Read bef
 | 15 | Apr 13 | Class recap and Part 107 review | **No lab** (Thu Apr 15 is the exam preparation day) |
 | Finals | Apr 16–21 | — | Part 107 practice test (your final) and final report |
 
-!!! warning "Flying depends on the weather"
-    The Week 8 Rock Canyon flight is outdoors in late February. If it is too cold, windy or wet to
-    fly, the Week 9 lab processes images from an earlier class flight instead, and your lab time flies
-    once the weather clears.
-
-!!! note "Final project flights"
-    Each lab time has two flight weeks, Week 12 and Week 13. Half of your lab time's
-    groups (3 of up to 6) fly in Week 12 and the other half in Week 13. Your group picks its partner
-    and its flight week in the Week 11 proposal lab. Meet at EB B122 at the start of your lab time.
-    If your group is not flying that week, you have no lab. If weather cancels a flight, the TAs will
-    arrange another time with your group.
-
----
-
-## Due dates and times
-
-Unless an assignment says otherwise, these rules set when it is due.
-
-| Assignment | Due |
-|---|---|
-| Pre-class reading quiz | **Before the lecture starts**, Tuesday 8:00 AM |
-| Lecture reaction or homework | **One week after the lecture**, Tuesday 11:59 PM |
-| Lab work | **One week after your lab**, 11:59 PM on the same weekday as your lab |
-
-**Example, Week 2:** the Intro to Flying lab is on Tue Jan 12 (Lab A) and Thu Jan 14 (Labs B and C).
-Lab A's work is due **Tue Jan 19 at 11:59 PM**; Labs B and C's work is due **Thu Jan 21 at
-11:59 PM**. The reaction to the Jan 12 lecture is due **Tue Jan 19 at 11:59 PM**.
-
-### Assignments with their own deadlines
-
-| Assignment | Due |
-|---|---|
-| [TRUST Certificate](../gen_reading/trust_certificate.md) | **Sat Jan 9, 11:59 PM** |
-| Syllabus quiz | **Wed Jan 13, 11:59 PM** (the university add/drop deadline) |
-| Bentley student account | **Tue Mar 2, 11:59 PM**, one week after the Feb 23 software lecture. **Lab A: create it before your lab at 9:00 AM that morning**, because that lab uses it |
-| Final project partner and flight week | Chosen in the proposal lab (Mar 16 or 18); no separate deadline |
-| [Project proposal](../final_project/proposal.md) | One week after your proposal lab: Lab A **Tue Mar 23**, Labs B and C **Thu Mar 25**, 11:59 PM. Your plan is checked in the lab; this is the formal write-up |
-| [Flight and data processing](../final_project/flight_and_data_processing.md) | One week after your group's flight, 11:59 PM |
-| [Presentation slides](../final_project/presentation.md) | **Before your lab starts** on presentation day: Lab A **Tue Apr 6, 9:00 AM**; Labs B and C **Thu Apr 8, 8:00 AM** |
-| [Final technical memo](../final_project/report.md) | **Wed Apr 14, 11:59 PM** (last day of classes) |
-| Part 107 practice test (your final) | Opens **Thu Mar 11**, closes **Wed Apr 21, 11:59 PM** (last day of finals) |
-
-### Late work
-
-- Late work loses **10% of the assignment's full points for each week it is late**: 1 to 7 days
-  late is 10% off, 8 to 14 days is 20% off, and so on. The penalty stops at **50%**.
-- The penalty comes off the points possible, not your score. On a 20-point assignment, one week
-  late is 2 points off whatever you earn.
-- **Pre-class reading quizzes cannot be turned in late.**
-- **Nothing is accepted after Wed Apr 14, 11:59 PM**, the last day of classes. Work due in Week 1
-  can still be turned in that last week, for 50% off.
-- A late TRUST certificate still costs points, and you cannot fly until it is in.
-
-### Attendance
-
-- Attendance is taken **at the start** of every lecture and lab. Arrive late and you miss it.
-- In the two project flight weeks, only the groups flying that week have lab, and attendance is
-  taken at the start of their flight time. If neither partner shows up, the group reschedules its
-  flight with a TA.
+Due dates, assignment deadlines, late work and attendance rules are in the syllabus: see
+[Due Dates](syllabus.md#due-dates), [Late Work](syllabus.md#late-work) and
+[Attendance Policy](syllabus.md#attendance-policy).
 
 ---
 
