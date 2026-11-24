@@ -13,7 +13,7 @@ Drafted 2026-11-23 from the BYU 2027 academic calendar and the Fall 2026 course 
 
 Each lab is run three times a week (A, B, C) with the same content; a student attends one section.
 
-**Rooms:** labs in **EB B122**, except Weeks 3 and 4 in **CTB 250** and the Data Processing lab
+**Rooms:** labs in **EB B122**, except Weeks 2 and 3 in **CTB 250** and the Data Processing lab
 (Week 9) in **CB 308**.
 Tuesday lecture and the combined first class (Thu Jan 7, 8:00–9:50) in **CTB 250**.
 
@@ -118,6 +118,6 @@ lectures, including a Thursday intro on Sep 3, and 13 labs).
   flying groups; neither partner shows → reschedule with a TA.
 - 2026-11-23: final project groups of 2 (up to 6 groups per section). Presentations are short:
   about 6 min talk + 2 min questions, so 6 groups fit in 50 minutes.
-- 2026-11-24: Week 3 and Week 4 labs meet in CTB 250 (the lecture hall). Thu Feb 18 (Week 7,
+- 2026-11-24: Week 2 and Week 3 labs (the two Holy Stone labs) meet in CTB 250 (the lecture hall). Thu Feb 18 (Week 7,
   8:00–9:50, EB B122) is a free fly day in place of the cancelled labs: optional, open to all lab
   times.

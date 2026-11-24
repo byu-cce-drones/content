@@ -4,7 +4,7 @@
     - **This schedule is for Winter 2027** (classes Wed Jan 6 – Wed Apr 14, 2027).
     - **Lecture:** Tuesdays 8:00–8:50 in **CTB 250**. Everyone attends.
     - **Lab:** you attend **one** lab time each week, usually in **EB B122**. Exceptions: the
-      Week 3 and Week 4 labs are in **CTB 250** (the lecture hall), and the Week 9 lab is in
+      Week 2 and Week 3 labs are in **CTB 250** (the lecture hall), and the Week 9 lab is in
       **CB 308**. This semester, lab times are **assigned at random**; see
       [Your lab time](#when-and-where-we-meet) to switch.
     - **First class is Thursday, Jan 7, 8:00–9:50 in CTB 250**, with everyone together.
@@ -24,7 +24,7 @@
 | Lab C | Thursday | 9:00–9:50 | EB B122 |
 
 All three lab times do the same lab in the same week. Go to your assigned lab time every week.
-Check the room in the week-by-week table: Weeks 3 and 4 meet in CTB 250 and Week 9 in CB 308.
+Check the room in the week-by-week table: Weeks 2 and 3 meet in CTB 250 and Week 9 in CB 308.
 
 !!! note "Your lab time this semester"
     **For Winter 2027, lab times are assigned at random.** If you need a different lab time for
@@ -51,9 +51,9 @@ Each row links to the reading for the lecture and the page for the lab. Read bef
 | Wk | Dates | Tuesday lecture | Lab (A: Tue, B and C: Thu) |
 |---|---|---|---|
 | 1 | **Thu Jan 7** | **Combined first class, 8:00–9:50, CTB 250:** [Welcome to the Course](../gen_reading/class_overview.md), syllabus, a look at the drones, tour of the lab | No lab. [TRUST Certificate](../gen_reading/trust_certificate.md) due Sat Jan 9 |
-| 2 | Jan 12, 14 | Drone applications: [Aerial Measurement Products](../gen_reading/data_products.md), [Flight Basics](../gen_reading/flight_basics.md) | [Intro to Flying](../labs/0_intro_to_flying.md) — **TRUST certificate required** |
+| 2 | Jan 12, 14 | Drone applications: [Aerial Measurement Products](../gen_reading/data_products.md), [Flight Basics](../gen_reading/flight_basics.md) | [Intro to Flying](../labs/0_intro_to_flying.md) — **in CTB 250**; **TRUST certificate required** |
 | 3 | Jan 19, 21 | Part 107 license: [FAA Part 107 Overview](../part_107_license/faa_exam_planning_and_overview.md) | [Flight Practice](../labs/flight_practice.md) — **in CTB 250** |
-| 4 | Jan 26, 28 | GIS: [Using QGIS](../software/qgis_measurements.md) | [Flight Checklist](../labs/1_flight_checklist.md) — **in CTB 250** |
+| 4 | Jan 26, 28 | GIS: [Using QGIS](../software/qgis_measurements.md) | [Flight Checklist](../labs/1_flight_checklist.md) |
 | 5 | Feb 2, 4 | Measurements: [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md) | [Measurements and Methods](../labs/2_measurements_and_methods.md) |
 | 6 | Feb 9, 11 | Mission planning: [Planning the Flight](../gen_reading/mission_planning_sfm.md) | Rock Canyon, Part 1: [Creating Flight Plans](../labs/3_creating_flight_plans.md) |
 | 7 | Feb 16, 18 | **No lecture** (Tue Feb 16 follows a Monday schedule) | **No regular lab.** Thu Feb 18, 8:00–9:50, EB B122: **free fly day**, optional and open to all lab times |
