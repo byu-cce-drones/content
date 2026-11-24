@@ -3,8 +3,9 @@
 !!! abstract "Key Takeaways"
     - **This schedule is for Winter 2027** (classes Wed Jan 6 – Wed Apr 14, 2027).
     - **Lecture:** Tuesdays 8:00–8:50 in **CTB 250**. Everyone attends.
-    - **Lab:** you attend **one** lab time each week, all in **EB B122** (one exception: the Week 9
-      lab is in **CB 308**). This semester, lab times are **assigned at random**; see
+    - **Lab:** you attend **one** lab time each week, usually in **EB B122**. Exceptions: the
+      Week 3 and Week 4 labs are in **CTB 250** (the lecture hall), and the Week 9 lab is in
+      **CB 308**. This semester, lab times are **assigned at random**; see
       [Your lab time](#when-and-where-we-meet) to switch.
     - **First class is Thursday, Jan 7, 8:00–9:50 in CTB 250**, with everyone together.
     - Your **TRUST certificate is due Sat Jan 9 at 11:59 PM**. You cannot fly without it.
@@ -23,6 +24,7 @@
 | Lab C | Thursday | 9:00–9:50 | EB B122 |
 
 All three lab times do the same lab in the same week. Go to your assigned lab time every week.
+Check the room in the week-by-week table: Weeks 3 and 4 meet in CTB 250 and Week 9 in CB 308.
 
 !!! note "Your lab time this semester"
     **For Winter 2027, lab times are assigned at random.** If you need a different lab time for
@@ -37,7 +39,8 @@ All three lab times do the same lab in the same week. Go to your assigned lab ti
 !!! note "Weeks with no lab"
     When there is no class on the Tuesday **or** the Thursday of a week, **all three lab times
     are cancelled that week**, so every lab time stays on the same lab. That happens in Weeks 1, 7
-    and 15.
+    and 15. In Week 7, Thursday Feb 18, 8:00–9:50 in EB B122 is an optional **free fly day**
+    instead, open to students from every lab time.
 
 ---
 
@@ -49,11 +52,11 @@ Each row links to the reading for the lecture and the page for the lab. Read bef
 |---|---|---|---|
 | 1 | **Thu Jan 7** | **Combined first class, 8:00–9:50, CTB 250:** [Welcome to the Course](../gen_reading/class_overview.md), syllabus, a look at the drones, tour of the lab | No lab. [TRUST Certificate](../gen_reading/trust_certificate.md) due Sat Jan 9 |
 | 2 | Jan 12, 14 | Drone applications: [Aerial Measurement Products](../gen_reading/data_products.md), [Flight Basics](../gen_reading/flight_basics.md) | [Intro to Flying](../labs/0_intro_to_flying.md) — **TRUST certificate required** |
-| 3 | Jan 19, 21 | Part 107 license: [FAA Part 107 Overview](../part_107_license/faa_exam_planning_and_overview.md) | [Flight Practice](../labs/flight_practice.md) |
-| 4 | Jan 26, 28 | GIS: [Using QGIS](../software/qgis_measurements.md) | [Flight Checklist](../labs/1_flight_checklist.md) |
+| 3 | Jan 19, 21 | Part 107 license: [FAA Part 107 Overview](../part_107_license/faa_exam_planning_and_overview.md) | [Flight Practice](../labs/flight_practice.md) — **in CTB 250** |
+| 4 | Jan 26, 28 | GIS: [Using QGIS](../software/qgis_measurements.md) | [Flight Checklist](../labs/1_flight_checklist.md) — **in CTB 250** |
 | 5 | Feb 2, 4 | Measurements: [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md) | [Measurements and Methods](../labs/2_measurements_and_methods.md) |
 | 6 | Feb 9, 11 | Mission planning: [Planning the Flight](../gen_reading/mission_planning_sfm.md) | Rock Canyon, Part 1: [Creating Flight Plans](../labs/3_creating_flight_plans.md) |
-| 7 | Feb 16, 18 | **No lecture** (Tue Feb 16 follows a Monday schedule) | **No lab** |
+| 7 | Feb 16, 18 | **No lecture** (Tue Feb 16 follows a Monday schedule) | **No regular lab.** Thu Feb 18, 8:00–9:50, EB B122: **free fly day**, optional and open to all lab times |
 | 8 | Feb 23, 25 | Aerotriangulation: [How Photos Become 3D](../gen_reading/sfm_workflow.md), [Bentley iTwin](../software/bentley_itwin.md) | Rock Canyon, Part 2: [Flight](../labs/4_rock_canyon_flight.md) (weather permitting) |
 | 9 | Mar 2, 4 | Sensors: [LiDAR](../gen_reading/lidar.md), [Thermal](../gen_reading/thermal.md), [Multispectral](../gen_reading/multispectral.md) | Rock Canyon, Part 3: [Data Processing](../labs/5_data_processing.md) — **in CB 308** |
 | 10 | Mar 9, 11 | Part 107 exam prep: [Knowledge Review](../part_107_license/part_107_knowledge_review.md) | [Part 107 Studying](../labs/6_part_107_studying.md) |
@@ -78,7 +81,8 @@ Due dates, assignment deadlines, late work and attendance rules are in the sylla
 | Sat Jan 9 | TRUST certificate due, 11:59 PM |
 | Wed Jan 13 | Syllabus quiz due, 11:59 PM; university add/drop deadline |
 | Thu Mar 11 | Part 107 practice test opens |
-| Tue Feb 16 | Monday schedule: no lecture, no labs this week |
+| Tue Feb 16 | Monday schedule: no lecture, no regular labs this week |
+| Thu Feb 18 | Free fly day (optional, all lab times), 8:00–9:50, EB B122 |
 | Thu Apr 1 | University withdraw deadline |
 | Wed Apr 14 | Last day of classes; final technical memo due, 11:59 PM; last day to turn in late work |
 | Apr 16–21 | Final exams |

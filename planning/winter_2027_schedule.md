@@ -13,7 +13,8 @@ Drafted 2026-11-23 from the BYU 2027 academic calendar and the Fall 2026 course 
 
 Each lab is run three times a week (A, B, C) with the same content; a student attends one section.
 
-**Rooms:** all labs in **EB B122**, except the Data Processing lab (Week 9) in **CB 308**.
+**Rooms:** labs in **EB B122**, except Weeks 3 and 4 in **CTB 250** and the Data Processing lab
+(Week 9) in **CB 308**.
 Tuesday lecture and the combined first class (Thu Jan 7, 8:00–9:50) in **CTB 250**.
 
 **Enrollment:** up to 36 in lecture, no more than 12 per lab section.
@@ -50,7 +51,7 @@ lectures, including a Thursday intro on Sep 3, and 13 labs).
 | 4 | Jan 26–28 | QGIS | Flight Checklist | QGIS reading |
 | 5 | Feb 2–4 | Measurements | Measurements & Methods | Measurement Fundamentals reading |
 | 6 | Feb 9–11 | Mission planning | Rock Canyon Pt 1: Mission Planning | Mission Planning reading |
-| 7 | Feb 16–18 | **— no lecture (Monday instruction)** | **— cancelled** | Good week for an online reading or Bentley account setup |
+| 7 | Feb 16–18 | **— no lecture (Monday instruction)** | **— no regular lab;** Thu Feb 18, 8:00–9:50: free fly day | Good week for an online reading or Bentley account setup |
 | 8 | Feb 23–25 | Aerotriangulation software | Rock Canyon Pt 2: Flight Mission | Bad weather: process fall data in Wk 9, fly when clear |
 | 9 | Mar 2–4 | Sensors (LiDAR, thermal, multispectral) | Rock Canyon Pt 3: Data Processing (**CB 308**) | Sensors reading |
 | 10 | Mar 9–11 | Part 107 exam prep | Part 107 Test Studying | |
@@ -117,3 +118,6 @@ lectures, including a Thursday intro on Sep 3, and 13 labs).
   flying groups; neither partner shows → reschedule with a TA.
 - 2026-11-23: final project groups of 2 (up to 6 groups per section). Presentations are short:
   about 6 min talk + 2 min questions, so 6 groups fit in 50 minutes.
+- 2026-11-24: Week 3 and Week 4 labs meet in CTB 250 (the lecture hall). Thu Feb 18 (Week 7,
+  8:00–9:50, EB B122) is a free fly day in place of the cancelled labs: optional, open to all lab
+  times.
