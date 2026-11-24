@@ -78,7 +78,10 @@ Ordered so students get the early weeks first; the semester starts Wed Jan 6.
 
 ### Before Jan 6
 
-1. **Syllabus.** Add: the Part 107 quiz in every lecture, expanded flying, the surveying thread,
+1. **Syllabus.** *Done 2026-11-24:* course info, a "How the Course Runs" section (three threads,
+   lecture pattern, winter weather), attendance and lab wording, the checklist link, and the topic
+   list rewritten to the winter weeks; schedule page Weeks 2, 4 and 10 updated to match. No grace
+   day (decision 6 dropped). Originally: add: the Part 107 quiz in every lecture, expanded flying, the surveying thread,
    winter weather and "dress for it", and why missed labs mostly cannot be made up (no flying
    without a TA). Grade breakdown unchanged. Replace "Learning Suite" with Canvas throughout. The
    Week 1–15 topic list at the bottom must match Section 2.
@@ -158,7 +161,8 @@ Ordered so students get the early weeks first; the semester starts Wed Jan 6.
 3. **Week 10 lecture:** keep a second Part 107 lecture, or use it for surveying or another topic?
 4. **Total station:** a demo station in which lab (Week 2 or Week 5), or none?
 5. **Staking:** in the course, and where? After the surveying meeting.
-6. **Grace day for lectures:** none, one or two excused lectures, or half credit back by meeting a TA?
+6. ~~**Grace day for lectures.**~~ Dropped for now (instructor, 2026-11-24). The syllabus keeps
+   "no absences are automatically dropped".
 7. **QGIS pre-class:** required on a personal laptop, or "your laptop or a named lab computer"?
 8. **Week pages and nav:** renumber for winter, or retire them in favor of the schedule page and
    Canvas modules?

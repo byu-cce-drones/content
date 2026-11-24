@@ -8,8 +8,10 @@
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Course                         | CCE 194R — Aerial Measurement                                                                                              |
 | Credits                        | 1 credit                                                                                                                   |
-| Lecture                        | Tuesdays, 9:00–9:50 a.m.                                                                                                   |
-| Lab                            | Thursdays, 8:00–9:50 a.m.                                                                                                  |
+| Semester                       | Winter 2027                                                                                                                |
+| Lecture                        | Tuesdays, 8:00–8:50 a.m., CTB 250                                                                                          |
+| Lab                            | One 50-minute lab time each week: Lab A Tue 9:00, Lab B Thu 8:00, or Lab C Thu 9:00. Rooms are on the [class schedule](schedule_winter_2027.md) |
+| Course Website                 | This site is the source of truth for the schedule, readings, labs and due dates. Quizzes, submissions and grades are in Canvas |
 | Instructor and TA Information  | See the [Course Staff](ta/tas.md) page          |
 | Office Hours                   | See the [Office Hours Schedule](ta/ta_hours.md) |
 | Primary Communication Platform | Microsoft Teams                                                                                                            |
@@ -23,6 +25,28 @@ This 1-credit freshman course introduces students to drone applications in civil
 Students will begin with small indoor drones to build confidence with controls and flight safety before progressing to larger mission-capable drones. The course emphasizes professional field habits, including checklists, careful preparation, safety awareness, teamwork, and responsible data collection.
 
 By the end of the semester, students will understand how drones can be used for engineering documentation, mapping, inspection, measurement, and project communication.
+
+---
+
+## How the Course Runs
+
+Three threads run through every week of the semester.
+
+1. **Lots of flying.** Students fly in nearly every lab, first small indoor drones and then the larger class drones outdoors. Most labs run as two stations: half the lab time flies with TAs while the other half works with the instructor, then the groups swap.
+2. **FAA Part 107, a little every week.** Each pre-class reading includes a short Part 107 topic (airspace, weather reports, sectional charts, regulations). Each lecture opens with a one-question Part 107 quiz on it, which is also the lecture attendance check. By the practice test at the end of the semester, students have seen every exam area several times.
+3. **Surveying.** Each lecture ends with a short surveying topic and a worked problem, and the homework includes a problem like it. These build toward the surveying part of the Fundamentals of Engineering (FE) exam.
+
+A typical lecture:
+
+| Minutes | Activity |
+|---|---|
+| 0–5 | Part 107 question (attendance), then the answer |
+| 5–40 | The week's topic |
+| 40–50 | Surveying note and example problem |
+
+### Winter Weather
+
+Many labs are outdoors in January through March. **Assume you will be outside during lab and dress for it.** If it is only cold, we fly. If snow, wind, or rain makes flying unsafe, the lab moves indoors to the small drones, and any data the lab needs comes from an earlier class flight so the lab work still gets done. Weather changes are posted in the class Teams channel.
 
 ---
 
@@ -196,11 +220,13 @@ Many course activities involve shared equipment and group responsibility. Studen
 
 Attendance is required for both lectures and labs. Drone work depends on safety training, instructor supervision, equipment coordination, and group participation.
 
-Lecture attendance will be tracked through roll call or another attendance method. Lab attendance will be tracked using a lab sign-in sheet. Lab sign-ins are also important for safety and regulatory tracking.
+Lecture attendance is the opening Part 107 question in Canvas, open only during the first minutes of class. Lab attendance will be tracked using a lab sign-in sheet. Lab sign-ins are also important for safety and regulatory tracking.
 
 Attendance is taken **at the start** of every lecture and lab; a student who arrives late misses it. In the two final project flight weeks, only the groups flying that week have lab, and attendance is taken at the start of their flight time. If neither partner shows up, the group reschedules its flight with a TA.
 
 Attendance is recorded for every lecture and lab time. No absences are automatically dropped. Because many course activities involve safety training, group coordination, and hands-on flight work, students are expected to attend consistently. Missing class may affect the attendance portion of the course grade and may make it difficult to complete required lab activities.
+
+**Most flying cannot be made up.** Students may only fly the class drones with a certified TA or instructor present, so a missed flying lab cannot be done alone later. Plan to attend every lab.
 
 Because some flight activities depend on weather and equipment availability, students are expected to be flexible and responsive to schedule adjustments. If a student must miss a lab, they should contact the instructor or TA as early as possible.
 
@@ -216,7 +242,7 @@ To attend a different lab time for **one week**, a student must tell the profess
 
 ### Before Class
 
-Students should complete assigned readings and pre-class quizzes before coming to class. Reading quizzes are usually designed as completion and preparation checks. All quizzes are open book and will allow only one attempt to encourage careful preparation before class.
+Students should complete assigned readings, including the week's short Part 107 topic, and pre-class quizzes before coming to class. Reading quizzes are usually designed as completion and preparation checks. All quizzes are open book and will allow only one attempt to encourage careful preparation before class.
 
 ### During Lecture
 
@@ -226,7 +252,7 @@ Students should bring a laptop or device when needed for mapping, GIS, mission p
 
 ### During Labs
 
-Students must follow all lab safety instructions. Some labs will require students to work in assigned groups or lab sections. Flight labs may use sign-up windows to manage equipment and instructor supervision.
+Students must follow all lab safety instructions. Students work in assigned pairs within their lab time; no one flies alone. Most labs open with a short stand-up from the instructor, then split into two stations that swap halfway: one flies with the TAs, the other works with the instructor. Flight labs may use sign-up windows to manage equipment and instructor supervision.
 
 Students may only operate any drone used in this course, including mini drones, after earning their TRUST certificate. Before each flight, there will be a safety brief. Students must follow all safety instructions and TA or instructor guidance during the lab.
 
@@ -256,7 +282,7 @@ Checklists should include both:
 1. **Equipment lists** — items required for the mission, such as charged batteries, SD cards, controllers, chargers, laptops, and field supplies.
 2. **Procedure lists** — step-by-step actions before, during, and after flight.
 
-Students will also have access to a more detailed course flight checklist that will be used throughout the semester during labs and field activities. (A hyperlink will be added after the Checklist lab)
+Students will also use the [course flight checklists](flight_check_list/index.md) throughout the semester during labs and field activities. A printed copy is kept with every class drone.
 
 ---
 
@@ -294,103 +320,96 @@ The goal of the course is not only to teach students how drones work, but also t
 
 ## Course Topics and Tentative Schedule
 
-The schedule below provides a general overview of course topics and activities. Specific dates, deadlines, locations, and updates will be posted on Learning Suite. The schedule may change due to weather, equipment availability, software access, guest speaker availability, or project needs.
+The list below gives the topics for each week of Winter 2027. Dates, rooms, readings, and lab pages are on the [class schedule](schedule_winter_2027.md); due dates are under [Due Dates](#due-dates). The schedule may change due to weather, equipment availability, software access, guest speaker availability, or project needs. Every lecture also opens with a Part 107 question and closes with a surveying topic (see [How the Course Runs](#how-the-course-runs)).
 
-### Week 1 — Course Introduction
+### Week 1 — Course Introduction (Thursday, combined class)
 
 * Course overview and syllabus
+* FAA Part 107: what it is, and how it runs through the semester
 * TRUST Certificate assignment
-* Introduction to drones in engineering
-* Course website and software overview
-* Attendance and course expectations
+* Tour by lab-time group: the lecture hall (a look at the drones), the drone lab (EB B122), and the computer lab (CB 308)
 
-### Week 2 — Drone Applications and Basic Flight
+### Week 2 — What Is Surveying? Drone Measurement Products
 
-* Surveying and civil engineering drone applications
-* Mini Drone Lab Part 1:
+* How surveying measurements have been made (tapes, chains, total stations, GNSS) and where drones fit
+* Aerial measurement products: orthomosaics and elevation models
+* Mini Drone Lab Part 1 (CTB 250):
 
-  * Basic controls
-  * Flight maneuvers
   * Safety procedures
-  * Checklist introduction
+  * Basic controls and flight drills
+  * Troubleshooting
 
 ### Week 3 — FAA Rules and Flight Practice
 
-* Introduction to FAA Part 107
-* Drone safety and regulations
-* Mini Drone Lab Part 2:
+* FAA Part 107 regulations: who needs a certificate, where and how high you can fly, flying over people
+* Mini Drone Lab Part 2 (CTB 250):
 
-  * Obstacle courses
-  * Team flight activities
-  * Flight challenges and races
+  * Open flying and obstacle courses
+  * More time on the controls
 
-### Week 4 — GIS and Pre-Flight Procedures
+### Week 4 — GIS, Coordinate Systems, and Pre-Flight Procedures
 
-* QGIS and GIS fundamentals
-* Pre-flight checklist lab
-* Larger drone setup and equipment handling
-* Batteries, controllers, and calibration procedures
+* QGIS: install before class, then set coordinate systems and start measuring in lecture
+* Coordinate systems: latitude and longitude, UTM, state plane
+* Flight checklist lab with the class drones:
+
+  * Setup, batteries, controllers, and calibration
+  * Pre-flight and post-flight checklists
+  * First flights: takeoff, climb, a manual photo, landing
 
 ### Week 5 — Measurements and Field Practice
 
-* Accuracy vs. precision
+* Accuracy, precision, and error
 * Measurement methods and applications
-* Google Earth and pacing exercises
-* Measurement lab and first larger-drone flights
+* Measurement lab: pacing, manual photos, and more flying
 
 ### Week 6 — Mission Planning
 
-* Principles of drone mission planning
-* Flight parameters and coverage
-* Rock Canyon mission-planning lab
+* Mission planning: ground sample distance, overlap, flight pattern
+* Rock Canyon, Part 1: creating flight plans in the class planner
 
-### Week 7 — Photogrammetry and Flight Operations
+### Week 7 — No Lecture (Monday Schedule)
 
-* Bentley / WebODM processing lecture
-* Photogrammetry concepts and workflows
-* Rock Canyon mission flight day
+* Thursday: optional free fly day, open to all lab times
 
-### Week 8 — Advanced Sensors and Data Processing
+### Week 8 — Photogrammetry and Flight Operations
 
-* LiDAR, radar, thermal, and multispectral sensors
-* Agricultural and methane applications
-* Rock Canyon data-processing lab
+* How photos become 3D (aerotriangulation) and why a model fails
+* Bentley iTwin overview
+* Rock Canyon, Part 2: mission flight
 
-### Week 9 — Part 107 Exam Preparation
+### Week 9 — Advanced Sensors and Data Processing
 
-* FAA Part 107 exam preparation
-* Aeronautics overview
-* Sectional charts, weather reports, and NOTAMs
-* Part 107 practice lab and exam opening
+* LiDAR, thermal, and multispectral sensors
+* Rock Canyon, Part 3: data-processing lab (CB 308)
 
-### Week 10 — Final Project Planning
+### Week 10 — Part 107 Exam Preparation
+
+* FAA Part 107 exam review
+* Part 107 practice test opens
+* Flying lab
+
+### Week 11 — Final Project Planning
 
 * Final project introduction
-* Group formation and planning
-* Mission planning and proposal development
+* Group formation and proposal lab
 
-### Week 11 — Guest Lecture and Project Flights
+### Week 12 — Project Flights
 
-* Guest lecture on professional drone applications
-* Final project flight operations
+* Guest lecture or project questions
+* Final project flights, first half of the groups
 
-### Week 12 — Surveying and Project Flights
+### Week 13 — FE Surveying Review and Project Flights
 
 * FE-style surveying review
-* Basic trigonometry and measurement concepts
-* Final project flight operations
+* Final project flights, second half of the groups
 
-### Week 13 — Project Work
+### Week 14 — Final Presentations
 
-* Project work day
-* TA support and troubleshooting
+* Project work and questions
+* Final project presentations in each lab time
 
-### Week 14 — Course Review and Project Support
+### Week 15 — Course Review
 
-* Course recap and review
-* Additional project work time
-
-### Week 15 — Final Presentations
-
-* Final project presentations
-* Project demonstrations and discussion
+* Course recap and Part 107 review
+* No lab
