@@ -87,7 +87,14 @@ Ordered so students get the early weeks first; the semester starts Wed Jan 6.
    Week 1–15 topic list at the bottom must match Section 2.
 2. **Week 1 and Week 2.** A new Week 2 lecture reading, "What is surveying?", or a rewrite of
    `data_products.md`'s opening. Move the controls content of `flight_basics.md` into the Week 2 lab.
-3. **Part 107 weekly snippets.** One short page or section per week (about 5 minutes of reading,
+3. *Done 2026-11-24:* `docs/part_107_license/weekly/`, an index and ten pages (Weeks 2, 4, 5, 6,
+   8, 9, 11, 12, 13, 14), each with Key Takeaways, figures from the existing set, three practice
+   questions with collapsible answers, and a link back to the Week 3 reading; in the nav as
+   "Part 107 Every Week" and linked from each lecture on the schedule page. Weeks 3 and 10 are the
+   two full Part 107 lectures; Week 15 points at Common Traps. **Still to do:** the Canvas
+   attendance questions. The practice answers are public, so write the attendance question bank
+   separately (one or two per week, on the same topic, not copied from the page). Originally:
+   **Part 107 weekly snippets.** One short page or section per week (about 5 minutes of reading,
    one figure from the FAA supplement where it fits), each with 2–3 quiz questions. Most of the text
    already exists in `part_107_license/` and the Week 3 and Week 9 decks; this is cutting it into
    weekly pieces. A new folder, `docs/part_107_license/weekly/`, keeps them together.

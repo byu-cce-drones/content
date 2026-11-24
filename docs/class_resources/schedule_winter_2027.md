@@ -46,24 +46,24 @@ Check the room in the week-by-week table: Weeks 2 and 3 meet in CTB 250 and Week
 
 ## Week by week
 
-Each row links to the reading for the lecture and the page for the lab. Read before you come.
+Each row links to the reading for the lecture, the week's short [Part 107 topic](../part_107_license/weekly/index.md) (the lecture opens with a question on it), and the page for the lab. Read before you come.
 
 | Wk | Dates | Tuesday lecture | Lab (A: Tue, B and C: Thu) |
 |---|---|---|---|
 | 1 | **Thu Jan 7** | **Combined first class, 8:00–9:50, CTB 250:** [Welcome to the Course](../gen_reading/class_overview.md), syllabus, a look at the drones, tour of the lab | No lab. [TRUST Certificate](../gen_reading/trust_certificate.md) due Sat Jan 9 |
-| 2 | Jan 12, 14 | What is surveying? Drone measurement products: [Aerial Measurement Products](../gen_reading/data_products.md), [Flight Basics](../gen_reading/flight_basics.md) | [Intro to Flying](../labs/0_intro_to_flying.md) — **in CTB 250**; **TRUST certificate required** |
+| 2 | Jan 12, 14 | What is surveying? Drone measurement products: [Aerial Measurement Products](../gen_reading/data_products.md), [Flight Basics](../gen_reading/flight_basics.md). Part 107: [Which Rules Apply](../part_107_license/weekly/week_02_which_rules.md) | [Intro to Flying](../labs/0_intro_to_flying.md) — **in CTB 250**; **TRUST certificate required** |
 | 3 | Jan 19, 21 | Part 107 license: [FAA Part 107 Overview](../part_107_license/faa_exam_planning_and_overview.md) | [Flight Practice](../labs/flight_practice.md) — **in CTB 250** |
-| 4 | Jan 26, 28 | GIS and coordinate systems: [Using QGIS](../software/qgis_measurements.md) (install QGIS before class) | [Flight Checklist](../labs/1_flight_checklist.md) |
-| 5 | Feb 2, 4 | Measurements: [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md) | [Measurements and Methods](../labs/2_measurements_and_methods.md) |
-| 6 | Feb 9, 11 | Mission planning: [Planning the Flight](../gen_reading/mission_planning_sfm.md) | Rock Canyon, Part 1: [Creating Flight Plans](../labs/3_creating_flight_plans.md) |
+| 4 | Jan 26, 28 | GIS and coordinate systems: [Using QGIS](../software/qgis_measurements.md) (install QGIS before class). Part 107: [Sectional Charts](../part_107_license/weekly/week_04_sectional_charts.md) | [Flight Checklist](../labs/1_flight_checklist.md) |
+| 5 | Feb 2, 4 | Measurements: [Measurement Fundamentals](../gen_reading/measurement_fundamentals.md). Part 107: [Airspace](../part_107_license/weekly/week_05_airspace.md) | [Measurements and Methods](../labs/2_measurements_and_methods.md) |
+| 6 | Feb 9, 11 | Mission planning: [Planning the Flight](../gen_reading/mission_planning_sfm.md). Part 107: [Operating Limits](../part_107_license/weekly/week_06_operating_limits.md) | Rock Canyon, Part 1: [Creating Flight Plans](../labs/3_creating_flight_plans.md) |
 | 7 | Feb 16, 18 | **No lecture** (Tue Feb 16 follows a Monday schedule) | **No regular lab.** Thu Feb 18, 8:00–9:50, EB B122: **free fly day**, optional and open to all lab times |
-| 8 | Feb 23, 25 | Aerotriangulation: [How Photos Become 3D](../gen_reading/sfm_workflow.md), [Bentley iTwin](../software/bentley_itwin.md) | Rock Canyon, Part 2: [Flight](../labs/4_rock_canyon_flight.md) (weather permitting) |
-| 9 | Mar 2, 4 | Sensors: [LiDAR](../gen_reading/lidar.md), [Thermal](../gen_reading/thermal.md), [Multispectral](../gen_reading/multispectral.md) | Rock Canyon, Part 3: [Data Processing](../labs/5_data_processing.md) — **in CB 308** |
+| 8 | Feb 23, 25 | Aerotriangulation: [How Photos Become 3D](../gen_reading/sfm_workflow.md), [Bentley iTwin](../software/bentley_itwin.md). Part 107: [METAR](../part_107_license/weekly/week_08_metar.md) | Rock Canyon, Part 2: [Flight](../labs/4_rock_canyon_flight.md) (weather permitting) |
+| 9 | Mar 2, 4 | Sensors: [LiDAR](../gen_reading/lidar.md), [Thermal](../gen_reading/thermal.md), [Multispectral](../gen_reading/multispectral.md). Part 107: [Weather and Performance](../part_107_license/weekly/week_09_weather_performance.md) | Rock Canyon, Part 3: [Data Processing](../labs/5_data_processing.md) — **in CB 308** |
 | 10 | Mar 9, 11 | Part 107 exam prep: [Knowledge Review](../part_107_license/part_107_knowledge_review.md) | Flying lab, and the weather make-up for any earlier lab. Study page: [Part 107 Studying](../labs/6_part_107_studying.md) |
-| 11 | Mar 16, 18 | [Final Project Introduction](../final_project/overview.md) — form groups of 2 | [Project Proposals](../final_project/proposal.md) |
-| 12 | Mar 23, 25 | Guest speaker or project Q&A | [Final project flights](../final_project/flight_and_data_processing.md), **first half** of the groups in each lab time. Other groups: no lab |
-| 13 | Mar 30, Apr 1 | FE prep: [Surveying Review](../gen_reading/fe_surveying_review.md) | [Final project flights](../final_project/flight_and_data_processing.md), **second half** of the groups. Other groups: no lab |
-| 14 | Apr 6, 8 | Project work and Q&A | [Final presentations](../final_project/presentation.md) at your lab time |
+| 11 | Mar 16, 18 | [Final Project Introduction](../final_project/overview.md) — form groups of 2. Part 107: [Airports and TFRs](../part_107_license/weekly/week_11_airports_tfrs.md) | [Project Proposals](../final_project/proposal.md) |
+| 12 | Mar 23, 25 | Guest speaker or project Q&A. Part 107: [Flying Over People](../part_107_license/weekly/week_12_over_people.md) | [Final project flights](../final_project/flight_and_data_processing.md), **first half** of the groups in each lab time. Other groups: no lab |
+| 13 | Mar 30, Apr 1 | FE prep: [Surveying Review](../gen_reading/fe_surveying_review.md). Part 107: [Decision-Making](../part_107_license/weekly/week_13_decision_making.md) | [Final project flights](../final_project/flight_and_data_processing.md), **second half** of the groups. Other groups: no lab |
+| 14 | Apr 6, 8 | Project work and Q&A. Part 107: [Emergencies and Remote ID](../part_107_license/weekly/week_14_responsibilities.md) | [Final presentations](../final_project/presentation.md) at your lab time |
 | 15 | Apr 13 | Class recap and Part 107 review | **No lab** (Thu Apr 15 is the exam preparation day) |
 | Finals | Apr 16–21 | — | Part 107 practice test (your final) and final report |
 

@@ -44,6 +44,19 @@ nav:
 
   - Slides: class_resources/lecture_slides.md
 
+  - Part 107 Every Week:
+      - Overview: part_107_license/weekly/index.md
+      - Week 2 — Which Rules Apply: part_107_license/weekly/week_02_which_rules.md
+      - Week 4 — Sectional Charts: part_107_license/weekly/week_04_sectional_charts.md
+      - Week 5 — Airspace and Authorization: part_107_license/weekly/week_05_airspace.md
+      - Week 6 — Operating Limits: part_107_license/weekly/week_06_operating_limits.md
+      - Week 8 — Reading a METAR: part_107_license/weekly/week_08_metar.md
+      - Week 9 — Weather and Performance: part_107_license/weekly/week_09_weather_performance.md
+      - Week 11 — Airports and TFRs: part_107_license/weekly/week_11_airports_tfrs.md
+      - Week 12 — Flying Over People: part_107_license/weekly/week_12_over_people.md
+      - Week 13 — Decision-Making: part_107_license/weekly/week_13_decision_making.md
+      - Week 14 — Emergencies and Remote ID: part_107_license/weekly/week_14_responsibilities.md
+
   - Week 1 — Course Introduction:
       - This Week: weeks/week_01.md
       - Welcome to the Course: gen_reading/class_overview.md
